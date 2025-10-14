@@ -1,0 +1,100 @@
+version: '3.8'
+
+services:
+  # Frontend service
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8000/api/v1
+      - REACT_APP_WS_URL=ws://localhost:8000
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    networks:
+      - lmms-eval-network
+
+  # Backend service
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_KEY=${SUPABASE_KEY}
+      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+      - SECRET_KEY=${SECRET_KEY}
+      - REDIS_URL=redis://redis:6379
+      - LMMS_EVAL_PATH=/lmms-eval
+      - HF_HOME=${HF_HOME:-/root/.cache/huggingface}
+      - HF_TOKEN=${HF_TOKEN}
+      - DEBUG=false
+      - RELOAD=false
+    volumes:
+      - ./backend:/app
+      - ./logs:/app/logs
+      - ./uploads:/app/uploads
+      - /lmms-eval:/lmms-eval:ro
+    depends_on:
+      - redis
+    networks:
+      - lmms-eval-network
+
+  # Redis service for caching and background tasks
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - lmms-eval-network
+
+  # LMMS-Eval runner service
+  lmms-eval-runner:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.runner
+    environment:
+      - CUDA_VISIBLE_DEVICES=0,1,2,3
+      - PYTHONPATH=/app
+      - LMMS_EVAL_PATH=/lmms-eval
+      - HF_HOME=${HF_HOME:-/root/.cache/huggingface}
+      - HF_TOKEN=${HF_TOKEN}
+    volumes:
+      - ./data:/data
+      - ./artifacts:/artifacts
+      - ./logs:/app/logs
+      - /lmms-eval:/lmms-eval:ro
+    networks:
+      - lmms-eval-network
+    command: tail -f /dev/null  # Keep running for spawned processes
+
+  # Nginx reverse proxy (optional)
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./ssl:/etc/nginx/ssl
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - lmms-eval-network
+
+volumes:
+  redis_data:
+
+networks:
+  lmms-eval-network:
+    driver: bridge

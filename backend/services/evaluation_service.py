@@ -10,8 +10,7 @@ import uuid
 import json
 
 from runners.lmms_eval_runner import LMMSEvalRunner
-from services.database_service import db_service
-from models import Run, Result, RunStatus
+from services.supabase_service import supabase_service
 
 logger = structlog.get_logger(__name__)
 
@@ -39,13 +38,13 @@ class EvaluationService:
                 "name": run_name or f"Evaluation {run_id[:8]}",
                 "model_id": model_id,
                 "benchmark_id": benchmark_ids[0] if len(benchmark_ids) == 1 else None,
-                "status": RunStatus.PENDING.value,
+                "status": "pending",
                 "config": config,
                 "started_at": datetime.now().isoformat()
             }
             
             # Save to database
-            run = db_service.create_run(run_data)
+            run = supabase_service.create_run(run_data)
             logger.info("Evaluation run created", run_id=run_id)
             
             # Start evaluation task
@@ -70,7 +69,7 @@ class EvaluationService:
         """Run the actual evaluation."""
         try:
             # Update status to running
-            db_service.update_run_status(run_id, RunStatus.RUNNING.value)
+            supabase_service.update_run_status(run_id, "running")
             logger.info("Starting evaluation", run_id=run_id, model_id=model_id)
             
             # Initialize lmms-eval runner
@@ -92,9 +91,9 @@ class EvaluationService:
             await self._save_results(run_id, results, duration)
             
             # Update run status
-            db_service.update_run_status(
+            supabase_service.update_run_status(
                 run_id,
-                RunStatus.COMPLETED.value,
+                "completed",
                 completed_at=end_time.isoformat(),
                 duration_seconds=str(duration),
                 results=results
@@ -104,9 +103,9 @@ class EvaluationService:
             
         except Exception as e:
             logger.error("Evaluation failed", run_id=run_id, error=str(e))
-            db_service.update_run_status(
+            supabase_service.update_run_status(
                 run_id,
-                RunStatus.FAILED.value,
+                "failed",
                 error_message=str(e)
             )
         finally:
@@ -164,7 +163,7 @@ class EvaluationService:
                             "timestamp": datetime.now().isoformat()
                         }
                     }
-                    db_service.create_result(result_data)
+                    supabase_service.create_result(result_data)
             
             logger.info("Results saved successfully", run_id=run_id)
             
@@ -175,7 +174,7 @@ class EvaluationService:
     async def get_run_status(self, run_id: str) -> Optional[Dict[str, Any]]:
         """Get run status."""
         try:
-            run = db_service.get_run_by_id(run_id)
+            run = supabase_service.get_run_by_id(run_id)
             if not run:
                 return None
             
@@ -198,13 +197,13 @@ class EvaluationService:
             logger.error("Failed to get run status", run_id=run_id, error=str(e))
             return None
     
-    def _calculate_progress(self, run: Run) -> int:
+    def _calculate_progress(self, run: Dict[str, Any]) -> int:
         """Calculate run progress percentage."""
-        if run.status == RunStatus.COMPLETED.value:
+        if run.get("status") == "completed":
             return 100
-        elif run.status == RunStatus.FAILED.value:
+        elif run.get("status") == "failed":
             return 0
-        elif run.status == RunStatus.RUNNING.value:
+        elif run.get("status") == "running":
             # This would be calculated based on actual progress
             return 50  # Placeholder
         else:
@@ -219,7 +218,7 @@ class EvaluationService:
                 del self.active_runs[run_id]
                 
                 # Update database
-                db_service.update_run_status(run_id, RunStatus.CANCELLED.value)
+                supabase_service.update_run_status(run_id, "cancelled")
                 
                 logger.info("Run cancelled", run_id=run_id)
                 return True
@@ -237,23 +236,23 @@ class EvaluationService:
     async def get_run_results(self, run_id: str) -> Optional[Dict[str, Any]]:
         """Get detailed results for a run."""
         try:
-            run = db_service.get_run_by_id(run_id)
+            run = supabase_service.get_run_by_id(run_id)
             if not run:
                 return None
             
             # Get individual results
-            results = db_service.get_results_by_run_id(run_id)
+            results = supabase_service.get_results_by_run_id(run_id)
             
             return {
                 "run_id": run_id,
-                "status": run.status,
-                "results": run.results,
-                "individual_results": [result.to_dict() for result in results],
-                "logs": run.logs,
-                "error_message": run.error_message,
-                "started_at": run.started_at,
-                "completed_at": run.completed_at,
-                "duration_seconds": run.duration_seconds
+                "status": run.get("status"),
+                "results": run.get("results"),
+                "individual_results": results,
+                "logs": run.get("logs"),
+                "error_message": run.get("error_message"),
+                "started_at": run.get("started_at"),
+                "completed_at": run.get("completed_at"),
+                "duration_seconds": run.get("duration_seconds")
             }
             
         except Exception as e:

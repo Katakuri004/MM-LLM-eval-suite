@@ -2,15 +2,13 @@
 Complete API endpoints for the LMMS-Eval Dashboard.
 """
 
-from fastapi import APIRouter, HTTPException, Depends, BackgroundTasks
-from fastapi.responses import JSONResponse
+from fastapi import APIRouter, HTTPException, Request
 from typing import List, Dict, Any, Optional
 from pydantic import BaseModel
 import structlog
 
-from services.database_service import db_service
+from services.supabase_service import supabase_service
 from services.evaluation_service import evaluation_service
-from models import Model, Benchmark, Run, Result
 
 logger = structlog.get_logger(__name__)
 
@@ -56,14 +54,21 @@ async def health_check():
 
 # Model endpoints
 @router.get("/models")
-async def get_models(skip: int = 0, limit: int = 100):
+async def get_models(request: Request, skip: int = 0, limit: int = 100):
     """Get all models."""
     try:
-        models = db_service.get_models(skip=skip, limit=limit)
+        # Check if database is available
+        db_available = getattr(request.app.state, 'database_available', False)
+        if not db_available:
+            raise HTTPException(status_code=503, detail="Database not available. Use /models/fallback for sample data.")
+        
+        models = supabase_service.get_models(skip=skip, limit=limit)
         return {
-            "models": [model.to_dict() for model in models],
+            "models": models,
             "total": len(models)
         }
+    except HTTPException:
+        raise
     except Exception as e:
         logger.error("Failed to get models", error=str(e))
         raise HTTPException(status_code=500, detail="Failed to get models")
@@ -72,10 +77,10 @@ async def get_models(skip: int = 0, limit: int = 100):
 async def get_model(model_id: str):
     """Get model by ID."""
     try:
-        model = db_service.get_model_by_id(model_id)
+        model = supabase_service.get_model_by_id(model_id)
         if not model:
             raise HTTPException(status_code=404, detail="Model not found")
-        return model.to_dict()
+        return model
     except HTTPException:
         raise
     except Exception as e:
@@ -83,25 +88,39 @@ async def get_model(model_id: str):
         raise HTTPException(status_code=500, detail="Failed to get model")
 
 @router.post("/models")
-async def create_model(model_data: ModelCreate):
+async def create_model(request: Request, model_data: ModelCreate):
     """Create a new model."""
     try:
-        model = db_service.create_model(model_data.dict())
-        return model.to_dict()
+        # Check if database is available
+        db_available = getattr(request.app.state, 'database_available', False)
+        if not db_available:
+            raise HTTPException(status_code=503, detail="Database not available. Cannot create models in limited mode.")
+        
+        model = supabase_service.create_model(model_data.dict())
+        return model
+    except HTTPException:
+        raise
     except Exception as e:
         logger.error("Failed to create model", error=str(e))
         raise HTTPException(status_code=500, detail="Failed to create model")
 
 # Benchmark endpoints
 @router.get("/benchmarks")
-async def get_benchmarks(skip: int = 0, limit: int = 100):
+async def get_benchmarks(request: Request, skip: int = 0, limit: int = 100):
     """Get all benchmarks."""
     try:
-        benchmarks = db_service.get_benchmarks(skip=skip, limit=limit)
+        # Check if database is available
+        db_available = getattr(request.app.state, 'database_available', False)
+        if not db_available:
+            raise HTTPException(status_code=503, detail="Database not available. Use /benchmarks/fallback for sample data.")
+        
+        benchmarks = supabase_service.get_benchmarks(skip=skip, limit=limit)
         return {
-            "benchmarks": [benchmark.to_dict() for benchmark in benchmarks],
+            "benchmarks": benchmarks,
             "total": len(benchmarks)
         }
+    except HTTPException:
+        raise
     except Exception as e:
         logger.error("Failed to get benchmarks", error=str(e))
         raise HTTPException(status_code=500, detail="Failed to get benchmarks")
@@ -110,10 +129,10 @@ async def get_benchmarks(skip: int = 0, limit: int = 100):
 async def get_benchmark(benchmark_id: str):
     """Get benchmark by ID."""
     try:
-        benchmark = db_service.get_benchmark_by_id(benchmark_id)
+        benchmark = supabase_service.get_benchmark_by_id(benchmark_id)
         if not benchmark:
             raise HTTPException(status_code=404, detail="Benchmark not found")
-        return benchmark.to_dict()
+        return benchmark
     except HTTPException:
         raise
     except Exception as e:
@@ -233,13 +252,18 @@ async def get_active_evaluations():
 
 # Statistics endpoints
 @router.get("/stats/overview")
-async def get_overview_stats():
+async def get_overview_stats(request: Request):
     """Get overview statistics."""
     try:
+        # Check if database is available
+        db_available = getattr(request.app.state, 'database_available', False)
+        if not db_available:
+            raise HTTPException(status_code=503, detail="Database not available. Use /stats/fallback for sample data.")
+        
         # Get basic counts
-        models = db_service.get_models(limit=1000)
-        benchmarks = db_service.get_benchmarks(limit=1000)
-        runs = db_service.get_runs(limit=1000)
+        models = supabase_service.get_models(limit=1000)
+        benchmarks = supabase_service.get_benchmarks(limit=1000)
+        runs = supabase_service.get_runs(limit=1000)
         
         # Calculate stats
         total_models = len(models)
@@ -249,7 +273,7 @@ async def get_overview_stats():
         # Count by status
         status_counts = {}
         for run in runs:
-            status = run.status
+            status = run.get('status', 'unknown')
             status_counts[status] = status_counts.get(status, 0) + 1
         
         return {
@@ -262,3 +286,88 @@ async def get_overview_stats():
     except Exception as e:
         logger.error("Failed to get overview stats", error=str(e))
         raise HTTPException(status_code=500, detail="Failed to get overview statistics")
+
+# Fallback endpoints for when database is not available
+@router.get("/models/fallback")
+async def get_models_fallback():
+    """Get sample models when database is not available."""
+    try:
+        return {
+            "models": [
+                {
+                    "id": "llava-sample",
+                    "name": "llava",
+                    "family": "LLaVA",
+                    "source": "huggingface",
+                    "dtype": "float16",
+                    "num_parameters": 7000000000,
+                    "notes": "LLaVA-1.5-7B model (sample data)",
+                    "metadata": {"version": "1.5", "size": "7B"},
+                    "created_at": "2024-01-01T00:00:00Z",
+                    "updated_at": "2024-01-01T00:00:00Z"
+                },
+                {
+                    "id": "qwen2-vl-sample",
+                    "name": "qwen2-vl",
+                    "family": "Qwen2-VL",
+                    "source": "huggingface",
+                    "dtype": "float16",
+                    "num_parameters": 14000000000,
+                    "notes": "Qwen2-VL-14B model (sample data)",
+                    "metadata": {"version": "2.0", "size": "14B"},
+                    "created_at": "2024-01-01T00:00:00Z",
+                    "updated_at": "2024-01-01T00:00:00Z"
+                }
+            ],
+            "total": 2
+        }
+    except Exception as e:
+        logger.error("Failed to get fallback models", error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to get fallback models")
+
+@router.get("/benchmarks/fallback")
+async def get_benchmarks_fallback():
+    """Get sample benchmarks when database is not available."""
+    return {
+        "benchmarks": [
+            {
+                "id": "mme-sample",
+                "name": "mme",
+                "modality": "vision-language",
+                "category": "comprehensive",
+                "task_type": "multimodal",
+                "primary_metrics": ["accuracy", "f1_score"],
+                "secondary_metrics": ["bleu_score", "rouge_score"],
+                "num_samples": 1000,
+                "description": "Multimodal Evaluation benchmark (sample data)",
+                "created_at": "2024-01-01T00:00:00Z",
+                "updated_at": "2024-01-01T00:00:00Z"
+            },
+            {
+                "id": "vqa-sample",
+                "name": "vqa",
+                "modality": "vision-language",
+                "category": "question_answering",
+                "task_type": "visual_qa",
+                "primary_metrics": ["accuracy"],
+                "secondary_metrics": ["exact_match"],
+                "num_samples": 500,
+                "description": "Visual Question Answering benchmark (sample data)",
+                "created_at": "2024-01-01T00:00:00Z",
+                "updated_at": "2024-01-01T00:00:00Z"
+            }
+        ],
+        "total": 2
+    }
+
+@router.get("/stats/fallback")
+async def get_stats_fallback():
+    """Get sample stats when database is not available."""
+    return {
+        "total_models": 2,
+        "total_benchmarks": 2,
+        "total_runs": 0,
+        "status_counts": {},
+        "recent_runs": [],
+        "mode": "fallback"
+    }

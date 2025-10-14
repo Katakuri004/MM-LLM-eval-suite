@@ -18,7 +18,7 @@ import uvicorn
 import structlog
 
 from config import get_settings
-from services.database_service import db_service
+from services.supabase_service import supabase_service
 from api.complete_api import router as api_router
 
 # Configure structured logging
@@ -31,24 +31,33 @@ async def lifespan(app: FastAPI):
     logger.info("Starting LMMS-Eval Dashboard Backend")
     
     try:
-        # Initialize database
-        logger.info("Initializing database...")
-        db_service.create_tables()
-        
-        # Check database health
-        if not db_service.health_check():
-            raise RuntimeError("Database health check failed")
-        
-        logger.info("Database initialized successfully")
-        
-        # Add some sample data if database is empty
-        await _populate_sample_data()
+        # Initialize Supabase
+        logger.info("Initializing Supabase...")
+        try:
+            # Check Supabase health
+            if not supabase_service.is_available():
+                logger.warning("Supabase not available, running in limited mode")
+                app.state.database_available = False
+            elif not supabase_service.health_check():
+                logger.warning("Supabase health check failed, running in limited mode")
+                app.state.database_available = False
+            else:
+                logger.info("Supabase initialized successfully")
+                app.state.database_available = True
+                
+                # Add some sample data if database is empty
+                await _populate_sample_data()
+                
+        except Exception as db_error:
+            logger.warning("Supabase initialization failed, running in limited mode", error=str(db_error))
+            app.state.database_available = False
         
         logger.info("LMMS-Eval Dashboard Backend started successfully")
         
     except Exception as e:
         logger.error("Failed to start backend", error=str(e))
-        raise
+        # Don't raise - allow the app to start in limited mode
+        app.state.database_available = False
     
     yield
     
@@ -59,7 +68,7 @@ async def _populate_sample_data():
     """Populate database with sample data if empty."""
     try:
         # Check if we have any models
-        models = db_service.get_models(limit=1)
+        models = supabase_service.get_models(limit=1)
         if not models:
             logger.info("Populating database with sample data...")
             
@@ -95,7 +104,7 @@ async def _populate_sample_data():
             ]
             
             for model_data in sample_models:
-                db_service.create_model(model_data)
+                supabase_service.create_model(model_data)
             
             # Add sample benchmarks
             sample_benchmarks = [
@@ -132,7 +141,7 @@ async def _populate_sample_data():
             ]
             
             for benchmark_data in sample_benchmarks:
-                db_service.create_benchmark(benchmark_data)
+                supabase_service.create_benchmark(benchmark_data)
             
             logger.info("Sample data populated successfully")
         
@@ -177,19 +186,26 @@ async def root():
 async def health_check():
     """Health check endpoint."""
     try:
-        # Check database health
-        db_healthy = db_service.health_check()
+        # Check if database is available
+        db_available = getattr(app.state, 'database_available', False)
+        
+        if db_available:
+            db_healthy = supabase_service.health_check()
+        else:
+            db_healthy = False
         
         return {
-            "status": "healthy" if db_healthy else "unhealthy",
+            "status": "healthy",
             "service": "LMMS-Eval Dashboard API",
             "version": "1.0.0",
             "database": "connected" if db_healthy else "disconnected",
+            "mode": "full" if db_available else "limited",
             "features": {
                 "evaluation": True,
-                "real_time": True,
+                "real_time": db_available,
                 "multimodal": True,
-                "lmms_eval": True
+                "lmms_eval": True,
+                "database": db_available
             }
         }
     except Exception as e:

@@ -5,7 +5,7 @@ This module provides GPU allocation and management for evaluation runs
 in the LMMS-Eval Dashboard.
 """
 
-from typing import List, Dict, Optional, Set
+from typing import List, Dict, Optional, Set, Any
 import structlog
 from datetime import datetime
 import threading

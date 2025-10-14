@@ -1,0 +1,6 @@
+2025-10-14 23:22:56,968 - utils.logging - INFO - {"log_level": "INFO", "log_format": "json", "log_file": "logs/app.log", "event": "Logging configured successfully", "logger": "utils.logging", "level": "info", "timestamp": "2025-10-14T17:52:56.968392Z"}
+2025-10-14 23:22:56,968 - utils.monitoring - INFO - {"event": "Monitoring setup completed", "logger": "utils.monitoring", "level": "info", "timestamp": "2025-10-14T17:52:56.968749Z"}
+2025-10-14 23:22:58,509 - httpx - INFO - HTTP Request: GET https://qyuozsmlajdmsszekesq.supabase.co/rest/v1/models?select=id&limit=1 "HTTP/2 404 Not Found"
+2025-10-14 23:22:58,512 - database - ERROR - {"error": "{'message': \"Could not find the table 'public.models' in the schema cache\", 'code': 'PGRST205', 'hint': None, 'details': None}", "event": "Database health check failed", "logger": "database", "level": "error", "timestamp": "2025-10-14T17:52:58.512424Z"}
+2025-10-14 23:22:58,513 - main - ERROR - {"event": "Database health check failed", "logger": "main", "level": "error", "timestamp": "2025-10-14T17:52:58.513190Z"}
+2025-10-14 23:22:58,513 - main - ERROR - {"error": "Database connection failed", "event": "Failed to connect to database", "logger": "main", "level": "error", "timestamp": "2025-10-14T17:52:58.513429Z"}

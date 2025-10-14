@@ -68,7 +68,7 @@ The LMMS-Eval Dashboard provides a production-ready interface for multimodal mod
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Katakuri004/MM-LLM-eval-suite
 cd gui-test-suite
 ```
 

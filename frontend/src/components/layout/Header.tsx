@@ -5,6 +5,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { StatusIndicator } from '@/components/ui/status-indicator';
 import { 
   Brain, 
   BarChart3, 
@@ -59,6 +60,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center space-x-4">
+          <StatusIndicator />
           <Button variant="outline" size="sm">
             <Menu className="h-4 w-4 mr-2" />
             Menu

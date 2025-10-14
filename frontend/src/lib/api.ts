@@ -65,7 +65,7 @@ export class ApiClient {
 
   // Health check
   async healthCheck() {
-    return this.request<{ status: string; service: string; version: string }>('/health');
+    return this.request<{ status: string; service: string; version: string; database: string; mode: string; features: any }>('/health');
   }
 
   // Models API
@@ -100,38 +100,38 @@ export class ApiClient {
     });
   }
 
-  // Evaluations API
-  async createEvaluation(evaluationData: CreateEvaluationRequest) {
-    return this.request<EvaluationResponse>('/evaluations', {
+  // Runs API (evaluations are called "runs" in the backend)
+  async createRun(runData: CreateRunRequest) {
+    return this.request<RunResponse>('/runs/create', {
       method: 'POST',
-      body: JSON.stringify(evaluationData),
+      body: JSON.stringify(runData),
     });
   }
 
-  async getEvaluations(skip = 0, limit = 100) {
-    return this.request<{ evaluations: Evaluation[]; total: number }>(`/evaluations?skip=${skip}&limit=${limit}`);
+  async getRuns(skip = 0, limit = 100) {
+    return this.request<{ runs: Run[]; total: number }>(`/runs?skip=${skip}&limit=${limit}`);
   }
 
-  async getEvaluation(id: string) {
-    return this.request<Evaluation>(`/evaluations/${id}`);
+  async getRun(id: string) {
+    return this.request<Run>(`/runs/${id}`);
   }
 
-  async getEvaluationStatus(id: string) {
-    return this.request<EvaluationStatus>(`/evaluations/${id}/status`);
+  async getRunStatus(id: string) {
+    return this.request<RunStatus>(`/runs/${id}/status`);
   }
 
-  async getEvaluationResults(id: string) {
-    return this.request<EvaluationResults>(`/evaluations/${id}/results`);
+  async getRunResults(id: string) {
+    return this.request<RunResults>(`/runs/${id}/results`);
   }
 
-  async cancelEvaluation(id: string) {
-    return this.request<{ message: string }>(`/evaluations/${id}`, {
-      method: 'DELETE',
+  async cancelRun(id: string) {
+    return this.request<{ message: string }>(`/runs/${id}/cancel`, {
+      method: 'POST',
     });
   }
 
-  async getActiveEvaluations() {
-    return this.request<{ active_runs: string[] }>('/evaluations/active');
+  async getActiveRuns() {
+    return this.request<{ active_runs: string[] }>('/runs/active');
   }
 
   // Statistics API
@@ -168,25 +168,27 @@ export interface Benchmark {
   updated_at: string;
 }
 
-export interface Evaluation {
+export interface Run {
   id: string;
   name: string;
   model_id: string;
   checkpoint_variant: string;
-  benchmark_id: string;
-  status: 'pending' | 'running' | 'completed' | 'failed' | 'cancelled';
+  status: 'pending' | 'queued' | 'running' | 'completed' | 'failed' | 'cancelled';
   config: Record<string, any>;
-  results: Record<string, any>;
-  logs?: string;
+  metadata: Record<string, any>;
   error_message?: string;
   started_at?: string;
   completed_at?: string;
   duration_seconds?: string;
+  total_tasks: number;
+  completed_tasks: number;
+  gpu_device_id?: string;
+  process_id?: number;
   created_at: string;
-  updated_at: string;
+  created_by: string;
 }
 
-export interface EvaluationStatus {
+export interface RunStatus {
   run_id: string;
   status: string;
   is_active: boolean;
@@ -198,7 +200,7 @@ export interface EvaluationStatus {
   duration_seconds?: string;
 }
 
-export interface EvaluationResults {
+export interface RunResults {
   run_id: string;
   status: string;
   results: Record<string, any>;
@@ -238,17 +240,18 @@ export interface CreateBenchmarkRequest {
   description?: string;
 }
 
-export interface CreateEvaluationRequest {
+export interface CreateRunRequest {
+  name: string;
   model_id: string;
   benchmark_ids: string[];
+  checkpoint_variant?: string;
   config: Record<string, any>;
-  run_name?: string;
 }
 
-export interface EvaluationResponse {
+export interface RunResponse {
   run_id: string;
-  status: string;
-  message: string;
+  total_tasks: number;
+  estimated_duration_seconds: number;
 }
 
 export interface OverviewStats {

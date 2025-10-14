@@ -27,18 +27,18 @@ export function Dashboard() {
     queryFn: () => apiClient.getOverviewStats(),
   });
 
-  const { data: evaluations, isLoading: evaluationsLoading } = useQuery({
-    queryKey: ['evaluations', { limit: 5 }],
-    queryFn: () => apiClient.getEvaluations(0, 5),
+  const { data: runs, isLoading: runsLoading } = useQuery({
+    queryKey: ['runs', { limit: 5 }],
+    queryFn: () => apiClient.getRuns(0, 5),
   });
 
-  const { data: activeEvaluations } = useQuery({
-    queryKey: ['active-evaluations'],
-    queryFn: () => apiClient.getActiveEvaluations(),
+  const { data: activeRuns } = useQuery({
+    queryKey: ['active-runs'],
+    queryFn: () => apiClient.getActiveRuns(),
     refetchInterval: 5000, // Refetch every 5 seconds
   });
 
-  if (statsLoading || evaluationsLoading) {
+  if (statsLoading || runsLoading) {
     return (
       <div className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -140,7 +140,7 @@ export function Dashboard() {
             <TrendingUp className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">{activeEvaluations?.active_runs?.length || 0}</div>
+            <div className="text-2xl font-bold">{activeRuns?.active_runs?.length || 0}</div>
             <p className="text-xs text-muted-foreground">
               Currently running
             </p>
@@ -190,28 +190,29 @@ export function Dashboard() {
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
-              {evaluations?.evaluations?.map((evaluation) => {
-                const StatusIcon = statusIcons[evaluation.status as keyof typeof statusIcons];
-                const colorClass = statusColors[evaluation.status as keyof typeof statusColors];
+              {runs?.runs?.map((run) => {
+                const StatusIcon = statusIcons[run.status as keyof typeof statusIcons];
+                const colorClass = statusColors[run.status as keyof typeof statusColors];
+                const progress = run.total_tasks > 0 ? (run.completed_tasks / run.total_tasks) * 100 : 0;
                 
                 return (
-                  <div key={evaluation.id} className="flex items-center justify-between p-3 border rounded-lg">
+                  <div key={run.id} className="flex items-center justify-between p-3 border rounded-lg">
                     <div className="flex items-center space-x-3">
                       {StatusIcon && <StatusIcon className={`h-5 w-5 ${colorClass}`} />}
                       <div>
-                        <div className="font-medium">{evaluation.name}</div>
+                        <div className="font-medium">{run.name}</div>
                         <div className="text-sm text-muted-foreground">
-                          {evaluation.model_id} • {evaluation.benchmark_id}
+                          {run.model_id} • {run.checkpoint_variant}
                         </div>
                       </div>
                     </div>
                     <div className="flex items-center space-x-2">
                       <Badge variant="outline" className={colorClass}>
-                        {evaluation.status}
+                        {run.status}
                       </Badge>
-                      {evaluation.status === 'running' && (
+                      {run.status === 'running' && (
                         <div className="w-16">
-                          <Progress value={50} className="h-2" />
+                          <Progress value={progress} className="h-2" />
                         </div>
                       )}
                     </div>

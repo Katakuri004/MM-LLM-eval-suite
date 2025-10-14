@@ -12,7 +12,7 @@ import { Progress } from '@/components/ui/progress';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { apiClient, CreateEvaluationRequest } from '@/lib/api';
+import { apiClient, CreateRunRequest } from '@/lib/api';
 import { 
   Play, 
   Search, 
@@ -31,22 +31,23 @@ export function Evaluations() {
   const [searchTerm, setSearchTerm] = useState('');
   const [statusFilter, setStatusFilter] = useState('all');
   const [isCreateDialogOpen, setIsCreateDialogOpen] = useState(false);
-  const [newEvaluation, setNewEvaluation] = useState<CreateEvaluationRequest>({
+  const [newRun, setNewRun] = useState<CreateRunRequest>({
+    name: '',
     model_id: '',
     benchmark_ids: [],
+    checkpoint_variant: 'default',
     config: {
       shots: 0,
       temperature: 0.0,
       seed: 42,
     },
-    run_name: '',
   });
 
   const queryClient = useQueryClient();
 
-  const { data: evaluations, isLoading } = useQuery({
-    queryKey: ['evaluations'],
-    queryFn: () => apiClient.getEvaluations(),
+  const { data: runs, isLoading } = useQuery({
+    queryKey: ['runs'],
+    queryFn: () => apiClient.getRuns(),
   });
 
   const { data: models } = useQuery({
@@ -59,42 +60,43 @@ export function Evaluations() {
     queryFn: () => apiClient.getBenchmarks(),
   });
 
-  const createEvaluationMutation = useMutation({
-    mutationFn: (evaluationData: CreateEvaluationRequest) => apiClient.createEvaluation(evaluationData),
+  const createRunMutation = useMutation({
+    mutationFn: (runData: CreateRunRequest) => apiClient.createRun(runData),
     onSuccess: (data) => {
-      queryClient.invalidateQueries({ queryKey: ['evaluations'] });
+      queryClient.invalidateQueries({ queryKey: ['runs'] });
       setIsCreateDialogOpen(false);
-      setNewEvaluation({
+      setNewRun({
+        name: '',
         model_id: '',
         benchmark_ids: [],
+        checkpoint_variant: 'default',
         config: {
           shots: 0,
           temperature: 0.0,
           seed: 42,
         },
-        run_name: '',
       });
-      toast.success(`Evaluation started: ${data.run_id}`);
+      toast.success(`Run started: ${data.run_id}`);
     },
     onError: (error: any) => {
-      toast.error(`Failed to start evaluation: ${error.message}`);
+      toast.error(`Failed to start run: ${error.message}`);
     },
   });
 
-  const cancelEvaluationMutation = useMutation({
-    mutationFn: (runId: string) => apiClient.cancelEvaluation(runId),
+  const cancelRunMutation = useMutation({
+    mutationFn: (runId: string) => apiClient.cancelRun(runId),
     onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['evaluations'] });
-      toast.success('Evaluation cancelled');
+      queryClient.invalidateQueries({ queryKey: ['runs'] });
+      toast.success('Run cancelled');
     },
     onError: (error: any) => {
-      toast.error(`Failed to cancel evaluation: ${error.message}`);
+      toast.error(`Failed to cancel run: ${error.message}`);
     },
   });
 
-  const filteredEvaluations = evaluations?.evaluations?.filter(evaluation => {
-    const matchesSearch = evaluation.name.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesStatus = statusFilter === 'all' || evaluation.status === statusFilter;
+  const filteredRuns = runs?.runs?.filter(run => {
+    const matchesSearch = run.name.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesStatus = statusFilter === 'all' || run.status === statusFilter;
     return matchesSearch && matchesStatus;
   }) || [];
 
@@ -114,16 +116,16 @@ export function Evaluations() {
     cancelled: 'text-gray-600',
   };
 
-  const handleCreateEvaluation = () => {
-    if (!newEvaluation.model_id || newEvaluation.benchmark_ids.length === 0) {
+  const handleCreateRun = () => {
+    if (!newRun.model_id || newRun.benchmark_ids.length === 0) {
       toast.error('Please select a model and at least one benchmark');
       return;
     }
-    createEvaluationMutation.mutate(newEvaluation);
+    createRunMutation.mutate(newRun);
   };
 
-  const handleCancelEvaluation = (runId: string) => {
-    cancelEvaluationMutation.mutate(runId);
+  const handleCancelRun = (runId: string) => {
+    cancelRunMutation.mutate(runId);
   };
 
   if (isLoading) {
@@ -180,16 +182,16 @@ export function Evaluations() {
               <div className="space-y-2">
                 <label className="text-sm font-medium">Run Name</label>
                 <Input
-                  value={newEvaluation.run_name}
-                  onChange={(e) => setNewEvaluation({ ...newEvaluation, run_name: e.target.value })}
+                  value={newRun.name}
+                  onChange={(e) => setNewRun({ ...newRun, name: e.target.value })}
                   placeholder="e.g., LLaVA-7B-VQA-Test"
                 />
               </div>
               <div className="space-y-2">
                 <label className="text-sm font-medium">Model *</label>
                 <Select
-                  value={newEvaluation.model_id}
-                  onValueChange={(value) => setNewEvaluation({ ...newEvaluation, model_id: value })}
+                  value={newRun.model_id}
+                  onValueChange={(value) => setNewRun({ ...newRun, model_id: value })}
                 >
                   <SelectTrigger>
                     <SelectValue placeholder="Select a model" />
@@ -204,6 +206,14 @@ export function Evaluations() {
                 </Select>
               </div>
               <div className="space-y-2">
+                <label className="text-sm font-medium">Checkpoint Variant</label>
+                <Input
+                  value={newRun.checkpoint_variant}
+                  onChange={(e) => setNewRun({ ...newRun, checkpoint_variant: e.target.value })}
+                  placeholder="default"
+                />
+              </div>
+              <div className="space-y-2">
                 <label className="text-sm font-medium">Benchmarks *</label>
                 <div className="space-y-2 max-h-32 overflow-y-auto">
                   {benchmarks?.benchmarks?.map((benchmark) => (
@@ -211,17 +221,17 @@ export function Evaluations() {
                       <input
                         type="checkbox"
                         id={benchmark.id}
-                        checked={newEvaluation.benchmark_ids.includes(benchmark.id)}
+                        checked={newRun.benchmark_ids.includes(benchmark.id)}
                         onChange={(e) => {
                           if (e.target.checked) {
-                            setNewEvaluation({
-                              ...newEvaluation,
-                              benchmark_ids: [...newEvaluation.benchmark_ids, benchmark.id]
+                            setNewRun({
+                              ...newRun,
+                              benchmark_ids: [...newRun.benchmark_ids, benchmark.id]
                             });
                           } else {
-                            setNewEvaluation({
-                              ...newEvaluation,
-                              benchmark_ids: newEvaluation.benchmark_ids.filter(id => id !== benchmark.id)
+                            setNewRun({
+                              ...newRun,
+                              benchmark_ids: newRun.benchmark_ids.filter(id => id !== benchmark.id)
                             });
                           }
                         }}
@@ -238,10 +248,10 @@ export function Evaluations() {
                   <label className="text-sm font-medium">Shots</label>
                   <Input
                     type="number"
-                    value={newEvaluation.config.shots}
-                    onChange={(e) => setNewEvaluation({
-                      ...newEvaluation,
-                      config: { ...newEvaluation.config, shots: parseInt(e.target.value) || 0 }
+                    value={newRun.config.shots}
+                    onChange={(e) => setNewRun({
+                      ...newRun,
+                      config: { ...newRun.config, shots: parseInt(e.target.value) || 0 }
                     })}
                   />
                 </div>
@@ -250,10 +260,10 @@ export function Evaluations() {
                   <Input
                     type="number"
                     step="0.1"
-                    value={newEvaluation.config.temperature}
-                    onChange={(e) => setNewEvaluation({
-                      ...newEvaluation,
-                      config: { ...newEvaluation.config, temperature: parseFloat(e.target.value) || 0.0 }
+                    value={newRun.config.temperature}
+                    onChange={(e) => setNewRun({
+                      ...newRun,
+                      config: { ...newRun.config, temperature: parseFloat(e.target.value) || 0.0 }
                     })}
                   />
                 </div>
@@ -261,10 +271,10 @@ export function Evaluations() {
                   <label className="text-sm font-medium">Seed</label>
                   <Input
                     type="number"
-                    value={newEvaluation.config.seed}
-                    onChange={(e) => setNewEvaluation({
-                      ...newEvaluation,
-                      config: { ...newEvaluation.config, seed: parseInt(e.target.value) || 42 }
+                    value={newRun.config.seed}
+                    onChange={(e) => setNewRun({
+                      ...newRun,
+                      config: { ...newRun.config, seed: parseInt(e.target.value) || 42 }
                     })}
                   />
                 </div>
@@ -275,10 +285,10 @@ export function Evaluations() {
                 Cancel
               </Button>
               <Button 
-                onClick={handleCreateEvaluation}
-                disabled={createEvaluationMutation.isPending}
+                onClick={handleCreateRun}
+                disabled={createRunMutation.isPending}
               >
-                {createEvaluationMutation.isPending ? 'Starting...' : 'Start Evaluation'}
+                {createRunMutation.isPending ? 'Starting...' : 'Start Run'}
               </Button>
             </div>
           </DialogContent>
@@ -316,7 +326,7 @@ export function Evaluations() {
         <CardHeader>
           <CardTitle>Evaluation Runs</CardTitle>
           <CardDescription>
-            {filteredEvaluations.length} evaluation(s) found
+            {filteredRuns.length} run(s) found
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -325,7 +335,7 @@ export function Evaluations() {
               <TableRow>
                 <TableHead>Name</TableHead>
                 <TableHead>Model</TableHead>
-                <TableHead>Benchmark</TableHead>
+                <TableHead>Checkpoint</TableHead>
                 <TableHead>Status</TableHead>
                 <TableHead>Progress</TableHead>
                 <TableHead>Duration</TableHead>
@@ -333,35 +343,36 @@ export function Evaluations() {
               </TableRow>
             </TableHeader>
             <TableBody>
-              {filteredEvaluations.map((evaluation) => {
-                const StatusIcon = statusIcons[evaluation.status as keyof typeof statusIcons];
-                const colorClass = statusColors[evaluation.status as keyof typeof statusColors];
+              {filteredRuns.map((run) => {
+                const StatusIcon = statusIcons[run.status as keyof typeof statusIcons];
+                const colorClass = statusColors[run.status as keyof typeof statusColors];
+                const progress = run.total_tasks > 0 ? (run.completed_tasks / run.total_tasks) * 100 : 0;
                 
                 return (
-                  <TableRow key={evaluation.id}>
-                    <TableCell className="font-medium">{evaluation.name}</TableCell>
-                    <TableCell>{evaluation.model_id}</TableCell>
-                    <TableCell>{evaluation.benchmark_id}</TableCell>
+                  <TableRow key={run.id}>
+                    <TableCell className="font-medium">{run.name}</TableCell>
+                    <TableCell>{run.model_id}</TableCell>
+                    <TableCell>{run.checkpoint_variant}</TableCell>
                     <TableCell>
                       <div className="flex items-center space-x-2">
                         {StatusIcon && <StatusIcon className={`h-4 w-4 ${colorClass}`} />}
                         <Badge variant="outline" className={colorClass}>
-                          {evaluation.status}
+                          {run.status}
                         </Badge>
                       </div>
                     </TableCell>
                     <TableCell>
-                      {evaluation.status === 'running' ? (
+                      {run.status === 'running' ? (
                         <div className="w-20">
-                          <Progress value={50} className="h-2" />
+                          <Progress value={progress} className="h-2" />
                         </div>
                       ) : (
                         <span className="text-muted-foreground">-</span>
                       )}
                     </TableCell>
                     <TableCell>
-                      {evaluation.duration_seconds ? (
-                        `${parseFloat(evaluation.duration_seconds).toFixed(1)}s`
+                      {run.completed_at && run.started_at ? (
+                        `${parseFloat(run.duration_seconds || '0').toFixed(1)}s`
                       ) : (
                         <span className="text-muted-foreground">-</span>
                       )}
@@ -369,16 +380,16 @@ export function Evaluations() {
                     <TableCell>
                       <div className="flex items-center space-x-2">
                         <Button size="sm" variant="outline" asChild>
-                          <Link to={`/evaluations/${evaluation.id}`}>
+                          <Link to={`/runs/${run.id}`}>
                             <Eye className="h-4 w-4" />
                           </Link>
                         </Button>
-                        {evaluation.status === 'running' && (
+                        {run.status === 'running' && (
                           <Button 
                             size="sm" 
                             variant="outline"
-                            onClick={() => handleCancelEvaluation(evaluation.id)}
-                            disabled={cancelEvaluationMutation.isPending}
+                            onClick={() => handleCancelRun(run.id)}
+                            disabled={cancelRunMutation.isPending}
                           >
                             <XCircle className="h-4 w-4" />
                           </Button>
@@ -393,7 +404,7 @@ export function Evaluations() {
         </CardContent>
       </Card>
 
-      {filteredEvaluations.length === 0 && (
+      {filteredRuns.length === 0 && (
         <Card>
           <CardContent className="flex flex-col items-center justify-center py-12">
             <Play className="h-12 w-12 text-muted-foreground mb-4" />

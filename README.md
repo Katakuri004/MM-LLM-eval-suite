@@ -2,13 +2,13 @@
 
 A comprehensive web-based dashboard and GUI system for the [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) benchmarking framework, enabling users to orchestrate LMM evaluations, monitor real-time progress, visualize results, and compare model performance across Text, Image, Video, and Audio tasks.
 
-## 🎯 Overview
+##  Overview
 
 The LMMS-Eval Dashboard provides a production-ready interface for multimodal model evaluation, built on top of the powerful [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) framework. It supports comprehensive evaluation across all modalities with advanced features like real-time monitoring, distributed evaluation, and comprehensive analytics.
 
-## ✨ Key Features
+##  Key Features
 
-### 🚀 Core Functionality
+###  Core Functionality
 - **Multimodal Evaluation**: Support for Text, Image, Video, and Audio tasks
 - **Real-time Monitoring**: Live progress tracking and metrics visualization
 - **Model Management**: Comprehensive model registry and versioning
@@ -16,7 +16,7 @@ The LMMS-Eval Dashboard provides a production-ready interface for multimodal mod
 - **Result Visualization**: Advanced charts, graphs, and analytics
 - **Comparison Tools**: Model performance comparison and analysis
 
-### 🔧 Advanced Features
+###  Advanced Features
 - **Distributed Evaluation**: Multi-GPU and multi-node support
 - **Scheduled Evaluations**: Automated recurring evaluations
 - **Custom Benchmarks**: Create and manage custom benchmarks
@@ -24,32 +24,31 @@ The LMMS-Eval Dashboard provides a production-ready interface for multimodal mod
 - **Performance Analytics**: Comprehensive performance tracking and analysis
 - **Export/Import**: Data export in multiple formats
 
-### 🎨 User Interface
+###  User Interface
 - **Modern React Frontend**: Built with React 18+ and TypeScript
 - **Responsive Design**: Mobile-friendly interface
-- **Dark Mode Support**: Multiple themes and customization
 - **Interactive Dashboards**: Customizable widgets and layouts
 - **Real-time Updates**: WebSocket-based live updates
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                 LMMS-Eval Dashboard                        │
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐          │
-│  │   Frontend  │ │   Backend   │ │  Database  │          │
-│  │   (React)   │ │  (FastAPI)  │ │ (Supabase) │          │
-│  └─────────────┘ └─────────────┘ └─────────────┘          │
+│                 LMMS-Eval Dashboard                         │
+│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐            │
+│  │   Frontend  │ │   Backend   │ │  Database  │             │
+│  │   (React)   │ │  (FastAPI)  │ │ (Supabase) │             │
+│  └─────────────┘ └─────────────┘ └─────────────┘            │
 └─────────────────┬───────────────────────────────────────────┘
                   │
 ┌─────────────────▼───────────────────────────────────────────┐
-│              LMMS-Eval Framework                          │
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐          │
-│  │   Models    │ │ Benchmarks  │ │ Evaluation  │          │
-│  │ (LLaVA,     │ │ (MME, VQA,  │ │   Engine    │          │
-│  │ Qwen2-VL,   │ │ COCO, etc.) │ │             │          │
-│  │ Llama-V)    │ │             │ │             │          │
-│  └─────────────┘ └─────────────┘ └─────────────┘          │
+│              LMMS-Eval Framework                            │
+│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐            │
+│  │   Models    │ │ Benchmarks  │ │ Evaluation  │            │
+│  │ (LLaVA,     │ │ (MME, VQA,  │ │   Engine    │            │
+│  │ Qwen2-VL,   │ │ COCO, etc.) │ │             │            │
+│  │ Llama-V)    │ │             │ │             │            │
+│  └─────────────┘ └─────────────┘ └─────────────┘            │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -149,14 +148,7 @@ REACT_APP_API_URL=http://localhost:8000/api/v1
 REACT_APP_WS_URL=ws://localhost:8000
 ```
 
-## 📚 Documentation
 
-- **[Setup Guide](SETUP_GUIDE.md)**: Comprehensive setup instructions
-- **[LMMS-Eval Integration](docs/LMMS_EVAL_INTEGRATION.md)**: Detailed integration documentation
-- **[Testing and Usage](docs/TESTING_AND_USAGE.md)**: Testing and usage guide
-- **[Feature Recommendations](docs/FEATURE_RECOMMENDATIONS.md)**: Recommended features and enhancements
-- **[API Documentation](docs/API.md)**: Backend API reference
-- **[Deployment Guide](docs/DEPLOYMENT.md)**: Deployment instructions
 
 ## 🎯 Usage Examples
 

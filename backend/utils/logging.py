@@ -11,7 +11,7 @@ from typing import Dict, Any, Optional
 import structlog
 from datetime import datetime
 
-from config import settings, logging_config
+from config import settings
 
 
 def setup_logging():

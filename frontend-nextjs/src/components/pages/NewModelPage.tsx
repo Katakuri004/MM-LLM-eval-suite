@@ -1,8 +1,8 @@
 'use client'
 
 /**
- * New Model Upload Page
- * Allows users to upload local models and configure them for benchmarking
+ * Enhanced New Model Registration Page
+ * Supports multiple model loading methods: HuggingFace, Local, API, vLLM, and Batch Upload
  */
 
 import { useState, useRef, useCallback } from 'react';
@@ -16,6 +16,7 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Progress } from '@/components/ui/progress';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { apiClient, CreateModelRequest } from '@/lib/api';
 import { 
   Upload, 
@@ -32,7 +33,16 @@ import {
   Zap,
   HardDrive,
   MemoryStick,
-  Monitor
+  Monitor,
+  Github,
+  Globe,
+  Server,
+  FileSpreadsheet,
+  Eye,
+  Key,
+  Link,
+  Download,
+  Loader2
 } from 'lucide-react';
 import { toast } from 'sonner';
 
@@ -56,16 +66,78 @@ interface ModelConfig {
   tokenizer_path?: string;
 }
 
+interface HuggingFaceConfig {
+  model_path: string;
+  auto_detect: boolean;
+}
+
+interface LocalConfig {
+  model_dir: string;
+  model_name?: string;
+}
+
+interface APIConfig {
+  provider: string;
+  model_name: string;
+  api_key: string;
+  endpoint?: string;
+}
+
+interface VLLMConfig {
+  endpoint_url: string;
+  model_name: string;
+  auth_token?: string;
+}
+
+interface BatchConfig {
+  csv_file: File | null;
+  models_data: any[];
+}
+
 export function NewModelPage() {
   const router = useRouter();
   const queryClient = useQueryClient();
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const csvInputRef = useRef<HTMLInputElement>(null);
   
+  // State for different loading methods
+  const [activeTab, setActiveTab] = useState<'huggingface' | 'local' | 'api' | 'vllm' | 'batch'>('huggingface');
+  
+  // Configuration states for each method
+  const [huggingfaceConfig, setHuggingfaceConfig] = useState<HuggingFaceConfig>({
+    model_path: '',
+    auto_detect: true
+  });
+  
+  const [localConfig, setLocalConfig] = useState<LocalConfig>({
+    model_dir: '',
+    model_name: ''
+  });
+  
+  const [apiConfig, setApiConfig] = useState<APIConfig>({
+    provider: 'openai',
+    model_name: '',
+    api_key: '',
+    endpoint: ''
+  });
+  
+  const [vllmConfig, setVllmConfig] = useState<VLLMConfig>({
+    endpoint_url: '',
+    model_name: '',
+    auth_token: ''
+  });
+  
+  const [batchConfig, setBatchConfig] = useState<BatchConfig>({
+    csv_file: null,
+    models_data: []
+  });
+  
+  // Common state
   const [uploadProgress, setUploadProgress] = useState<UploadProgress[]>([]);
   const [modelConfig, setModelConfig] = useState<ModelConfig>({
     name: '',
     family: '',
-    source: 'local',
+    source: 'huggingface',
     dtype: 'float16',
     num_parameters: 0,
     notes: '',
@@ -73,7 +145,8 @@ export function NewModelPage() {
   });
   const [selectedBenchmarks, setSelectedBenchmarks] = useState<string[]>([]);
   const [isUploading, setIsUploading] = useState(false);
-  const [currentStep, setCurrentStep] = useState<'upload' | 'configure' | 'benchmark'>('upload');
+  const [isValidating, setIsValidating] = useState(false);
+  const [validationResults, setValidationResults] = useState<any>(null);
 
   // Get available benchmarks for selection
   const { data: benchmarks } = useQuery({
@@ -83,39 +156,80 @@ export function NewModelPage() {
     refetchOnWindowFocus: false,
   });
 
-  // Create model mutation (for simple model creation)
-  const createModelMutation = useMutation({
-    mutationFn: (modelData: CreateModelRequest) => apiClient.createModel(modelData),
-    onSuccess: (model) => {
+  // HuggingFace model registration mutation
+  const registerHuggingFaceMutation = useMutation({
+    mutationFn: (config: HuggingFaceConfig) => apiClient.registerHuggingFaceModel(config),
+    onSuccess: (result) => {
       queryClient.invalidateQueries({ queryKey: ['models'] });
-      toast.success('Model created successfully!');
+      toast.success('HuggingFace model registered successfully!');
       router.push(`/models`);
     },
     onError: (error: any) => {
-      toast.error(`Failed to create model: ${error.message}`);
+      toast.error(`Failed to register HuggingFace model: ${error.message}`);
     },
   });
 
-  // Upload model files mutation
-  const uploadModelMutation = useMutation({
-    mutationFn: async () => {
-      const files = uploadProgress.map(upload => upload.file);
-      return apiClient.uploadModelFiles(files, {
-        model_name: modelConfig.name,
-        model_family: modelConfig.family,
-        model_dtype: modelConfig.dtype,
-        num_parameters: modelConfig.num_parameters,
-        notes: modelConfig.notes,
-        selected_benchmarks: selectedBenchmarks,
-      });
-    },
+  // Local model registration mutation
+  const registerLocalMutation = useMutation({
+    mutationFn: (config: LocalConfig) => apiClient.registerLocalModel(config),
     onSuccess: (result) => {
       queryClient.invalidateQueries({ queryKey: ['models'] });
-      toast.success('Model uploaded and created successfully!');
+      toast.success('Local model registered successfully!');
       router.push(`/models`);
     },
     onError: (error: any) => {
-      toast.error(`Failed to upload model: ${error.message}`);
+      toast.error(`Failed to register local model: ${error.message}`);
+    },
+  });
+
+  // API model registration mutation
+  const registerAPIMutation = useMutation({
+    mutationFn: (config: APIConfig) => apiClient.registerAPIModel(config),
+    onSuccess: (result) => {
+      queryClient.invalidateQueries({ queryKey: ['models'] });
+      toast.success('API model registered successfully!');
+      router.push(`/models`);
+    },
+    onError: (error: any) => {
+      toast.error(`Failed to register API model: ${error.message}`);
+    },
+  });
+
+  // vLLM model registration mutation
+  const registerVLLMMutation = useMutation({
+    mutationFn: (config: VLLMConfig) => apiClient.registerVLLMModel(config),
+    onSuccess: (result) => {
+      queryClient.invalidateQueries({ queryKey: ['models'] });
+      toast.success('vLLM model registered successfully!');
+      router.push(`/models`);
+    },
+    onError: (error: any) => {
+      toast.error(`Failed to register vLLM model: ${error.message}`);
+    },
+  });
+
+  // Batch model registration mutation
+  const registerBatchMutation = useMutation({
+    mutationFn: (modelsData: any[]) => apiClient.registerBatchModels(modelsData),
+    onSuccess: (result) => {
+      queryClient.invalidateQueries({ queryKey: ['models'] });
+      toast.success(`Batch registration completed: ${result.results.successful} successful, ${result.results.failed} failed`);
+      router.push(`/models`);
+    },
+    onError: (error: any) => {
+      toast.error(`Failed to register batch models: ${error.message}`);
+    },
+  });
+
+  // Model validation mutation
+  const validateModelMutation = useMutation({
+    mutationFn: (modelSource: string) => apiClient.detectModelConfig(modelSource),
+    onSuccess: (result) => {
+      setValidationResults(result);
+      toast.success('Model configuration detected successfully!');
+    },
+    onError: (error: any) => {
+      toast.error(`Failed to detect model configuration: ${error.message}`);
     },
   });
 
@@ -166,7 +280,6 @@ export function NewModelPage() {
     // Complete all uploads after a delay
     setTimeout(() => {
       setIsUploading(false);
-      setCurrentStep('configure');
       toast.success('Files ready for upload!');
     }, 2000);
   };
@@ -184,7 +297,7 @@ export function NewModelPage() {
       }));
 
       setUploadProgress(prev => [...prev, ...newUploads]);
-      simulateUpload(newUploads);
+      handleFileUpload(newUploads);
     }
   }, []);
 
@@ -201,26 +314,113 @@ export function NewModelPage() {
     );
   };
 
-  // Handle model creation
-  const handleCreateModel = () => {
-    if (!modelConfig.name || !modelConfig.family) {
-      toast.error('Please fill in all required fields');
-      return;
+  // Handle model registration based on active tab
+  const handleRegisterModel = () => {
+    switch (activeTab) {
+      case 'huggingface':
+        if (!huggingfaceConfig.model_path) {
+          toast.error('Please enter a HuggingFace model path');
+          return;
+        }
+        registerHuggingFaceMutation.mutate(huggingfaceConfig);
+        break;
+        
+      case 'local':
+        if (!localConfig.model_dir) {
+          toast.error('Please enter a local model directory path');
+          return;
+        }
+        registerLocalMutation.mutate(localConfig);
+        break;
+        
+      case 'api':
+        if (!apiConfig.provider || !apiConfig.model_name || !apiConfig.api_key) {
+          toast.error('Please fill in all required API fields');
+          return;
+        }
+        registerAPIMutation.mutate(apiConfig);
+        break;
+        
+      case 'vllm':
+        if (!vllmConfig.endpoint_url || !vllmConfig.model_name) {
+          toast.error('Please fill in all required vLLM fields');
+          return;
+        }
+        registerVLLMMutation.mutate(vllmConfig);
+        break;
+        
+      case 'batch':
+        if (!batchConfig.csv_file) {
+          toast.error('Please select a CSV file');
+          return;
+        }
+        // Process CSV file and register models
+        processBatchCSV();
+        break;
     }
+  };
 
-    if (uploadProgress.length > 0) {
-      // Use file upload API if files are present
-      uploadModelMutation.mutate();
-    } else {
-      // Use simple model creation API
-      const modelData: CreateModelRequest = {
-        ...modelConfig,
-        metadata: {
-          ...modelConfig.metadata,
-          selected_benchmarks: selectedBenchmarks,
-        },
-      };
-      createModelMutation.mutate(modelData);
+  // Handle model validation
+  const handleValidateModel = () => {
+    let modelSource = '';
+    switch (activeTab) {
+      case 'huggingface':
+        modelSource = huggingfaceConfig.model_path;
+        break;
+      case 'local':
+        modelSource = localConfig.model_dir;
+        break;
+      case 'api':
+        modelSource = apiConfig.endpoint || `api://${apiConfig.provider}`;
+        break;
+      case 'vllm':
+        modelSource = vllmConfig.endpoint_url;
+        break;
+    }
+    
+    if (modelSource) {
+      setIsValidating(true);
+      validateModelMutation.mutate(modelSource);
+    }
+  };
+
+  // Process batch CSV file
+  const processBatchCSV = () => {
+    if (!batchConfig.csv_file) return;
+    
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const csvText = e.target?.result as string;
+        const lines = csvText.split('\n');
+        const headers = lines[0].split(',');
+        const modelsData: any[] = [];
+        
+        for (let i = 1; i < lines.length; i++) {
+          if (lines[i].trim()) {
+            const values = lines[i].split(',');
+            const modelData: any = {};
+            headers.forEach((header, index) => {
+              modelData[header.trim()] = values[index]?.trim() || '';
+            });
+            modelsData.push(modelData);
+          }
+        }
+        
+        setBatchConfig(prev => ({ ...prev, models_data: modelsData }));
+        registerBatchMutation.mutate(modelsData);
+      } catch (error) {
+        toast.error('Failed to parse CSV file');
+      }
+    };
+    reader.readAsText(batchConfig.csv_file);
+  };
+
+  // Handle CSV file selection
+  const handleCSVSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (file) {
+      setBatchConfig(prev => ({ ...prev, csv_file: file }));
     }
   };
 
@@ -252,404 +452,481 @@ export function NewModelPage() {
             Back
           </Button>
           <div>
-            <h1 className="text-3xl font-bold tracking-tight">Add New Model</h1>
+            <h1 className="text-3xl font-bold tracking-tight">Register New Model</h1>
             <p className="text-muted-foreground">
-              Upload and configure your local model for benchmarking
+              Register models from HuggingFace, local files, APIs, vLLM, or batch upload
             </p>
           </div>
         </div>
       </div>
 
-      {/* Progress Steps */}
-      <div className="flex items-center space-x-4">
-        {[
-          { key: 'upload', label: 'Upload Files', icon: Upload },
-          { key: 'configure', label: 'Configure Model', icon: Settings },
-          { key: 'benchmark', label: 'Select Benchmarks', icon: Play },
-        ].map((step, index) => {
-          const Icon = step.icon;
-          const isActive = currentStep === step.key;
-          const isCompleted = ['upload', 'configure', 'benchmark'].indexOf(currentStep) > index;
-          
-          return (
-            <div key={step.key} className="flex items-center">
-              <div className={`
-                flex items-center justify-center w-8 h-8 rounded-full border-2
-                ${isActive ? 'border-primary bg-primary text-primary-foreground' : ''}
-                ${isCompleted ? 'border-green-500 bg-green-500 text-white' : ''}
-                ${!isActive && !isCompleted ? 'border-muted-foreground text-muted-foreground' : ''}
-              `}>
-                <Icon className="h-4 w-4" />
-              </div>
-              <span className={`ml-2 text-sm font-medium ${
-                isActive ? 'text-primary' : isCompleted ? 'text-green-600' : 'text-muted-foreground'
-              }`}>
-                {step.label}
-              </span>
-              {index < 2 && (
-                <div className={`w-8 h-0.5 mx-4 ${
-                  isCompleted ? 'bg-green-500' : 'bg-muted'
-                }`} />
-              )}
-            </div>
-          );
-        })}
-      </div>
+      {/* Model Registration Tabs */}
+      <Tabs value={activeTab} onValueChange={(value) => setActiveTab(value as any)} className="space-y-6">
+        <TabsList className="grid w-full grid-cols-5">
+          <TabsTrigger value="huggingface" className="flex items-center space-x-2">
+            <Github className="h-4 w-4" />
+            <span>HuggingFace</span>
+          </TabsTrigger>
+          <TabsTrigger value="local" className="flex items-center space-x-2">
+            <HardDrive className="h-4 w-4" />
+            <span>Local</span>
+          </TabsTrigger>
+          <TabsTrigger value="api" className="flex items-center space-x-2">
+            <Globe className="h-4 w-4" />
+            <span>API</span>
+          </TabsTrigger>
+          <TabsTrigger value="vllm" className="flex items-center space-x-2">
+            <Server className="h-4 w-4" />
+            <span>vLLM</span>
+          </TabsTrigger>
+          <TabsTrigger value="batch" className="flex items-center space-x-2">
+            <FileSpreadsheet className="h-4 w-4" />
+            <span>Batch</span>
+          </TabsTrigger>
+        </TabsList>
 
-      {/* Step 1: File Upload */}
-      {currentStep === 'upload' && (
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center">
-              <Upload className="h-5 w-5 mr-2" />
-              Upload Model Files
-            </CardTitle>
-            <CardDescription>
-              Upload your model files (model weights, config, tokenizer, etc.)
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-6">
-            {/* Upload Area */}
-            <div
-              className="border-2 border-dashed border-muted-foreground/25 rounded-lg p-8 text-center hover:border-primary/50 transition-colors cursor-pointer"
-              onDrop={handleDrop}
-              onDragOver={handleDragOver}
-              onClick={() => fileInputRef.current?.click()}
-            >
-              <Upload className="h-12 w-12 mx-auto text-muted-foreground mb-4" />
-              <h3 className="text-lg font-medium mb-2">Drop files here or click to browse</h3>
-              <p className="text-muted-foreground mb-4">
-                Supported formats: .bin, .safetensors, .json, .txt, .model, .pth, .pt
-              </p>
-              <Button variant="outline">
-                <Upload className="h-4 w-4 mr-2" />
-                Choose Files
-              </Button>
-              <input
-                ref={fileInputRef}
-                type="file"
-                multiple
-                accept=".bin,.safetensors,.json,.txt,.model,.pth,.pt,.h5,.onnx"
-                onChange={handleFileSelect}
-                className="hidden"
-              />
-            </div>
-
-            {/* Upload Progress */}
-            {uploadProgress.length > 0 && (
-              <div className="space-y-4">
-                <div className="flex items-center justify-between">
-                  <h4 className="font-medium">Upload Progress</h4>
-                  <span className="text-sm text-muted-foreground">
-                    {Math.round(totalProgress)}% complete
-                  </span>
+        {/* HuggingFace Tab */}
+        <TabsContent value="huggingface" className="space-y-6">
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center">
+                <Github className="h-5 w-5 mr-2" />
+                HuggingFace Model Registration
+              </CardTitle>
+              <CardDescription>
+                Register models from Hugging Face Hub with auto-detection
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="space-y-4">
+                  <div className="space-y-2">
+                    <Label htmlFor="hf-model-path">Model Path *</Label>
+                    <Input
+                      id="hf-model-path"
+                      value={huggingfaceConfig.model_path}
+                      onChange={(e) => setHuggingfaceConfig({ ...huggingfaceConfig, model_path: e.target.value })}
+                      placeholder="Qwen/Qwen2-VL-7B-Instruct"
+                    />
+                    <p className="text-xs text-muted-foreground">
+                      Enter the HuggingFace model repository path
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-center space-x-2">
+                    <input
+                      type="checkbox"
+                      id="auto-detect"
+                      checked={huggingfaceConfig.auto_detect}
+                      onChange={(e) => setHuggingfaceConfig({ ...huggingfaceConfig, auto_detect: e.target.checked })}
+                    />
+                    <Label htmlFor="auto-detect">Auto-detect model properties</Label>
+                  </div>
                 </div>
-                <Progress value={totalProgress} className="w-full" />
                 
-                <div className="space-y-2">
-                  {uploadProgress.map((upload, index) => (
-                    <div key={index} className="flex items-center justify-between p-3 border rounded-lg">
-                      <div className="flex items-center space-x-3">
-                        <FileText className="h-4 w-4 text-muted-foreground" />
-                        <div>
-                          <p className="font-medium text-sm">{upload.file.name}</p>
-                          <p className="text-xs text-muted-foreground">
-                            {formatFileSize(upload.file.size)}
-                          </p>
-                        </div>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <Progress value={upload.progress} className="w-24" />
-                        {upload.status === 'completed' && (
-                          <CheckCircle className="h-4 w-4 text-green-500" />
-                        )}
-                        {upload.status === 'error' && (
-                          <AlertCircle className="h-4 w-4 text-red-500" />
-                        )}
-                      </div>
+                <div className="space-y-4">
+                  <div className="p-4 border rounded-lg bg-muted/50">
+                    <h4 className="font-medium mb-2">Popular Models</h4>
+                    <div className="space-y-2">
+                      {[
+                        'Qwen/Qwen2-VL-7B-Instruct',
+                        'llava-hf/llava-1.5-7b-hf',
+                        'microsoft/llava-v1.6-mistral-7b',
+                        'THUDM/cogvlm-chinese-hf'
+                      ].map((model) => (
+                        <Button
+                          key={model}
+                          variant="outline"
+                          size="sm"
+                          className="w-full justify-start"
+                          onClick={() => setHuggingfaceConfig({ ...huggingfaceConfig, model_path: model })}
+                        >
+                          {model}
+                        </Button>
+                      ))}
                     </div>
-                  ))}
+                  </div>
                 </div>
               </div>
-            )}
-
-            {uploadProgress.length > 0 && !isUploading && (
-              <div className="flex justify-end">
-                <Button onClick={() => setCurrentStep('configure')}>
-                  Continue to Configuration
+              
+              <div className="flex items-center space-x-4">
+                <Button
+                  onClick={handleValidateModel}
+                  disabled={!huggingfaceConfig.model_path || isValidating}
+                  variant="outline"
+                >
+                  {isValidating ? (
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                  ) : (
+                    <Eye className="h-4 w-4 mr-2" />
+                  )}
+                  Detect Configuration
+                </Button>
+                
+                <Button
+                  onClick={handleRegisterModel}
+                  disabled={!huggingfaceConfig.model_path || registerHuggingFaceMutation.isPending}
+                >
+                  {registerHuggingFaceMutation.isPending ? (
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                  ) : (
+                    <CheckCircle className="h-4 w-4 mr-2" />
+                  )}
+                  Register Model
                 </Button>
               </div>
-            )}
-          </CardContent>
-        </Card>
-      )}
+              
+              {validationResults && (
+                <div className="p-4 border rounded-lg bg-muted/50">
+                  <h4 className="font-medium mb-2">Detection Results</h4>
+                  <pre className="text-xs bg-background p-2 rounded border overflow-auto">
+                    {JSON.stringify(validationResults, null, 2)}
+                  </pre>
+                </div>
+              )}
+            </CardContent>
+          </Card>
+        </TabsContent>
 
-      {/* Step 2: Model Configuration */}
-      {currentStep === 'configure' && (
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center">
-              <Settings className="h-5 w-5 mr-2" />
-              Configure Model
-            </CardTitle>
-            <CardDescription>
-              Provide details about your model for proper benchmarking
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Basic Information */}
+        {/* Local Tab */}
+        <TabsContent value="local" className="space-y-6">
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center">
+                <HardDrive className="h-5 w-5 mr-2" />
+                Local Model Registration
+              </CardTitle>
+              <CardDescription>
+                Register models from your local filesystem
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-6">
               <div className="space-y-4">
-                <h4 className="font-medium flex items-center">
-                  <Brain className="h-4 w-4 mr-2" />
-                  Basic Information
-                </h4>
+                <div className="space-y-2">
+                  <Label htmlFor="local-model-dir">Model Directory Path *</Label>
+                  <Input
+                    id="local-model-dir"
+                    value={localConfig.model_dir}
+                    onChange={(e) => setLocalConfig({ ...localConfig, model_dir: e.target.value })}
+                    placeholder="/path/to/your/model"
+                  />
+                  <p className="text-xs text-muted-foreground">
+                    Path to the directory containing your model files
+                  </p>
+                </div>
                 
                 <div className="space-y-2">
-                  <Label htmlFor="name">Model Name *</Label>
+                  <Label htmlFor="local-model-name">Model Name (Optional)</Label>
                   <Input
-                    id="name"
-                    value={modelConfig.name}
-                    onChange={(e) => setModelConfig({ ...modelConfig, name: e.target.value })}
-                    placeholder="e.g., My Custom LLaMA Model"
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="family">Model Family *</Label>
-                  <Select 
-                    value={modelConfig.family} 
-                    onValueChange={(value) => setModelConfig({ ...modelConfig, family: value })}
-                  >
-                    <SelectTrigger>
-                      <SelectValue placeholder="Select model family" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="llama">LLaMA</SelectItem>
-                      <SelectItem value="mistral">Mistral</SelectItem>
-                      <SelectItem value="gpt">GPT</SelectItem>
-                      <SelectItem value="bert">BERT</SelectItem>
-                      <SelectItem value="t5">T5</SelectItem>
-                      <SelectItem value="custom">Custom</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="parameters">Number of Parameters</Label>
-                  <Input
-                    id="parameters"
-                    type="number"
-                    value={modelConfig.num_parameters}
-                    onChange={(e) => setModelConfig({ ...modelConfig, num_parameters: parseInt(e.target.value) || 0 })}
-                    placeholder="7000000000"
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="dtype">Data Type</Label>
-                  <Select 
-                    value={modelConfig.dtype} 
-                    onValueChange={(value) => setModelConfig({ ...modelConfig, dtype: value })}
-                  >
-                    <SelectTrigger>
-                      <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="float16">float16</SelectItem>
-                      <SelectItem value="float32">float32</SelectItem>
-                      <SelectItem value="bfloat16">bfloat16</SelectItem>
-                      <SelectItem value="int8">int8</SelectItem>
-                      <SelectItem value="int4">int4</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-              </div>
-
-              {/* Technical Details */}
-              <div className="space-y-4">
-                <h4 className="font-medium flex items-center">
-                  <Cpu className="h-4 w-4 mr-2" />
-                  Technical Details
-                </h4>
-
-                <div className="space-y-2">
-                  <Label htmlFor="model_path">Model Path</Label>
-                  <Input
-                    id="model_path"
-                    value={modelConfig.model_path || ''}
-                    onChange={(e) => setModelConfig({ ...modelConfig, model_path: e.target.value })}
-                    placeholder="/path/to/model.bin"
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="config_path">Config Path</Label>
-                  <Input
-                    id="config_path"
-                    value={modelConfig.config_path || ''}
-                    onChange={(e) => setModelConfig({ ...modelConfig, config_path: e.target.value })}
-                    placeholder="/path/to/config.json"
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="tokenizer_path">Tokenizer Path</Label>
-                  <Input
-                    id="tokenizer_path"
-                    value={modelConfig.tokenizer_path || ''}
-                    onChange={(e) => setModelConfig({ ...modelConfig, tokenizer_path: e.target.value })}
-                    placeholder="/path/to/tokenizer.json"
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="notes">Notes</Label>
-                  <Textarea
-                    id="notes"
-                    value={modelConfig.notes}
-                    onChange={(e) => setModelConfig({ ...modelConfig, notes: e.target.value })}
-                    placeholder="Additional notes about this model..."
-                    rows={3}
+                    id="local-model-name"
+                    value={localConfig.model_name || ''}
+                    onChange={(e) => setLocalConfig({ ...localConfig, model_name: e.target.value })}
+                    placeholder="Custom Model Name"
                   />
                 </div>
               </div>
-            </div>
-
-            {/* System Requirements */}
-            <div className="space-y-4">
-              <h4 className="font-medium flex items-center">
-                <Monitor className="h-4 w-4 mr-2" />
-                System Requirements
-              </h4>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <Card>
-                  <CardContent className="p-4">
-                    <div className="flex items-center space-x-2">
-                      <MemoryStick className="h-4 w-4 text-blue-500" />
-                      <span className="text-sm font-medium">RAM</span>
-                    </div>
-                    <p className="text-xs text-muted-foreground mt-1">16GB+ recommended</p>
-                  </CardContent>
-                </Card>
-                <Card>
-                  <CardContent className="p-4">
-                    <div className="flex items-center space-x-2">
-                      <HardDrive className="h-4 w-4 text-green-500" />
-                      <span className="text-sm font-medium">Storage</span>
-                    </div>
-                    <p className="text-xs text-muted-foreground mt-1">20GB+ free space</p>
-                  </CardContent>
-                </Card>
-                <Card>
-                  <CardContent className="p-4">
-                    <div className="flex items-center space-x-2">
-                      <Zap className="h-4 w-4 text-yellow-500" />
-                      <span className="text-sm font-medium">GPU</span>
-                    </div>
-                    <p className="text-xs text-muted-foreground mt-1">CUDA compatible</p>
-                  </CardContent>
-                </Card>
+              
+              <div className="flex items-center space-x-4">
+                <Button
+                  onClick={handleValidateModel}
+                  disabled={!localConfig.model_dir || isValidating}
+                  variant="outline"
+                >
+                  {isValidating ? (
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                  ) : (
+                    <Eye className="h-4 w-4 mr-2" />
+                  )}
+                  Validate Path
+                </Button>
+                
+                <Button
+                  onClick={handleRegisterModel}
+                  disabled={!localConfig.model_dir || registerLocalMutation.isPending}
+                >
+                  {registerLocalMutation.isPending ? (
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                  ) : (
+                    <CheckCircle className="h-4 w-4 mr-2" />
+                  )}
+                  Register Model
+                </Button>
               </div>
-            </div>
+            </CardContent>
+          </Card>
+        </TabsContent>
 
-            <div className="flex justify-between">
-              <Button variant="outline" onClick={() => setCurrentStep('upload')}>
-                Back to Upload
-              </Button>
-              <Button onClick={() => setCurrentStep('benchmark')}>
-                Continue to Benchmarks
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
-      )}
-
-      {/* Step 3: Benchmark Selection */}
-      {currentStep === 'benchmark' && (
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center">
-              <Play className="h-5 w-5 mr-2" />
-              Select Benchmarks
-            </CardTitle>
-            <CardDescription>
-              Choose which benchmarks to run on your model
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-6">
-            {benchmarks?.benchmarks && benchmarks.benchmarks.length > 0 ? (
-              <div className="space-y-4">
-                <div className="flex items-center justify-between">
-                  <p className="text-sm text-muted-foreground">
-                    Select benchmarks to run on your model
-                  </p>
-                  <Badge variant="outline">
-                    {selectedBenchmarks.length} selected
-                  </Badge>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {benchmarks.benchmarks.map((benchmark) => (
-                    <Card 
-                      key={benchmark.id}
-                      className={`cursor-pointer transition-all hover:shadow-md ${
-                        selectedBenchmarks.includes(benchmark.id) 
-                          ? 'ring-2 ring-primary bg-primary/5' 
-                          : ''
-                      }`}
-                      onClick={() => toggleBenchmark(benchmark.id)}
+        {/* API Tab */}
+        <TabsContent value="api" className="space-y-6">
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center">
+                <Globe className="h-5 w-5 mr-2" />
+                API Model Registration
+              </CardTitle>
+              <CardDescription>
+                Register API-based models (OpenAI, Anthropic, Google, etc.)
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="space-y-4">
+                  <div className="space-y-2">
+                    <Label htmlFor="api-provider">Provider *</Label>
+                    <Select 
+                      value={apiConfig.provider} 
+                      onValueChange={(value) => setApiConfig({ ...apiConfig, provider: value })}
                     >
-                      <CardContent className="p-4">
-                        <div className="flex items-center justify-between mb-2">
-                          <h4 className="font-medium text-sm">{benchmark.name}</h4>
-                          {selectedBenchmarks.includes(benchmark.id) && (
-                            <CheckCircle className="h-4 w-4 text-primary" />
-                          )}
-                        </div>
-                        <div className="space-y-1">
-                          <Badge variant="secondary" className="text-xs">
-                            {benchmark.modality}
-                          </Badge>
-                          <p className="text-xs text-muted-foreground">
-                            {benchmark.num_samples} samples
-                          </p>
-                          <p className="text-xs text-muted-foreground">
-                            {benchmark.primary_metrics.join(', ')}
-                          </p>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  ))}
+                      <SelectTrigger>
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="openai">OpenAI</SelectItem>
+                        <SelectItem value="anthropic">Anthropic</SelectItem>
+                        <SelectItem value="google">Google</SelectItem>
+                        <SelectItem value="azure">Azure OpenAI</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+                  
+                  <div className="space-y-2">
+                    <Label htmlFor="api-model-name">Model Name *</Label>
+                    <Input
+                      id="api-model-name"
+                      value={apiConfig.model_name}
+                      onChange={(e) => setApiConfig({ ...apiConfig, model_name: e.target.value })}
+                      placeholder="gpt-4-vision-preview"
+                    />
+                  </div>
+                </div>
+                
+                <div className="space-y-4">
+                  <div className="space-y-2">
+                    <Label htmlFor="api-key">API Key *</Label>
+                    <div className="relative">
+                      <Input
+                        id="api-key"
+                        type="password"
+                        value={apiConfig.api_key}
+                        onChange={(e) => setApiConfig({ ...apiConfig, api_key: e.target.value })}
+                        placeholder="sk-..."
+                      />
+                      <Key className="absolute right-3 top-3 h-4 w-4 text-muted-foreground" />
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-2">
+                    <Label htmlFor="api-endpoint">Custom Endpoint (Optional)</Label>
+                    <Input
+                      id="api-endpoint"
+                      value={apiConfig.endpoint || ''}
+                      onChange={(e) => setApiConfig({ ...apiConfig, endpoint: e.target.value })}
+                      placeholder="https://api.openai.com/v1"
+                    />
+                  </div>
                 </div>
               </div>
-            ) : (
-              <div className="text-center py-8">
-                <Info className="h-12 w-12 mx-auto text-muted-foreground mb-4" />
-                <h3 className="text-lg font-medium mb-2">No benchmarks available</h3>
-                <p className="text-muted-foreground">
-                  Benchmarks will be loaded from the backend when available.
-                </p>
+              
+              <div className="flex items-center space-x-4">
+                <Button
+                  onClick={handleValidateModel}
+                  disabled={!apiConfig.provider || !apiConfig.model_name || !apiConfig.api_key || isValidating}
+                  variant="outline"
+                >
+                  {isValidating ? (
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                  ) : (
+                    <Eye className="h-4 w-4 mr-2" />
+                  )}
+                  Test Connection
+                </Button>
+                
+                <Button
+                  onClick={handleRegisterModel}
+                  disabled={!apiConfig.provider || !apiConfig.model_name || !apiConfig.api_key || registerAPIMutation.isPending}
+                >
+                  {registerAPIMutation.isPending ? (
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                  ) : (
+                    <CheckCircle className="h-4 w-4 mr-2" />
+                  )}
+                  Register Model
+                </Button>
               </div>
-            )}
+            </CardContent>
+          </Card>
+        </TabsContent>
 
-            <div className="flex justify-between">
-              <Button variant="outline" onClick={() => setCurrentStep('configure')}>
-                Back to Configuration
-              </Button>
-              <Button 
-                onClick={handleCreateModel}
-                disabled={createModelMutation.isPending || uploadModelMutation.isPending}
-              >
-                {(createModelMutation.isPending || uploadModelMutation.isPending) 
-                  ? 'Creating Model...' 
-                  : 'Create Model & Run Benchmarks'
-                }
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
-      )}
+        {/* vLLM Tab */}
+        <TabsContent value="vllm" className="space-y-6">
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center">
+                <Server className="h-5 w-5 mr-2" />
+                vLLM Model Registration
+              </CardTitle>
+              <CardDescription>
+                Register models served via vLLM distributed inference
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-6">
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <Label htmlFor="vllm-endpoint">vLLM Endpoint URL *</Label>
+                  <Input
+                    id="vllm-endpoint"
+                    value={vllmConfig.endpoint_url}
+                    onChange={(e) => setVllmConfig({ ...vllmConfig, endpoint_url: e.target.value })}
+                    placeholder="http://localhost:8000"
+                  />
+                  <p className="text-xs text-muted-foreground">
+                    URL of your vLLM server endpoint
+                  </p>
+                </div>
+                
+                <div className="space-y-2">
+                  <Label htmlFor="vllm-model-name">Model Name *</Label>
+                  <Input
+                    id="vllm-model-name"
+                    value={vllmConfig.model_name}
+                    onChange={(e) => setVllmConfig({ ...vllmConfig, model_name: e.target.value })}
+                    placeholder="your-model-name"
+                  />
+                </div>
+                
+                <div className="space-y-2">
+                  <Label htmlFor="vllm-auth-token">Authentication Token (Optional)</Label>
+                  <div className="relative">
+                    <Input
+                      id="vllm-auth-token"
+                      type="password"
+                      value={vllmConfig.auth_token || ''}
+                      onChange={(e) => setVllmConfig({ ...vllmConfig, auth_token: e.target.value })}
+                      placeholder="Bearer token"
+                    />
+                    <Key className="absolute right-3 top-3 h-4 w-4 text-muted-foreground" />
+                  </div>
+                </div>
+              </div>
+              
+              <div className="flex items-center space-x-4">
+                <Button
+                  onClick={handleValidateModel}
+                  disabled={!vllmConfig.endpoint_url || !vllmConfig.model_name || isValidating}
+                  variant="outline"
+                >
+                  {isValidating ? (
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                  ) : (
+                    <Eye className="h-4 w-4 mr-2" />
+                  )}
+                  Test Endpoint
+                </Button>
+                
+                <Button
+                  onClick={handleRegisterModel}
+                  disabled={!vllmConfig.endpoint_url || !vllmConfig.model_name || registerVLLMMutation.isPending}
+                >
+                  {registerVLLMMutation.isPending ? (
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                  ) : (
+                    <CheckCircle className="h-4 w-4 mr-2" />
+                  )}
+                  Register Model
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        </TabsContent>
+
+        {/* Batch Tab */}
+        <TabsContent value="batch" className="space-y-6">
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center">
+                <FileSpreadsheet className="h-5 w-5 mr-2" />
+                Batch Model Registration
+              </CardTitle>
+              <CardDescription>
+                Register multiple models from a CSV file
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-6">
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <Label htmlFor="csv-file">CSV File *</Label>
+                  <div
+                    className="border-2 border-dashed border-muted-foreground/25 rounded-lg p-6 text-center hover:border-primary/50 transition-colors cursor-pointer"
+                    onClick={() => csvInputRef.current?.click()}
+                  >
+                    <FileSpreadsheet className="h-8 w-8 mx-auto text-muted-foreground mb-2" />
+                    <p className="text-sm font-medium mb-1">
+                      {batchConfig.csv_file ? batchConfig.csv_file.name : 'Click to select CSV file'}
+                    </p>
+                    <p className="text-xs text-muted-foreground">
+                      CSV file with model data
+                    </p>
+                    <input
+                      ref={csvInputRef}
+                      type="file"
+                      accept=".csv"
+                      onChange={handleCSVSelect}
+                      className="hidden"
+                    />
+                  </div>
+                </div>
+                
+                <div className="p-4 border rounded-lg bg-muted/50">
+                  <h4 className="font-medium mb-2">CSV Format</h4>
+                  <p className="text-xs text-muted-foreground mb-2">
+                    Required columns: name, loading_method
+                  </p>
+                  <p className="text-xs text-muted-foreground">
+                    Optional columns: family, path, provider, model_name, api_key, endpoint, modality_support, memory_gb, recommended_gpus, notes
+                  </p>
+                </div>
+              </div>
+              
+              <div className="flex items-center space-x-4">
+                <Button
+                  onClick={() => {
+                    // Create sample CSV
+                    const sampleData = [
+                      'name,family,loading_method,path,modality_support,memory_gb,recommended_gpus,notes',
+                      'Qwen2-VL-7B-Instruct,Qwen2-VL,huggingface,Qwen/Qwen2-VL-7B-Instruct,"text,image",16,1,Qwen2-VL 7B model',
+                      'LLaVA-1.5-7B,LLaVA,huggingface,llava-hf/llava-1.5-7b-hf,"text,image",16,1,LLaVA 1.5 7B model'
+                    ].join('\n');
+                    
+                    const blob = new Blob([sampleData], { type: 'text/csv' });
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'models_sample.csv';
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                  }}
+                  variant="outline"
+                >
+                  <Download className="h-4 w-4 mr-2" />
+                  Download Sample CSV
+                </Button>
+                
+                <Button
+                  onClick={handleRegisterModel}
+                  disabled={!batchConfig.csv_file || registerBatchMutation.isPending}
+                >
+                  {registerBatchMutation.isPending ? (
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                  ) : (
+                    <CheckCircle className="h-4 w-4 mr-2" />
+                  )}
+                  Register Models
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        </TabsContent>
+      </Tabs>
     </div>
   );
 }

@@ -18,6 +18,7 @@ import structlog
 from datetime import datetime
 from pathlib import Path
 from config import settings
+from services.supabase_service import supabase_service
 
 # Configure structured logging
 logger = structlog.get_logger(__name__)
@@ -210,7 +211,7 @@ class LMMSEvalRunner:
     
     def prepare_command(self) -> List[str]:
         """
-        Build comprehensive lmms-eval CLI command with all supported arguments.
+        Build comprehensive lmms-eval CLI command with support for multiple model sources.
         
         Returns:
             List[str]: Command arguments
@@ -219,14 +220,32 @@ class LMMSEvalRunner:
             # Create work directory
             work_dir = self._create_work_directory()
             
+            # Get model information from database
+            model_info = self._get_model_info()
+            loading_method = model_info.get('loading_method', 'huggingface')
+            
             # Base command
             command = ["python", "-m", "lmms_eval"]
             
-            # Model arguments
-            command.extend(["--model", self.model_id])
+            # Model arguments based on loading method
+            if loading_method == 'huggingface':
+                command.extend(["--model", self.model_id])
+                model_args = self._get_huggingface_model_args(model_info)
+            elif loading_method == 'local':
+                command.extend(["--model", self.model_id])
+                model_args = self._get_local_model_args(model_info)
+            elif loading_method == 'api':
+                command.extend(["--model", self.model_id])
+                model_args = self._get_api_model_args(model_info)
+            elif loading_method == 'vllm':
+                command.extend(["--model", self.model_id])
+                model_args = self._get_vllm_model_args(model_info)
+            else:
+                # Default to HuggingFace
+                command.extend(["--model", self.model_id])
+                model_args = self._get_model_args()
             
-            # Model-specific arguments
-            model_args = self._get_model_args()
+            # Add model-specific arguments
             if model_args:
                 for key, value in model_args.items():
                     command.extend([f"--model_args", f"{key}={value}"])
@@ -661,3 +680,133 @@ class LMMSEvalRunner:
             status["return_code"] = self.process.returncode
         
         return status
+    
+    # New helper methods for multiple model sources
+    
+    def _get_model_info(self) -> Dict[str, Any]:
+        """Get model information from database."""
+        try:
+            # Try to get model by name first, then by ID
+            model = supabase_service.get_model_by_id(self.model_id)
+            if not model:
+                # Try to find by name
+                models = supabase_service.get_models()
+                for m in models:
+                    if m.get('name') == self.model_id:
+                        model = m
+                        break
+            
+            if not model:
+                logger.warning(f"Model not found in database: {self.model_id}")
+                return {'loading_method': 'huggingface'}
+            
+            return model
+            
+        except Exception as e:
+            logger.error(f"Failed to get model info: {e}")
+            return {'loading_method': 'huggingface'}
+    
+    def _get_huggingface_model_args(self, model_info: Dict[str, Any]) -> Dict[str, Any]:
+        """Get model arguments for HuggingFace models."""
+        model_args = {}
+        
+        # Model path
+        model_path = model_info.get('model_path', self.model_id)
+        if model_path:
+            model_args['pretrained'] = model_path
+        
+        # Cache path (optional, not stored in DB)
+        # cache_path = model_info.get('cache_path')
+        # if cache_path:
+        #     model_args['cache_dir'] = cache_path
+        
+        # Model-specific configurations
+        if 'llava' in self.model_id.lower():
+            model_args['conv_template'] = 'llava_v1'
+        elif 'qwen' in self.model_id.lower():
+            model_args['conv_template'] = 'qwen_vl'
+        elif 'llama' in self.model_id.lower():
+            model_args['conv_template'] = 'llama_v2'
+        
+        # Hardware requirements (from metadata)
+        metadata = model_info.get('metadata', {})
+        hardware_req = metadata.get('hardware_requirements', {})
+        if 'min_gpu_memory' in hardware_req:
+            model_args['gpu_memory_utilization'] = 0.9
+        
+        return model_args
+    
+    def _get_local_model_args(self, model_info: Dict[str, Any]) -> Dict[str, Any]:
+        """Get model arguments for local models."""
+        model_args = {}
+        
+        # Local model path
+        model_path = model_info.get('model_path')
+        if model_path:
+            model_args['pretrained'] = model_path
+            model_args['local_only'] = True
+        
+        # Model type detection
+        model_family = model_info.get('family', '').lower()
+        if 'llava' in model_family:
+            model_args['conv_template'] = 'llava_v1'
+        elif 'qwen' in model_family:
+            model_args['conv_template'] = 'qwen_vl'
+        elif 'llama' in model_family:
+            model_args['conv_template'] = 'llama_v2'
+        
+        return model_args
+    
+    def _get_api_model_args(self, model_info: Dict[str, Any]) -> Dict[str, Any]:
+        """Get model arguments for API-based models."""
+        model_args = {}
+        
+        # API credentials
+        api_credentials = model_info.get('api_credentials', {})
+        provider = api_credentials.get('provider', 'openai')
+        api_key = api_credentials.get('api_key')
+        model_name = api_credentials.get('model_name', self.model_id)
+        
+        if api_key:
+            model_args['api_key'] = api_key
+        
+        # Provider-specific configurations
+        if provider == 'openai':
+            model_args['provider'] = 'openai'
+            model_args['model_name'] = model_name
+            model_args['api_base'] = model_info.get('api_endpoint', 'https://api.openai.com/v1')
+        elif provider == 'anthropic':
+            model_args['provider'] = 'anthropic'
+            model_args['model_name'] = model_name
+            model_args['api_base'] = model_info.get('api_endpoint', 'https://api.anthropic.com')
+        elif provider == 'google':
+            model_args['provider'] = 'google'
+            model_args['model_name'] = model_name
+            model_args['api_base'] = model_info.get('api_endpoint', 'https://generativelanguage.googleapis.com/v1')
+        
+        return model_args
+    
+    def _get_vllm_model_args(self, model_info: Dict[str, Any]) -> Dict[str, Any]:
+        """Get model arguments for vLLM-served models."""
+        model_args = {}
+        
+        # vLLM endpoint
+        api_endpoint = model_info.get('api_endpoint')
+        if api_endpoint:
+            model_args['api_url'] = api_endpoint
+            model_args['provider'] = 'vllm'
+        
+        # Authentication
+        api_credentials = model_info.get('api_credentials', {})
+        auth_token = api_credentials.get('auth_token')
+        if auth_token:
+            model_args['auth_token'] = auth_token
+        
+        # Hardware requirements (from metadata)
+        metadata = model_info.get('metadata', {})
+        hardware_req = metadata.get('hardware_requirements', {})
+        gpu_count = hardware_req.get('gpu_count', 1)
+        if gpu_count > 1:
+            model_args['tensor_parallel'] = gpu_count
+        
+        return model_args

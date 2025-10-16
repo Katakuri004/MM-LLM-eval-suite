@@ -43,9 +43,15 @@ export function Models() {
 
   const queryClient = useQueryClient();
 
-  const { data: models, isLoading } = useQuery({
-    queryKey: ['models'],
-    queryFn: () => apiClient.getModels(),
+  const [page, setPage] = useState(0);
+  const [pageSize, setPageSize] = useState(25);
+
+  const { data: models, isLoading, isFetching } = useQuery({
+    queryKey: ['models', { page, pageSize, searchTerm }],
+    queryFn: () => apiClient.getModels({ skip: page * pageSize, limit: pageSize, q: searchTerm, lean: true, sort: 'created_at:desc' }),
+    staleTime: 30_000, // 30s
+    gcTime: 300_000,   // 5m
+    refetchOnWindowFocus: false,
   });
 
   const createModelMutation = useMutation({
@@ -69,10 +75,7 @@ export function Models() {
     },
   });
 
-  const filteredModels = models?.models?.filter(model =>
-    model.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    model.family.toLowerCase().includes(searchTerm.toLowerCase())
-  ) || [];
+  const filteredModels = models?.models || [];
 
   const formatNumber = (num: number) => {
     if (num >= 1e9) return `${(num / 1e9).toFixed(1)}B`;

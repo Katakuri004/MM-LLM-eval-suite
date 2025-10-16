@@ -4,6 +4,7 @@ Complete LMMS-Eval Dashboard Backend with full functionality.
 
 import os
 import sys
+import asyncio
 from pathlib import Path
 from contextlib import asynccontextmanager
 
@@ -20,6 +21,7 @@ import structlog
 from config import get_settings
 from services.supabase_service import supabase_service
 from api.complete_api import router as api_router
+from api.websocket_endpoints import router as websocket_router, websocket_cleanup_task
 
 # Configure structured logging
 logger = structlog.get_logger(__name__)
@@ -51,6 +53,9 @@ async def lifespan(app: FastAPI):
         except Exception as db_error:
             logger.warning("Supabase initialization failed, running in limited mode", error=str(db_error))
             app.state.database_available = False
+        
+        # Start WebSocket cleanup task
+        asyncio.create_task(websocket_cleanup_task())
         
         logger.info("LMMS-Eval Dashboard Backend started successfully")
         
@@ -169,6 +174,9 @@ app.add_middleware(
 
 # Include API router
 app.include_router(api_router)
+
+# Include WebSocket router
+app.include_router(websocket_router)
 
 # Root endpoint
 @app.get("/")

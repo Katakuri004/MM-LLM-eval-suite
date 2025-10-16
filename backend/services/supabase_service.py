@@ -68,7 +68,6 @@ class SupabaseService:
         try:
             # Add timestamps
             model_data['created_at'] = datetime.utcnow().isoformat()
-            model_data['updated_at'] = datetime.utcnow().isoformat()
             
             result = self.client.table('models').insert(model_data).execute()
             
@@ -82,17 +81,61 @@ class SupabaseService:
             logger.error("Failed to create model", error=str(e))
             raise
     
-    def get_models(self, skip: int = 0, limit: int = 100) -> List[Dict[str, Any]]:
-        """Get all models."""
+    def get_models(
+        self,
+        skip: int = 0,
+        limit: int = 25,
+        q: Optional[str] = None,
+        family: Optional[str] = None,
+        sort: Optional[str] = None,
+        lean: bool = True,
+    ) -> Dict[str, Any]:
+        """Get models with pagination and optional filters.
+
+        Returns a dictionary with keys: { 'items': List[models], 'total': int }
+        """
         if not self.is_available():
-            return []
-        
+            return {"items": [], "total": 0}
+
         try:
-            result = self.client.table('models').select('*').range(skip, skip + limit - 1).execute()
-            return result.data or []
+            # Lean selection excludes heavy JSON fields to speed up list views
+            columns = (
+                "id,name,family,source,dtype,num_parameters,created_at"
+                if lean
+                else "*"
+            )
+
+            query = self.client.table('models').select(columns, count='exact')
+
+            if q:
+                # Case-insensitive partial match on name or family
+                query = query.or_(f"name.ilike.%{q}%,family.ilike.%{q}%")
+            if family:
+                query = query.ilike('family', f'%{family}%')
+
+            # Sorting: support created_at desc by default
+            if sort:
+                # Expected format: "field:asc" or "field:desc"
+                try:
+                    field, direction = sort.split(':')
+                    query = query.order(field, desc=(direction.lower() == 'desc'))
+                except Exception:
+                    query = query.order('created_at', desc=True)
+            else:
+                query = query.order('created_at', desc=True)
+
+            result = query.range(skip, skip + limit - 1).execute()
+
+            items = result.data or []
+            total = getattr(result, 'count', None)
+            # Some client versions attach count on result.count, otherwise re-count cheaply when small
+            if total is None:
+                total = len(items)
+
+            return {"items": items, "total": total}
         except Exception as e:
             logger.error("Failed to get models", error=str(e))
-            return []
+            return {"items": [], "total": 0}
     
     def get_model_by_id(self, model_id: str) -> Optional[Dict[str, Any]]:
         """Get model by ID."""
@@ -115,7 +158,6 @@ class SupabaseService:
         try:
             # Add timestamps
             benchmark_data['created_at'] = datetime.utcnow().isoformat()
-            benchmark_data['updated_at'] = datetime.utcnow().isoformat()
             
             result = self.client.table('benchmarks').insert(benchmark_data).execute()
             
@@ -162,7 +204,6 @@ class SupabaseService:
         try:
             # Add timestamps
             run_data['created_at'] = datetime.utcnow().isoformat()
-            run_data['updated_at'] = datetime.utcnow().isoformat()
             
             result = self.client.table('runs').insert(run_data).execute()
             
@@ -206,7 +247,7 @@ class SupabaseService:
             return None
         
         try:
-            update_data = {'status': status, 'updated_at': datetime.utcnow().isoformat()}
+            update_data = {'status': status}
             update_data.update(kwargs)
             
             result = self.client.table('runs').update(update_data).eq('id', run_id).execute()
@@ -229,7 +270,6 @@ class SupabaseService:
         try:
             # Add timestamps
             result_data['created_at'] = datetime.utcnow().isoformat()
-            result_data['updated_at'] = datetime.utcnow().isoformat()
             
             result = self.client.table('results').insert(result_data).execute()
             
@@ -254,6 +294,28 @@ class SupabaseService:
         except Exception as e:
             logger.error("Failed to get results", run_id=run_id, error=str(e))
             return []
+    
+    def update_model_validation_status(self, model_id: str, status: str, **kwargs) -> Optional[Dict[str, Any]]:
+        """Update model validation status."""
+        if not self.is_available():
+            return None
+        
+        try:
+            update_data = {
+                'validation_status': status,
+            }
+            update_data.update(kwargs)
+            
+            result = self.client.table('models').update(update_data).eq('id', model_id).execute()
+            
+            if result.data:
+                logger.info("Model validation status updated", model_id=model_id, status=status)
+                return result.data[0]
+            return None
+            
+        except Exception as e:
+            logger.error("Failed to update model validation status", error=str(e))
+            return None
 
 # Global Supabase service instance
 supabase_service = SupabaseService()

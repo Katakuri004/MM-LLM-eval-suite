@@ -2,13 +2,19 @@
 Complete API endpoints for the LMMS-Eval Dashboard.
 """
 
-from fastapi import APIRouter, HTTPException, Request
+from fastapi import APIRouter, HTTPException, Request, UploadFile, File, Form
+from fastapi.responses import JSONResponse
 from typing import List, Dict, Any, Optional
 from pydantic import BaseModel
 import structlog
+import os
+import shutil
+import uuid
+from pathlib import Path
 
 from services.supabase_service import supabase_service
 from services.evaluation_service import evaluation_service
+from services.model_loader_service import model_loader_service
 
 logger = structlog.get_logger(__name__)
 
@@ -43,6 +49,37 @@ class EvaluationResponse(BaseModel):
     status: str
     message: str
 
+# Model registration models
+class HuggingFaceModelRequest(BaseModel):
+    model_path: str
+    auto_detect: bool = True
+
+class LocalModelRequest(BaseModel):
+    model_dir: str
+    model_name: Optional[str] = None
+
+class APIModelRequest(BaseModel):
+    provider: str
+    model_name: str
+    api_key: str
+    endpoint: Optional[str] = None
+
+class VLLMModelRequest(BaseModel):
+    endpoint_url: str
+    model_name: str
+    auth_token: Optional[str] = None
+
+class BatchModelRequest(BaseModel):
+    models_data: List[Dict[str, Any]]
+
+class ModelValidationResponse(BaseModel):
+    model_id: str
+    status: str
+    tests: Dict[str, Any]
+    started_at: str
+    completed_at: Optional[str] = None
+    error: Optional[str] = None
+
 # Create router
 router = APIRouter(prefix="/api/v1", tags=["LMMS-Eval Dashboard"])
 
@@ -54,19 +91,42 @@ async def health_check():
 
 # Model endpoints
 @router.get("/models")
-async def get_models(request: Request, skip: int = 0, limit: int = 100):
-    """Get all models."""
+async def get_models(
+    request: Request,
+    skip: int = 0,
+    limit: int = 25,
+    q: Optional[str] = None,
+    family: Optional[str] = None,
+    sort: Optional[str] = None,
+    lean: bool = True,
+):
+    """Get models with pagination, filters, and lean payloads.
+
+    Query params:
+      - skip: offset (default 0)
+      - limit: page size (default 25)
+      - q: search term for name/family
+      - family: filter by family (ilike)
+      - sort: e.g. "created_at:desc" (default)
+      - lean: omit heavy fields (metadata) for faster responses
+    """
     try:
         # Check if database is available
         db_available = getattr(request.app.state, 'database_available', False)
         if not db_available:
             raise HTTPException(status_code=503, detail="Database not available. Use /models/fallback for sample data.")
-        
-        models = supabase_service.get_models(skip=skip, limit=limit)
-        return {
-            "models": models,
-            "total": len(models)
-        }
+
+        result = supabase_service.get_models(skip=skip, limit=limit, q=q, family=family, sort=sort, lean=lean)
+
+        # Add lightweight caching headers to speed up dev reloads
+        response = JSONResponse({
+            "models": result["items"],
+            "total": result["total"],
+            "skip": skip,
+            "limit": limit,
+        })
+        response.headers["Cache-Control"] = "public, max-age=10, stale-while-revalidate=60"
+        return response
     except HTTPException:
         raise
     except Exception as e:
@@ -103,6 +163,87 @@ async def create_model(request: Request, model_data: ModelCreate):
     except Exception as e:
         logger.error("Failed to create model", error=str(e))
         raise HTTPException(status_code=500, detail="Failed to create model")
+
+@router.post("/models/upload")
+async def upload_model_files(
+    request: Request,
+    files: List[UploadFile] = File(...),
+    model_name: str = Form(...),
+    model_family: str = Form(...),
+    model_dtype: str = Form("float16"),
+    num_parameters: int = Form(0),
+    notes: Optional[str] = Form(None),
+    selected_benchmarks: Optional[str] = Form(None)
+):
+    """Upload model files and create model entry."""
+    try:
+        # Check if database is available
+        db_available = getattr(request.app.state, 'database_available', False)
+        if not db_available:
+            raise HTTPException(status_code=503, detail="Database not available. Cannot upload models in limited mode.")
+        
+        # Create upload directory
+        upload_dir = Path("uploads") / "models" / str(uuid.uuid4())
+        upload_dir.mkdir(parents=True, exist_ok=True)
+        
+        uploaded_files = []
+        total_size = 0
+        
+        # Save uploaded files
+        for file in files:
+            if not file.filename:
+                continue
+                
+            file_path = upload_dir / file.filename
+            with open(file_path, "wb") as buffer:
+                content = await file.read()
+                buffer.write(content)
+                total_size += len(content)
+                uploaded_files.append({
+                    "filename": file.filename,
+                    "path": str(file_path),
+                    "size": len(content)
+                })
+        
+        # Parse selected benchmarks
+        benchmark_ids = []
+        if selected_benchmarks:
+            try:
+                import json
+                benchmark_ids = json.loads(selected_benchmarks)
+            except:
+                pass
+        
+        # Create model entry
+        model_data = {
+            "name": model_name,
+            "family": model_family,
+            "source": f"local://{upload_dir}",
+            "dtype": model_dtype,
+            "num_parameters": num_parameters,
+            "notes": notes,
+            "metadata": {
+                "uploaded_files": uploaded_files,
+                "total_size": total_size,
+                "selected_benchmarks": benchmark_ids,
+                "upload_id": str(upload_dir.name)
+            }
+        }
+        
+        model = supabase_service.create_model(model_data)
+        
+        return {
+            "model": model,
+            "uploaded_files": uploaded_files,
+            "total_size": total_size,
+            "upload_path": str(upload_dir)
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to upload model files", error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to upload model files")
 
 # Benchmark endpoints
 @router.get("/benchmarks")
@@ -304,7 +445,6 @@ async def get_models_fallback():
                     "notes": "LLaVA-1.5-7B model (sample data)",
                     "metadata": {"version": "1.5", "size": "7B"},
                     "created_at": "2024-01-01T00:00:00Z",
-                    "updated_at": "2024-01-01T00:00:00Z"
                 },
                 {
                     "id": "qwen2-vl-sample",
@@ -316,7 +456,6 @@ async def get_models_fallback():
                     "notes": "Qwen2-VL-14B model (sample data)",
                     "metadata": {"version": "2.0", "size": "14B"},
                     "created_at": "2024-01-01T00:00:00Z",
-                    "updated_at": "2024-01-01T00:00:00Z"
                 }
             ],
             "total": 2
@@ -341,7 +480,6 @@ async def get_benchmarks_fallback():
                 "num_samples": 1000,
                 "description": "Multimodal Evaluation benchmark (sample data)",
                 "created_at": "2024-01-01T00:00:00Z",
-                "updated_at": "2024-01-01T00:00:00Z"
             },
             {
                 "id": "vqa-sample",
@@ -354,7 +492,6 @@ async def get_benchmarks_fallback():
                 "num_samples": 500,
                 "description": "Visual Question Answering benchmark (sample data)",
                 "created_at": "2024-01-01T00:00:00Z",
-                "updated_at": "2024-01-01T00:00:00Z"
             }
         ],
         "total": 2
@@ -371,3 +508,265 @@ async def get_stats_fallback():
         "recent_runs": [],
         "mode": "fallback"
     }
+
+# Model Registration Endpoints
+
+@router.post("/models/register/huggingface")
+async def register_huggingface_model(request: Request, model_request: HuggingFaceModelRequest):
+    """Register a model from Hugging Face Hub."""
+    try:
+        # Check if database is available
+        db_available = getattr(request.app.state, 'database_available', False)
+        if not db_available:
+            raise HTTPException(status_code=503, detail="Database not available")
+        
+        # Load model from HuggingFace
+        model_metadata = model_loader_service.load_from_huggingface(
+            model_request.model_path,
+            model_request.auto_detect
+        )
+        
+        # Save to database
+        model = supabase_service.create_model(model_metadata)
+        
+        return {
+            "message": "Model registered successfully",
+            "model": model,
+            "loading_method": "huggingface"
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to register HuggingFace model", error=str(e))
+        raise HTTPException(status_code=500, detail=f"Failed to register model: {str(e)}")
+
+@router.post("/models/register/local")
+async def register_local_model(request: Request, model_request: LocalModelRequest):
+    """Register a model from local filesystem."""
+    try:
+        # Check if database is available
+        db_available = getattr(request.app.state, 'database_available', False)
+        if not db_available:
+            raise HTTPException(status_code=503, detail="Database not available")
+        
+        # Load model from local filesystem
+        model_metadata = model_loader_service.load_from_local(model_request.model_dir)
+        
+        # Override name if provided
+        if model_request.model_name:
+            model_metadata['name'] = model_request.model_name
+        
+        # Save to database
+        model = supabase_service.create_model(model_metadata)
+        
+        return {
+            "message": "Model registered successfully",
+            "model": model,
+            "loading_method": "local"
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to register local model", error=str(e))
+        raise HTTPException(status_code=500, detail=f"Failed to register model: {str(e)}")
+
+@router.post("/models/register/api")
+async def register_api_model(request: Request, model_request: APIModelRequest):
+    """Register an API-based model (OpenAI, Anthropic, etc.)."""
+    try:
+        # Check if database is available
+        db_available = getattr(request.app.state, 'database_available', False)
+        if not db_available:
+            raise HTTPException(status_code=503, detail="Database not available")
+        
+        # Register API model
+        model_metadata = model_loader_service.register_api_model(
+            model_request.provider,
+            model_request.model_name,
+            model_request.api_key,
+            model_request.endpoint
+        )
+        
+        # Save to database
+        model = supabase_service.create_model(model_metadata)
+        
+        return {
+            "message": "API model registered successfully",
+            "model": model,
+            "loading_method": "api"
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to register API model", error=str(e))
+        raise HTTPException(status_code=500, detail=f"Failed to register model: {str(e)}")
+
+@router.post("/models/register/vllm")
+async def register_vllm_model(request: Request, model_request: VLLMModelRequest):
+    """Register a vLLM-served model endpoint."""
+    try:
+        # Check if database is available
+        db_available = getattr(request.app.state, 'database_available', False)
+        if not db_available:
+            raise HTTPException(status_code=503, detail="Database not available")
+        
+        # Register vLLM model
+        model_metadata = model_loader_service.register_vllm_endpoint(
+            model_request.endpoint_url,
+            model_request.model_name,
+            model_request.auth_token
+        )
+        
+        # Save to database
+        model = supabase_service.create_model(model_metadata)
+        
+        return {
+            "message": "vLLM model registered successfully",
+            "model": model,
+            "loading_method": "vllm"
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to register vLLM model", error=str(e))
+        raise HTTPException(status_code=500, detail=f"Failed to register model: {str(e)}")
+
+@router.post("/models/register/batch")
+async def register_batch_models(request: Request, batch_request: BatchModelRequest):
+    """Register multiple models in batch."""
+    try:
+        # Check if database is available
+        db_available = getattr(request.app.state, 'database_available', False)
+        if not db_available:
+            raise HTTPException(status_code=503, detail="Database not available")
+        
+        # Register models in batch
+        results = model_loader_service.batch_register_models(batch_request.models_data)
+        
+        return {
+            "message": "Batch registration completed",
+            "results": results
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to register batch models", error=str(e))
+        raise HTTPException(status_code=500, detail=f"Failed to register models: {str(e)}")
+
+@router.post("/models/upload")
+async def upload_model_files(
+    request: Request,
+    model_name: str = Form(...),
+    model_family: str = Form(...),
+    files: List[UploadFile] = File(...)
+):
+    """Upload model files and register the model."""
+    try:
+        # Check if database is available
+        db_available = getattr(request.app.state, 'database_available', False)
+        if not db_available:
+            raise HTTPException(status_code=503, detail="Database not available")
+        
+        # Create upload directory
+        upload_dir = Path("backend/uploads/models") / model_name
+        upload_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Save uploaded files
+        for file in files:
+            file_path = upload_dir / file.filename
+            with open(file_path, "wb") as buffer:
+                shutil.copyfileobj(file.file, buffer)
+        
+        # Register as local model
+        model_metadata = model_loader_service.load_from_local(str(upload_dir))
+        model_metadata['name'] = model_name
+        model_metadata['family'] = model_family
+        
+        # Save to database
+        model = supabase_service.create_model(model_metadata)
+        
+        return {
+            "message": "Model files uploaded and registered successfully",
+            "model": model,
+            "upload_path": str(upload_dir)
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to upload model files", error=str(e))
+        raise HTTPException(status_code=500, detail=f"Failed to upload model: {str(e)}")
+
+@router.get("/models/detect")
+async def detect_model_config(model_source: str):
+    """Auto-detect model configuration from source."""
+    try:
+        # Detect loading method
+        loading_method = model_loader_service.detect_loading_method(model_source)
+        
+        # Get additional info based on method
+        detection_info = {
+            "source": model_source,
+            "detected_method": loading_method,
+            "suggested_config": {}
+        }
+        
+        if loading_method == "huggingface":
+            detection_info["suggested_config"] = {
+                "auto_detect": True,
+                "modality_support": ["text", "image", "video", "audio"]
+            }
+        elif loading_method == "local":
+            detection_info["suggested_config"] = {
+                "validation_required": True,
+                "file_check": True
+            }
+        elif loading_method == "api":
+            detection_info["suggested_config"] = {
+                "api_key_required": True,
+                "endpoint_test": True
+            }
+        elif loading_method == "vllm":
+            detection_info["suggested_config"] = {
+                "endpoint_test": True,
+                "auth_optional": True
+            }
+        
+        return detection_info
+        
+    except Exception as e:
+        logger.error("Failed to detect model config", error=str(e))
+        raise HTTPException(status_code=500, detail=f"Failed to detect model: {str(e)}")
+
+@router.get("/models/validate/{model_id}")
+async def validate_model(model_id: str):
+    """Validate model accessibility and functionality."""
+    try:
+        # Validate model
+        validation_results = model_loader_service.validate_model(model_id)
+        
+        return ModelValidationResponse(**validation_results)
+        
+    except Exception as e:
+        logger.error("Failed to validate model", model_id=model_id, error=str(e))
+        raise HTTPException(status_code=500, detail=f"Failed to validate model: {str(e)}")
+
+@router.get("/models/{model_id}/variants")
+async def get_model_variants(model_id: str):
+    """Get model variants/checkpoints."""
+    try:
+        # This would query the model_variants table
+        # For now, return empty list
+        return {
+            "model_id": model_id,
+            "variants": []
+        }
+        
+    except Exception as e:
+        logger.error("Failed to get model variants", model_id=model_id, error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to get model variants")

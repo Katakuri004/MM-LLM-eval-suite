@@ -69,8 +69,16 @@ export class ApiClient {
   }
 
   // Models API
-  async getModels(skip = 0, limit = 100) {
-    return this.request<{ models: Model[]; total: number }>(`/models?skip=${skip}&limit=${limit}`);
+  async getModels(params: { skip?: number; limit?: number; q?: string; family?: string; sort?: string; lean?: boolean } = {}) {
+    const { skip = 0, limit = 25, q, family, sort, lean = true } = params;
+    const query = new URLSearchParams();
+    query.set('skip', String(skip));
+    query.set('limit', String(limit));
+    if (q) query.set('q', q);
+    if (family) query.set('family', family);
+    if (sort) query.set('sort', sort);
+    if (lean !== undefined) query.set('lean', String(lean));
+    return this.request<{ models: Model[]; total: number; skip: number; limit: number }>(`/models?${query.toString()}`);
   }
 
   async getModel(id: string) {
@@ -81,6 +89,54 @@ export class ApiClient {
     return this.request<Model>('/models', {
       method: 'POST',
       body: JSON.stringify(modelData),
+    });
+  }
+
+  // Model registration methods
+  async registerHuggingFaceModel(config: { model_path: string; auto_detect: boolean }): Promise<any> {
+    return this.request('/models/register/huggingface', {
+      method: 'POST',
+      body: JSON.stringify(config),
+    });
+  }
+
+  async registerLocalModel(config: { model_dir: string; model_name?: string }): Promise<any> {
+    return this.request('/models/register/local', {
+      method: 'POST',
+      body: JSON.stringify(config),
+    });
+  }
+
+  async registerAPIModel(config: { provider: string; model_name: string; api_key: string; endpoint?: string }): Promise<any> {
+    return this.request('/models/register/api', {
+      method: 'POST',
+      body: JSON.stringify(config),
+    });
+  }
+
+  async registerVLLMModel(config: { endpoint_url: string; model_name: string; auth_token?: string }): Promise<any> {
+    return this.request('/models/register/vllm', {
+      method: 'POST',
+      body: JSON.stringify(config),
+    });
+  }
+
+  async registerBatchModels(modelsData: any[]): Promise<any> {
+    return this.request('/models/register/batch', {
+      method: 'POST',
+      body: JSON.stringify({ models_data: modelsData }),
+    });
+  }
+
+  async detectModelConfig(modelSource: string): Promise<any> {
+    return this.request(`/models/detect?model_source=${encodeURIComponent(modelSource)}`, {
+      method: 'GET',
+    });
+  }
+
+  async validateModel(modelId: string): Promise<any> {
+    return this.request(`/models/validate/${modelId}`, {
+      method: 'GET',
     });
   }
 

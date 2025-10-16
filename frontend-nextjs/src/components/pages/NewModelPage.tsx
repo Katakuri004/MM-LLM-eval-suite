@@ -165,6 +165,11 @@ export function NewModelPage() {
       router.push(`/models`);
     },
     onError: (error: any) => {
+      // Show friendly duplicate error
+      if (error?.status === 409 && error?.details?.code === 'MODEL_NAME_TAKEN') {
+        toast.error(error.details.message || 'Model with this name already exists.');
+        return;
+      }
       toast.error(`Failed to register HuggingFace model: ${error.message}`);
     },
   });
@@ -178,6 +183,10 @@ export function NewModelPage() {
       router.push(`/models`);
     },
     onError: (error: any) => {
+      if (error?.status === 409 && error?.details?.code === 'MODEL_NAME_TAKEN') {
+        toast.error(error.details.message || 'Model with this name already exists.');
+        return;
+      }
       toast.error(`Failed to register local model: ${error.message}`);
     },
   });
@@ -191,6 +200,10 @@ export function NewModelPage() {
       router.push(`/models`);
     },
     onError: (error: any) => {
+      if (error?.status === 409 && error?.details?.code === 'MODEL_NAME_TAKEN') {
+        toast.error(error.details.message || 'Model with this name already exists.');
+        return;
+      }
       toast.error(`Failed to register API model: ${error.message}`);
     },
   });
@@ -204,6 +217,10 @@ export function NewModelPage() {
       router.push(`/models`);
     },
     onError: (error: any) => {
+      if (error?.status === 409 && error?.details?.code === 'MODEL_NAME_TAKEN') {
+        toast.error(error.details.message || 'Model with this name already exists.');
+        return;
+      }
       toast.error(`Failed to register vLLM model: ${error.message}`);
     },
   });
@@ -579,9 +596,32 @@ export function NewModelPage() {
               {validationResults && (
                 <div className="p-4 border rounded-lg bg-muted/50">
                   <h4 className="font-medium mb-2">Detection Results</h4>
-                  <pre className="text-xs bg-background p-2 rounded border overflow-auto">
-                    {JSON.stringify(validationResults, null, 2)}
-                  </pre>
+                  <div className="text-sm space-y-2">
+                    <div>
+                      <span className="font-medium">Source:</span> {validationResults?.source}
+                    </div>
+                    <div>
+                      <span className="font-medium">Detected Method:</span> {validationResults?.detected_method}
+                    </div>
+                    {validationResults?.suggested_config && (
+                      <div>
+                        <div className="font-medium mb-1">Suggested Configuration</div>
+                        {validationResults?.suggested_config?.auto_detect !== undefined && (
+                          <div>Auto-detect: {String(validationResults.suggested_config.auto_detect)}</div>
+                        )}
+                        {Array.isArray(validationResults?.suggested_config?.modality_support) && (
+                          <div>
+                            Modalities:
+                            <div className="mt-1 flex flex-wrap gap-1">
+                              {validationResults.suggested_config.modality_support.map((m: string) => (
+                                <Badge key={m} variant="secondary">{m}</Badge>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
                 </div>
               )}
             </CardContent>

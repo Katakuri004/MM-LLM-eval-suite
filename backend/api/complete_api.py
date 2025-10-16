@@ -89,6 +89,42 @@ async def health_check():
     """Health check endpoint."""
     return {"status": "healthy", "service": "LMMS-Eval Dashboard API"}
 
+# Quick compatibility endpoint to ensure detection works even if another route shadows it
+@router.get("/models/detect2")
+async def detect_model_config_alt(model_source: str):
+    """Alternate auto-detect endpoint (workaround for any path-matching issues)."""
+    try:
+        loading_method = model_loader_service.detect_loading_method(model_source)
+        detection_info = {
+            "source": model_source,
+            "detected_method": loading_method,
+            "suggested_config": {}
+        }
+        if loading_method == "huggingface":
+            detection_info["suggested_config"] = {
+                "auto_detect": True,
+                "modality_support": ["text", "image", "video", "audio"]
+            }
+        elif loading_method == "local":
+            detection_info["suggested_config"] = {
+                "validation_required": True,
+                "file_check": True
+            }
+        elif loading_method == "api":
+            detection_info["suggested_config"] = {
+                "api_key_required": True,
+                "endpoint_test": True
+            }
+        elif loading_method == "vllm":
+            detection_info["suggested_config"] = {
+                "endpoint_test": True,
+                "auth_optional": True
+            }
+        return detection_info
+    except Exception as e:
+        logger.error("Failed to detect model config (alt)", error=str(e))
+        raise HTTPException(status_code=500, detail=f"Failed to detect model: {str(e)}")
+
 # Model endpoints
 @router.get("/models")
 async def get_models(
@@ -538,8 +574,19 @@ async def register_huggingface_model(request: Request, model_request: HuggingFac
     except HTTPException:
         raise
     except Exception as e:
-        logger.error("Failed to register HuggingFace model", error=str(e))
-        raise HTTPException(status_code=500, detail=f"Failed to register model: {str(e)}")
+        # Friendly duplicate handling for unique name constraint
+        msg = str(e)
+        if 'duplicate key value' in msg or 'already exists' in msg or 'models_name_key' in msg:
+            raise HTTPException(
+                status_code=409,
+                detail={
+                    "code": "MODEL_NAME_TAKEN",
+                    "message": "A model with this name already exists. Choose a different name or update the existing model.",
+                    "conflict_field": "name"
+                }
+            )
+        logger.error("Failed to register HuggingFace model", error=msg)
+        raise HTTPException(status_code=500, detail=f"Failed to register model: {msg}")
 
 @router.post("/models/register/local")
 async def register_local_model(request: Request, model_request: LocalModelRequest):
@@ -569,8 +616,18 @@ async def register_local_model(request: Request, model_request: LocalModelReques
     except HTTPException:
         raise
     except Exception as e:
-        logger.error("Failed to register local model", error=str(e))
-        raise HTTPException(status_code=500, detail=f"Failed to register model: {str(e)}")
+        msg = str(e)
+        if 'duplicate key value' in msg or 'already exists' in msg or 'models_name_key' in msg:
+            raise HTTPException(
+                status_code=409,
+                detail={
+                    "code": "MODEL_NAME_TAKEN",
+                    "message": "A model with this name already exists. Choose a different name or update the existing model.",
+                    "conflict_field": "name"
+                }
+            )
+        logger.error("Failed to register local model", error=msg)
+        raise HTTPException(status_code=500, detail=f"Failed to register model: {msg}")
 
 @router.post("/models/register/api")
 async def register_api_model(request: Request, model_request: APIModelRequest):
@@ -601,8 +658,18 @@ async def register_api_model(request: Request, model_request: APIModelRequest):
     except HTTPException:
         raise
     except Exception as e:
-        logger.error("Failed to register API model", error=str(e))
-        raise HTTPException(status_code=500, detail=f"Failed to register model: {str(e)}")
+        msg = str(e)
+        if 'duplicate key value' in msg or 'already exists' in msg or 'models_name_key' in msg:
+            raise HTTPException(
+                status_code=409,
+                detail={
+                    "code": "MODEL_NAME_TAKEN",
+                    "message": "A model with this name already exists. Choose a different name or update the existing model.",
+                    "conflict_field": "name"
+                }
+            )
+        logger.error("Failed to register API model", error=msg)
+        raise HTTPException(status_code=500, detail=f"Failed to register model: {msg}")
 
 @router.post("/models/register/vllm")
 async def register_vllm_model(request: Request, model_request: VLLMModelRequest):
@@ -632,8 +699,18 @@ async def register_vllm_model(request: Request, model_request: VLLMModelRequest)
     except HTTPException:
         raise
     except Exception as e:
-        logger.error("Failed to register vLLM model", error=str(e))
-        raise HTTPException(status_code=500, detail=f"Failed to register model: {str(e)}")
+        msg = str(e)
+        if 'duplicate key value' in msg or 'already exists' in msg or 'models_name_key' in msg:
+            raise HTTPException(
+                status_code=409,
+                detail={
+                    "code": "MODEL_NAME_TAKEN",
+                    "message": "A model with this name already exists. Choose a different name or update the existing model.",
+                    "conflict_field": "name"
+                }
+            )
+        logger.error("Failed to register vLLM model", error=msg)
+        raise HTTPException(status_code=500, detail=f"Failed to register model: {msg}")
 
 @router.post("/models/register/batch")
 async def register_batch_models(request: Request, batch_request: BatchModelRequest):

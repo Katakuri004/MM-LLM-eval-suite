@@ -77,6 +77,26 @@ export function Models() {
 
   const filteredModels = models?.models || [];
 
+  const startEvaluation = async (modelId: string) => {
+    try {
+      // Use a simple default for now: run on all available benchmarks
+      const bench = await apiClient.getBenchmarks();
+      const benchmarkIds = (bench?.benchmarks || []).map(b => b.id);
+      if (benchmarkIds.length === 0) {
+        toast.error('No benchmarks available to run.');
+        return;
+      }
+      const resp = await apiClient.createEvaluation({
+        model_id: modelId,
+        benchmark_ids: benchmarkIds,
+        config: { batch_size: 1, max_samples: 50 },
+      });
+      toast.success('Evaluation started');
+    } catch (e: any) {
+      toast.error(`Failed to start evaluation: ${e.message}`);
+    }
+  };
+
   const formatNumber = (num: number) => {
     if (num >= 1e9) return `${(num / 1e9).toFixed(1)}B`;
     if (num >= 1e6) return `${(num / 1e6).toFixed(1)}M`;
@@ -275,7 +295,7 @@ export function Models() {
                     <Edit className="h-4 w-4 mr-1" />
                     Edit
                   </Button>
-                  <Button size="sm" variant="outline" className="flex-1">
+                  <Button size="sm" variant="outline" className="flex-1" onClick={() => startEvaluation(model.id)}>
                     <Cpu className="h-4 w-4 mr-1" />
                     Evaluate
                   </Button>

@@ -43,11 +43,15 @@ export class ApiClient {
       
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({}));
-        throw new ApiError(
-          errorData.detail || errorData.message || `HTTP ${response.status}`,
-          response.status,
-          errorData
-        );
+        // Normalize message: FastAPI may return detail as string or object
+        const detail = (errorData && errorData.detail) as any;
+        const normalizedMessage =
+          typeof detail === 'string'
+            ? detail
+            : (detail && (detail.message || detail.error)) ||
+              errorData.message ||
+              `HTTP ${response.status}`;
+        throw new ApiError(normalizedMessage, response.status, errorData);
       }
 
       return await response.json();
@@ -129,9 +133,19 @@ export class ApiClient {
   }
 
   async detectModelConfig(modelSource: string): Promise<any> {
-    return this.request(`/models/detect?model_source=${encodeURIComponent(modelSource)}`, {
-      method: 'GET',
-    });
+    // Prefer the alternate endpoint that is confirmed to work; fallback to the original
+    try {
+      return await this.request(`/models/detect2?model_source=${encodeURIComponent(modelSource)}`, {
+        method: 'GET',
+      });
+    } catch (err) {
+      const is404 = err instanceof ApiError && err.status === 404;
+      if (!is404) throw err;
+      // Fallback to the primary path if alternate is unavailable
+      return this.request(`/models/detect?model_source=${encodeURIComponent(modelSource)}`, {
+        method: 'GET',
+      });
+    }
   }
 
   async validateModel(modelId: string): Promise<any> {
@@ -206,6 +220,23 @@ export class ApiClient {
   }
 
   // Runs API (evaluations are called "runs" in the backend)
+  // Evaluations (preferred endpoints)
+  async createEvaluation(data: {
+    model_id: string;
+    benchmark_ids: string[];
+    config: Record<string, any>;
+    run_name?: string;
+  }) {
+    return this.request<{
+      run_id: string;
+      status: string;
+      message: string;
+    }>(`/evaluations`, {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+  }
+
   async createRun(runData: CreateRunRequest) {
     return this.request<RunResponse>('/runs/create', {
       method: 'POST',

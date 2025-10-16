@@ -48,9 +48,7 @@ class EvaluationService:
             logger.info("Evaluation run created", run_id=run_id)
             
             # Start evaluation task
-            task = asyncio.create_task(
-                self._run_evaluation(run_id, model_id, benchmark_ids, config)
-            )
+            task = asyncio.create_task(self._run_evaluation(run_id, model_id, benchmark_ids, config))
             self.active_runs[run_id] = task
             
             return run_id
@@ -125,7 +123,8 @@ class EvaluationService:
             logger.info("Prepared lmms-eval command", command=command)
             
             # Execute the evaluation with real-time monitoring
-            results = await self._run_lmms_eval_command(runner.run_id, command)
+            # The runner doesn't store run_id; pass our run_id
+            results = await self._run_lmms_eval_command(run_id, command, runner.lmms_eval_path)
             
             return results
             
@@ -133,7 +132,7 @@ class EvaluationService:
             logger.error("Failed to execute runner", error=str(e))
             raise
     
-    async def _run_lmms_eval_command(self, run_id: str, command: List[str]) -> Dict[str, Any]:
+    async def _run_lmms_eval_command(self, run_id: str, command: List[str], workdir: str) -> Dict[str, Any]:
         """Run the actual lmms-eval command with real-time monitoring."""
         import subprocess
         import asyncio
@@ -145,7 +144,7 @@ class EvaluationService:
                 *command,
                 stdout=asyncio.subprocess.PIPE,
                 stderr=asyncio.subprocess.STDOUT,
-                cwd=runner.lmms_eval_path
+                cwd=workdir
             )
             
             logger.info("Started lmms-eval process", run_id=run_id, pid=process.pid)

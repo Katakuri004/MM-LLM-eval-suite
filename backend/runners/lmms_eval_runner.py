@@ -17,7 +17,7 @@ from typing import List, Dict, Any, Generator, Optional, Union
 import structlog
 from datetime import datetime
 from pathlib import Path
-from config import settings
+from config import get_settings
 from services.supabase_service import supabase_service
 
 # Configure structured logging
@@ -54,6 +54,7 @@ class LMMSEvalRunner:
         self.model_id = model_id
         self.benchmark_ids = benchmark_ids
         self.config = config
+        self.settings = get_settings()
         self.lmms_eval_path = lmms_eval_path or self._find_lmms_eval_path()
         self.process: Optional[subprocess.Popen] = None
         self.log_file: Optional[str] = None
@@ -79,8 +80,8 @@ class LMMSEvalRunner:
             str: Path to lmms-eval installation
         """
         # First check if path is configured in settings
-        if hasattr(settings, 'lmms_eval_path') and settings.lmms_eval_path:
-            configured_path = settings.lmms_eval_path
+        if hasattr(self.settings, 'lmms_eval_path') and self.settings.lmms_eval_path:
+            configured_path = self.settings.lmms_eval_path
             if os.path.exists(os.path.join(configured_path, "lmms_eval")):
                 logger.info(f"Using configured lmms-eval path: {configured_path}")
                 return configured_path

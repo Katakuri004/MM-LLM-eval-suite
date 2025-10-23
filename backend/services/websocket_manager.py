@@ -36,8 +36,9 @@ class WebSocketManager:
             if not self.active_connections[client_id]:
                 del self.active_connections[client_id]
         
-        # Remove from evaluation connections
-        for evaluation_id, connections in self.evaluation_connections.items():
+        # Remove from evaluation connections (create copy to avoid dict changed during iteration)
+        evaluation_connections_copy = dict(self.evaluation_connections)
+        for evaluation_id, connections in evaluation_connections_copy.items():
             connections.discard(websocket)
             if not connections:
                 del self.evaluation_connections[evaluation_id]

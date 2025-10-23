@@ -29,6 +29,7 @@ import structlog
 
 from services.supabase_service import supabase_service
 from services.websocket_manager import websocket_manager
+from services.task_discovery_service import task_discovery_service
 
 logger = structlog.get_logger(__name__)
 
@@ -265,6 +266,11 @@ class ProductionEvaluationOrchestrator:
                     benchmark=benchmark['name']
                 )
             
+            # Validate task mapping
+            mapped_task = await self._map_benchmark_name(benchmark)
+            if not mapped_task:
+                raise ValueError(f"Benchmark '{benchmark['name']}' cannot be mapped to a valid lmms-eval task")
+            
             valid_benchmarks.append(benchmark)
         
         # Validate configuration
@@ -441,18 +447,28 @@ class ProductionEvaluationOrchestrator:
             benchmarks = [b for b in benchmarks if b is not None]
             
             # Build command
-            command = self._build_lmms_eval_command(
+            command = await self._build_lmms_eval_command(
                 model, benchmarks, request.config, workdir
             )
             logger.info("Built command", command=" ".join(command))
             
-            # Execute with monitoring
+            # Execute with monitoring (this is now properly async)
             start_time = datetime.utcnow()
+            logger.info("Starting async evaluation execution", 
+                       evaluation_id=evaluation_id,
+                       command=" ".join(command))
+            
             results = await self._execute_with_monitoring(
                 evaluation_id, command, workdir
             )
+            
             end_time = datetime.utcnow()
             duration = (end_time - start_time).total_seconds()
+            
+            logger.info("Evaluation execution completed", 
+                       evaluation_id=evaluation_id,
+                       duration=duration,
+                       results_found=bool(results))
             
             # Parse and store results
             await self._update_status(evaluation_id, EvaluationStatus.PARSING_RESULTS)
@@ -520,7 +536,7 @@ class ProductionEvaluationOrchestrator:
                 except Exception as e:
                     logger.warning("Failed to cleanup workspace", error=str(e))
     
-    def _build_lmms_eval_command(
+    async def _build_lmms_eval_command(
         self,
         model: Dict[str, Any],
         benchmarks: List[Dict[str, Any]],
@@ -535,9 +551,18 @@ class ProductionEvaluationOrchestrator:
         # Map model to lmms-eval model name
         model_name = self._map_model_name(model)
         
-        # Get benchmark task names
-        task_names = [self._map_benchmark_name(b) for b in benchmarks]
+        # Get benchmark task names using async mapping (filter out None values)
+        task_names = []
+        for benchmark in benchmarks:
+            mapped_task = await self._map_benchmark_name(benchmark)
+            if mapped_task:
+                task_names.append(mapped_task)
+        
+        if not task_names:
+            raise ValueError("No valid tasks found for evaluation")
+        
         tasks_str = ",".join(task_names)
+        logger.info("Using tasks for evaluation", tasks=task_names)
         
         # Build command
         command = [
@@ -583,11 +608,30 @@ class ProductionEvaluationOrchestrator:
             # Use family name as default
             return model_family or 'llava'
     
-    def _map_benchmark_name(self, benchmark: Dict[str, Any]) -> str:
-        """Map dashboard benchmark to lmms-eval task name."""
-        # Use the task_name field if available, otherwise use name
-        task_name = benchmark.get('task_name') or benchmark.get('name', '')
-        return task_name.lower().replace(' ', '_')
+    async def _map_benchmark_name(self, benchmark: Dict[str, Any]) -> Optional[str]:
+        """Map dashboard benchmark to lmms-eval task name using task discovery service."""
+        try:
+            # Use the task discovery service to map the benchmark
+            mapped_task = await task_discovery_service.map_benchmark_to_task(benchmark)
+            
+            if mapped_task:
+                logger.info("Benchmark mapping successful", 
+                           original=benchmark.get('name', ''),
+                           mapped=mapped_task,
+                           benchmark_id=benchmark.get('id'))
+                return mapped_task
+            else:
+                logger.warning("No valid task mapping found for benchmark", 
+                             benchmark_name=benchmark.get('name', ''),
+                             benchmark_id=benchmark.get('id'))
+                return None
+                
+        except Exception as e:
+            logger.error("Failed to map benchmark to task", 
+                        benchmark=benchmark.get('name', ''),
+                        benchmark_id=benchmark.get('id'),
+                        error=str(e))
+            return None
     
     def _build_model_args(self, model: Dict[str, Any]) -> str:
         """Build model arguments string."""
@@ -636,8 +680,9 @@ class ProductionEvaluationOrchestrator:
         
         def read_stream(stream, output_queue):
             """Read stream in a separate thread."""
-            for line in iter(stream.readline, b''):
-                output_queue.put(line.decode('utf-8', errors='replace').strip())
+            for line in iter(stream.readline, ''):
+                if line:
+                    output_queue.put(line.strip())
             stream.close()
         
         # Start process
@@ -733,13 +778,50 @@ class ProductionEvaluationOrchestrator:
         if process.returncode != 0:
             raise RuntimeError(f"lmms-eval exited with code {process.returncode}")
         
-        # Read results
+        # Wait for results file to be created and populated
         results_file = workdir / "results" / "results.json"
-        if not results_file.exists():
-            raise RuntimeError("Results file not found")
+        max_wait_time = 30  # Wait up to 30 seconds for results
+        wait_interval = 1   # Check every 1 second
         
-        with open(results_file, 'r') as f:
-            results = json.load(f)
+        for attempt in range(max_wait_time):
+            if results_file.exists():
+                # Check if file has content (not just created)
+                try:
+                    with open(results_file, 'r') as f:
+                        content = f.read().strip()
+                        if content:  # File has content
+                            results = json.loads(content)
+                            break
+                except (json.JSONDecodeError, FileNotFoundError):
+                    pass  # File might be being written, continue waiting
+            
+            if attempt < max_wait_time - 1:  # Don't sleep on last attempt
+                await asyncio.sleep(wait_interval)
+        else:
+            # If we get here, results file still doesn't exist or is empty
+            logger.warning("Results file not found or empty after waiting", 
+                          results_file=str(results_file), 
+                          workdir_contents=list(workdir.iterdir()) if workdir.exists() else [])
+            
+            # Try to find any result files in the output directory
+            output_dir = workdir / "results"
+            if output_dir.exists():
+                result_files = list(output_dir.glob("*.json"))
+                logger.info("Found result files", files=[str(f) for f in result_files])
+                
+                if result_files:
+                    # Use the first available result file
+                    results_file = result_files[0]
+                    try:
+                        with open(results_file, 'r') as f:
+                            results = json.load(f)
+                    except Exception as e:
+                        logger.error("Failed to read result file", file=str(results_file), error=str(e))
+                        raise RuntimeError(f"Failed to read results from {results_file}: {e}")
+                else:
+                    raise RuntimeError("No result files found in output directory")
+            else:
+                raise RuntimeError("Results directory not found")
         
         return results
     

@@ -15,6 +15,7 @@ from pathlib import Path
 from services.supabase_service import supabase_service
 from services.evaluation_service import evaluation_service
 from services.model_loader_service import model_loader_service
+from services.task_discovery_service import task_discovery_service
 from api.evaluation_endpoints import router as evaluation_router
 
 logger = structlog.get_logger(__name__)
@@ -756,3 +757,82 @@ async def get_model_variants(model_id: str):
     except Exception as e:
         logger.error("Failed to get model variants", model_id=model_id, error=str(e))
         raise HTTPException(status_code=500, detail="Failed to get model variants")
+
+
+# Task Management Endpoints
+@router.get("/tasks/available")
+async def get_available_tasks():
+    """Get all available lmms-eval tasks."""
+    try:
+        tasks = await task_discovery_service.get_available_tasks()
+        return {
+            "tasks": tasks,
+            "count": len(tasks)
+        }
+    except Exception as e:
+        logger.error("Failed to get available tasks", error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to get available tasks")
+
+
+@router.post("/tasks/refresh")
+async def refresh_task_cache():
+    """Force refresh the task cache."""
+    try:
+        tasks = await task_discovery_service.refresh_task_cache()
+        return {
+            "message": "Task cache refreshed successfully",
+            "tasks": tasks,
+            "count": len(tasks)
+        }
+    except Exception as e:
+        logger.error("Failed to refresh task cache", error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to refresh task cache")
+
+
+@router.get("/tasks/compatible/{model_id}")
+async def get_compatible_tasks_for_model(model_id: str):
+    """Get tasks compatible with a specific model."""
+    try:
+        # Check if model exists
+        model = supabase_service.get_model(model_id)
+        if not model:
+            raise HTTPException(status_code=404, detail="Model not found")
+        
+        compatible_tasks = await task_discovery_service.get_compatible_tasks_for_model(model_id)
+        return {
+            "model_id": model_id,
+            "compatible_tasks": compatible_tasks,
+            "count": len(compatible_tasks)
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to get compatible tasks", model_id=model_id, error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to get compatible tasks")
+
+
+@router.post("/tasks/validate")
+async def validate_tasks(request: Dict[str, List[str]]):
+    """Validate that task names exist in lmms-eval."""
+    try:
+        task_names = request.get("task_names", [])
+        if not task_names:
+            raise HTTPException(status_code=400, detail="No task names provided")
+        
+        validation_results = await task_discovery_service.validate_tasks(task_names)
+        
+        valid_tasks = [task for task, is_valid in validation_results.items() if is_valid]
+        invalid_tasks = [task for task, is_valid in validation_results.items() if not is_valid]
+        
+        return {
+            "validation_results": validation_results,
+            "valid_tasks": valid_tasks,
+            "invalid_tasks": invalid_tasks,
+            "valid_count": len(valid_tasks),
+            "invalid_count": len(invalid_tasks)
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to validate tasks", error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to validate tasks")

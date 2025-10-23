@@ -195,6 +195,24 @@ class SupabaseService:
             logger.error("Failed to get benchmark", benchmark_id=benchmark_id, error=str(e))
             return None
     
+    def update_benchmark_task_name(self, benchmark_id: str, task_name: str) -> bool:
+        """Update benchmark task name."""
+        if not self.is_available():
+            return False
+        
+        try:
+            result = self.client.table('benchmarks').update({
+                'task_name': task_name
+            }).eq('id', benchmark_id).execute()
+            
+            return len(result.data) > 0
+        except Exception as e:
+            logger.error("Failed to update benchmark task name", 
+                        benchmark_id=benchmark_id, 
+                        task_name=task_name, 
+                        error=str(e))
+            return False
+    
     # Run operations
     def create_run(self, run_data: Dict[str, Any]) -> Dict[str, Any]:
         """Create a new run (alias for create_evaluation)."""

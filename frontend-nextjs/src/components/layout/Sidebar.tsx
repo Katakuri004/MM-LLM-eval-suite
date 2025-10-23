@@ -108,17 +108,6 @@ const navigationItems: SidebarItem[] = [
     icon: BarChart3,
   },
   {
-    name: 'Documentation',
-    href: '/docs',
-    icon: BookOpen,
-    children: [
-      { name: 'Getting Started', href: '/docs/start', icon: HelpCircle },
-      { name: 'API Reference', href: '/docs/api', icon: FileText },
-      { name: 'Benchmark Guide', href: '/docs/benchmarks', icon: Target },
-      { name: 'Model Guide', href: '/docs/models', icon: Brain },
-    ]
-  },
-  {
     name: 'Settings',
     href: '/settings',
     icon: Settings,

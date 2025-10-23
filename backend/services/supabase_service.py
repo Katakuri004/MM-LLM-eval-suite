@@ -197,103 +197,29 @@ class SupabaseService:
     
     # Run operations
     def create_run(self, run_data: Dict[str, Any]) -> Dict[str, Any]:
-        """Create a new run."""
-        if not self.is_available():
-            raise RuntimeError("Supabase not available")
-        
-        try:
-            # Add timestamps
-            run_data['created_at'] = datetime.utcnow().isoformat()
-            
-            result = self.client.table('runs').insert(run_data).execute()
-            
-            if result.data:
-                logger.info("Run created successfully", run_id=result.data[0]['id'])
-                return result.data[0]
-            else:
-                raise RuntimeError("Failed to create run")
-                
-        except Exception as e:
-            logger.error("Failed to create run", error=str(e))
-            raise
+        """Create a new run (alias for create_evaluation)."""
+        return self.create_evaluation(run_data)
     
     def get_runs(self, skip: int = 0, limit: int = 100) -> List[Dict[str, Any]]:
-        """Get all runs."""
-        if not self.is_available():
-            return []
-        
-        try:
-            result = self.client.table('runs').select('*').range(skip, skip + limit - 1).execute()
-            return result.data or []
-        except Exception as e:
-            logger.error("Failed to get runs", error=str(e))
-            return []
+        """Get all runs (alias for get_evaluations)."""
+        return self.get_evaluations(skip=skip, limit=limit)
     
     def get_run_by_id(self, run_id: str) -> Optional[Dict[str, Any]]:
-        """Get run by ID."""
-        if not self.is_available():
-            return None
-        
-        try:
-            result = self.client.table('runs').select('*').eq('id', run_id).execute()
-            return result.data[0] if result.data else None
-        except Exception as e:
-            logger.error("Failed to get run", run_id=run_id, error=str(e))
-            return None
+        """Get run by ID (alias for get_evaluation)."""
+        return self.get_evaluation(run_id)
     
     def update_run_status(self, run_id: str, status: str, **kwargs) -> Optional[Dict[str, Any]]:
-        """Update run status."""
-        if not self.is_available():
-            return None
-        
-        try:
-            update_data = {'status': status}
-            update_data.update(kwargs)
-            
-            result = self.client.table('runs').update(update_data).eq('id', run_id).execute()
-            
-            if result.data:
-                logger.info("Run status updated", run_id=run_id, status=status)
-                return result.data[0]
-            return None
-            
-        except Exception as e:
-            logger.error("Failed to update run status", error=str(e))
-            return None
+        """Update run status (alias for update_evaluation)."""
+        return self.update_evaluation(run_id, {'status': status, **kwargs})
     
     # Result operations
     def create_result(self, result_data: Dict[str, Any]) -> Dict[str, Any]:
-        """Create a new result."""
-        if not self.is_available():
-            raise RuntimeError("Supabase not available")
-        
-        try:
-            # Add timestamps
-            result_data['created_at'] = datetime.utcnow().isoformat()
-            
-            result = self.client.table('results').insert(result_data).execute()
-            
-            if result.data:
-                logger.info("Result created successfully", result_id=result.data[0]['id'])
-                return result.data[0]
-            else:
-                raise RuntimeError("Failed to create result")
-                
-        except Exception as e:
-            logger.error("Failed to create result", error=str(e))
-            raise
+        """Create a new result (alias for create_evaluation_result)."""
+        return self.create_evaluation_result(result_data)
     
     def get_results_by_run_id(self, run_id: str) -> List[Dict[str, Any]]:
-        """Get results by run ID."""
-        if not self.is_available():
-            return []
-        
-        try:
-            result = self.client.table('results').select('*').eq('run_id', run_id).execute()
-            return result.data or []
-        except Exception as e:
-            logger.error("Failed to get results", run_id=run_id, error=str(e))
-            return []
+        """Get results by run ID (alias for get_evaluation_results)."""
+        return self.get_evaluation_results(run_id)
     
     def update_model_validation_status(self, model_id: str, status: str, **kwargs) -> Optional[Dict[str, Any]]:
         """Update model validation status."""

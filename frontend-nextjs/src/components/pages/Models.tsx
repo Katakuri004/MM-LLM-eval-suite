@@ -14,6 +14,8 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { EvaluationDialog } from '@/components/EvaluationDialog';
 // import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { apiClient, CreateModelRequest } from '@/lib/api';
 import { 
@@ -24,13 +26,28 @@ import {
   Cpu,
   Database,
   FileText,
-  Upload
+  Upload,
+  Filter,
+  SortAsc,
+  SortDesc,
+  X,
+  Type,
+  Image,
+  Volume2,
+  Video,
+  Layers
 } from 'lucide-react';
 import { toast } from 'sonner';
 
 export function Models() {
   const [searchTerm, setSearchTerm] = useState('');
+  const [sortBy, setSortBy] = useState<'created_at' | 'name'>('created_at');
+  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
+  const [modalityFilter, setModalityFilter] = useState<string>('all');
+  const [familyFilter, setFamilyFilter] = useState<string>('all');
   const [isCreateDialogOpen, setIsCreateDialogOpen] = useState(false);
+  const [isEvaluationDialogOpen, setIsEvaluationDialogOpen] = useState(false);
+  const [selectedModelForEvaluation, setSelectedModelForEvaluation] = useState<any>(null);
   const [newModel, setNewModel] = useState<CreateModelRequest>({
     name: '',
     family: '',
@@ -44,11 +61,22 @@ export function Models() {
   const queryClient = useQueryClient();
 
   const [page, setPage] = useState(0);
-  const [pageSize, setPageSize] = useState(25);
+  const [pageSize, setPageSize] = useState(10);
 
   const { data: models, isLoading, isFetching } = useQuery({
-    queryKey: ['models', { page, pageSize, searchTerm }],
-    queryFn: () => apiClient.getModels({ skip: page * pageSize, limit: pageSize, q: searchTerm, lean: true, sort: 'created_at:desc' }),
+    queryKey: ['models', { page, pageSize, searchTerm, sortBy, sortOrder, modalityFilter, familyFilter }],
+    queryFn: () => {
+      const sortParam = `${sortBy}:${sortOrder}`;
+      const familyParam = familyFilter !== 'all' ? familyFilter : undefined;
+      return apiClient.getModels({ 
+        skip: page * pageSize, 
+        limit: pageSize, 
+        q: searchTerm, 
+        family: familyParam,
+        lean: true, 
+        sort: sortParam 
+      });
+    },
     staleTime: 30_000, // 30s
     gcTime: 300_000,   // 5m
     refetchOnWindowFocus: false,
@@ -75,7 +103,34 @@ export function Models() {
     },
   });
 
-  const filteredModels = models?.models || [];
+  // Client-side filtering for modality (since backend doesn't have modality field yet)
+  const filteredModels = (models?.models || []).filter((model) => {
+    if (modalityFilter === 'all') return true;
+    
+    // For now, we'll infer modality from model name and family
+    const modelName = model.name.toLowerCase();
+    const modelFamily = model.family.toLowerCase();
+    
+    switch (modalityFilter) {
+      case 'text':
+        return modelFamily.includes('gpt') || modelFamily.includes('claude') || 
+               modelFamily.includes('palm') || modelName.includes('text');
+      case 'image':
+        return modelFamily.includes('llava') || modelFamily.includes('blip') || 
+               modelFamily.includes('flamingo') || modelName.includes('vision') ||
+               modelName.includes('image');
+      case 'audio':
+        return modelName.includes('whisper') || modelName.includes('audio') ||
+               modelFamily.includes('whisper');
+      case 'video':
+        return modelName.includes('video') || modelName.includes('temporal');
+      case 'multimodal':
+        return modelFamily.includes('llava') || modelFamily.includes('blip') ||
+               modelFamily.includes('flamingo') || modelName.includes('multimodal');
+      default:
+        return true;
+    }
+  });
 
   const startEvaluation = async (modelId: string) => {
     try {
@@ -110,6 +165,32 @@ export function Models() {
       return;
     }
     createModelMutation.mutate(newModel);
+  };
+
+  // Pagination logic
+  const totalPages = Math.ceil((models?.total || 0) / pageSize);
+  const currentPage = page + 1; // Convert from 0-based to 1-based for display
+
+  const goToPage = (newPage: number) => {
+    setPage(Math.max(0, Math.min(newPage - 1, totalPages - 1)));
+  };
+
+  const goToNextPage = () => {
+    if (currentPage < totalPages) {
+      setPage(page + 1);
+    }
+  };
+
+  const goToPreviousPage = () => {
+    if (page > 0) {
+      setPage(page - 1);
+    }
+  };
+
+  // Reset to first page when filters change
+  const handleFilterChange = (newFilter: string, setter: (value: string) => void) => {
+    setter(newFilter);
+    setPage(0); // Reset to first page when filters change
   };
 
   if (isLoading) {
@@ -247,17 +328,172 @@ export function Models() {
         </div>
       </div>
 
-      {/* Search */}
-      <div className="flex items-center space-x-2">
-        <div className="relative flex-1 max-w-sm">
-          <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
-          <Input
-            placeholder="Search models..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="pl-8"
-          />
+      {/* Filters and Search */}
+      <div className="space-y-4">
+        {/* Search Bar */}
+        <div className="flex items-center space-x-2">
+          <div className="relative flex-1 max-w-sm">
+            <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
+            <Input
+              placeholder="Search models..."
+              value={searchTerm}
+              onChange={(e) => {
+                setSearchTerm(e.target.value);
+                setPage(0); // Reset to first page when search changes
+              }}
+              className="pl-8"
+            />
+          </div>
         </div>
+
+        {/* Filter and Sort Controls */}
+        <div className="flex flex-wrap items-center gap-4">
+          {/* Sort Controls */}
+          <div className="flex items-center space-x-2">
+            <Label htmlFor="sort-by" className="text-sm font-medium">Sort by:</Label>
+            <Select value={sortBy} onValueChange={(value: 'created_at' | 'name') => setSortBy(value)}>
+              <SelectTrigger className="w-40">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="created_at">Recently Added</SelectItem>
+                <SelectItem value="name">Alphabetical</SelectItem>
+              </SelectContent>
+            </Select>
+            
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}
+              className="px-2"
+            >
+              {sortOrder === 'asc' ? <SortAsc className="h-4 w-4" /> : <SortDesc className="h-4 w-4" />}
+            </Button>
+          </div>
+
+          {/* Modality Filter */}
+          <div className="flex items-center space-x-2">
+            <Label htmlFor="modality-filter" className="text-sm font-medium">Modality:</Label>
+            <Select value={modalityFilter} onValueChange={(value) => handleFilterChange(value, setModalityFilter)}>
+              <SelectTrigger className="w-32">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All</SelectItem>
+                <SelectItem value="text">Text</SelectItem>
+                <SelectItem value="audio">Audio</SelectItem>
+                <SelectItem value="video">Video</SelectItem>
+                <SelectItem value="image">Image</SelectItem>
+                <SelectItem value="multimodal">Multi-modal</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+
+          {/* Family Filter */}
+          <div className="flex items-center space-x-2">
+            <Label htmlFor="family-filter" className="text-sm font-medium">Family:</Label>
+            <Select value={familyFilter} onValueChange={(value) => handleFilterChange(value, setFamilyFilter)}>
+              <SelectTrigger className="w-32">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All</SelectItem>
+                <SelectItem value="OpenAI">OpenAI</SelectItem>
+                <SelectItem value="Qwen">Qwen</SelectItem>
+                <SelectItem value="Gemini">Gemini</SelectItem>
+                <SelectItem value="LLaVA">LLaVA</SelectItem>
+                <SelectItem value="Claude">Claude</SelectItem>
+                <SelectItem value="GPT">GPT</SelectItem>
+                <SelectItem value="PaLM">PaLM</SelectItem>
+                <SelectItem value="Flamingo">Flamingo</SelectItem>
+                <SelectItem value="BLIP">BLIP</SelectItem>
+                <SelectItem value="InstructBLIP">InstructBLIP</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+
+          {/* Page Size Selector */}
+          <div className="flex items-center space-x-2">
+            <Label htmlFor="page-size" className="text-sm font-medium">Per page:</Label>
+            <Select value={pageSize.toString()} onValueChange={(value) => {
+              setPageSize(parseInt(value));
+              setPage(0); // Reset to first page when page size changes
+            }}>
+              <SelectTrigger className="w-20">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="5">5</SelectItem>
+                <SelectItem value="10">10</SelectItem>
+                <SelectItem value="20">20</SelectItem>
+                <SelectItem value="50">50</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+
+          {/* Clear Filters */}
+          {(modalityFilter !== 'all' || familyFilter !== 'all' || searchTerm) && (
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => {
+                setModalityFilter('all');
+                setFamilyFilter('all');
+                setSearchTerm('');
+                setPage(0); // Reset to first page when clearing filters
+              }}
+              className="text-muted-foreground"
+            >
+              <X className="h-4 w-4 mr-1" />
+              Clear Filters
+            </Button>
+          )}
+        </div>
+
+        {/* Active Filters Display */}
+        {(modalityFilter !== 'all' || familyFilter !== 'all' || searchTerm) && (
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-sm text-muted-foreground">Active filters:</span>
+            {searchTerm && (
+              <Badge variant="secondary" className="text-xs">
+                Search: "{searchTerm}"
+              </Badge>
+            )}
+            {modalityFilter !== 'all' && (
+              <Badge variant="secondary" className="text-xs">
+                Modality: {modalityFilter}
+              </Badge>
+            )}
+            {familyFilter !== 'all' && (
+              <Badge variant="secondary" className="text-xs">
+                Family: {familyFilter}
+              </Badge>
+            )}
+            <Badge variant="outline" className="text-xs">
+              Sort: {sortBy === 'created_at' ? 'Recently Added' : 'Alphabetical'} ({sortOrder === 'desc' ? 'Desc' : 'Asc'})
+            </Badge>
+          </div>
+        )}
+      </div>
+
+      {/* Results Count and Pagination Info */}
+      <div className="flex items-center justify-between">
+        <div className="flex items-center space-x-4">
+          <p className="text-sm text-muted-foreground">
+            Showing {page * pageSize + 1}-{Math.min((page + 1) * pageSize, models?.total || 0)} of {models?.total || 0} models
+          </p>
+          {totalPages > 1 && (
+            <p className="text-sm text-muted-foreground">
+              Page {currentPage} of {totalPages}
+            </p>
+          )}
+        </div>
+        {isFetching && (
+          <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+            <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-primary"></div>
+            <span>Loading...</span>
+          </div>
+        )}
       </div>
 
       {/* Models Grid */}
@@ -267,7 +503,47 @@ export function Models() {
             <CardHeader>
               <div className="flex items-center justify-between">
                 <CardTitle className="text-lg">{model.name}</CardTitle>
-                <Badge variant="outline">{model.family}</Badge>
+                <div className="flex items-center space-x-2">
+                  <Badge variant="outline">{model.family}</Badge>
+                  {(() => {
+                    // Determine modality based on model name and family
+                    const modelName = model.name.toLowerCase();
+                    const modelFamily = model.family.toLowerCase();
+                    
+                    let modality = 'text'; // default
+                    let modalityColor = 'bg-blue-100 text-blue-800';
+                    let modalityIcon = <Type className="h-3 w-3" />;
+                    
+                    if (modelFamily.includes('llava') || modelFamily.includes('blip') || 
+                        modelFamily.includes('flamingo') || modelName.includes('vision') ||
+                        modelName.includes('image')) {
+                      modality = 'image';
+                      modalityColor = 'bg-green-100 text-green-800';
+                      modalityIcon = <Image className="h-3 w-3" />;
+                    } else if (modelName.includes('whisper') || modelName.includes('audio') ||
+                               modelFamily.includes('whisper')) {
+                      modality = 'audio';
+                      modalityColor = 'bg-purple-100 text-purple-800';
+                      modalityIcon = <Volume2 className="h-3 w-3" />;
+                    } else if (modelName.includes('video') || modelName.includes('temporal')) {
+                      modality = 'video';
+                      modalityColor = 'bg-orange-100 text-orange-800';
+                      modalityIcon = <Video className="h-3 w-3" />;
+                    } else if (modelFamily.includes('llava') || modelFamily.includes('blip') ||
+                               modelFamily.includes('flamingo') || modelName.includes('multimodal')) {
+                      modality = 'multi-modal';
+                      modalityColor = 'bg-pink-100 text-pink-800';
+                      modalityIcon = <Layers className="h-3 w-3" />;
+                    }
+                    
+                    return (
+                      <Badge className={`${modalityColor} border-0 flex items-center space-x-1`}>
+                        {modalityIcon}
+                        <span>{modality}</span>
+                      </Badge>
+                    );
+                  })()}
+                </div>
               </div>
               <CardDescription className="flex items-center space-x-2">
                 <Database className="h-4 w-4" />
@@ -295,7 +571,15 @@ export function Models() {
                     <Edit className="h-4 w-4 mr-1" />
                     Edit
                   </Button>
-                  <Button size="sm" variant="outline" className="flex-1" onClick={() => startEvaluation(model.id)}>
+                  <Button 
+                    size="sm" 
+                    variant="outline" 
+                    className="flex-1" 
+                    onClick={() => {
+                      setSelectedModelForEvaluation(model);
+                      setIsEvaluationDialogOpen(true);
+                    }}
+                  >
                     <Cpu className="h-4 w-4 mr-1" />
                     Evaluate
                   </Button>
@@ -305,6 +589,101 @@ export function Models() {
           </Card>
         ))}
       </div>
+
+      {/* Pagination Controls */}
+      {totalPages > 1 && (
+        <div className="flex items-center justify-center space-x-2 py-4">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={goToPreviousPage}
+            disabled={page === 0}
+            className="flex items-center space-x-1"
+          >
+            <span>←</span>
+            <span>Previous</span>
+          </Button>
+          
+          {/* Page Numbers */}
+          <div className="flex items-center space-x-1">
+            {(() => {
+              const pages = [];
+              const maxVisiblePages = 5;
+              let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+              let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+              
+              // Adjust start if we're near the end
+              if (endPage - startPage + 1 < maxVisiblePages) {
+                startPage = Math.max(1, endPage - maxVisiblePages + 1);
+              }
+              
+              // First page
+              if (startPage > 1) {
+                pages.push(
+                  <Button
+                    key={1}
+                    variant={currentPage === 1 ? "default" : "outline"}
+                    size="sm"
+                    onClick={() => goToPage(1)}
+                    className="w-8 h-8 p-0"
+                  >
+                    1
+                  </Button>
+                );
+                if (startPage > 2) {
+                  pages.push(<span key="ellipsis1" className="px-2 text-muted-foreground">...</span>);
+                }
+              }
+              
+              // Middle pages
+              for (let i = startPage; i <= endPage; i++) {
+                pages.push(
+                  <Button
+                    key={i}
+                    variant={currentPage === i ? "default" : "outline"}
+                    size="sm"
+                    onClick={() => goToPage(i)}
+                    className="w-8 h-8 p-0"
+                  >
+                    {i}
+                  </Button>
+                );
+              }
+              
+              // Last page
+              if (endPage < totalPages) {
+                if (endPage < totalPages - 1) {
+                  pages.push(<span key="ellipsis2" className="px-2 text-muted-foreground">...</span>);
+                }
+                pages.push(
+                  <Button
+                    key={totalPages}
+                    variant={currentPage === totalPages ? "default" : "outline"}
+                    size="sm"
+                    onClick={() => goToPage(totalPages)}
+                    className="w-8 h-8 p-0"
+                  >
+                    {totalPages}
+                  </Button>
+                );
+              }
+              
+              return pages;
+            })()}
+          </div>
+          
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={goToNextPage}
+            disabled={currentPage >= totalPages}
+            className="flex items-center space-x-1"
+          >
+            <span>Next</span>
+            <span>→</span>
+          </Button>
+        </div>
+      )}
 
       {filteredModels.length === 0 && (
         <Card>
@@ -325,6 +704,18 @@ export function Models() {
             )}
           </CardContent>
         </Card>
+      )}
+
+      {/* Evaluation Dialog */}
+      {selectedModelForEvaluation && (
+        <EvaluationDialog
+          isOpen={isEvaluationDialogOpen}
+          onClose={() => {
+            setIsEvaluationDialogOpen(false);
+            setSelectedModelForEvaluation(null);
+          }}
+          model={selectedModelForEvaluation}
+        />
       )}
     </div>
   );

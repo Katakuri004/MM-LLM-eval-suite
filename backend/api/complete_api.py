@@ -320,8 +320,8 @@ async def get_benchmark(benchmark_id: str):
 async def create_benchmark(benchmark_data: BenchmarkCreate):
     """Create a new benchmark."""
     try:
-        benchmark = db_service.create_benchmark(benchmark_data.dict())
-        return benchmark.to_dict()
+        benchmark = supabase_service.create_benchmark(benchmark_data.dict())
+        return benchmark
     except Exception as e:
         logger.error("Failed to create benchmark", error=str(e))
         raise HTTPException(status_code=500, detail="Failed to create benchmark")

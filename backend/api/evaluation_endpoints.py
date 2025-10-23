@@ -8,7 +8,10 @@ from typing import List, Dict, Any, Optional
 from pydantic import BaseModel
 import structlog
 
-from services.enhanced_evaluation_service import enhanced_evaluation_service
+from services.production_evaluation_orchestrator import (
+    production_orchestrator,
+    EvaluationRequest as OrchestratorRequest
+)
 from services.supabase_service import supabase_service
 from services.websocket_manager import websocket_manager
 
@@ -42,37 +45,35 @@ class EvaluationStatus(BaseModel):
 # Evaluation endpoints
 @router.post("/", response_model=EvaluationResponse)
 async def create_evaluation(request: EvaluationRequest):
-    """Start a new evaluation."""
+    """Start a new evaluation using the production orchestrator."""
     try:
-        # Validate model exists
-        model = supabase_service.get_model_by_id(request.model_id)
-        if not model:
-            raise HTTPException(status_code=404, detail="Model not found")
-        
-        # Validate benchmarks exist
-        for benchmark_id in request.benchmark_ids:
-            benchmark = supabase_service.get_benchmark_by_id(benchmark_id)
-            if not benchmark:
-                raise HTTPException(status_code=404, detail=f"Benchmark {benchmark_id} not found")
-        
-        # Start evaluation
-        evaluation_id = await enhanced_evaluation_service.start_evaluation(
+        # Convert API request to orchestrator request
+        orchestrator_request = OrchestratorRequest(
             model_id=request.model_id,
             benchmark_ids=request.benchmark_ids,
+            name=request.name,
             config=request.config,
-            evaluation_name=request.name
+            user_id=None  # Add user authentication later
         )
         
-        logger.info("Evaluation started", evaluation_id=evaluation_id, model_id=request.model_id)
+        # Start evaluation
+        evaluation_id = await production_orchestrator.start_evaluation(orchestrator_request)
+        
+        # Get evaluation details
+        evaluation = supabase_service.get_evaluation(evaluation_id)
         
         return EvaluationResponse(
             evaluation_id=evaluation_id,
-            status="started",
-            message=f"Evaluation {evaluation_id} started successfully"
+            status=evaluation['status'],
+            message="Evaluation started successfully"
         )
         
-    except HTTPException:
-        raise
+    except ValueError as e:
+        logger.error("Validation error", error=str(e))
+        raise HTTPException(status_code=400, detail=str(e))
+    except RuntimeError as e:
+        logger.error("Runtime error", error=str(e))
+        raise HTTPException(status_code=503, detail=str(e))
     except Exception as e:
         logger.error("Failed to create evaluation", error=str(e))
         raise HTTPException(status_code=500, detail=f"Failed to start evaluation: {str(e)}")
@@ -157,43 +158,41 @@ async def get_evaluation_results(evaluation_id: str):
 async def cancel_evaluation(evaluation_id: str):
     """Cancel a running evaluation."""
     try:
+        # Check evaluation exists
         evaluation = supabase_service.get_evaluation(evaluation_id)
         if not evaluation:
             raise HTTPException(status_code=404, detail="Evaluation not found")
         
+        # Check if cancellable
         if evaluation['status'] not in ['pending', 'running']:
-            raise HTTPException(status_code=400, detail="Evaluation cannot be cancelled")
+            raise HTTPException(
+                status_code=400,
+                detail=f"Cannot cancel evaluation in status: {evaluation['status']}"
+            )
         
-        # Cancel the evaluation
-        success = await enhanced_evaluation_service.cancel_evaluation(evaluation_id)
+        # Cancel using orchestrator
+        success = await production_orchestrator.cancel_evaluation(evaluation_id)
         
         if success:
-            return {"message": f"Evaluation {evaluation_id} cancelled successfully"}
+            return {"message": "Evaluation cancelled successfully"}
         else:
-            return {"message": f"Evaluation {evaluation_id} was not running"}
-        
+            raise HTTPException(status_code=500, detail="Failed to cancel evaluation")
+            
     except HTTPException:
         raise
     except Exception as e:
         logger.error("Failed to cancel evaluation", evaluation_id=evaluation_id, error=str(e))
-        raise HTTPException(status_code=500, detail="Failed to cancel evaluation")
+        raise HTTPException(status_code=500, detail=str(e))
 
 @router.get("/active")
 async def get_active_evaluations():
     """Get list of active evaluation IDs."""
     try:
-        active_evaluation_ids = enhanced_evaluation_service.get_active_evaluations()
-        
-        # Get details for active evaluations
-        active_evaluations = []
-        for evaluation_id in active_evaluation_ids:
-            evaluation = supabase_service.get_evaluation(evaluation_id)
-            if evaluation:
-                active_evaluations.append(evaluation)
+        active_ids = production_orchestrator.get_active_evaluations()
         
         return {
-            "active_evaluations": active_evaluations,
-            "count": len(active_evaluations)
+            "active_evaluations": active_ids,
+            "count": len(active_ids)
         }
         
     except Exception as e:

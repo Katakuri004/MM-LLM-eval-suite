@@ -6,6 +6,7 @@
 
 import { useQuery } from '@tanstack/react-query';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { CardHoverEffect } from '@/components/ui/card-hover-effect';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
@@ -19,7 +20,8 @@ import {
   Clock,
   CheckCircle,
   XCircle,
-  AlertCircle
+  AlertCircle,
+  ArrowRight
 } from 'lucide-react';
 import Link from 'next/link';
 
@@ -97,57 +99,85 @@ export function Dashboard() {
 
       {/* Stats Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">Total Models</CardTitle>
-            <Brain className="h-4 w-4 text-muted-foreground" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold">{stats?.total_models || 0}</div>
-            <p className="text-xs text-muted-foreground">
-              Available for evaluation
-            </p>
-          </CardContent>
-        </Card>
+        <Link href="/models">
+          <CardHoverEffect className="cursor-pointer">
+            <Card>
+              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                <CardTitle className="text-sm font-medium">Total Models</CardTitle>
+                <div className="flex items-center space-x-2">
+                  <Brain className="h-4 w-4 text-muted-foreground" />
+                  <ArrowRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="text-2xl font-bold">{stats?.total_models || 0}</div>
+                <p className="text-xs text-muted-foreground">
+                  Available for evaluation
+                </p>
+              </CardContent>
+            </Card>
+          </CardHoverEffect>
+        </Link>
 
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">Benchmarks</CardTitle>
-            <BarChart3 className="h-4 w-4 text-muted-foreground" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold">{stats?.total_benchmarks || 0}</div>
-            <p className="text-xs text-muted-foreground">
-              Evaluation benchmarks
-            </p>
-          </CardContent>
-        </Card>
+        <Link href="/benchmarks">
+          <CardHoverEffect className="cursor-pointer">
+            <Card>
+              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                <CardTitle className="text-sm font-medium">Benchmarks</CardTitle>
+                <div className="flex items-center space-x-2">
+                  <BarChart3 className="h-4 w-4 text-muted-foreground" />
+                  <ArrowRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="text-2xl font-bold">{stats?.total_benchmarks || 0}</div>
+                <p className="text-xs text-muted-foreground">
+                  Evaluation benchmarks
+                </p>
+              </CardContent>
+            </Card>
+          </CardHoverEffect>
+        </Link>
 
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">Total Runs</CardTitle>
-            <Activity className="h-4 w-4 text-muted-foreground" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold">{stats?.total_runs || 0}</div>
-            <p className="text-xs text-muted-foreground">
-              All-time evaluations
-            </p>
-          </CardContent>
-        </Card>
+        <Link href="/evaluations">
+          <CardHoverEffect className="cursor-pointer">
+            <Card>
+              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                <CardTitle className="text-sm font-medium">Total Runs</CardTitle>
+                <div className="flex items-center space-x-2">
+                  <Activity className="h-4 w-4 text-muted-foreground" />
+                  <ArrowRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="text-2xl font-bold">{stats?.total_runs || 0}</div>
+                <p className="text-xs text-muted-foreground">
+                  All-time evaluations
+                </p>
+              </CardContent>
+            </Card>
+          </CardHoverEffect>
+        </Link>
 
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">Active Runs</CardTitle>
-            <TrendingUp className="h-4 w-4 text-muted-foreground" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold">{activeRuns?.active_runs?.length || 0}</div>
-            <p className="text-xs text-muted-foreground">
-              Currently running
-            </p>
-          </CardContent>
-        </Card>
+        <Link href="/evaluations?status=running">
+          <CardHoverEffect className="cursor-pointer">
+            <Card>
+              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                <CardTitle className="text-sm font-medium">Active Runs</CardTitle>
+                <div className="flex items-center space-x-2">
+                  <TrendingUp className="h-4 w-4 text-muted-foreground" />
+                  <ArrowRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="text-2xl font-bold">{activeRuns?.active_runs?.length || 0}</div>
+                <p className="text-xs text-muted-foreground">
+                  Currently running
+                </p>
+              </CardContent>
+            </Card>
+          </CardHoverEffect>
+        </Link>
       </div>
 
       {/* Status Breakdown */}

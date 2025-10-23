@@ -414,8 +414,9 @@ class EvaluationService:
         elif run.get("status") == "failed":
             return 0
         elif run.get("status") == "running":
-            # This would be calculated based on actual progress
-            return 50  # Placeholder
+            # Get actual progress from evaluation_progress table
+            progress = supabase_service.get_evaluation_progress(run_id)
+            return progress.get("progress_percentage", 0) if progress else 0
         else:
             return 0
     

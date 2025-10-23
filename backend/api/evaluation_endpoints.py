@@ -40,7 +40,7 @@ class EvaluationStatus(BaseModel):
     error_message: Optional[str]
 
 # Evaluation endpoints
-@router.post("/evaluations", response_model=EvaluationResponse)
+@router.post("/", response_model=EvaluationResponse)
 async def create_evaluation(request: EvaluationRequest):
     """Start a new evaluation."""
     try:
@@ -77,7 +77,7 @@ async def create_evaluation(request: EvaluationRequest):
         logger.error("Failed to create evaluation", error=str(e))
         raise HTTPException(status_code=500, detail=f"Failed to start evaluation: {str(e)}")
 
-@router.get("/evaluations")
+@router.get("/")
 async def get_evaluations(skip: int = 0, limit: int = 100, model_id: Optional[str] = None):
     """Get evaluations with optional filtering."""
     try:
@@ -104,7 +104,7 @@ async def get_evaluations(skip: int = 0, limit: int = 100, model_id: Optional[st
         logger.error("Failed to get evaluations", error=str(e))
         raise HTTPException(status_code=500, detail="Failed to get evaluations")
 
-@router.get("/evaluations/{evaluation_id}")
+@router.get("/{evaluation_id}")
 async def get_evaluation(evaluation_id: str):
     """Get evaluation details."""
     try:
@@ -131,7 +131,7 @@ async def get_evaluation(evaluation_id: str):
         logger.error("Failed to get evaluation", evaluation_id=evaluation_id, error=str(e))
         raise HTTPException(status_code=500, detail="Failed to get evaluation")
 
-@router.get("/evaluations/{evaluation_id}/results")
+@router.get("/{evaluation_id}/results")
 async def get_evaluation_results(evaluation_id: str):
     """Get evaluation results."""
     try:
@@ -153,7 +153,7 @@ async def get_evaluation_results(evaluation_id: str):
         logger.error("Failed to get evaluation results", evaluation_id=evaluation_id, error=str(e))
         raise HTTPException(status_code=500, detail="Failed to get evaluation results")
 
-@router.delete("/evaluations/{evaluation_id}")
+@router.delete("/{evaluation_id}")
 async def cancel_evaluation(evaluation_id: str):
     """Cancel a running evaluation."""
     try:
@@ -178,7 +178,7 @@ async def cancel_evaluation(evaluation_id: str):
         logger.error("Failed to cancel evaluation", evaluation_id=evaluation_id, error=str(e))
         raise HTTPException(status_code=500, detail="Failed to cancel evaluation")
 
-@router.get("/evaluations/active")
+@router.get("/active")
 async def get_active_evaluations():
     """Get list of active evaluation IDs."""
     try:
@@ -201,7 +201,7 @@ async def get_active_evaluations():
         raise HTTPException(status_code=500, detail="Failed to get active evaluations")
 
 # WebSocket endpoint for real-time updates
-@router.websocket("/ws/evaluations/{evaluation_id}")
+@router.websocket("/ws/{evaluation_id}")
 async def websocket_evaluation_updates(websocket: WebSocket, evaluation_id: str):
     """WebSocket endpoint for real-time evaluation updates."""
     await websocket_manager.connect_to_evaluation(websocket, evaluation_id)

@@ -330,106 +330,11 @@ async def create_benchmark(benchmark_data: BenchmarkCreate):
         logger.error("Failed to create benchmark", error=str(e))
         raise HTTPException(status_code=500, detail="Failed to create benchmark")
 
-# Evaluation endpoints
-@router.post("/evaluations", response_model=EvaluationResponse)
-async def create_evaluation(evaluation_data: EvaluationRequest):
-    """Start a new evaluation."""
-    try:
-        run_id = await evaluation_service.start_evaluation(
-            model_id=evaluation_data.model_id,
-            benchmark_ids=evaluation_data.benchmark_ids,
-            config=evaluation_data.config,
-            run_name=evaluation_data.run_name
-        )
-        
-        return EvaluationResponse(
-            run_id=run_id,
-            status="started",
-            message="Evaluation started successfully"
-        )
-    except Exception as e:
-        logger.error("Failed to start evaluation", error=str(e))
-        raise HTTPException(status_code=500, detail="Failed to start evaluation")
+# Evaluation endpoints are handled by the imported evaluation_router
 
-@router.get("/evaluations")
-async def get_evaluations(skip: int = 0, limit: int = 100):
-    """Get all evaluations."""
-    try:
-        runs = db_service.get_runs(skip=skip, limit=limit)
-        return {
-            "evaluations": [run.to_dict() for run in runs],
-            "total": len(runs)
-        }
-    except Exception as e:
-        logger.error("Failed to get evaluations", error=str(e))
-        raise HTTPException(status_code=500, detail="Failed to get evaluations")
+# All evaluation endpoints are handled by the imported evaluation_router
 
-@router.get("/evaluations/{run_id}")
-async def get_evaluation(run_id: str):
-    """Get evaluation by ID."""
-    try:
-        run = db_service.get_run_by_id(run_id)
-        if not run:
-            raise HTTPException(status_code=404, detail="Evaluation not found")
-        return run.to_dict()
-    except HTTPException:
-        raise
-    except Exception as e:
-        logger.error("Failed to get evaluation", run_id=run_id, error=str(e))
-        raise HTTPException(status_code=500, detail="Failed to get evaluation")
-
-@router.get("/evaluations/{run_id}/status")
-async def get_evaluation_status(run_id: str):
-    """Get evaluation status."""
-    try:
-        status = await evaluation_service.get_run_status(run_id)
-        if not status:
-            raise HTTPException(status_code=404, detail="Evaluation not found")
-        return status
-    except HTTPException:
-        raise
-    except Exception as e:
-        logger.error("Failed to get evaluation status", run_id=run_id, error=str(e))
-        raise HTTPException(status_code=500, detail="Failed to get evaluation status")
-
-@router.get("/evaluations/{run_id}/results")
-async def get_evaluation_results(run_id: str):
-    """Get evaluation results."""
-    try:
-        results = await evaluation_service.get_run_results(run_id)
-        if not results:
-            raise HTTPException(status_code=404, detail="Evaluation not found")
-        return results
-    except HTTPException:
-        raise
-    except Exception as e:
-        logger.error("Failed to get evaluation results", run_id=run_id, error=str(e))
-        raise HTTPException(status_code=500, detail="Failed to get evaluation results")
-
-@router.delete("/evaluations/{run_id}")
-async def cancel_evaluation(run_id: str):
-    """Cancel an active evaluation."""
-    try:
-        success = await evaluation_service.cancel_run(run_id)
-        if not success:
-            raise HTTPException(status_code=404, detail="Evaluation not found or not active")
-        return {"message": "Evaluation cancelled successfully"}
-    except HTTPException:
-        raise
-    except Exception as e:
-        logger.error("Failed to cancel evaluation", run_id=run_id, error=str(e))
-        raise HTTPException(status_code=500, detail="Failed to cancel evaluation")
-
-# Active runs endpoint
-@router.get("/evaluations/active")
-async def get_active_evaluations():
-    """Get active evaluations."""
-    try:
-        active_runs = await evaluation_service.get_active_runs()
-        return {"active_runs": active_runs}
-    except Exception as e:
-        logger.error("Failed to get active evaluations", error=str(e))
-        raise HTTPException(status_code=500, detail="Failed to get active evaluations")
+# Active evaluations endpoint is handled by the imported evaluation_router
 
 # Statistics endpoints
 @router.get("/stats/overview")

@@ -269,50 +269,50 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
         <div className="space-y-4">
           {/* Model Info */}
           <Card>
-            <CardHeader className="pb-3">
-              <CardTitle className="text-lg">{model.name}</CardTitle>
-              <CardDescription>
-                <div className="flex items-center space-x-4 text-sm">
-                  <span>Family: {model.family}</span>
-                  <span>•</span>
-                  <span>Parameters: {model.num_parameters.toLocaleString()}</span>
-                  <span>•</span>
-                  <span>Type: {model.dtype}</span>
-            </div>
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="flex items-center space-x-2">
-                <span className="text-sm font-medium">Model Capabilities:</span>
-                {Object.entries(modelCapabilities).map(([capability, supported]) => (
-                  <Badge
-                    key={capability}
-                    variant={supported ? "default" : "outline"}
-                    className={supported ? "bg-green-100 text-green-800" : ""}
-                  >
-                    {capability}
-                  </Badge>
-                ))}
+            <CardContent className="p-3">
+              <div className="flex items-center justify-between">
+                <div className="flex-1">
+                  <h3 className="font-medium text-sm">{model.name}</h3>
+                  <div className="flex items-center space-x-3 text-xs text-muted-foreground mt-1">
+                    <span>{model.family}</span>
+                    <span>•</span>
+                    <span>{model.num_parameters.toLocaleString()} params</span>
+                    <span>•</span>
+                    <span>{model.dtype}</span>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-1">
+                  <span className="text-xs font-medium text-muted-foreground">Capabilities:</span>
+                  {Object.entries(modelCapabilities).map(([capability, supported]) => (
+                    <Badge 
+                      key={capability}
+                      variant={supported ? "default" : "outline"}
+                      className={`text-xs ${supported ? "bg-green-100 text-green-800" : ""}`}
+                    >
+                      {capability}
+                    </Badge>
+                  ))}
+                </div>
               </div>
             </CardContent>
           </Card>
 
           {/* Filters and Search */}
-          <div className="flex flex-wrap items-center gap-4">
+          <div className="flex flex-wrap items-center gap-3">
             <div className="flex items-center space-x-2">
               <Search className="h-4 w-4 text-muted-foreground" />
               <Input
                 placeholder="Search benchmarks..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-64"
+                className="w-48 h-8"
               />
             </div>
 
             <div className="flex items-center space-x-2">
-              <Label className="text-sm font-medium">Task:</Label>
+              <Label className="text-xs font-medium">Task:</Label>
               <Select value={taskFilter} onValueChange={setTaskFilter}>
-                <SelectTrigger className="w-40">
+                <SelectTrigger className="w-32 h-8">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -327,9 +327,9 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
             </div>
 
             <div className="flex items-center space-x-2">
-              <Label className="text-sm font-medium">Modality:</Label>
+              <Label className="text-xs font-medium">Modality:</Label>
               <Select value={modalityFilter} onValueChange={setModalityFilter}>
-                <SelectTrigger className="w-40">
+                <SelectTrigger className="w-32 h-8">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -344,9 +344,9 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
             </div>
 
             <div className="flex items-center space-x-2">
-              <Label className="text-sm font-medium">Sort by:</Label>
+              <Label className="text-xs font-medium">Sort:</Label>
               <Select value={sortBy} onValueChange={(value: any) => setSortBy(value)}>
-                <SelectTrigger className="w-32">
+                <SelectTrigger className="w-28 h-8">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -357,40 +357,37 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
                 </SelectContent>
               </Select>
               
-                  <Button
+              <Button
                 variant="outline"
-                    size="sm"
+                size="sm"
                 onClick={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}
-                className="px-2"
-                  >
-                {sortOrder === 'asc' ? <SortAsc className="h-4 w-4" /> : <SortDesc className="h-4 w-4" />}
-                  </Button>
+                className="px-2 h-8"
+              >
+                {sortOrder === 'asc' ? <SortAsc className="h-3 w-3" /> : <SortDesc className="h-3 w-3" />}
+              </Button>
             </div>
           </div>
 
           {/* Selection Summary */}
-            <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
-              <span className="text-sm text-muted-foreground">
-                {compatibleCount} compatible benchmarks found
-              </span>
-              <span className="text-sm text-muted-foreground">
-                {selectedBenchmarks.length} selected
+          <div className="flex items-center justify-between">
+            <div className="flex items-center space-x-3">
+              <span className="text-xs text-muted-foreground">
+                {compatibleCount} compatible • {selectedBenchmarks.length} selected
               </span>
             </div>
-            <div className="flex items-center space-x-2">
-              <Button variant="outline" size="sm" onClick={handleSelectAllCompatible}>
-                Select All Compatible
-                </Button>
-              <Button variant="outline" size="sm" onClick={handleClearSelection}>
-                Clear Selection
-                </Button>
-              </div>
+            <div className="flex items-center space-x-1">
+              <Button variant="outline" size="sm" onClick={handleSelectAllCompatible} className="h-7 text-xs">
+                Select All
+              </Button>
+              <Button variant="outline" size="sm" onClick={handleClearSelection} className="h-7 text-xs">
+                Clear
+              </Button>
             </div>
+          </div>
 
           {/* Benchmarks List */}
-          <ScrollArea className="h-96">
-            <div className="space-y-2">
+          <ScrollArea className="h-80">
+            <div className="space-y-1">
               {isLoading ? (
                 <div className="flex items-center justify-center py-8">
                   <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
@@ -406,7 +403,7 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
                   
                   return (
                     <Card 
-                          key={benchmark.id}
+                      key={benchmark.id} 
                       className={`cursor-pointer transition-all ${
                         isCompatible 
                           ? isSelected 
@@ -416,58 +413,59 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
                       }`}
                       onClick={() => isCompatible && handleBenchmarkToggle(benchmark.id)}
                     >
-                      <CardContent className="p-4">
-                        <div className="flex items-start justify-between">
-                          <div className="flex-1">
-                            <div className="flex items-center space-x-2 mb-2">
-                          <Checkbox
+                      <CardContent className="p-3">
+                        <div className="flex items-center justify-between">
+                          <div className="flex-1 min-w-0">
+                            <div className="flex items-center space-x-2 mb-1">
+                              <Checkbox 
                                 checked={isSelected}
                                 disabled={!isCompatible}
                                 onChange={() => isCompatible && handleBenchmarkToggle(benchmark.id)}
+                                className="shrink-0"
                               />
-                              <h3 className="font-medium">{benchmark.name}</h3>
+                              <h3 className="font-medium text-sm truncate">{benchmark.name}</h3>
                               {!isCompatible && (
-                              <Badge variant="outline" className="text-xs">
+                                <Badge variant="outline" className="text-xs shrink-0">
                                   Incompatible
-                              </Badge>
+                                </Badge>
                               )}
                               {isCompatible && isSelected && (
-                                <Badge className="bg-green-100 text-green-800">
+                                <Badge className="bg-green-100 text-green-800 text-xs shrink-0">
                                   Selected
                                 </Badge>
                               )}
                             </div>
                             
-                            <div className="flex items-center space-x-4 text-sm text-muted-foreground mb-2">
+                            <div className="flex items-center space-x-3 text-xs text-muted-foreground mb-1">
                               <div className="flex items-center space-x-1">
                                 {getModalityIcon(benchmark.modality)}
                                 <span>{benchmark.modality}</span>
                               </div>
                               <div className="flex items-center space-x-1">
-                                <Clock className="h-4 w-4" />
+                                <Clock className="h-3 w-3" />
                                 <span>{benchmark.num_samples} samples</span>
                               </div>
                             </div>
                             
-                            <div className="flex items-center space-x-2 mb-2">
-                              <Badge className={getTaskTypeColor(benchmark.task_type)}>
+                            <div className="flex items-center space-x-1 mb-1">
+                              <Badge className={`${getTaskTypeColor(benchmark.task_type)} text-xs`}>
                                 {benchmark.task_type}
                               </Badge>
-                              <Badge variant="outline">{benchmark.category}</Badge>
+                              <Badge variant="outline" className="text-xs">{benchmark.category}</Badge>
                             </div>
                             
                             {benchmark.description && (
-                              <p className="text-sm text-muted-foreground">
-                              {benchmark.description}
-                            </p>
+                              <p className="text-xs text-muted-foreground line-clamp-1">
+                                {benchmark.description}
+                              </p>
                             )}
-                            </div>
+                          </div>
                           
-                          <div className="flex items-center space-x-2">
+                          <div className="flex items-center ml-2 shrink-0">
                             {isCompatible ? (
-                              <CheckCircle className="h-5 w-5 text-green-500" />
+                              <CheckCircle className="h-4 w-4 text-green-500" />
                             ) : (
-                              <XCircle className="h-5 w-5 text-red-500" />
+                              <XCircle className="h-4 w-4 text-red-500" />
                             )}
                           </div>
                         </div>

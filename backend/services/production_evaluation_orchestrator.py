@@ -241,12 +241,27 @@ class ProductionEvaluationOrchestrator:
         1. Model exists and is accessible
         2. Benchmarks exist and are compatible with model
         3. Configuration parameters are valid
-        4. Concurrent evaluation limits not exceeded
+        4. Model dependencies are installed
+        5. Concurrent evaluation limits not exceeded
         """
         # Validate model
         model = supabase_service.get_model_by_id(request.model_id)
         if not model:
             raise ValueError(f"Model not found: {request.model_id}")
+        
+        # Check model dependencies
+        model_name = self._map_model_name(model)
+        from services.model_dependency_service import model_dependency_service
+        
+        required_deps = model_dependency_service.get_model_dependencies(model_name)
+        missing_deps = model_dependency_service.get_missing_dependencies(model_name)
+        
+        if missing_deps:
+            install_cmd = model_dependency_service.get_install_command(missing_deps)
+            raise ValueError(
+                f"Missing dependencies for model '{model['name']}': {', '.join(missing_deps)}. "
+                f"Install with: {install_cmd}"
+            )
         
         # Validate benchmarks
         if not request.benchmark_ids:
@@ -776,7 +791,17 @@ class ProductionEvaluationOrchestrator:
                 await self._parse_progress(evaluation_id, line)
         
         if process.returncode != 0:
-            raise RuntimeError(f"lmms-eval exited with code {process.returncode}")
+            # Parse error for dependency issues
+            error_msg = f"lmms-eval exited with code {process.returncode}"
+            
+            # Check for ModuleNotFoundError in stderr
+            if 'ModuleNotFoundError' in str(stderr_queue.queue):
+                missing_module = self._extract_missing_module(str(stderr_queue.queue))
+                if missing_module:
+                    install_cmd = f"pip install {missing_module}"
+                    error_msg = f"Missing dependency: {missing_module}. Install with: {install_cmd}"
+            
+            raise RuntimeError(error_msg)
         
         # Wait for results file to be created and populated
         results_file = workdir / "results" / "results.json"
@@ -928,6 +953,19 @@ class ProductionEvaluationOrchestrator:
     # ========================================================================
     # HELPER METHODS
     # ========================================================================
+    
+    def _extract_missing_module(self, error_output: str) -> Optional[str]:
+        """Extract missing module name from ModuleNotFoundError."""
+        import re
+        
+        # Pattern to match "ModuleNotFoundError: No module named 'X'"
+        pattern = r"ModuleNotFoundError:\s*No\s+module\s+named\s+['\"]([^'\"]+)['\"]"
+        match = re.search(pattern, error_output, re.IGNORECASE)
+        
+        if match:
+            return match.group(1)
+        
+        return None
     
     async def _update_status(self, evaluation_id: str, status: EvaluationStatus) -> None:
         """Update evaluation status."""

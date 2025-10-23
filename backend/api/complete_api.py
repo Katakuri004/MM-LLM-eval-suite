@@ -794,7 +794,7 @@ async def get_compatible_tasks_for_model(model_id: str):
     """Get tasks compatible with a specific model."""
     try:
         # Check if model exists
-        model = supabase_service.get_model(model_id)
+        model = supabase_service.get_model_by_id(model_id)
         if not model:
             raise HTTPException(status_code=404, detail="Model not found")
         
@@ -836,3 +836,114 @@ async def validate_tasks(request: Dict[str, List[str]]):
     except Exception as e:
         logger.error("Failed to validate tasks", error=str(e))
         raise HTTPException(status_code=500, detail="Failed to validate tasks")
+
+
+# ============================================================================
+# DEPENDENCY MANAGEMENT ENDPOINTS
+# ============================================================================
+
+@router.get("/models/{model_id}/dependencies")
+async def check_model_dependencies(model_id: str):
+    """Check if model dependencies are installed."""
+    try:
+        from services.model_dependency_service import model_dependency_service
+        from services.production_evaluation_orchestrator import production_orchestrator
+        
+        # Check if model exists
+        model = supabase_service.get_model_by_id(model_id)
+        if not model:
+            raise HTTPException(status_code=404, detail="Model not found")
+        
+        # Map model to lmms-eval name
+        model_name = production_orchestrator._map_model_name(model)
+        
+        # Get dependency status
+        status = model_dependency_service.get_dependency_status(model_name)
+        
+        return {
+            "model_id": model_id,
+            "model_name": model_name,
+            "display_name": model['name'],
+            "required_dependencies": status['required_dependencies'],
+            "missing_dependencies": status['missing_dependencies'],
+            "all_installed": status['all_installed'],
+            "install_command": status['install_command'],
+            "total_required": status['total_required'],
+            "total_missing": status['total_missing']
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to check model dependencies", model_id=model_id, error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to check model dependencies")
+
+
+@router.get("/dependencies/check")
+async def check_all_dependencies():
+    """Check dependencies for all models."""
+    try:
+        from services.model_dependency_service import model_dependency_service
+        from services.production_evaluation_orchestrator import production_orchestrator
+        
+        # Get all models
+        models_response = supabase_service.get_models(limit=1000)
+        models = models_response.get('items', [])
+        
+        dependency_status = []
+        for model in models:
+            try:
+                model_name = production_orchestrator._map_model_name(model)
+                status = model_dependency_service.get_dependency_status(model_name)
+                
+                dependency_status.append({
+                    "model_id": model['id'],
+                    "model_name": model_name,
+                    "display_name": model['name'],
+                    "missing_dependencies": status['missing_dependencies'],
+                    "all_installed": status['all_installed'],
+                    "install_command": status['install_command']
+                })
+            except Exception as e:
+                logger.warning("Failed to check dependencies for model", 
+                             model_id=model['id'], 
+                             model_name=model['name'], 
+                             error=str(e))
+                dependency_status.append({
+                    "model_id": model['id'],
+                    "model_name": "unknown",
+                    "display_name": model['name'],
+                    "missing_dependencies": [],
+                    "all_installed": False,
+                    "install_command": None,
+                    "error": str(e)
+                })
+        
+        return {
+            "dependency_status": dependency_status,
+            "total_models": len(models),
+            "models_with_missing_deps": len([s for s in dependency_status if not s['all_installed']])
+        }
+        
+    except Exception as e:
+        logger.error("Failed to check all dependencies", error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to check dependencies")
+
+
+@router.post("/dependencies/refresh")
+async def refresh_dependency_cache():
+    """Refresh the dependency cache."""
+    try:
+        from services.model_dependency_service import model_dependency_service
+        
+        model_dependency_service.clear_cache()
+        
+        from datetime import datetime
+        return {
+            "message": "Dependency cache refreshed successfully",
+            "timestamp": datetime.utcnow().isoformat()
+        }
+        
+    except Exception as e:
+        logger.error("Failed to refresh dependency cache", error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to refresh dependency cache")

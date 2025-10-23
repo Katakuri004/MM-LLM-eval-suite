@@ -621,46 +621,114 @@ class ProductionEvaluationOrchestrator:
         Execute command with real-time monitoring.
         
         Monitors stdout/stderr and sends progress updates.
+        Uses subprocess.Popen for Windows compatibility.
         """
         logger.info("Executing command", command=" ".join(command))
         
+        # Use subprocess.Popen for Windows compatibility
+        import subprocess
+        import threading
+        import queue
+        
+        # Create queues for output
+        stdout_queue = queue.Queue()
+        stderr_queue = queue.Queue()
+        
+        def read_stream(stream, output_queue):
+            """Read stream in a separate thread."""
+            for line in iter(stream.readline, b''):
+                output_queue.put(line.decode('utf-8', errors='replace').strip())
+            stream.close()
+        
         # Start process
-        process = await asyncio.create_subprocess_exec(
-            *command,
-            stdout=asyncio.subprocess.PIPE,
-            stderr=asyncio.subprocess.PIPE,
-            cwd=str(self.lmms_eval_path)
+        process = subprocess.Popen(
+            command,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            cwd=str(self.lmms_eval_path),
+            text=True,
+            bufsize=1,
+            universal_newlines=True
         )
         
         self.evaluation_processes[evaluation_id] = process
         
-        # Monitor output
-        async def read_stream(stream, is_stderr=False):
-            while True:
-                line = await stream.readline()
-                if not line:
-                    break
-                
-                line_str = line.decode('utf-8', errors='replace').strip()
-                if line_str:
-                    logger.info(
-                        "lmms-eval output",
-                        evaluation_id=evaluation_id,
-                        stderr=is_stderr,
-                        line=line_str
-                    )
-                    
-                    # Parse progress
-                    await self._parse_progress(evaluation_id, line_str)
-        
-        # Read both streams concurrently
-        await asyncio.gather(
-            read_stream(process.stdout, False),
-            read_stream(process.stderr, True)
+        # Start reader threads
+        stdout_thread = threading.Thread(
+            target=read_stream, 
+            args=(process.stdout, stdout_queue)
+        )
+        stderr_thread = threading.Thread(
+            target=read_stream, 
+            args=(process.stderr, stderr_queue)
         )
         
-        # Wait for process to complete
-        await process.wait()
+        stdout_thread.daemon = True
+        stderr_thread.daemon = True
+        stdout_thread.start()
+        stderr_thread.start()
+        
+        # Monitor output
+        while process.poll() is None:
+            # Check stdout
+            try:
+                while True:
+                    line = stdout_queue.get_nowait()
+                    if line:
+                        logger.info(
+                            "lmms-eval output",
+                            evaluation_id=evaluation_id,
+                            stderr=False,
+                            line=line
+                        )
+                        await self._parse_progress(evaluation_id, line)
+            except queue.Empty:
+                pass
+            
+            # Check stderr
+            try:
+                while True:
+                    line = stderr_queue.get_nowait()
+                    if line:
+                        logger.info(
+                            "lmms-eval output",
+                            evaluation_id=evaluation_id,
+                            stderr=True,
+                            line=line
+                        )
+                        await self._parse_progress(evaluation_id, line)
+            except queue.Empty:
+                pass
+            
+            # Small delay to prevent busy waiting
+            await asyncio.sleep(0.1)
+        
+        # Wait for threads to finish
+        stdout_thread.join(timeout=5)
+        stderr_thread.join(timeout=5)
+        
+        # Process any remaining output
+        while not stdout_queue.empty():
+            line = stdout_queue.get_nowait()
+            if line:
+                logger.info(
+                    "lmms-eval output",
+                    evaluation_id=evaluation_id,
+                    stderr=False,
+                    line=line
+                )
+                await self._parse_progress(evaluation_id, line)
+        
+        while not stderr_queue.empty():
+            line = stderr_queue.get_nowait()
+            if line:
+                logger.info(
+                    "lmms-eval output",
+                    evaluation_id=evaluation_id,
+                    stderr=True,
+                    line=line
+                )
+                await self._parse_progress(evaluation_id, line)
         
         if process.returncode != 0:
             raise RuntimeError(f"lmms-eval exited with code {process.returncode}")

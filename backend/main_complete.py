@@ -21,7 +21,7 @@ import structlog
 from config import get_settings
 from services.supabase_service import supabase_service
 from api.complete_api import router as api_router
-from api.websocket_endpoints import router as websocket_router, websocket_cleanup_task
+from api.simple_websocket_endpoints import router as websocket_router, websocket_cleanup_task
 
 # Configure structured logging
 logger = structlog.get_logger(__name__)

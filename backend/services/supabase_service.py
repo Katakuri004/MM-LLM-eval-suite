@@ -316,6 +316,137 @@ class SupabaseService:
         except Exception as e:
             logger.error("Failed to update model validation status", error=str(e))
             return None
+    
+    # Evaluation operations
+    def create_evaluation(self, evaluation_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Create a new evaluation."""
+        if not self.is_available():
+            raise RuntimeError("Supabase not available")
+        
+        try:
+            result = self.client.table('evaluations').insert(evaluation_data).execute()
+            
+            if result.data:
+                logger.info("Evaluation created successfully", evaluation_id=result.data[0]['id'])
+                return result.data[0]
+            else:
+                raise RuntimeError("Failed to create evaluation")
+                
+        except Exception as e:
+            logger.error("Failed to create evaluation", error=str(e))
+            raise
+    
+    def get_evaluation(self, evaluation_id: str) -> Optional[Dict[str, Any]]:
+        """Get evaluation by ID."""
+        if not self.is_available():
+            return None
+        
+        try:
+            result = self.client.table('evaluations').select('*').eq('id', evaluation_id).execute()
+            return result.data[0] if result.data else None
+        except Exception as e:
+            logger.error("Failed to get evaluation", evaluation_id=evaluation_id, error=str(e))
+            return None
+    
+    def get_evaluations(self, skip: int = 0, limit: int = 100, model_id: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Get evaluations with optional filtering."""
+        if not self.is_available():
+            return []
+        
+        try:
+            query = self.client.table('evaluations').select('*')
+            
+            if model_id:
+                query = query.eq('model_id', model_id)
+            
+            result = query.range(skip, skip + limit - 1).order('created_at', desc=True).execute()
+            return result.data or []
+        except Exception as e:
+            logger.error("Failed to get evaluations", error=str(e))
+            return []
+    
+    def update_evaluation(self, evaluation_id: str, update_data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+        """Update evaluation."""
+        if not self.is_available():
+            return None
+        
+        try:
+            result = self.client.table('evaluations').update(update_data).eq('id', evaluation_id).execute()
+            
+            if result.data:
+                logger.info("Evaluation updated", evaluation_id=evaluation_id)
+                return result.data[0]
+            else:
+                logger.warning("No evaluation found to update", evaluation_id=evaluation_id)
+                return None
+                
+        except Exception as e:
+            logger.error("Failed to update evaluation", evaluation_id=evaluation_id, error=str(e))
+            return None
+    
+    def create_evaluation_result(self, result_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Create evaluation result."""
+        if not self.is_available():
+            raise RuntimeError("Supabase not available")
+        
+        try:
+            result = self.client.table('evaluation_results').insert(result_data).execute()
+            
+            if result.data:
+                logger.info("Evaluation result created", result_id=result.data[0]['id'])
+                return result.data[0]
+            else:
+                raise RuntimeError("Failed to create evaluation result")
+                
+        except Exception as e:
+            logger.error("Failed to create evaluation result", error=str(e))
+            raise
+    
+    def get_evaluation_results(self, evaluation_id: str) -> List[Dict[str, Any]]:
+        """Get evaluation results."""
+        if not self.is_available():
+            return []
+        
+        try:
+            result = self.client.table('evaluation_results').select('*').eq('evaluation_id', evaluation_id).execute()
+            return result.data or []
+        except Exception as e:
+            logger.error("Failed to get evaluation results", evaluation_id=evaluation_id, error=str(e))
+            return []
+    
+    def upsert_evaluation_progress(self, progress_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Upsert evaluation progress."""
+        if not self.is_available():
+            raise RuntimeError("Supabase not available")
+        
+        try:
+            # First try to update existing progress
+            result = self.client.table('evaluation_progress').update(progress_data).eq('evaluation_id', progress_data['evaluation_id']).execute()
+            
+            if not result.data:
+                # If no existing progress, create new one
+                result = self.client.table('evaluation_progress').insert(progress_data).execute()
+            
+            if result.data:
+                return result.data[0]
+            else:
+                raise RuntimeError("Failed to upsert evaluation progress")
+                
+        except Exception as e:
+            logger.error("Failed to upsert evaluation progress", error=str(e))
+            raise
+    
+    def get_evaluation_progress(self, evaluation_id: str) -> Optional[Dict[str, Any]]:
+        """Get evaluation progress."""
+        if not self.is_available():
+            return None
+        
+        try:
+            result = self.client.table('evaluation_progress').select('*').eq('evaluation_id', evaluation_id).execute()
+            return result.data[0] if result.data else None
+        except Exception as e:
+            logger.error("Failed to get evaluation progress", evaluation_id=evaluation_id, error=str(e))
+            return None
 
 # Global Supabase service instance
 supabase_service = SupabaseService()

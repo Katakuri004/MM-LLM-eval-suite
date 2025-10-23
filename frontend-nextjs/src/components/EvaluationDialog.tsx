@@ -230,15 +230,17 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
     setIsSubmitting(true);
     try {
       const response = await apiClient.createEvaluation({
-      model_id: model.id,
-      benchmark_ids: selectedBenchmarks,
+        model_id: model.id,
+        benchmark_ids: selectedBenchmarks,
         config: {
           batch_size: 1,
-          max_samples: 50,
+          num_fewshot: 0,
+          limit: 50,
         },
+        name: `Evaluation for ${model.name}`,
       });
       
-      toast.success(`Evaluation started successfully! Run ID: ${response.run_id}`);
+      toast.success(`Evaluation started successfully! Evaluation ID: ${response.evaluation_id}`);
       onClose();
       setSelectedBenchmarks([]);
     } catch (error: any) {

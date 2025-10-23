@@ -219,16 +219,15 @@ export class ApiClient {
     });
   }
 
-  // Runs API (evaluations are called "runs" in the backend)
-  // Evaluations (preferred endpoints)
+  // Evaluations API (new evaluation system)
   async createEvaluation(data: {
     model_id: string;
     benchmark_ids: string[];
     config: Record<string, any>;
-    run_name?: string;
+    name?: string;
   }) {
     return this.request<{
-      run_id: string;
+      evaluation_id: string;
       status: string;
       message: string;
     }>(`/evaluations`, {
@@ -237,6 +236,35 @@ export class ApiClient {
     });
   }
 
+  async getEvaluations(skip = 0, limit = 100, model_id?: string) {
+    const params = new URLSearchParams({
+      skip: skip.toString(),
+      limit: limit.toString(),
+    });
+    if (model_id) params.append('model_id', model_id);
+    
+    return this.request<{ evaluations: any[]; total: number }>(`/evaluations?${params}`);
+  }
+
+  async getEvaluation(id: string) {
+    return this.request<any>(`/evaluations/${id}`);
+  }
+
+  async getEvaluationResults(id: string) {
+    return this.request<{ evaluation: any; results: any[]; total_results: number }>(`/evaluations/${id}/results`);
+  }
+
+  async cancelEvaluation(id: string) {
+    return this.request<{ message: string }>(`/evaluations/${id}`, {
+      method: 'DELETE',
+    });
+  }
+
+  async getActiveEvaluations() {
+    return this.request<{ active_evaluations: any[]; count: number }>('/evaluations/active');
+  }
+
+  // Legacy Runs API (for backward compatibility)
   async createRun(runData: CreateRunRequest) {
     return this.request<RunResponse>('/runs/create', {
       method: 'POST',

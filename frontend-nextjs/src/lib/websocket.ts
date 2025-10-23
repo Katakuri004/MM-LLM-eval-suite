@@ -52,7 +52,7 @@ export class WebSocketService {
   private heartbeatInterval: number | null = null;
 
   constructor(url?: string) {
-    this.url = url || (process.env.NEXT_PUBLIC_WS_URL || 'ws://localhost:8000/ws');
+    this.url = url || (process.env.NEXT_PUBLIC_WS_URL || 'ws://localhost:8000/api/v1/evaluations/ws/updates');
   }
 
   connect(): Promise<void> {

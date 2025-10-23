@@ -16,7 +16,7 @@ export function useWebSocket() {
   useEffect(() => {
     const connect = () => {
       try {
-        const ws = new WebSocket('ws://localhost:8000/ws');
+        const ws = new WebSocket('ws://localhost:8000/api/v1/evaluations/ws/updates');
         wsRef.current = ws;
 
         ws.onopen = () => {
@@ -77,7 +77,7 @@ export function useRunUpdates() {
   useEffect(() => {
     if (!isConnected) return;
 
-    const ws = new WebSocket('ws://localhost:8000/ws');
+    const ws = new WebSocket('ws://localhost:8000/api/v1/evaluations/ws/updates');
     
     ws.onmessage = (event) => {
       try {

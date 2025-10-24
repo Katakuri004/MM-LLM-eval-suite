@@ -239,37 +239,36 @@ class TaskDiscoveryService:
         return None
     
     def _get_alternative_mappings(self, benchmark_name: str) -> List[str]:
-        """Get alternative task names for common benchmarks that might not be available."""
+        """Get alternative task names for common benchmarks."""
         name_lower = benchmark_name.lower()
         
-        # Common benchmark mappings
         alternative_mappings = {
-            'truthfulqa': [
-                'truthful_qa_mc',
-                'truthful_qa_gen', 
-                'truthful_qa',
-                'truthfulqa_mc',
-                'truthfulqa_gen'
-            ],
-            'arc': [
-                'ai2_arc',
-                'arc',
-                'arc_challenge',
-                'arc_easy'
-            ],
-            'hellaswag': [
-                'hellaswag',
-                'hellaswag_0'
-            ],
-            'mmlu': [
-                'mmlu',
-                'mmlu_0',
-                'mmlu_5shot'
-            ],
-            'gsm8k': [
-                'gsm8k',
-                'gsm8k_cot'
-            ]
+            'humaneval': ['humaneval', 'human_eval', 'humanevalplus', 'humaneval_python'],
+            'librispeech': ['librispeech', 'librispeech_asr', 'librispeech_clean'],
+            'truthfulqa': ['truthful_qa_mc', 'truthful_qa_gen', 'truthful_qa', 'truthfulqa_mc', 'truthfulqa_gen'],
+            'arc': ['ai2_arc', 'arc', 'arc_challenge', 'arc_easy'],
+            'hellaswag': ['hellaswag', 'hellaswag_0'],
+            'mmlu': ['mmlu', 'mmlu_0', 'mmlu_5shot'],
+            'gsm8k': ['gsm8k', 'gsm8k_cot'],
+            'winogrande': ['winogrande', 'winogrande_0'],
+            'piqa': ['piqa', 'piqa_0'],
+            'vqa': ['vqav2', 'vqa_v2', 'vqa'],
+            'textvqa': ['textvqa', 'text_vqa'],
+            'gqa': ['gqa', 'gqa_0'],
+            'coco': ['coco_caption', 'coco_caption2017', 'coco_captions'],
+            'mme': ['mme', 'mme_full'],
+            'mmbench': ['mmbench', 'mmbench_en', 'mmbench_cn'],
+            'seedbench': ['seedbench', 'seed_bench'],
+            'pope': ['pope', 'pope_adversarial'],
+            'mmvet': ['mmvet', 'mm_vet'],
+            'mathvista': ['mathvista', 'math_vista'],
+            'scienceqa': ['scienceqa', 'science_qa', 'sqa'],
+            'chartqa': ['chartqa', 'chart_qa'],
+            'docvqa': ['docvqa', 'doc_vqa'],
+            'infographicsvqa': ['infographicsvqa', 'infographics_vqa'],
+            'ai2d': ['ai2d', 'ai2_diagram'],
+            'videomme': ['videomme', 'video_mme'],
+            'mmmu': ['mmmu', 'mm_mu']
         }
         
         # Find matching alternatives

@@ -22,7 +22,7 @@ import psutil
 import re
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Dict, Any, List, Optional, Tuple, AsyncIterator
+from typing import Dict, Any, List, Optional, Tuple, AsyncIterator, Set
 from dataclasses import dataclass, asdict
 from enum import Enum
 import structlog
@@ -311,6 +311,10 @@ class ProductionEvaluationOrchestrator:
         request.benchmark_ids = [b['id'] for b in compatible]
         
         valid_benchmarks = []
+        # Get available tasks once for all benchmarks
+        from services.task_discovery_service import task_discovery_service
+        available_tasks = await task_discovery_service.get_available_tasks()
+        
         for benchmark in compatible:
             # Check compatibility
             if not self._check_compatibility(model, benchmark):
@@ -323,10 +327,6 @@ class ProductionEvaluationOrchestrator:
             # Validate task mapping
             mapped_task = await self._map_benchmark_name(benchmark)
             if not mapped_task:
-                # Get available tasks for better error message
-                from services.task_discovery_service import task_discovery_service
-                available_tasks = await task_discovery_service.get_available_tasks()
-                
                 # Find similar tasks
                 similar_tasks = []
                 benchmark_name = benchmark['name'].lower()
@@ -350,9 +350,11 @@ class ProductionEvaluationOrchestrator:
                 
                 raise ValueError(error_msg)
             
-            # Check model-task compatibility
+            # Check model-task compatibility (now available_tasks is in scope)
+            # Get model capabilities (prioritizing metadata over hardcoded values)
+            model_caps = self._get_model_capabilities(model, model_name)
+            
             if not model_task_compatibility.is_compatible(model_name, mapped_task):
-                model_caps = model_task_compatibility.get_model_capabilities(model_name)
                 task_reqs = model_task_compatibility.get_task_requirements(mapped_task)
                 missing_caps = task_reqs - model_caps
                 
@@ -380,6 +382,54 @@ class ProductionEvaluationOrchestrator:
                 f"Maximum concurrent evaluations reached "
                 f"({self.resource_limits.max_concurrent_evaluations})"
             )
+    
+    def _get_model_capabilities(self, model: Dict[str, Any], model_name: str) -> Set[str]:
+        """
+        Get model capabilities, prioritizing metadata over hardcoded values.
+        
+        Args:
+            model: Model dictionary from database
+            model_name: Mapped model name (e.g., 'qwen2_5_omni')
+            
+        Returns:
+            Set of model capabilities
+        """
+        from services.model_task_compatibility import model_task_compatibility
+        
+        # First, check if model has modality_support in metadata
+        metadata = model.get('metadata', {})
+        modality_support = metadata.get('modality_support', [])
+        
+        if modality_support:
+            # Convert modality_support list to capabilities set
+            capabilities = set()
+            for modality in modality_support:
+                if modality == 'text':
+                    capabilities.add('text')
+                elif modality == 'image':
+                    capabilities.add('image')
+                    capabilities.add('vision')  # Add vision for compatibility
+                elif modality == 'audio':
+                    capabilities.add('audio')
+                elif modality == 'video':
+                    capabilities.add('video')
+            
+            logger.debug(
+                "Using capabilities from model metadata",
+                model_name=model_name,
+                modality_support=modality_support,
+                capabilities=list(capabilities)
+            )
+            return capabilities
+        
+        # Fall back to hardcoded capabilities
+        capabilities = model_task_compatibility.get_model_capabilities(model_name)
+        logger.debug(
+            "Using hardcoded capabilities",
+            model_name=model_name,
+            capabilities=list(capabilities)
+        )
+        return capabilities
     
     def _check_compatibility(self, model: Dict[str, Any], benchmark: Dict[str, Any]) -> bool:
         """Check if model is compatible with benchmark."""
@@ -794,9 +844,9 @@ class ProductionEvaluationOrchestrator:
         elif 'gemini' in model_name or 'gemini' in source:
             return 'gemini_api'
         
-        # Default fallback
+        # Default fallback - use huggingface for generic models
         else:
-            return model_family or 'llava'
+            return 'huggingface'
     
     async def _map_benchmark_name(self, benchmark: Dict[str, Any]) -> Optional[str]:
         """Map dashboard benchmark to lmms-eval task name using task discovery service."""

@@ -30,6 +30,10 @@ class ModelTaskCompatibilityService:
             'phi3v': {'text', 'image', 'vision'},
             'phi4_multimodal': {'text', 'image', 'vision'},
             
+            # Omni models (support all modalities)
+            'qwen2_5_omni': {'text', 'image', 'vision', 'audio', 'video'},
+            'qwen_omni': {'text', 'image', 'vision', 'audio', 'video'},
+            
             # Text-Only Models
             'gpt4v': {'text', 'image', 'vision'},  # API model
             'claude': {'text', 'image', 'vision'},  # API model

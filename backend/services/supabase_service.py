@@ -258,7 +258,24 @@ class SupabaseService:
             return None
             
         except Exception as e:
-            logger.error("Failed to update model validation status", error=str(e))
+            logger.error("Failed to update model validation status", model_id=model_id, error=str(e))
+            return None
+
+    def update_model(self, model_id: str, update_data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+        """Update model with provided data."""
+        if not self.is_available():
+            return None
+        
+        try:
+            result = self.client.table('models').update(update_data).eq('id', model_id).execute()
+            
+            if result.data:
+                logger.info("Model updated", model_id=model_id, update_data=update_data)
+                return result.data[0]
+            return None
+            
+        except Exception as e:
+            logger.error("Failed to update model", model_id=model_id, error=str(e))
             return None
     
     # Evaluation operations

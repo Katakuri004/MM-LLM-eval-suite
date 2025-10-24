@@ -88,38 +88,59 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
 
   const benchmarks = benchmarksData?.benchmarks || [];
 
-  // Determine model capabilities
+  // Fetch compatibility information from backend
+  const { data: compatibilityData, isLoading: compatibilityLoading } = useQuery({
+    queryKey: ['model-compatibility', model.id],
+    queryFn: () => apiClient.getModelCompatibleBenchmarks(model.id),
+    enabled: isOpen,
+    staleTime: 5 * 60 * 1000, // 5 minutes
+  });
+
+  // Fallback: Determine model capabilities client-side if API fails
   const getModelCapabilities = () => {
+    // Use compatibility API data if available
+    if (compatibilityData?.model_modalities) {
+      return {
+        text: compatibilityData.model_modalities.includes('text'),
+        image: compatibilityData.model_modalities.includes('image'),
+        audio: compatibilityData.model_modalities.includes('audio'),
+        video: compatibilityData.model_modalities.includes('video'),
+        multimodal: compatibilityData.model_modalities.length > 1
+      };
+    }
+    
+    // Fallback to heuristic detection
     const modelName = model.name.toLowerCase();
     const modelFamily = model.family.toLowerCase();
     
-    const capabilities = {
-      text: true, // Most models support text
-      image: false,
-      audio: false,
-      video: false,
-      multimodal: false
-    };
-
-    // Check for image capabilities
-    if (modelFamily.includes('llava') || modelFamily.includes('blip') || 
-        modelFamily.includes('flamingo') || modelName.includes('vision') ||
-        modelName.includes('image')) {
+    // All models support text
+    let capabilities = { text: true, image: false, audio: false, video: false, multimodal: false };
+    
+    // Vision/Image models
+    if (modelName.includes('vision') || modelName.includes('vl') || modelName.includes('llava') ||
+        modelName.includes('qwen2') || modelName.includes('phi3v') || modelName.includes('phi4') ||
+        modelName.includes('cogvlm') || modelName.includes('intern') || modelName.includes('blip')) {
       capabilities.image = true;
       capabilities.multimodal = true;
     }
-
-    // Check for audio capabilities
-    if (modelName.includes('whisper') || modelName.includes('audio') ||
-        modelFamily.includes('whisper')) {
+    
+    // Audio models
+    if (modelName.includes('whisper') || modelName.includes('audio') || modelName.includes('speech')) {
       capabilities.audio = true;
+      capabilities.multimodal = true;
     }
-
-    // Check for video capabilities
-    if (modelName.includes('video') || modelName.includes('temporal')) {
+    
+    // Video models
+    if (modelName.includes('video') || modelName.includes('vid') || modelName.includes('vora')) {
       capabilities.video = true;
+      capabilities.multimodal = true;
     }
-
+    
+    // Omni models support everything
+    if (modelName.includes('omni')) {
+      capabilities = { text: true, image: true, audio: true, video: true, multimodal: true };
+    }
+    
     return capabilities;
   };
 
@@ -202,27 +223,35 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
            name.includes('phi3v') || name.includes('phi4')
   }
 
-  // Check if benchmark is compatible with model
+  // Updated compatibility check using backend data
   const isBenchmarkCompatible = (benchmark: Benchmark) => {
+    // Use backend compatibility data if available
+    if (compatibilityData) {
+      return compatibilityData.compatible_benchmark_ids.includes(benchmark.id);
+    }
+    
+    // Fallback to client-side logic
     const benchmarkModality = benchmark.modality.toLowerCase();
     
+    // Normalize modality names
+    const normalizedModality = 
+      benchmarkModality.includes('vision') || benchmarkModality.includes('visual') ? 'image' :
+      benchmarkModality.includes('multimodal') ? 'multimodal' :
+      benchmarkModality;
+    
     // Check modality compatibility
-    const modalityCompatible = (
-      (benchmarkModality.includes('text') && modelCapabilities.text) ||
-      (benchmarkModality.includes('image') && modelCapabilities.image) ||
-      (benchmarkModality.includes('audio') && modelCapabilities.audio) ||
-      (benchmarkModality.includes('video') && modelCapabilities.video) ||
-      (benchmarkModality.includes('vision') && modelCapabilities.image) ||
-      (benchmarkModality.includes('multimodal') && modelCapabilities.multimodal)
-    );
+    if (normalizedModality === 'text' && !modelCapabilities.text) return false;
+    if (normalizedModality === 'image' && !modelCapabilities.image) return false;
+    if (normalizedModality === 'audio' && !modelCapabilities.audio) return false;
+    if (normalizedModality === 'video' && !modelCapabilities.video) return false;
+    if (normalizedModality === 'multimodal' && !modelCapabilities.multimodal) return false;
     
-    if (!modalityCompatible) return false;
-    
-    // NEW: Check task type compatibility for vision-language models
-    if (isVisionLanguageModel(model.name)) {
-      const taskType = getTaskTypeForBenchmark(benchmark.name)
+    // Check task type compatibility (only for vision-language models that don't support multiple-choice)
+    const isVisionOnlyModel = modelCapabilities.image && !model.name.toLowerCase().includes('omni');
+    if (isVisionOnlyModel) {
+      const taskType = getTaskTypeForBenchmark(benchmark.name);
       if (taskType === 'multiple_choice') {
-        return false // Vision-language models don't support multiple-choice tasks
+        return false; // Vision-language models don't support multiple-choice tasks
       }
     }
     
@@ -232,7 +261,44 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
       return availableTasks.includes(taskName);
     }
     
-    return true; // If no task discovery available, assume compatible
+    return true;
+  };
+
+  // Get incompatibility reason for display
+  const getIncompatibilityReason = (benchmark: Benchmark): string | null => {
+    if (compatibilityData) {
+      const incompatible = compatibilityData.incompatible_benchmarks.find(b => b.id === benchmark.id);
+      return incompatible?.reason || null;
+    }
+    
+    // Generate reason from client-side logic
+    if (!isBenchmarkCompatible(benchmark)) {
+      const benchmarkModality = benchmark.modality.toLowerCase();
+      if (benchmarkModality.includes('text') && !modelCapabilities.text) {
+        return "Model does not support text modality";
+      }
+      if ((benchmarkModality.includes('vision') || benchmarkModality.includes('image')) && !modelCapabilities.image) {
+        return "Model does not support vision/image modality";
+      }
+      if (benchmarkModality.includes('audio') && !modelCapabilities.audio) {
+        return "Model does not support audio modality";
+      }
+      if (benchmarkModality.includes('video') && !modelCapabilities.video) {
+        return "Model does not support video modality";
+      }
+      
+      const isVisionOnlyModel = modelCapabilities.image && !model.name.toLowerCase().includes('omni');
+      if (isVisionOnlyModel) {
+        const taskType = getTaskTypeForBenchmark(benchmark.name);
+        if (taskType === 'multiple_choice') {
+          return "This benchmark requires multiple-choice support, which is not available for vision-language generation models";
+        }
+      }
+      
+      return "Not compatible with this model";
+    }
+    
+    return null;
   };
 
   // Get modality icon
@@ -459,6 +525,7 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
                 filteredBenchmarks.map((benchmark) => {
                   const isCompatible = isBenchmarkCompatible(benchmark);
                   const isSelected = selectedBenchmarks.includes(benchmark.id);
+                  const incompatibilityReason = getIncompatibilityReason(benchmark);
                   
                   return (
                     <Card 
@@ -520,9 +587,9 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
                               <Badge variant="outline" className="text-xs">{benchmark.category}</Badge>
                             </div>
                             
-                            {!isCompatible && isVisionLanguageModel(model.name) && getTaskTypeForBenchmark(benchmark.name) === 'multiple_choice' && (
-                              <p className="text-xs text-muted-foreground mt-1">
-                                This benchmark requires multiple-choice support, which is not available for vision-language generation models.
+                            {!isCompatible && incompatibilityReason && (
+                              <p className="text-xs text-muted-foreground mt-1 italic">
+                                {incompatibilityReason}
                               </p>
                             )}
                             

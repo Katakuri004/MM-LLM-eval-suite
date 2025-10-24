@@ -331,6 +331,146 @@ async def create_benchmark(benchmark_data: BenchmarkCreate):
         logger.error("Failed to create benchmark", error=str(e))
         raise HTTPException(status_code=500, detail="Failed to create benchmark")
 
+# Model compatibility endpoints
+@router.get("/models/{model_id}/compatible-benchmarks")
+async def get_compatible_benchmarks(model_id: str):
+    """Get all benchmarks compatible with a specific model."""
+    try:
+        model = supabase_service.get_model_by_id(model_id)
+        if not model:
+            raise HTTPException(status_code=404, detail="Model not found")
+        
+        # Get model capabilities - always infer since column may not exist
+        model_modalities = _infer_model_modalities(model)
+        
+        # Get model name for task type compatibility
+        from services.production_evaluation_orchestrator import ProductionEvaluationOrchestrator
+        orchestrator = ProductionEvaluationOrchestrator()
+        model_name = orchestrator._map_model_name(model)
+        
+        # Get all benchmarks
+        benchmarks = supabase_service.get_benchmarks(skip=0, limit=1000)
+        
+        compatible = []
+        incompatible = []
+        
+        for benchmark in benchmarks:
+            is_compatible, reason = await _check_benchmark_compatibility(
+                model, model_name, model_modalities, benchmark
+            )
+            if is_compatible:
+                compatible.append(benchmark['id'])
+            else:
+                incompatible.append({
+                    'id': benchmark['id'],
+                    'name': benchmark['name'],
+                    'reason': reason
+                })
+        
+        return {
+            'model_id': model_id,
+            'model_name': model['name'],
+            'model_modalities': model_modalities,
+            'compatible_benchmark_ids': compatible,
+            'incompatible_benchmarks': incompatible,
+            'total_compatible': len(compatible),
+            'total_incompatible': len(incompatible)
+        }
+    except Exception as e:
+        logger.error("Failed to get compatible benchmarks", error=str(e))
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/benchmarks/validate")
+async def validate_benchmarks_endpoint():
+    """Validate all benchmarks against lmms-eval tasks."""
+    try:
+        from services.benchmark_validation_service import benchmark_validation_service
+        
+        benchmarks = supabase_service.get_benchmarks(skip=0, limit=1000)
+        report = await benchmark_validation_service.validate_all_benchmarks(benchmarks)
+        
+        return report
+        
+    except Exception as e:
+        logger.error("Failed to validate benchmarks", error=str(e))
+        raise HTTPException(status_code=500, detail=str(e))
+
+def _infer_model_modalities(model: dict) -> list:
+    """Infer model modalities from name and family."""
+    name = model.get('name', '').lower()
+    family = model.get('family', '').lower()
+    
+    modalities = []
+    
+    # All models support text
+    modalities.append('text')
+    
+    # Vision/Image models
+    if any(keyword in name or keyword in family for keyword in 
+           ['vision', 'vl', 'llava', 'qwen2', 'qwen2.5', 'phi', 'cogvlm', 'intern', 'blip', 'flamingo']):
+        modalities.append('image')
+    
+    # Audio models
+    if any(keyword in name or keyword in family for keyword in 
+           ['whisper', 'wav2vec', 'audio', 'speech']):
+        modalities.append('audio')
+    
+    # Video models
+    if any(keyword in name or keyword in family for keyword in 
+           ['video', 'vid', 'vora']):
+        modalities.append('video')
+    
+    # Omni models support everything
+    if 'omni' in name or 'omni' in family:
+        modalities = ['text', 'image', 'audio', 'video']
+    
+    return modalities
+
+async def _check_benchmark_compatibility(
+    model: dict,
+    model_name: str,
+    model_modalities: list,
+    benchmark: dict
+) -> tuple[bool, str]:
+    """Check if a benchmark is compatible with a model."""
+    from services.model_task_compatibility import model_task_compatibility
+    from services.benchmark_validation_service import benchmark_validation_service
+    
+    # 1. Check modality compatibility
+    benchmark_modality = benchmark.get('modality', '').lower()
+    
+    # Normalize modality names
+    modality_map = {
+        'vision': 'image',
+        'visual': 'image',
+        'multimodal': ['text', 'image']  # Multimodal typically means text+image
+    }
+    
+    required_modality = modality_map.get(benchmark_modality, benchmark_modality)
+    
+    # Check if model supports required modality
+    if isinstance(required_modality, list):
+        # Multimodal - needs all listed modalities
+        if not all(m in model_modalities for m in required_modality):
+            return False, f"Requires modalities: {required_modality}, model has: {model_modalities}"
+    else:
+        if required_modality not in model_modalities:
+            return False, f"Requires modality '{required_modality}', model supports: {model_modalities}"
+    
+    # 2. Validate benchmark can be mapped to lmms-eval task
+    is_valid, mapped_task, validation_reason = await benchmark_validation_service.validate_benchmark(benchmark)
+    if not is_valid:
+        return False, validation_reason
+    
+    # 3. Check task type compatibility
+    benchmark_name = benchmark.get('name', '').lower()
+    task_type = model_task_compatibility.get_task_type_for_benchmark(benchmark_name)
+    
+    if not model_task_compatibility.is_task_type_compatible(model_name, task_type):
+        return False, f"Model '{model_name}' does not support task type '{task_type}'"
+    
+    return True, ""
+
 # Evaluation endpoints are handled by the imported evaluation_router
 
 # All evaluation endpoints are handled by the imported evaluation_router

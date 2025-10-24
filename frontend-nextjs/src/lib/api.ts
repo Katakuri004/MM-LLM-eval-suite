@@ -219,6 +219,19 @@ export class ApiClient {
     });
   }
 
+  // Model compatibility API
+  async getModelCompatibleBenchmarks(modelId: string): Promise<{
+    model_id: string;
+    model_name: string;
+    model_modalities: string[];
+    compatible_benchmark_ids: string[];
+    incompatible_benchmarks: Array<{id: string; name: string; reason: string}>;
+    total_compatible: number;
+    total_incompatible: number;
+  }> {
+    return this.request(`/models/${modelId}/compatible-benchmarks`);
+  }
+
   // Evaluations API (new evaluation system)
   async createEvaluation(data: {
     model_id: string;

@@ -30,6 +30,8 @@ import structlog
 from services.supabase_service import supabase_service
 from services.websocket_manager import websocket_manager
 from services.task_discovery_service import task_discovery_service
+from services.partial_results_handler import partial_results_handler
+from services.lmms_eval_parser import lmms_eval_parser
 
 logger = structlog.get_logger(__name__)
 
@@ -281,12 +283,59 @@ class ProductionEvaluationOrchestrator:
                     benchmark=benchmark['name']
                 )
             
-            # Validate task mapping
-            mapped_task = await self._map_benchmark_name(benchmark)
-            if not mapped_task:
-                raise ValueError(f"Benchmark '{benchmark['name']}' cannot be mapped to a valid lmms-eval task")
+        # Validate task mapping
+        mapped_task = await self._map_benchmark_name(benchmark)
+        if not mapped_task:
+            # Get available tasks for better error message
+            from services.task_discovery_service import task_discovery_service
+            available_tasks = await task_discovery_service.get_available_tasks()
             
-            valid_benchmarks.append(benchmark)
+            # Find similar tasks
+            similar_tasks = []
+            benchmark_name = benchmark['name'].lower()
+            for task in available_tasks:
+                if any(word in task.lower() for word in benchmark_name.split()):
+                    similar_tasks.append(task)
+            
+            # Get some common available tasks as suggestions
+            common_tasks = [task for task in available_tasks if task in [
+                'ai2_arc', 'hellaswag', 'mmlu', 'gsm8k', 'vqav2', 'coco_caption',
+                'scienceqa', 'chartqa', 'docvqa', 'textvqa', 'gqa', 'ok_vqa'
+            ]]
+            
+            error_msg = f"Benchmark '{benchmark['name']}' cannot be mapped to a valid lmms-eval task"
+            if similar_tasks:
+                error_msg += f". Similar available tasks: {', '.join(similar_tasks[:3])}"
+            elif common_tasks:
+                error_msg += f". Try these available benchmarks instead: {', '.join(common_tasks[:5])}"
+            else:
+                error_msg += f". No similar tasks found. Total available tasks: {len(available_tasks)}"
+            
+            raise ValueError(error_msg)
+        
+        # Check model-task compatibility
+        from services.model_task_compatibility import model_task_compatibility
+        model_name = self._map_model_name(model)
+        
+        if not model_task_compatibility.is_compatible(model_name, mapped_task):
+            model_caps = model_task_compatibility.get_model_capabilities(model_name)
+            task_reqs = model_task_compatibility.get_task_requirements(mapped_task)
+            missing_caps = task_reqs - model_caps
+            
+            # Get compatible alternatives
+            compatible_tasks = model_task_compatibility.get_compatible_tasks(model_name, available_tasks)
+            
+            error_msg = (f"Model '{model['name']}' is incompatible with task '{mapped_task}'. "
+                        f"Model capabilities: {list(model_caps)}, "
+                        f"Task requirements: {list(task_reqs)}, "
+                        f"Missing: {list(missing_caps)}")
+            
+            if compatible_tasks:
+                error_msg += f". Compatible tasks: {', '.join(compatible_tasks[:5])}"
+            
+            raise ValueError(error_msg)
+        
+        valid_benchmarks.append(benchmark)
         
         # Validate configuration
         self._validate_config(request.config)
@@ -518,15 +567,8 @@ class ProductionEvaluationOrchestrator:
         except Exception as e:
             logger.error("Evaluation failed", evaluation_id=evaluation_id, error=str(e), exc_info=True)
             
-            await self._update_status(evaluation_id, EvaluationStatus.FAILED)
-            supabase_service.update_evaluation(
-                evaluation_id,
-                {
-                    "status": EvaluationStatus.FAILED.value,
-                    "error_message": str(e),
-                    "completed_at": datetime.utcnow().isoformat()
-                }
-            )
+            # Handle failure with partial results support
+            await self._handle_evaluation_failure(evaluation_id, e, benchmarks)
             
             await self._send_progress_update(
                 evaluation_id,
@@ -610,17 +652,62 @@ class ProductionEvaluationOrchestrator:
         model_name = model.get('name', '').lower()
         model_family = model.get('family', '').lower()
         
-        # Common mappings
-        if 'llava' in model_family:
-            return 'llava'
-        elif 'qwen' in model_family:
+        # Check source for more accurate mapping
+        source = model.get('source', '').lower()
+        
+        # Qwen variants (be more specific)
+        if 'qwen2.5' in model_name or 'qwen2.5' in source:
+            return 'qwen2_5_vl'
+        elif 'qwen2' in model_name or 'qwen2' in source:
             return 'qwen2_vl'
-        elif 'blip' in model_family:
+        elif 'qwen' in model_family or 'qwen' in model_name:
+            return 'qwen_vl'
+        
+        # Phi models
+        elif 'phi3' in model_name or 'phi3' in source:
+            return 'phi3v'
+        elif 'phi4' in model_name or 'phi4' in source:
+            return 'phi4_multimodal'
+        elif 'phi' in model_name or 'phi' in source:
+            return 'phi3v'  # Default phi to phi3v
+        
+        # Video models
+        elif 'video_llava' in model_name or 'video_llava' in source:
+            return 'video_llava'
+        elif 'vora' in model_name or 'vora' in source:
+            return 'vora'
+        
+        # LLaVA variants
+        elif 'llava' in model_family or 'llava' in model_name:
+            if 'onevision' in model_name:
+                return 'llava_onevision'
+            elif 'vid' in model_name:
+                return 'llava_vid'
+            else:
+                return 'llava'
+        
+        # Other specific models
+        elif 'blip' in model_family or 'blip' in model_name:
             return 'blip2'
-        elif 'flamingo' in model_family:
+        elif 'flamingo' in model_family or 'flamingo' in model_name:
             return 'open_flamingo'
+        elif 'internvl' in model_name or 'internvl' in source:
+            return 'internvl'
+        elif 'cogvlm' in model_name or 'cogvlm' in source:
+            return 'cogvlm2'
+        elif 'instructblip' in model_name:
+            return 'instructblip'
+        
+        # API models
+        elif 'gpt4' in model_name or 'gpt4' in source:
+            return 'gpt4v'
+        elif 'claude' in model_name or 'claude' in source:
+            return 'claude'
+        elif 'gemini' in model_name or 'gemini' in source:
+            return 'gemini_api'
+        
+        # Default fallback
         else:
-            # Use family name as default
             return model_family or 'llava'
     
     async def _map_benchmark_name(self, benchmark: Dict[str, Any]) -> Optional[str]:
@@ -649,14 +736,17 @@ class ProductionEvaluationOrchestrator:
             return None
     
     def _build_model_args(self, model: Dict[str, Any]) -> str:
-        """Build model arguments string."""
-        args = []
+        """Build model arguments string with compatibility filtering."""
+        from services.model_parameter_compatibility import model_parameter_compatibility
+        
+        # Collect all possible args
+        all_args = {}
         
         # Add pretrained path if available
         if 'source' in model:
-            args.append(f"pretrained={model['source']}")
+            all_args['pretrained'] = model['source']
         
-        # Add dtype
+        # Add dtype (will be filtered out for incompatible models)
         if 'dtype' in model:
             dtype_map = {
                 'float16': 'float16',
@@ -665,10 +755,34 @@ class ProductionEvaluationOrchestrator:
                 '8bit': 'int8',
                 '4bit': 'int4'
             }
-            dtype = dtype_map.get(model['dtype'], 'float16')
-            args.append(f"dtype={dtype}")
+            all_args['dtype'] = dtype_map.get(model['dtype'], 'float16')
         
-        return ",".join(args) if args else ""
+        # Get model name for compatibility check
+        model_name = self._map_model_name(model)
+        
+        # Log model mapping for debugging
+        logger.debug(
+            "Model name mapping",
+            original_name=model.get('name', ''),
+            original_family=model.get('family', ''),
+            original_source=model.get('source', ''),
+            mapped_name=model_name
+        )
+        
+        # Filter args based on model compatibility
+        filtered_args = model_parameter_compatibility.filter_model_args(model_name, all_args)
+        
+        # Log final args for debugging
+        logger.debug(
+            "Model args built",
+            model_name=model_name,
+            all_args=all_args,
+            filtered_args=filtered_args,
+            final_string=",".join([f"{k}={v}" for k, v in filtered_args.items()]) if filtered_args else ""
+        )
+        
+        # Format as comma-separated string
+        return ",".join([f"{k}={v}" for k, v in filtered_args.items()]) if filtered_args else ""
     
     async def _execute_with_monitoring(
         self,
@@ -894,33 +1008,210 @@ class ProductionEvaluationOrchestrator:
         duration: float
     ) -> None:
         """
-        Parse results from lmms-eval and store in database.
+        Parse results from lmms-eval and store in database using comprehensive parser.
         
-        LMMS-Eval output format:
-        {
-            "results": {
-                "task_name": {
-                    "metric1": value1,
-                    "metric2": value2,
-                    ...
-                },
-                ...
-            },
-            "versions": {...},
-            "config": {...}
-        }
+        Uses the new lmms_eval_parser for comprehensive result extraction.
         """
-        logger.info("Parsing results", evaluation_id=evaluation_id)
+        logger.info("Parsing results with comprehensive parser", evaluation_id=evaluation_id)
+        
+        try:
+            # Use comprehensive parser to parse results directory
+            results_dir = workdir / "results"
+            if not results_dir.exists():
+                # Fallback to parsing the results dict directly
+                structured_results = self._parse_results_dict(results)
+            else:
+                structured_results = lmms_eval_parser.parse_results_directory(results_dir)
+            
+            # Extract task results and metadata
+            task_results = structured_results.get('task_results', {})
+            global_metadata = structured_results.get('global_metadata', {})
+            all_metrics = structured_results.get('all_metrics', {})
+            
+            completed_benchmarks = 0
+            total_samples = 0
+            successful_samples = 0
+            failed_samples = 0
+            
+            # Process each benchmark
+            for benchmark in benchmarks:
+                task_name = await self._map_benchmark_name(benchmark)
+                
+                if task_name in task_results:
+                    task_data = task_results[task_name]
+                    metrics = task_data.get('metrics', {})
+                    metadata = task_data.get('metadata', {})
+                    
+                    # Extract primary metrics and performance score
+                    primary_metrics = lmms_eval_parser._extract_primary_metrics(metrics)
+                    performance_score = lmms_eval_parser._calculate_performance_score(metrics)
+                    
+                    # Get sample counts
+                    samples_count = metadata.get('samples_count', 0)
+                    total_samples += samples_count
+                    successful_samples += samples_count  # Assume all successful for now
+                    
+                    # Prepare comprehensive result data
+                    result_data = {
+                        "evaluation_id": evaluation_id,
+                        "benchmark_id": benchmark['id'],
+                        "benchmark_name": benchmark['name'],
+                        "task_name": task_name,
+                        "metrics": metrics,
+                        "scores": primary_metrics,
+                        "all_metrics": metrics,  # Store all metrics
+                        "primary_metrics": primary_metrics,
+                        "performance_score": performance_score,
+                        "samples_count": samples_count,
+                        "execution_time_seconds": int(duration),
+                        "is_partial": False,
+                        "created_at": datetime.utcnow().isoformat()
+                    }
+                    
+                    # Store in database
+                    supabase_service.create_evaluation_result(result_data)
+                    
+                    # Save partial result immediately
+                    await partial_results_handler.save_partial_result(
+                        evaluation_id=evaluation_id,
+                        benchmark_id=benchmark['id'],
+                        benchmark_name=benchmark['name'],
+                        result_data={
+                            "metrics": metrics,
+                            "scores": primary_metrics,
+                            "task_name": task_name,
+                            "samples_count": samples_count,
+                            "execution_time_seconds": int(duration),
+                            "performance_score": performance_score
+                        },
+                        is_complete=True
+                    )
+                    
+                    completed_benchmarks += 1
+                    
+                    logger.info(
+                        "Stored comprehensive result",
+                        evaluation_id=evaluation_id,
+                        benchmark=benchmark['name'],
+                        metrics_count=len(metrics),
+                        performance_score=performance_score,
+                        completed_benchmarks=completed_benchmarks,
+                        total_benchmarks=len(benchmarks)
+                    )
+                else:
+                    logger.warning(
+                        "No results found for benchmark",
+                        evaluation_id=evaluation_id,
+                        benchmark=benchmark['name'],
+                        task_name=task_name,
+                        available_tasks=list(task_results.keys())
+                    )
+            
+            # Update evaluation with comprehensive metadata
+            evaluation_metadata = {
+                "total_samples": total_samples,
+                "successful_samples": successful_samples,
+                "failed_samples": failed_samples,
+                "avg_inference_time_ms": (duration * 1000) / total_samples if total_samples > 0 else 0,
+                "parsing_info": structured_results.get('parsing_info', {}),
+                "global_metadata": global_metadata
+            }
+            
+            if completed_benchmarks < len(benchmarks):
+                # Partial completion
+                supabase_service.update_evaluation(
+                    evaluation_id,
+                    {
+                        "is_partial": True,
+                        "completed_benchmarks_count": completed_benchmarks,
+                        "total_benchmarks_count": len(benchmarks),
+                        "status": "completed_partial",
+                        "total_samples": total_samples,
+                        "successful_samples": successful_samples,
+                        "failed_samples": failed_samples,
+                        "avg_inference_time_ms": evaluation_metadata["avg_inference_time_ms"],
+                        "evaluation_metadata": evaluation_metadata,
+                        "updated_at": datetime.utcnow().isoformat()
+                    }
+                )
+                logger.info(
+                    "Evaluation completed with partial results",
+                    evaluation_id=evaluation_id,
+                    completed=completed_benchmarks,
+                    total=len(benchmarks),
+                    total_samples=total_samples
+                )
+            else:
+                # Complete evaluation
+                supabase_service.update_evaluation(
+                    evaluation_id,
+                    {
+                        "is_partial": False,
+                        "completed_benchmarks_count": completed_benchmarks,
+                        "total_benchmarks_count": len(benchmarks),
+                        "status": "completed",
+                        "total_samples": total_samples,
+                        "successful_samples": successful_samples,
+                        "failed_samples": failed_samples,
+                        "avg_inference_time_ms": evaluation_metadata["avg_inference_time_ms"],
+                        "evaluation_metadata": evaluation_metadata,
+                        "updated_at": datetime.utcnow().isoformat()
+                    }
+                )
+                logger.info(
+                    "Evaluation completed successfully",
+                    evaluation_id=evaluation_id,
+                    completed=completed_benchmarks,
+                    total=len(benchmarks),
+                    total_samples=total_samples
+                )
+                
+        except Exception as e:
+            logger.error("Failed to parse results with comprehensive parser", 
+                        evaluation_id=evaluation_id, error=str(e))
+            # Fallback to basic parsing
+            await self._parse_and_store_results_basic(
+                evaluation_id, results, workdir, benchmarks, duration
+            )
+    
+    def _parse_results_dict(self, results: Dict[str, Any]) -> Dict[str, Any]:
+        """Fallback parser for results dictionary."""
+        return {
+            'task_results': results.get('results', {}),
+            'global_metadata': {
+                'config': results.get('config', {}),
+                'versions': results.get('versions', {}),
+                'timestamp': results.get('timestamp', datetime.utcnow().isoformat())
+            },
+            'all_metrics': {},
+            'parsing_info': {
+                'parsed_at': datetime.utcnow().isoformat(),
+                'total_tasks': len(results.get('results', {})),
+                'total_metrics': 0
+            }
+        }
+    
+    async def _parse_and_store_results_basic(
+        self,
+        evaluation_id: str,
+        results: Dict[str, Any],
+        workdir: Path,
+        benchmarks: List[Dict[str, Any]],
+        duration: float
+    ) -> None:
+        """Basic fallback result parsing."""
+        logger.info("Using basic result parsing fallback", evaluation_id=evaluation_id)
         
         task_results = results.get('results', {})
+        completed_benchmarks = 0
         
         for benchmark in benchmarks:
-            task_name = self._map_benchmark_name(benchmark)
+            task_name = await self._map_benchmark_name(benchmark)
             
             if task_name in task_results:
                 task_data = task_results[task_name]
                 
-                # Extract metrics
+                # Extract basic metrics
                 metrics = {}
                 scores = {}
                 for key, value in task_data.items():
@@ -929,7 +1220,7 @@ class ProductionEvaluationOrchestrator:
                         if 'accuracy' in key.lower() or 'score' in key.lower():
                             scores[key] = value
                 
-                # Store result
+                # Store basic result
                 result_data = {
                     "evaluation_id": evaluation_id,
                     "benchmark_id": benchmark['id'],
@@ -943,12 +1234,26 @@ class ProductionEvaluationOrchestrator:
                 }
                 
                 supabase_service.create_evaluation_result(result_data)
+                completed_benchmarks += 1
+                
                 logger.info(
-                    "Stored result",
+                    "Stored basic result",
                     evaluation_id=evaluation_id,
                     benchmark=benchmark['name'],
                     metrics=metrics
                 )
+        
+        # Update evaluation status
+        supabase_service.update_evaluation(
+            evaluation_id,
+            {
+                "is_partial": completed_benchmarks < len(benchmarks),
+                "completed_benchmarks_count": completed_benchmarks,
+                "total_benchmarks_count": len(benchmarks),
+                "status": "completed" if completed_benchmarks == len(benchmarks) else "completed_partial",
+                "updated_at": datetime.utcnow().isoformat()
+            }
+        )
     
     # ========================================================================
     # HELPER METHODS
@@ -1013,6 +1318,69 @@ class ProductionEvaluationOrchestrator:
                 "timestamp": datetime.utcnow().isoformat()
             }
         )
+    
+    async def _handle_evaluation_failure(
+        self,
+        evaluation_id: str,
+        error: Exception,
+        benchmarks: List[Dict[str, Any]]
+    ) -> None:
+        """Handle evaluation failure and save any partial results."""
+        try:
+            logger.error(
+                "Evaluation failed, checking for partial results",
+                evaluation_id=evaluation_id,
+                error=str(error)
+            )
+            
+            # Get any partial results that were saved
+            partial_results = await partial_results_handler.get_partial_results(evaluation_id)
+            completed_benchmarks = await partial_results_handler.get_completed_benchmarks(evaluation_id)
+            
+            if partial_results:
+                # Update evaluation status to show partial results
+                supabase_service.update_evaluation(
+                    evaluation_id,
+                    {
+                        "status": "failed_partial",
+                        "is_partial": True,
+                        "completed_benchmarks_count": len(completed_benchmarks),
+                        "total_benchmarks_count": len(benchmarks),
+                        "error_message": str(error),
+                        "updated_at": datetime.utcnow().isoformat()
+                    }
+                )
+                
+                logger.info(
+                    "Saved partial results after failure",
+                    evaluation_id=evaluation_id,
+                    partial_results_count=len(partial_results),
+                    completed_benchmarks=completed_benchmarks
+                )
+            else:
+                # No partial results, mark as completely failed
+                supabase_service.update_evaluation(
+                    evaluation_id,
+                    {
+                        "status": "failed",
+                        "is_partial": False,
+                        "error_message": str(error),
+                        "updated_at": datetime.utcnow().isoformat()
+                    }
+                )
+                
+                logger.info(
+                    "Evaluation failed with no partial results",
+                    evaluation_id=evaluation_id
+                )
+                
+        except Exception as e:
+            logger.error(
+                "Failed to handle evaluation failure",
+                evaluation_id=evaluation_id,
+                original_error=str(error),
+                handling_error=str(e)
+            )
 
 
 # Global instance

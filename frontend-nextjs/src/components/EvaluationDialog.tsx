@@ -74,6 +74,18 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
     staleTime: 5 * 60 * 1000, // 5 minutes
   });
 
+  // Task discovery for validation
+  const { data: availableTasks = [], isLoading: tasksLoading } = useQuery({
+    queryKey: ['available-tasks'],
+    queryFn: () => apiClient.getAvailableTasks(),
+    select: (data) => data.tasks,
+    enabled: isOpen,
+    staleTime: 24 * 60 * 60 * 1000, // 24 hours
+  });
+
+  // Dependency checking (all dependencies are pre-installed)
+  const dependencyStatus = { all_installed: true, missing_dependencies: [] };
+
   const benchmarks = benchmarksData?.benchmarks || [];
 
   // Determine model capabilities
@@ -170,14 +182,25 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
   const isBenchmarkCompatible = (benchmark: Benchmark) => {
     const benchmarkModality = benchmark.modality.toLowerCase();
     
-    if (benchmarkModality.includes('text') && modelCapabilities.text) return true;
-    if (benchmarkModality.includes('image') && modelCapabilities.image) return true;
-    if (benchmarkModality.includes('audio') && modelCapabilities.audio) return true;
-    if (benchmarkModality.includes('video') && modelCapabilities.video) return true;
-    if (benchmarkModality.includes('vision') && modelCapabilities.image) return true;
-    if (benchmarkModality.includes('multimodal') && modelCapabilities.multimodal) return true;
+    // Check modality compatibility
+    const modalityCompatible = (
+      (benchmarkModality.includes('text') && modelCapabilities.text) ||
+      (benchmarkModality.includes('image') && modelCapabilities.image) ||
+      (benchmarkModality.includes('audio') && modelCapabilities.audio) ||
+      (benchmarkModality.includes('video') && modelCapabilities.video) ||
+      (benchmarkModality.includes('vision') && modelCapabilities.image) ||
+      (benchmarkModality.includes('multimodal') && modelCapabilities.multimodal)
+    );
     
-    return false;
+    if (!modalityCompatible) return false;
+    
+    // Check if task is available in lmms-eval
+    if (availableTasks.length > 0) {
+      const taskName = benchmark.task_name || benchmark.name.toLowerCase().replace(/\s+/g, '_');
+      return availableTasks.includes(taskName);
+    }
+    
+    return true; // If no task discovery available, assume compatible
   };
 
   // Get modality icon
@@ -230,8 +253,8 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
     setIsSubmitting(true);
     try {
       const response = await apiClient.createEvaluation({
-        model_id: model.id,
-        benchmark_ids: selectedBenchmarks,
+      model_id: model.id,
+      benchmark_ids: selectedBenchmarks,
         config: {
           batch_size: 1,
           num_fewshot: 0,
@@ -281,23 +304,25 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
                     <span>{model.num_parameters.toLocaleString()} params</span>
                     <span>•</span>
                     <span>{model.dtype}</span>
-                  </div>
-                </div>
+            </div>
+          </div>
                 <div className="flex items-center space-x-1">
                   <span className="text-xs font-medium text-muted-foreground">Capabilities:</span>
                   {Object.entries(modelCapabilities).map(([capability, supported]) => (
-                    <Badge 
+                  <Badge
                       key={capability}
                       variant={supported ? "default" : "outline"}
                       className={`text-xs ${supported ? "bg-green-100 text-green-800" : ""}`}
                     >
                       {capability}
-                    </Badge>
-                  ))}
+                  </Badge>
+                ))}
                 </div>
               </div>
             </CardContent>
           </Card>
+
+      {/* All dependencies are pre-installed - no warnings needed */}
 
           {/* Filters and Search */}
           <div className="flex flex-wrap items-center gap-3">
@@ -359,19 +384,19 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
                 </SelectContent>
               </Select>
               
-              <Button
+                  <Button
                 variant="outline"
-                size="sm"
+                    size="sm"
                 onClick={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}
                 className="px-2 h-8"
-              >
+                  >
                 {sortOrder === 'asc' ? <SortAsc className="h-3 w-3" /> : <SortDesc className="h-3 w-3" />}
-              </Button>
+                  </Button>
             </div>
           </div>
 
           {/* Selection Summary */}
-          <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <span className="text-xs text-muted-foreground">
                 {compatibleCount} compatible • {selectedBenchmarks.length} selected
@@ -380,13 +405,13 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
             <div className="flex items-center space-x-1">
               <Button variant="outline" size="sm" onClick={handleSelectAllCompatible} className="h-7 text-xs">
                 Select All
-              </Button>
+                  </Button>
               <Button variant="outline" size="sm" onClick={handleClearSelection} className="h-7 text-xs">
                 Clear
-              </Button>
+                  </Button>
+              </div>
             </div>
-          </div>
-
+            
           {/* Benchmarks List */}
           <ScrollArea className="h-80">
             <div className="space-y-1">
@@ -405,7 +430,7 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
                   
                   return (
                     <Card 
-                      key={benchmark.id} 
+                          key={benchmark.id}
                       className={`cursor-pointer transition-all ${
                         isCompatible 
                           ? isSelected 
@@ -425,11 +450,18 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
                                 onChange={() => isCompatible && handleBenchmarkToggle(benchmark.id)}
                                 className="shrink-0"
                               />
-                              <h3 className="font-medium text-sm truncate">{benchmark.name}</h3>
+                              <div className="flex-1 min-w-0">
+                                <h3 className="font-medium text-sm truncate">{benchmark.name}</h3>
+                                {benchmark.task_name && (
+                                  <p className="text-xs text-muted-foreground truncate">
+                                    Task: {benchmark.task_name}
+                                  </p>
+                                )}
+                              </div>
                               {!isCompatible && (
                                 <Badge variant="outline" className="text-xs shrink-0">
                                   Incompatible
-                                </Badge>
+                              </Badge>
                               )}
                               {isCompatible && isSelected && (
                                 <Badge className="bg-green-100 text-green-800 text-xs shrink-0">
@@ -458,10 +490,10 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
                             
                             {benchmark.description && (
                               <p className="text-xs text-muted-foreground line-clamp-1">
-                                {benchmark.description}
-                              </p>
+                              {benchmark.description}
+                            </p>
                             )}
-                          </div>
+                            </div>
                           
                           <div className="flex items-center ml-2 shrink-0">
                             {isCompatible ? (
@@ -492,11 +524,11 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
               <Button variant="outline" onClick={onClose}>
                 Cancel
               </Button>
-              <Button 
-                onClick={handleSubmitEvaluation}
-                disabled={selectedBenchmarks.length === 0 || isSubmitting}
-                className="min-w-32"
-              >
+        <Button 
+          onClick={handleSubmitEvaluation}
+          disabled={selectedBenchmarks.length === 0 || isSubmitting}
+          className="min-w-32"
+        >
                 {isSubmitting ? (
                   <>
                     <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>

@@ -302,6 +302,111 @@ export class ApiClient {
   async getOverviewStats() {
     return this.request<OverviewStats>('/stats/overview');
   }
+
+  // ============================================================================
+  // TASK MANAGEMENT METHODS
+  // ============================================================================
+
+  async getAvailableTasks(): Promise<{ tasks: string[]; count: number }> {
+    return this.request<{ tasks: string[]; count: number }>('/tasks/available');
+  }
+
+  async refreshTaskCache(): Promise<{ message: string; tasks: string[]; count: number }> {
+    return this.request<{ message: string; tasks: string[]; count: number }>('/tasks/refresh', {
+      method: 'POST',
+    });
+  }
+
+  async getCompatibleTasksForModel(modelId: string): Promise<{ model_id: string; compatible_tasks: string[]; count: number }> {
+    return this.request<{ model_id: string; compatible_tasks: string[]; count: number }>(`/tasks/compatible/${modelId}`);
+  }
+
+  async validateTasks(taskNames: string[]): Promise<{
+    validation_results: Record<string, boolean>;
+    valid_tasks: string[];
+    invalid_tasks: string[];
+    valid_count: number;
+    invalid_count: number;
+  }> {
+    return this.request<{
+      validation_results: Record<string, boolean>;
+      valid_tasks: string[];
+      invalid_tasks: string[];
+      valid_count: number;
+      invalid_count: number;
+    }>('/tasks/validate', {
+      method: 'POST',
+      body: JSON.stringify({ task_names: taskNames }),
+    });
+  }
+
+  // ============================================================================
+  // DEPENDENCY MANAGEMENT METHODS
+  // ============================================================================
+
+  async checkModelDependencies(modelId: string): Promise<{
+    model_id: string;
+    model_name: string;
+    display_name: string;
+    required_dependencies: string[];
+    missing_dependencies: string[];
+    all_installed: boolean;
+    install_command: string | null;
+    total_required: number;
+    total_missing: number;
+  }> {
+    return this.request<{
+      model_id: string;
+      model_name: string;
+      display_name: string;
+      required_dependencies: string[];
+      missing_dependencies: string[];
+      all_installed: boolean;
+      install_command: string | null;
+      total_required: number;
+      total_missing: number;
+    }>(`/models/${modelId}/dependencies`);
+  }
+
+  async checkAllDependencies(): Promise<{
+    dependency_status: Array<{
+      model_id: string;
+      model_name: string;
+      display_name: string;
+      missing_dependencies: string[];
+      all_installed: boolean;
+      install_command: string | null;
+      error?: string;
+    }>;
+    total_models: number;
+    models_with_missing_deps: number;
+  }> {
+    return this.request<{
+      dependency_status: Array<{
+        model_id: string;
+        model_name: string;
+        display_name: string;
+        missing_dependencies: string[];
+        all_installed: boolean;
+        install_command: string | null;
+        error?: string;
+      }>;
+      total_models: number;
+      models_with_missing_deps: number;
+    }>('/dependencies/check');
+  }
+
+  async refreshDependencyCache(): Promise<{
+    message: string;
+    timestamp: string;
+  }> {
+    return this.request<{
+      message: string;
+      timestamp: string;
+    }>('/dependencies/refresh', {
+      method: 'POST',
+    });
+  }
 }
 
 // Type definitions

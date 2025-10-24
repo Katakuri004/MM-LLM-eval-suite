@@ -346,6 +346,99 @@ class SupabaseService:
             logger.error("Failed to create evaluation result", error=str(e))
             raise
     
+    def store_comprehensive_results(self, evaluation_id: str, results_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Store comprehensive evaluation results with enhanced metadata."""
+        if not self.is_available():
+            raise RuntimeError("Supabase not available")
+        
+        try:
+            # Store enhanced result data
+            enhanced_data = {
+                "evaluation_id": evaluation_id,
+                "all_metrics": results_data.get("all_metrics", {}),
+                "per_sample_results": results_data.get("per_sample_results", {}),
+                "model_responses": results_data.get("model_responses", []),
+                "error_analysis": results_data.get("error_analysis", {}),
+                "performance_score": results_data.get("performance_score", 0.0),
+                "primary_metrics": results_data.get("primary_metrics", {}),
+                "updated_at": datetime.utcnow().isoformat()
+            }
+            
+            # Update existing result or create new one
+            result = self.client.table('evaluation_results').upsert(enhanced_data).execute()
+            
+            if result.data:
+                logger.info("Comprehensive results stored", evaluation_id=evaluation_id)
+                return result.data[0]
+            else:
+                raise RuntimeError("Failed to store comprehensive results")
+                
+        except Exception as e:
+            logger.error("Failed to store comprehensive results", evaluation_id=evaluation_id, error=str(e))
+            raise
+    
+    def store_sample_results(self, evaluation_id: str, benchmark_id: str, samples: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """Store per-sample results for detailed analysis."""
+        if not self.is_available():
+            raise RuntimeError("Supabase not available")
+        
+        try:
+            # Prepare sample results data
+            sample_data = {
+                "evaluation_id": evaluation_id,
+                "benchmark_id": benchmark_id,
+                "per_sample_results": samples,
+                "samples_count": len(samples),
+                "updated_at": datetime.utcnow().isoformat()
+            }
+            
+            # Update the evaluation result with sample data
+            result = self.client.table('evaluation_results').update({
+                "per_sample_results": samples,
+                "samples_count": len(samples)
+            }).eq('evaluation_id', evaluation_id).eq('benchmark_id', benchmark_id).execute()
+            
+            if result.data:
+                logger.info("Sample results stored", evaluation_id=evaluation_id, benchmark_id=benchmark_id, samples_count=len(samples))
+                return result.data[0]
+            else:
+                raise RuntimeError("Failed to store sample results")
+                
+        except Exception as e:
+            logger.error("Failed to store sample results", evaluation_id=evaluation_id, benchmark_id=benchmark_id, error=str(e))
+            raise
+    
+    def update_evaluation_statistics(self, evaluation_id: str, stats: Dict[str, Any]) -> Dict[str, Any]:
+        """Update evaluation with comprehensive statistics."""
+        if not self.is_available():
+            raise RuntimeError("Supabase not available")
+        
+        try:
+            # Prepare statistics data
+            stats_data = {
+                "total_samples": stats.get("total_samples", 0),
+                "successful_samples": stats.get("successful_samples", 0),
+                "failed_samples": stats.get("failed_samples", 0),
+                "avg_inference_time_ms": stats.get("avg_inference_time_ms", 0.0),
+                "peak_memory_usage_mb": stats.get("peak_memory_usage_mb", 0.0),
+                "peak_cpu_usage_percent": stats.get("peak_cpu_usage_percent", 0.0),
+                "evaluation_metadata": stats.get("evaluation_metadata", {}),
+                "updated_at": datetime.utcnow().isoformat()
+            }
+            
+            # Update evaluation with statistics
+            result = self.client.table('evaluations').update(stats_data).eq('id', evaluation_id).execute()
+            
+            if result.data:
+                logger.info("Evaluation statistics updated", evaluation_id=evaluation_id, stats=stats_data)
+                return result.data[0]
+            else:
+                raise RuntimeError("Failed to update evaluation statistics")
+                
+        except Exception as e:
+            logger.error("Failed to update evaluation statistics", evaluation_id=evaluation_id, error=str(e))
+            raise
+    
     def get_evaluation_results(self, evaluation_id: str) -> List[Dict[str, Any]]:
         """Get evaluation results."""
         if not self.is_available():

@@ -206,10 +206,78 @@ class TaskDiscoveryService:
         
         # Try direct mapping
         if task_name in available_tasks:
+            logger.info("Direct task mapping found", 
+                       benchmark=benchmark.get('name', ''),
+                       task=task_name)
             return task_name
         
-        # Try fuzzy matching
-        return self.find_closest_match(task_name, available_tasks)
+        # Try alternative mappings for common benchmarks
+        alternative_mappings = self._get_alternative_mappings(benchmark.get('name', ''))
+        for alt_task in alternative_mappings:
+            if alt_task in available_tasks:
+                logger.info("Alternative mapping found", 
+                           benchmark=benchmark.get('name', ''),
+                           original_task=task_name,
+                           mapped_task=alt_task)
+                return alt_task
+        
+        # Try fuzzy matching as last resort
+        mapped_task = self.find_closest_match(task_name, available_tasks)
+        if mapped_task:
+            logger.info("Fuzzy mapping found", 
+                       benchmark=benchmark.get('name', ''),
+                       original_task=task_name,
+                       mapped_task=mapped_task)
+            return mapped_task
+        
+        # No mapping found
+        logger.warning("No valid task mapping found for benchmark", 
+                      benchmark_name=benchmark.get('name', ''),
+                      benchmark_id=benchmark.get('id'),
+                      task_name=task_name,
+                      available_tasks_count=len(available_tasks))
+        return None
+    
+    def _get_alternative_mappings(self, benchmark_name: str) -> List[str]:
+        """Get alternative task names for common benchmarks that might not be available."""
+        name_lower = benchmark_name.lower()
+        
+        # Common benchmark mappings
+        alternative_mappings = {
+            'truthfulqa': [
+                'truthful_qa_mc',
+                'truthful_qa_gen', 
+                'truthful_qa',
+                'truthfulqa_mc',
+                'truthfulqa_gen'
+            ],
+            'arc': [
+                'ai2_arc',
+                'arc',
+                'arc_challenge',
+                'arc_easy'
+            ],
+            'hellaswag': [
+                'hellaswag',
+                'hellaswag_0'
+            ],
+            'mmlu': [
+                'mmlu',
+                'mmlu_0',
+                'mmlu_5shot'
+            ],
+            'gsm8k': [
+                'gsm8k',
+                'gsm8k_cot'
+            ]
+        }
+        
+        # Find matching alternatives
+        for key, alternatives in alternative_mappings.items():
+            if key in name_lower:
+                return alternatives
+        
+        return []
     
     async def get_compatible_tasks_for_model(self, model_id: str) -> List[str]:
         """Get tasks that are compatible with a specific model."""

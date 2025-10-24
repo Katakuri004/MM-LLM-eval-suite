@@ -857,8 +857,8 @@ async def check_model_dependencies(model_id: str):
         # Map model to lmms-eval name
         model_name = production_orchestrator._map_model_name(model)
         
-        # Get dependency status
-        status = model_dependency_service.get_dependency_status(model_name)
+        # Get dependency status with enhanced caching
+        status = model_dependency_service.get_enhanced_dependency_status(model_name)
         
         return {
             "model_id": model_id,
@@ -947,3 +947,94 @@ async def refresh_dependency_cache():
     except Exception as e:
         logger.error("Failed to refresh dependency cache", error=str(e))
         raise HTTPException(status_code=500, detail="Failed to refresh dependency cache")
+
+
+# ============================================================================
+# MODEL-TASK COMPATIBILITY ENDPOINTS
+# ============================================================================
+
+@router.get("/models/{model_id}/compatible-tasks")
+async def get_compatible_tasks(model_id: str):
+    """Get tasks compatible with a specific model."""
+    try:
+        from services.model_task_compatibility import model_task_compatibility
+        from services.task_discovery_service import task_discovery_service
+        from services.production_evaluation_orchestrator import production_orchestrator
+        
+        # Get model
+        model = supabase_service.get_model_by_id(model_id)
+        if not model:
+            raise HTTPException(status_code=404, detail="Model not found")
+        
+        # Map model name
+        model_name = production_orchestrator._map_model_name(model)
+        
+        # Get available tasks
+        available_tasks = await task_discovery_service.get_available_tasks()
+        
+        # Get compatible tasks
+        compatible_tasks = model_task_compatibility.get_compatible_tasks(model_name, available_tasks)
+        
+        # Get compatibility report
+        compatibility_report = model_task_compatibility.get_compatibility_report(model_name, available_tasks)
+        
+        return {
+            "model_id": model_id,
+            "model_name": model_name,
+            "compatible_tasks": compatible_tasks,
+            "compatibility_report": compatibility_report
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to get compatible tasks", model_id=model_id, error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to get compatible tasks")
+
+
+@router.get("/models/{model_id}/compatibility-check")
+async def check_model_compatibility(model_id: str, task_names: str = None):
+    """Check compatibility between a model and specific tasks."""
+    try:
+        from services.model_task_compatibility import model_task_compatibility
+        from services.production_evaluation_orchestrator import production_orchestrator
+        
+        # Get model
+        model = supabase_service.get_model_by_id(model_id)
+        if not model:
+            raise HTTPException(status_code=404, detail="Model not found")
+        
+        # Map model name
+        model_name = production_orchestrator._map_model_name(model)
+        
+        # Parse task names
+        if task_names:
+            tasks_to_check = [t.strip() for t in task_names.split(',')]
+        else:
+            tasks_to_check = []
+        
+        # Check compatibility
+        compatibility_results = {}
+        for task in tasks_to_check:
+            is_compatible = model_task_compatibility.is_compatible(model_name, task)
+            model_caps = model_task_compatibility.get_model_capabilities(model_name)
+            task_reqs = model_task_compatibility.get_task_requirements(task)
+            
+            compatibility_results[task] = {
+                "compatible": is_compatible,
+                "model_capabilities": list(model_caps),
+                "task_requirements": list(task_reqs),
+                "missing_capabilities": list(task_reqs - model_caps) if not is_compatible else []
+            }
+        
+        return {
+            "model_id": model_id,
+            "model_name": model_name,
+            "compatibility_results": compatibility_results
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to check model compatibility", model_id=model_id, error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to check model compatibility")

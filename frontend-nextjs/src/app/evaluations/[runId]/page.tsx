@@ -27,6 +27,9 @@ import {
 } from 'lucide-react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell, ScatterChart, Scatter, Legend } from 'recharts'
 import EvaluationProgressText from '@/components/EvaluationProgressText'
+import EvaluationProgressIndicator from '@/components/EvaluationProgressIndicator'
+import { EnhancedEvaluationProgress } from '@/components/EnhancedEvaluationProgress'
+import { ShimmerLoader } from '@/components/ui/shimmer-loader'
 
 // Safe renderer to prevent object rendering errors
 const SafeRenderer = ({ children, fallback = 'N/A' }: { children: any, fallback?: string }) => {
@@ -138,11 +141,15 @@ export default function EvaluationDetailPage() {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight">Evaluation</h1>
+          <h1 className="text-3xl font-bold tracking-tight">
+            {evaluation?.name || 'Evaluation'}
+          </h1>
           <div className="flex items-center gap-4 mt-2">
             <p className="text-muted-foreground">Run ID: <span className="font-mono">{runId}</span></p>
             {evaluation?.name && (
-              <p className="text-muted-foreground">Name: <span className="font-medium">{evaluation.name}</span></p>
+              <Badge variant="outline" className="text-sm">
+                {evaluation.name}
+              </Badge>
             )}
           </div>
         </div>
@@ -214,6 +221,15 @@ export default function EvaluationDetailPage() {
           </div>
         </CardContent>
       </Card>
+
+      {/* Enhanced Real-time Progress Indicator */}
+      <EnhancedEvaluationProgress 
+        evaluationId={runId}
+        onStatusChange={(status) => {
+          // Update local state if needed
+          console.log('Status changed to:', status)
+        }}
+      />
 
       <Card>
         <CardHeader>
@@ -365,9 +381,26 @@ export default function EvaluationDetailPage() {
         </CardHeader>
         <CardContent className="space-y-4">
           {!results ? (
-            <div className="text-center py-8">
-              <Database className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
-              <p className="text-muted-foreground">No results yet. They will appear here when available.</p>
+            <div className="space-y-6">
+              <div className="text-center py-8">
+                <Database className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
+                <p className="text-muted-foreground">No results yet. They will appear here when available.</p>
+              </div>
+              
+              {/* Shimmer loading for results */}
+              <div className="space-y-4">
+                <div className="text-sm font-medium text-muted-foreground">Loading results...</div>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  {[1, 2, 3, 4].map((i) => (
+                    <ShimmerLoader key={i} variant="card" className="h-20" />
+                  ))}
+                </div>
+                <div className="space-y-3">
+                  <ShimmerLoader variant="text" className="w-3/4" />
+                  <ShimmerLoader variant="text" className="w-1/2" />
+                  <ShimmerLoader variant="text" className="w-2/3" />
+                </div>
+              </div>
             </div>
           ) : (
             <>

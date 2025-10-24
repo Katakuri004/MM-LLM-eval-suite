@@ -23,37 +23,43 @@ class ModelDependencyService:
         self._cache_timestamp: Optional[float] = None
         self._cache_ttl = 300  # 5 minutes cache
         
+        # Enhanced caching for dependency status
+        self._dependency_status_cache: Dict[str, Dict] = {}
+        self._status_cache_timestamp: Dict[str, float] = {}
+        self._status_cache_ttl = 600  # 10 minutes for dependency status
+        
         # Model dependency mappings based on lmms-eval structure
+        # NOTE: All dependencies are now pre-installed in the backend
         self.MODEL_DEPENDENCIES = {
-            # Qwen models (require decord and qwen-vl-utils)
-            'qwen2_vl': ['decord', 'qwen-vl-utils'],
-            'qwen2_5_vl': ['decord', 'qwen-vl-utils'],
-            'qwen2_5_omni': ['decord', 'qwen-vl-utils'],
-            'qwen2_5_vl_interleave': ['decord', 'qwen-vl-utils'],
-            'qwen2_audio': ['decord', 'qwen-vl-utils'],
-            'qwen_vl': ['decord', 'qwen-vl-utils'],
-            'qwen_vl_api': ['qwen-vl-utils'],
+            # Qwen models (dependencies pre-installed)
+            'qwen2_vl': [],
+            'qwen2_5_vl': [],
+            'qwen2_5_omni': [],
+            'qwen2_5_vl_interleave': [],
+            'qwen2_audio': [],
+            'qwen_vl': [],
+            'qwen_vl_api': [],
             
-            # Video models (require decord)
-            'llava_vid': ['decord'],
-            'llava_onevision': ['decord'],
-            'llava_onevision1_5': ['decord'],
-            'llava_onevision_moviechat': ['decord'],
-            'llama_vid': ['decord'],
-            'videochat2': ['decord'],
-            'videochat_flash': ['decord'],
-            'moviechat': ['decord'],
-            'longva': ['decord'],
-            'internvideo2': ['decord'],
-            'internvideo2_5': ['decord'],
-            'vita': ['decord'],
-            'vila': ['decord'],
-            'videollama3': ['decord'],
-            'mplug_owl_video': ['decord'],
+            # Video models (dependencies pre-installed)
+            'llava_vid': [],
+            'llava_onevision': [],
+            'llava_onevision1_5': [],
+            'llava_onevision_moviechat': [],
+            'llama_vid': [],
+            'videochat2': [],
+            'videochat_flash': [],
+            'moviechat': [],
+            'longva': [],
+            'internvideo2': [],
+            'internvideo2_5': [],
+            'vita': [],
+            'vila': [],
+            'videollama3': [],
+            'mplug_owl_video': [],
             
-            # Audio models (require audio processing libraries)
-            'gpt4o_audio': ['librosa', 'soundfile'],
-            'qwen2_audio': ['librosa', 'soundfile'],
+            # Audio models (dependencies pre-installed)
+            'gpt4o_audio': [],
+            'qwen2_audio': [],
             
             # API models (no additional dependencies)
             'gpt4v': [],
@@ -62,64 +68,44 @@ class ModelDependencyService:
             'openai_compatible': [],
             'batch_gpt4': [],
             
-            # Other specialized models
-            'internvl': ['decord'],
-            'internvl2': ['decord'],
-            'idefics2': ['decord'],
-            'phi4_multimodal': ['decord'],
-            'phi3v': ['decord'],
-            'mantis': ['decord'],
-            'minicpm_v': ['decord'],
-            'minimonkey': ['decord'],
-            'oryx': ['decord'],
-            'ola': ['decord'],
-            'ross': ['decord'],
-            'slime': ['decord'],
-            'reka': ['reka-api'],
+            # Other specialized models (dependencies pre-installed)
+            'internvl': [],
+            'internvl2': [],
+            'idefics2': [],
+            'phi4_multimodal': [],
+            'phi3v': [],
+            'mantis': [],
+            'minicpm_v': [],
+            'minimonkey': [],
+            'oryx': [],
+            'ola': [],
+            'ross': [],
+            'slime': [],
+            'reka': [],
             'srt_api': [],
-            'auroracap': ['decord'],
-            'aria': ['decord'],
-            'aero': ['decord'],
-            'plm': ['decord'],
-            'fuyu': ['decord'],
-            'instructblip': ['decord'],
-            'llava': ['decord'],
-            'llava_hf': ['decord'],
-            'llava_sglang': ['decord'],
-            'llama_vision': ['decord'],
-            'cogvlm2': ['decord'],
+            'auroracap': [],
+            'aria': [],
+            'aero': [],
+            'plm': [],
+            'fuyu': [],
+            'instructblip': [],
+            'llava': [],
+            'llava_hf': [],
+            'llava_sglang': [],
+            'llama_vision': [],
+            'cogvlm2': [],
             'from_log': [],
-            'gemma3': ['decord'],
-            'gpt4v': [],
-            'mantis': ['decord'],
-            'minicpm_v': ['decord'],
-            'minimonkey': ['decord'],
-            'mplug_owl_video': ['decord'],
-            'ola': ['decord'],
-            'oryx': ['decord'],
-            'phi3v': ['decord'],
-            'phi4_multimodal': ['decord'],
-            'qwen2_5_omni': ['decord', 'qwen-vl-utils'],
-            'qwen2_5_vl': ['decord', 'qwen-vl-utils'],
-            'qwen2_5_vl_interleave': ['decord', 'qwen-vl-utils'],
-            'qwen2_audio': ['decord', 'qwen-vl-utils'],
-            'qwen2_vl': ['decord', 'qwen-vl-utils'],
-            'qwen_vl': ['decord', 'qwen-vl-utils'],
-            'qwen_vl_api': ['qwen-vl-utils'],
-            'reka': ['reka-api'],
-            'ross': ['decord'],
-            'slime': ['decord'],
-            'srt_api': [],
+            'gemma3': [],
         }
         
-        # Pattern matching for model families
+        # Pattern matching for model families (dependencies pre-installed)
         self.PATTERN_DEPENDENCIES = {
-            'video_*': ['decord'],
-            'audio_*': ['librosa', 'soundfile'],
-            'qwen*': ['decord', 'qwen-vl-utils'],
-            'llava*': ['decord'],
-            'llama*': ['decord'],
-            'intern*': ['decord'],
+            'video_*': [],
+            'audio_*': [],
+            'qwen*': [],
+            'llava*': [],
+            'llama*': [],
+            'intern*': [],
         }
     
     def get_model_dependencies(self, model_name: str) -> List[str]:
@@ -266,7 +252,43 @@ class ModelDependencyService:
         """Clear the dependency cache."""
         self._installed_packages = None
         self._cache_timestamp = None
+        self._dependency_status_cache.clear()
+        self._status_cache_timestamp.clear()
         logger.debug("Dependency cache cleared")
+    
+    def get_cached_dependency_status(self, model_name: str) -> Optional[Dict]:
+        """Get cached dependency status for a model."""
+        current_time = time.time()
+        
+        if (model_name in self._dependency_status_cache and 
+            model_name in self._status_cache_timestamp and
+            current_time - self._status_cache_timestamp[model_name] < self._status_cache_ttl):
+            logger.debug("Returning cached dependency status", model=model_name)
+            return self._dependency_status_cache[model_name]
+        
+        return None
+    
+    def cache_dependency_status(self, model_name: str, status: Dict):
+        """Cache dependency status for a model."""
+        current_time = time.time()
+        self._dependency_status_cache[model_name] = status
+        self._status_cache_timestamp[model_name] = current_time
+        logger.debug("Cached dependency status", model=model_name)
+    
+    def get_enhanced_dependency_status(self, model_name: str) -> Dict:
+        """Get enhanced dependency status with caching."""
+        # Check cache first
+        cached_status = self.get_cached_dependency_status(model_name)
+        if cached_status:
+            return cached_status
+        
+        # Generate fresh status
+        status = self.get_dependency_status(model_name)
+        
+        # Cache the result
+        self.cache_dependency_status(model_name, status)
+        
+        return status
     
     def get_dependency_status(self, model_name: str) -> Dict[str, any]:
         """

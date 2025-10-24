@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Shimmer animation keyframes */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
 /* Test styles to verify CSS is loading */
 body {
   background-color: #f0f0f0 !important;

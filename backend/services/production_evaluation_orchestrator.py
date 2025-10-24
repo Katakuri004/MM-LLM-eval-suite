@@ -32,6 +32,8 @@ from services.websocket_manager import websocket_manager
 from services.task_discovery_service import task_discovery_service
 from services.partial_results_handler import partial_results_handler
 from services.lmms_eval_parser import lmms_eval_parser
+from services.evaluation_retry_handler import retry_handler, RetryableError, NonRetryableError
+from services.checkpoint_manager import checkpoint_manager
 
 logger = structlog.get_logger(__name__)
 
@@ -165,9 +167,9 @@ class ProductionEvaluationOrchestrator:
             # Step 3: Create evaluation record
             evaluation_id = await self._create_evaluation_record(request)
             
-            # Step 4: Start evaluation task
+            # Step 4: Start evaluation task with retry logic
             task = asyncio.create_task(
-                self._execute_evaluation(evaluation_id, request)
+                self._execute_evaluation_with_retry(evaluation_id, request)
             )
             self.active_evaluations[evaluation_id] = task
             
@@ -269,12 +271,47 @@ class ProductionEvaluationOrchestrator:
         if not request.benchmark_ids:
             raise ValueError("At least one benchmark must be specified")
         
-        valid_benchmarks = []
+        # Get all benchmarks first
+        benchmarks = []
         for benchmark_id in request.benchmark_ids:
             benchmark = supabase_service.get_benchmark_by_id(benchmark_id)
             if not benchmark:
                 raise ValueError(f"Benchmark not found: {benchmark_id}")
-            
+            benchmarks.append(benchmark)
+        
+        # NEW: Check task type compatibility for all benchmarks
+        from services.model_task_compatibility import model_task_compatibility
+        model_name = self._map_model_name(model)
+        compatible, incompatible = model_task_compatibility.filter_compatible_benchmarks(
+            model_name, benchmarks
+        )
+        
+        if not compatible:
+            # All benchmarks are incompatible
+            incompatible_list = [
+                f"- {b['name']}: {b['incompatibility_reason']}" 
+                for b in incompatible
+            ]
+            raise ValueError(
+                f"All selected benchmarks are incompatible with model '{model['name']}':\n" +
+                "\n".join(incompatible_list) +
+                "\n\nPlease select benchmarks that support generation tasks (e.g., VQAv2, GQA, GSM8K, MBPP)."
+            )
+        
+        if incompatible:
+            # Some benchmarks are incompatible - log warning
+            logger.warning(
+                "Some benchmarks are incompatible and will be skipped",
+                model_name=model['name'],
+                incompatible_count=len(incompatible),
+                incompatible_benchmarks=[b['name'] for b in incompatible]
+            )
+        
+        # Update request to only include compatible benchmarks
+        request.benchmark_ids = [b['id'] for b in compatible]
+        
+        valid_benchmarks = []
+        for benchmark in compatible:
             # Check compatibility
             if not self._check_compatibility(model, benchmark):
                 logger.warning(
@@ -283,59 +320,56 @@ class ProductionEvaluationOrchestrator:
                     benchmark=benchmark['name']
                 )
             
-        # Validate task mapping
-        mapped_task = await self._map_benchmark_name(benchmark)
-        if not mapped_task:
-            # Get available tasks for better error message
-            from services.task_discovery_service import task_discovery_service
-            available_tasks = await task_discovery_service.get_available_tasks()
+            # Validate task mapping
+            mapped_task = await self._map_benchmark_name(benchmark)
+            if not mapped_task:
+                # Get available tasks for better error message
+                from services.task_discovery_service import task_discovery_service
+                available_tasks = await task_discovery_service.get_available_tasks()
+                
+                # Find similar tasks
+                similar_tasks = []
+                benchmark_name = benchmark['name'].lower()
+                for task in available_tasks:
+                    if any(word in task.lower() for word in benchmark_name.split()):
+                        similar_tasks.append(task)
+                
+                # Get some common available tasks as suggestions
+                common_tasks = [task for task in available_tasks if task in [
+                    'ai2_arc', 'hellaswag', 'mmlu', 'gsm8k', 'vqav2', 'coco_caption',
+                    'scienceqa', 'chartqa', 'docvqa', 'textvqa', 'gqa', 'ok_vqa'
+                ]]
+                
+                error_msg = f"Benchmark '{benchmark['name']}' cannot be mapped to a valid lmms-eval task"
+                if similar_tasks:
+                    error_msg += f". Similar available tasks: {', '.join(similar_tasks[:3])}"
+                elif common_tasks:
+                    error_msg += f". Try these available benchmarks instead: {', '.join(common_tasks[:5])}"
+                else:
+                    error_msg += f". No similar tasks found. Total available tasks: {len(available_tasks)}"
+                
+                raise ValueError(error_msg)
             
-            # Find similar tasks
-            similar_tasks = []
-            benchmark_name = benchmark['name'].lower()
-            for task in available_tasks:
-                if any(word in task.lower() for word in benchmark_name.split()):
-                    similar_tasks.append(task)
+            # Check model-task compatibility
+            if not model_task_compatibility.is_compatible(model_name, mapped_task):
+                model_caps = model_task_compatibility.get_model_capabilities(model_name)
+                task_reqs = model_task_compatibility.get_task_requirements(mapped_task)
+                missing_caps = task_reqs - model_caps
+                
+                # Get compatible alternatives
+                compatible_tasks = model_task_compatibility.get_compatible_tasks(model_name, available_tasks)
+                
+                error_msg = (f"Model '{model['name']}' is incompatible with task '{mapped_task}'. "
+                            f"Model capabilities: {list(model_caps)}, "
+                            f"Task requirements: {list(task_reqs)}, "
+                            f"Missing: {list(missing_caps)}")
+                
+                if compatible_tasks:
+                    error_msg += f". Compatible tasks: {', '.join(compatible_tasks[:5])}"
+                
+                raise ValueError(error_msg)
             
-            # Get some common available tasks as suggestions
-            common_tasks = [task for task in available_tasks if task in [
-                'ai2_arc', 'hellaswag', 'mmlu', 'gsm8k', 'vqav2', 'coco_caption',
-                'scienceqa', 'chartqa', 'docvqa', 'textvqa', 'gqa', 'ok_vqa'
-            ]]
-            
-            error_msg = f"Benchmark '{benchmark['name']}' cannot be mapped to a valid lmms-eval task"
-            if similar_tasks:
-                error_msg += f". Similar available tasks: {', '.join(similar_tasks[:3])}"
-            elif common_tasks:
-                error_msg += f". Try these available benchmarks instead: {', '.join(common_tasks[:5])}"
-            else:
-                error_msg += f". No similar tasks found. Total available tasks: {len(available_tasks)}"
-            
-            raise ValueError(error_msg)
-        
-        # Check model-task compatibility
-        from services.model_task_compatibility import model_task_compatibility
-        model_name = self._map_model_name(model)
-        
-        if not model_task_compatibility.is_compatible(model_name, mapped_task):
-            model_caps = model_task_compatibility.get_model_capabilities(model_name)
-            task_reqs = model_task_compatibility.get_task_requirements(mapped_task)
-            missing_caps = task_reqs - model_caps
-            
-            # Get compatible alternatives
-            compatible_tasks = model_task_compatibility.get_compatible_tasks(model_name, available_tasks)
-            
-            error_msg = (f"Model '{model['name']}' is incompatible with task '{mapped_task}'. "
-                        f"Model capabilities: {list(model_caps)}, "
-                        f"Task requirements: {list(task_reqs)}, "
-                        f"Missing: {list(missing_caps)}")
-            
-            if compatible_tasks:
-                error_msg += f". Compatible tasks: {', '.join(compatible_tasks[:5])}"
-            
-            raise ValueError(error_msg)
-        
-        valid_benchmarks.append(benchmark)
+            valid_benchmarks.append(benchmark)
         
         # Validate configuration
         self._validate_config(request.config)
@@ -476,10 +510,51 @@ class ProductionEvaluationOrchestrator:
         
         return evaluation_id
     
-    async def _execute_evaluation(
+    async def _execute_evaluation_with_retry(
         self,
         evaluation_id: str,
         request: EvaluationRequest
+    ) -> None:
+        """
+        Execute evaluation with retry logic.
+        
+        Wraps the main execution in retry handler for automatic retries.
+        """
+        try:
+            # Check for existing checkpoint and resume if possible
+            if await checkpoint_manager.can_resume(evaluation_id):
+                logger.info("Resuming evaluation from checkpoint", evaluation_id=evaluation_id)
+                await self._resume_evaluation_from_checkpoint(evaluation_id, request)
+                return
+            
+            # Start fresh evaluation
+            await retry_handler.execute_with_retry(
+                evaluation_id,
+                self._execute_evaluation,
+                evaluation_id,
+                request
+            )
+        except NonRetryableError as e:
+            logger.error(
+                "Evaluation failed with non-retryable error",
+                evaluation_id=evaluation_id,
+                error=str(e)
+            )
+            await self._handle_evaluation_failure(evaluation_id, e, [])
+        except Exception as e:
+            logger.error(
+                "Evaluation failed after all retries",
+                evaluation_id=evaluation_id,
+                error=str(e)
+            )
+            await self._handle_evaluation_failure(evaluation_id, e, [])
+    
+    async def _execute_evaluation(
+        self,
+        evaluation_id: str,
+        request: EvaluationRequest,
+        remaining_benchmarks: Optional[List[Dict[str, Any]]] = None,
+        from_checkpoint: bool = False
     ) -> None:
         """
         Execute the evaluation.
@@ -504,11 +579,20 @@ class ProductionEvaluationOrchestrator:
             
             # Get model and benchmark details
             model = supabase_service.get_model_by_id(request.model_id)
-            benchmarks = [
-                supabase_service.get_benchmark_by_id(bid)
-                for bid in request.benchmark_ids
-            ]
-            benchmarks = [b for b in benchmarks if b is not None]
+            
+            if remaining_benchmarks:
+                # Use remaining benchmarks from checkpoint
+                benchmarks = remaining_benchmarks
+                logger.info("Using remaining benchmarks from checkpoint", 
+                           evaluation_id=evaluation_id, 
+                           count=len(benchmarks))
+            else:
+                # Get all benchmarks for fresh evaluation
+                benchmarks = [
+                    supabase_service.get_benchmark_by_id(bid)
+                    for bid in request.benchmark_ids
+                ]
+                benchmarks = [b for b in benchmarks if b is not None]
             
             # Build command
             command = await self._build_lmms_eval_command(
@@ -567,16 +651,11 @@ class ProductionEvaluationOrchestrator:
         except Exception as e:
             logger.error("Evaluation failed", evaluation_id=evaluation_id, error=str(e), exc_info=True)
             
-            # Handle failure with partial results support
-            await self._handle_evaluation_failure(evaluation_id, e, benchmarks)
-            
-            await self._send_progress_update(
-                evaluation_id,
-                EvaluationStatus.FAILED.value,
-                0,
-                None,
-                f"Evaluation failed: {str(e)}"
-            )
+            # Classify error for retry logic
+            if self._is_retryable_error(e):
+                raise RetryableError(f"Retryable evaluation error: {str(e)}")
+            else:
+                raise NonRetryableError(f"Non-retryable evaluation error: {str(e)}")
             
         finally:
             # Cleanup
@@ -657,10 +736,19 @@ class ProductionEvaluationOrchestrator:
         
         # Qwen variants (be more specific)
         if 'qwen2.5' in model_name or 'qwen2.5' in source:
+            # Check for Omni variant first
+            if 'omni' in model_name or 'omni' in source:
+                return 'qwen2_5_omni'
             return 'qwen2_5_vl'
         elif 'qwen2' in model_name or 'qwen2' in source:
+            # Check for Omni variant first
+            if 'omni' in model_name or 'omni' in source:
+                return 'qwen2_5_omni'  # Use qwen2_5_omni for qwen2 omni
             return 'qwen2_vl'
         elif 'qwen' in model_family or 'qwen' in model_name:
+            # Check for Omni variant first
+            if 'omni' in model_name or 'omni' in source:
+                return 'qwen_omni'
             return 'qwen_vl'
         
         # Phi models
@@ -744,7 +832,20 @@ class ProductionEvaluationOrchestrator:
         
         # Add pretrained path if available
         if 'source' in model:
-            all_args['pretrained'] = model['source']
+            source = model['source']
+            original_source = source
+            # Remove common prefixes that cause HFValidationError
+            for prefix in ['huggingface://', 'hf://', 'https://huggingface.co/']:
+                if source.startswith(prefix):
+                    source = source[len(prefix):]
+                    logger.debug(
+                        "Cleaned model source",
+                        original=original_source,
+                        cleaned=source,
+                        removed_prefix=prefix
+                    )
+                    break
+            all_args['pretrained'] = source
         
         # Add dtype (will be filtered out for incompatible models)
         if 'dtype' in model:
@@ -1089,8 +1190,23 @@ class ProductionEvaluationOrchestrator:
                     
                     completed_benchmarks += 1
                     
+                    # Save checkpoint after each benchmark completion
+                    await checkpoint_manager.create_benchmark_checkpoint(
+                        evaluation_id=evaluation_id,
+                        benchmark_id=benchmark['id'],
+                        benchmark_name=benchmark['name'],
+                        completed_benchmarks=[b['id'] for b in benchmarks[:completed_benchmarks]],
+                        progress_percentage=(completed_benchmarks / len(benchmarks)) * 100,
+                        benchmark_results={
+                            "metrics": metrics,
+                            "scores": primary_metrics,
+                            "performance_score": performance_score,
+                            "samples_count": samples_count
+                        }
+                    )
+                    
                     logger.info(
-                        "Stored comprehensive result",
+                        "Stored comprehensive result and checkpoint",
                         evaluation_id=evaluation_id,
                         benchmark=benchmark['name'],
                         metrics_count=len(metrics),
@@ -1381,6 +1497,160 @@ class ProductionEvaluationOrchestrator:
                 original_error=str(error),
                 handling_error=str(e)
             )
+    
+    def _is_retryable_error(self, error: Exception) -> bool:
+        """Determine if an error is retryable for evaluation."""
+        error_str = str(error).lower()
+        error_type = type(error).__name__
+        
+        # Non-retryable errors (configuration, validation, etc.)
+        non_retryable_patterns = [
+            'validation error',
+            'invalid input',
+            'not found',
+            'permission denied',
+            'authentication failed',
+            'model not found',
+            'benchmark not found',
+            'task not found',
+            'dependency not found',
+            'circuit breaker'
+        ]
+        
+        non_retryable_types = [
+            'ValueError',
+            'TypeError',
+            'KeyError',
+            'AttributeError',
+            'ImportError',
+            'ModuleNotFoundError'
+        ]
+        
+        # Check patterns
+        for pattern in non_retryable_patterns:
+            if pattern in error_str:
+                return False
+        
+        # Check types
+        if error_type in non_retryable_types:
+            return False
+        
+        # Retryable errors (network, system, resource issues)
+        retryable_patterns = [
+            'connection',
+            'timeout',
+            'network',
+            'resource',
+            'memory',
+            'disk space',
+            'temporary',
+            'rate limit',
+            'service unavailable'
+        ]
+        
+        retryable_types = [
+            'ConnectionError',
+            'TimeoutError',
+            'RuntimeError',
+            'OSError',
+            'IOError',
+            'MemoryError'
+        ]
+        
+        # Check retryable patterns
+        for pattern in retryable_patterns:
+            if pattern in error_str:
+                return True
+        
+        # Check retryable types
+        if error_type in retryable_types:
+            return True
+        
+        # Default to non-retryable for unknown errors
+        return False
+    
+    async def _resume_evaluation_from_checkpoint(
+        self,
+        evaluation_id: str,
+        request: EvaluationRequest
+    ) -> None:
+        """
+        Resume evaluation from checkpoint.
+        
+        Args:
+            evaluation_id: ID of the evaluation
+            request: Original evaluation request
+        """
+        try:
+            # Load checkpoint data
+            checkpoint = await checkpoint_manager.load_checkpoint(evaluation_id)
+            if not checkpoint:
+                logger.warning("No checkpoint found for resume", evaluation_id=evaluation_id)
+                # Fall back to normal execution
+                await self._execute_evaluation(evaluation_id, request)
+                return
+            
+            # Update evaluation status to running
+            await self._update_status(evaluation_id, EvaluationStatus.RUNNING)
+            
+            # Get completed benchmarks from checkpoint
+            completed_benchmarks = checkpoint.get("completed_benchmarks", [])
+            all_benchmark_ids = checkpoint.get("benchmark_ids", request.benchmark_ids)
+            
+            # Find remaining benchmarks to process
+            remaining_benchmark_ids = [
+                bid for bid in all_benchmark_ids 
+                if bid not in completed_benchmarks
+            ]
+            
+            if not remaining_benchmark_ids:
+                logger.info("All benchmarks already completed", evaluation_id=evaluation_id)
+                await self._update_status(evaluation_id, EvaluationStatus.COMPLETED)
+                return
+            
+            # Get model and remaining benchmarks
+            model = supabase_service.get_model_by_id(request.model_id)
+            remaining_benchmarks = [
+                supabase_service.get_benchmark_by_id(bid)
+                for bid in remaining_benchmark_ids
+            ]
+            remaining_benchmarks = [b for b in remaining_benchmarks if b is not None]
+            
+            if not remaining_benchmarks:
+                logger.warning("No valid remaining benchmarks found", evaluation_id=evaluation_id)
+                await self._update_status(evaluation_id, EvaluationStatus.COMPLETED)
+                return
+            
+            # Update resume count
+            supabase_service.update_evaluation(
+                evaluation_id,
+                {
+                    "resume_count": checkpoint.get("resume_count", 0) + 1,
+                    "updated_at": datetime.utcnow().isoformat()
+                }
+            )
+            
+            logger.info(
+                "Resuming evaluation",
+                evaluation_id=evaluation_id,
+                completed_count=len(completed_benchmarks),
+                remaining_count=len(remaining_benchmarks),
+                resume_count=checkpoint.get("resume_count", 0) + 1
+            )
+            
+            # Continue with remaining benchmarks
+            await self._execute_evaluation(
+                evaluation_id,
+                request,
+                remaining_benchmarks=remaining_benchmarks,
+                from_checkpoint=True
+            )
+            
+        except Exception as e:
+            logger.error("Failed to resume evaluation from checkpoint", 
+                        evaluation_id=evaluation_id, error=str(e))
+            # Fall back to normal execution
+            await self._execute_evaluation(evaluation_id, request)
 
 
 # Global instance

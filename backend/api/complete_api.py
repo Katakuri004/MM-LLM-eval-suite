@@ -950,6 +950,382 @@ async def refresh_dependency_cache():
 
 
 # ============================================================================
+# EVALUATION MANAGEMENT ENDPOINTS (Resume, Retry, Checkpoints, Samples)
+# ============================================================================
+
+@router.post("/evaluations/{evaluation_id}/resume")
+async def resume_evaluation(evaluation_id: str):
+    """Resume a failed or interrupted evaluation from checkpoint."""
+    try:
+        from services.production_evaluation_orchestrator import production_orchestrator
+        from services.checkpoint_manager import checkpoint_manager
+        
+        # Check if evaluation can be resumed
+        can_resume = await checkpoint_manager.can_resume(evaluation_id)
+        if not can_resume:
+            raise HTTPException(
+                status_code=400, 
+                detail="Evaluation cannot be resumed (no checkpoint or too old)"
+            )
+        
+        # Get evaluation details
+        evaluation = supabase_service.get_evaluation(evaluation_id)
+        if not evaluation:
+            raise HTTPException(status_code=404, detail="Evaluation not found")
+        
+        # Create resume request
+        from services.production_evaluation_orchestrator import EvaluationRequest
+        resume_request = EvaluationRequest(
+            model_id=evaluation["model_id"],
+            benchmark_ids=evaluation["benchmark_ids"],
+            config=evaluation.get("config", {}),
+            name=evaluation.get("name", f"Resumed {evaluation_id}")
+        )
+        
+        # Resume evaluation
+        await production_orchestrator._resume_evaluation_from_checkpoint(
+            evaluation_id, resume_request
+        )
+        
+        return {
+            "message": "Evaluation resumed successfully",
+            "evaluation_id": evaluation_id,
+            "resumed_at": datetime.utcnow().isoformat()
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to resume evaluation", evaluation_id=evaluation_id, error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to resume evaluation")
+
+
+@router.post("/evaluations/{evaluation_id}/retry")
+async def retry_evaluation(evaluation_id: str):
+    """Retry a failed evaluation."""
+    try:
+        from services.production_evaluation_orchestrator import production_orchestrator
+        from services.evaluation_retry_handler import retry_handler
+        
+        # Check if evaluation can be retried
+        evaluation = supabase_service.get_evaluation(evaluation_id)
+        if not evaluation:
+            raise HTTPException(status_code=404, detail="Evaluation not found")
+        
+        if evaluation.get("retry_count", 0) >= 3:
+            raise HTTPException(
+                status_code=400, 
+                detail="Maximum retry attempts exceeded"
+            )
+        
+        if evaluation.get("retry_status") == "circuit_open":
+            raise HTTPException(
+                status_code=400, 
+                detail="Circuit breaker is open - too many recent failures"
+            )
+        
+        # Create retry request
+        from services.production_evaluation_orchestrator import EvaluationRequest
+        retry_request = EvaluationRequest(
+            model_id=evaluation["model_id"],
+            benchmark_ids=evaluation["benchmark_ids"],
+            config=evaluation.get("config", {}),
+            name=evaluation.get("name", f"Retry {evaluation_id}")
+        )
+        
+        # Start retry
+        await production_orchestrator.start_evaluation(retry_request)
+        
+        return {
+            "message": "Evaluation retry started",
+            "evaluation_id": evaluation_id,
+            "retried_at": datetime.utcnow().isoformat()
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to retry evaluation", evaluation_id=evaluation_id, error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to retry evaluation")
+
+
+@router.get("/evaluations/{evaluation_id}/checkpoint")
+async def get_evaluation_checkpoint(evaluation_id: str):
+    """Get checkpoint information for an evaluation."""
+    try:
+        from services.checkpoint_manager import checkpoint_manager
+        
+        checkpoint_info = await checkpoint_manager.get_checkpoint_info(evaluation_id)
+        
+        return {
+            "evaluation_id": evaluation_id,
+            "checkpoint_info": checkpoint_info
+        }
+        
+    except Exception as e:
+        logger.error("Failed to get checkpoint info", evaluation_id=evaluation_id, error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to get checkpoint info")
+
+
+@router.delete("/evaluations/{evaluation_id}/checkpoint")
+async def clear_evaluation_checkpoint(evaluation_id: str):
+    """Clear checkpoint for an evaluation."""
+    try:
+        from services.checkpoint_manager import checkpoint_manager
+        
+        await checkpoint_manager.cleanup_checkpoint(evaluation_id)
+        
+        return {
+            "message": "Checkpoint cleared successfully",
+            "evaluation_id": evaluation_id
+        }
+        
+    except Exception as e:
+        logger.error("Failed to clear checkpoint", evaluation_id=evaluation_id, error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to clear checkpoint")
+
+
+@router.get("/checkpoints")
+async def list_checkpoints():
+    """List all available checkpoints."""
+    try:
+        from services.checkpoint_manager import checkpoint_manager
+        
+        checkpoints = await checkpoint_manager.list_checkpoints()
+        
+        return {
+            "checkpoints": checkpoints,
+            "total": len(checkpoints)
+        }
+        
+    except Exception as e:
+        logger.error("Failed to list checkpoints", error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to list checkpoints")
+
+
+@router.get("/evaluations/{evaluation_id}/samples")
+async def get_evaluation_samples(
+    evaluation_id: str,
+    benchmark_id: Optional[str] = None,
+    limit: int = 100,
+    offset: int = 0
+):
+    """Get sample results for an evaluation."""
+    try:
+        # Get evaluation results
+        results = supabase_service.get_evaluation_results(evaluation_id)
+        
+        if not results:
+            return {
+                "evaluation_id": evaluation_id,
+                "samples": [],
+                "total": 0,
+                "message": "No results found"
+            }
+        
+        # Filter by benchmark if specified
+        if benchmark_id:
+            results = [r for r in results if r.get("benchmark_id") == benchmark_id]
+        
+        # Get sample results
+        samples = []
+        for result in results:
+            per_sample = result.get("per_sample_results", [])
+            if per_sample:
+                samples.extend(per_sample)
+        
+        # Apply pagination
+        total = len(samples)
+        paginated_samples = samples[offset:offset + limit]
+        
+        return {
+            "evaluation_id": evaluation_id,
+            "benchmark_id": benchmark_id,
+            "samples": paginated_samples,
+            "total": total,
+            "limit": limit,
+            "offset": offset
+        }
+        
+    except Exception as e:
+        logger.error("Failed to get evaluation samples", evaluation_id=evaluation_id, error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to get evaluation samples")
+
+
+@router.get("/evaluations/{evaluation_id}/retry-status")
+async def get_retry_status(evaluation_id: str):
+    """Get retry status for an evaluation."""
+    try:
+        from services.evaluation_retry_handler import retry_handler
+        
+        retry_status = retry_handler.get_retry_status(evaluation_id)
+        circuit_breaker_status = retry_handler.get_circuit_breaker_status()
+        
+        return {
+            "evaluation_id": evaluation_id,
+            "retry_status": retry_status,
+            "circuit_breaker": circuit_breaker_status
+        }
+        
+    except Exception as e:
+        logger.error("Failed to get retry status", evaluation_id=evaluation_id, error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to get retry status")
+
+
+@router.post("/circuit-breaker/reset")
+async def reset_circuit_breaker():
+    """Manually reset the circuit breaker."""
+    try:
+        from services.evaluation_retry_handler import retry_handler
+        
+        retry_handler.reset_circuit_breaker()
+        
+        return {
+            "message": "Circuit breaker reset successfully",
+            "timestamp": datetime.utcnow().isoformat()
+        }
+        
+    except Exception as e:
+        logger.error("Failed to reset circuit breaker", error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to reset circuit breaker")
+
+
+# ============================================================================
+# EXPORT AND REPORTING ENDPOINTS
+# ============================================================================
+
+@router.get("/evaluations/{evaluation_id}/export")
+async def export_evaluation_report(
+    evaluation_id: str,
+    format: str = "json",
+    include_samples: bool = False,
+    include_metadata: bool = True
+):
+    """Export evaluation report in specified format."""
+    try:
+        from services.report_generator import report_generator
+        
+        # Validate format
+        if format not in ["json", "csv", "pdf"]:
+            raise HTTPException(
+                status_code=400, 
+                detail="Invalid format. Supported: json, csv, pdf"
+            )
+        
+        # Generate report
+        report_info = await report_generator.generate_evaluation_report(
+            evaluation_id=evaluation_id,
+            format=format,
+            include_samples=include_samples,
+            include_metadata=include_metadata
+        )
+        
+        return {
+            "message": "Report generated successfully",
+            "evaluation_id": evaluation_id,
+            "report_info": report_info
+        }
+        
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        logger.error("Failed to export evaluation report", 
+                    evaluation_id=evaluation_id, error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to generate report")
+
+
+@router.post("/export/comparison")
+async def export_comparison_report(
+    model_ids: List[str],
+    benchmark_ids: Optional[List[str]] = None,
+    format: str = "json",
+    include_timeline: bool = True
+):
+    """Export comparison report for multiple models."""
+    try:
+        from services.report_generator import report_generator
+        
+        # Validate format
+        if format not in ["json", "csv", "pdf"]:
+            raise HTTPException(
+                status_code=400, 
+                detail="Invalid format. Supported: json, csv, pdf"
+            )
+        
+        if not model_ids:
+            raise HTTPException(
+                status_code=400, 
+                detail="At least one model ID is required"
+            )
+        
+        # Generate report
+        report_info = await report_generator.generate_comparison_report(
+            model_ids=model_ids,
+            benchmark_ids=benchmark_ids,
+            format=format,
+            include_timeline=include_timeline
+        )
+        
+        return {
+            "message": "Comparison report generated successfully",
+            "model_ids": model_ids,
+            "benchmark_ids": benchmark_ids,
+            "report_info": report_info
+        }
+        
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        logger.error("Failed to export comparison report", error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to generate comparison report")
+
+
+@router.get("/reports")
+async def list_reports():
+    """List all generated reports."""
+    try:
+        from services.report_generator import report_generator
+        
+        reports = report_generator.list_reports()
+        
+        return {
+            "reports": reports,
+            "total": len(reports)
+        }
+        
+    except Exception as e:
+        logger.error("Failed to list reports", error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to list reports")
+
+
+@router.delete("/reports/cleanup")
+async def cleanup_old_reports(days: int = 30):
+    """Clean up old reports."""
+    try:
+        from services.report_generator import report_generator
+        
+        if days < 1 or days > 365:
+            raise HTTPException(
+                status_code=400, 
+                detail="Days must be between 1 and 365"
+            )
+        
+        cleaned_count = report_generator.cleanup_old_reports(days)
+        
+        return {
+            "message": f"Cleaned up {cleaned_count} old reports",
+            "cleaned_count": cleaned_count,
+            "days": days
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("Failed to cleanup reports", error=str(e))
+        raise HTTPException(status_code=500, detail="Failed to cleanup reports")
+
+
+# ============================================================================
 # MODEL-TASK COMPATIBILITY ENDPOINTS
 # ============================================================================
 

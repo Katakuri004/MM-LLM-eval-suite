@@ -4,7 +4,7 @@ Model-Task Compatibility Service
 Determines which tasks are compatible with which models based on their capabilities.
 """
 
-from typing import Dict, List, Set
+from typing import Dict, List, Set, Tuple, Any
 import structlog
 
 logger = structlog.get_logger(__name__)
@@ -112,6 +112,89 @@ class ModelTaskCompatibilityService:
         
         # Default capabilities for unknown models
         self.DEFAULT_CAPABILITIES = {'text'}
+        
+        # Task type compatibility mapping
+        self.MODEL_TASK_TYPE_COMPATIBILITY = {
+            # Vision-language generation models (only support generate_until)
+            'qwen2_vl': ['generate_until'],
+            'qwen2_5_vl': ['generate_until'],
+            'qwen_vl': ['generate_until'],
+            'llava': ['generate_until'],
+            'llava_onevision': ['generate_until'],
+            'llava_vid': ['generate_until'],
+            'video_llava': ['generate_until'],
+            'vora': ['generate_until'],
+            'internvl': ['generate_until'],
+            'cogvlm2': ['generate_until'],
+            'instructblip': ['generate_until'],
+            'phi3v': ['generate_until'],
+            'phi4_multimodal': ['generate_until'],
+            
+            # Omni models (support all task types - more general purpose)
+            'qwen2_5_omni': ['generate_until', 'loglikelihood', 'multiple_choice'],
+            'qwen_omni': ['generate_until', 'loglikelihood', 'multiple_choice'],
+            
+            # API models (typically support both)
+            'gpt4v': ['generate_until', 'loglikelihood', 'multiple_choice'],
+            'claude': ['generate_until', 'loglikelihood', 'multiple_choice'],
+            'gemini_api': ['generate_until', 'loglikelihood', 'multiple_choice'],
+            
+            # Text-only models (support all types)
+            'huggingface': ['generate_until', 'loglikelihood', 'multiple_choice'],
+        }
+        
+        # Mapping of benchmark names to their task types
+        self.BENCHMARK_TASK_TYPES = {
+            'mmlu': 'multiple_choice',
+            'hellaswag': 'multiple_choice',
+            'arc': 'multiple_choice',
+            'truthfulqa': 'multiple_choice',
+            'winogrande': 'multiple_choice',
+            'piqa': 'multiple_choice',
+            'openbookqa': 'multiple_choice',
+            'ai2_arc': 'multiple_choice',
+            'gsm8k': 'generate_until',
+            'mbpp': 'generate_until',
+            'humaneval': 'generate_until',
+            'vqav2': 'generate_until',
+            'gqa': 'generate_until',
+            'okvqa': 'generate_until',
+            'textvqa': 'generate_until',
+            'coco_caption': 'generate_until',
+            'coco_caption2017': 'generate_until',
+            'infovqa': 'generate_until',
+            'docvqa': 'generate_until',
+            'chartqa': 'generate_until',
+            'scienceqa': 'generate_until',
+            'pope': 'generate_until',
+            'mmbench': 'generate_until',
+            'mmbench_cn': 'generate_until',
+            'mmbench_en': 'generate_until',
+            'cmmmu': 'generate_until',
+            'mmmu': 'generate_until',
+            'llava_in_the_wild': 'generate_until',
+            'llava_bench': 'generate_until',
+            'mme': 'generate_until',
+            'seedbench': 'generate_until',
+            'seedbench_lite': 'generate_until',
+            'mvbench': 'generate_until',
+            'nocaps': 'generate_until',
+            'refcoco': 'generate_until',
+            'refcoco+': 'generate_until',
+            'refcocog': 'generate_until',
+            'flickr30k': 'generate_until',
+            'mathvista': 'generate_until',
+            'hallusion_bench_image': 'generate_until',
+            'activitynetqa': 'generate_until',
+            'msvd_qa': 'generate_until',
+            'tgif_qa': 'generate_until',
+            'videochatgpt': 'generate_until',
+            'videomme': 'generate_until',
+            'videomathqa_mcq': 'generate_until',
+            'fleurs': 'generate_until',
+            'common_voice_15': 'generate_until',
+            'librispeech': 'generate_until',
+        }
     
     def get_model_capabilities(self, model_name: str) -> Set[str]:
         """Get capabilities for a model."""
@@ -174,6 +257,52 @@ class ModelTaskCompatibilityService:
             'incompatible_tasks': incompatible,
             'compatibility_ratio': len(compatible) / len(available_tasks) if available_tasks else 0
         }
+    
+    def get_task_type_for_benchmark(self, benchmark_name: str) -> str:
+        """Get the task type for a benchmark."""
+        benchmark_lower = benchmark_name.lower()
+        for key, task_type in self.BENCHMARK_TASK_TYPES.items():
+            if key in benchmark_lower:
+                return task_type
+        # Default to generate_until for unknown tasks
+        return 'generate_until'
+    
+    def is_task_type_compatible(self, model_name: str, task_type: str) -> bool:
+        """Check if a model supports a specific task type."""
+        if model_name not in self.MODEL_TASK_TYPE_COMPATIBILITY:
+            # If not explicitly defined, assume it supports all types
+            return True
+        
+        supported_types = self.MODEL_TASK_TYPE_COMPATIBILITY[model_name]
+        return task_type in supported_types
+    
+    def filter_compatible_benchmarks(
+        self, 
+        model_name: str, 
+        benchmarks: List[Dict[str, Any]]
+    ) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+        """
+        Filter benchmarks based on task type compatibility.
+        
+        Returns:
+            Tuple of (compatible_benchmarks, incompatible_benchmarks)
+        """
+        compatible = []
+        incompatible = []
+        
+        for benchmark in benchmarks:
+            benchmark_name = benchmark.get('name', '')
+            task_type = self.get_task_type_for_benchmark(benchmark_name)
+            
+            if self.is_task_type_compatible(model_name, task_type):
+                compatible.append(benchmark)
+            else:
+                incompatible.append({
+                    **benchmark,
+                    'incompatibility_reason': f"Model '{model_name}' does not support task type '{task_type}'"
+                })
+        
+        return compatible, incompatible
 
 # Global instance
 model_task_compatibility = ModelTaskCompatibilityService()

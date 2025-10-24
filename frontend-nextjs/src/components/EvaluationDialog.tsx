@@ -178,6 +178,30 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
       }
     });
 
+  // Helper functions for task type compatibility
+  const getTaskTypeForBenchmark = (benchmarkName: string): string => {
+    const name = benchmarkName.toLowerCase()
+    if (name.includes('mmlu') || name.includes('hellaswag') || 
+        name.includes('arc') || name.includes('truthfulqa') ||
+        name.includes('winogrande') || name.includes('piqa') ||
+        name.includes('openbookqa') || name.includes('ai2_arc')) {
+      return 'multiple_choice'
+    }
+    return 'generate_until'
+  }
+
+  const isVisionLanguageModel = (modelName: string): boolean => {
+    const name = modelName.toLowerCase()
+    // Omni models are general-purpose and support all task types
+    if (name.includes('omni')) {
+      return false
+    }
+    return name.includes('qwen') || name.includes('llava') || 
+           name.includes('intern') || name.includes('cog') ||
+           name.includes('blip') || name.includes('flamingo') ||
+           name.includes('phi3v') || name.includes('phi4')
+  }
+
   // Check if benchmark is compatible with model
   const isBenchmarkCompatible = (benchmark: Benchmark) => {
     const benchmarkModality = benchmark.modality.toLowerCase();
@@ -193,6 +217,14 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
     );
     
     if (!modalityCompatible) return false;
+    
+    // NEW: Check task type compatibility for vision-language models
+    if (isVisionLanguageModel(model.name)) {
+      const taskType = getTaskTypeForBenchmark(benchmark.name)
+      if (taskType === 'multiple_choice') {
+        return false // Vision-language models don't support multiple-choice tasks
+      }
+    }
     
     // Check if task is available in lmms-eval
     if (availableTasks.length > 0) {
@@ -487,6 +519,12 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
                               </Badge>
                               <Badge variant="outline" className="text-xs">{benchmark.category}</Badge>
                             </div>
+                            
+                            {!isCompatible && isVisionLanguageModel(model.name) && getTaskTypeForBenchmark(benchmark.name) === 'multiple_choice' && (
+                              <p className="text-xs text-muted-foreground mt-1">
+                                This benchmark requires multiple-choice support, which is not available for vision-language generation models.
+                              </p>
+                            )}
                             
                             {benchmark.description && (
                               <p className="text-xs text-muted-foreground line-clamp-1">

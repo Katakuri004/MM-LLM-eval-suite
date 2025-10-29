@@ -1,5 +1,120 @@
 'use client'
 
+import React from 'react'
+import { useQuery } from '@tanstack/react-query'
+import { apiClient } from '@/lib/api'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
+import { Badge } from '@/components/ui/badge'
+import Link from 'next/link'
+
+export default function EvaluationsHistoryPage() {
+  const { data: mock } = useQuery({
+    queryKey: ['mock-evaluations'],
+    queryFn: () => apiClient.getMockEvaluations(),
+    refetchOnWindowFocus: false,
+  })
+  const { data: real } = useQuery({
+    queryKey: ['evaluations'],
+    queryFn: () => apiClient.getEvaluations(),
+    refetchOnWindowFocus: false,
+  })
+
+  const rows = React.useMemo(() => {
+    const mockRaw = mock?.evaluations || []
+    const m = mockRaw.map((e: any) => ({
+      id: e.id,
+      name: e.name,
+      model: e.model_name,
+      modality: e.modality,
+      created_at: e.created_at,
+      status: e.status,
+      is_local: true,
+      benchmarks: e.benchmark_ids?.length || 0,
+    }))
+    // Add combined qwen2vl entry when both exist
+    const hasText = mockRaw.some((e: any) => String(e.id).includes('qwen2vl_text'))
+    const hasImage = mockRaw.some((e: any) => String(e.id).includes('qwen2vl_image'))
+    if (hasText && hasImage) {
+      m.unshift({
+        id: 'local:qwen2vl_combined',
+        name: 'qwen2vl multimodal combined',
+        model: 'qwen2vl',
+        modality: 'multi-modal',
+        created_at: new Date().toISOString(),
+        status: 'completed',
+        is_local: true,
+        benchmarks: 4,
+      } as any)
+    }
+    const r = (real?.evaluations || []).map((e: any) => ({
+      id: e.id,
+      name: e.name,
+      model: e.model_id,
+      modality: e.modality || '-',
+      created_at: e.created_at,
+      status: e.status,
+      is_local: false,
+      benchmarks: e.benchmark_ids?.length || 0,
+    }))
+    return [...m, ...r].sort((a, b) => (a.created_at < b.created_at ? 1 : -1))
+  }, [mock?.evaluations, real?.evaluations])
+
+  return (
+    <div className="space-y-6">
+      <div className="flex items-center justify-between">
+        <div>
+          <h1 className="text-3xl font-bold tracking-tight">Evaluations History</h1>
+          <p className="text-muted-foreground">Completed runs from local results and backend</p>
+        </div>
+      </div>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>Completed Evaluations</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead>Name</TableHead>
+                <TableHead>Model</TableHead>
+                <TableHead>Modality</TableHead>
+                <TableHead>Benchmarks</TableHead>
+                <TableHead>Status</TableHead>
+                <TableHead>Date</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {rows.map((row: any) => (
+                <TableRow key={row.id}>
+                  <TableCell>
+                    <div className="flex items-center gap-2">
+                      <Link href={`/evaluations/${row.id}`} className="font-medium hover:underline" prefetch={false}>
+                        {row.name}
+                      </Link>
+                      {row.is_local && <Badge variant="secondary">Local</Badge>}
+                    </div>
+                  </TableCell>
+                  <TableCell>{row.model}</TableCell>
+                  <TableCell className="capitalize">{row.modality}</TableCell>
+                  <TableCell>{row.benchmarks}</TableCell>
+                  <TableCell>
+                    <Badge variant="outline" className="text-green-600">{row.status}</Badge>
+                  </TableCell>
+                  <TableCell>{new Date(row.created_at).toLocaleString()}</TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </CardContent>
+      </Card>
+    </div>
+  )
+}
+
+'use client'
+
 import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'

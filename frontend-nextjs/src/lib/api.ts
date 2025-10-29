@@ -29,6 +29,10 @@ export class ApiClient {
     options: RequestInit = {}
   ): Promise<T> {
     const url = `${this.baseUrl}${endpoint}`;
+    // Prevent accidental backend calls for local evaluation ids
+    if (endpoint.startsWith('/evaluations/') && endpoint.includes('local:')) {
+      throw new ApiError('Local evaluations are not available from backend API', 404);
+    }
     
     const config: RequestInit = {
       headers: {
@@ -260,14 +264,23 @@ export class ApiClient {
   }
 
   async getEvaluation(id: string) {
+    if (id && id.startsWith('local:')) {
+      throw new ApiError('Local evaluations are not available from backend API', 404)
+    }
     return this.request<any>(`/evaluations/${id}`);
   }
 
   async getEvaluationResults(id: string) {
+    if (id && id.startsWith('local:')) {
+      throw new ApiError('Local evaluations are not available from backend API', 404)
+    }
     return this.request<{ evaluation: any; results: any[]; total_results: number }>(`/evaluations/${id}/results`);
   }
 
   async cancelEvaluation(id: string) {
+    if (id && id.startsWith('local:')) {
+      throw new ApiError('Cannot cancel local evaluation', 400)
+    }
     return this.request<{ message: string }>(`/evaluations/${id}`, {
       method: 'DELETE',
     });
@@ -275,6 +288,26 @@ export class ApiClient {
 
   async getActiveEvaluations() {
     return this.request<{ active_evaluations: any[]; count: number }>('/evaluations/active');
+  }
+
+  // Mock evaluations (local results integration via Next.js API routes)
+  async getMockEvaluations(): Promise<{ evaluations: any[]; total: number }> {
+    const res = await fetch('/api/mock-evaluations', { cache: 'no-store' });
+    if (!res.ok) {
+      const data = await res.json().catch(() => ({}));
+      throw new ApiError(data?.error || `HTTP ${res.status}`, res.status, data);
+    }
+    return res.json();
+  }
+
+  async getMockEvaluation(id: string): Promise<any> {
+    const encoded = encodeURIComponent(id);
+    const res = await fetch(`/api/mock-evaluations/${encoded}`, { cache: 'no-store' });
+    if (!res.ok) {
+      const data = await res.json().catch(() => ({}));
+      throw new ApiError(data?.error || `HTTP ${res.status}`, res.status, data);
+    }
+    return res.json();
   }
 
   // Legacy Runs API (for backward compatibility)

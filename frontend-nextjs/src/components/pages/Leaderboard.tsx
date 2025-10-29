@@ -24,7 +24,9 @@ import {
 
 export function Leaderboard() {
   const [selectedBenchmark, setSelectedBenchmark] = useState('all');
-  const [sortBy, setSortBy] = useState('score');
+  const [modalityFilter, setModalityFilter] = useState<'all' | 'text' | 'image' | 'audio' | 'video' | 'multi-modal'>('all');
+  const [sortBy, setSortBy] = useState<'score' | 'model' | 'date'>('score');
+  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
 
   const { data: benchmarks } = useQuery({
     queryKey: ['benchmarks'],
@@ -120,14 +122,19 @@ export function Leaderboard() {
     }
   ];
 
-  const filteredData = leaderboardData.filter(item => 
-    selectedBenchmark === 'all' || item.benchmark === selectedBenchmark
-  );
+  const filteredData = leaderboardData.filter(item => {
+    const benchOk = selectedBenchmark === 'all' || item.benchmark === selectedBenchmark
+    const modality = (item.benchmark === 'VQA' || item.benchmark === 'MME') ? 'image' : 'text'
+    const modOk = modalityFilter === 'all' || modalityFilter === modality
+    return benchOk && modOk
+  });
 
   const sortedData = [...filteredData].sort((a, b) => {
-    if (sortBy === 'score') return b.score - a.score;
-    if (sortBy === 'model') return a.model.localeCompare(b.model);
-    if (sortBy === 'date') return new Date(b.lastRun).getTime() - new Date(a.lastRun).getTime();
+    if (sortBy === 'score') return sortOrder === 'desc' ? b.score - a.score : a.score - b.score;
+    if (sortBy === 'model') return sortOrder === 'desc' ? b.model.localeCompare(a.model) : a.model.localeCompare(b.model);
+    if (sortBy === 'date') return sortOrder === 'desc'
+      ? new Date(b.lastRun).getTime() - new Date(a.lastRun).getTime()
+      : new Date(a.lastRun).getTime() - new Date(b.lastRun).getTime();
     return 0;
   });
 
@@ -184,8 +191,24 @@ export function Leaderboard() {
           </Select>
         </div>
         <div className="flex items-center space-x-2">
+          <label className="text-sm font-medium">Modality:</label>
+          <Select value={modalityFilter} onValueChange={(v: any) => setModalityFilter(v)}>
+            <SelectTrigger className="w-32">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">All</SelectItem>
+              <SelectItem value="text">Text</SelectItem>
+              <SelectItem value="image">Image</SelectItem>
+              <SelectItem value="audio">Audio</SelectItem>
+              <SelectItem value="video">Video</SelectItem>
+              <SelectItem value="multi-modal">Multi-modal</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+        <div className="flex items-center space-x-2">
           <label className="text-sm font-medium">Sort by:</label>
-          <Select value={sortBy} onValueChange={setSortBy}>
+          <Select value={sortBy} onValueChange={(v: any) => setSortBy(v)}>
             <SelectTrigger className="w-32">
               <SelectValue />
             </SelectTrigger>
@@ -193,6 +216,18 @@ export function Leaderboard() {
               <SelectItem value="score">Score</SelectItem>
               <SelectItem value="model">Model</SelectItem>
               <SelectItem value="date">Date</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+        <div className="flex items-center space-x-2">
+          <label className="text-sm font-medium">Order:</label>
+          <Select value={sortOrder} onValueChange={(v: any) => setSortOrder(v)}>
+            <SelectTrigger className="w-28">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="desc">Desc</SelectItem>
+              <SelectItem value="asc">Asc</SelectItem>
             </SelectContent>
           </Select>
         </div>
@@ -231,7 +266,7 @@ export function Leaderboard() {
                   </TableCell>
                   <TableCell>
                     <div className="space-y-1">
-                      <div className="font-medium">{entry.model}</div>
+                      <a className="font-medium hover:underline" href={`/models/${encodeURIComponent(entry.id)}`}>{entry.model}</a>
                       <Badge variant="outline" className="text-xs">
                         {entry.family}
                       </Badge>
@@ -270,9 +305,11 @@ export function Leaderboard() {
                     </div>
                   </TableCell>
                   <TableCell>
-                    <Button size="sm" variant="outline">
-                      <Target className="h-4 w-4" />
-                    </Button>
+                    <a href={`/models/${encodeURIComponent(entry.id)}`}>
+                      <Button size="sm" variant="outline">
+                        <Target className="h-4 w-4" />
+                      </Button>
+                    </a>
                   </TableCell>
                 </TableRow>
               ))}

@@ -58,6 +58,13 @@ export function Evaluations() {
     refetchOnWindowFocus: false,
   });
 
+  const { data: mockEvaluations } = useQuery({
+    queryKey: ['mock-evaluations'],
+    queryFn: () => apiClient.getMockEvaluations(),
+    retry: false,
+    refetchOnWindowFocus: false,
+  });
+
   const { data: models } = useQuery({
     queryKey: ['models'],
     queryFn: () => apiClient.getModels(),
@@ -107,9 +114,40 @@ export function Evaluations() {
 
   // Enhanced filtering and sorting
   const filteredAndSortedEvaluations = React.useMemo(() => {
-    if (!evaluations?.evaluations) return [];
+    const real = evaluations?.evaluations || [];
+    const mockRaw = mockEvaluations?.evaluations || []
+    const mock = mockRaw.map((m: any) => ({
+      id: m.id,
+      name: m.name,
+      model_id: m.model_name,
+      status: m.status,
+      benchmark_ids: m.benchmark_ids,
+      created_at: m.created_at,
+      updated_at: m.created_at,
+      progress_percentage: 100,
+      _is_local: true,
+      _summary_metrics: m.summary_metrics,
+    }));
+    // Add combined qwen2vl multimodal entry if both local text and image exist
+    const hasText = mockRaw.some((m: any) => String(m.id).includes('qwen2vl_text'))
+    const hasImage = mockRaw.some((m: any) => String(m.id).includes('qwen2vl_image'))
+    if (hasText && hasImage) {
+      mock.unshift({
+        id: 'local:qwen2vl_combined',
+        name: 'qwen2vl multimodal combined',
+        model_id: 'qwen2vl',
+        status: 'completed',
+        benchmark_ids: ['arc_easy','arc_challenge','hellaswag','ok_vqa_val2014'],
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        progress_percentage: 100,
+        _is_local: true,
+        _summary_metrics: { accuracy: 0.58 },
+      } as any)
+    }
+    const merged = [...mock, ...real];
     
-    let filtered = evaluations.evaluations.filter(evaluation => {
+    let filtered = merged.filter(evaluation => {
       const matchesSearch = evaluation.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                            evaluation.model_id?.toLowerCase().includes(searchTerm.toLowerCase());
       const matchesStatus = statusFilter === 'all' || evaluation.status === statusFilter;
@@ -163,7 +201,7 @@ export function Evaluations() {
     });
 
     return filtered;
-  }, [evaluations?.evaluations, searchTerm, statusFilter, modalityFilter, sortBy, sortOrder, models?.models]);
+  }, [evaluations?.evaluations, mockEvaluations?.evaluations, searchTerm, statusFilter, modalityFilter, sortBy, sortOrder, models?.models]);
 
   // Pagination
   const totalPages = Math.ceil(filteredAndSortedEvaluations.length / pageSize);
@@ -481,7 +519,12 @@ export function Evaluations() {
                 
                 return (
                   <TableRow key={evaluation.id}>
-                    <TableCell className="font-medium">{evaluation.name}</TableCell>
+                    <TableCell className="font-medium">
+                      <div className="flex items-center gap-2">
+                        <span>{evaluation.name}</span>
+                        {evaluation._is_local && <Badge variant="secondary">Local</Badge>}
+                      </div>
+                    </TableCell>
                     <TableCell>{evaluation.model_id}</TableCell>
                     <TableCell>
                       {evaluation.benchmark_ids?.length > 0 ? `${evaluation.benchmark_ids.length} benchmarks` : '-'}
@@ -513,7 +556,7 @@ export function Evaluations() {
                     <TableCell>
                       <div className="flex items-center space-x-2">
                         <Button size="sm" variant="outline" asChild>
-                          <Link href={`/evaluations/${evaluation.id}`}>
+                          <Link href={`/evaluations/${evaluation.id}`} prefetch={false}>
                             <Eye className="h-4 w-4" />
                           </Link>
                         </Button>

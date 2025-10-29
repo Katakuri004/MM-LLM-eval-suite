@@ -1,3 +1,4 @@
+
 'use client'
 
 import { useParams } from 'next/navigation'
@@ -7,7 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { CancelEvaluationDialog } from '@/components/CancelEvaluationDialog'
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { 
   Brain, 
   Clock, 
@@ -30,6 +31,7 @@ import EvaluationProgressText from '@/components/EvaluationProgressText'
 import EvaluationProgressIndicator from '@/components/EvaluationProgressIndicator'
 import { EnhancedEvaluationProgress } from '@/components/EnhancedEvaluationProgress'
 import { ShimmerLoader } from '@/components/ui/shimmer-loader'
+import { ModalityTabs } from '@/components/evaluations/ModalityTabs'
 
 // Safe renderer to prevent object rendering errors
 const SafeRenderer = ({ children, fallback = 'N/A' }: { children: any, fallback?: string }) => {
@@ -51,13 +53,183 @@ const SafeRenderer = ({ children, fallback = 'N/A' }: { children: any, fallback?
 export default function EvaluationDetailPage() {
   const params = useParams()
   const runId = (params?.runId as string) || ''
+  // Early local rendering path to avoid any backend hooks
+  const isLocal = runId.startsWith('local:')
+  if (isLocal) {
+    const buildLocalDetail = () => {
+      const base = (modality: string, name: string, created_at: string, benchmarks: any[]) => ({
+        id: runId,
+        name,
+        model_name: 'qwen2vl',
+        modality,
+        created_at,
+        status: 'completed',
+        benchmark_ids: benchmarks.map(b => b.benchmark_id),
+        summary_metrics: Object.fromEntries(
+          benchmarks.flatMap((b: any) => Object.entries(b.metrics || {}))
+            .filter(([_, v]) => typeof v === 'number')
+            .slice(0, 4)
+        ),
+        source_folder: 'results',
+        benchmarks,
+      })
+
+      if (runId.includes('qwen2vl') && runId.includes('combined')) {
+        const created_at = '2025-10-26T03:00:00.000Z'
+        const textBenchmarks = [
+          {
+            benchmark_id: 'arc_easy',
+            metrics: {
+              acc: 0.03324915824915825,
+              acc_norm: 0.05092592592592592,
+              acc_stderr: 0.003678881507648524,
+              acc_norm_stderr: 0.0045111546424629854,
+            },
+            samples_preview: [],
+            total_samples: 2376,
+            raw_files: [
+              { filename: '20251026_022408_results.json', absolute_path: '' },
+              { filename: '20251026_022408_samples_arc_easy.jsonl', absolute_path: '' }
+            ],
+          },
+          {
+            benchmark_id: 'arc_challenge',
+            metrics: {
+              acc: 0.12713310580204779,
+              acc_norm: 0.11177474402730375,
+              acc_stderr: 0.00973475199596078,
+              acc_norm_stderr: 0.009207780405950904,
+            },
+            samples_preview: [],
+            total_samples: 1172,
+            raw_files: [
+              { filename: '20251026_022723_results.json', absolute_path: '' },
+              { filename: '20251026_022723_samples_arc_challenge.jsonl', absolute_path: '' }
+            ],
+          },
+          {
+            benchmark_id: 'hellaswag',
+            metrics: {
+              acc: 0.06064528978291177,
+              acc_norm: 0.036048595897231625,
+              acc_stderr: 0.0023819073412748777,
+              acc_norm_stderr: 0.0018603011877166289,
+            },
+            samples_preview: [],
+            total_samples: 10042,
+            raw_files: [
+              { filename: '20251026_021022_results.json', absolute_path: '' },
+              { filename: '20251026_021022_samples_hellaswag.jsonl', absolute_path: '' }
+            ],
+          }
+        ]
+
+        const imageBenchmarks = [
+          {
+            benchmark_id: 'ok_vqa_val2014',
+            metrics: {
+              exact_match: 0.45362663495837874,
+              exact_match_stderr: 0.00663602507305181
+            },
+            samples_preview: [],
+            total_samples: 5046,
+            raw_files: [
+              { filename: '20251026_025159_results.json', absolute_path: '' },
+              { filename: '20251026_025159_samples_ok_vqa_val2014.jsonl', absolute_path: '' },
+              { filename: 'submissions/ok_vqa-test-submission-2025-1026-0050-12.json', absolute_path: '' }
+            ],
+          }
+        ]
+
+        return base('multi-modal', 'qwen2vl multimodal combined', created_at, [...textBenchmarks, ...imageBenchmarks])
+      }
+
+      return base('text', 'local evaluation', new Date().toISOString(), [])
+    }
+
+    const d = buildLocalDetail()
+    return (
+      <div className="space-y-6">
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-3xl font-bold tracking-tight">{d.name}</h1>
+            <div className="flex items-center gap-2 mt-1">
+              <Badge variant="secondary">Local</Badge>
+              <Badge variant="outline" className="capitalize">{d.modality}</Badge>
+              <span className="text-sm text-muted-foreground">{new Date(d.created_at).toLocaleString()}</span>
+            </div>
+          </div>
+          <div className="flex items-center gap-2">
+            <Button size="sm" variant="outline" onClick={() => {
+              const dataStr = JSON.stringify(d, null, 2)
+              const blob = new Blob([dataStr], { type: 'application/json' })
+              const url = URL.createObjectURL(blob)
+              const a = document.createElement('a')
+              a.href = url
+              a.download = `${d.id.replace(':','_')}.json`
+              a.click()
+              URL.revokeObjectURL(url)
+            }}>Download Raw JSON</Button>
+          </div>
+        </div>
+
+        {d.summary_metrics && Object.keys(d.summary_metrics).length > 0 && (
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {Object.entries(d.summary_metrics).map(([key, value]: any) => (
+              <div key={key} className="bg-card border rounded-lg p-4 text-center hover:shadow-sm transition-shadow">
+                <div className="text-2xl font-bold text-blue-600">
+                  {typeof value === 'number' ? (value * 100).toFixed(1) + '%' : String(value)}
+                </div>
+                <div className="text-sm text-muted-foreground capitalize mt-1">{key.replace(/_/g,' ')}</div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Benchmarks</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            {d.benchmarks?.map((b: any) => (
+              <details key={b.benchmark_id} className="border rounded-md">
+                <summary className="cursor-pointer px-4 py-2 flex items-center justify-between">
+                  <span className="font-medium">{b.benchmark_id}</span>
+                  <span className="text-sm text-muted-foreground">{b.total_samples || b.samples_preview?.length || 0} samples</span>
+                </summary>
+                <div className="p-4 space-y-3">
+                  {b.metrics && Object.keys(b.metrics).length > 0 && (
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                      {Object.entries(b.metrics).slice(0,8).map(([k,v]: any) => (
+                        <div key={k} className="bg-muted/50 rounded px-3 py-2 text-sm">
+                          <div className="text-muted-foreground capitalize">{k.replace(/_/g,' ')}</div>
+                          <div className="font-semibold">{typeof v === 'number' ? (Number.isFinite(v) ? (v*100).toFixed(2)+'%' : String(v)) : String(v)}</div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {b.raw_files?.length > 0 && (
+                    <div className="text-xs text-muted-foreground">Files: {b.raw_files.map((f: any) => f.filename).join(', ')}</div>
+                  )}
+                </div>
+              </details>
+            ))}
+          </CardContent>
+        </Card>
+
+        <ModalityTabs detail={d} />
+      </div>
+    )
+  }
+
   const [isCancelDialogOpen, setIsCancelDialogOpen] = useState(false)
   const [activeTab, setActiveTab] = useState('Overall')
 
   const { data: statusData } = useQuery({
     queryKey: ['evaluation-status', runId],
     queryFn: () => apiClient.getEvaluationStatus(runId),
-    enabled: !!runId,
+    enabled: !!runId && !isLocal,
+    retry: false,
     refetchInterval: (data) => {
       const status = (data as any)?.status
       // Poll more frequently for running evaluations, stop for completed/cancelled/failed
@@ -71,7 +243,8 @@ export default function EvaluationDetailPage() {
   const { data: resultsData } = useQuery({
     queryKey: ['evaluation-results', runId],
     queryFn: () => apiClient.getEvaluationResults(runId),
-    enabled: !!runId,
+    enabled: !!runId && !isLocal,
+    retry: false,
     refetchInterval: (q) => {
       const status = (statusData as any)?.status
       // Poll more frequently for running evaluations, stop for final states
@@ -83,14 +256,177 @@ export default function EvaluationDetailPage() {
   const { data: evaluationData } = useQuery({
     queryKey: ['evaluation-details', runId],
     queryFn: () => apiClient.getEvaluation(runId),
-    enabled: !!runId,
+    enabled: !!runId && !isLocal,
+    retry: false,
   })
 
   const { data: modelData } = useQuery({
     queryKey: ['model-details', evaluationData?.model_id],
     queryFn: () => apiClient.getModel(evaluationData?.model_id),
-    enabled: !!evaluationData?.model_id,
+    enabled: !!evaluationData?.model_id && !isLocal,
+    retry: false,
   })
+
+  // Local (mock) evaluation detail - hardcoded demo data to avoid any fetches
+  const localDetail = React.useMemo(() => {
+    if (!isLocal) return null as any
+    const base = (modality: string, name: string, created_at: string, benchmarks: any[]) => ({
+      id: runId,
+      name,
+      model_name: name.split(' ')[0] || 'local-model',
+      modality,
+      created_at,
+      status: 'completed',
+      benchmark_ids: benchmarks.map(b => b.benchmark_id),
+      summary_metrics: Object.fromEntries(
+        benchmarks.flatMap((b: any) => Object.entries(b.metrics || {}))
+          .filter(([_, v]) => typeof v === 'number')
+          .slice(0, 4)
+      ),
+      source_folder: 'results',
+      benchmarks,
+    })
+
+    // Combined qwen2vl multimodal page
+    if (runId.includes('qwen2vl') && runId.includes('combined')) {
+      // Use metrics directly from results files (hard-coded here based on /results)
+      const created_at = '2025-10-26T03:00:00.000Z'
+      const textBenchmarks = [
+        {
+          benchmark_id: 'arc_easy',
+          metrics: {
+            acc: 0.03324915824915825,
+            acc_norm: 0.05092592592592592,
+            acc_stderr: 0.003678881507648524,
+            acc_norm_stderr: 0.0045111546424629854,
+          },
+          samples_preview: [],
+          total_samples: 2376,
+          raw_files: [
+            { filename: '20251026_022408_results.json', absolute_path: '' },
+            { filename: '20251026_022408_samples_arc_easy.jsonl', absolute_path: '' }
+          ],
+        },
+        {
+          benchmark_id: 'arc_challenge',
+          metrics: {
+            acc: 0.12713310580204779,
+            acc_norm: 0.11177474402730375,
+            acc_stderr: 0.00973475199596078,
+            acc_norm_stderr: 0.009207780405950904,
+          },
+          samples_preview: [],
+          total_samples: 1172,
+          raw_files: [
+            { filename: '20251026_022723_results.json', absolute_path: '' },
+            { filename: '20251026_022723_samples_arc_challenge.jsonl', absolute_path: '' }
+          ],
+        },
+        {
+          benchmark_id: 'hellaswag',
+          metrics: {
+            acc: 0.06064528978291177,
+            acc_norm: 0.036048595897231625,
+            acc_stderr: 0.0023819073412748777,
+            acc_norm_stderr: 0.0018603011877166289,
+          },
+          samples_preview: [],
+          total_samples: 10042,
+          raw_files: [
+            { filename: '20251026_021022_results.json', absolute_path: '' },
+            { filename: '20251026_021022_samples_hellaswag.jsonl', absolute_path: '' }
+          ],
+        }
+      ]
+
+      const imageBenchmarks = [
+        {
+          benchmark_id: 'ok_vqa_val2014',
+          metrics: {
+            exact_match: 0.45362663495837874,
+            exact_match_stderr: 0.00663602507305181
+          },
+          samples_preview: [],
+          total_samples: 5046,
+          raw_files: [
+            { filename: '20251026_025159_results.json', absolute_path: '' },
+            { filename: '20251026_025159_samples_ok_vqa_val2014.jsonl', absolute_path: '' },
+            { filename: 'submissions/ok_vqa-test-submission-2025-1026-0050-12.json', absolute_path: '' }
+          ],
+        }
+      ]
+
+      return base('multi-modal', 'qwen2vl multimodal combined', created_at, [...textBenchmarks, ...imageBenchmarks])
+    }
+
+    if (runId.includes('text')) {
+      const created_at = '2025-10-26T02:27:00.000Z'
+      const benchmarks = [
+        {
+          benchmark_id: 'arc_easy',
+          metrics: { accuracy: 0.74, exact_match: 0.70 },
+          samples_preview: [
+            { input: 'Which animal is a mammal?', prediction: 'Dog', label: 'Dog', score: 1 },
+            { input: '2 + 2 = ?', prediction: '4', label: '4', score: 1 }
+          ],
+          total_samples: 25,
+          raw_files: [
+            { filename: '20251026_022408_results.json', absolute_path: '' },
+            { filename: '20251026_022408_samples_arc_easy.jsonl', absolute_path: '' }
+          ],
+        },
+        {
+          benchmark_id: 'arc_challenge',
+          metrics: { accuracy: 0.42 },
+          samples_preview: [
+            { input: 'A complex reasoning question?', prediction: 'Answer A', label: 'Answer B', score: 0 }
+          ],
+          total_samples: 25,
+          raw_files: [
+            { filename: '20251026_022723_results.json', absolute_path: '' },
+            { filename: '20251026_022723_samples_arc_challenge.jsonl', absolute_path: '' }
+          ],
+        },
+        {
+          benchmark_id: 'hellaswag',
+          metrics: { accuracy: 0.61 },
+          samples_preview: [
+            { input: 'Complete the sentence: The man picked up the ...', prediction: 'ball', label: 'ball', score: 1 }
+          ],
+          total_samples: 25,
+          raw_files: [
+            { filename: '20251026_021022_results.json', absolute_path: '' },
+            { filename: '20251026_021022_samples_hellaswag.jsonl', absolute_path: '' }
+          ],
+        }
+      ]
+      return base('text', 'qwen2vl text 20251025 234011', created_at, benchmarks)
+    }
+
+    if (runId.includes('image')) {
+      const created_at = '2025-10-26T02:51:59.000Z'
+      const benchmarks = [
+        {
+          benchmark_id: 'ok_vqa_val2014',
+          metrics: { accuracy: 0.57 },
+          samples_preview: [
+            { input: 'What color is the car?', prediction: 'red', label: 'red', score: 1 },
+            { input: 'How many people?', prediction: '2', label: '3', score: 0 }
+          ],
+          total_samples: 50,
+          raw_files: [
+            { filename: '20251026_025159_results.json', absolute_path: '' },
+            { filename: '20251026_025159_samples_ok_vqa_val2014.jsonl', absolute_path: '' },
+            { filename: 'submissions/ok_vqa-test-submission-2025-1026-0050-12.json', absolute_path: '' }
+          ],
+        }
+      ]
+      return base('image', 'qwen2vl image 20251026 002013', created_at, benchmarks)
+    }
+
+    // Fallback minimal
+    return base('text', 'local evaluation', new Date().toISOString(), [])
+  }, [isLocal, runId])
 
   const status = statusData as any
   const results = resultsData as any
@@ -108,6 +444,128 @@ export default function EvaluationDetailPage() {
     link.download = `evaluation-results-${runId}.json`
     link.click()
     URL.revokeObjectURL(url)
+  }
+  if (isLocal) {
+    // Render local evaluation detail with modality tabs
+    const d: any = localDetail
+    if (!d) {
+      return (
+        <div className="space-y-6">
+          <h1 className="text-3xl font-bold tracking-tight">Evaluation</h1>
+          <ShimmerLoader />
+        </div>
+      )
+    }
+    return (
+      <div className="space-y-6">
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-3xl font-bold tracking-tight">{d.name}</h1>
+            <div className="flex items-center gap-2 mt-1">
+              <Badge variant="secondary">Local</Badge>
+              <Badge variant="outline" className="capitalize">{d.modality}</Badge>
+              <span className="text-sm text-muted-foreground">{new Date(d.created_at).toLocaleString()}</span>
+            </div>
+          </div>
+          <div className="flex items-center gap-2">
+            <Button size="sm" variant="outline" onClick={() => {
+              const dataStr = JSON.stringify(d, null, 2)
+              const blob = new Blob([dataStr], { type: 'application/json' })
+              const url = URL.createObjectURL(blob)
+              const a = document.createElement('a')
+              a.href = url
+              a.download = `${d.id.replace(':','_')}.json`
+              a.click()
+              URL.revokeObjectURL(url)
+            }}>Download Raw JSON</Button>
+          </div>
+        </div>
+
+        {/* Summary metrics grid */}
+        {d.summary_metrics && Object.keys(d.summary_metrics).length > 0 && (
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {Object.entries(d.summary_metrics).map(([key, value]: any) => (
+              <div key={key} className="bg-card border rounded-lg p-4 text-center hover:shadow-sm transition-shadow">
+                <div className="text-2xl font-bold text-blue-600">
+                  {typeof value === 'number' ? (value * 100).toFixed(1) + '%' : String(value)}
+                </div>
+                <div className="text-sm text-muted-foreground capitalize mt-1">{key.replace(/_/g,' ')}</div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Benchmarks section: collapsible */}
+        <Card>
+          <CardHeader>
+            <CardTitle>Benchmarks</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            {d.benchmarks?.map((b: any) => (
+              <details key={b.benchmark_id} className="border rounded-md">
+                <summary className="cursor-pointer px-4 py-2 flex items-center justify-between">
+                  <span className="font-medium">{b.benchmark_id}</span>
+                  <span className="text-sm text-muted-foreground">{b.total_samples || b.samples_preview?.length || 0} samples</span>
+                </summary>
+                <div className="p-4 space-y-3">
+                  {/* Metrics quick view */}
+                  {b.metrics && Object.keys(b.metrics).length > 0 && (
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                      {Object.entries(b.metrics).slice(0,8).map(([k,v]: any) => (
+                        <div key={k} className="bg-muted/50 rounded px-3 py-2 text-sm">
+                          <div className="text-muted-foreground capitalize">{k.replace(/_/g,' ')}</div>
+                          <div className="font-semibold">{typeof v === 'number' ? (Number.isFinite(v) ? (v*100).toFixed(2)+'%' : String(v)) : String(v)}</div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Per-benchmark files */}
+                  {b.raw_files?.length > 0 && (
+                    <div className="text-xs text-muted-foreground">Files: {b.raw_files.map((f: any) => f.filename).join(', ')}</div>
+                  )}
+
+                  {/* Small preview table */}
+                  {b.samples_preview?.length > 0 && (
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="text-left text-muted-foreground">
+                            <th className="py-2 pr-4">#</th>
+                            <th className="py-2 pr-4">Input</th>
+                            <th className="py-2 pr-4">Prediction</th>
+                            <th className="py-2 pr-4">Label</th>
+                            <th className="py-2 pr-4">Score</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {b.samples_preview.slice(0, 10).map((s: any, idx: number) => (
+                            <tr key={idx} className="border-t">
+                              <td className="py-2 pr-4 text-muted-foreground">{idx + 1}</td>
+                              <td className="py-2 pr-4 max-w-[320px] truncate" title={String(s.input || s.question || s.prompt || '')}>
+                                {String(s.input || s.question || s.prompt || '')}
+                              </td>
+                              <td className="py-2 pr-4 max-w-[320px] truncate" title={String(s.prediction || s.pred || s.output || '')}>
+                                {String(s.prediction || s.pred || s.output || '')}
+                              </td>
+                              <td className="py-2 pr-4">{String(s.label || s.answer || s.target || '')}</td>
+                              <td className="py-2 pr-4">{s.score ?? s.acc ?? ''}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+                </div>
+              </details>
+            ))}
+          </CardContent>
+        </Card>
+
+        {/* Modality-specific detailed tabs */}
+        <ModalityTabs detail={d} />
+      </div>
+    )
   }
 
   const downloadCSV = () => {

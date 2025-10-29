@@ -567,10 +567,12 @@ export function Models() {
                   </div>
                 )}
                 <div className="flex space-x-2 pt-2">
-                  <Button size="sm" variant="outline" className="flex-1">
-                    <Edit className="h-4 w-4 mr-1" />
-                    Edit
-                  </Button>
+                  <Link href={`/models/${encodeURIComponent(model.id)}`} className="flex-1">
+                    <Button size="sm" variant="outline" className="w-full">
+                      <Edit className="h-4 w-4 mr-1" />
+                      Details
+                    </Button>
+                  </Link>
                   <Button 
                     size="sm" 
                     variant="outline" 

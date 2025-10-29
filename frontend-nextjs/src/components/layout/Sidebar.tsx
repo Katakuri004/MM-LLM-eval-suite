@@ -82,6 +82,7 @@ const navigationItems: SidebarItem[] = [
       { name: 'New Evaluation', href: '/evaluations/new', icon: Zap },
       { name: 'Active Runs', href: '/evaluations/active', icon: RefreshCw },
       { name: 'Run History', href: '/evaluations/history', icon: FileText },
+      { name: 'Mock Results', href: '/mock-results', icon: BarChart3 },
     ]
   },
   {

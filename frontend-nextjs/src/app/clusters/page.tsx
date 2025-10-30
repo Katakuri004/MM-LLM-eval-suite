@@ -7,10 +7,10 @@ import { Button } from '@/components/ui/button'
 import { Textarea } from '@/components/ui/textarea'
 
 export default function ClustersPage() {
-  const [name, setName] = React.useState('yotta_h100_login')
-  const [host, setHost] = React.useState('10.67.35.245')
-  const [user, setUser] = React.useState('asrteam')
-  const [allowedNodes, setAllowedNodes] = React.useState('iitmadras004')
+  const [name, setName] = React.useState('')
+  const [host, setHost] = React.useState('')
+  const [user, setUser] = React.useState('')
+  const [allowedNodes, setAllowedNodes] = React.useState('')
   const [privateKey, setPrivateKey] = React.useState('')
 
   const onSave = () => {

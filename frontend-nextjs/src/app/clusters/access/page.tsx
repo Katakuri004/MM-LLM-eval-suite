@@ -8,14 +8,15 @@ import { Textarea } from '@/components/ui/textarea'
 
 export default function ClusterAccessPage() {
   const [preset, setPreset] = React.useState<'light' | 'medium' | 'heavy'>('light')
-  const [nodelist, setNodelist] = React.useState('iitmadras004')
+  const [nodelist, setNodelist] = React.useState('')
   const [hours, setHours] = React.useState(2)
 
   const makeCommand = () => {
     const cores = preset === 'light' ? 4 : preset === 'medium' ? 8 : 16
     const gpus = preset === 'light' ? 1 : preset === 'medium' ? 1 : 2
     const t = `${hours}:00:00`
-    return `srun -c ${cores} --gres=gpu:${gpus} -t ${t} --nodelist=${nodelist} --pty bash`
+    const nodePart = nodelist.trim() ? ` --nodelist=${nodelist.trim()}` : ''
+    return `srun -c ${cores} --gres=gpu:${gpus} -t ${t}${nodePart} --pty bash`
   }
 
   const copy = (text: string) => {

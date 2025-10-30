@@ -38,7 +38,12 @@ export function Evaluations() {
   const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(10);
   const [isCreateDialogOpen, setIsCreateDialogOpen] = useState(false);
-  const [newEvaluation, setNewEvaluation] = useState({
+  const [newEvaluation, setNewEvaluation] = useState<{
+    name: string;
+    model_id: string;
+    benchmark_ids: string[];
+    config: { batch_size: number; num_fewshot: number; limit: number };
+  }>({
     name: '',
     model_id: '',
     benchmark_ids: [],

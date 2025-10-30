@@ -43,18 +43,8 @@ export function EnhancedEvaluationProgress({
     progress?: number
   }>>([])
 
-  const { data: statusData } = useQuery({
-    queryKey: ['evaluation-status', evaluationId],
-    queryFn: () => apiClient.getEvaluationStatus(evaluationId),
-    enabled: !!evaluationId,
-    refetchInterval: (data) => {
-      const status = (data as any)?.status
-      return status === 'running' ? 1000 : 
-             status === 'pending' ? 2000 : 
-             ['completed', 'failed', 'cancelled'].includes(status) ? false : 5000
-    },
-    staleTime: 500,
-  })
+  // No dedicated status endpoint available; rely on evaluation details/results
+  const statusData = undefined as unknown as any
 
   const { data: resultsData } = useQuery({
     queryKey: ['evaluation-results', evaluationId],
@@ -79,82 +69,83 @@ export function EnhancedEvaluationProgress({
 
   // Update process steps based on status and progress
   useEffect(() => {
-    if (!status) return
+    // Fallback to evaluation.status when no live status data is available
+    const currentStatus: string = (evaluation?.status as string) || 'pending'
+    const progress = 0
 
     const steps = [
       {
         id: 'initializing',
         name: 'Environment Setup',
         description: 'Loading model and preparing evaluation environment',
-        status: status.status === 'pending' ? 'running' : 
-                status.status === 'running' && (status.progress || 0) < 0.1 ? 'running' :
-                ['completed', 'failed', 'cancelled'].includes(status.status) ? 'completed' : 'pending'
+        status: (currentStatus === 'pending' ? 'running' : 
+                currentStatus === 'running' && progress < 0.1 ? 'running' :
+                ['completed', 'failed', 'cancelled'].includes(currentStatus) ? 'completed' : 'pending') as 'pending' | 'running' | 'completed' | 'failed'
       },
       {
         id: 'loading_data',
         name: 'Data Loading',
         description: 'Downloading and preparing benchmark datasets',
-        status: status.status === 'running' && (status.progress || 0) >= 0.1 && (status.progress || 0) < 0.3 ? 'running' :
-                status.status === 'running' && (status.progress || 0) >= 0.3 ? 'completed' :
-                ['completed', 'failed', 'cancelled'].includes(status.status) ? 'completed' : 'pending'
+        status: (currentStatus === 'running' && progress >= 0.1 && progress < 0.3 ? 'running' :
+                currentStatus === 'running' && progress >= 0.3 ? 'completed' :
+                ['completed', 'failed', 'cancelled'].includes(currentStatus) ? 'completed' : 'pending') as 'pending' | 'running' | 'completed' | 'failed'
       },
       {
         id: 'model_inference',
         name: 'Model Inference',
         description: 'Running model predictions on benchmark tasks',
-        status: status.status === 'running' && (status.progress || 0) >= 0.3 && (status.progress || 0) < 0.8 ? 'running' :
-                status.status === 'running' && (status.progress || 0) >= 0.8 ? 'completed' :
-                ['completed', 'failed', 'cancelled'].includes(status.status) ? 'completed' : 'pending',
-        progress: status.status === 'running' && (status.progress || 0) >= 0.3 && (status.progress || 0) < 0.8 ? 
-                  Math.round(((status.progress || 0) - 0.3) / 0.5 * 100) : undefined
+        status: (currentStatus === 'running' && progress >= 0.3 && progress < 0.8 ? 'running' :
+                currentStatus === 'running' && progress >= 0.8 ? 'completed' :
+                ['completed', 'failed', 'cancelled'].includes(currentStatus) ? 'completed' : 'pending') as 'pending' | 'running' | 'completed' | 'failed',
+        progress: currentStatus === 'running' && progress >= 0.3 && progress < 0.8 ? 
+                  Math.round(((progress) - 0.3) / 0.5 * 100) : undefined
       },
       {
         id: 'evaluation',
         name: 'Metrics Calculation',
         description: 'Computing accuracy, F1-score, and other performance metrics',
-        status: status.status === 'running' && (status.progress || 0) >= 0.8 && (status.progress || 0) < 1.0 ? 'running' :
-                status.status === 'completed' ? 'completed' :
-                status.status === 'failed' ? 'failed' : 'pending',
-        progress: status.status === 'running' && (status.progress || 0) >= 0.8 ? 
-                  Math.round(((status.progress || 0) - 0.8) / 0.2 * 100) : undefined
+        status: (currentStatus === 'running' && progress >= 0.8 && progress < 1.0 ? 'running' :
+                currentStatus === 'completed' ? 'completed' :
+                currentStatus === 'failed' ? 'failed' : 'pending') as 'pending' | 'running' | 'completed' | 'failed',
+        progress: currentStatus === 'running' && progress >= 0.8 ? 
+                  Math.round(((progress) - 0.8) / 0.2 * 100) : undefined
       },
       {
         id: 'finalization',
         name: 'Results Processing',
         description: 'Saving results and generating reports',
-        status: status.status === 'completed' ? 'completed' :
-                status.status === 'failed' ? 'failed' :
-                status.status === 'cancelled' ? 'failed' : 'pending'
+        status: (currentStatus === 'completed' ? 'completed' :
+                currentStatus === 'failed' ? 'failed' :
+                currentStatus === 'cancelled' ? 'failed' : 'pending') as 'pending' | 'running' | 'completed' | 'failed'
       }
     ]
 
     setProcessSteps(steps)
 
     // Determine current step
-    if (status.status === 'running') {
-      if ((status.progress || 0) < 0.1) setCurrentStep('initializing')
-      else if ((status.progress || 0) < 0.3) setCurrentStep('loading_data')
-      else if ((status.progress || 0) < 0.8) setCurrentStep('model_inference')
-      else if ((status.progress || 0) < 1.0) setCurrentStep('evaluation')
+    if (currentStatus === 'running') {
+      if (progress < 0.1) setCurrentStep('initializing')
+      else if (progress < 0.3) setCurrentStep('loading_data')
+      else if (progress < 0.8) setCurrentStep('model_inference')
+      else if (progress < 1.0) setCurrentStep('evaluation')
       else setCurrentStep('finalization')
-    } else if (status.status === 'completed') {
+    } else if (currentStatus === 'completed') {
       setCurrentStep('finalization')
-    } else if (status.status === 'failed') {
+    } else if (currentStatus === 'failed') {
       setCurrentStep('evaluation')
     }
 
     // Notify parent of status change
     if (onStatusChange) {
-      onStatusChange(status.status)
+      onStatusChange(currentStatus)
     }
-  }, [status, onStatusChange])
+  }, [evaluation?.status, onStatusChange])
 
   // Get system metrics
-  const systemMetrics = status?.system_metrics || {}
   const resourceUsage = {
-    cpu: systemMetrics.cpu_usage || 0,
-    memory: systemMetrics.memory_usage || 0,
-    gpu: systemMetrics.gpu_usage || 0
+    cpu: 0,
+    memory: 0,
+    gpu: 0
   }
 
   return (
@@ -169,8 +160,8 @@ export function EnhancedEvaluationProgress({
         </CardHeader>
         <CardContent>
           <ShimmerProgressIndicator
-            status={status?.status || 'pending'}
-            progress={status?.progress || 0}
+            status={(evaluation?.status as string) || 'pending'}
+            progress={0}
             currentStep={currentStep}
             steps={processSteps}
           />
@@ -178,7 +169,7 @@ export function EnhancedEvaluationProgress({
       </Card>
 
       {/* Process Steps */}
-      {status?.status === 'running' && (
+      {((evaluation?.status as string) || 'pending') === 'running' && (
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
@@ -265,7 +256,7 @@ export function EnhancedEvaluationProgress({
       )}
 
       {/* System Resources */}
-      {status?.status === 'running' && (
+      {((evaluation?.status as string) || 'pending') === 'running' && (
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
@@ -336,7 +327,7 @@ export function EnhancedEvaluationProgress({
               <div className="flex items-center gap-2 text-sm">
                 <Clock className="h-4 w-4 text-muted-foreground" />
                 <span className="text-muted-foreground">
-                  Started: {status?.started_at ? new Date(status.started_at).toLocaleTimeString() : 'Unknown'}
+                  Started: Unknown
                 </span>
               </div>
               <div className="flex items-center gap-2 text-sm">

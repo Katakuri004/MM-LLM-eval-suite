@@ -58,14 +58,10 @@ export const ExportDialog: React.FC<ExportDialogProps> = ({
     mutationFn: async (exportOptions: ExportOptions) => {
       if (!evaluationId) throw new Error('No evaluation ID provided');
       
-      const params = new URLSearchParams({
+      return apiClient.exportEvaluation(evaluationId, {
         format: exportOptions.format,
-        include_samples: exportOptions.includeSamples.toString(),
-        include_metadata: exportOptions.includeMetadata.toString()
-      });
-
-      return apiClient.request(`/evaluations/${evaluationId}/export?${params}`, {
-        method: 'GET'
+        include_samples: exportOptions.includeSamples,
+        include_metadata: exportOptions.includeMetadata,
       });
     },
     onSuccess: (data) => {
@@ -82,14 +78,11 @@ export const ExportDialog: React.FC<ExportDialogProps> = ({
     mutationFn: async (exportOptions: ExportOptions) => {
       if (modelIds.length === 0) throw new Error('No model IDs provided');
       
-      return apiClient.request('/export/comparison', {
-        method: 'POST',
-        body: JSON.stringify({
-          model_ids: modelIds,
-          benchmark_ids: benchmarkIds.length > 0 ? benchmarkIds : undefined,
-          format: exportOptions.format,
-          include_timeline: exportOptions.includeTimeline
-        })
+      return apiClient.exportComparison({
+        model_ids: modelIds,
+        benchmark_ids: benchmarkIds.length > 0 ? benchmarkIds : undefined,
+        format: exportOptions.format,
+        include_timeline: exportOptions.includeTimeline,
       });
     },
     onSuccess: (data) => {

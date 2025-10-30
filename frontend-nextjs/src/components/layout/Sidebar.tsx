@@ -109,6 +109,15 @@ const navigationItems: SidebarItem[] = [
     icon: BarChart3,
   },
   {
+    name: 'Clusters',
+    href: '/clusters',
+    icon: Cpu,
+    children: [
+      { name: 'Settings', href: '/clusters', icon: Settings },
+      { name: 'Access', href: '/clusters/access', icon: RefreshCw }
+    ]
+  },
+  {
     name: 'Settings',
     href: '/settings',
     icon: Settings,

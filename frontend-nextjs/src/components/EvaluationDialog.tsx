@@ -257,7 +257,7 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
     
     // Check if task is available in lmms-eval
     if (availableTasks.length > 0) {
-      const taskName = benchmark.task_name || benchmark.name.toLowerCase().replace(/\s+/g, '_');
+      const taskName = (benchmark as any).task_name || benchmark.name.toLowerCase().replace(/\s+/g, '_');
       return availableTasks.includes(taskName);
     }
     
@@ -551,9 +551,9 @@ export function EvaluationDialog({ isOpen, onClose, model }: EvaluationDialogPro
                               />
                               <div className="flex-1 min-w-0">
                                 <h3 className="font-medium text-sm truncate">{benchmark.name}</h3>
-                                {benchmark.task_name && (
+                                {(benchmark as any).task_name && (
                                   <p className="text-xs text-muted-foreground truncate">
-                                    Task: {benchmark.task_name}
+                                    Task: {(benchmark as any).task_name}
                                   </p>
                                 )}
                               </div>

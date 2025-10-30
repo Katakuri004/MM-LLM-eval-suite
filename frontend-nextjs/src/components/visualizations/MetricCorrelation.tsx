@@ -42,7 +42,7 @@ export const MetricCorrelation: React.FC<MetricCorrelationProps> = ({
     const metricData: Record<string, number[]> = {};
     metrics.forEach(metric => {
       metricData[metric] = completedEvals
-        .map(eval => eval.metrics?.[metric] || 0)
+        .map((evaluation) => evaluation.metrics?.[metric] || 0)
         .filter(value => !isNaN(value));
     });
 

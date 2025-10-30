@@ -48,11 +48,11 @@ export const ModelComparison: React.FC<ModelComparisonProps> = ({
   const modelGroups = useMemo(() => {
     const groups: Record<string, Evaluation[]> = {};
     
-    evaluations.forEach(eval => {
-      if (!groups[eval.model_id]) {
-        groups[eval.model_id] = [];
+    evaluations.forEach((evaluation) => {
+      if (!groups[evaluation.model_id]) {
+        groups[evaluation.model_id] = [];
       }
-      groups[eval.model_id].push(eval);
+      groups[evaluation.model_id].push(evaluation);
     });
 
     // Sort evaluations within each group
@@ -172,16 +172,16 @@ export const ModelComparison: React.FC<ModelComparisonProps> = ({
   };
 
   const exportData = () => {
-    const csvData = evaluations.map(eval => ({
-      'Model': eval.model_name,
-      'Evaluation': eval.name,
-      'Status': eval.status,
-      'Performance Score': eval.performance_score,
-      'Total Samples': eval.total_samples,
-      'Successful Samples': eval.successful_samples,
-      'Created': eval.created_at,
-      'Completed': eval.completed_at || '',
-      ...eval.metrics
+    const csvData = evaluations.map((evaluation) => ({
+      'Model': evaluation.model_name,
+      'Evaluation': evaluation.name,
+      'Status': evaluation.status,
+      'Performance Score': evaluation.performance_score,
+      'Total Samples': evaluation.total_samples,
+      'Successful Samples': evaluation.successful_samples,
+      'Created': evaluation.created_at,
+      'Completed': evaluation.completed_at || '',
+      ...evaluation.metrics
     }));
 
     const csv = [
@@ -340,24 +340,24 @@ export const ModelComparison: React.FC<ModelComparisonProps> = ({
                             <div className="p-4">
                               <h4 className="font-semibold mb-3">Evaluation Details</h4>
                               <div className="space-y-2">
-                                {modelEvals.map(eval => (
+                                {modelEvals.map((evaluation) => (
                                   <div
-                                    key={eval.id}
+                                    key={evaluation.id}
                                     className="flex items-center justify-between p-3 bg-background rounded-lg border"
                                   >
                                     <div className="flex items-center gap-4">
                                       <div>
-                                        <div className="font-medium">{eval.name}</div>
+                                        <div className="font-medium">{evaluation.name}</div>
                                         <div className="text-sm text-muted-foreground">
-                                          {new Date(eval.created_at).toLocaleDateString()}
+                                          {new Date(evaluation.created_at).toLocaleDateString()}
                                         </div>
                                       </div>
-                                      {getStatusBadge(eval.status)}
+                                      {getStatusBadge(evaluation.status)}
                                     </div>
                                     <div className="flex items-center gap-4">
                                       <div className="text-right">
                                         <div className="font-mono text-sm">
-                                          {eval.performance_score.toFixed(3)}
+                                          {evaluation.performance_score.toFixed(3)}
                                         </div>
                                         <div className="text-xs text-muted-foreground">
                                           Performance
@@ -365,13 +365,13 @@ export const ModelComparison: React.FC<ModelComparisonProps> = ({
                                       </div>
                                       <div className="text-right">
                                         <div className="font-mono text-sm">
-                                          {eval.total_samples.toLocaleString()}
+                                          {evaluation.total_samples.toLocaleString()}
                                         </div>
                                         <div className="text-xs text-muted-foreground">
                                           Samples
                                         </div>
                                       </div>
-                                      {Object.entries(eval.metrics || {}).slice(0, 3).map(([metric, value]) => (
+                                      {Object.entries(evaluation.metrics || {}).slice(0, 3).map(([metric, value]) => (
                                         <div key={metric} className="text-right">
                                           <div className="font-mono text-sm">
                                             {value.toFixed(3)}

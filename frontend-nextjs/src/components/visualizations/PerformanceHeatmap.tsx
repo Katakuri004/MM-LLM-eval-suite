@@ -52,12 +52,12 @@ export const PerformanceHeatmap: React.FC<PerformanceHeatmapProps> = ({
     });
 
     // Fill with actual performance scores
-    evaluations.forEach(eval => {
-      if (eval.status === 'completed' && eval.model_id in data) {
+    evaluations.forEach((evaluation) => {
+      if (evaluation.status === 'completed' && evaluation.model_id in data) {
         // For now, use performance_score for all benchmarks
         // In a real implementation, you'd have per-benchmark scores
         benchmarks.forEach(benchmark => {
-          data[eval.model_id][benchmark] = eval.performance_score;
+          data[evaluation.model_id][benchmark] = evaluation.performance_score;
         });
       }
     });

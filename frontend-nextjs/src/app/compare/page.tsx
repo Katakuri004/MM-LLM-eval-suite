@@ -53,6 +53,7 @@ interface Evaluation {
   successful_samples: number;
   performance_score: number;
   metrics: Record<string, number>;
+  benchmark_ids?: string[];
 }
 
 interface ComparisonData {
@@ -77,22 +78,22 @@ export default function ComparePage() {
     queryFn: async () => {
       const [modelsResponse, evaluationsResponse] = await Promise.all([
         apiClient.getModels({ limit: 1000 }),
-        apiClient.getEvaluations({ limit: 1000 })
+        apiClient.getEvaluations(0, 1000)
       ]);
 
-      const models = modelsResponse.items || [];
-      const evaluations = evaluationsResponse.items || [];
+      const models = (modelsResponse as any).models || [];
+      const evaluations = (evaluationsResponse as any).evaluations || [];
 
       // Extract unique metrics and benchmarks
       const metrics = new Set<string>();
       const benchmarks = new Set<string>();
 
-      evaluations.forEach(eval => {
-        if (eval.metrics) {
-          Object.keys(eval.metrics).forEach(metric => metrics.add(metric));
+      evaluations.forEach((evaluation: any) => {
+        if (evaluation.metrics) {
+          Object.keys(evaluation.metrics).forEach(metric => metrics.add(metric));
         }
-        if (eval.benchmark_ids) {
-          eval.benchmark_ids.forEach(bid => benchmarks.add(bid));
+        if (evaluation.benchmark_ids) {
+          evaluation.benchmark_ids.forEach((bid: string) => benchmarks.add(bid));
         }
       });
 
@@ -114,21 +115,21 @@ export default function ComparePage() {
 
     // Filter by selected models
     if (selectedModels.length > 0) {
-      filtered = filtered.filter(eval => selectedModels.includes(eval.model_id));
+      filtered = filtered.filter((evaluation) => selectedModels.includes(evaluation.model_id));
     }
 
     // Filter by selected benchmarks
     if (selectedBenchmarks.length > 0) {
-      filtered = filtered.filter(eval => 
-        eval.benchmark_ids?.some(bid => selectedBenchmarks.includes(bid))
+      filtered = filtered.filter((evaluation) => 
+        evaluation.benchmark_ids?.some(bid => selectedBenchmarks.includes(bid))
       );
     }
 
     // Filter by search term
     if (searchTerm) {
-      filtered = filtered.filter(eval => 
-        eval.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        eval.model_name.toLowerCase().includes(searchTerm.toLowerCase())
+      filtered = filtered.filter((evaluation) => 
+        evaluation.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        evaluation.model_name.toLowerCase().includes(searchTerm.toLowerCase())
       );
     }
 
@@ -337,7 +338,7 @@ export default function ComparePage() {
       </Card>
 
       {/* Results */}
-      <Tabs value={viewMode} onValueChange={(value: 'table' | 'charts' | 'heatmap') => setViewMode(value)}>
+      <Tabs value={viewMode} onValueChange={(value: string) => setViewMode(value as 'table' | 'charts' | 'heatmap')}>
         <TabsList className="grid w-full grid-cols-3">
           <TabsTrigger value="table">Table View</TabsTrigger>
           <TabsTrigger value="charts">Charts</TabsTrigger>

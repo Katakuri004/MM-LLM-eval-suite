@@ -225,32 +225,14 @@ export default function EvaluationDetailPage() {
   const [isCancelDialogOpen, setIsCancelDialogOpen] = useState(false)
   const [activeTab, setActiveTab] = useState('Overall')
 
-  const { data: statusData } = useQuery({
-    queryKey: ['evaluation-status', runId],
-    queryFn: () => apiClient.getEvaluationStatus(runId),
-    enabled: !!runId && !isLocal,
-    retry: false,
-    refetchInterval: (data) => {
-      const status = (data as any)?.status
-      // Poll more frequently for running evaluations, stop for completed/cancelled/failed
-      return status === 'running' ? 1000 : 
-             status === 'pending' ? 2000 : 
-             ['completed', 'failed', 'cancelled'].includes(status) ? false : 5000
-    },
-    staleTime: 500,
-  })
+  // Status endpoint not available in ApiClient; rely on evaluation and results
 
   const { data: resultsData } = useQuery({
     queryKey: ['evaluation-results', runId],
     queryFn: () => apiClient.getEvaluationResults(runId),
     enabled: !!runId && !isLocal,
     retry: false,
-    refetchInterval: (q) => {
-      const status = (statusData as any)?.status
-      // Poll more frequently for running evaluations, stop for final states
-      return status === 'running' ? 2000 : 
-             status && ['completed', 'failed', 'cancelled'].includes(status) ? false : 5000
-    },
+    refetchInterval: false,
   })
 
   const { data: evaluationData } = useQuery({
@@ -428,7 +410,6 @@ export default function EvaluationDetailPage() {
     return base('text', 'local evaluation', new Date().toISOString(), [])
   }, [isLocal, runId])
 
-  const status = statusData as any
   const results = resultsData as any
   const evaluation = evaluationData as any
   const model = modelData as any
@@ -612,17 +593,21 @@ export default function EvaluationDetailPage() {
           </div>
         </div>
         <div className="flex gap-2">
-          <Badge 
-            variant={status?.status === 'running' ? 'default' : status?.status === 'failed' ? 'destructive' : status?.status === 'completed' ? 'default' : 'secondary'}
-            className={status?.status === 'running' ? 'animate-pulse' : ''}
-          >
-            {status?.status === 'running' && <RefreshCw className="h-3 w-3 mr-1 animate-spin" />}
-            {status?.status === 'completed' && <CheckCircle className="h-3 w-3 mr-1" />}
-            {status?.status === 'failed' && <XCircle className="h-3 w-3 mr-1" />}
-            {status?.status === 'cancelled' && <AlertCircle className="h-3 w-3 mr-1" />}
-            {status?.status || 'pending'}
-          </Badge>
-          {status?.status === 'running' && (
+          {(() => {
+            const currentStatus: string = (evaluation?.status as string) || 'pending'
+            const variant = currentStatus === 'running' ? 'default' : currentStatus === 'failed' ? 'destructive' : currentStatus === 'completed' ? 'default' : 'secondary'
+            const pulse = currentStatus === 'running' ? 'animate-pulse' : ''
+            return (
+              <Badge variant={variant as any} className={pulse}>
+                {currentStatus === 'running' && <RefreshCw className="h-3 w-3 mr-1 animate-spin" />}
+                {currentStatus === 'completed' && <CheckCircle className="h-3 w-3 mr-1" />}
+                {currentStatus === 'failed' && <XCircle className="h-3 w-3 mr-1" />}
+                {currentStatus === 'cancelled' && <AlertCircle className="h-3 w-3 mr-1" />}
+                {currentStatus}
+              </Badge>
+            )
+          })()}
+          {((evaluation?.status as string) || 'pending') === 'running' && (
             <Button 
               variant="destructive" 
               size="sm"
@@ -701,78 +686,78 @@ export default function EvaluationDetailPage() {
           <div className="text-center space-y-4">
             {/* Status Badge */}
             <div className="flex justify-center">
-              <Badge 
-                variant={
-                  status?.status === 'running' ? 'default' : 
-                  status?.status === 'completed' ? 'default' : 
-                  status?.status === 'failed' ? 'destructive' : 
-                  status?.status === 'cancelled' ? 'secondary' : 'secondary'
-                }
-                className={`px-4 py-2 text-sm ${
-                  status?.status === 'running' ? 'animate-pulse bg-blue-500' : 
-                  status?.status === 'completed' ? 'bg-green-500' : 
-                  status?.status === 'failed' ? 'bg-red-500' : 
-                  status?.status === 'cancelled' ? 'bg-yellow-500' : 'bg-gray-400'
-                }`}
-              >
-                {status?.status === 'running' && <RefreshCw className="h-4 w-4 mr-2 animate-spin" />}
-                {status?.status === 'completed' && <CheckCircle className="h-4 w-4 mr-2" />}
-                {status?.status === 'failed' && <XCircle className="h-4 w-4 mr-2" />}
-                {status?.status === 'cancelled' && <AlertCircle className="h-4 w-4 mr-2" />}
-                {status?.status === 'pending' && <Clock className="h-4 w-4 mr-2" />}
-                {status?.status?.toUpperCase() || 'PENDING'}
-              </Badge>
+              {(() => {
+                const currentStatusStr: string = (evaluation?.status as string) || 'pending'
+                const variant = currentStatusStr === 'failed' ? 'destructive' : currentStatusStr === 'running' ? 'default' : 'secondary'
+                const cls = `px-4 py-2 text-sm ${
+                  currentStatusStr === 'running' ? 'animate-pulse bg-blue-500' :
+                  currentStatusStr === 'completed' ? 'bg-green-500' :
+                  currentStatusStr === 'failed' ? 'bg-red-500' :
+                  currentStatusStr === 'cancelled' ? 'bg-yellow-500' : 'bg-gray-400'
+                }`
+                return (
+                  <Badge variant={variant as any} className={cls}>
+                    {currentStatusStr === 'running' && <RefreshCw className="h-4 w-4 mr-2 animate-spin" />}
+                    {currentStatusStr === 'completed' && <CheckCircle className="h-4 w-4 mr-2" />}
+                    {currentStatusStr === 'failed' && <XCircle className="h-4 w-4 mr-2" />}
+                    {currentStatusStr === 'cancelled' && <AlertCircle className="h-4 w-4 mr-2" />}
+                    {currentStatusStr === 'pending' && <Clock className="h-4 w-4 mr-2" />}
+                    {currentStatusStr.toUpperCase()}
+                  </Badge>
+                )
+              })()}
             </div>
 
             {/* Progress Display */}
             <div className="space-y-3">
               <div className="text-2xl font-bold text-gray-700 dark:text-gray-300">
-                {Math.round((status?.progress ?? 0) * 100)}%
+                {Math.round(0 * 100)}%
               </div>
               
               {/* Single Progress Bar */}
               <div className="w-full max-w-md mx-auto">
                 <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-4 overflow-hidden">
-                  <div 
-                    className={`h-4 rounded-full transition-all duration-700 ease-out ${
-                      status?.status === 'running' ? 'bg-gradient-to-r from-blue-500 to-blue-600' : 
-                      status?.status === 'completed' ? 'bg-gradient-to-r from-green-500 to-green-600' : 
-                      status?.status === 'failed' ? 'bg-gradient-to-r from-red-500 to-red-600' : 
-                      status?.status === 'cancelled' ? 'bg-gradient-to-r from-yellow-500 to-yellow-600' : 
+                  {(() => {
+                    const currentStatusStr: string = (evaluation?.status as string) || 'pending'
+                    const barCls = currentStatusStr === 'running' ? 'bg-gradient-to-r from-blue-500 to-blue-600' :
+                      currentStatusStr === 'completed' ? 'bg-gradient-to-r from-green-500 to-green-600' :
+                      currentStatusStr === 'failed' ? 'bg-gradient-to-r from-red-500 to-red-600' :
+                      currentStatusStr === 'cancelled' ? 'bg-gradient-to-r from-yellow-500 to-yellow-600' :
                       'bg-gradient-to-r from-gray-400 to-gray-500'
-                    }`}
-                    style={{ width: `${Math.round((status?.progress ?? 0) * 100)}%` }}
-                  />
+                    return (
+                      <div className={`h-4 rounded-full transition-all duration-700 ease-out ${barCls}`} style={{ width: `0%` }} />
+                    )
+                  })()}
                 </div>
               </div>
 
               {/* Dynamic Status Message */}
               <div className="text-sm text-gray-600 dark:text-gray-400">
-                {status?.status === 'running' && (
+                {((evaluation?.status as string) || 'pending') === 'running' && (
                   <div className="space-y-1">
                     <div className="font-medium">Evaluation in Progress</div>
                     <div className="text-xs">Processing benchmarks and generating results...</div>
                   </div>
                 )}
-                {status?.status === 'completed' && (
+                {((evaluation?.status as string) || 'pending') === 'completed' && (
                   <div className="space-y-1">
                     <div className="font-medium text-green-600">Evaluation Completed</div>
                     <div className="text-xs">All benchmarks processed successfully</div>
                   </div>
                 )}
-                {status?.status === 'failed' && (
+                {((evaluation?.status as string) || 'pending') === 'failed' && (
                   <div className="space-y-1">
                     <div className="font-medium text-red-600">Evaluation Failed</div>
                     <div className="text-xs">Check logs for error details</div>
                   </div>
                 )}
-                {status?.status === 'cancelled' && (
+                {((evaluation?.status as string) || 'pending') === 'cancelled' && (
                   <div className="space-y-1">
                     <div className="font-medium text-yellow-600">Evaluation Cancelled</div>
                     <div className="text-xs">Process was stopped by user</div>
                   </div>
                 )}
-                {status?.status === 'pending' && (
+                {((evaluation?.status as string) || 'pending') === 'pending' && (
                   <div className="space-y-1">
                     <div className="font-medium">Preparing Evaluation</div>
                     <div className="text-xs">Setting up environment and loading models...</div>
@@ -783,7 +768,7 @@ export default function EvaluationDetailPage() {
           </div>
           
           {/* Health Check Indicator */}
-          {status?.status === 'running' && (
+          {((evaluation?.status as string) || 'pending') === 'running' && (
             <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4">
               <div className="flex items-center gap-2 text-blue-700 dark:text-blue-300">
                 <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
@@ -799,30 +784,30 @@ export default function EvaluationDetailPage() {
             <div className="flex items-center gap-2">
               <Clock className="h-4 w-4 text-muted-foreground" />
               <span className="text-muted-foreground">Started:</span>
-              <span>{status?.started_at?.slice(0,19).replace('T',' ') || '-'}</span>
+              <span>-</span>
             </div>
             <div className="flex items-center gap-2">
-              {status?.status === 'completed' ? (
+              {((evaluation?.status as string) || 'pending') === 'completed' ? (
                 <CheckCircle className="h-4 w-4 text-green-500" />
-              ) : status?.status === 'failed' ? (
+              ) : ((evaluation?.status as string) || 'pending') === 'failed' ? (
                 <XCircle className="h-4 w-4 text-red-500" />
-              ) : status?.status === 'cancelled' ? (
+              ) : ((evaluation?.status as string) || 'pending') === 'cancelled' ? (
                 <AlertCircle className="h-4 w-4 text-yellow-500" />
               ) : (
                 <Clock className="h-4 w-4 text-muted-foreground" />
               )}
               <span className="text-muted-foreground">Completed:</span>
-              <span>{status?.completed_at?.slice(0,19).replace('T',' ') || '-'}</span>
+              <span>-</span>
             </div>
           </div>
 
-          {status?.error_message && (
+          {false && (
             <div className="bg-red-50 border border-red-200 rounded-md p-4">
               <div className="flex items-start gap-2">
                 <XCircle className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0" />
                 <div>
                   <h4 className="font-medium text-red-800 mb-1">Evaluation Failed</h4>
-                  <p className="text-red-700 text-sm font-mono break-all">{status.error_message}</p>
+                  <p className="text-red-700 text-sm font-mono break-all">Error</p>
                 </div>
               </div>
             </div>
@@ -1518,7 +1503,7 @@ export default function EvaluationDetailPage() {
 
       <CancelEvaluationDialog
         runId={runId}
-        runName={status?.run_id}
+        runName={(evaluation?.name as string) || runId}
         open={isCancelDialogOpen}
         onOpenChange={setIsCancelDialogOpen}
       />

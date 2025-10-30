@@ -286,6 +286,27 @@ export class ApiClient {
     });
   }
 
+  async exportEvaluation(
+    id: string,
+    options: { format: 'json' | 'csv' | 'pdf'; include_samples?: boolean; include_metadata?: boolean }
+  ): Promise<any> {
+    const params = new URLSearchParams({
+      format: options.format,
+      include_samples: String(!!options.include_samples),
+      include_metadata: String(!!options.include_metadata),
+    });
+    return this.request(`/evaluations/${id}/export?${params.toString()}`, { method: 'GET' });
+  }
+
+  async exportComparison(
+    payload: { model_ids: string[]; benchmark_ids?: string[]; format: 'json' | 'csv' | 'pdf'; include_timeline?: boolean }
+  ): Promise<any> {
+    return this.request('/export/comparison', {
+      method: 'POST',
+      body: JSON.stringify(payload),
+    });
+  }
+
   async getActiveEvaluations() {
     return this.request<{ active_evaluations: any[]; count: number }>('/evaluations/active');
   }

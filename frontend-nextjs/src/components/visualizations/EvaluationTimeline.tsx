@@ -47,12 +47,12 @@ export const EvaluationTimeline: React.FC<EvaluationTimelineProps> = ({
 
     // Group by date
     const groupedByDate: Record<string, Evaluation[]> = {};
-    sortedEvals.forEach(eval => {
-      const date = new Date(eval.created_at).toDateString();
+    sortedEvals.forEach((evaluation) => {
+      const date = new Date(evaluation.created_at).toDateString();
       if (!groupedByDate[date]) {
         groupedByDate[date] = [];
       }
-      groupedByDate[date].push(eval);
+      groupedByDate[date].push(evaluation);
     });
 
     // Calculate daily statistics
@@ -218,47 +218,47 @@ export const EvaluationTimeline: React.FC<EvaluationTimelineProps> = ({
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                    {evaluations.map(eval => (
-                      <Tooltip key={eval.id}>
+                    {evaluations.map((evaluation) => (
+                      <Tooltip key={evaluation.id}>
                         <TooltipTrigger asChild>
                           <div className="flex items-center gap-3 p-3 rounded-lg border hover:bg-muted/50 cursor-pointer transition-colors">
                             <div className="flex-shrink-0">
-                              {getStatusIcon(eval.status)}
+                              {getStatusIcon(evaluation.status)}
                             </div>
                             <div className="flex-1 min-w-0">
-                              <div className="font-medium text-sm truncate" title={eval.name}>
-                                {eval.name}
+                              <div className="font-medium text-sm truncate" title={evaluation.name}>
+                                {evaluation.name}
                               </div>
                               <div className="text-xs text-muted-foreground truncate">
-                                {eval.model_name}
+                                {evaluation.model_name}
                               </div>
                             </div>
                             <div className="flex-shrink-0">
-                              {getStatusBadge(eval.status)}
+                              {getStatusBadge(evaluation.status)}
                             </div>
                           </div>
                         </TooltipTrigger>
                         <TooltipContent>
                           <div className="text-center">
-                            <div className="font-semibold">{eval.name}</div>
-                            <div className="text-sm text-muted-foreground">{eval.model_name}</div>
+                            <div className="font-semibold">{evaluation.name}</div>
+                            <div className="text-sm text-muted-foreground">{evaluation.model_name}</div>
                             <div className="text-sm">
-                              Status: {eval.status}
+                              Status: {evaluation.status}
                             </div>
                             <div className="text-sm">
-                              Samples: {eval.total_samples.toLocaleString()}
+                              Samples: {evaluation.total_samples.toLocaleString()}
                             </div>
-                            {eval.performance_score > 0 && (
+                            {evaluation.performance_score > 0 && (
                               <div className="text-sm">
-                                Performance: {eval.performance_score.toFixed(3)}
+                                Performance: {evaluation.performance_score.toFixed(3)}
                               </div>
                             )}
                             <div className="text-sm text-muted-foreground">
-                              Created: {new Date(eval.created_at).toLocaleString()}
+                              Created: {new Date(evaluation.created_at).toLocaleString()}
                             </div>
-                            {eval.completed_at && (
+                            {evaluation.completed_at && (
                               <div className="text-sm text-muted-foreground">
-                                Completed: {new Date(eval.completed_at).toLocaleString()}
+                                Completed: {new Date(evaluation.completed_at).toLocaleString()}
                               </div>
                             )}
                           </div>

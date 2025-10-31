@@ -445,16 +445,50 @@ export async function scanExternalModels(): Promise<ExternalModelSummary[]> {
 
 export async function parseExternalModelById(id: string): Promise<ExternalModelDetail | null> {
   if (!id.startsWith('external:')) return null
-  const folderName = id.slice('external:'.length)
+  const requestedFolderName = id.slice('external:'.length)
   const root = getResultsRoot()
-  const folderPath = path.join(root, folderName)
-  const exists = await safeStat(folderPath)
-  if (!exists?.isDirectory()) return null
+
+  // Resolve folder with compatibility for single vs double underscores
+  const candidateNames = Array.from(new Set([
+    requestedFolderName,
+    requestedFolderName.replace(/__+/g, '_'),
+    requestedFolderName.replace(/_/g, '__'),
+  ]))
+  let folderName = requestedFolderName
+  let folderPath = path.join(root, folderName)
+  let exists = await safeStat(folderPath)
+  if (!exists?.isDirectory()) {
+    for (const candidate of candidateNames) {
+      const p = path.join(root, candidate)
+      const st = await safeStat(p)
+      if (st?.isDirectory()) {
+        folderName = candidate
+        folderPath = p
+        exists = st
+        break
+      }
+    }
+    if (!exists?.isDirectory()) return null
+  }
 
   // Get summary
   const summaries = await scanExternalModels()
-  const summary = summaries.find(s => s.id === id)
-  if (!summary) return null
+  let summary = summaries.find(s => s.id === `external:${folderName}`)
+  if (!summary) {
+    // Build a minimal synthetic summary when scanning did not return this folder (e.g., old id variant)
+    const stats = await safeStat(folderPath)
+    const created_at = stats?.mtime ? stats.mtime.toISOString() : new Date().toISOString()
+    summary = {
+      id: `external:${folderName}`,
+      name: folderName.replace(/_/g, ' ').replace(/\s+/g, ' ').trim(),
+      model_name: folderName,
+      folder_path: folderPath,
+      created_at,
+      benchmark_count: 0,
+      total_samples: 0,
+      summary_metrics: {},
+    }
+  }
 
   // Parse all benchmarks recursively
   const allBenchmarks: BenchmarkDetail[] = []

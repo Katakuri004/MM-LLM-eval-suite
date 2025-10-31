@@ -1,0 +1,103 @@
+{
+  "results": {
+    "polymath_en_low": {
+      "alias": "polymath_en_low",
+      "exact_match,none": 0.984,
+      "exact_match_stderr,none": 0.011267996358513964
+    }
+  },
+  "group_subtasks": {
+    "polymath_en_low": []
+  },
+  "configs": {
+    "polymath_en_low": {
+      "task": "polymath_en_low",
+      "tag": [
+        "math",
+        "reasoning",
+        "polymath"
+      ],
+      "dataset_path": "Qwen/PolyMath",
+      "dataset_name": "en",
+      "test_split": "low",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function no_visuals at 0x1550bdde8af0>",
+      "doc_to_text": "Solve the following math problem. Explain your reasoning step-by-step.\nMake sure to end your response with 'Final Answer: The final answer is \\\\boxed{YourAnswer}', replacing YourAnswer with the numerical result.\n\nProblem: {{question}}\n\nSolution:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "<function process_polymath_results at 0x1550bcbd4dc0>",
+      "description": "PolyMath (English, Low Difficulty) math reasoning task.",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 4096,
+        "temperature": 0.0,
+        "until": [
+          "\nProblem:",
+          "\n\n\n",
+          "Final Answer:",
+          "\\boxed"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false
+    }
+  },
+  "versions": {
+    "polymath_en_low": "Yaml"
+  },
+  "n-shot": {
+    "polymath_en_low": 0
+  },
+  "higher_is_better": {
+    "polymath_en_low": {
+      "exact_match": true
+    }
+  },
+  "n-samples": {
+    "polymath_en_low": {
+      "original": 125,
+      "effective": 125
+    }
+  },
+  "config": {
+    "model": "vllm",
+    "model_args": "model=Qwen/Qwen3-Omni-30B-A3B-Instruct,tensor_parallel_size=4,gpu_memory_utilization=0.9,allowed_local_media_path=/",
+    "batch_size": "64",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": "",
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "bbd344e",
+  "date": "20251030_183840",
+  "task_hashes": {
+    "polymath_en_low": "4b7d9bb0fc8ed938b637e93438d78f2b035632b8caa79b5a213ecbe7f3585cdc"
+  },
+  "model_source": "vllm",
+  "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "model_name_sanitized": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 4921515.397279692,
+  "end_time": 4921704.331273756,
+  "total_evaluation_time_seconds": "188.93399406410754"
+}

@@ -6,7 +6,7 @@ import { useQuery } from '@tanstack/react-query'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { ModalityTabs } from '@/components/evaluations/ModalityTabs'
+import { ExternalModelMetricsTabs } from '@/components/external/ExternalModelMetricsTabs'
 import { CapabilitiesRadar } from '@/components/mock/CapabilitiesRadar'
 import { CapabilityBadge } from '@/components/mock/CapabilityBadge'
 import { ErrorAnalysis } from '@/components/mock/ErrorAnalysis'
@@ -142,17 +142,10 @@ export default function ExternalModelDetailPage() {
   )
   const modality = hasText && hasImage ? 'multi-modal' : hasImage ? 'image' : 'text'
 
-  // Prepare detail for ModalityTabs
+  // Prepare detail for ExternalModelMetricsTabs
   const detailForTabs = {
-    id: detail.id,
-    name: detail.name,
     model_name: detail.model_name,
-    modality,
-    created_at: detail.created_at,
-    status: 'completed',
-    benchmark_ids: detail.benchmarks?.map((b: any) => b.benchmark_id) || [],
     summary_metrics: detail.summary_metrics || {},
-    source_folder: detail.folder_path,
     benchmarks: detail.benchmarks || [],
   }
 
@@ -304,7 +297,7 @@ export default function ExternalModelDetailPage() {
         </TabsContent>
       </Tabs>
 
-      <ModalityTabs detail={detailForTabs} />
+      <ExternalModelMetricsTabs detail={detailForTabs} />
     </div>
   )
 }

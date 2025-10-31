@@ -1,0 +1,2508 @@
+{
+  "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "benchmark_id": "mmlu_redux_philosophy",
+  "total_samples": 100,
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Traditionally art has been defined as _____.\n\nChoices:\nA) wealth\nB) utility\nC) representation\nD) well being\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        0,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Traditionally art has been defined as _____.\n\nChoices:\nA) wealth\nB) utility\nC) representation\nD) well being\n\nAnswer:"
+    },
+    {
+      "doc_id": 1,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Parfit claims that:\n\nChoices:\nA) it is possible for an outcome to be worse for a particular person than some alternative.\nB) it is possible for an outcome to be worse than some alternative.\nC) both a and b.\nD) neither a. nor b.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        1,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Parfit claims that:\n\nChoices:\nA) it is possible for an outcome to be worse for a particular person than some alternative.\nB) it is possible for an outcome to be worse than some alternative.\nC) both a and b.\nD) neither a. nor b.\n\nAnswer:"
+    },
+    {
+      "doc_id": 2,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Plato's view is that true beauty is _____.\n\nChoices:\nA) found in everyday objects\nB) nonexistent\nC) everywhere in the natural world\nD) not of this world\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        2,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Plato's view is that true beauty is _____.\n\nChoices:\nA) found in everyday objects\nB) nonexistent\nC) everywhere in the natural world\nD) not of this world\n\nAnswer:"
+    },
+    {
+      "doc_id": 3,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Concerning the relationship between morality and theology, Bentham claims that:\n\nChoices:\nA) we must first know whether something is right before we can know whether it conforms to God’s will.\nB) we must first know whether something conforms to God’s will before we can know that it is right.\nC) God exists, but does not concern himself with matters of morality.\nD) God does not exist.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        3,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Concerning the relationship between morality and theology, Bentham claims that:\n\nChoices:\nA) we must first know whether something is right before we can know whether it conforms to God’s will.\nB) we must first know whether something conforms to God’s will before we can know that it is right.\nC) God exists, but does not concern himself with matters of morality.\nD) God does not exist.\n\nAnswer:"
+    },
+    {
+      "doc_id": 4,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Moore defines the naturalistic fallacy as the view that:\n\nChoices:\nA) everything that is natural is good.\nB) everything that is good is natural.\nC) good is identical to a natural property.\nD) all of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        4,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Moore defines the naturalistic fallacy as the view that:\n\nChoices:\nA) everything that is natural is good.\nB) everything that is good is natural.\nC) good is identical to a natural property.\nD) all of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 5,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion:  In his discussion of the Divided Line, Plato says that, in contrast to mere belief or opinion, knowledge is a belief for which we give reasons or justifications by appealing:\n\nChoices:\nA) to what our senses reveal to us about how things appear to us, not how they  really are.\nB) beyond the Forms to images of goodness, beauty, and truth obtained from particular objects.\nC) to what we sincerely believe is true about the Forms based on our experiences in the world.\nD) beyond sense experience to unchanging ideas (Forms) that are perceived as rationally ordered.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        5,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion:  In his discussion of the Divided Line, Plato says that, in contrast to mere belief or opinion, knowledge is a belief for which we give reasons or justifications by appealing:\n\nChoices:\nA) to what our senses reveal to us about how things appear to us, not how they  really are.\nB) beyond the Forms to images of goodness, beauty, and truth obtained from particular objects.\nC) to what we sincerely believe is true about the Forms based on our experiences in the world.\nD) beyond sense experience to unchanging ideas (Forms) that are perceived as rationally ordered.\n\nAnswer:"
+    },
+    {
+      "doc_id": 6,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How does Stevenson respond to the objection that his theory does not account for the kind of goodness that is objective and is known a priori?\n\nChoices:\nA) He claims to have proven that such a property does not exist.\nB) He claims to have offered an account of just such a property.\nC) He claims he does not understand such a property.\nD) None of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        6,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How does Stevenson respond to the objection that his theory does not account for the kind of goodness that is objective and is known a priori?\n\nChoices:\nA) He claims to have proven that such a property does not exist.\nB) He claims to have offered an account of just such a property.\nC) He claims he does not understand such a property.\nD) None of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 7,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Aquinas’s view, man’s ultimate happiness consists in:\n\nChoices:\nA) pleasure\nB) acts of the moral virtues.\nC) loving God.\nD) contemplating God.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        7,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Aquinas’s view, man’s ultimate happiness consists in:\n\nChoices:\nA) pleasure\nB) acts of the moral virtues.\nC) loving God.\nD) contemplating God.\n\nAnswer:"
+    },
+    {
+      "doc_id": 8,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The biblical account of the soul is at odds with _____.\n\nChoices:\nA) a unitary concept of the soul\nB) the identity theory\nC) soul-body dualism\nD) the idea of a monistic soul\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        8,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The biblical account of the soul is at odds with _____.\n\nChoices:\nA) a unitary concept of the soul\nB) the identity theory\nC) soul-body dualism\nD) the idea of a monistic soul\n\nAnswer:"
+    },
+    {
+      "doc_id": 9,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The control condition claims:\n\nChoices:\nA) it is morally wrong to ever lose control of oneself.\nB) it is morally wrong to try to control the lives of (adult) others.\nC) one cannot be morally assessed for what is due to factors outside one’s control.\nD) one cannot be morally blamed for taking control of one’s own life.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        9,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The control condition claims:\n\nChoices:\nA) it is morally wrong to ever lose control of oneself.\nB) it is morally wrong to try to control the lives of (adult) others.\nC) one cannot be morally assessed for what is due to factors outside one’s control.\nD) one cannot be morally blamed for taking control of one’s own life.\n\nAnswer:"
+    },
+    {
+      "doc_id": 10,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: For Socrates, the soul is harmed by lack of _____.\n\nChoices:\nA) knowledge\nB) wealth\nC) community\nD) courage\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        10,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: For Socrates, the soul is harmed by lack of _____.\n\nChoices:\nA) knowledge\nB) wealth\nC) community\nD) courage\n\nAnswer:"
+    },
+    {
+      "doc_id": 11,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Berkeley believes that sensible things cannot exist except in _____.\n\nChoices:\nA) a mind\nB) absolute existence\nC) material substance\nD) a material universe\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        11,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Berkeley believes that sensible things cannot exist except in _____.\n\nChoices:\nA) a mind\nB) absolute existence\nC) material substance\nD) a material universe\n\nAnswer:"
+    },
+    {
+      "doc_id": 12,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The theory that says mental states are nothing but brain states is known as _____.\n\nChoices:\nA) brain theory\nB) epiphenominalism\nC) identity theory\nD) logical behaviorism\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        12,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The theory that says mental states are nothing but brain states is known as _____.\n\nChoices:\nA) brain theory\nB) epiphenominalism\nC) identity theory\nD) logical behaviorism\n\nAnswer:"
+    },
+    {
+      "doc_id": 13,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Socrates, just as there is a difference between what an ironic statement says and its true meaning, so also appearances differ from reality.  Even though societies or individuals appear to differ about what is required for the good life, that in no way contradicts the fact that:\n\nChoices:\nA) what is right or wrong, true or false varies from one culture to another.\nB) appearances are the only real way we have for knowing reality.\nC) the distinction of appearance and reality is the basis for the dialectical discovery of truth.\nD) there are objective principles for thought and action that are required for the good life.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        13,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Socrates, just as there is a difference between what an ironic statement says and its true meaning, so also appearances differ from reality.  Even though societies or individuals appear to differ about what is required for the good life, that in no way contradicts the fact that:\n\nChoices:\nA) what is right or wrong, true or false varies from one culture to another.\nB) appearances are the only real way we have for knowing reality.\nC) the distinction of appearance and reality is the basis for the dialectical discovery of truth.\nD) there are objective principles for thought and action that are required for the good life.\n\nAnswer:"
+    },
+    {
+      "doc_id": 14,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The view that art is defined by its form is known as _____.\n\nChoices:\nA) informalism\nB) expressionism\nC) formalism\nD) structuralism\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        14,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The view that art is defined by its form is known as _____.\n\nChoices:\nA) informalism\nB) expressionism\nC) formalism\nD) structuralism\n\nAnswer:"
+    },
+    {
+      "doc_id": 15,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Moore defines good as:\n\nChoices:\nA) pleasure.\nB) that which we desire.\nC) that which we desire to desire.\nD) none of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        15,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Moore defines good as:\n\nChoices:\nA) pleasure.\nB) that which we desire.\nC) that which we desire to desire.\nD) none of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 16,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Hobbes, in the condition of man in which there is a state of war of everyone against everyone, every man has a right to _____.\n\nChoices:\nA) some things\nB) lawful treatment\nC) due process\nD) everything\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        16,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Hobbes, in the condition of man in which there is a state of war of everyone against everyone, every man has a right to _____.\n\nChoices:\nA) some things\nB) lawful treatment\nC) due process\nD) everything\n\nAnswer:"
+    },
+    {
+      "doc_id": 17,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion:  For Socrates, the belief that \"virtue is knowledge\" is related to his claim that \"the unexamined life is not worth living,\" because he believes that:\n\nChoices:\nA) the unexamined life is one in which we live day to day without asking questions about who we are and why we are here in the first place.\nB) the Delphic oracle identified Socrates as the wisest person on earth because he claimed to know nothing.\nC) by questioning traditional beliefs, we learn to recognize how some answers seem to be more satisfactory than others.\nD) the only way to be a good or worthwhile person is to know how human beings should behave based on universal norms or values.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        17,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion:  For Socrates, the belief that \"virtue is knowledge\" is related to his claim that \"the unexamined life is not worth living,\" because he believes that:\n\nChoices:\nA) the unexamined life is one in which we live day to day without asking questions about who we are and why we are here in the first place.\nB) the Delphic oracle identified Socrates as the wisest person on earth because he claimed to know nothing.\nC) by questioning traditional beliefs, we learn to recognize how some answers seem to be more satisfactory than others.\nD) the only way to be a good or worthwhile person is to know how human beings should behave based on universal norms or values.\n\nAnswer:"
+    },
+    {
+      "doc_id": 18,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Aquinas claim that all human operations appear to serve:\n\nChoices:\nA) those in power.\nB) those of high status.\nC) those who contemplate the truth.\nD) those who act wickedly.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        18,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Aquinas claim that all human operations appear to serve:\n\nChoices:\nA) those in power.\nB) those of high status.\nC) those who contemplate the truth.\nD) those who act wickedly.\n\nAnswer:"
+    },
+    {
+      "doc_id": 19,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hume defines virtue as:\n\nChoices:\nA) a tendency to maximize happiness.\nB) a tendency to pursue justice.\nC) whatever mental action or quality gives a spectator a sentiment of approbation.\nD) whatever mental action or quality brings about the best consequences for all.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        19,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hume defines virtue as:\n\nChoices:\nA) a tendency to maximize happiness.\nB) a tendency to pursue justice.\nC) whatever mental action or quality gives a spectator a sentiment of approbation.\nD) whatever mental action or quality brings about the best consequences for all.\n\nAnswer:"
+    },
+    {
+      "doc_id": 20,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Singer, compliance with his principle requires:\n\nChoices:\nA) modest changes to our personal habits, but not to our society as a whole.\nB) modest changes to our personal habits, as well as to society.\nC) drastic changes to our personal habits, but not to our society.\nD) drastic changes to both our personal habits and to our society.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        20,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Singer, compliance with his principle requires:\n\nChoices:\nA) modest changes to our personal habits, but not to our society as a whole.\nB) modest changes to our personal habits, as well as to society.\nC) drastic changes to our personal habits, but not to our society.\nD) drastic changes to both our personal habits and to our society.\n\nAnswer:"
+    },
+    {
+      "doc_id": 21,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In spite of the fact that Socrates claims to be ignorant of the essence or nature of certain things like justice, he is wise insofar as he recognizes that without such knowledge actions are rationally unjustified.  That is, his wisdom consists in his recognition not only that he is ignorant of such essences but also that:\n\nChoices:\nA) justice, like knowledge, requires that we admit that we know nothing and never will.\nB) he knows what he is supposed to be looking for--knowledge of the essences of things.\nC) knowledge of the essences of things is impossible, because that would require that we know what we are looking for before we know what it is we are looking for.\nD) his method of asking questions about essences is itself unjustified because he does not know why he engages in such a practice.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        21,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In spite of the fact that Socrates claims to be ignorant of the essence or nature of certain things like justice, he is wise insofar as he recognizes that without such knowledge actions are rationally unjustified.  That is, his wisdom consists in his recognition not only that he is ignorant of such essences but also that:\n\nChoices:\nA) justice, like knowledge, requires that we admit that we know nothing and never will.\nB) he knows what he is supposed to be looking for--knowledge of the essences of things.\nC) knowledge of the essences of things is impossible, because that would require that we know what we are looking for before we know what it is we are looking for.\nD) his method of asking questions about essences is itself unjustified because he does not know why he engages in such a practice.\n\nAnswer:"
+    },
+    {
+      "doc_id": 22,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Anscombe claims that on Sidgwick’s view, the badness of an action must be estimated in light of:\n\nChoices:\nA) its actual consequences.\nB) its expected consequences.\nC) whether it violates any duties.\nD) whether it violates divine law.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        22,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Anscombe claims that on Sidgwick’s view, the badness of an action must be estimated in light of:\n\nChoices:\nA) its actual consequences.\nB) its expected consequences.\nC) whether it violates any duties.\nD) whether it violates divine law.\n\nAnswer:"
+    },
+    {
+      "doc_id": 23,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Aristotle states that if we ask what the highest good of human action is:\n\nChoices:\nA) there is no agreement about the answer.\nB) most people agree that it is pleasure.\nC) nearly everyone agrees that it is happiness.\nD) there is no objective answer to this question.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        23,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Aristotle states that if we ask what the highest good of human action is:\n\nChoices:\nA) there is no agreement about the answer.\nB) most people agree that it is pleasure.\nC) nearly everyone agrees that it is happiness.\nD) there is no objective answer to this question.\n\nAnswer:"
+    },
+    {
+      "doc_id": 24,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Epicurus claims that all other virtues spring from:\n\nChoices:\nA) prudence.\nB) temperance.\nC) justice.\nD) courage.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        24,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Epicurus claims that all other virtues spring from:\n\nChoices:\nA) prudence.\nB) temperance.\nC) justice.\nD) courage.\n\nAnswer:"
+    },
+    {
+      "doc_id": 25,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The view that we consist of two distinct substances (body and mind) and that these two interact is known as _____.\n\nChoices:\nA) functionalism\nB) identity theory\nC) substance dualism\nD) materialism\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        25,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The view that we consist of two distinct substances (body and mind) and that these two interact is known as _____.\n\nChoices:\nA) functionalism\nB) identity theory\nC) substance dualism\nD) materialism\n\nAnswer:"
+    },
+    {
+      "doc_id": 26,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Feinberg claims that when people are hungry, they typically desire:\n\nChoices:\nA) to eat food.\nB) pleasant gustatory sensations.\nC) both a and b.\nD) neither a nor b.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        26,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Feinberg claims that when people are hungry, they typically desire:\n\nChoices:\nA) to eat food.\nB) pleasant gustatory sensations.\nC) both a and b.\nD) neither a nor b.\n\nAnswer:"
+    },
+    {
+      "doc_id": 27,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The systematic use of critical reasoning to try to find answers to fundamental questions about reality, morality, and knowledge is called _____.\n\nChoices:\nA) the argumentative method\nB) the philosophical method\nC) propositional logic\nD) syllogistic reasoning\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        27,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The systematic use of critical reasoning to try to find answers to fundamental questions about reality, morality, and knowledge is called _____.\n\nChoices:\nA) the argumentative method\nB) the philosophical method\nC) propositional logic\nD) syllogistic reasoning\n\nAnswer:"
+    },
+    {
+      "doc_id": 28,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Paley maintains that the key difference between the “contrivance” of a watch and that of nature is that the latter is _____.\n\nChoices:\nA) simpler\nB) more natural\nC) older\nD) greater and grander\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        28,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Paley maintains that the key difference between the “contrivance” of a watch and that of nature is that the latter is _____.\n\nChoices:\nA) simpler\nB) more natural\nC) older\nD) greater and grander\n\nAnswer:"
+    },
+    {
+      "doc_id": 29,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Logical behaviorism is at odds with our commonsense intuition that mental states _____.\n\nChoices:\nA) cause behavior\nB) never cause behavior\nC) exist\nD) do not exist\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        29,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Logical behaviorism is at odds with our commonsense intuition that mental states _____.\n\nChoices:\nA) cause behavior\nB) never cause behavior\nC) exist\nD) do not exist\n\nAnswer:"
+    },
+    {
+      "doc_id": 30,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Philosophy is concerned primarily with identifying beliefs about human existence and evaluating arguments that support those beliefs.  These activities can be summarized in two questions that drive philosophical investigations:\n\nChoices:\nA) why should we bother? and what are the consequences of our believing one thing over another?\nB) what do you mean? and how do you know?\nC) who really believes X? and how can we explain differences in people's beliefs?\nD) how do philosophers argue? and are their differences important?\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        30,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Philosophy is concerned primarily with identifying beliefs about human existence and evaluating arguments that support those beliefs.  These activities can be summarized in two questions that drive philosophical investigations:\n\nChoices:\nA) why should we bother? and what are the consequences of our believing one thing over another?\nB) what do you mean? and how do you know?\nC) who really believes X? and how can we explain differences in people's beliefs?\nD) how do philosophers argue? and are their differences important?\n\nAnswer:"
+    },
+    {
+      "doc_id": 31,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hume claims that a person who is unaffected by images of human happiness or misery will also be indifferent to:\n\nChoices:\nA) art and beauty.\nB) virtue and vice.\nC) his own well-being.\nD) all of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        31,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hume claims that a person who is unaffected by images of human happiness or misery will also be indifferent to:\n\nChoices:\nA) art and beauty.\nB) virtue and vice.\nC) his own well-being.\nD) all of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 32,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Kant, the supreme principle of morality is:\n\nChoices:\nA) analytic and a priori.\nB) analytic and a posteriori.\nC) synthetic and a priori.\nD) synthetic and a posteriori.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        32,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Kant, the supreme principle of morality is:\n\nChoices:\nA) analytic and a priori.\nB) analytic and a posteriori.\nC) synthetic and a priori.\nD) synthetic and a posteriori.\n\nAnswer:"
+    },
+    {
+      "doc_id": 33,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Hobbes’s view, to say something is good is to say that:\n\nChoices:\nA) it is conducive to human happiness.\nB) you desire it.\nC) most people desire it.\nD) most people ought to desire it.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        33,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Hobbes’s view, to say something is good is to say that:\n\nChoices:\nA) it is conducive to human happiness.\nB) you desire it.\nC) most people desire it.\nD) most people ought to desire it.\n\nAnswer:"
+    },
+    {
+      "doc_id": 34,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The idea that mental states are dispositions to behave in particular ways in certain circumstances is known as _____.\n\nChoices:\nA) logical nominalism\nB) logical behaviorism\nC) methodological behaviorism\nD) eliminative materialism\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        34,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The idea that mental states are dispositions to behave in particular ways in certain circumstances is known as _____.\n\nChoices:\nA) logical nominalism\nB) logical behaviorism\nC) methodological behaviorism\nD) eliminative materialism\n\nAnswer:"
+    },
+    {
+      "doc_id": 35,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Craig, the kalam cosmological argument establishes that _____.\n\nChoices:\nA) the God of Christianity exists\nB) the universe has a cause\nC) the Big Bang model is false\nD) the universe is uncaused\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        35,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Craig, the kalam cosmological argument establishes that _____.\n\nChoices:\nA) the God of Christianity exists\nB) the universe has a cause\nC) the Big Bang model is false\nD) the universe is uncaused\n\nAnswer:"
+    },
+    {
+      "doc_id": 36,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Descartes declares that he is _____.\n\nChoices:\nA) a body\nB) a dream\nC) a thing that thinks\nD) a thing that cannot exist\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        36,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Descartes declares that he is _____.\n\nChoices:\nA) a body\nB) a dream\nC) a thing that thinks\nD) a thing that cannot exist\n\nAnswer:"
+    },
+    {
+      "doc_id": 37,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Brandt, John Stuart Mill’s view most closely resembles:\n\nChoices:\nA) act-utilitarianism.\nB) a rule-utilitarianism based on the actual rules of society.\nC) a rule-utilitarianism based on ideal moral rules.\nD) Kant’s ethics.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        37,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Brandt, John Stuart Mill’s view most closely resembles:\n\nChoices:\nA) act-utilitarianism.\nB) a rule-utilitarianism based on the actual rules of society.\nC) a rule-utilitarianism based on ideal moral rules.\nD) Kant’s ethics.\n\nAnswer:"
+    },
+    {
+      "doc_id": 38,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hare asserts that ethics and science are similar in that:\n\nChoices:\nA) both seek to provide us with true beliefs about the world.\nB) both are essential components of a worthwhile life.\nC) both involve testing general principles by examining their logical consequences.\nD) all of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        38,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hare asserts that ethics and science are similar in that:\n\nChoices:\nA) both seek to provide us with true beliefs about the world.\nB) both are essential components of a worthwhile life.\nC) both involve testing general principles by examining their logical consequences.\nD) all of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 39,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Butler’s view, acting virtuously consists of acting in accordance with:\n\nChoices:\nA) our strongest inward principle.\nB) our highest inward principle.\nC) all of our inward principles.\nD) the commands of God.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        39,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Butler’s view, acting virtuously consists of acting in accordance with:\n\nChoices:\nA) our strongest inward principle.\nB) our highest inward principle.\nC) all of our inward principles.\nD) the commands of God.\n\nAnswer:"
+    },
+    {
+      "doc_id": 40,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Kant, morality requires us to:\n\nChoices:\nA) perform the action that leads to the greatest total happiness.\nB) act only on maxims that we can will to become universal laws.\nC) behave only in such a way as a perfectly virtuous person would behave.\nD) place the interests of others above the interests of ourselves.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        40,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Kant, morality requires us to:\n\nChoices:\nA) perform the action that leads to the greatest total happiness.\nB) act only on maxims that we can will to become universal laws.\nC) behave only in such a way as a perfectly virtuous person would behave.\nD) place the interests of others above the interests of ourselves.\n\nAnswer:"
+    },
+    {
+      "doc_id": 41,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Locke, a man in the state of nature will relinquish his absolute freedom to the state because _____.\n\nChoices:\nA) he will also enjoy absolute freedom when subject to the state\nB) in the state of nature the enjoyment of his freedom is very uncertain and vulnerable\nC) he wants to have absolute power over others\nD) he rejects the laws of the state of nature\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        41,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Locke, a man in the state of nature will relinquish his absolute freedom to the state because _____.\n\nChoices:\nA) he will also enjoy absolute freedom when subject to the state\nB) in the state of nature the enjoyment of his freedom is very uncertain and vulnerable\nC) he wants to have absolute power over others\nD) he rejects the laws of the state of nature\n\nAnswer:"
+    },
+    {
+      "doc_id": 42,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Mill, to determine whether one pleasure is more valuable than another, we must _____.\n\nChoices:\nA) determine which one is objectively most pleasurable\nB) determine which pleasure most experienced people prefer\nC) consult philosophers of the past\nD) consult science\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        42,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Mill, to determine whether one pleasure is more valuable than another, we must _____.\n\nChoices:\nA) determine which one is objectively most pleasurable\nB) determine which pleasure most experienced people prefer\nC) consult philosophers of the past\nD) consult science\n\nAnswer:"
+    },
+    {
+      "doc_id": 43,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Kant, nothing can be called “good” without qualification except _____.\n\nChoices:\nA) right action\nB) good consequences\nC) happiness\nD) a good will\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        43,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Kant, nothing can be called “good” without qualification except _____.\n\nChoices:\nA) right action\nB) good consequences\nC) happiness\nD) a good will\n\nAnswer:"
+    },
+    {
+      "doc_id": 44,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Of the ways of escaping moral arguments that he discusses, Hare claims:\n\nChoices:\nA) none of them are successful.\nB) some, but not all of them are successful.\nC) all are entirely successful.\nD) all might be successful, but at a price.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        44,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Of the ways of escaping moral arguments that he discusses, Hare claims:\n\nChoices:\nA) none of them are successful.\nB) some, but not all of them are successful.\nC) all are entirely successful.\nD) all might be successful, but at a price.\n\nAnswer:"
+    },
+    {
+      "doc_id": 45,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Parfit, both Taurek and Lewis assume that for there to be a “sum of pain,” it must be:\n\nChoices:\nA) all felt at a single time.\nB) all felt by a single person.\nC) all be caused by a single source.\nD) all of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        45,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Parfit, both Taurek and Lewis assume that for there to be a “sum of pain,” it must be:\n\nChoices:\nA) all felt at a single time.\nB) all felt by a single person.\nC) all be caused by a single source.\nD) all of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 46,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hobbes defines injustice as:\n\nChoices:\nA) taking more than one’s share of a good.\nB) failure to perform one’s covenant.\nC) treating another person as a mere means.\nD) violating a law of nature.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        46,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hobbes defines injustice as:\n\nChoices:\nA) taking more than one’s share of a good.\nB) failure to perform one’s covenant.\nC) treating another person as a mere means.\nD) violating a law of nature.\n\nAnswer:"
+    },
+    {
+      "doc_id": 47,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Mill claims that the distinction between justice and other moral obligations corresponds perfectly to the distinction between:\n\nChoices:\nA) perfect and imperfect obligations.\nB) positive and negative duties.\nC) strong and weak duties.\nD) absolute and relative obligations.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        47,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Mill claims that the distinction between justice and other moral obligations corresponds perfectly to the distinction between:\n\nChoices:\nA) perfect and imperfect obligations.\nB) positive and negative duties.\nC) strong and weak duties.\nD) absolute and relative obligations.\n\nAnswer:"
+    },
+    {
+      "doc_id": 48,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Kant, the moral worth of an action depends on:\n\nChoices:\nA) the moral character of the agent who performs it.\nB) the consequences of the action.\nC) the maxim that is acted on.\nD) all of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        48,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Kant, the moral worth of an action depends on:\n\nChoices:\nA) the moral character of the agent who performs it.\nB) the consequences of the action.\nC) the maxim that is acted on.\nD) all of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 49,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Socrates, an unexamined life is not worth living; and it certainly could not be a virtuous life.  Why not?\n\nChoices:\nA) Because if someone did not know how to act virtuously, he or she would still be considered virtuous by others who also did not know the principles for good living.\nB) Because since Socrates was a philosopher, he of course thought that people who examined their lives philosophically were more virtuous than those who did not.\nC) Because without knowing the rationale for why one should act in a particular way, one does not know whether actions are justified and ought to be repeated.\nD) Because a virtuous life would be one in which someone does what the rest of the society says is right, and that means examining views other than one's own.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        49,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Socrates, an unexamined life is not worth living; and it certainly could not be a virtuous life.  Why not?\n\nChoices:\nA) Because if someone did not know how to act virtuously, he or she would still be considered virtuous by others who also did not know the principles for good living.\nB) Because since Socrates was a philosopher, he of course thought that people who examined their lives philosophically were more virtuous than those who did not.\nC) Because without knowing the rationale for why one should act in a particular way, one does not know whether actions are justified and ought to be repeated.\nD) Because a virtuous life would be one in which someone does what the rest of the society says is right, and that means examining views other than one's own.\n\nAnswer:"
+    },
+    {
+      "doc_id": 50,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hare claims that the two essential features of the logic of moral judgments are:\n\nChoices:\nA) consequentialism and hedonism.\nB) universalizability and prescriptivity.\nC) contractualism and rule-following.\nD) consistency and coherence.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        50,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hare claims that the two essential features of the logic of moral judgments are:\n\nChoices:\nA) consequentialism and hedonism.\nB) universalizability and prescriptivity.\nC) contractualism and rule-following.\nD) consistency and coherence.\n\nAnswer:"
+    },
+    {
+      "doc_id": 51,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Anscombe claims that the notion of moral obligation is derived from the concept of:\n\nChoices:\nA) preference.\nB) maximizing utility.\nC) positive law.\nD) divine law.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        51,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Anscombe claims that the notion of moral obligation is derived from the concept of:\n\nChoices:\nA) preference.\nB) maximizing utility.\nC) positive law.\nD) divine law.\n\nAnswer:"
+    },
+    {
+      "doc_id": 52,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following concepts can be defined, according to Moore?\n\nChoices:\nA) good\nB) yellow\nC) horse\nD) all of the above\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        52,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following concepts can be defined, according to Moore?\n\nChoices:\nA) good\nB) yellow\nC) horse\nD) all of the above\n\nAnswer:"
+    },
+    {
+      "doc_id": 53,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Kant claims that the natural purpose of reason is to:\n\nChoices:\nA) produce happiness.\nB) produce pleasure.\nC) produce knowledge.\nD) produce a good will.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        53,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Kant claims that the natural purpose of reason is to:\n\nChoices:\nA) produce happiness.\nB) produce pleasure.\nC) produce knowledge.\nD) produce a good will.\n\nAnswer:"
+    },
+    {
+      "doc_id": 54,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hume thinks that each mind perceives _____.\n\nChoices:\nA) the same beauty\nB) a different beauty\nC) a warped sense of beauty\nD) objective beauty\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        54,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hume thinks that each mind perceives _____.\n\nChoices:\nA) the same beauty\nB) a different beauty\nC) a warped sense of beauty\nD) objective beauty\n\nAnswer:"
+    },
+    {
+      "doc_id": 55,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Anscombe criticizes as absurd Kant’s idea of:\n\nChoices:\nA) the thing in itself.\nB) the categorical imperative.\nC) the phenomenal self.\nD) legislating for oneself.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        55,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Anscombe criticizes as absurd Kant’s idea of:\n\nChoices:\nA) the thing in itself.\nB) the categorical imperative.\nC) the phenomenal self.\nD) legislating for oneself.\n\nAnswer:"
+    },
+    {
+      "doc_id": 56,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Rawls conceives of the original contract as one to:\n\nChoices:\nA) enter a particular society.\nB) set up a particular form of government.\nC) establish the principles of justice for the basic structure of society.\nD) establish the content of morality.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        56,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Rawls conceives of the original contract as one to:\n\nChoices:\nA) enter a particular society.\nB) set up a particular form of government.\nC) establish the principles of justice for the basic structure of society.\nD) establish the content of morality.\n\nAnswer:"
+    },
+    {
+      "doc_id": 57,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Hobbes, the right of nature is:\n\nChoices:\nA) an entitlement to the fruits of one’s labors.\nB) a claim not to be harmed by others.\nC) the right of the king to rule his subjects.\nD) the liberty to use one’s powers to preserve one’s life.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        57,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Hobbes, the right of nature is:\n\nChoices:\nA) an entitlement to the fruits of one’s labors.\nB) a claim not to be harmed by others.\nC) the right of the king to rule his subjects.\nD) the liberty to use one’s powers to preserve one’s life.\n\nAnswer:"
+    },
+    {
+      "doc_id": 58,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: To say that \"philosophy\" (like \"love\" or \"art\") is not a closed concept means that we cannot state the necessary and sufficient conditions by which it is defined.  Rather, philosophic issues are identifiable as having \"family resemblances\" with one another.  In other words:\n\nChoices:\nA) there is no one distinguishing feature that identifies an issue as philosophic, only an overlapping of issues roughly associated with one another.\nB) the way we come to think about philosophy, love, or art really depends on how we were raised by our families to identify things as resembling one another.\nC) the necessary and sufficient condition for something to be considered philosophic is that it answers either of these questions: What does it mean? and How do you know?\nD) philosophy is not a closed discipline insofar as it is willing to accept any answer suggested by the \"human family\" as being true.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        58,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: To say that \"philosophy\" (like \"love\" or \"art\") is not a closed concept means that we cannot state the necessary and sufficient conditions by which it is defined.  Rather, philosophic issues are identifiable as having \"family resemblances\" with one another.  In other words:\n\nChoices:\nA) there is no one distinguishing feature that identifies an issue as philosophic, only an overlapping of issues roughly associated with one another.\nB) the way we come to think about philosophy, love, or art really depends on how we were raised by our families to identify things as resembling one another.\nC) the necessary and sufficient condition for something to be considered philosophic is that it answers either of these questions: What does it mean? and How do you know?\nD) philosophy is not a closed discipline insofar as it is willing to accept any answer suggested by the \"human family\" as being true.\n\nAnswer:"
+    },
+    {
+      "doc_id": 59,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Augustine claims that to be happy, one must know:\n\nChoices:\nA) the causes of natural occurrences.\nB) the causes of good and evil.\nC) both a and b.\nD) neither a nor b.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        59,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Augustine claims that to be happy, one must know:\n\nChoices:\nA) the causes of natural occurrences.\nB) the causes of good and evil.\nC) both a and b.\nD) neither a nor b.\n\nAnswer:"
+    },
+    {
+      "doc_id": 60,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \"There is no rationale for myth because it is through myth that reason itself is defined.\"  This means that:\n\nChoices:\nA) mythos is ultimately based on logos, just as myth is ultimately based on reasoning or thinking.\nB) myth does not \"explain\" how things are related as much as it simply reveals them as related.\nC) metaphysicians are justified in reasoning as they do because there is only one true answer about being.\nD) myth and reason are the same: \"myth\" defines \"reason,\" and \"reason\" defines \"myth.\"\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        60,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \"There is no rationale for myth because it is through myth that reason itself is defined.\"  This means that:\n\nChoices:\nA) mythos is ultimately based on logos, just as myth is ultimately based on reasoning or thinking.\nB) myth does not \"explain\" how things are related as much as it simply reveals them as related.\nC) metaphysicians are justified in reasoning as they do because there is only one true answer about being.\nD) myth and reason are the same: \"myth\" defines \"reason,\" and \"reason\" defines \"myth.\"\n\nAnswer:"
+    },
+    {
+      "doc_id": 61,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Rawls, the two parts of his theory:\n\nChoices:\nA) are interdependent: You cannot accept one part without accepting the other.\nB) are independent: You can accept either part without accepting the other.\nC) are provable from self-evident premises.\nD) cannot be justified via rational means.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        61,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Rawls, the two parts of his theory:\n\nChoices:\nA) are interdependent: You cannot accept one part without accepting the other.\nB) are independent: You can accept either part without accepting the other.\nC) are provable from self-evident premises.\nD) cannot be justified via rational means.\n\nAnswer:"
+    },
+    {
+      "doc_id": 62,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: For Plato, ordinary sensible objects exist and are knowable as examples or instances of Ideas or \"Forms\" that do not exist in our ordinary sensible world.  Forms do not exist in the sensible world because:\n\nChoices:\nA) in the sensible world only mathematical objects (e.g., triangles) can be known using hypotheses which are recollected when we are asked the right kinds of questions.\nB) unlike everything in the sensible world, Forms are not individual things but rather the universal essences or natures by which individual things are what they are and are known.\nC) nothing in the sensible, experienced world could exist or be identified as one particular thing or another unless there were a \"Sensible World\" Form (like the Form of beauty or justice).\nD) the sensible world consists of changing Forms that exist and are known in terms of other changing Forms, which in turn exist and are known in terms of yet others in an endless regress.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        62,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: For Plato, ordinary sensible objects exist and are knowable as examples or instances of Ideas or \"Forms\" that do not exist in our ordinary sensible world.  Forms do not exist in the sensible world because:\n\nChoices:\nA) in the sensible world only mathematical objects (e.g., triangles) can be known using hypotheses which are recollected when we are asked the right kinds of questions.\nB) unlike everything in the sensible world, Forms are not individual things but rather the universal essences or natures by which individual things are what they are and are known.\nC) nothing in the sensible, experienced world could exist or be identified as one particular thing or another unless there were a \"Sensible World\" Form (like the Form of beauty or justice).\nD) the sensible world consists of changing Forms that exist and are known in terms of other changing Forms, which in turn exist and are known in terms of yet others in an endless regress.\n\nAnswer:"
+    },
+    {
+      "doc_id": 63,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A moral theory explains _____.\n\nChoices:\nA) why an action is right or wrong\nB) why one moral event caused another\nC) where a moral agent got her values\nD) why people do what they do\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        63,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A moral theory explains _____.\n\nChoices:\nA) why an action is right or wrong\nB) why one moral event caused another\nC) where a moral agent got her values\nD) why people do what they do\n\nAnswer:"
+    },
+    {
+      "doc_id": 64,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Most of those who take the externalist approach to meaning view the matter from a _____ standpoint.\n\nChoices:\nA) secular\nB) nonreligious\nC) religious\nD) pragmatic\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        64,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Most of those who take the externalist approach to meaning view the matter from a _____ standpoint.\n\nChoices:\nA) secular\nB) nonreligious\nC) religious\nD) pragmatic\n\nAnswer:"
+    },
+    {
+      "doc_id": 65,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Hume, justice:\n\nChoices:\nA) has no value.\nB) has value in part because it is useful to society.\nC) has value solely because it is useful to society.\nD) has value solely because it is useful to the agent.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        65,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Hume, justice:\n\nChoices:\nA) has no value.\nB) has value in part because it is useful to society.\nC) has value solely because it is useful to society.\nD) has value solely because it is useful to the agent.\n\nAnswer:"
+    },
+    {
+      "doc_id": 66,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Augustine claims that Academic skepticism:\n\nChoices:\nA) is true, and can be proven.\nB) is true, but cannot be proven\nC) is false but cannot be refuted.\nD) is false and can be refuted.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        66,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Augustine claims that Academic skepticism:\n\nChoices:\nA) is true, and can be proven.\nB) is true, but cannot be proven\nC) is false but cannot be refuted.\nD) is false and can be refuted.\n\nAnswer:"
+    },
+    {
+      "doc_id": 67,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Gauthier, the basis of morality is:\n\nChoices:\nA) maximizing the utility of all sentient beings.\nB) God’s commands.\nC) the agreement of rational persons choosing the terms of their interaction.\nD) the purposive order of nature.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        67,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Gauthier, the basis of morality is:\n\nChoices:\nA) maximizing the utility of all sentient beings.\nB) God’s commands.\nC) the agreement of rational persons choosing the terms of their interaction.\nD) the purposive order of nature.\n\nAnswer:"
+    },
+    {
+      "doc_id": 68,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Aquinas claims that the ultimate perfection of operation is:\n\nChoices:\nA) delight.\nB) peace.\nC) pleasure.\nD) Godliness.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        68,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Aquinas claims that the ultimate perfection of operation is:\n\nChoices:\nA) delight.\nB) peace.\nC) pleasure.\nD) Godliness.\n\nAnswer:"
+    },
+    {
+      "doc_id": 69,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Critics of the divine command theory have argued that the theory implies that God's commands are _____.\n\nChoices:\nA) well supported\nB) unclear\nC) unknowable\nD) arbitrary\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        69,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Critics of the divine command theory have argued that the theory implies that God's commands are _____.\n\nChoices:\nA) well supported\nB) unclear\nC) unknowable\nD) arbitrary\n\nAnswer:"
+    },
+    {
+      "doc_id": 70,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Nussbaum claims that recent anthropological work has shown that fear is:\n\nChoices:\nA) partially learned and culturally variant.\nB) universally experienced in roughly the same way.\nC) not present in certain societies.\nD) none of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        70,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Nussbaum claims that recent anthropological work has shown that fear is:\n\nChoices:\nA) partially learned and culturally variant.\nB) universally experienced in roughly the same way.\nC) not present in certain societies.\nD) none of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 71,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Gauthier claims that moral agreements that are equally favorable to all parties are desirable because they:\n\nChoices:\nA) satisfy our desire for fairness.\nB) satisfy the conceptual constraint against exploitation.\nC) maximize the productivity of society.\nD) invite the stable compliance of everyone.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        71,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Gauthier claims that moral agreements that are equally favorable to all parties are desirable because they:\n\nChoices:\nA) satisfy our desire for fairness.\nB) satisfy the conceptual constraint against exploitation.\nC) maximize the productivity of society.\nD) invite the stable compliance of everyone.\n\nAnswer:"
+    },
+    {
+      "doc_id": 72,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Butler’s view, injustice is caused by:\n\nChoices:\nA) desires for external goods.\nB) love of injustice.\nC) ill-will toward others.\nD) self-hatred.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        72,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Butler’s view, injustice is caused by:\n\nChoices:\nA) desires for external goods.\nB) love of injustice.\nC) ill-will toward others.\nD) self-hatred.\n\nAnswer:"
+    },
+    {
+      "doc_id": 73,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In the Republic, Thrasymachus claims that justice is:\n\nChoices:\nA) telling the truth and paying one’s debts.\nB) doing what pleases the gods.\nC) the advantage of the stronger.\nD) a harmony of the soul.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        73,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In the Republic, Thrasymachus claims that justice is:\n\nChoices:\nA) telling the truth and paying one’s debts.\nB) doing what pleases the gods.\nC) the advantage of the stronger.\nD) a harmony of the soul.\n\nAnswer:"
+    },
+    {
+      "doc_id": 74,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Descartes had been disillusioned by his discovery that many of the alleged truths learned in his youth were _____.\n\nChoices:\nA) contrary to his religion\nB) TRUE\nC) FALSE\nD) beyond question\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        74,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Descartes had been disillusioned by his discovery that many of the alleged truths learned in his youth were _____.\n\nChoices:\nA) contrary to his religion\nB) TRUE\nC) FALSE\nD) beyond question\n\nAnswer:"
+    },
+    {
+      "doc_id": 75,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Anscombe criticizes Butler on the grounds that:\n\nChoices:\nA) our consciences are fallible.\nB) the notion of “legislating for oneself” is absurd.\nC) we really can derive an “ought” from an “is.”\nD) the concept of “pleasure” is unclear.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        75,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Anscombe criticizes Butler on the grounds that:\n\nChoices:\nA) our consciences are fallible.\nB) the notion of “legislating for oneself” is absurd.\nC) we really can derive an “ought” from an “is.”\nD) the concept of “pleasure” is unclear.\n\nAnswer:"
+    },
+    {
+      "doc_id": 76,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The four main divisions of philosophy are metaphysics, epistemology, axiology, and _____.\n\nChoices:\nA) bioethics\nB) logic\nC) aesthetics\nD) categorical logic\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        76,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The four main divisions of philosophy are metaphysics, epistemology, axiology, and _____.\n\nChoices:\nA) bioethics\nB) logic\nC) aesthetics\nD) categorical logic\n\nAnswer:"
+    },
+    {
+      "doc_id": 77,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Augustine’s view, lying is:\n\nChoices:\nA) often permissible if done for the right reasons.\nB) not evil in itself, although it can have bad consequences.\nC) permissible only in very rare circumstances.\nD) never permissible.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        77,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Augustine’s view, lying is:\n\nChoices:\nA) often permissible if done for the right reasons.\nB) not evil in itself, although it can have bad consequences.\nC) permissible only in very rare circumstances.\nD) never permissible.\n\nAnswer:"
+    },
+    {
+      "doc_id": 78,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Hobbes’s view, a law of nature is:\n\nChoices:\nA) a command of God.\nB) a principle of duty, known by intuition.\nC) a principle, known by reason, which forbids one from doing something destructive of one’s life.\nD) None of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        78,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Hobbes’s view, a law of nature is:\n\nChoices:\nA) a command of God.\nB) a principle of duty, known by intuition.\nC) a principle, known by reason, which forbids one from doing something destructive of one’s life.\nD) None of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 79,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Socrates, justice is when a soul is ruled by its:\n\nChoices:\nA) respect for the law.\nB) rational part.\nC) desire for honor.\nD) none of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        79,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Socrates, justice is when a soul is ruled by its:\n\nChoices:\nA) respect for the law.\nB) rational part.\nC) desire for honor.\nD) none of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 80,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Wolf claims that morality:\n\nChoices:\nA) is merely a cultural artifact.\nB) is not really relevant to our lives.\nC) provides a comprehensive guide to conduct.\nD) none of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        80,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Wolf claims that morality:\n\nChoices:\nA) is merely a cultural artifact.\nB) is not really relevant to our lives.\nC) provides a comprehensive guide to conduct.\nD) none of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 81,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Aristotle ends the Ethics with a segue to a discussion of:\n\nChoices:\nA) aesthetics.\nB) theology.\nC) politics.\nD) natural science.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        81,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Aristotle ends the Ethics with a segue to a discussion of:\n\nChoices:\nA) aesthetics.\nB) theology.\nC) politics.\nD) natural science.\n\nAnswer:"
+    },
+    {
+      "doc_id": 82,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Sartre, the first principle of existentialism is that _____.\n\nChoices:\nA) God is dead\nB) man is all-powerful\nC) man is nothing else but what he makes of himself\nD) man is nothing\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        82,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Sartre, the first principle of existentialism is that _____.\n\nChoices:\nA) God is dead\nB) man is all-powerful\nC) man is nothing else but what he makes of himself\nD) man is nothing\n\nAnswer:"
+    },
+    {
+      "doc_id": 83,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Nagel claims that prior to reflection, it is plausible that people cannot be morally assessed for:\n\nChoices:\nA) actions that affect only themselves.\nB) their character.\nC) what is due to factors beyond their control.\nD) actions that do not violate anyone’s rights.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        83,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Nagel claims that prior to reflection, it is plausible that people cannot be morally assessed for:\n\nChoices:\nA) actions that affect only themselves.\nB) their character.\nC) what is due to factors beyond their control.\nD) actions that do not violate anyone’s rights.\n\nAnswer:"
+    },
+    {
+      "doc_id": 84,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Stevenson claims that the primary use of ethical judgments is to:\n\nChoices:\nA) state facts.\nB) influence the interests of others.\nC) describe one’s own approval of things.\nD) none of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        84,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Stevenson claims that the primary use of ethical judgments is to:\n\nChoices:\nA) state facts.\nB) influence the interests of others.\nC) describe one’s own approval of things.\nD) none of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 85,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: During his trial, Socrates argues that he would never intentionally corrupt others because:\n\nChoices:\nA) it is his duty not to do so.\nB) this would make them vicious, and they would then harm him.\nC) he would be likely to get caught if he did so.\nD) he would not know how.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        85,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: During his trial, Socrates argues that he would never intentionally corrupt others because:\n\nChoices:\nA) it is his duty not to do so.\nB) this would make them vicious, and they would then harm him.\nC) he would be likely to get caught if he did so.\nD) he would not know how.\n\nAnswer:"
+    },
+    {
+      "doc_id": 86,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Ross, we should construct a moral theory by:\n\nChoices:\nA) constructing logical proofs for moral principles.\nB) consulting social conventions.\nC) reflecting on what we really think.\nD) consulting scripture.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        86,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Ross, we should construct a moral theory by:\n\nChoices:\nA) constructing logical proofs for moral principles.\nB) consulting social conventions.\nC) reflecting on what we really think.\nD) consulting scripture.\n\nAnswer:"
+    },
+    {
+      "doc_id": 87,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Disagreements about the aesthetic value or social relevance of a piece of art are _____.\n\nChoices:\nA) uncommon\nB) common\nC) vacuous\nD) never serious\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        87,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Disagreements about the aesthetic value or social relevance of a piece of art are _____.\n\nChoices:\nA) uncommon\nB) common\nC) vacuous\nD) never serious\n\nAnswer:"
+    },
+    {
+      "doc_id": 88,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Nussbaum claims that our modern debates about homosexuality:\n\nChoices:\nA) are continuations of the very same debate about sexual activity that went on in the Greek world.\nB) are interminable because there is no objective answer as to whether homosexuality is immoral.\nC) are carried out in a manner that is not virtuous.\nD) none of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        88,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Nussbaum claims that our modern debates about homosexuality:\n\nChoices:\nA) are continuations of the very same debate about sexual activity that went on in the Greek world.\nB) are interminable because there is no objective answer as to whether homosexuality is immoral.\nC) are carried out in a manner that is not virtuous.\nD) none of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 89,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Before his conversion, what was Tolstoy surrounded by?\n\nChoices:\nA) what is considered complete happiness\nB) things that no one would want\nC) what is considered heavenly bliss\nD) what is considered deep insight\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        89,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Before his conversion, what was Tolstoy surrounded by?\n\nChoices:\nA) what is considered complete happiness\nB) things that no one would want\nC) what is considered heavenly bliss\nD) what is considered deep insight\n\nAnswer:"
+    },
+    {
+      "doc_id": 90,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Parfit, the obligation to give priority to the welfare of one’s children is:\n\nChoices:\nA) agent-relative.\nB) agent-neutral.\nC) absolute.\nD) none of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        90,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Parfit, the obligation to give priority to the welfare of one’s children is:\n\nChoices:\nA) agent-relative.\nB) agent-neutral.\nC) absolute.\nD) none of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 91,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Kant claims that the moral law is given to each person by:\n\nChoices:\nA) society.\nB) one’s own will.\nC) God.\nD) Nature.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        91,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Kant claims that the moral law is given to each person by:\n\nChoices:\nA) society.\nB) one’s own will.\nC) God.\nD) Nature.\n\nAnswer:"
+    },
+    {
+      "doc_id": 92,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Butler claims that in the strictest and most proper sense, tofollow nature is to:\n\nChoices:\nA) act as one pleases.\nB) act on any of one’s passions.\nC) act on one’s strongest passion.\nD) act on one’s conscience.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        92,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Butler claims that in the strictest and most proper sense, tofollow nature is to:\n\nChoices:\nA) act as one pleases.\nB) act on any of one’s passions.\nC) act on one’s strongest passion.\nD) act on one’s conscience.\n\nAnswer:"
+    },
+    {
+      "doc_id": 93,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Anscombe claims that it is not profitable to do moral philosophy until we have an adequate philosophy of:\n\nChoices:\nA) religion.\nB) physics.\nC) psychology.\nD) art.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        93,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Anscombe claims that it is not profitable to do moral philosophy until we have an adequate philosophy of:\n\nChoices:\nA) religion.\nB) physics.\nC) psychology.\nD) art.\n\nAnswer:"
+    },
+    {
+      "doc_id": 94,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Singer claims that his conclusions are similar to those of:\n\nChoices:\nA) Plato.\nB) Aristotle.\nC) Thomas Aquinas.\nD) Immanuel Kant.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        94,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Singer claims that his conclusions are similar to those of:\n\nChoices:\nA) Plato.\nB) Aristotle.\nC) Thomas Aquinas.\nD) Immanuel Kant.\n\nAnswer:"
+    },
+    {
+      "doc_id": 95,
+      "target": "3",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Aesthetics addresses questions that interest _____.\n\nChoices:\nA) only philosophers\nB) only critics\nC) no one\nD) philosophers and nonphilosophers\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        95,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Aesthetics addresses questions that interest _____.\n\nChoices:\nA) only philosophers\nB) only critics\nC) no one\nD) philosophers and nonphilosophers\n\nAnswer:"
+    },
+    {
+      "doc_id": 96,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Philo says the analogy that Cleanthes uses to make his case is _____.\n\nChoices:\nA) too complicated\nB) weak\nC) strong\nD) not based on a legitimate method of reasoning\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        96,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Philo says the analogy that Cleanthes uses to make his case is _____.\n\nChoices:\nA) too complicated\nB) weak\nC) strong\nD) not based on a legitimate method of reasoning\n\nAnswer:"
+    },
+    {
+      "doc_id": 97,
+      "target": "2",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Rawls claims that a conception of justice should be justified by:\n\nChoices:\nA) deducing it from self-evident premises.\nB) direct acquaintance via moral intuition.\nC) the mutual support of many considerations, which it fits into one coherent view.\nD) none of the above.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        97,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Rawls claims that a conception of justice should be justified by:\n\nChoices:\nA) deducing it from self-evident premises.\nB) direct acquaintance via moral intuition.\nC) the mutual support of many considerations, which it fits into one coherent view.\nD) none of the above.\n\nAnswer:"
+    },
+    {
+      "doc_id": 98,
+      "target": "1",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Wolf claims that interpreting Kant’s ethics so that it consists of a finite set of constraints:\n\nChoices:\nA) yields an unattractive picture of moral sainthood.\nB) implausibly places an “upper bound” on moral worthiness.\nC) yields a theory that is too demanding.\nD) transforms the theory into a form of contractarianism.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        98,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Wolf claims that interpreting Kant’s ethics so that it consists of a finite set of constraints:\n\nChoices:\nA) yields an unattractive picture of moral sainthood.\nB) implausibly places an “upper bound” on moral worthiness.\nC) yields a theory that is too demanding.\nD) transforms the theory into a form of contractarianism.\n\nAnswer:"
+    },
+    {
+      "doc_id": 99,
+      "target": "0",
+      "arguments": [
+        "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Book II of the Republic, Glaucon claims that justice originates from:\n\nChoices:\nA) a social agreement.\nB) nature.\nC) the gods.\nD) the powerful.\n\nAnswer:",
+        {
+          "max_new_tokens": 3,
+          "temperature": 0,
+          "until": [
+            "\n",
+            ".",
+            ","
+          ]
+        },
+        99,
+        "mmlu_redux_philosophy",
+        "test"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "input": "MMLU Redux 2.0 (mmlu_redux_philosophy) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Book II of the Republic, Glaucon claims that justice originates from:\n\nChoices:\nA) a social agreement.\nB) nature.\nC) the gods.\nD) the powerful.\n\nAnswer:"
+    }
+  ]
+}

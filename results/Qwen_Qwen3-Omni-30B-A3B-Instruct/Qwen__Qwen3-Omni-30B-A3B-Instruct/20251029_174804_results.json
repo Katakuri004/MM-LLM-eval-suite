@@ -1,0 +1,186 @@
+{
+  "results": {
+    "mmau": {
+      " ": " ",
+      "alias": "mmau"
+    },
+    "mmau_test": {
+      "alias": " - mmau_test",
+      "accuracy,none": [],
+      "accuracy_stderr,none": [],
+      "submission,none": null,
+      "submission_stderr,none": "N/A"
+    },
+    "mmau_test_mini": {
+      "alias": " - mmau_test_mini",
+      "accuracy,none": 67.5,
+      "accuracy_stderr,none": "N/A",
+      "submission,none": [],
+      "submission_stderr,none": []
+    }
+  },
+  "group_subtasks": {
+    "mmau": [
+      "mmau_test_mini",
+      "mmau_test"
+    ]
+  },
+  "configs": {
+    "mmau_test": {
+      "task": "mmau_test",
+      "dataset_path": "lmms-lab/mmau",
+      "dataset_kwargs": {
+        "token": true
+      },
+      "test_split": "test",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function doc_to_audio at 0x1550bcbd0e50>",
+      "doc_to_text": "<function doc_to_text at 0x1550bcbd15a0>",
+      "doc_to_target": "answer",
+      "doc_to_choice": "<function doc_to_choice at 0x1550bcbd1cf0>",
+      "process_results": "<function mmau_process_results at 0x1550bcbd2440>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "submission",
+          "aggregation": "<function mmau_aggregate_results_for_submission at 0x1550bcbd0a60>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 128,
+        "do_sample": false,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "\nAnswer with the option's letter from the given choices directly."
+        },
+        "pre_prompt": "",
+        "post_prompt": "\nAnswer with the option's letter from the given choices directly."
+      }
+    },
+    "mmau_test_mini": {
+      "task": "mmau_test_mini",
+      "dataset_path": "lmms-lab/mmau",
+      "dataset_kwargs": {
+        "token": true
+      },
+      "test_split": "test_mini",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function doc_to_audio at 0x1555180b0670>",
+      "doc_to_text": "<function doc_to_text at 0x1555180b0dc0>",
+      "doc_to_target": "answer",
+      "doc_to_choice": "<function doc_to_choice at 0x1555180b1510>",
+      "process_results": "<function mmau_process_results at 0x1555180b1c60>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "accuracy",
+          "aggregation": "<function mmau_aggregate_results at 0x155517ffe710>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 128,
+        "do_sample": false,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "\nAnswer with the option's letter from the given choices directly."
+        },
+        "pre_prompt": "",
+        "post_prompt": "\nAnswer with the option's letter from the given choices directly."
+      }
+    }
+  },
+  "versions": {
+    "mmau_test": 0.0,
+    "mmau_test_mini": 0.0
+  },
+  "n-shot": {
+    "mmau_test": 0,
+    "mmau_test_mini": 0
+  },
+  "higher_is_better": {
+    "mmau": {
+      "accuracy": true,
+      "submission": true
+    },
+    "mmau_test": {
+      "submission": true
+    },
+    "mmau_test_mini": {
+      "accuracy": true
+    }
+  },
+  "n-samples": {
+    "mmau_test_mini": {
+      "original": 1000,
+      "effective": 1000
+    },
+    "mmau_test": {
+      "original": 9000,
+      "effective": 9000
+    }
+  },
+  "config": {
+    "model": "vllm",
+    "model_args": "model=Qwen/Qwen3-Omni-30B-A3B-Instruct,tensor_parallel_size=2,gpu_memory_utilization=0.9,allowed_local_media_path=/",
+    "batch_size": "64",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": "",
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "bbd344e",
+  "date": "20251029_174804",
+  "task_hashes": {
+    "mmau_test_mini": "1fb923da4284a8fbf451b3553ce5404d321b69c0b94aa3ad35e7c3afce52f217",
+    "mmau_test": "60c35fa4f4c9d5fcbfb62ea39da88a709d0396cf53ddb30fbfff08a6c0179f97"
+  },
+  "model_source": "vllm",
+  "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "model_name_sanitized": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 4832079.409146583,
+  "end_time": 4832742.806074047,
+  "total_evaluation_time_seconds": "663.3969274647534"
+}

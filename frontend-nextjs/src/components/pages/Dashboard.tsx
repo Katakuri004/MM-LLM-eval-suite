@@ -21,6 +21,7 @@ import {
   CheckCircle,
   XCircle,
   AlertCircle,
+  Eye,
   ArrowRight
 } from 'lucide-react';
 import Link from 'next/link';

@@ -1,0 +1,5198 @@
+{
+  "model": "Qwewn_Qwen2VL",
+  "benchmark_id": "arc_easy",
+  "created_at": "2025-10-31T01:05:03.085Z",
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-31.615723609924316",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-44.13986265659332",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-35.35937535762787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-37.09375083446503",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-31.615723609924316",
+          "False"
+        ],
+        [
+          "-44.13986265659332",
+          "False"
+        ],
+        [
+          "-35.35937535762787",
+          "False"
+        ],
+        [
+          "-37.09375083446503",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which statement best explains why photosynthesis is the foundation of most food webs?\nAnswer:"
+    },
+    {
+      "doc_id": 1,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-13.367187857627869",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-10.989258050918579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.01367211341858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-24.85156261920929",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-13.367187857627869",
+          "False"
+        ],
+        [
+          "-10.989258050918579",
+          "False"
+        ],
+        [
+          "-17.01367211341858",
+          "False"
+        ],
+        [
+          "-24.85156261920929",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which piece of safety equipment is used to keep mold spores from entering the respiratory system?\nAnswer:"
+    },
+    {
+      "doc_id": 2,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-24.69628942012787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-23.116211652755737",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-22.222656726837158",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-23.952149152755737",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-24.69628942012787",
+          "False"
+        ],
+        [
+          "-23.116211652755737",
+          "False"
+        ],
+        [
+          "-22.222656726837158",
+          "False"
+        ],
+        [
+          "-23.952149152755737",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Meiosis is a type of cell division in which germ cells divide to produce haploid cells. Where does meiosis occur?\nAnswer:"
+    },
+    {
+      "doc_id": 3,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-18.51953136920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.28125023841858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.29687511920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-8.214844107627869",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-18.51953136920929",
+          "False"
+        ],
+        [
+          "-16.28125023841858",
+          "False"
+        ],
+        [
+          "-14.29687511920929",
+          "False"
+        ],
+        [
+          "-8.214844107627869",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which characteristic describes the texture of a kitten's fur?\nAnswer:"
+    },
+    {
+      "doc_id": 4,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-46.28531098365784",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-45.114901185035706",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-45.87323176860809",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-41.359864711761475",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-46.28531098365784",
+          "False"
+        ],
+        [
+          "-45.114901185035706",
+          "False"
+        ],
+        [
+          "-45.87323176860809",
+          "False"
+        ],
+        [
+          "-41.359864711761475",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which best describes the structure of an atom?\nAnswer:"
+    },
+    {
+      "doc_id": 5,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-13.61035168170929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-9.17529308795929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-8.909179925918579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-8.46948254108429",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-13.61035168170929",
+          "False"
+        ],
+        [
+          "-9.17529308795929",
+          "False"
+        ],
+        [
+          "-8.909179925918579",
+          "False"
+        ],
+        [
+          "-8.46948254108429",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: To express the distance between the Milky Way galaxy and other galaxies, the most appropriate unit of measurement is the\nAnswer:"
+    },
+    {
+      "doc_id": 6,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-14.919923424720764",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.953131556510925",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-28.1152400970459",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-37.453129053115845",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-14.919923424720764",
+          "False"
+        ],
+        [
+          "-14.953131556510925",
+          "False"
+        ],
+        [
+          "-28.1152400970459",
+          "False"
+        ],
+        [
+          "-37.453129053115845",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 1,
+      "input": "Question: A student has just completed a laboratory activity. What is the last action that the student should perform before leaving the lab area?\nAnswer:"
+    },
+    {
+      "doc_id": 7,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-11.742187857627869",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-15.906250715255737",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-8.039062976837158",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-10.586426258087158",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-11.742187857627869",
+          "False"
+        ],
+        [
+          "-15.906250715255737",
+          "False"
+        ],
+        [
+          "-8.039062976837158",
+          "False"
+        ],
+        [
+          "-10.586426258087158",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Students are investigating the effects of different fertilizers on plant growth. Which units would be best to measure the mass of the fertilizer used?\nAnswer:"
+    },
+    {
+      "doc_id": 8,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-20.68750035762787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-18.51269555091858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.85156261920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.92089855670929",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-20.68750035762787",
+          "False"
+        ],
+        [
+          "-18.51269555091858",
+          "False"
+        ],
+        [
+          "-14.85156261920929",
+          "False"
+        ],
+        [
+          "-19.92089855670929",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Plants use sunlight to make\nAnswer:"
+    },
+    {
+      "doc_id": 9,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-22.47891628742218",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-29.757705807685852",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-40.99893581867218",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-37.30213940143585",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-22.47891628742218",
+          "False"
+        ],
+        [
+          "-29.757705807685852",
+          "False"
+        ],
+        [
+          "-40.99893581867218",
+          "False"
+        ],
+        [
+          "-37.30213940143585",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which of these correctly identifies the way materials are transported in a plant?\nAnswer:"
+    },
+    {
+      "doc_id": 10,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-20.953125953674316",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-26.678223609924316",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-27.726563096046448",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-35.96875071525574",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-20.953125953674316",
+          "False"
+        ],
+        [
+          "-26.678223609924316",
+          "False"
+        ],
+        [
+          "-27.726563096046448",
+          "False"
+        ],
+        [
+          "-35.96875071525574",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 1,
+      "input": "Question: When trees develop leaves in the spring, 10 changes occur on the forest floor. Why does the development of leaves cause changes on the forest floor?\nAnswer:"
+    },
+    {
+      "doc_id": 11,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-35.99206840991974",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-30.847171425819397",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-28.425538420677185",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-41.85009944438934",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-35.99206840991974",
+          "False"
+        ],
+        [
+          "-30.847171425819397",
+          "False"
+        ],
+        [
+          "-28.425538420677185",
+          "False"
+        ],
+        [
+          "-41.85009944438934",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: The circulatory system and the endocrine system work together in the human body. Which describes one way in which these systems interact?\nAnswer:"
+    },
+    {
+      "doc_id": 12,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-19.08984398841858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-8.052734732627869",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.87304699420929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.68750011920929",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-19.08984398841858",
+          "False"
+        ],
+        [
+          "-8.052734732627869",
+          "False"
+        ],
+        [
+          "-17.87304699420929",
+          "False"
+        ],
+        [
+          "-17.68750011920929",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A student throws a ball into the air. While the ball travels up, the speed of the ball decreases. What force causes the ball to slow while traveling up?\nAnswer:"
+    },
+    {
+      "doc_id": 13,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-14.144531846046448",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.752930641174316",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-18.54492211341858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.80468785762787",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-14.144531846046448",
+          "False"
+        ],
+        [
+          "-14.752930641174316",
+          "False"
+        ],
+        [
+          "-18.54492211341858",
+          "False"
+        ],
+        [
+          "-16.80468785762787",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which of these will most likely harm a habitat?\nAnswer:"
+    },
+    {
+      "doc_id": 14,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-19.30468761920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-8.890625238418579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-15.29687511920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-18.53125023841858",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-19.30468761920929",
+          "False"
+        ],
+        [
+          "-8.890625238418579",
+          "False"
+        ],
+        [
+          "-15.29687511920929",
+          "False"
+        ],
+        [
+          "-18.53125023841858",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: All living and nonliving material is composed of\nAnswer:"
+    },
+    {
+      "doc_id": 15,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-16.06250011920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-8.910157680511475",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-13.625000357627869",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.187500596046448",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-16.06250011920929",
+          "False"
+        ],
+        [
+          "-8.910157680511475",
+          "False"
+        ],
+        [
+          "-13.625000357627869",
+          "False"
+        ],
+        [
+          "-14.187500596046448",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which process best explains how the Grand Canyon became so wide?\nAnswer:"
+    },
+    {
+      "doc_id": 16,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-35.152345061302185",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-29.690797448158264",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-42.625001668930054",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-40.3923362493515",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-35.152345061302185",
+          "False"
+        ],
+        [
+          "-29.690797448158264",
+          "False"
+        ],
+        [
+          "-42.625001668930054",
+          "False"
+        ],
+        [
+          "-40.3923362493515",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: As global temperatures increase, certain organisms will be more affected than others. The changes associated with global warming may result in an increase in sea level. Which organisms will be affected most as a result of the change in sea level?\nAnswer:"
+    },
+    {
+      "doc_id": 17,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-31.19870090484619",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-28.302490830421448",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-44.921388149261475",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.205933451652527",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-31.19870090484619",
+          "False"
+        ],
+        [
+          "-28.302490830421448",
+          "False"
+        ],
+        [
+          "-44.921388149261475",
+          "False"
+        ],
+        [
+          "-16.205933451652527",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A dish of sugar water was left on a window sill. One week later, there were only sugar crystals left in the dish. The water was gone. The best explanation for the appearance of sugar crystals is\nAnswer:"
+    },
+    {
+      "doc_id": 18,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-11.628418207168579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-5.908204436302185",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-11.918701648712158",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.465332388877869",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-11.628418207168579",
+          "False"
+        ],
+        [
+          "-5.908204436302185",
+          "False"
+        ],
+        [
+          "-11.918701648712158",
+          "False"
+        ],
+        [
+          "-14.465332388877869",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Using a softball bat to hit a softball is an example of using which simple machine?\nAnswer:"
+    },
+    {
+      "doc_id": 19,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-17.49340844154358",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-13.462890625",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-15.44970715045929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-8.39139473438263",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-17.49340844154358",
+          "False"
+        ],
+        [
+          "-13.462890625",
+          "False"
+        ],
+        [
+          "-15.44970715045929",
+          "False"
+        ],
+        [
+          "-8.39139473438263",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: When an igneous intrusion comes into contact with surrounding rock, the surrounding rock will\nAnswer:"
+    },
+    {
+      "doc_id": 20,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-24.307007312774658",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-25.875011801719666",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-29.906251430511475",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-24.149903297424316",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-24.307007312774658",
+          "False"
+        ],
+        [
+          "-25.875011801719666",
+          "False"
+        ],
+        [
+          "-29.906251430511475",
+          "False"
+        ],
+        [
+          "-24.149903297424316",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A research scientist writes a paper on the initial regrowth of a forest after a fire has damaged the entire ecosystem. Which title would be best for the paper?\nAnswer:"
+    },
+    {
+      "doc_id": 21,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-18.849610686302185",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.61133098602295",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-20.888673305511475",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.007325291633606",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-18.849610686302185",
+          "False"
+        ],
+        [
+          "-19.61133098602295",
+          "False"
+        ],
+        [
+          "-20.888673305511475",
+          "False"
+        ],
+        [
+          "-14.007325291633606",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Where do plants get most of the energy they need to live and grow?\nAnswer:"
+    },
+    {
+      "doc_id": 22,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-35.85058629512787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-38.758636832237244",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-37.08691465854645",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-36.51953148841858",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-35.85058629512787",
+          "False"
+        ],
+        [
+          "-38.758636832237244",
+          "False"
+        ],
+        [
+          "-37.08691465854645",
+          "False"
+        ],
+        [
+          "-36.51953148841858",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which is a statement about climate?\nAnswer:"
+    },
+    {
+      "doc_id": 23,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-10.750000238418579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-21.60937535762787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-8.836792588233948",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-11.152344942092896",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-10.750000238418579",
+          "False"
+        ],
+        [
+          "-21.60937535762787",
+          "False"
+        ],
+        [
+          "-8.836792588233948",
+          "False"
+        ],
+        [
+          "-11.152344942092896",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: While on a movie set, a stuntman jumps off the roof of a building. As he falls toward an airbag, what is increasing?\nAnswer:"
+    },
+    {
+      "doc_id": 24,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-11.672607660293579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-8.36816418170929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-20.62109386920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-11.930664420127869",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-11.672607660293579",
+          "False"
+        ],
+        [
+          "-8.36816418170929",
+          "False"
+        ],
+        [
+          "-20.62109386920929",
+          "False"
+        ],
+        [
+          "-11.930664420127869",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Jessica wants to see cells in an oak tree leaf. Which tool is best for Jessica to use to see the cells?\nAnswer:"
+    },
+    {
+      "doc_id": 25,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-32.89062750339508",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-30.580872297286987",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-34.02148723602295",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-53.65136778354645",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-32.89062750339508",
+          "False"
+        ],
+        [
+          "-30.580872297286987",
+          "False"
+        ],
+        [
+          "-34.02148723602295",
+          "False"
+        ],
+        [
+          "-53.65136778354645",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Biologists conduct investigations to learn about living organisms. Which method helps reduce bias during an investigation?\nAnswer:"
+    },
+    {
+      "doc_id": 26,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-23.94921898841858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-15.435547232627869",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-20.57043480873108",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-13.847656726837158",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-23.94921898841858",
+          "False"
+        ],
+        [
+          "-15.435547232627869",
+          "False"
+        ],
+        [
+          "-20.57043480873108",
+          "False"
+        ],
+        [
+          "-13.847656726837158",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which factor is most likely to cause the number of rabbits living in an area to increase?\nAnswer:"
+    },
+    {
+      "doc_id": 27,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-17.27734386920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-8.429687738418579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-18.33398449420929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.08593773841858",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-17.27734386920929",
+          "False"
+        ],
+        [
+          "-8.429687738418579",
+          "False"
+        ],
+        [
+          "-18.33398449420929",
+          "False"
+        ],
+        [
+          "-19.08593773841858",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Seeds that remain inactive until the right conditions of light, water, and soil are present are called ___.\nAnswer:"
+    },
+    {
+      "doc_id": 28,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-32.415786266326904",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-51.493900537490845",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-32.968512773513794",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-51.06640958786011",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-32.415786266326904",
+          "False"
+        ],
+        [
+          "-51.493900537490845",
+          "False"
+        ],
+        [
+          "-32.968512773513794",
+          "False"
+        ],
+        [
+          "-51.06640958786011",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: What allows a light bulb to give off light?\nAnswer:"
+    },
+    {
+      "doc_id": 29,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-16.75488305091858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-11.972656607627869",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-27.914063096046448",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-20.687500596046448",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-16.75488305091858",
+          "False"
+        ],
+        [
+          "-11.972656607627869",
+          "False"
+        ],
+        [
+          "-27.914063096046448",
+          "False"
+        ],
+        [
+          "-20.687500596046448",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: What causes sound?\nAnswer:"
+    },
+    {
+      "doc_id": 30,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-22.76171886920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.75390625",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-25.57031261920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-25.33593761920929",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-22.76171886920929",
+          "False"
+        ],
+        [
+          "-19.75390625",
+          "False"
+        ],
+        [
+          "-25.57031261920929",
+          "False"
+        ],
+        [
+          "-25.33593761920929",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Photosynthesis occurs in which of these organisms?\nAnswer:"
+    },
+    {
+      "doc_id": 31,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-22.841797351837158",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-24.42675817012787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-15.096924185752869",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-26.278321146965027",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-22.841797351837158",
+          "False"
+        ],
+        [
+          "-24.42675817012787",
+          "False"
+        ],
+        [
+          "-15.096924185752869",
+          "False"
+        ],
+        [
+          "-26.278321146965027",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: In order for cells to grow at a normal rate, they must\nAnswer:"
+    },
+    {
+      "doc_id": 32,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-9.512207627296448",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-13.250000238418579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-9.767578363418579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-10.820312738418579",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-9.512207627296448",
+          "False"
+        ],
+        [
+          "-13.250000238418579",
+          "False"
+        ],
+        [
+          "-9.767578363418579",
+          "False"
+        ],
+        [
+          "-10.820312738418579",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Marshall learned that plants need a substance from the air to make their own food. What does a plant take from the air in the presence of sunlight?\nAnswer:"
+    },
+    {
+      "doc_id": 33,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-27.854095816612244",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-40.040040135383606",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-50.01538348197937",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-38.114105343818665",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-27.854095816612244",
+          "False"
+        ],
+        [
+          "-40.040040135383606",
+          "False"
+        ],
+        [
+          "-50.01538348197937",
+          "False"
+        ],
+        [
+          "-38.114105343818665",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Antarctica is a continent at Earth's south pole. Fossils of tropical fern plants were discovered in Antarctica even though these plants do not grow there today. Which conclusion does the fossil evidence best support?\nAnswer:"
+    },
+    {
+      "doc_id": 34,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-31.81274449825287",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-27.27734410762787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-24.530273914337158",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-18.884766221046448",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-31.81274449825287",
+          "False"
+        ],
+        [
+          "-27.27734410762787",
+          "False"
+        ],
+        [
+          "-24.530273914337158",
+          "False"
+        ],
+        [
+          "-18.884766221046448",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which two theories of Moon formation propose that much or all of the material comprising the Moon came from Earth?\nAnswer:"
+    },
+    {
+      "doc_id": 35,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-10.19824230670929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-15.34497082233429",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.00048828125",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-12.537841796875",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-10.19824230670929",
+          "False"
+        ],
+        [
+          "-15.34497082233429",
+          "False"
+        ],
+        [
+          "-16.00048828125",
+          "False"
+        ],
+        [
+          "-12.537841796875",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: When white, fluffy clouds appear in Massachusetts, the weather that day will MOST LIKELY be\nAnswer:"
+    },
+    {
+      "doc_id": 36,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-30.59136974811554",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-32.81909191608429",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-24.616573452949524",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-12.00073254108429",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-30.59136974811554",
+          "False"
+        ],
+        [
+          "-32.81909191608429",
+          "False"
+        ],
+        [
+          "-24.616573452949524",
+          "False"
+        ],
+        [
+          "-12.00073254108429",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Plants and animals are composed of organic compounds. Which of the following are the common elements found in organic compounds?\nAnswer:"
+    },
+    {
+      "doc_id": 37,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-26.081911325454712",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-45.61523878574371",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-20.570436358451843",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-33.08655059337616",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-26.081911325454712",
+          "False"
+        ],
+        [
+          "-45.61523878574371",
+          "False"
+        ],
+        [
+          "-20.570436358451843",
+          "False"
+        ],
+        [
+          "-33.08655059337616",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: New research uncovers information that proves that the data from an old theory is partially incorrect. What should the scientific community do about the old theory?\nAnswer:"
+    },
+    {
+      "doc_id": 38,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-34.12306261062622",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-27.236329436302185",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-22.793098092079163",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-37.30823290348053",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-34.12306261062622",
+          "False"
+        ],
+        [
+          "-27.236329436302185",
+          "False"
+        ],
+        [
+          "-22.793098092079163",
+          "False"
+        ],
+        [
+          "-37.30823290348053",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which is the greatest benefit of sexual reproduction?\nAnswer:"
+    },
+    {
+      "doc_id": 39,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-28.10620141029358",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-21.508812308311462",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-26.07617223262787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-32.88464391231537",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-28.10620141029358",
+          "False"
+        ],
+        [
+          "-21.508812308311462",
+          "False"
+        ],
+        [
+          "-26.07617223262787",
+          "False"
+        ],
+        [
+          "-32.88464391231537",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: The speed at which sound waves travel depends on the\nAnswer:"
+    },
+    {
+      "doc_id": 40,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-10.866264581680298",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-24.55078136920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-23.09375011920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-21.35376000404358",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-10.866264581680298",
+          "False"
+        ],
+        [
+          "-24.55078136920929",
+          "False"
+        ],
+        [
+          "-23.09375011920929",
+          "False"
+        ],
+        [
+          "-21.35376000404358",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which scientist is credited with discovering the first four moons of Jupiter?\nAnswer:"
+    },
+    {
+      "doc_id": 41,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-18.54296886920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-10.373047113418579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.49023461341858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.82421886920929",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-18.54296886920929",
+          "False"
+        ],
+        [
+          "-10.373047113418579",
+          "False"
+        ],
+        [
+          "-19.49023461341858",
+          "False"
+        ],
+        [
+          "-17.82421886920929",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: During science class, a teacher explains that the samples the students are studying are made of two or more minerals. What are the students studying?\nAnswer:"
+    },
+    {
+      "doc_id": 42,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-7.715088486671448",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-11.416992783546448",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-10.089356303215027",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-9.069336295127869",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-7.715088486671448",
+          "False"
+        ],
+        [
+          "-11.416992783546448",
+          "False"
+        ],
+        [
+          "-10.089356303215027",
+          "False"
+        ],
+        [
+          "-9.069336295127869",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: When the Northern Hemisphere is tilted away from the Sun causing the rays of light to hit Earth at large angles, which season occurs?\nAnswer:"
+    },
+    {
+      "doc_id": 43,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-27.49658226966858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-26.30297863483429",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-28.16381847858429",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-31.56689476966858",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-27.49658226966858",
+          "False"
+        ],
+        [
+          "-26.30297863483429",
+          "False"
+        ],
+        [
+          "-28.16381847858429",
+          "False"
+        ],
+        [
+          "-31.56689476966858",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A scientist found fossils of ocean shells on a mountain top. Based on this find, which statement can be made?\nAnswer:"
+    },
+    {
+      "doc_id": 44,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-28.501375913619995",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-26.421895146369934",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-28.978976368904114",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-33.98413443565369",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-28.501375913619995",
+          "False"
+        ],
+        [
+          "-26.421895146369934",
+          "False"
+        ],
+        [
+          "-28.978976368904114",
+          "False"
+        ],
+        [
+          "-33.98413443565369",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A student sees many plants around a pond. The student can determine which plants are nonvascular by\nAnswer:"
+    },
+    {
+      "doc_id": 45,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-36.039063692092896",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-28.326172590255737",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-35.45117366313934",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-24.957038640975952",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-36.039063692092896",
+          "False"
+        ],
+        [
+          "-28.326172590255737",
+          "False"
+        ],
+        [
+          "-35.45117366313934",
+          "False"
+        ],
+        [
+          "-24.957038640975952",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Darryl learns that freezing temperatures may help cause weathering. Which statement explains how freezing temperatures most likely cause weathering?\nAnswer:"
+    },
+    {
+      "doc_id": 46,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-26.438233971595764",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-30.848633289337158",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-23.778321385383606",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-22.132568955421448",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-26.438233971595764",
+          "False"
+        ],
+        [
+          "-30.848633289337158",
+          "False"
+        ],
+        [
+          "-23.778321385383606",
+          "False"
+        ],
+        [
+          "-22.132568955421448",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A bond is formed when an electron is transferred from a sodium atom to a chlorine atom. What happens to the sodium atom during this process?\nAnswer:"
+    },
+    {
+      "doc_id": 47,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-37.2517728805542",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-44.619144916534424",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-27.002689242362976",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-48.07630395889282",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-37.2517728805542",
+          "False"
+        ],
+        [
+          "-44.619144916534424",
+          "False"
+        ],
+        [
+          "-27.002689242362976",
+          "False"
+        ],
+        [
+          "-48.07630395889282",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A group of fish was released into a local lake. This species of fish had never lived in the lake before. Scientists want to collect data on how the lake's ecosystem is affected by the new fish. Which method of data collection will give the most accurate results?\nAnswer:"
+    },
+    {
+      "doc_id": 48,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-20.226791501045227",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-20.17578136920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.49609386920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.00390636920929",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-20.226791501045227",
+          "False"
+        ],
+        [
+          "-20.17578136920929",
+          "False"
+        ],
+        [
+          "-17.49609386920929",
+          "False"
+        ],
+        [
+          "-16.00390636920929",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: On a career day at school, an X-ray technician discusses her daily work with the class. Which equipment would she most likely say she uses on a regular basis to help ensure the safety of patients?\nAnswer:"
+    },
+    {
+      "doc_id": 49,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-11.154298543930054",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-13.158691644668579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.767090201377869",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.157227277755737",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-11.154298543930054",
+          "False"
+        ],
+        [
+          "-13.158691644668579",
+          "False"
+        ],
+        [
+          "-14.767090201377869",
+          "False"
+        ],
+        [
+          "-16.157227277755737",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "acc_norm": 0,
+      "input": "Question: In the United States, windmills have been used for farming for hundreds of years. Which simple machine is the most important part of a windmill?\nAnswer:"
+    },
+    {
+      "doc_id": 50,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-21.275392055511475",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.632813334465027",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-18.929688572883606",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.156250596046448",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-21.275392055511475",
+          "False"
+        ],
+        [
+          "-16.632813334465027",
+          "False"
+        ],
+        [
+          "-18.929688572883606",
+          "False"
+        ],
+        [
+          "-19.156250596046448",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "acc_norm": 0,
+      "input": "Question: Which tools are needed to measure the effects of friction on a block of wood?\nAnswer:"
+    },
+    {
+      "doc_id": 51,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-19.261719703674316",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-41.61696016788483",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-52.00684666633606",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-47.38403582572937",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-19.261719703674316",
+          "False"
+        ],
+        [
+          "-41.61696016788483",
+          "False"
+        ],
+        [
+          "-52.00684666633606",
+          "False"
+        ],
+        [
+          "-47.38403582572937",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Planets outside of our solar system have been detected. What suggested the presence of a planet outside of our solar system?\nAnswer:"
+    },
+    {
+      "doc_id": 52,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-23.19531261920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-11.738281607627869",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-8.373779654502869",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-18.49218761920929",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-23.19531261920929",
+          "False"
+        ],
+        [
+          "-11.738281607627869",
+          "False"
+        ],
+        [
+          "-8.373779654502869",
+          "False"
+        ],
+        [
+          "-18.49218761920929",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: During which process are pieces of rock material being moved over Earth's surface by water and wind?\nAnswer:"
+    },
+    {
+      "doc_id": 53,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-8.547730922698975",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.65625035762787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.706055164337158",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-22.904300093650818",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-8.547730922698975",
+          "False"
+        ],
+        [
+          "-19.65625035762787",
+          "False"
+        ],
+        [
+          "-14.706055164337158",
+          "False"
+        ],
+        [
+          "-22.904300093650818",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: The Apollo 11 mission was able to retrieve samples of the Moon's surface because it was the first mission to have astronauts\nAnswer:"
+    },
+    {
+      "doc_id": 54,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-22.98754918575287",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-22.754517197608948",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-15.189928531646729",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-23.849090933799744",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-22.98754918575287",
+          "False"
+        ],
+        [
+          "-22.754517197608948",
+          "False"
+        ],
+        [
+          "-15.189928531646729",
+          "False"
+        ],
+        [
+          "-23.849090933799744",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A student mixes a teaspoon of sugar in a large glass of water. What happens to the sugar when it is mixed with the water?\nAnswer:"
+    },
+    {
+      "doc_id": 55,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-17.550782084465027",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-13.199220538139343",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-22.738282442092896",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-21.984375715255737",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-17.550782084465027",
+          "False"
+        ],
+        [
+          "-13.199220538139343",
+          "False"
+        ],
+        [
+          "-22.738282442092896",
+          "False"
+        ],
+        [
+          "-21.984375715255737",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Particle accelerators, such as the Large Hadron Collider in Europe, accelerate subatomic particles to great speeds. These particles move in opposite directions at nearly the speed of light and collide into one another to simulate conditions that were present as the universe formed. Which property of matter in the initial moments of the universe are these accelerators designed to simulate?\nAnswer:"
+    },
+    {
+      "doc_id": 56,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-14.990234732627869",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-15.69018566608429",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.16748070716858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-10.616211175918579",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-14.990234732627869",
+          "False"
+        ],
+        [
+          "-15.69018566608429",
+          "False"
+        ],
+        [
+          "-19.16748070716858",
+          "False"
+        ],
+        [
+          "-10.616211175918579",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A doorbell circuit converts electrical energy into mechanical energy. The mechanical energy is in the form of vibrations that ultimately produce\nAnswer:"
+    },
+    {
+      "doc_id": 57,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-30.530059933662415",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-35.42895519733429",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.06463634967804",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-29.08972179889679",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-30.530059933662415",
+          "False"
+        ],
+        [
+          "-35.42895519733429",
+          "False"
+        ],
+        [
+          "-19.06463634967804",
+          "False"
+        ],
+        [
+          "-29.08972179889679",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which factor determines if two individuals are members of the same species?\nAnswer:"
+    },
+    {
+      "doc_id": 58,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-14.32617199420929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-6.3701173067092896",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-13.33593761920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-12.18640911579132",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-14.32617199420929",
+          "False"
+        ],
+        [
+          "-6.3701173067092896",
+          "False"
+        ],
+        [
+          "-13.33593761920929",
+          "False"
+        ],
+        [
+          "-12.18640911579132",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which of the following planets is always closer to the Sun than it is to Earth?\nAnswer:"
+    },
+    {
+      "doc_id": 59,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-15.937500596046448",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-20.501435160636902",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.034149408340454",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.984375596046448",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-15.937500596046448",
+          "False"
+        ],
+        [
+          "-20.501435160636902",
+          "False"
+        ],
+        [
+          "-19.034149408340454",
+          "False"
+        ],
+        [
+          "-19.984375596046448",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Cells need nutrients for energy. Which system is responsible for breaking down food to provide cellular energy?\nAnswer:"
+    },
+    {
+      "doc_id": 60,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-26.816406965255737",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-39.23437583446503",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-31.726562976837158",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-29.43798851966858",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-26.816406965255737",
+          "False"
+        ],
+        [
+          "-39.23437583446503",
+          "False"
+        ],
+        [
+          "-31.726562976837158",
+          "False"
+        ],
+        [
+          "-29.43798851966858",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "acc_norm": 1,
+      "input": "Question: During which activity should a student wear goggles?\nAnswer:"
+    },
+    {
+      "doc_id": 61,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-19.859375476837158",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-11.929688215255737",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-11.652344584465027",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-11.046878933906555",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-19.859375476837158",
+          "False"
+        ],
+        [
+          "-11.929688215255737",
+          "False"
+        ],
+        [
+          "-11.652344584465027",
+          "False"
+        ],
+        [
+          "-11.046878933906555",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Bacillus thuringiensis (Bt) is a soil bacterium that is toxic to certain insects. Genes from this bacterium have been inserted into cotton to make Bt cotton. Farmers that use Bt cotton would most likely use less of which of the following?\nAnswer:"
+    },
+    {
+      "doc_id": 62,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-21.39062786102295",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-20.375001311302185",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-22.796875834465027",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.472660303115845",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-21.39062786102295",
+          "False"
+        ],
+        [
+          "-20.375001311302185",
+          "False"
+        ],
+        [
+          "-22.796875834465027",
+          "False"
+        ],
+        [
+          "-17.472660303115845",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A student examined a rock sample and described it as having particles of various colors that were 1 millimeter to 12 millimeters in size. The student was making\nAnswer:"
+    },
+    {
+      "doc_id": 63,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-19.30078160762787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-11.984375238418579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.96093761920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.80078148841858",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-19.30078160762787",
+          "False"
+        ],
+        [
+          "-11.984375238418579",
+          "False"
+        ],
+        [
+          "-16.96093761920929",
+          "False"
+        ],
+        [
+          "-19.80078148841858",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 1,
+      "input": "Question: What are genes composed of?\nAnswer:"
+    },
+    {
+      "doc_id": 64,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-8.468751192092896",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-10.843750953674316",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.42187511920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-20.14843773841858",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-8.468751192092896",
+          "False"
+        ],
+        [
+          "-10.843750953674316",
+          "False"
+        ],
+        [
+          "-19.42187511920929",
+          "False"
+        ],
+        [
+          "-20.14843773841858",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: In a classroom demonstration, a teacher pours sulfuric acid on some granulated sugar in a beaker. The sugar turns yellow and then black. Smoke rises and a strong smell is released. This demonstration is an example of what kind of change?\nAnswer:"
+    },
+    {
+      "doc_id": 65,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-10.418946385383606",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.242188334465027",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-22.210938692092896",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.083984971046448",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-10.418946385383606",
+          "False"
+        ],
+        [
+          "-17.242188334465027",
+          "False"
+        ],
+        [
+          "-22.210938692092896",
+          "False"
+        ],
+        [
+          "-19.083984971046448",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Marta studied different forms of energy. Which two types of energy travel in waves?\nAnswer:"
+    },
+    {
+      "doc_id": 66,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-44.20019567012787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-10.792206048965454",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-26.34228527545929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-37.89990258216858",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-44.20019567012787",
+          "False"
+        ],
+        [
+          "-10.792206048965454",
+          "False"
+        ],
+        [
+          "-26.34228527545929",
+          "False"
+        ],
+        [
+          "-37.89990258216858",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: The tops of some mountains are sharp and pointed, while the tops of others are smooth and rounded. This difference was most likely caused by\nAnswer:"
+    },
+    {
+      "doc_id": 67,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-13.129883050918579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-13.533203363418579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.77539086341858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.502930045127869",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-13.129883050918579",
+          "False"
+        ],
+        [
+          "-13.533203363418579",
+          "False"
+        ],
+        [
+          "-17.77539086341858",
+          "False"
+        ],
+        [
+          "-14.502930045127869",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A student suggests to the school board that they use a renewable energy source. The student suggests they use\nAnswer:"
+    },
+    {
+      "doc_id": 68,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-9.99243175983429",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-24.54101586341858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.94824230670929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-18.04785180091858",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-9.99243175983429",
+          "False"
+        ],
+        [
+          "-24.54101586341858",
+          "False"
+        ],
+        [
+          "-16.94824230670929",
+          "False"
+        ],
+        [
+          "-18.04785180091858",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Solar radiation provides more heat near the equator than near the poles on Earth. The greatest amount of heat is moved away from the equator by\nAnswer:"
+    },
+    {
+      "doc_id": 69,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-28.226564288139343",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.269532203674316",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.597658157348633",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-27.136719465255737",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-28.226564288139343",
+          "False"
+        ],
+        [
+          "-16.269532203674316",
+          "False"
+        ],
+        [
+          "-17.597658157348633",
+          "False"
+        ],
+        [
+          "-27.136719465255737",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which human activity will help conserve Earth's natural resources?\nAnswer:"
+    },
+    {
+      "doc_id": 70,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-21.58593773841858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.70312523841858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.31579613685608",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-24.70312511920929",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-21.58593773841858",
+          "False"
+        ],
+        [
+          "-19.70312523841858",
+          "False"
+        ],
+        [
+          "-19.31579613685608",
+          "False"
+        ],
+        [
+          "-24.70312511920929",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which characteristic helps some animals defend themselves against predators?\nAnswer:"
+    },
+    {
+      "doc_id": 71,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-17.51171886920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.22265625",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.47656273841858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-9.79687511920929",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-17.51171886920929",
+          "False"
+        ],
+        [
+          "-16.22265625",
+          "False"
+        ],
+        [
+          "-17.47656273841858",
+          "False"
+        ],
+        [
+          "-9.79687511920929",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Most plants begin their life cycle as ___.\nAnswer:"
+    },
+    {
+      "doc_id": 72,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-16.54296898841858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-15.58203136920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-15.883789300918579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-13.628907680511475",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-16.54296898841858",
+          "False"
+        ],
+        [
+          "-15.58203136920929",
+          "False"
+        ],
+        [
+          "-15.883789300918579",
+          "False"
+        ],
+        [
+          "-13.628907680511475",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Erin wants to make a strong, light chair. Which natural material should she use?\nAnswer:"
+    },
+    {
+      "doc_id": 73,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-35.503907680511475",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-28.956024765968323",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-44.16113579273224",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-35.71484613418579",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-35.503907680511475",
+          "False"
+        ],
+        [
+          "-28.956024765968323",
+          "False"
+        ],
+        [
+          "-44.16113579273224",
+          "False"
+        ],
+        [
+          "-35.71484613418579",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Jonathon was studying bears. He found out that bears are born with some behaviors and learn others from their environment. Which behavior does a bear most likely inherit?\nAnswer:"
+    },
+    {
+      "doc_id": 74,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-13.64550793170929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.24609386920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-12.880859613418579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-12.439453363418579",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-13.64550793170929",
+          "False"
+        ],
+        [
+          "-17.24609386920929",
+          "False"
+        ],
+        [
+          "-12.880859613418579",
+          "False"
+        ],
+        [
+          "-12.439453363418579",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A group of the same species of fish swim together to increase an individual's\nAnswer:"
+    },
+    {
+      "doc_id": 75,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-16.36328148841858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-13.54296886920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.73046910762787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-7.974610686302185",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-16.36328148841858",
+          "False"
+        ],
+        [
+          "-13.54296886920929",
+          "False"
+        ],
+        [
+          "-16.73046910762787",
+          "False"
+        ],
+        [
+          "-7.974610686302185",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: In the oxygen cycle, which group of organisms replenishes a large portion of the atmospheric oxygen supply?\nAnswer:"
+    },
+    {
+      "doc_id": 76,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-36.02343952655792",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-21.07456111907959",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-25.96875309944153",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-28.303285598754883",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-36.02343952655792",
+          "False"
+        ],
+        [
+          "-21.07456111907959",
+          "False"
+        ],
+        [
+          "-25.96875309944153",
+          "False"
+        ],
+        [
+          "-28.303285598754883",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Some antibiotics used to treat infections in humans are also used to treat chickens, but some groups oppose this practice. The overuse of the antibiotics will most likely influence the natural selection of which type of organisms?\nAnswer:"
+    },
+    {
+      "doc_id": 77,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-31.322266936302185",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.408694744110107",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-27.35742688179016",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-39.14843952655792",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-31.322266936302185",
+          "False"
+        ],
+        [
+          "-19.408694744110107",
+          "False"
+        ],
+        [
+          "-27.35742688179016",
+          "False"
+        ],
+        [
+          "-39.14843952655792",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A student performs a lab investigation by measuring the average time it takes for a toy car to travel 10 meters. Why is it best to perform the experiment in three trials?\nAnswer:"
+    },
+    {
+      "doc_id": 78,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-42.27343952655792",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-38.49170005321503",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-47.66197633743286",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-63.122743248939514",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-42.27343952655792",
+          "False"
+        ],
+        [
+          "-38.49170005321503",
+          "False"
+        ],
+        [
+          "-47.66197633743286",
+          "False"
+        ],
+        [
+          "-63.122743248939514",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A scientist finds a metamorphic rock formation next to a magma chamber and determines that it was originally a sedimentary rock formation. He concludes that the temperature of the magma chamber caused the rock formation to become metamorphic. Which is another reliable explanation of how the rock formation was changed?\nAnswer:"
+    },
+    {
+      "doc_id": 79,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-18.49365258216858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-24.69189465045929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.08886742591858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.575073719024658",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-18.49365258216858",
+          "False"
+        ],
+        [
+          "-24.69189465045929",
+          "False"
+        ],
+        [
+          "-19.08886742591858",
+          "False"
+        ],
+        [
+          "-19.575073719024658",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Earth orbiting the Sun causes\nAnswer:"
+    },
+    {
+      "doc_id": 80,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-21.75793480873108",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-13.85766613483429",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-26.58679234981537",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-12.584259152412415",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-21.75793480873108",
+          "False"
+        ],
+        [
+          "-13.85766613483429",
+          "False"
+        ],
+        [
+          "-26.58679234981537",
+          "False"
+        ],
+        [
+          "-12.584259152412415",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: The cycle of night and day on Earth is a result of\nAnswer:"
+    },
+    {
+      "doc_id": 81,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-15.626954078674316",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-13.73242199420929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.86084008216858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-11.153869867324829",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-15.626954078674316",
+          "False"
+        ],
+        [
+          "-13.73242199420929",
+          "False"
+        ],
+        [
+          "-16.86084008216858",
+          "False"
+        ],
+        [
+          "-11.153869867324829",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 1,
+      "input": "Question: Which of these traits is most influenced by environment?\nAnswer:"
+    },
+    {
+      "doc_id": 82,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-21.342689752578735",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-33.05371117591858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-21.64013707637787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-32.79925572872162",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-21.342689752578735",
+          "False"
+        ],
+        [
+          "-33.05371117591858",
+          "False"
+        ],
+        [
+          "-21.64013707637787",
+          "False"
+        ],
+        [
+          "-32.79925572872162",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which statement describes a characteristic of a gas that has a significant effect on the climates of both Earth and Venus?\nAnswer:"
+    },
+    {
+      "doc_id": 83,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-14.546876430511475",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-29.194825053215027",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-30.43847680091858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-29.42968761920929",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-14.546876430511475",
+          "False"
+        ],
+        [
+          "-29.194825053215027",
+          "False"
+        ],
+        [
+          "-30.43847680091858",
+          "False"
+        ],
+        [
+          "-29.42968761920929",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: DNA technology has improved greatly in the last twenty years. Which task has been made easier by the development of DNA technology?\nAnswer:"
+    },
+    {
+      "doc_id": 84,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-25.130860447883606",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-22.796878218650818",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-23.614718198776245",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-22.74804985523224",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-25.130860447883606",
+          "False"
+        ],
+        [
+          "-22.796878218650818",
+          "False"
+        ],
+        [
+          "-23.614718198776245",
+          "False"
+        ],
+        [
+          "-22.74804985523224",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which condition is necessary for metamorphic rocks to form?\nAnswer:"
+    },
+    {
+      "doc_id": 85,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-38.37500047683716",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-46.99975633621216",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-35.93066453933716",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-47.20605528354645",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-38.37500047683716",
+          "False"
+        ],
+        [
+          "-46.99975633621216",
+          "False"
+        ],
+        [
+          "-35.93066453933716",
+          "False"
+        ],
+        [
+          "-47.20605528354645",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which event helps to renew a resource?\nAnswer:"
+    },
+    {
+      "doc_id": 86,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-9.33923602104187",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.516114234924316",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.66796910762787",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.012696146965027",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-9.33923602104187",
+          "False"
+        ],
+        [
+          "-14.516114234924316",
+          "False"
+        ],
+        [
+          "-17.66796910762787",
+          "False"
+        ],
+        [
+          "-16.012696146965027",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which part of a plant takes in water and nutrients from the soil?\nAnswer:"
+    },
+    {
+      "doc_id": 87,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-14.626221895217896",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.129518628120422",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-21.97851812839508",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-24.117677569389343",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-14.626221895217896",
+          "False"
+        ],
+        [
+          "-19.129518628120422",
+          "False"
+        ],
+        [
+          "-21.97851812839508",
+          "False"
+        ],
+        [
+          "-24.117677569389343",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A certain type of hybrid car utilizes a braking system in which energy is recovered and stored in batteries. This is an example of which type of energy conversion?\nAnswer:"
+    },
+    {
+      "doc_id": 88,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-8.460602283477783",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-6.465546488761902",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-6.137696146965027",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-24.920898914337158",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-8.460602283477783",
+          "False"
+        ],
+        [
+          "-6.465546488761902",
+          "False"
+        ],
+        [
+          "-6.137696146965027",
+          "False"
+        ],
+        [
+          "-24.920898914337158",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Clownfish take shelter in the tentacles of sea anemones and keep sea anemones clean. Which type of relationship does this represent?\nAnswer:"
+    },
+    {
+      "doc_id": 89,
+      "target": "3",
+      "resps": [
+        [
+          [
+            "-35.62695384025574",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-33.43457055091858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-36.49218809604645",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-39.15646004676819",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-35.62695384025574",
+          "False"
+        ],
+        [
+          "-33.43457055091858",
+          "False"
+        ],
+        [
+          "-36.49218809604645",
+          "False"
+        ],
+        [
+          "-39.15646004676819",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 1,
+      "acc_norm": 0,
+      "input": "Question: Some animals have behaviors that help them find food when little is available. Which best describes an animal with this type of behavior?\nAnswer:"
+    },
+    {
+      "doc_id": 90,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-10.249023795127869",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.62170433998108",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.683166742324829",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-11.45530641078949",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-10.249023795127869",
+          "False"
+        ],
+        [
+          "-16.62170433998108",
+          "False"
+        ],
+        [
+          "-14.683166742324829",
+          "False"
+        ],
+        [
+          "-11.45530641078949",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Part of a student's experiment is to measure changes in wind speed several hours before a storm. What piece of equipment should the student use?\nAnswer:"
+    },
+    {
+      "doc_id": 91,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-21.71875011920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.35937511920929",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-7.023438215255737",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-22.28125023841858",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-21.71875011920929",
+          "False"
+        ],
+        [
+          "-17.35937511920929",
+          "False"
+        ],
+        [
+          "-7.023438215255737",
+          "False"
+        ],
+        [
+          "-22.28125023841858",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: An organism is born with a genetic abnormality not present in any of its ancestors. This abnormality is most likely the result of\nAnswer:"
+    },
+    {
+      "doc_id": 92,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-35.79888594150543",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-29.955079793930054",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.15234637260437",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-19.625038504600525",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-35.79888594150543",
+          "False"
+        ],
+        [
+          "-29.955079793930054",
+          "False"
+        ],
+        [
+          "-14.15234637260437",
+          "False"
+        ],
+        [
+          "-19.625038504600525",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: The length of one day on Earth is determined by how long it takes\nAnswer:"
+    },
+    {
+      "doc_id": 93,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-10.550781846046448",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-6.929688930511475",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-15.891086339950562",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-10.550781846046448",
+          "False"
+        ],
+        [
+          "-6.929688930511475",
+          "False"
+        ],
+        [
+          "-15.891086339950562",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: When a rock is placed in a graduated cylinder containing water, the height of the water will\nAnswer:"
+    },
+    {
+      "doc_id": 94,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-18.280441403388977",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-16.06732201576233",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-26.14599633216858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-29.72583031654358",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-18.280441403388977",
+          "False"
+        ],
+        [
+          "-16.06732201576233",
+          "False"
+        ],
+        [
+          "-26.14599633216858",
+          "False"
+        ],
+        [
+          "-29.72583031654358",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A student heats the same amount of two different liquids over Bunsen burners. Each liquid is at room temperature when the student begins. If liquid 1 has a higher specific heat than liquid 2, then liquid 1 will\nAnswer:"
+    },
+    {
+      "doc_id": 95,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-14.332031726837158",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-10.013673186302185",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-20.691406726837158",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-17.62060570716858",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-14.332031726837158",
+          "False"
+        ],
+        [
+          "-10.013673186302185",
+          "False"
+        ],
+        [
+          "-20.691406726837158",
+          "False"
+        ],
+        [
+          "-17.62060570716858",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Through which activity do animals get the carbon that is needed for their bodies?\nAnswer:"
+    },
+    {
+      "doc_id": 96,
+      "target": "0",
+      "resps": [
+        [
+          [
+            "-13.005341053009033",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-15.27252209186554",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-18.35156273841858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-11.01611340045929",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-13.005341053009033",
+          "False"
+        ],
+        [
+          "-15.27252209186554",
+          "False"
+        ],
+        [
+          "-18.35156273841858",
+          "False"
+        ],
+        [
+          "-11.01611340045929",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Scientists have discovered organisms that thrive in hot water that is 90°C (194°F) and do not need sunlight or oxygen to live. Into which kingdom would the scientists classify these organisms?\nAnswer:"
+    },
+    {
+      "doc_id": 97,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-24.913758516311646",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-25.513674020767212",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-15.811667203903198",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-14.649232506752014",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-24.913758516311646",
+          "False"
+        ],
+        [
+          "-25.513674020767212",
+          "False"
+        ],
+        [
+          "-15.811667203903198",
+          "False"
+        ],
+        [
+          "-14.649232506752014",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: A cook touches a hot stove and quickly moves his hand away. What are the two primary body systems that work together to produce this response?\nAnswer:"
+    },
+    {
+      "doc_id": 98,
+      "target": "1",
+      "resps": [
+        [
+          [
+            "-35.93699669837952",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-32.06323266029358",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-31.73584008216858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-28.60058617591858",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-35.93699669837952",
+          "False"
+        ],
+        [
+          "-32.06323266029358",
+          "False"
+        ],
+        [
+          "-31.73584008216858",
+          "False"
+        ],
+        [
+          "-28.60058617591858",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: Which statement correctly describes both gases and liquids?\nAnswer:"
+    },
+    {
+      "doc_id": 99,
+      "target": "2",
+      "resps": [
+        [
+          [
+            "-12.958496332168579",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-20.41210961341858",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-18.109379172325134",
+            "False"
+          ]
+        ],
+        [
+          [
+            "-18.02734410762787",
+            "False"
+          ]
+        ]
+      ],
+      "filtered_resps": [
+        [
+          "-12.958496332168579",
+          "False"
+        ],
+        [
+          "-20.41210961341858",
+          "False"
+        ],
+        [
+          "-18.109379172325134",
+          "False"
+        ],
+        [
+          "-18.02734410762787",
+          "False"
+        ]
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "acc": 0,
+      "acc_norm": 0,
+      "input": "Question: When the soil is saturated, earthworms move to the top of the soil to obtain oxygen. This behavior is evidence of which biological concept in earthworms?\nAnswer:"
+    }
+  ],
+  "total_samples": 2376
+}

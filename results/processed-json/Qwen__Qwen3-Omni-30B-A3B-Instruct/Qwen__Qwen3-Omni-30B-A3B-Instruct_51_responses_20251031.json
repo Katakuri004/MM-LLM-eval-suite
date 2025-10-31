@@ -1,0 +1,2908 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "benchmark_id": "open_asr_librispeech_test_other",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "I am willing to enter into competition with the ancients and feel able to surpass them. For since those early days in which I made the medals of Pope Clement, I have learned so much that I can now produce far better pieces of the kind. I think I can also outdo the coins I struck for Duke Alessandro, which are still held in high esteem. In like manner, I could make for you large pieces of gold and silver plate, as I did so often for that noble monarch, King Francis of France, thanks to the great conveniences he allowed me, without ever losing time for the execution of colossal statues or other works of the sculptor's craft."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i am willing to enter into competition with the ancients and feel able to surpass them for since those early days in which i made the medals of pope clement i have learned so much that i can now produce far better pieces of the kind i think i can also outdo the coins i struck for duke alessandro which are still held in high esteem in like manner i could make for you large pieces of gold and silver plate as i did so often for that noble monarch king francis of france thanks to the great conveniences he allowed me without ever losing time for the execution of colossal statues or other works of the sculptors craft",
+        "pred": "I am willing to enter into competition with the ancients and feel able to surpass them. For since those early days in which I made the medals of Pope Clement, I have learned so much that I can now produce far better pieces of the kind. I think I can also outdo the coins I struck for Duke Alessandro, which are still held in high esteem. In like manner, I could make for you large pieces of gold and silver plate, as I did so often for that noble monarch, King Francis of France, thanks to the great conveniences he allowed me, without ever losing time for the execution of colossal statues or other works of the sculptor's craft."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 1,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "This he set in a saucer wetted with a little water, and after waiting a short time, smelt and tasted it. And then he took out of the chest a booklet, wherein he read a while and said weeping, know, O ye passengers, that in this book is a marvellous matter, denoting that whoso come thither shall surely die, without hope of escape, for that this ocean is called the sea of the clime of the king, wherein is the sepulchre of our lord solomon, son of david, on both be peace."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "this he set in a saucer wetted with a little water and after waiting a short time smelt and tasted it and then he took out of the chest a booklet wherein he read awhile and said weeping know o ye passengers that in this book is a marvellous matter denoting that whoso cometh hither shall surely die without hope of escape for that this ocean is called the sea of the clime of the king wherein is the sepulchre of our lord solomon son of david on both be peace",
+        "pred": "This he set in a saucer wetted with a little water, and after waiting a short time, smelt and tasted it. And then he took out of the chest a booklet, wherein he read a while and said weeping, know, O ye passengers, that in this book is a marvellous matter, denoting that whoso come thither shall surely die, without hope of escape, for that this ocean is called the sea of the clime of the king, wherein is the sepulchre of our lord solomon, son of david, on both be peace."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 2,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "He dwelt with considerable force and energy on the almost magical hospitality he had received from the count, and the magnificence of his entertainment in the grotto of the thousand and one nights. He recounted with circumstantial exactitude, all the particulars of the supper, the hashish, the statues, the dream, and how at his awakening there remained no proof or trace of all these events, save the small yacht seen in the distant horizon driving under full sail toward Porto Vecchio."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "he dwelt with considerable force and energy on the almost magical hospitality he had received from the count and the magnificence of his entertainment in the grotto of the thousand and one nights he recounted with circumstantial exactitude all the particulars of the supper the hashish the statues the dream and how at his awakening there remained no proof or trace of all these events save the small yacht seen in the distant horizon driving under full sail toward porto vecchio",
+        "pred": "He dwelt with considerable force and energy on the almost magical hospitality he had received from the count, and the magnificence of his entertainment in the grotto of the thousand and one nights. He recounted with circumstantial exactitude, all the particulars of the supper, the hashish, the statues, the dream, and how at his awakening there remained no proof or trace of all these events, save the small yacht seen in the distant horizon driving under full sail toward Porto Vecchio."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 3,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Franz, who seemed attracted by some invisible influence towards the count, in which terror was strangely mingled, felt an extreme reluctance to permit his friend to be exposed alone to the singular fascination, that this mysterious personage seemed to exercise over him, and therefore made no objection to Albert's request, but at once accompanied him to the desired spot, and, after a short delay, the count joined them in the salon."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "franz who seemed attracted by some invisible influence towards the count in which terror was strangely mingled felt an extreme reluctance to permit his friend to be exposed alone to the singular fascination that this mysterious personage seemed to exercise over him and therefore made no objection to albert's request but at once accompanied him to the desired spot and after a short delay the count joined them in the salon",
+        "pred": "Franz, who seemed attracted by some invisible influence towards the count, in which terror was strangely mingled, felt an extreme reluctance to permit his friend to be exposed alone to the singular fascination, that this mysterious personage seemed to exercise over him, and therefore made no objection to Albert's request, but at once accompanied him to the desired spot, and, after a short delay, the count joined them in the salon."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 4,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Accordingly, she told him all that had come to her since their separation at the khan, and what had happened to her with the Badawi, how the merchant had bought her of him, and had taken her to her brother Sharrkan, and had sold her to him, how he had freed her at the time of buying, how he had made a marriage contract with her, and had gone in to her, and how the king, their sire, had sent and asked for her from Sharrkan."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "accordingly she told him all that had come to her since their separation at the khan and what had happened to her with the badawi how the merchant had bought her of him and had taken her to her brother sharrkan and had sold her to him how he had freed her at the time of buying how he had made a marriage contract with her and had gone in to her and how the king their sire had sent and asked for her from sharrkan",
+        "pred": "Accordingly, she told him all that had come to her since their separation at the khan, and what had happened to her with the Badawi, how the merchant had bought her of him, and had taken her to her brother Sharrkan, and had sold her to him, how he had freed her at the time of buying, how he had made a marriage contract with her, and had gone in to her, and how the king, their sire, had sent and asked for her from Sharrkan."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 5,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "And yet the reader who likes a complete image, who desires to read with the senses as well as with the reason, is entreated not to forget that he prolonged his consonants and swallowed his vowels, that he was guilty of elisions and interpolations which were equally unexpected, and that his discourse was pervaded by something sultry and vast, something almost African in its rich basking tone, something that suggested the teeming expanse of the cotton field."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and yet the reader who likes a complete image who desires to read with the senses as well as with the reason is entreated not to forget that he prolonged his consonants and swallowed his vowels that he was guilty of elisions and interpolations which were equally unexpected and that his discourse was pervaded by something sultry and vast something almost african in its rich basking tone something that suggested the teeming expanse of the cotton field",
+        "pred": "And yet the reader who likes a complete image, who desires to read with the senses as well as with the reason, is entreated not to forget that he prolonged his consonants and swallowed his vowels, that he was guilty of elisions and interpolations which were equally unexpected, and that his discourse was pervaded by something sultry and vast, something almost African in its rich basking tone, something that suggested the teeming expanse of the cotton field."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 6,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Well, in earnest, if I were a prince, that lady should be my mistress, but I can give no rule to any one else. And perhaps, those that are in no danger of losing their hearts to her may be infinitely taken with one, I should not value at all. For so says the Justinian, wise providence has ordained it, that by their different humours, everybody might find something to please themselves withal, without envying their neighbours."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "well in earnest if i were a prince that lady should be my mistress but i can give no rule to any one else and perhaps those that are in no danger of losing their hearts to her may be infinitely taken with one i should not value at all for so says the justinian wise providence has ordained it that by their different humours everybody might find something to please themselves withal without envying their neighbours",
+        "pred": "Well, in earnest, if I were a prince, that lady should be my mistress, but I can give no rule to any one else. And perhaps, those that are in no danger of losing their hearts to her may be infinitely taken with one, I should not value at all. For so says the Justinian, wise providence has ordained it, that by their different humours, everybody might find something to please themselves withal, without envying their neighbours."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 7,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "He forgot, as Sergei Ivanovich explained to him afterwards, this syllogism: that it was necessary for the public good, to get rid of the marshal of the province, that to get rid of the marshal it was necessary to have a majority of votes, that to get a majority of votes it was necessary to secure Flirrov's right to vote, that to secure the recognition of Flirrov's right to vote they must decide on the interpretation to be put on the act."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "he forgot as sergey ivanovitch explained to him afterwards this syllogism that it was necessary for the public good to get rid of the marshal of the province that to get rid of the marshal it was necessary to have a majority of votes that to get a majority of votes it was necessary to secure flerov's right to vote that to secure the recognition of flerov's right to vote they must decide on the interpretation to be put on the act",
+        "pred": "He forgot, as Sergei Ivanovich explained to him afterwards, this syllogism: that it was necessary for the public good, to get rid of the marshal of the province, that to get rid of the marshal it was necessary to have a majority of votes, that to get a majority of votes it was necessary to secure Flirrov's right to vote, that to secure the recognition of Flirrov's right to vote they must decide on the interpretation to be put on the act."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 8,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "In speaking of confectionery, it should be remarked that all the various preparations above named come strictly speaking, under that head, for the various fruits, flowers, herbs, roots, and juices which, when boiled with sugar, were formerly employed in pharmacy as well as for sweetmeats, were called, confections, from the Latin word conficere, to make up. But the term confectionery embraces a very large class indeed of sweet food, many kinds of which should not be attempted in the ordinary cuisine."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "in speaking of confectionary it should be remarked that all the various preparations above named come strictly speaking under that head for the various fruits flowers herbs roots and juices which when boiled with sugar were formerly employed in pharmacy as well as for sweetmeats were called confections from the latin word conficere to make up but the term confectionary embraces a very large class indeed of sweet food many kinds of which should not be attempted in the ordinary cuisine",
+        "pred": "In speaking of confectionery, it should be remarked that all the various preparations above named come strictly speaking, under that head, for the various fruits, flowers, herbs, roots, and juices which, when boiled with sugar, were formerly employed in pharmacy as well as for sweetmeats, were called, confections, from the Latin word conficere, to make up. But the term confectionery embraces a very large class indeed of sweet food, many kinds of which should not be attempted in the ordinary cuisine."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 9,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "It was so tender, earnest, and defiant, that Fanny forgot the defence of her own lover in admiration of Polly's loyalty to hers. For this faithful, all-absorbing love was a new revelation to Fanny, who was used to hearing her friends boast of two or three lovers a year, and calculate their respective values with almost as much coolness as the young men discussed the fortunes of the girls they wished for, but could not afford to marry."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it was so tender earnest and defiant that fanny forgot the defence of her own lover in admiration of polly's loyalty to hers for this faithful all absorbing love was a new revelation to fanny who was used to hearing her friends boast of two or three lovers a year and calculate their respective values with almost as much coolness as the young men discussed the fortunes of the girls they wished for but could not afford to marry",
+        "pred": "It was so tender, earnest, and defiant, that Fanny forgot the defence of her own lover in admiration of Polly's loyalty to hers. For this faithful, all-absorbing love was a new revelation to Fanny, who was used to hearing her friends boast of two or three lovers a year, and calculate their respective values with almost as much coolness as the young men discussed the fortunes of the girls they wished for, but could not afford to marry."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 10,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "The Egyptian obeyed, and his master crossed the wide space, strewn with sand, and approached the stage which had been erected for the festal performances. Even had his eyes retained the power of sight, his blood was coursing so wildly through his veins that he might perhaps have been unable to distinguish the statues around him, and the thousands of spectators who, crowded closely together, richly garlanded, their cheeks glowing with enthusiasm, surrounded the arena. Hermann."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the egyptian obeyed and his master crossed the wide space strewn with sand and approached the stage which had been erected for the festal performances even had his eyes retained the power of sight his blood was coursing so wildly through his veins that he might perhaps have been unable to distinguish the statues around him and the thousands of spectators who crowded closely together richly garlanded their cheeks glowing with enthusiasm surrounded the arena hermon",
+        "pred": "The Egyptian obeyed, and his master crossed the wide space, strewn with sand, and approached the stage which had been erected for the festal performances. Even had his eyes retained the power of sight, his blood was coursing so wildly through his veins that he might perhaps have been unable to distinguish the statues around him, and the thousands of spectators who, crowded closely together, richly garlanded, their cheeks glowing with enthusiasm, surrounded the arena. Hermann."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 11,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "She meant to be scrupulously conscientious in the administration of her talents, and sometimes at church on a Sunday, when the sermon was particularly awakening, she mentally debated the serious question as to whether new bonnets, and a pair of Jouvin's gloves daily were not sinful, but I think she decided that the new bonnets and gloves were on the whole a pardonable weakness as being good for trade."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "she meant to be scrupulously conscientious in the administration of her talents and sometimes at church on a sunday when the sermon was particularly awakening she mentally debated the serious question as to whether new bonnets and a pair of jouvin's gloves daily were not sinful but i think she decided that the new bonnets and gloves were on the whole a pardonable weakness as being good for trade",
+        "pred": "She meant to be scrupulously conscientious in the administration of her talents, and sometimes at church on a Sunday, when the sermon was particularly awakening, she mentally debated the serious question as to whether new bonnets, and a pair of Jouvin's gloves daily were not sinful, but I think she decided that the new bonnets and gloves were on the whole a pardonable weakness as being good for trade."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 12,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Know, O company, that after my return from my sixth voyage, which brought me abundant profit, I resumed my former life in all possible joyance and enjoyment and mirth and making merry day and night, and I tarried some time in this solace and satisfaction, till my soul began once more to long to sail the seas and see foreign countries, and company with merchants and hear new things."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "know o company that after my return from my sixth voyage which brought me abundant profit i resumed my former life in all possible joyance and enjoyment and mirth and making merry day and night and i tarried some time in this solace and satisfaction till my soul began once more to long to sail the seas and see foreign countries and company with merchants and hear new things",
+        "pred": "Know, O company, that after my return from my sixth voyage, which brought me abundant profit, I resumed my former life in all possible joyance and enjoyment and mirth and making merry day and night, and I tarried some time in this solace and satisfaction, till my soul began once more to long to sail the seas and see foreign countries, and company with merchants and hear new things."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 13,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Then, signed for myself, I set to work collecting a number of pieces of Chinese and Cormoran aloes wood, and I bound them together with ropes from the wreckage. Then I chose out from the broken up ship straight planks of even size and fixed them firmly upon the aloes wood, making me a boat raft a little narrower than the channel of the stream, and I tied it tightly and firmly as though it were nailed."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "then sighing for myself i set to work collecting a number of pieces of chinese and comorin aloes wood and i bound them together with ropes from the wreckage then i chose out from the broken up ships straight planks of even size and fixed them firmly upon the aloes wood making me a boat raft a little narrower than the channel of the stream and i tied it tightly and firmly as though it were nailed",
+        "pred": "Then, signed for myself, I set to work collecting a number of pieces of Chinese and Cormoran aloes wood, and I bound them together with ropes from the wreckage. Then I chose out from the broken up ship straight planks of even size and fixed them firmly upon the aloes wood, making me a boat raft a little narrower than the channel of the stream, and I tied it tightly and firmly as though it were nailed."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 14,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Know, O Chief Wazir, that here where you have encountered me, Allah hath given you rest from fatigue and bringeth you your desire after the easiest of fashions, for that His Almighty will restore to you Zau al Makan, and his sister Nusat al Zaman, whereby we will settle the matter as we easily can."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "know o chief wazir that here where you have encountered me allah hath given you rest from fatigue and bringeth you your desire after the easiest of fashions for that his almighty will restoreth to you zau al makan and his sister nuzhat al zaman whereby we will settle the matter as we easily can",
+        "pred": "Know, O Chief Wazir, that here where you have encountered me, Allah hath given you rest from fatigue and bringeth you your desire after the easiest of fashions, for that His Almighty will restore to you Zau al Makan, and his sister Nusat al Zaman, whereby we will settle the matter as we easily can."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 15,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "She said, \"It hath reached me, O auspicious king, that Sindbad the seaman continued. When I landed and found myself amongst the Indians and Abyssinians and had taken some rest, they consulted among themselves and said to one another, 'There is no help for it but we carry him with us and present him to our king, that he may acquaint him with his adventures.'\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "she said it hath reached me o auspicious king that sindbad the seaman continued when i landed and found myself amongst the indians and abyssinians and had taken some rest they consulted among themselves and said to one another there is no help for it but we carry him with us and present him to our king that he may acquaint him with his adventures",
+        "pred": "She said, \"It hath reached me, O auspicious king, that Sindbad the seaman continued. When I landed and found myself amongst the Indians and Abyssinians and had taken some rest, they consulted among themselves and said to one another, 'There is no help for it but we carry him with us and present him to our king, that he may acquaint him with his adventures.'\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 16,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "So be it, then,\" replied the Count, and extending his hand towards a calendar suspended near the chimney piece, he said, \"To day is the twenty first of February, and drawing out his watch, added, 'It is exactly half past ten o'clock.' Now promise me to remember this, and expect me the twenty first of May, at the same hour in the forenoon.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "so be it then replied the count and extending his hand towards a calendar suspended near the chimney piece he said to day is the twenty first of february and drawing out his watch added it is exactly half past ten o'clock now promise me to remember this and expect me the twenty first of may at the same hour in the forenoon",
+        "pred": "So be it, then,\" replied the Count, and extending his hand towards a calendar suspended near the chimney piece, he said, \"To day is the twenty first of February, and drawing out his watch, added, 'It is exactly half past ten o'clock.' Now promise me to remember this, and expect me the twenty first of May, at the same hour in the forenoon.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 17,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "If Fanny wanted to show him what she could do toward making a pleasant home, she certainly succeeded better than she suspected, for in spite of many failures and discouragements behind the scenes, the little house became a most attractive place to Mister Sydney at least, for he was more the house friend than ever, and seemed determined to prove that change of fortune made no difference to him."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "if fanny wanted to show him what she could do toward making a pleasant home she certainly succeeded better than she suspected for in spite of many failures and discouragements behind the scenes the little house became a most attractive place to mister sydney at least for he was more the house friend than ever and seemed determined to prove that change of fortune made no difference to him",
+        "pred": "If Fanny wanted to show him what she could do toward making a pleasant home, she certainly succeeded better than she suspected, for in spite of many failures and discouragements behind the scenes, the little house became a most attractive place to Mister Sydney at least, for he was more the house friend than ever, and seemed determined to prove that change of fortune made no difference to him."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 18,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "But when the man who inspires this redeeming love is great enough in soul to receive it without remembering the past, when he gives himself up to it, when in short he loves as he is loved, this man drains at one draught all earthly emotions, and after such a love his heart will be closed to every other."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "but when the man who inspires this redeeming love is great enough in soul to receive it without remembering the past when he gives himself up to it when in short he loves as he is loved this man drains at one draught all earthly emotions and after such a love his heart will be closed to every other",
+        "pred": "But when the man who inspires this redeeming love is great enough in soul to receive it without remembering the past, when he gives himself up to it, when in short he loves as he is loved, this man drains at one draught all earthly emotions, and after such a love his heart will be closed to every other."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 19,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Alfred Pichencote had covered himself with honors in the course of Marlborough's campaigns, and the name Wilfred had been a baptismal witness in the family ever since. The new heir to the family dignity and estates was a young man of about five and twenty, who was known more by reputation than by person to a wide circle of cousins and kinsfolk."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "a wilfrid pigeoncote had covered himself with honours in the course of marlborough's campaigns and the name wilfrid had been a baptismal weakness in the family ever since the new heir to the family dignity and estates was a young man of about five and twenty who was known more by reputation than by person to a wide circle of cousins and kinsfolk",
+        "pred": "Alfred Pichencote had covered himself with honors in the course of Marlborough's campaigns, and the name Wilfred had been a baptismal witness in the family ever since. The new heir to the family dignity and estates was a young man of about five and twenty, who was known more by reputation than by person to a wide circle of cousins and kinsfolk."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 20,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "And amongst them were some who would have chosen the cadet Zaw al Makan, for quoth they, his name belieth the place, and he hath a sister Nusat al Zaman Hais, the delight of the time. But they set out five years ago for Al Hijaz, and none wotteth what is become of them."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and amongst them were some who would have chosen the cadet zau al makan for quoth they his name be light of the place and he hath a sister nuzhat al zaman highs the delight of the time but they set out five years ago for al hijaz and none wotteth what is become of them",
+        "pred": "And amongst them were some who would have chosen the cadet Zaw al Makan, for quoth they, his name belieth the place, and he hath a sister Nusat al Zaman Hais, the delight of the time. But they set out five years ago for Al Hijaz, and none wotteth what is become of them."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 21,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Sancho got up with pain enough in his bones and went after the innkeeper in the dark. And meeting the officer who was looking to see what had become of his enemy, he said to him, \"Senor, whoever you are, do us the favor and kindness to give us a little rosemary oil, salt, and wine, for it is wanted to cure one of our best knights errant on earth, who lies on yonder bed wounded by the hands of the enchanted moor that is in this inn.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "sancho got up with pain enough in his bones and went after the innkeeper in the dark and meeting the officer who was looking to see what had become of his enemy he said to him senor whoever you are do us the favour and kindness to give us a little rosemary oil salt and wine for it is wanted to cure one of the best knights errant on earth who lies on yonder bed wounded by the hands of the enchanted moor that is in this inn",
+        "pred": "Sancho got up with pain enough in his bones and went after the innkeeper in the dark. And meeting the officer who was looking to see what had become of his enemy, he said to him, \"Senor, whoever you are, do us the favor and kindness to give us a little rosemary oil, salt, and wine, for it is wanted to cure one of our best knights errant on earth, who lies on yonder bed wounded by the hands of the enchanted moor that is in this inn.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 22,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Mister Fish is a squire of dames, and has so many mistresses that anybody may pretend a share in him and be believed. But though I have the honour to be his near neighbour, to speak freely, I cannot brag much that he makes any court to me, and I know no young woman in the country that he does not visit often."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "mister fish is the squire of dames and has so many mistresses that anybody may pretend a share in him and be believed but though i have the honour to be his near neighbour to speak freely i cannot brag much that he makes any court to me and i know no young woman in the country that he does not visit often",
+        "pred": "Mister Fish is a squire of dames, and has so many mistresses that anybody may pretend a share in him and be believed. But though I have the honour to be his near neighbour, to speak freely, I cannot brag much that he makes any court to me, and I know no young woman in the country that he does not visit often."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 23,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "True, an interesting conversation still had power to charm him, but often during its continuance, the full consciousness of his misfortune forced itself upon his mind. For the majority of the subjects discussed by the artists came to them through the medium of sight and referred to new creations of architecture, sculpture, and painting, from whose enjoyment his blindness debarred him."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "true an interesting conversation still had power to charm him but often during its continuance the full consciousness of his misfortune forced itself upon his mind for the majority of the subjects discussed by the artists came to them through the medium of sight and referred to new creations of architecture sculpture and painting from whose enjoyment his blindness debarred him",
+        "pred": "True, an interesting conversation still had power to charm him, but often during its continuance, the full consciousness of his misfortune forced itself upon his mind. For the majority of the subjects discussed by the artists came to them through the medium of sight and referred to new creations of architecture, sculpture, and painting, from whose enjoyment his blindness debarred him."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 24,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "The interment of Mother Crucifixion in the vault under the altar, the exit of Cosette, the introduction of Jean Valjean into the dead room, all had been executed without difficulty, and there had been no hitch. Let us remark in passing that the burial of Mother Crucifixion under the altar of the convent, is a perfectly venial offence in our sight."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the interment of mother crucifixion in the vault under the altar the exit of cosette the introduction of jean valjean to the dead room all had been executed without difficulty and there had been no hitch let us remark in passing that the burial of mother crucifixion under the altar of the convent is a perfectly venial offence in our sight",
+        "pred": "The interment of Mother Crucifixion in the vault under the altar, the exit of Cosette, the introduction of Jean Valjean into the dead room, all had been executed without difficulty, and there had been no hitch. Let us remark in passing that the burial of Mother Crucifixion under the altar of the convent, is a perfectly venial offence in our sight."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 25,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "When I thought that this marvellous creature, whose feet I had once longed to kiss, was willing to let me take my place in her thoughts, my part in her life, and that I was not yet content with what she gave me, I asked if man's desire had indeed limits. When satisfied as promptly as mine had been, it reached after something further."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "when i thought that this marvellous creature whose feet i had once longed to kiss was willing to let me take my place in her thoughts my part in her life and that i was not yet content with what she gave me i asked if man's desire has indeed limits when satisfied as promptly as mine had been it reached after something further",
+        "pred": "When I thought that this marvellous creature, whose feet I had once longed to kiss, was willing to let me take my place in her thoughts, my part in her life, and that I was not yet content with what she gave me, I asked if man's desire had indeed limits. When satisfied as promptly as mine had been, it reached after something further."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 26,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "The chamberlain called the castrato and charged him to do accordingly, so he replied, \"I hear and I obey.\" And he took his pages with him and went out in search of the stalker, till he found him in the rear of the caravan, girding his ass and preparing for flight."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the chamberlain called the castrato and charged him to do accordingly so he replied i hear and i obey and he took his pages with him and went out in search of the stoker till he found him in the rear of the caravan girthing his ass and preparing for flight",
+        "pred": "The chamberlain called the castrato and charged him to do accordingly, so he replied, \"I hear and I obey.\" And he took his pages with him and went out in search of the stalker, till he found him in the rear of the caravan, girding his ass and preparing for flight."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 27,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Education, family feeling, the sense of duty, the family are strong sentinels, but there are no sentinels so vigilant as not to be deceived by a girl of sixteen, to whom nature, by the voice of the man she loves, gives the first counsels of love, all the more ardent because they seem so pure."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "education family feeling the sense of duty the family are strong sentinels but there are no sentinels so vigilant as not to be deceived by a girl of sixteen to whom nature by the voice of the man she loves gives the first counsels of love all the more ardent because they seem so pure",
+        "pred": "Education, family feeling, the sense of duty, the family are strong sentinels, but there are no sentinels so vigilant as not to be deceived by a girl of sixteen, to whom nature, by the voice of the man she loves, gives the first counsels of love, all the more ardent because they seem so pure."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 28,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Now, as Polly was by no means a perfect creature, I am free to confess that the old temptation assailed her more than once that week, for when the first excitement of the dodging reform had subsided, she missed the pleasant little interviews that used to put a certain flavour of romance into her dull, hard-working days."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "now as polly was by no means a perfect creature i am free to confess that the old temptation assailed her more than once that week for when the first excitement of the dodging reform had subsided she missed the pleasant little interviews that used to put a certain flavor of romance into her dull hard working days",
+        "pred": "Now, as Polly was by no means a perfect creature, I am free to confess that the old temptation assailed her more than once that week, for when the first excitement of the dodging reform had subsided, she missed the pleasant little interviews that used to put a certain flavour of romance into her dull, hard-working days."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 29,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "He might now have been permitted to bind forever to his life the woman who had just rescued him from the greatest danger, but the confession he must make to his fellow artists in the palæstra the following morning still sealed his lips. Yet in this hour he felt that he was united to her and ought not to conceal what awaited him. So obeying a strong impulse, he exclaimed, \"You know that I love you.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "he might now have been permitted to bind forever to his life the woman who had just rescued him from the greatest danger but the confession he must make to his fellow artists in the palaestra the following morning still sealed his lips yet in this hour he felt that he was united to her and ought not to conceal what awaited him so obeying a strong impulse he exclaimed you know that i love you",
+        "pred": "He might now have been permitted to bind forever to his life the woman who had just rescued him from the greatest danger, but the confession he must make to his fellow artists in the palæstra the following morning still sealed his lips. Yet in this hour he felt that he was united to her and ought not to conceal what awaited him. So obeying a strong impulse, he exclaimed, \"You know that I love you.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 30,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "The matter is not great, for I confess I do naturally hate the noise and talk of the world, and should be best pleased never to be known in it upon any occasion whatsoever. Yet, since it can never be wholly avoided, one must satisfy oneself by doing nothing, that one need care, who knows."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the matter is not great for i confess i do naturally hate the noise and talk of the world and should be best pleased never to be known in't upon any occasion whatsoever yet since it can never be wholly avoided one must satisfy oneself by doing nothing that one need care who knows",
+        "pred": "The matter is not great, for I confess I do naturally hate the noise and talk of the world, and should be best pleased never to be known in it upon any occasion whatsoever. Yet, since it can never be wholly avoided, one must satisfy oneself by doing nothing, that one need care, who knows."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 31,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "His order has produced forty popes, two hundred cardinals, fifty patriarchs, sixteen hundred archbishops, four thousand six hundred bishops, four emperors, twelve empresses, forty six kings, forty one queens, three thousand six hundred canonized saints, and has been in existence for fourteen hundred years."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "his order has produced forty popes two hundred cardinals fifty patriarchs sixteen hundred archbishops four thousand six hundred bishops four emperors twelve empresses forty six kings forty one queens three thousand six hundred canonized saints and has been in existence for fourteen hundred years",
+        "pred": "His order has produced forty popes, two hundred cardinals, fifty patriarchs, sixteen hundred archbishops, four thousand six hundred bishops, four emperors, twelve empresses, forty six kings, forty one queens, three thousand six hundred canonized saints, and has been in existence for fourteen hundred years."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 32,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "The state of Mississippi seemed to him the state of despair, so he surrendered the remnants of his patrimony to his mother and sisters, and, at nearly thirty years of age, alighted for the first time in New York in the costume of his province, with fifty dollars in his pocket and a gnawing hunger in his heart."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the state of mississippi seemed to him the state of despair so he surrendered the remnants of his patrimony to his mother and sisters and at nearly thirty years of age alighted for the first time in new york in the costume of his province with fifty dollars in his pocket and a gnawing hunger in his heart",
+        "pred": "The state of Mississippi seemed to him the state of despair, so he surrendered the remnants of his patrimony to his mother and sisters, and, at nearly thirty years of age, alighted for the first time in New York in the costume of his province, with fifty dollars in his pocket and a gnawing hunger in his heart."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 33,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "We will do thee no upright o my son nor wrong thee in aught, but our object is that thou bend thy gracious steps with me to my mistress, to receive her answer, and return in weal and safety, and thou shalt have a handsome present, as one who bringeth good news."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "we will do thee no upright o my son nor wrong thee in aught but our object is that thou bend thy gracious steps with me to my mistress to receive her answer and return in weal and safety and thou shalt have a handsome present as one who bringeth good news",
+        "pred": "We will do thee no upright o my son nor wrong thee in aught, but our object is that thou bend thy gracious steps with me to my mistress, to receive her answer, and return in weal and safety, and thou shalt have a handsome present, as one who bringeth good news."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 34,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "The grand dame whom he supplied with fagots, the merchant whom he rescued from robbers, the king's counsellor to whom he gave aid, all became his friends. Up and down the land, beggar or lord, homeless wanderer or high-born dame, he gladly gave unselfish service, all unsought, and such as he helped straightway became his friends."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the grandame whom he supplied with fagots the merchant whom he rescued from robbers the king's councillor to whom he gave aid all became his friends up and down the land to beggar or lord homeless wanderer or high born dame he gladly gave unselfish service all unsought and such as he helped straightway became his friends",
+        "pred": "The grand dame whom he supplied with fagots, the merchant whom he rescued from robbers, the king's counsellor to whom he gave aid, all became his friends. Up and down the land, beggar or lord, homeless wanderer or high-born dame, he gladly gave unselfish service, all unsought, and such as he helped straightway became his friends."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 35,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Each that died, we washed and shrouded in some of the clothes and linen cast ashore by the tides, and after a little, the rest of my fellows perished one by one, till I had buried the last of the party and abode alone on the island, with but a little provision left. I who was wont to have so much."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "each that died we washed and shrouded in some of the clothes and linen cast ashore by the tides and after a little the rest of my fellows perished one by one till i had buried the last of the party and abode alone on the island with but a little provision left i who was wont to have so much",
+        "pred": "Each that died, we washed and shrouded in some of the clothes and linen cast ashore by the tides, and after a little, the rest of my fellows perished one by one, till I had buried the last of the party and abode alone on the island, with but a little provision left. I who was wont to have so much."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 36,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "The former was full of trouble and anguish, not accusing him but deeply regretting his connection with his profligate companions, abusing Mister Grimsby and others, insinuating bitter things against Mister Huntington, and most ingeniously throwing the blame of her husband's misconduct on the other men's shoulders."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the former was full of trouble and anguish not accusing him but deeply regretting his connection with his profligate companions abusing mister grimsby and others insinuating bitter things against mister huntingdon and most ingeniously throwing the blame of her husband's misconduct on to other men's shoulders",
+        "pred": "The former was full of trouble and anguish, not accusing him but deeply regretting his connection with his profligate companions, abusing Mister Grimsby and others, insinuating bitter things against Mister Huntington, and most ingeniously throwing the blame of her husband's misconduct on the other men's shoulders."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 37,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "I am here much more out of people's way than in town, where my aunts and such as pretend an interest in me, and a power over me, do so persecute me with their good nature, and take it so ill that, they are not accepted as I would, live in a hollow tree to avoid them."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i am here much more out of people's way than in town where my aunt and such as pretend an interest in me and a power over me do so persecute me with their good nature and take it so ill that they are not accepted as i would live in a hollow tree to avoid them",
+        "pred": "I am here much more out of people's way than in town, where my aunts and such as pretend an interest in me, and a power over me, do so persecute me with their good nature, and take it so ill that, they are not accepted as I would, live in a hollow tree to avoid them."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 38,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "The more a girl believes in goodness, the more easily will she give way, if not to her lover, at least to love, for being without mistrust, she is without force, and to win her love is a triumph that can be gained by any young man of five and twenty. See how young girls are watched and guarded."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the more a girl believes in goodness the more easily will she give way if not to her lover at least to love for being without mistrust she is without force and to win her love is a triumph that can be gained by any young man of five and twenty see how young girls are watched and guarded",
+        "pred": "The more a girl believes in goodness, the more easily will she give way, if not to her lover, at least to love, for being without mistrust, she is without force, and to win her love is a triumph that can be gained by any young man of five and twenty. See how young girls are watched and guarded."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 39,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Theronian was just beginning to praise Arseno also as a special friend and connoisseur of the sculptor's art when Crites Hermann's fellow student asked the blind artist in behalf of his beautiful companion why his Demeter was placed upon a pedestal which to others as well as himself seemed too high for the size of the statue."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the rhodian was just beginning to praise arsinoe also as a special friend and connoisseur of the sculptor's art when crates hermon's fellow student asked the blind artist in behalf of his beautiful companion why his demeter was placed upon a pedestal which to others as well as himself seemed too high for the size of the statue",
+        "pred": "Theronian was just beginning to praise Arseno also as a special friend and connoisseur of the sculptor's art when Crites Hermann's fellow student asked the blind artist in behalf of his beautiful companion why his Demeter was placed upon a pedestal which to others as well as himself seemed too high for the size of the statue."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 40,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Yet, in earnest, your father will not find my brother Peyton wanting in civility, though he is not a man of much compliment, unless it be in his letters to me, nor an unreasonable person in anything, so he will allow him out of his kindness to his wife to set a higher value upon her sister than she deserves."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "yet in earnest your father will not find my brother peyton wanting in civility though he is not a man of much compliment unless it be in his letters to me nor an unreasonable person in anything so he will allow him out of his kindness to his wife to set a higher value upon her sister than she deserves",
+        "pred": "Yet, in earnest, your father will not find my brother Peyton wanting in civility, though he is not a man of much compliment, unless it be in his letters to me, nor an unreasonable person in anything, so he will allow him out of his kindness to his wife to set a higher value upon her sister than she deserves."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 41,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "That his soul might afterwards occupy, such a station as would be most suitable to his character. It was sentenced to inhabit the body of that cynical grinning, and mischievous little mimic with four legs. Which you now behold before you."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "that his soul might afterwards occupy such a station as would be most suitable to his character it was sentenced to inhabit the body of that finical grinning and mischievous little mimick with four legs which you now behold before you",
+        "pred": "That his soul might afterwards occupy, such a station as would be most suitable to his character. It was sentenced to inhabit the body of that cynical grinning, and mischievous little mimic with four legs. Which you now behold before you."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 42,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Every year she solemnly renewed her vows, and at the moment of taking the oath, she said to the priest, \"Monseigneur Saint Francois gave it to Monseigneur Saint Julian, Monseigneur Saint Julian gave it to Monseigneur Saint Eusebius, Monseigneur Saint Eusebius gave it to Monseigneur Saint Procopius, et cetera, et cetera.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "every year she solemnly renewed her vows and at the moment of taking the oath she said to the priest monseigneur saint francois gave it to monseigneur saint julien monseigneur saint julien gave it to monseigneur saint eusebius monseigneur saint eusebius gave it to monseigneur saint procopius et cetera et cetera",
+        "pred": "Every year she solemnly renewed her vows, and at the moment of taking the oath, she said to the priest, \"Monseigneur Saint Francois gave it to Monseigneur Saint Julian, Monseigneur Saint Julian gave it to Monseigneur Saint Eusebius, Monseigneur Saint Eusebius gave it to Monseigneur Saint Procopius, et cetera, et cetera.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 43,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "He left the gallant band of foresters sorrowing deeply for his lost friend, the lord of Konigsburg, and he and his followers had scarce departed when a procession moved slowly from under the greenwood branches in the direction which he had taken, in the centre of which was the car in which the body of Adelstein was laid."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "he left the gallant band of foresters sorrowing deeply for his lost friend the lord of coningsburgh and he and his followers had scarce departed when a procession moved slowly from under the greenwood branches in the direction which he had taken in the centre of which was the car in which the body of athelstane was laid",
+        "pred": "He left the gallant band of foresters sorrowing deeply for his lost friend, the lord of Konigsburg, and he and his followers had scarce departed when a procession moved slowly from under the greenwood branches in the direction which he had taken, in the centre of which was the car in which the body of Adelstein was laid."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 44,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "If we are laying out a garden, planning one before the house, you know, and there you have a tree that stood for centuries in the very spot, old and gnarled it may be, and yet you don't cut down the old fellow to make room for the flower beds, but lay out your beds so as to take advantage of the tree."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "if we're laying out a garden planning one before the house you know and there you've a tree that's stood for centuries in the very spot old and gnarled it may be and yet you don't cut down the old fellow to make room for the flowerbeds but lay out your beds so as to take advantage of the tree",
+        "pred": "If we are laying out a garden, planning one before the house, you know, and there you have a tree that stood for centuries in the very spot, old and gnarled it may be, and yet you don't cut down the old fellow to make room for the flower beds, but lay out your beds so as to take advantage of the tree."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 45,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "I'm better in not being torn to pieces, by coughing o nights, but I'm weary and tired o Milton, and longing to get away to the land of Bula. And when I think I'm farther and farther off, my heart sinks and I'm no better, I'm worse."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i'm better in not being torn to pieces by coughing o'nights but i'm weary and tired o milton and longing to get away to the land o beulah and when i think i'm farther and farther off my heart sinks and i'm no better i'm worse",
+        "pred": "I'm better in not being torn to pieces, by coughing o nights, but I'm weary and tired o Milton, and longing to get away to the land of Bula. And when I think I'm farther and farther off, my heart sinks and I'm no better, I'm worse."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 46,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Talking of countries, replied Franz, of what country is the count? What is his native tongue? Whence does he derive his immense fortune? And what were those events of his early life, a life as marvellous as unknown, that have tinctured his succeeding years with so dark and gloomy a misanthropy?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "talking of countries replied franz of what country is the count what is his native tongue whence does he derive his immense fortune and what were those events of his early life a life as marvellous as unknown that have tinctured his succeeding years with so dark and gloomy a misanthropy",
+        "pred": "Talking of countries, replied Franz, of what country is the count? What is his native tongue? Whence does he derive his immense fortune? And what were those events of his early life, a life as marvellous as unknown, that have tinctured his succeeding years with so dark and gloomy a misanthropy?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 47,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Thus accomplished, he excited the admiration of every silly coquette, and the envy of every flattering coxcomb. But by all young gentlemen and ladies of understanding, he was heartily despised as a mere civilized monkey."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "thus accomplished he excited the admiration of every silly coquette and the envy of every fluttering coxcomb but by all young gentlemen and ladies of understanding he was heartily despised as a mere civilized monkey",
+        "pred": "Thus accomplished, he excited the admiration of every silly coquette, and the envy of every flattering coxcomb. But by all young gentlemen and ladies of understanding, he was heartily despised as a mere civilized monkey."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 48,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "The stories regarding Joseph, their traditional father, Ephraim and Manasseh, imply that these strong central tribes, possibly together with the southern tribes of Benjamin and Judah, were the chief actors in this opening scene in Israel's history."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the stories regarding joseph the traditional father of ephraim and manasseh imply that these strong central tribes possibly together with the southern tribes of benjamin and judah were the chief actors in this opening scene in israel's history",
+        "pred": "The stories regarding Joseph, their traditional father, Ephraim and Manasseh, imply that these strong central tribes, possibly together with the southern tribes of Benjamin and Judah, were the chief actors in this opening scene in Israel's history."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 49,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Luke took care of Mr Larkin's dogs and groomed Mr Wilder's horse and cleaned up his dogcart for Mark, being close about money and finding that the thing was to be done more cheaply that way, put up his horse and dogcart in the post office premises and so evaded the livery charges of the Brandon Arms."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "luke took care of mister larkin's dogs and groomed mister wylder's horse and cleaned up his dog cart for mark being close about money and finding that the thing was to be done more cheaply that way put up his horse and dog cart in the post office premises and so evaded the livery charges of the brandon arms",
+        "pred": "Luke took care of Mr Larkin's dogs and groomed Mr Wilder's horse and cleaned up his dogcart for Mark, being close about money and finding that the thing was to be done more cheaply that way, put up his horse and dogcart in the post office premises and so evaded the livery charges of the Brandon Arms."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 50,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Way back in the days when Grandpaw Buzzard had his little falling out with Old King Eagle and done fly so high he scorched the feathers offen his head, he had a cousin. Did Grandpaw Buzzard and this cousin was just naturally lazy and no count."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "way back in the days when grandpap buzzard had his lil falling out with ol king eagle and done fly so high he sco'tch the feathers offen his haid he had a cousin did grandpap buzzard and this cousin was jes naturally lazy and no count",
+        "pred": "Way back in the days when Grandpaw Buzzard had his little falling out with Old King Eagle and done fly so high he scorched the feathers offen his head, he had a cousin. Did Grandpaw Buzzard and this cousin was just naturally lazy and no count."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 51,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Zaumakkan bowed his head a while, and then said, \"I accept the position.\" For indeed there was no refusing, and he was certified that the chamberlain had counselled him well and wisely, and set him on the right way."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "zau al makan bowed his head awhile and then said i accept this position for indeed there was no refusing and he was certified that the chamberlain had counselled him well and wisely and set him on the right way",
+        "pred": "Zaumakkan bowed his head a while, and then said, \"I accept the position.\" For indeed there was no refusing, and he was certified that the chamberlain had counselled him well and wisely, and set him on the right way."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 52,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "And if any of the other cops had private rackets of their own, Izzie was undoubtedly the man to find it out and use the information. With a beat such as that, even going halves, and with all the graft to the upper brackets, he'd still be able to make his pile in a matter of months."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and if any of the other cops had private rackets of their own izzy was undoubtedly the man to find it out and use the information with a beat such as that even going halves and with all the graft to the upper brackets he'd still be able to make his pile in a matter of months",
+        "pred": "And if any of the other cops had private rackets of their own, Izzie was undoubtedly the man to find it out and use the information. With a beat such as that, even going halves, and with all the graft to the upper brackets, he'd still be able to make his pile in a matter of months."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 53,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "This time also, as before, she borrowed a brush and brushed her hair with it, and the gold dropped down as she did it. And again she sent the dog out three times, and when day dawned she departed. But as she was going, she said as she had said before, \"I shall come once more, and then never again.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "this time also as before she borrowed a brush and brushed her hair with it and the gold dropped down as she did it and again she sent the dog out three times and when day dawned she departed but as she was going she said as she had said before i shall come once more and then never again",
+        "pred": "This time also, as before, she borrowed a brush and brushed her hair with it, and the gold dropped down as she did it. And again she sent the dog out three times, and when day dawned she departed. But as she was going, she said as she had said before, \"I shall come once more, and then never again.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 54,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Then how surely must they desire the world which is hidden from them, how surely must they find it tempting, how surely must they listen to the first voice which comes to tell its secrets through their bars, and bless the hand which is the first to raise a corner of the mystery veil."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "then how surely must they desire the world which is hidden from them how surely must they find it tempting how surely must they listen to the first voice which comes to tell its secrets through their bars and bless the hand which is the first to raise a corner of the mysterious veil",
+        "pred": "Then how surely must they desire the world which is hidden from them, how surely must they find it tempting, how surely must they listen to the first voice which comes to tell its secrets through their bars, and bless the hand which is the first to raise a corner of the mystery veil."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 55,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Why before he looked like the orneriest old rip that ever was, but now, when he'd take off his new white beaver and make a bow and do a smile, he looked that grand and good and pious that you'd say he had walked right out of the ark and maybe was old Leviticus himself."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "why before he looked like the orneriest old rip that ever was but now when he'd take off his new white beaver and make a bow and do a smile he looked that grand and good and pious that you'd say he had walked right out of the ark and maybe was old leviticus himself",
+        "pred": "Why before he looked like the orneriest old rip that ever was, but now, when he'd take off his new white beaver and make a bow and do a smile, he looked that grand and good and pious that you'd say he had walked right out of the ark and maybe was old Leviticus himself."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 56,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "He was shouting for the very course Sergey Ivanovitch had proposed, but it was evident that he hated him and all his party, and this feeling of hatred spread through the whole party and roused in opposition to it the same vindictiveness, though in a more seemly form on the other side."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "he was shouting for the very course sergey ivanovitch had proposed but it was evident that he hated him and all his party and this feeling of hatred spread through the whole party and roused in opposition to it the same vindictiveness though in a more seemly form on the other side",
+        "pred": "He was shouting for the very course Sergey Ivanovitch had proposed, but it was evident that he hated him and all his party, and this feeling of hatred spread through the whole party and roused in opposition to it the same vindictiveness, though in a more seemly form on the other side."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 57,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "He slackened his pace and tapped sharply at the little window of that modest post office, at which the young ladies in the pony carriage had pulled up the day before, and within which Luke wagget was wont to sleep in a sort of wooden box that folded up and appeared to be a chest of drawers all day."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "he slackened his pace and tapped sharply at the little window of that modest post office at which the young ladies in the pony carriage had pulled up the day before and within which luke waggot was wont to sleep in a sort of wooden box that folded up and appeared to be a chest of drawers all day",
+        "pred": "He slackened his pace and tapped sharply at the little window of that modest post office, at which the young ladies in the pony carriage had pulled up the day before, and within which Luke wagget was wont to sleep in a sort of wooden box that folded up and appeared to be a chest of drawers all day."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 58,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "She was perfectly safe after writing to Basil Ransom, and indeed it was difficult to see what he could have done to her except thank her. He was only exceptionally superlative for her letter, and assure her that he would come and see her the first time his business, he was beginning to get a little, should take him to Boston."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "she was perfectly safe after writing to basil ransom and indeed it was difficult to see what he could have done to her except thank her he was only exceptionally superlative for her letter and assure her that he would come and see her the first time his business he was beginning to get a little should take him to boston",
+        "pred": "She was perfectly safe after writing to Basil Ransom, and indeed it was difficult to see what he could have done to her except thank her. He was only exceptionally superlative for her letter, and assure her that he would come and see her the first time his business, he was beginning to get a little, should take him to Boston."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 59,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "When a creature who has all her past to reproach herself with, is taken all at once by a profound, sincere, irresistible love, of which she had never felt herself capable, when she has confessed her love, how absolutely the man whom she loves dominates her."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "when a creature who has all her past to reproach herself with is taken all at once by a profound sincere irresistible love of which she had never felt herself capable when she has confessed her love how absolutely the man whom she loves dominates her",
+        "pred": "When a creature who has all her past to reproach herself with, is taken all at once by a profound, sincere, irresistible love, of which she had never felt herself capable, when she has confessed her love, how absolutely the man whom she loves dominates her."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 60,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Oh those bars! He mentally exclaimed, and he was advancing towards them when, just as he drew near, there was a rustling noise under the window, a couple of hands seized the bars, there was a scratching of boot toes against stonework, and Ram's face appeared to gaze into the room by intention, but into the astonished countenance of the young midshipman instead."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "oh those bars he mentally exclaimed and he was advancing toward them when just as he drew near there was a rustling noise under the window a couple of hands seized the bars there was a scratching of boot toes against stone work and ram's face appeared to gaze into the room by intention but into the astonished countenance of the young midshipman instead",
+        "pred": "Oh those bars! He mentally exclaimed, and he was advancing towards them when, just as he drew near, there was a rustling noise under the window, a couple of hands seized the bars, there was a scratching of boot toes against stonework, and Ram's face appeared to gaze into the room by intention, but into the astonished countenance of the young midshipman instead."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 61,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "So when she made her last buoyant remark, he said quietly, watching her face keenly all the while, \"I thought so. Well, I am going out of town on business for several weeks, so you can enjoy your little bit of country, without being annoyed by me.\" Annoyed."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "so when she made her last brilliant remark he said quietly watching her face keenly all the while i thought so well i m going out of town on business for several weeks so you can enjoy your little bit of country without being annoyed by me annoyed",
+        "pred": "So when she made her last buoyant remark, he said quietly, watching her face keenly all the while, \"I thought so. Well, I am going out of town on business for several weeks, so you can enjoy your little bit of country, without being annoyed by me.\" Annoyed."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 62,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Hark you, my masters, you that love the wine, cop's body, follow me, for Saint Anthony burn me as freely as a faggot, did they get leave to taste one drop of the liquor, that would not now come and fight for relief of the vine."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "hark you my masters you that love the wine cop's body follow me for sanct anthony burn me as freely as a faggot if they get leave to taste one drop of the liquor that will not now come and fight for relief of the vine",
+        "pred": "Hark you, my masters, you that love the wine, cop's body, follow me, for Saint Anthony burn me as freely as a faggot, did they get leave to taste one drop of the liquor, that would not now come and fight for relief of the vine."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 63,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Although the plague was there in the most part of all the houses, they nevertheless entered everywhere, then plundered and carried away all that was within. And yet for all this, not one of them took any hurt, which is a most wonderful case."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "although the plague was there in the most part of all the houses they nevertheless entered everywhere then plundered and carried away all that was within and yet for all this not one of them took any hurt which is a most wonderful case",
+        "pred": "Although the plague was there in the most part of all the houses, they nevertheless entered everywhere, then plundered and carried away all that was within. And yet for all this, not one of them took any hurt, which is a most wonderful case."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 64,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Never mind what the business was, it suffices to say that it was a good beginning for a young man like Tom, who, having been born and bred in the most conservative class of the most conceited city in New England, needed just the healthy, hearty social influences of the West to widen his views and make a man of him."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "never mind what the business was it suffices to say that it was a good beginning for a young man like tom who having been born and bred in the most conservative class of the most conceited city in new england needed just the healthy hearty social influences of the west to widen his views and make a man of him",
+        "pred": "Never mind what the business was, it suffices to say that it was a good beginning for a young man like Tom, who, having been born and bred in the most conservative class of the most conceited city in New England, needed just the healthy, hearty social influences of the West to widen his views and make a man of him."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 65,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Now sleeping under these trees were many apes, which when they saw us rose and fled from us and swarmed up among the branches, whereupon my companions began to pelt them with what they had in their bags, and the apes fell to plucking of the fruit of the trees, and casting them at the folk."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "now sleeping under these trees were many apes which when they saw us rose and fled from us and swarmed up among the branches whereupon my companions began to pelt them with what they had in their bags and the apes fell to plucking of the fruit of the trees and casting them at the folk",
+        "pred": "Now sleeping under these trees were many apes, which when they saw us rose and fled from us and swarmed up among the branches, whereupon my companions began to pelt them with what they had in their bags, and the apes fell to plucking of the fruit of the trees, and casting them at the folk."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 66,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "It seems very interesting, love,\" said he, lifting his head and turning to where I stood, wringing my hands in silent rage and anguish. \"But it's rather long. I'll look at it some other time, and meanwhile I'll trouble you for your keys, my dear. What keys?\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it seems very interesting love said he lifting his head and turning to where i stood wringing my hands in silent rage and anguish but it's rather long i'll look at it some other time and meanwhile i'll trouble you for your keys my dear what keys",
+        "pred": "It seems very interesting, love,\" said he, lifting his head and turning to where I stood, wringing my hands in silent rage and anguish. \"But it's rather long. I'll look at it some other time, and meanwhile I'll trouble you for your keys, my dear. What keys?\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 67,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "After a while the dust dispersed, and there appeared under it the army of Baghdad and Khorasan, a conquering host like the full tide sea. And Shahrazad perceived the dawn of day, and ceased to say her permitted say."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "after awhile the dust dispersed and there appeared under it the army of baghdad and khorasan a conquering host like the full tide sea and shahrazad perceived the dawn of day and ceased to say her permitted say",
+        "pred": "After a while the dust dispersed, and there appeared under it the army of Baghdad and Khorasan, a conquering host like the full tide sea. And Shahrazad perceived the dawn of day, and ceased to say her permitted say."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 68,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "To others again he unjointed the spondyles or knuckles of the neck, disfigured their chaps, gashed their faces, made their cheeks hang flapping on their chin, and so swinged and belaboured them, that they fell down before him like hay before a mower."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "to others again he unjointed the spondyles or knuckles of the neck disfigured their chaps gashed their faces made their cheeks hang flapping on their chin and so swinged and balammed them that they fell down before him like hay before a mower",
+        "pred": "To others again he unjointed the spondyles or knuckles of the neck, disfigured their chaps, gashed their faces, made their cheeks hang flapping on their chin, and so swinged and belaboured them, that they fell down before him like hay before a mower."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 69,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "At a quarter to ten, a valet entered. He composed with a little groom named John, and who only spoke English. All Albert's establishment, although the cook of the hotel was always at his service, and on great occasions the count's chasseur also."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "at a quarter to ten a valet entered he composed with a little groom named john and who only spoke english all albert's establishment although the cook of the hotel was always at his service and on great occasions the count's chasseur also",
+        "pred": "At a quarter to ten, a valet entered. He composed with a little groom named John, and who only spoke English. All Albert's establishment, although the cook of the hotel was always at his service, and on great occasions the count's chasseur also."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 70,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Take thirty crawfish from which remove the gut containing the gall in the following manner: Take firm hold of the crawfish with the left hand so as to avoid being pinched by its claws, with the thumb and forefinger of the right hand pinch the extreme end of the central fin of the tail, and with a sudden jerk the gut will be withdrawn."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "take thirty crawfish from which remove the gut containing the gall in the following manner take firm hold of the crawfish with the left hand so as to avoid being pinched by its claws with the thumb and forefinger of the right hand pinch the extreme end of the central fin of the tail and with a sudden jerk the gut will be withdrawn",
+        "pred": "Take thirty crawfish from which remove the gut containing the gall in the following manner: Take firm hold of the crawfish with the left hand so as to avoid being pinched by its claws, with the thumb and forefinger of the right hand pinch the extreme end of the central fin of the tail, and with a sudden jerk the gut will be withdrawn."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 71,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Many modern scholars draw the conclusion from the biblical narrative, that it was from the Kenites that Moses first learned of Jahweh, or as the distinctive name of Israel's god was translated by later Jewish scribes, Jehovah."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "many modern scholars draw the conclusion from the biblical narrative that it was from the kenites that moses first learned of yahweh or as the distinctive name of israel's god was translated by later jewish scribes jehovah",
+        "pred": "Many modern scholars draw the conclusion from the biblical narrative, that it was from the Kenites that Moses first learned of Jahweh, or as the distinctive name of Israel's god was translated by later Jewish scribes, Jehovah."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 72,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "But Hermann was not in the mood to share a joyous revel, and he frankly said so. Although immediately after his return, he had accepted the invitation to the festival, which the whole fellowship of artists would give the following day in honor of the seventieth birthday of the old sculptor."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "but hermon was not in the mood to share a joyous revel and he frankly said so although immediately after his return he had accepted the invitation to the festival which the whole fellowship of artists would give the following day in honour of the seventieth birthday of the old sculptor euphranor",
+        "pred": "But Hermann was not in the mood to share a joyous revel, and he frankly said so. Although immediately after his return, he had accepted the invitation to the festival, which the whole fellowship of artists would give the following day in honor of the seventieth birthday of the old sculptor."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 73,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Then he kissed the eunuch's head, and spake him fair, till he went away. But the castrato, fetched a round and returning secretly, came and stood behind the fireman, fearing to go back to his mistress without tidings."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "then he kissed the eunuch's head and spake him fair till he went away but the castrato fetched a round and returning secretly came and stood behind the fireman fearing to go back to his mistress without tidings",
+        "pred": "Then he kissed the eunuch's head, and spake him fair, till he went away. But the castrato, fetched a round and returning secretly, came and stood behind the fireman, fearing to go back to his mistress without tidings."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 74,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Those of Basil Ransom were dark, deep, and glowing. His head had a character of elevation which fairly added to his stature. It was a head to be seen above the level of a crowd, on some judicial bench or political platform, or even on a bronze medal."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "those of basil ransom were dark deep and glowing his head had a character of elevation which fairly added to his stature it was a head to be seen above the level of a crowd on some judicial bench or political platform or even on a bronze medal",
+        "pred": "Those of Basil Ransom were dark, deep, and glowing. His head had a character of elevation which fairly added to his stature. It was a head to be seen above the level of a crowd, on some judicial bench or political platform, or even on a bronze medal."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 75,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "And I threw myself down upon my face on the raft, by reason of the narrowness of the channel, whilst the stream ceased not to carry me along, knowing not night from day, for the excess of the gloom which encompassed me, about in my terror and concern for myself, lest I should perish."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and i threw myself down upon my face on the raft by reason of the narrowness of the channel whilst the stream ceased not to carry me along knowing not night from day for the excess of the gloom which encompassed me about and my terror and concern for myself lest i should perish",
+        "pred": "And I threw myself down upon my face on the raft, by reason of the narrowness of the channel, whilst the stream ceased not to carry me along, knowing not night from day, for the excess of the gloom which encompassed me, about in my terror and concern for myself, lest I should perish."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 76,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Then, he detailed the conversation overheard by him at the coliseum, between the count and Vampa, in which the count had promised to obtain the release of the bandit Peppino, an engagement which, as our readers are aware, he most faithfully fulfilled."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "then he detailed the conversation overheard by him at the colosseum between the count and vampa in which the count had promised to obtain the release of the bandit peppino an engagement which as our readers are aware he most faithfully fulfilled",
+        "pred": "Then, he detailed the conversation overheard by him at the coliseum, between the count and Vampa, in which the count had promised to obtain the release of the bandit Peppino, an engagement which, as our readers are aware, he most faithfully fulfilled."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 77,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Levin did not care to eat, and he was not smoking. He did not want to join his own friends, that is, Sergey Ivanovitch, Stepan Arkadyevitch, Sviazhsky, and the rest, because Vronsky, in his equerry's uniform, was standing with them in eager conversation."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "levin did not care to eat and he was not smoking he did not want to join his own friends that is sergey ivanovitch stepan arkadyevitch sviazhsky and the rest because vronsky in his equerry's uniform was standing with them in eager conversation",
+        "pred": "Levin did not care to eat, and he was not smoking. He did not want to join his own friends, that is, Sergey Ivanovitch, Stepan Arkadyevitch, Sviazhsky, and the rest, because Vronsky, in his equerry's uniform, was standing with them in eager conversation."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 78,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Every one whose turban has been found by Keimer on that path, the testimony of the oldest biblical narrative, regarding the sojourn of the Hebrews in Egypt, is also in perfect accord with the picture, which the contemporary Egyptian inscriptions, give of the period."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "every one who is turbulent has been found by king merneptah the testimony of the oldest biblical narratives regarding the sojourn of the hebrews in egypt is also in perfect accord with the picture which the contemporary egyptian inscriptions give of the period",
+        "pred": "Every one whose turban has been found by Keimer on that path, the testimony of the oldest biblical narrative, regarding the sojourn of the Hebrews in Egypt, is also in perfect accord with the picture, which the contemporary Egyptian inscriptions, give of the period."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 79,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Blamed if he didn't inquire about everybody and everything in that blessed town and all about the Wilkses and about Peter's business, which was a tanner, and about George's, which was a carpenter, and about Harvey's, which was a dissenting minister, and so on and so on. Then he says."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "blamed if he didn't inquire about everybody and everything in that blessed town and all about the wilkses and about peter's businesswhich was a tanner and about george'swhich was a carpenter and about harvey'swhich was a dissentering minister and so on and so on then he says",
+        "pred": "Blamed if he didn't inquire about everybody and everything in that blessed town and all about the Wilkses and about Peter's business, which was a tanner, and about George's, which was a carpenter, and about Harvey's, which was a dissenting minister, and so on and so on. Then he says."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 80,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "I said, \"My lord, I thank you, and beg you to condescend so far as to listen to four words.\" It is true that he lent me a pair of old scales, two anvils, and three little hammers, which articles I begged his workman, Giorgio da Cortona, fifteen days ago to fetch back."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i said my lord i thank you and beg you to condescend so far as to listen to four words it is true that he lent me a pair of old scales two anvils and three little hammers which articles i begged his workman giorgio da cortona fifteen days ago to fetch back",
+        "pred": "I said, \"My lord, I thank you, and beg you to condescend so far as to listen to four words.\" It is true that he lent me a pair of old scales, two anvils, and three little hammers, which articles I begged his workman, Giorgio da Cortona, fifteen days ago to fetch back."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 81,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "When, however, Zarathustra was quite nigh unto them, then did he hear plainly that a human voice spake, in the midst of the kine, and apparently all of them had turned their heads towards the speaker."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "when however zarathustra was quite nigh unto them then did he hear plainly that a human voice spake in the midst of the kine and apparently all of them had turned their heads towards the speaker",
+        "pred": "When, however, Zarathustra was quite nigh unto them, then did he hear plainly that a human voice spake, in the midst of the kine, and apparently all of them had turned their heads towards the speaker."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 82,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "But the captain arose and tightened his girdle, tucked up his skirts, and after taking refuge with Allah from Satan the stoned, climbed to the mast head, whence he looked out right and left and gazing at the passengers and crew, fell to buffeting his face and plucking out his beard."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "but the captain arose and tightening his girdle tucked up his skirts and after taking refuge with allah from satan the stoned clomb to the mast head whence he looked out right and left and gazing at the passengers and crew fell to buffeting his face and plucking out his beard",
+        "pred": "But the captain arose and tightened his girdle, tucked up his skirts, and after taking refuge with Allah from Satan the stoned, climbed to the mast head, whence he looked out right and left and gazing at the passengers and crew, fell to buffeting his face and plucking out his beard."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 83,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Then the eunuch went out to Zau al Makan and said to him, \"Recite what verses thou knowest, for my lady is here hard by, listening to thee, and after I will ask thee of thy name and thy native country and thy condition.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "then the eunuch went out to zau al makan and said to him recite what verses thou knowest for my lady is here hard by listening to thee and after i will ask thee of thy name and thy native country and thy condition",
+        "pred": "Then the eunuch went out to Zau al Makan and said to him, \"Recite what verses thou knowest, for my lady is here hard by, listening to thee, and after I will ask thee of thy name and thy native country and thy condition.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 84,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "The search usually produced a large and varied yield. This is funny,\" said Peter Pidgen to his wife some half hour after their conversation. \"Here is a telegram from Wilfred saying he is passing through here in his motor and would like to stop and pay us his respects."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the search usually produced a large and varied yield this is funny said peter pigeoncote to his wife some half hour after their conversation here's a telegram from wilfrid saying he's passing through here in his motor and would like to stop and pay us his respects",
+        "pred": "The search usually produced a large and varied yield. This is funny,\" said Peter Pidgen to his wife some half hour after their conversation. \"Here is a telegram from Wilfred saying he is passing through here in his motor and would like to stop and pay us his respects."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 85,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "And he answered, \"I am the chamberlain of the emir of Damascus, King Sharrkan, son of Omar bin Al Nu'uman, Lord of Baghdad, and of the land of Khorasan, and I bring tribute and presents from him to his father in Baghdad.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and he answered i am the chamberlain of the emir of damascus king sharrkan son of omar bin al nu'uman lord of baghdad and of the land of khorasan and i bring tribute and presents from him to his father in baghdad",
+        "pred": "And he answered, \"I am the chamberlain of the emir of Damascus, King Sharrkan, son of Omar bin Al Nu'uman, Lord of Baghdad, and of the land of Khorasan, and I bring tribute and presents from him to his father in Baghdad.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 86,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Luke stuck on his greasy wide awake, and in a few minutes more the dog cart was trundled out into the lane, and the horse harnessed went between the shafts with that wonderful cheerfulness, with which they bear to be called up, under startling circumstances at unseasonable hours."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "luke stuck on his greasy wideawake and in a few minutes more the dog cart was trundled out into the lane and the horse harnessed went between the shafts with that wonderful cheerfulness with which they bear to be called up under startling circumstances at unseasonable hours",
+        "pred": "Luke stuck on his greasy wide awake, and in a few minutes more the dog cart was trundled out into the lane, and the horse harnessed went between the shafts with that wonderful cheerfulness, with which they bear to be called up, under startling circumstances at unseasonable hours."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 87,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Her voice was low and agreeable, a cultivated voice, and she extended a slender white hand to her visitor, who remarked with some solemnity, \"He felt a certain guilt of participation in Mrs. Looney's indiscretion, that he was intensely happy to make her acquaintance.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "her voice was low and agreeable a cultivated voice and she extended a slender white hand to her visitor who remarked with some solemnity he felt a certain guilt of participation in missus luna's indiscretion that he was intensely happy to make her acquaintance",
+        "pred": "Her voice was low and agreeable, a cultivated voice, and she extended a slender white hand to her visitor, who remarked with some solemnity, \"He felt a certain guilt of participation in Mrs. Looney's indiscretion, that he was intensely happy to make her acquaintance.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 88,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "But it burneth in their bellies, so they cast it up again, and it congealeth on the surface of the water, whereby its colour and quantities are changed, and at last the waves cast it ashore, and the travellers and merchants who know it collect it and sell it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "but it burneth in their bellies so they cast it up again and it congealeth on the surface of the water whereby its color and quantities are changed and at last the waves cast it ashore and the travellers and merchants who know it collect it and sell it",
+        "pred": "But it burneth in their bellies, so they cast it up again, and it congealeth on the surface of the water, whereby its colour and quantities are changed, and at last the waves cast it ashore, and the travellers and merchants who know it collect it and sell it."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 89,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Shall we make a positive appointment for a particular day and hour? Inquired the Count. Only let me warn you that I am proverbial for my punctilious exactitude in keeping my engagements, day for day, hour for hour. Said Albert, \"That will suit me to a dot.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "shall we make a positive appointment for a particular day and hour inquired the count only let me warn you that i am proverbial for my punctilious exactitude in keeping my engagements day for day hour for hour said albert that will suit me to a dot",
+        "pred": "Shall we make a positive appointment for a particular day and hour? Inquired the Count. Only let me warn you that I am proverbial for my punctilious exactitude in keeping my engagements, day for day, hour for hour. Said Albert, \"That will suit me to a dot.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 90,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Ever since this adventure, I have had so great a belief in all things of this nature, that I could not forbear laying a pease cod with nine pease in't under my door yesterday, and was informed by it that my husband's name, should be Thomas. How do you like that?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "ever since this adventure i have had so great a belief in all things of this nature that i could not forbear laying a peas cod with nine peas in't under my door yesterday and was informed by it that my husband's name should be thomas how do you like that",
+        "pred": "Ever since this adventure, I have had so great a belief in all things of this nature, that I could not forbear laying a pease cod with nine pease in't under my door yesterday, and was informed by it that my husband's name, should be Thomas. How do you like that?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 91,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "My father, the Comte de Morcerf, although of Spanish origin, possesses considerable influence both at the court of France and Madrid, and I unhesitatingly place the best services of myself and all to whom my life is dear, at your disposal."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "my father the comte de morcerf although of spanish origin possesses considerable influence both at the court of france and madrid and i unhesitatingly place the best services of myself and all to whom my life is dear at your disposal",
+        "pred": "My father, the Comte de Morcerf, although of Spanish origin, possesses considerable influence both at the court of France and Madrid, and I unhesitatingly place the best services of myself and all to whom my life is dear, at your disposal."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 92,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Sancho took it and as he was raising it to his mouth, he was stopped by the cries of his master, exclaiming, \"Sancho, my son, drink not water, drink not, my son, for it will kill thee! See here, I have the blessed balsam,\" and he held up the flask of liquor, and with drinking two drops of it, thou wilt certainly be restored."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "sancho took it and as he was raising it to his mouth he was stopped by the cries of his master exclaiming sancho my son drink not water drink it not my son for it will kill thee see here i have the blessed balsam and he held up the flask of liquor and with drinking two drops of it thou wilt certainly be restored",
+        "pred": "Sancho took it and as he was raising it to his mouth, he was stopped by the cries of his master, exclaiming, \"Sancho, my son, drink not water, drink not, my son, for it will kill thee! See here, I have the blessed balsam,\" and he held up the flask of liquor, and with drinking two drops of it, thou wilt certainly be restored."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 93,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "His victim, who had been looking on during the little scene and listening to the mysterious voice in silent, wide-eyed wonder and fear, now rose hastily. His face deathly pale, with trembling hands, gathered up the money he had staked and hurrying to his stateroom, locked himself in."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "his victim who had been looking on during the little scene and listening to the mysterious voice in silent wide eyed wonder and fear now rose hastily his face deathly pale with trembling hands gathered up the money he had staked and hurrying into his state room locked himself in",
+        "pred": "His victim, who had been looking on during the little scene and listening to the mysterious voice in silent, wide-eyed wonder and fear, now rose hastily. His face deathly pale, with trembling hands, gathered up the money he had staked and hurrying to his stateroom, locked himself in."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 94,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Religion rests on the idea that nature has a master, and that this master will listen to prayer, that this master punishes and rewards, that he loves praise and flattery and hates the brave and free."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "religion rests on the idea that nature has a master and that this master will listen to prayer that this master punishes and rewards that he loves praise and flattery and hates the brave and free",
+        "pred": "Religion rests on the idea that nature has a master, and that this master will listen to prayer, that this master punishes and rewards, that he loves praise and flattery and hates the brave and free."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 95,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "O my brother answered, he, we are husbandmen and tillers of the soil who came out to water our fields and plantations, and finding thee asleep on this raft, laid hold of it and made it fast by us, against thou shouldest awake at thy leisure."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "o my brother answered he we are husbandmen and tillers of the soil who came out to water our fields and plantations and finding thee asleep on this raft laid hold of it and made it fast by us against thou shouldst awake at thy leisure",
+        "pred": "O my brother answered, he, we are husbandmen and tillers of the soil who came out to water our fields and plantations, and finding thee asleep on this raft, laid hold of it and made it fast by us, against thou shouldest awake at thy leisure."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 96,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "Afterward, it was supposed that he was satisfied with the blood of oxen, lambs, and doves, and that in exchange for or in account of these sacrifices, this god gave rain, sunshine, and harvest."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "afterward it was supposed that he was satisfied with the blood of oxen lambs and doves and that in exchange for or on account of these sacrifices this god gave rain sunshine and harvest",
+        "pred": "Afterward, it was supposed that he was satisfied with the blood of oxen, lambs, and doves, and that in exchange for or in account of these sacrifices, this god gave rain, sunshine, and harvest."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 97,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "When Nuzhat al Zaman heard the first improvisation, she called to mind her father and her mother and her brother, and their whilom home. Then she wept and cried to the eunuch and said to him, \"Woe to thee.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "when nuzhat al zaman heard the first improvisation she called to mind her father and her mother and her brother and their whilome home then she wept and cried at the eunuch and said to him woe to thee",
+        "pred": "When Nuzhat al Zaman heard the first improvisation, she called to mind her father and her mother and her brother, and their whilom home. Then she wept and cried to the eunuch and said to him, \"Woe to thee.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 98,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "This was the only sacred cause. This was the great, the just revolution. It must triumph. It must sweep everything before it. It must exact from the other, the brutal, blood-stained, ravening race, the last particle of expiation."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "this was the only sacred cause this was the great the just revolution it must triumph it must sweep everything before it it must exact from the other the brutal blood stained ravening race the last particle of expiation",
+        "pred": "This was the only sacred cause. This was the great, the just revolution. It must triumph. It must sweep everything before it. It must exact from the other, the brutal, blood-stained, ravening race, the last particle of expiation."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 99,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "open_asr_librispeech_test_other",
+        "test.other"
+      ],
+      "filtered_resps": [
+        "The reason to which he gave expression is essentially the same as that which made the French kings and the popes engage Swiss and Scotch guards and makes the Russian authorities of to day so carefully distribute the recruits so that the regiments from the frontiers are stationed in central districts and the regiments from the centre are stationed on the frontiers."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the reason to which he gave expression is essentially the same as that which made the french kings and the popes engage swiss and scotch guards and makes the russian authorities of to day so carefully distribute the recruits so that the regiments from the frontiers are stationed in central districts and the regiments from the center are stationed on the frontiers",
+        "pred": "The reason to which he gave expression is essentially the same as that which made the French kings and the popes engage Swiss and Scotch guards and makes the Russian authorities of to day so carefully distribute the recruits so that the regiments from the frontiers are stationed in central districts and the regiments from the centre are stationed on the frontiers."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    }
+  ],
+  "total_samples": 2939
+}

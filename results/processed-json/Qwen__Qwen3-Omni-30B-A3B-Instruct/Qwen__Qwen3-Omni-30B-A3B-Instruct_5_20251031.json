@@ -1,0 +1,277 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "benchmark_id": "librispeech_test_other",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "metrics": {
+    "results": {
+      "common_voice_15_en": {
+        "alias": "common_voice_15_en",
+        "wer,none": 6.077582330039704,
+        "wer_stderr,none": "N/A"
+      },
+      "common_voice_15_zh-CN": {
+        "alias": "common_voice_15_zh-CN",
+        "wer,none": 4.500306936771025,
+        "wer_stderr,none": "N/A"
+      },
+      "librispeech_test_other": {
+        "alias": "librispeech_test_other",
+        "wer,none": 2.579327559472032,
+        "wer_stderr,none": "N/A"
+      }
+    },
+    "group_subtasks": {
+      "common_voice_15_en": [],
+      "common_voice_15_zh-CN": [],
+      "librispeech_test_other": []
+    },
+    "configs": {
+      "common_voice_15_en": {
+        "task": "common_voice_15_en",
+        "dataset_path": "lmms-lab/common_voice_15",
+        "dataset_name": "en",
+        "dataset_kwargs": {
+          "token": true
+        },
+        "test_split": "test",
+        "full_docs": false,
+        "process_results_use_image": false,
+        "doc_to_visual": "<function common_voice_15_doc_to_audio at 0x1550be2d0ca0>",
+        "doc_to_text": "<function common_voice_15_doc_to_text at 0x1550bd079750>",
+        "doc_to_target": "sentence",
+        "process_results": "<function common_voice_15_process_result at 0x1550bd079900>",
+        "description": "",
+        "target_delimiter": " ",
+        "fewshot_delimiter": "\n\n",
+        "num_fewshot": 0,
+        "metric_list": [
+          {
+            "metric": "wer",
+            "aggregation": "<function common_voice_15_wer at 0x1550bd07add0>",
+            "higher_is_better": false
+          }
+        ],
+        "output_type": "generate_until",
+        "generation_kwargs": {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        "repeats": 1,
+        "should_decontaminate": false,
+        "metadata": [
+          {
+            "version": 0
+          }
+        ],
+        "lmms_eval_specific_kwargs": {
+          "default": {
+            "pre_prompt": "",
+            "post_prompt": ""
+          },
+          "qwen2_audio": {
+            "pre_prompt": "",
+            "post_prompt": " <|en|>"
+          },
+          "pre_prompt": "",
+          "post_prompt": ""
+        }
+      },
+      "common_voice_15_zh-CN": {
+        "task": "common_voice_15_zh-CN",
+        "dataset_path": "lmms-lab/common_voice_15",
+        "dataset_name": "zh-CN",
+        "dataset_kwargs": {
+          "token": true
+        },
+        "test_split": "test",
+        "full_docs": false,
+        "process_results_use_image": false,
+        "doc_to_visual": "<function common_voice_15_doc_to_audio at 0x15553e105fc0>",
+        "doc_to_text": "<function common_voice_15_doc_to_text at 0x15553e106710>",
+        "doc_to_target": "sentence",
+        "process_results": "<function common_voice_15_process_result at 0x15553e1070a0>",
+        "description": "",
+        "target_delimiter": " ",
+        "fewshot_delimiter": "\n\n",
+        "num_fewshot": 0,
+        "metric_list": [
+          {
+            "metric": "wer",
+            "aggregation": "<function common_voice_15_wer at 0x15553e107be0>",
+            "higher_is_better": false
+          }
+        ],
+        "output_type": "generate_until",
+        "generation_kwargs": {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        "repeats": 1,
+        "should_decontaminate": false,
+        "metadata": [
+          {
+            "version": 0
+          }
+        ],
+        "lmms_eval_specific_kwargs": {
+          "default": {
+            "pre_prompt": "",
+            "post_prompt": ""
+          },
+          "qwen2_audio": {
+            "pre_prompt": "",
+            "post_prompt": " <|zh|>"
+          },
+          "pre_prompt": "",
+          "post_prompt": ""
+        }
+      },
+      "librispeech_test_other": {
+        "task": "librispeech_test_other",
+        "dataset_path": "lmms-lab/librispeech",
+        "dataset_name": "librispeech_test_other",
+        "dataset_kwargs": {
+          "token": true
+        },
+        "test_split": "librispeech_test_other",
+        "full_docs": false,
+        "process_results_use_image": false,
+        "doc_to_visual": "<function librispeech_doc_to_audio at 0x15553e107f40>",
+        "doc_to_text": "<function librispeech_doc_to_text at 0x15553e1895a0>",
+        "doc_to_target": "gt",
+        "process_results": "<function librispeech_process_result at 0x15553e188d30>",
+        "description": "",
+        "target_delimiter": " ",
+        "fewshot_delimiter": "\n\n",
+        "num_fewshot": 0,
+        "metric_list": [
+          {
+            "metric": "wer",
+            "aggregation": "<function librispeech_wer at 0x15553e1881f0>",
+            "higher_is_better": false
+          }
+        ],
+        "output_type": "generate_until",
+        "generation_kwargs": {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        "repeats": 1,
+        "should_decontaminate": false,
+        "metadata": [
+          {
+            "version": 0
+          }
+        ],
+        "lmms_eval_specific_kwargs": {
+          "default": {
+            "pre_prompt": "",
+            "post_prompt": ""
+          },
+          "qwen2_audio": {
+            "pre_prompt": "",
+            "post_prompt": " <|en|>"
+          },
+          "pre_prompt": "",
+          "post_prompt": ""
+        }
+      }
+    },
+    "versions": {
+      "common_voice_15_en": "Yaml",
+      "common_voice_15_zh-CN": "Yaml",
+      "librispeech_test_other": "Yaml"
+    },
+    "n-shot": {
+      "common_voice_15_en": 0,
+      "common_voice_15_zh-CN": 0,
+      "librispeech_test_other": 0
+    },
+    "higher_is_better": {
+      "common_voice_15_en": {
+        "wer": false
+      },
+      "common_voice_15_zh-CN": {
+        "wer": false
+      },
+      "librispeech_test_other": {
+        "wer": false
+      }
+    },
+    "n-samples": {
+      "librispeech_test_other": {
+        "original": 2939,
+        "effective": 2939
+      },
+      "common_voice_15_zh-CN": {
+        "original": 10625,
+        "effective": 10625
+      },
+      "common_voice_15_en": {
+        "original": 16386,
+        "effective": 16386
+      }
+    },
+    "config": {
+      "model": "vllm",
+      "model_args": "model=Qwen/Qwen3-Omni-30B-A3B-Instruct,tensor_parallel_size=2,gpu_memory_utilization=0.9,allowed_local_media_path=/",
+      "batch_size": "64",
+      "batch_sizes": [],
+      "device": null,
+      "use_cache": null,
+      "limit": null,
+      "bootstrap_iters": 100000,
+      "gen_kwargs": "",
+      "random_seed": 0,
+      "numpy_seed": 1234,
+      "torch_seed": 1234,
+      "fewshot_seed": 1234
+    },
+    "git_hash": "bbd344e",
+    "date": "20251029_150413",
+    "task_hashes": {
+      "librispeech_test_other": "ee104d9809c6c2817642bc7059a8230e9485ce7418d12889e9d2f357fe03a9ea",
+      "common_voice_15_zh-CN": "222c2a04878f97073b0ef830bc6e7860e28ff609707093d431f4f11a575d5cd8",
+      "common_voice_15_en": "0fee474426ea85c902070356afc3f63e37a33b1d20c6b360d30a3e98f1170cf7"
+    },
+    "model_source": "vllm",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_name_sanitized": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+    "system_instruction": null,
+    "system_instruction_sha": null,
+    "fewshot_as_multiturn": false,
+    "chat_template": null,
+    "chat_template_sha": null,
+    "start_time": 4822247.841686233,
+    "end_time": 4823100.120478075,
+    "total_evaluation_time_seconds": "852.2787918420509"
+  },
+  "raw_files": [
+    {
+      "filename": "20251029_150413_results.json",
+      "absolute_path": "C:\\Users\\Kata\\Desktop\\intern\\gui-test-suite\\results\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_150413_results.json"
+    },
+    {
+      "filename": "20251029_150413_samples_librispeech_test_other.jsonl",
+      "absolute_path": "C:\\Users\\Kata\\Desktop\\intern\\gui-test-suite\\results\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_150413_samples_librispeech_test_other.jsonl"
+    }
+  ]
+}

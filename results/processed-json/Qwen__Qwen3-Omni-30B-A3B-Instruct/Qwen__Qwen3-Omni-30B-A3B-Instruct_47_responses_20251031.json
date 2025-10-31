@@ -1,0 +1,2908 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "benchmark_id": "open_asr_common_voice",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The Englishman was unable to sleep one night. The boy was relieved. That makes sense, the alchemist answered. Its lower end is still embedded. But that was simple, because my heart was tired. The young man what he had seen, and the man asked him to wait there. There were three hundred wells, forty thousand date trees, and innumerable colored tents spread among them. A large piece suddenly came off and fell with a loud and sharp noise. It was such a gradual movement that he found it only by noticing the dots. I went stretching my legs clumsily and feeling my way in the dark. Everywhere there were stalls with items for sale."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The Englishman was unable to sleep one night.",
+        "pred": "The Englishman was unable to sleep one night. The boy was relieved. That makes sense, the alchemist answered. Its lower end is still embedded. But that was simple, because my heart was tired. The young man what he had seen, and the man asked him to wait there. There were three hundred wells, forty thousand date trees, and innumerable colored tents spread among them. A large piece suddenly came off and fell with a loud and sharp noise. It was such a gradual movement that he found it only by noticing the dots. I went stretching my legs clumsily and feeling my way in the dark. Everywhere there were stalls with items for sale."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 1,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "You are almost at the end of your journey, said the alchemist. Dear email recipients, let me be the first to welcome you to Earth. It was such a gradual movement that he found it only by noticing the dots."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "\"You are almost at the end of your journey,\" said the alchemist.",
+        "pred": "You are almost at the end of your journey, said the alchemist. Dear email recipients, let me be the first to welcome you to Earth. It was such a gradual movement that he found it only by noticing the dots."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 2,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "It was such a gradual movement that he found it only by noticing the dots."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It was such a gradual movement that he found it only by noticing the dots.",
+        "pred": "It was such a gradual movement that he found it only by noticing the dots."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 3,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "For some reason, we were blocked from entering."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "For some reason, we were blocked from entering.",
+        "pred": "For some reason, we were blocked from entering."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 4,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "As they sat down at the only table in the place, the crystal merchant laughed. Now what?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "As they sat down at the only table in the place, the crystal merchant laughed.",
+        "pred": "As they sat down at the only table in the place, the crystal merchant laughed. Now what?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 5,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "I'm never more aware of a room's acoustics than when I'm trying to enjoy a snack. I have no intention of sharing."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I'm never more aware of a room's acoustics than when I'm trying to enjoy a snack I have no intention of sharing.",
+        "pred": "I'm never more aware of a room's acoustics than when I'm trying to enjoy a snack. I have no intention of sharing."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 6,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "It's a dream in the language of the world, she said."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "\"It's a dream in the language of the world,\" she said.",
+        "pred": "It's a dream in the language of the world, she said."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 7,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Vesluk Amazing."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "This looks amazing!",
+        "pred": "Vesluk Amazing."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 8,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The ivy climbed up the building and wrapped itself around the chimney."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The ivy climbed up the building and wrapped itself around the chimney.",
+        "pred": "The ivy climbed up the building and wrapped itself around the chimney."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 9,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Non-verbal communication is sometimes more meaningful than the spoken words."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Nonverbal communication is sometimes more meaningful than the spoken words.",
+        "pred": "Non-verbal communication is sometimes more meaningful than the spoken words."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 10,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The hull of the ship collapsed."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The Hull of the ship collapsed.",
+        "pred": "The hull of the ship collapsed."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 11,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The camel driver understood what the boy was saying."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The camel driver understood what the boy was saying.",
+        "pred": "The camel driver understood what the boy was saying."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 12,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Her hair flowed down her back."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Her hair flowed down her back.",
+        "pred": "Her hair flowed down her back."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 13,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Advancing slowly, they searched among the stones."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Advancing slowly, they searched among the stones.",
+        "pred": "Advancing slowly, they searched among the stones."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 14,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Maybe the church with the sycamore growing from within had been haunted."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Maybe the church, with the sycamore growing from within, had been haunted.",
+        "pred": "Maybe the church with the sycamore growing from within had been haunted."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 15,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The boy knew a lot of people in the city."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The boy knew a lot of people in the city.",
+        "pred": "The boy knew a lot of people in the city."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 16,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "If everything works, you'll see a window pop up after starting."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "If everything works, you'll see a window pop up after starting.",
+        "pred": "If everything works, you'll see a window pop up after starting."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 17,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Then you taught me something of the universal language and the soul of the world."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Then, you taught me something of the universal language and the Soul of the World.",
+        "pred": "Then you taught me something of the universal language and the soul of the world."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 18,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The term \"\"just my two cents\"\" is about opinion, not about money.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The term \"just my two cents\" is about opinion, not about money.",
+        "pred": "The term \"\"just my two cents\"\" is about opinion, not about money.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 19,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The woman was silent for some time."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The woman was silent for some time.",
+        "pred": "The woman was silent for some time."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 20,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "There were really, I think, two or three hundred people elbowing one another."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "There were really, I think, two or three hundred people elbowing one another.",
+        "pred": "There were really, I think, two or three hundred people elbowing one another."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 21,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "People that never have to worry."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "People that never had to worry.",
+        "pred": "People that never have to worry."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 22,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The falcon's beak carries bits of me, myself, the desert said."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "\"The falcon's beak carries bits of me, myself,\" the desert said.",
+        "pred": "The falcon's beak carries bits of me, myself, the desert said."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 23,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The strange horseman drew an enormous curved sword from a scabbard mounted on his saddle."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The strange horseman drew an enormous, curved sword from a scabbard mounted on his saddle.",
+        "pred": "The strange horseman drew an enormous curved sword from a scabbard mounted on his saddle."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 24,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "It's usually customary to bring the money with you."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It's usually customary to bring the money with you.",
+        "pred": "It's usually customary to bring the money with you."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 25,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The book parallels Malpens' experience with Johnson."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The book parallels Maupin's experience with Johnson.",
+        "pred": "The book parallels Malpens' experience with Johnson."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 26,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The camel driver, though, seemed not to be very concerned with the threat of war."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The camel driver, though, seemed not to be very concerned with the threat of war.",
+        "pred": "The camel driver, though, seemed not to be very concerned with the threat of war."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 27,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Ask the owner of the store how much the sword costs, he said to his friend."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "\"Ask the owner of that stall how much the sword costs,\" he said to his friend.",
+        "pred": "Ask the owner of the store how much the sword costs, he said to his friend."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 28,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "But I'm liable to get into a jam."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "But I'm liable to get into a jam.",
+        "pred": "But I'm liable to get into a jam."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 29,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The boy was also saddened his friend was in pursuit of his destiny."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The boy was also saddened; his friend was in pursuit of his destiny.",
+        "pred": "The boy was also saddened his friend was in pursuit of his destiny."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 30,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "And better still to be alone with one's books."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And better still to be alone with one's books.",
+        "pred": "And better still to be alone with one's books."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 31,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The snow blustered along the side of the bridge."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The snow blasted along the side of the bridge.",
+        "pred": "The snow blustered along the side of the bridge."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 32,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Towards the end of the afternoon, they came upon a Coptic monastery."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Toward the end of the afternoon, they came upon a Coptic monastery.",
+        "pred": "Towards the end of the afternoon, they came upon a Coptic monastery."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 33,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Hold on a minute."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Hold on a minute.",
+        "pred": "Hold on a minute."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 34,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Then the old man began to inspect the sheep, and he saw that one was lame."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Then the old man began to inspect the sheep, and he saw that one was lame.",
+        "pred": "Then the old man began to inspect the sheep, and he saw that one was lame."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 35,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "These plans are monitored by progress indicators."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "These plans are monitored by progress indicators.",
+        "pred": "These plans are monitored by progress indicators."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 36,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "How much do you want on it?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "How much do you want on it?",
+        "pred": "How much do you want on it?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 37,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "She could still be alive."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "She could still be alive.",
+        "pred": "She could still be alive."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 38,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "She said she was so exhausted and unhappy that she thought of leaving, and she did."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "She said she was so exhausted and unhappy that she thought of leaving, and she did.",
+        "pred": "She said she was so exhausted and unhappy that she thought of leaving, and she did."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 39,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Are you sure this is clear?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Are you sure this is Claire.",
+        "pred": "Are you sure this is clear?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 40,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "It's no miracle because I see it happen once every year."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It's no miracle because I see it happen once every year.",
+        "pred": "It's no miracle because I see it happen once every year."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 41,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "See you in the funny papers."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "See you in the funny papers.",
+        "pred": "See you in the funny papers."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 42,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "I left my father, my mother and the town castle behind."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I left my father, my mother, and the town castle behind.",
+        "pred": "I left my father, my mother and the town castle behind."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 43,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "If you don't stop following me, I'll call the police."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "If you don't stop following me I'll call the police.",
+        "pred": "If you don't stop following me, I'll call the police."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 44,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Suddenly, a huge quantity of green smoke came out of the pit in three puffs and went straight into the still air."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Suddenly, a huge quantity of green smoke came out of the pit in three puffs and went straight into the still air.",
+        "pred": "Suddenly, a huge quantity of green smoke came out of the pit in three puffs and went straight into the still air."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 45,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "It knew of the boy's talk with the desert, because the wind knew everything."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It knew of the boy's talk with the desert, because the winds know everything.",
+        "pred": "It knew of the boy's talk with the desert, because the wind knew everything."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 46,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Almost everyone here speaks Spanish."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Almost everyone here speaks Spanish.",
+        "pred": "Almost everyone here speaks Spanish."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 47,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "You are wise because you observe everything from a distance, the boy said."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "\"You are wise, because you observe everything from a distance,\" the boy said.",
+        "pred": "You are wise because you observe everything from a distance, the boy said."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 48,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "We are obliged at least once in our lives to visit the holy city of Mecca."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "We are obliged, at least once in our lives, to visit the holy city of Mecca.",
+        "pred": "We are obliged at least once in our lives to visit the holy city of Mecca."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 49,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Tatarka is a rapper from Russia. She raps in Tatar."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Tatarka is a rapper from Russia, she raps in tatar.",
+        "pred": "Tatarka is a rapper from Russia. She raps in Tatar."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 50,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Instead, the stranger lowered it slowly until the point touched the boy's forehead."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Instead, the stranger lowered it slowly, until the point touched the boy's forehead.",
+        "pred": "Instead, the stranger lowered it slowly until the point touched the boy's forehead."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 51,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Was that question rhetorical?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Was that question rhetorical?",
+        "pred": "Was that question rhetorical?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 52,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "He knelt down to find Urim and Thummim and put them back in the pouch."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "He knelt down to find Urim and Thummim and put them back in the pouch.",
+        "pred": "He knelt down to find Urim and Thummim and put them back in the pouch."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 53,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "A large portion of the cylinder had been uncovered."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "A large portion of the cylinder had been uncovered.",
+        "pred": "A large portion of the cylinder had been uncovered."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 54,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "This convention is a natural."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "This convention is a natural.",
+        "pred": "This convention is a natural."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 55,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The camel drivers exchanged information about wind storms and told stories about the desert."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the camel drivers exchanged information about windstorms, and told stories about the desert.",
+        "pred": "The camel drivers exchanged information about wind storms and told stories about the desert."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 56,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "He could see that the old man wanted to know more about his life."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "He could see that the old man wanted to know more about his life.",
+        "pred": "He could see that the old man wanted to know more about his life."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 57,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The boy observed in silence the progress of the animals and people across the desert."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The boy observed in silence the progress of the animals and people across the desert.",
+        "pred": "The boy observed in silence the progress of the animals and people across the desert."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 58,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "A whiskey is the perfect end to my day."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "A whiskey is the perfect end to my day.",
+        "pred": "A whiskey is the perfect end to my day."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 59,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The heather was on fire, and you could see a thin blue smoke rising up slowly."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The heather was on fire, and you could see a thin blue smoke rising up slowly.",
+        "pred": "The heather was on fire, and you could see a thin blue smoke rising up slowly."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 60,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "I'm going to build a bridge a mile long."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I'm going to build a bridge a mile long.",
+        "pred": "I'm going to build a bridge a mile long."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 61,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "She joined up to."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "She joined up too.",
+        "pred": "She joined up to."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 62,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "But the Englishman appeared not to attach any importance to it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "But the Englishman appeared not to attach any importance to it.",
+        "pred": "But the Englishman appeared not to attach any importance to it."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 63,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The old man was probably a gipsy too."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The old man was probably a Gypsy, too.",
+        "pred": "The old man was probably a gipsy too."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 64,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "How do you suppose Ken got that gun?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "How do you suppose Ken got that gun?",
+        "pred": "How do you suppose Ken got that gun?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 65,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "He heard a motor grinding sound and saw a black mark jump forward an inch or two."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "He heard a muffled grating sound and saw the black mark jerk forward an inch or so.",
+        "pred": "He heard a motor grinding sound and saw a black mark jump forward an inch or two."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 66,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Linus is known for his clear and explicit language."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Linus is known for his clear and explicit language.",
+        "pred": "Linus is known for his clear and explicit language."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 67,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Robin had some sort of date with Tracy."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Robin had some sort of date with Tracy.",
+        "pred": "Robin had some sort of date with Tracy."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 68,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Drawing from my own experience as a learner of English and German, I value engaging activities to involve everyday conversation."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Drawing from my own experience as a learner of English and German, I value engaging activities that involve everyday conversation.",
+        "pred": "Drawing from my own experience as a learner of English and German, I value engaging activities to involve everyday conversation."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 69,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The boy and the Englishman bought candles and climbed the tower back."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The boy and the Englishman had bought camels, and climbed uncertainly onto their backs.",
+        "pred": "The boy and the Englishman bought candles and climbed the tower back."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 70,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "A lot of these people are out of work."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "A lot of these people are out of work.",
+        "pred": "A lot of these people are out of work."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 71,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The brake fluid was leaking out onto the path."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The brake fluid was leaking out onto the path.",
+        "pred": "The brake fluid was leaking out onto the path."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 72,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Fresh fish in restaurant is usually expensive."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Fresh fish in restaurants is usually expensive.",
+        "pred": "Fresh fish in restaurant is usually expensive."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 73,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "That's what I did before I married Charles."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "That's what I did before I married Charles.",
+        "pred": "That's what I did before I married Charles."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 74,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The two men exchanged some words in Arabic and the bar owner seemed irritated."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The two men exchanged some words in Arabic, and the bar owner seemed irritated.",
+        "pred": "The two men exchanged some words in Arabic and the bar owner seemed irritated."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 75,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Can't you see what it means to my family?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Can't you see what it means to my family?",
+        "pred": "Can't you see what it means to my family?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 76,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "He was a wealthy man."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "He was a wealthy man?",
+        "pred": "He was a wealthy man."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 77,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The wind told me that you know about love, the boy said to the sun."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "\"The wind told me that you know about love\" the boy said to the sun.",
+        "pred": "The wind told me that you know about love, the boy said to the sun."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 78,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Don't get too excited, it's just a hat."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Don't get too excited, it's just a hat.",
+        "pred": "Don't get too excited, it's just a hat."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 79,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "It is all right."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It is all right.",
+        "pred": "It is all right."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 80,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Please don't make me."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Please don't make me.",
+        "pred": "Please don't make me."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 81,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "And I want you to know that I am coming back."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And I want you to know that I'm coming back.",
+        "pred": "And I want you to know that I am coming back."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 82,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "I can't stand the sight of blood."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I can't stand the sight of blood.",
+        "pred": "I can't stand the sight of blood."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 83,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "She looks so gorgeous today."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "She looks so gorgeous today.",
+        "pred": "She looks so gorgeous today."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 84,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Why would a king be talking with a shepherd? The boy asked, awkward and embarrassed."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "\"Why would a king be talking with a shepherd?\" the boy asked, awed and embarrassed.",
+        "pred": "Why would a king be talking with a shepherd? The boy asked, awkward and embarrassed."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 85,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Insert your card to identify yourself."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Insert your card to identify yourself.",
+        "pred": "Insert your card to identify yourself."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 86,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "By the light of their own destruction, I saw them staggering and falling, and their supporters turning to run."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "By the light of their own destruction, I saw them staggering and falling, and their supporters turning to run.",
+        "pred": "By the light of their own destruction, I saw them staggering and falling, and their supporters turning to run."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 87,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "This is why alchemy exists, the boy said."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "\"This is why alchemy exists,\" the boy said.",
+        "pred": "This is why alchemy exists, the boy said."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 88,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "It would be ideal if the Wi Fi were gratis."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It would be ideal if the WiFi were gratis.",
+        "pred": "It would be ideal if the Wi Fi were gratis."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 89,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "I didn't know Sheppard knew how to read,\" said a girl's voice behind me."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "\"I didn't know shepherds knew how to read,\" said a girl's voice behind him.",
+        "pred": "I didn't know Sheppard knew how to read,\" said a girl's voice behind me."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 90,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Later, we simply let life proceed in its own direction toward its own fate."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Later, we simply let life proceed, in its own direction, toward its own fate.",
+        "pred": "Later, we simply let life proceed in its own direction toward its own fate."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 91,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The merchants were assembling their stalls, and the boy helped the candy seller to do this."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The merchants were assembling their stalls, and the boy helped a candy seller to do his.",
+        "pred": "The merchants were assembling their stalls, and the boy helped the candy seller to do this."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 92,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "I would like to take a nice long break with no financial repercussions, but we all know that's not going to happen."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I would like to take a nice long break with no financial repercussions, but we all know that’s not going to happen.",
+        "pred": "I would like to take a nice long break with no financial repercussions, but we all know that's not going to happen."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 93,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Picking up where he left off, she finished the list."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Picking up where he left off, she finished the list.",
+        "pred": "Picking up where he left off, she finished the list."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 94,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "I like crepes with nugget."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I like crepes with nougat.",
+        "pred": "I like crepes with nugget."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 95,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The crowd on the far left seemed to get bigger, and I heard now a faint murmur from it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The crowd on the far left seemed to get bigger, and I heard now a faint murmur from it.",
+        "pred": "The crowd on the far left seemed to get bigger, and I heard now a faint murmur from it."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 96,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "I still have no idea how to turn myself into the wind, the boy repeated."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "\"I still have no idea how to turn myself into the wind,\" the boy repeated.",
+        "pred": "I still have no idea how to turn myself into the wind, the boy repeated."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 97,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The boy's heart began to speak of fear."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The boy's heart began to speak of fear.",
+        "pred": "The boy's heart began to speak of fear."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 98,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Every image processing software contains automatic contrast and color enhancement."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Every image processing software contains automatic contrast and color enhancement.",
+        "pred": "Every image processing software contains automatic contrast and color enhancement."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 99,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "open_asr_common_voice",
+        "test"
+      ],
+      "filtered_resps": [
+        "I was wondering if you could tell me a bit more about what it's like to live and work there."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I was wondering if you could tell me a bit more about what it's like to live and work there.",
+        "pred": "I was wondering if you could tell me a bit more about what it's like to live and work there."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    }
+  ],
+  "total_samples": 16334
+}

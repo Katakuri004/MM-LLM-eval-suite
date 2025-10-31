@@ -1,0 +1,117 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "benchmark_id": "aime25",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "metrics": {
+    "results": {
+      "aime25": {
+        "alias": "aime25",
+        "exact_match,none": 0.3,
+        "exact_match_stderr,none": 0.0850962943396763
+      }
+    },
+    "group_subtasks": {
+      "aime25": []
+    },
+    "configs": {
+      "aime25": {
+        "task": "aime25",
+        "tag": [
+          "math",
+          "reasoning",
+          "aime"
+        ],
+        "dataset_path": "math-ai/aime25",
+        "test_split": "test",
+        "full_docs": false,
+        "process_results_use_image": false,
+        "doc_to_visual": "<function no_visuals at 0x1550bdde09d0>",
+        "doc_to_text": "Solve the following math problem. Dont give any explanation for the solutoin. The final answer is an integer between 000 and 999.\nMake sure to end your response with 'Final Answer: The final answer is \\\\boxed{YourAnswer}', replacing YourAnswer with the numerical result.\n\nProblem: {{problem}}\n\nSolution:",
+        "doc_to_target": "{{answer}}",
+        "process_results": "<function process_aime25_results at 0x1550bcbd0c10>",
+        "description": "AIME 2025 Math problem solving task.",
+        "target_delimiter": " ",
+        "fewshot_delimiter": "\n\n",
+        "num_fewshot": 0,
+        "metric_list": [
+          {
+            "metric": "exact_match",
+            "aggregation": "mean",
+            "higher_is_better": true
+          }
+        ],
+        "output_type": "generate_until",
+        "generation_kwargs": {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "until": [
+            "\nProblem:",
+            "\n\n",
+            "Final Answer:",
+            "\\boxed"
+          ]
+        },
+        "repeats": 1,
+        "should_decontaminate": false
+      }
+    },
+    "versions": {
+      "aime25": "Yaml"
+    },
+    "n-shot": {
+      "aime25": 0
+    },
+    "higher_is_better": {
+      "aime25": {
+        "exact_match": true
+      }
+    },
+    "n-samples": {
+      "aime25": {
+        "original": 30,
+        "effective": 30
+      }
+    },
+    "config": {
+      "model": "vllm",
+      "model_args": "model=Qwen/Qwen3-Omni-30B-A3B-Instruct,tensor_parallel_size=4,gpu_memory_utilization=0.9,allowed_local_media_path=/",
+      "batch_size": "64",
+      "batch_sizes": [],
+      "device": null,
+      "use_cache": null,
+      "limit": null,
+      "bootstrap_iters": 100000,
+      "gen_kwargs": "",
+      "random_seed": 0,
+      "numpy_seed": 1234,
+      "torch_seed": 1234,
+      "fewshot_seed": 1234
+    },
+    "git_hash": "bbd344e",
+    "date": "20251030_161053",
+    "task_hashes": {
+      "aime25": "cad230e0e8695d3f57ce6335b1e8e541a0c398cd3b4e3a53270a1f438cd254bb"
+    },
+    "model_source": "vllm",
+    "model_name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "model_name_sanitized": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+    "system_instruction": null,
+    "system_instruction_sha": null,
+    "fewshot_as_multiturn": false,
+    "chat_template": null,
+    "chat_template_sha": null,
+    "start_time": 4912648.265144599,
+    "end_time": 4912817.636242478,
+    "total_evaluation_time_seconds": "169.3710978794843"
+  },
+  "raw_files": [
+    {
+      "filename": "20251030_161053_results.json",
+      "absolute_path": "C:\\Users\\Kata\\Desktop\\intern\\gui-test-suite\\results\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_161053_results.json"
+    },
+    {
+      "filename": "20251030_161053_samples_aime25.jsonl",
+      "absolute_path": "C:\\Users\\Kata\\Desktop\\intern\\gui-test-suite\\results\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_161053_samples_aime25.jsonl"
+    }
+  ]
+}

@@ -13,7 +13,7 @@ type Sample = {
   score?: number
 }
 
-export function ErrorAnalysis({ samples }: { samples: Sample[] }) {
+export function ErrorAnalysis({ samples, responsesLink }: { samples: Sample[]; responsesLink?: string }) {
   const rows = samples.map(s => ({
     ...s,
     correct: typeof s.score === 'number' ? s.score > 0 : (s.prediction ?? '').toString() === (s.label ?? '').toString()
@@ -98,11 +98,13 @@ export function ErrorAnalysis({ samples }: { samples: Sample[] }) {
             </table>
           </div>
         )}
-        <div className="flex items-center justify-end">
-          <Button asChild variant="outline" size="sm">
-            <Link href="/mock-results/responses">View more</Link>
-          </Button>
-        </div>
+        {responsesLink && (
+          <div className="flex items-center justify-end">
+            <Button asChild variant="outline" size="sm">
+              <Link href={responsesLink}>View more</Link>
+            </Button>
+          </div>
+        )}
       </CardContent>
     </Card>
   )

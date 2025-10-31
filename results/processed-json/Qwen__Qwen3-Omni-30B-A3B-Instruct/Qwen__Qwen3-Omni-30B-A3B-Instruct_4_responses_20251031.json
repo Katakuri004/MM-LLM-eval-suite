@@ -1,0 +1,3108 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "benchmark_id": "common_voice_15_zh-CN",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "黑身准裂腹鱼为辐鳍鱼纲鲤形目鲤科的其中一种。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "黑身准裂腹鱼为辐鳍鱼纲鲤形目鲤科的其中一种。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "黑身准裂腹鱼为辐鳍鱼纲鲤形目鲤科的其中一种。",
+        "pred": "黑身准裂腹鱼为辐鳍鱼纲鲤形目鲤科的其中一种。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33411896.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 1,
+      "target": "八",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "爸"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "八",
+        "pred": "爸",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_32993935.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 2,
+      "target": "否",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "否"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "否",
+        "pred": "否",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_32269533.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 3,
+      "target": "宋朝末年年间定居粉岭围。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "宋朝末年年间定居粉岭围。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "宋朝末年年间定居粉岭围。",
+        "pred": "宋朝末年年间定居粉岭围。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22069600.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 4,
+      "target": "渐渐行动不便",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "渐渐行动不便"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "渐渐行动不便",
+        "pred": "渐渐行动不便",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22006851.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 5,
+      "target": "二十一年去世。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "二十一年去世。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "二十一年去世。",
+        "pred": "二十一年去世。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22115132.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 6,
+      "target": "而近美利楼有盖行人通道上则矗立着于上海街旧厦清拆时移来的十二条石柱。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "而近美丽楼有盖行人通道上则矗立于向海旧街下清拆时遗留的十二条石柱。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "而近美利楼有盖行人通道上则矗立着于上海街旧厦清拆时移来的十二条石柱。",
+        "pred": "而近美丽楼有盖行人通道上则矗立于向海旧街下清拆时遗留的十二条石柱。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33336442.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 7,
+      "target": "他们自称恰哈拉。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "他们自称恰哈拉。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "他们自称恰哈拉。",
+        "pred": "他们自称恰哈拉。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22120171.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 8,
+      "target": "局部干涩的例子包括有口干、眼睛干燥、及阴道干燥。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "局部干涩的例子包括有口干、眼睛干燥以及阴道干燥。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "局部干涩的例子包括有口干、眼睛干燥、及阴道干燥。",
+        "pred": "局部干涩的例子包括有口干、眼睛干燥以及阴道干燥。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18646658.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 9,
+      "target": "嘉靖三十八年，登进士第三甲第二名。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "嘉靖三十八年，登进士第三甲第二名。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "嘉靖三十八年，登进士第三甲第二名。",
+        "pred": "嘉靖三十八年，登进士第三甲第二名。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18776118.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 10,
+      "target": "这一名称一直沿用至今。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "这一名称一直沿用至今。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "这一名称一直沿用至今。",
+        "pred": "这一名称一直沿用至今。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22078227.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 11,
+      "target": "阿列河畔贝赛。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "阿列河畔贝塞。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "阿列河畔贝赛。",
+        "pred": "阿列河畔贝塞。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22979065.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 12,
+      "target": "同时乔凡尼还得到包税合同和许多明矾矿的经营权。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "同时乔凡尼还得到包税合同和许多明矾矿的经营权。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "同时乔凡尼还得到包税合同和许多明矾矿的经营权。",
+        "pred": "同时乔凡尼还得到包税合同和许多明矾矿的经营权。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22192798.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 13,
+      "target": "为了惩罚西扎城和塞尔柱的结盟，盟军在抵达后将外城烧毁。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "为了惩罚西扎城和塞尔柱的结盟，盟军在抵达后将外城烧毁。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "为了惩罚西扎城和塞尔柱的结盟，盟军在抵达后将外城烧毁。",
+        "pred": "为了惩罚西扎城和塞尔柱的结盟，盟军在抵达后将外城烧毁。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18840501.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 14,
+      "target": "河内盛产黄色无鱼鳞的鳍射鱼。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "河内盛产黄色无鱼鳞的奇色鱼。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "河内盛产黄色无鱼鳞的鳍射鱼。",
+        "pred": "河内盛产黄色无鱼鳞的奇色鱼。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_19871025.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 15,
+      "target": "毛柄新木姜子为樟科新木姜子属下的一个变种。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "毛柄星木姜子为樟科星木姜子属下的一个变种。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "毛柄新木姜子为樟科新木姜子属下的一个变种。",
+        "pred": "毛柄星木姜子为樟科星木姜子属下的一个变种。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22191258.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 16,
+      "target": "他主要演出泰米尔语电影。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "他主要演出泰米尔语电影。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "他主要演出泰米尔语电影。",
+        "pred": "他主要演出泰米尔语电影。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22122243.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 17,
+      "target": "粗体字表示为主演。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "粗体字表示为主演。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "粗体字表示为主演。",
+        "pred": "粗体字表示为主演。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_23609073.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 18,
+      "target": "他是非洲畿内亚及佛德角独立党的成员。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "他是非洲几内亚及佛德角独立党的成员。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "他是非洲畿内亚及佛德角独立党的成员。",
+        "pred": "他是非洲几内亚及佛德角独立党的成员。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33587405.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 19,
+      "target": "福崎町是位于日本兵库县中部的行政区划。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "福知丁是位于日本兵库县中部的行政区划。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "福崎町是位于日本兵库县中部的行政区划。",
+        "pred": "福知丁是位于日本兵库县中部的行政区划。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22144580.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 20,
+      "target": "下行月台设有厕所。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "下省御台侍御史有此署。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "下行月台设有厕所。",
+        "pred": "下省御台侍御史有此署。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_19599902.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 21,
+      "target": "耶尔河畔圣伊莱尔人口变化图示",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "伊尔河畔圣伊莱尔人口变化图示"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "耶尔河畔圣伊莱尔人口变化图示",
+        "pred": "伊尔河畔圣伊莱尔人口变化图示",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_21324948.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 22,
+      "target": "印度库鲁克文学会一直致力于推广用托隆库鲁克文书写库鲁克文学。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "印度库鲁克文协会一直致力于推广用。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "印度库鲁克文学会一直致力于推广用托隆库鲁克文书写库鲁克文学。",
+        "pred": "印度库鲁克文协会一直致力于推广用。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33601119.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 23,
+      "target": "光绪八年再中举人。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "光绪八年再中举人。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "光绪八年再中举人。",
+        "pred": "光绪八年再中举人。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22079876.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 24,
+      "target": "患有先天性利伯氏黑蒙的人群在出生时或者是幼儿时期便会严重丧失乃至彻底丧失视力。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "患有先天性利伯氏黑蒙的人群在出生时或是幼儿时期便会严重丧失乃至彻底丧失视力。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "患有先天性利伯氏黑蒙的人群在出生时或者是幼儿时期便会严重丧失乃至彻底丧失视力。",
+        "pred": "患有先天性利伯氏黑蒙的人群在出生时或是幼儿时期便会严重丧失乃至彻底丧失视力。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33343888.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 25,
+      "target": "台湾北部地区家庭多以在农历年前时段包润饼则是在清明期间。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "台湾北部地区家庭多以在农历年前时段包润饼，而是在清明期间。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "台湾北部地区家庭多以在农历年前时段包润饼则是在清明期间。",
+        "pred": "台湾北部地区家庭多以在农历年前时段包润饼，而是在清明期间。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22431678.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 26,
+      "target": "蔡声白。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "蔡升柏"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "蔡声白。",
+        "pred": "蔡升柏",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22074585.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 27,
+      "target": "该区舰队主要负责为公海舰队的战列分舰队提供屏护。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "该区舰队主要负责为公海舰队的战列分舰队提供屏护。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "该区舰队主要负责为公海舰队的战列分舰队提供屏护。",
+        "pred": "该区舰队主要负责为公海舰队的战列分舰队提供屏护。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18990129.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 28,
+      "target": "雷诺在回归的第一年比赛中以第四名的成绩完成了比赛。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "雷诺在回归的第一年比赛中以第四名的成绩完成了比赛。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "雷诺在回归的第一年比赛中以第四名的成绩完成了比赛。",
+        "pred": "雷诺在回归的第一年比赛中以第四名的成绩完成了比赛。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22065062.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 29,
+      "target": "胤禛曾向迦陵禅师印证过佛法。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "英国开国后，封为。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "胤禛曾向迦陵禅师印证过佛法。",
+        "pred": "英国开国后，封为。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33184147.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 30,
+      "target": "沃思堡警察局是美国德克萨斯州沃思堡的警察部门。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "沃斯堡警察局是美国德克萨斯州沃斯堡的警察部门。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "沃思堡警察局是美国德克萨斯州沃思堡的警察部门。",
+        "pred": "沃斯堡警察局是美国德克萨斯州沃斯堡的警察部门。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33416875.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 31,
+      "target": "是",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "一二三"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "是",
+        "pred": "一二三",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_32721718.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 32,
+      "target": "他是进步党党员。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "他是进步党党员。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "他是进步党党员。",
+        "pred": "他是进步党党员。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_35951448.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 33,
+      "target": "这样都可以啊",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "这样都可以啊"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "这样都可以啊",
+        "pred": "这样都可以啊",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22114629.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 34,
+      "target": "此原理也广泛应用于家庭之中用于生产软水。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "此原理也广泛应用于家庭之中，用于生产软水。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "此原理也广泛应用于家庭之中用于生产软水。",
+        "pred": "此原理也广泛应用于家庭之中，用于生产软水。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22071732.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 35,
+      "target": "零",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "一二三"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "零",
+        "pred": "一二三",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_32766158.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 36,
+      "target": "本片的导演是赵秀贤和梁铉锡。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "本片的导演是赵秀贤和梁炫锡。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "本片的导演是赵秀贤和梁铉锡。",
+        "pred": "本片的导演是赵秀贤和梁炫锡。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22166660.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 37,
+      "target": "敦煌郡太守宋亮立后部故王军就的儿子卑君为后部王。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "敦煌郡太守宋亮立后部故王君就的儿子卑君为后部王。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "敦煌郡太守宋亮立后部故王军就的儿子卑君为后部王。",
+        "pred": "敦煌郡太守宋亮立后部故王君就的儿子卑君为后部王。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33512013.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 38,
+      "target": "大戟亚科是大戟科旗下三个亚科的其中之一。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "大戟亚科是大戟科旗下三个亚科的其中之一。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "大戟亚科是大戟科旗下三个亚科的其中之一。",
+        "pred": "大戟亚科是大戟科旗下三个亚科的其中之一。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22220837.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 39,
+      "target": "奥特拉德诺耶农村居民点是俄罗斯联邦沃罗涅日州新乌斯曼区所属的一个农村居民点。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "奥特拉德诺耶农村居民点是俄罗斯联邦沃罗涅日州新乌斯曼区所属的一个农村居民点。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "奥特拉德诺耶农村居民点是俄罗斯联邦沃罗涅日州新乌斯曼区所属的一个农村居民点。",
+        "pred": "奥特拉德诺耶农村居民点是俄罗斯联邦沃罗涅日州新乌斯曼区所属的一个农村居民点。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22110266.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 40,
+      "target": "吉内斯塔。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "吉内斯塔。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "吉内斯塔。",
+        "pred": "吉内斯塔。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22119370.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 41,
+      "target": "其名称来源于当时图书馆的创始人。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "其名称来源于当时图书馆的创始人。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "其名称来源于当时图书馆的创始人。",
+        "pred": "其名称来源于当时图书馆的创始人。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22070983.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 42,
+      "target": "超越函数是指那些不满足任何以多项式作系数的多项式方程的函数。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "超越函数是指那些不满足任何以多项式作系数的多项式方程的函数。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "超越函数是指那些不满足任何以多项式作系数的多项式方程的函数。",
+        "pred": "超越函数是指那些不满足任何以多项式作系数的多项式方程的函数。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_37460846.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 43,
+      "target": "长期信用银行法。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "长期信用银行法"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "长期信用银行法。",
+        "pred": "长期信用银行法",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18978887.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 44,
+      "target": "江户川桥江户川桥站江户川桥是车站附近神田川上的目白通桥梁。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "江户川桥江户川桥站江户川桥是车站附近神田川上的目白通桥梁。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "江户川桥江户川桥站江户川桥是车站附近神田川上的目白通桥梁。",
+        "pred": "江户川桥江户川桥站江户川桥是车站附近神田川上的目白通桥梁。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33303461.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 45,
+      "target": "主要用户是法国陆军以及阿拉伯联合大公国。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "主要用户是法国陆军以及阿拉伯联合大公国。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "主要用户是法国陆军以及阿拉伯联合大公国。",
+        "pred": "主要用户是法国陆军以及阿拉伯联合大公国。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22122267.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 46,
+      "target": "如今该符号已变成一个表示迷因的网络词汇。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "如今该符号已变成一个表示迷因的网络词汇。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "如今该符号已变成一个表示迷因的网络词汇。",
+        "pred": "如今该符号已变成一个表示迷因的网络词汇。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22072226.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 47,
+      "target": "戴七宝冠作通身光。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "戴七宝冠，作通身光。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "戴七宝冠作通身光。",
+        "pred": "戴七宝冠，作通身光。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18983026.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 48,
+      "target": "最少数百名购不到门票的影迷要求加场。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "最少数百名购不到门票的影迷要求加场。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "最少数百名购不到门票的影迷要求加场。",
+        "pred": "最少数百名购不到门票的影迷要求加场。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22074688.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 49,
+      "target": "她有两个哥哥。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "他有两个哥哥。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "她有两个哥哥。",
+        "pred": "他有两个哥哥。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22214370.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 50,
+      "target": "罂粟是罂粟科的二年生草本植物。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "罂粟是罂粟科的二年生草本植物。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "罂粟是罂粟科的二年生草本植物。",
+        "pred": "罂粟是罂粟科的二年生草本植物。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33176585.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 51,
+      "target": "最新崛起的假网拍诈骗趋势",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "新崛起的假网拍诈骗启示"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "最新崛起的假网拍诈骗趋势",
+        "pred": "新崛起的假网拍诈骗启示",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33222628.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 52,
+      "target": "鹰潭站扩建工程二期规划将二级三场编组场扩建为单向环到反发的三级三场。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "一二三四五六七"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "鹰潭站扩建工程二期规划将二级三场编组场扩建为单向环到反发的三级三场。",
+        "pred": "一二三四五六七",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33100777.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 53,
+      "target": "改名的原因是有人因为将此处与约克半岛的维多利亚港相混淆而发生沉船事故。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "改名的原因是有人因此将此处与约克半岛的维多利亚港相混淆而发生沉船事故。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "改名的原因是有人因为将此处与约克半岛的维多利亚港相混淆而发生沉船事故。",
+        "pred": "改名的原因是有人因此将此处与约克半岛的维多利亚港相混淆而发生沉船事故。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33262068.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 54,
+      "target": "戈罗然卡农村居民点是俄罗斯联邦沃罗涅日州拉蒙区所属的一个农村居民点。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "I'm sorry, but I can't provide the information you're looking for."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "戈罗然卡农村居民点是俄罗斯联邦沃罗涅日州拉蒙区所属的一个农村居民点。",
+        "pred": "I'm sorry, but I can't provide the information you're looking for.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33465063.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 55,
+      "target": "尽力和武市半平太一起创立土佐勤王党。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "近卫和武士半平太一起创立土佐勤王党。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "尽力和武市半平太一起创立土佐勤王党。",
+        "pred": "近卫和武士半平太一起创立土佐勤王党。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22099496.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 56,
+      "target": "他也是蚬壳电器创办人翁佑的女婿。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "他也是现可电气创办人翁佑的女婿。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "他也是蚬壳电器创办人翁佑的女婿。",
+        "pred": "他也是现可电气创办人翁佑的女婿。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22119712.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 57,
+      "target": "厚实的墙壁让旧机内部冬暖夏凉。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "厚实的墙壁让旧居内部冬暖夏凉。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "厚实的墙壁让旧机内部冬暖夏凉。",
+        "pred": "厚实的墙壁让旧居内部冬暖夏凉。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18987308.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 58,
+      "target": "槽果扁莎为莎草科扁莎属下的一个种。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "草果扁莎为莎草科扁莎属下的一个种。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "槽果扁莎为莎草科扁莎属下的一个种。",
+        "pred": "草果扁莎为莎草科扁莎属下的一个种。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22073283.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 59,
+      "target": "正模标本是多个可能的生物型中的一个。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "真膜亚门是多孔动物门的四个亚门之一。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "正模标本是多个可能的生物型中的一个。",
+        "pred": "真膜亚门是多孔动物门的四个亚门之一。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22151247.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 60,
+      "target": "斋桑古和硕托此后获释。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "斋桑古和硕托此后获释。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "斋桑古和硕托此后获释。",
+        "pred": "斋桑古和硕托此后获释。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33264579.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 61,
+      "target": "乌大经清朝军事人物。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "乌大经，清朝军事人物。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "乌大经清朝军事人物。",
+        "pred": "乌大经，清朝军事人物。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22191789.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 62,
+      "target": "热力学过程的定义是一个热力学系统由开始到完结的状态中所涉及的能量转变。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "热力学过程的定义是一个热力学系统由开始到完结的状态中所涉及的能量转变。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "热力学过程的定义是一个热力学系统由开始到完结的状态中所涉及的能量转变。",
+        "pred": "热力学过程的定义是一个热力学系统由开始到完结的状态中所涉及的能量转变。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33410210.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 63,
+      "target": "卡尔雷尔。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "卡尔雷尔。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "卡尔雷尔。",
+        "pred": "卡尔雷尔。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22111234.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 64,
+      "target": "滨江县先后隶属于吉林省西北路道和滨江道。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "宾江县先后隶属于吉林省西北路道和滨江道。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "滨江县先后隶属于吉林省西北路道和滨江道。",
+        "pred": "宾江县先后隶属于吉林省西北路道和滨江道。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18832787.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 65,
+      "target": "大使馆全年都为各类政治人物和公众举办了许多活动，包括庆祝以色列独立日独立日。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "大使馆全年都为各类政治人物和公众举办了许多活动，包括庆祝以色列独立日。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "大使馆全年都为各类政治人物和公众举办了许多活动，包括庆祝以色列独立日独立日。",
+        "pred": "大使馆全年都为各类政治人物和公众举办了许多活动，包括庆祝以色列独立日。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18774708.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 66,
+      "target": "苏光彩之子。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "舒光彩之子。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "苏光彩之子。",
+        "pred": "舒光彩之子。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22194482.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 67,
+      "target": "感冒茶起源于中国岭南一带。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "感冒茶起源于中国岭南一带。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "感冒茶起源于中国岭南一带。",
+        "pred": "感冒茶起源于中国岭南一带。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18903199.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 68,
+      "target": "拉沙尔克。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "拉沙尔克。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "拉沙尔克。",
+        "pred": "拉沙尔克。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22051730.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 69,
+      "target": "伍斯特座堂是英格兰伍斯特郡的一座教堂。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "伍斯特座堂是英格兰伍斯特郡的一座教堂。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "伍斯特座堂是英格兰伍斯特郡的一座教堂。",
+        "pred": "伍斯特座堂是英格兰伍斯特郡的一座教堂。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22148960.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 70,
+      "target": "电子浩室是浩室音乐的一个类型。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "电子浩室是浩室音乐的一个类型。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "电子浩室是浩室音乐的一个类型。",
+        "pred": "电子浩室是浩室音乐的一个类型。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18978243.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 71,
+      "target": "直到小的支气管内均有软骨存在。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "知道少的只见过内中有绒布存在"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "直到小的支气管内均有软骨存在。",
+        "pred": "知道少的只见过内中有绒布存在",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22558398.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 72,
+      "target": "希望你能改变心意",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "希望你能改变心意"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "希望你能改变心意",
+        "pred": "希望你能改变心意",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33667623.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 73,
+      "target": "本站主体结构经已完工封顶。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "本站主体结构均已完工封顶。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "本站主体结构经已完工封顶。",
+        "pred": "本站主体结构均已完工封顶。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22117241.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 74,
+      "target": "光果婆婆纳为车前草科婆婆纳属下的一个种。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "光果婆婆纳为车前草科婆婆纳属下的一个种。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "光果婆婆纳为车前草科婆婆纳属下的一个种。",
+        "pred": "光果婆婆纳为车前草科婆婆纳属下的一个种。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22103120.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 75,
+      "target": "正要去房间小床睡觉",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "正要去房间小床睡觉"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "正要去房间小床睡觉",
+        "pred": "正要去房间小床睡觉",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22185959.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 76,
+      "target": "但其他价含氧酸不遵循此规律。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "但其他价含氧酸不遵循此规律。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "但其他价含氧酸不遵循此规律。",
+        "pred": "但其他价含氧酸不遵循此规律。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22115078.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 77,
+      "target": "崔明逃到鲁国。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "崔明逃到鲁国。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "崔明逃到鲁国。",
+        "pred": "崔明逃到鲁国。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22072942.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 78,
+      "target": "充满哲学元素的实验性作品。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "充满哲学元素的实验性作品。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "充满哲学元素的实验性作品。",
+        "pred": "充满哲学元素的实验性作品。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_23863301.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 79,
+      "target": "马氏鳄亚科是一个颇为多样性的群组。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "马氏鳄亚科是一个颇为多样性的群组。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "马氏鳄亚科是一个颇为多样性的群组。",
+        "pred": "马氏鳄亚科是一个颇为多样性的群组。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22219050.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 80,
+      "target": "各级地方政府已经大幅减少健康步道的铺设。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "各级地方政府已经大幅减少健康步道的铺设。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "各级地方政府已经大幅减少健康步道的铺设。",
+        "pred": "各级地方政府已经大幅减少健康步道的铺设。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18984455.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 81,
+      "target": "福茨斯普林斯是位于美国加利福尼亚州科卢萨县的一个非建制地区。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "福茨普林斯是位于美国加利福尼亚州克鲁萨县的一个非建制地区。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "福茨斯普林斯是位于美国加利福尼亚州科卢萨县的一个非建制地区。",
+        "pred": "福茨普林斯是位于美国加利福尼亚州克鲁萨县的一个非建制地区。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18653869.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 82,
+      "target": "当她去世时，讣告也称她为「永不沉没的布朗夫人」。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "当她去世时，讣告也称她为永不沉默的布朗夫人。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "当她去世时，讣告也称她为「永不沉没的布朗夫人」。",
+        "pred": "当她去世时，讣告也称她为永不沉默的布朗夫人。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18733748.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 83,
+      "target": "此后京丰宾馆转隶中央军委机关事务管理总局招待局。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "该市镇在2017年1月1日时的人口为112人。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "此后京丰宾馆转隶中央军委机关事务管理总局招待局。",
+        "pred": "该市镇在2017年1月1日时的人口为112人。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33298264.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 84,
+      "target": "洛谢沃农村居民点是俄罗斯联邦沃罗涅日州巴甫洛夫斯克区所属的一个农村居民点。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "沃谢沃农村居民点是俄罗斯联邦沃罗涅日州巴甫洛夫斯克区所属的一个农村居民点。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "洛谢沃农村居民点是俄罗斯联邦沃罗涅日州巴甫洛夫斯克区所属的一个农村居民点。",
+        "pred": "沃谢沃农村居民点是俄罗斯联邦沃罗涅日州巴甫洛夫斯克区所属的一个农村居民点。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33017658.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 85,
+      "target": "二人育有两子。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "二人育有两子。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "二人育有两子。",
+        "pred": "二人育有两子。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22057294.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 86,
+      "target": "业务在全球经营食品的加工及贸易业务。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "业务在全球经营食物的加工及贸易业务。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "业务在全球经营食品的加工及贸易业务。",
+        "pred": "业务在全球经营食物的加工及贸易业务。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22155799.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 87,
+      "target": "有论者批评词中出现现代通俗口语「劲歌」，与整首歌的古典风格格格不入。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "有论者批评词中出现现代通俗口语劲歌，与整首歌的古典风格格格不入。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "有论者批评词中出现现代通俗口语「劲歌」，与整首歌的古典风格格格不入。",
+        "pred": "有论者批评词中出现现代通俗口语劲歌，与整首歌的古典风格格格不入。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18817154.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 88,
+      "target": "曲阜师范大学是山东省以师范教育为主的省属重点大学。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "曲阜师范大学是山东省以师范教育为主的省重点大学。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "曲阜师范大学是山东省以师范教育为主的省属重点大学。",
+        "pred": "曲阜师范大学是山东省以师范教育为主的省重点大学。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22073656.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 89,
+      "target": "然而此张单曲却成为转捩点。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "然而此张单曲却成为转捩点。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "然而此张单曲却成为转捩点。",
+        "pred": "然而此张单曲却成为转捩点。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22109481.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 90,
+      "target": "在第一季时故意不把医护室的门锁上让米高逃走。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "在第一季时故意不把医护室的门锁上让米高逃走。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "在第一季时故意不把医护室的门锁上让米高逃走。",
+        "pred": "在第一季时故意不把医护室的门锁上让米高逃走。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33629988.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 91,
+      "target": "蚌埠站位于中国安徽省蚌埠市淮河路。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "蚌埠站位于中国安徽省蚌埠市淮河路。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "蚌埠站位于中国安徽省蚌埠市淮河路。",
+        "pred": "蚌埠站位于中国安徽省蚌埠市淮河路。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33553464.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 92,
+      "target": "城站站主体位于位于城站路与西湖大道交叉路口东侧站前广场地下。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "城站站主体位于位于城站路与西湖大道交叉路口东侧站前广场地下。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "城站站主体位于位于城站路与西湖大道交叉路口东侧站前广场地下。",
+        "pred": "城站站主体位于位于城站路与西湖大道交叉路口东侧站前广场地下。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22120636.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 93,
+      "target": "南木藓为塔藓科南木藓属下的一个种。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "南木藓为塔藓科南木藓属下的一个种。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "南木藓为塔藓科南木藓属下的一个种。",
+        "pred": "南木藓为塔藓科南木藓属下的一个种。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22152583.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 94,
+      "target": "二",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "嗯。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "二",
+        "pred": "嗯。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_31336268.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 95,
+      "target": "中野富士见町站的铁路车站。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "中野富士见町站的铁路车站。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "中野富士见町站的铁路车站。",
+        "pred": "中野富士见町站的铁路车站。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22059461.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 96,
+      "target": "正巧母亲往外探头",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "正巧母亲往外探头。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "正巧母亲往外探头",
+        "pred": "正巧母亲往外探头。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18524189.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 97,
+      "target": "约旦河谷的东岸即为约旦。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "约旦河谷的东岸即为约旦。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "约旦河谷的东岸即为约旦。",
+        "pred": "约旦河谷的东岸即为约旦。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_22216108.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 98,
+      "target": "以学者顾骧为代表的人士认为晚年周扬值得尊敬的地方在于他彻底的反思精神。",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "以学者顾湘为代表的人士认为晚年周扬值得尊敬的地方在于他彻底的反思精神。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "以学者顾骧为代表的人士认为晚年周扬值得尊敬的地方在于他彻底的反思精神。",
+        "pred": "以学者顾湘为代表的人士认为晚年周扬值得尊敬的地方在于他彻底的反思精神。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_33608029.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 99,
+      "target": "沙滩巧固球运动目前是台湾巧固球协会推展的主要方向之一",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "common_voice_15_zh-CN",
+        "test"
+      ],
+      "filtered_resps": [
+        "沙滩槌球运动目前是台湾槌球协会推展的主要方向之一。"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "沙滩巧固球运动目前是台湾巧固球协会推展的主要方向之一",
+        "pred": "沙滩槌球运动目前是台湾槌球协会推展的主要方向之一。",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/3de6b2852acdc7f0aaff10a9eae94a974e68f0e896ee22642b7132ff6dfa57cb/zh-CN_test_0/common_voice_zh-CN_18997990.mp3",
+        "task": "zh-CN"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    }
+  ],
+  "total_samples": 10625
+}

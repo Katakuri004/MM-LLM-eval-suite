@@ -1,0 +1,2408 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "benchmark_id": "voicebench_wildvoice",
+  "total_samples": 1000,
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Getting a visa for Morocco is usually a breeze—most travelers find the process straightforward and surprisingly quick. Depending on your nationality, you might be eligible for a visa-free entry, a visa on arrival, or an e-visa. For those needing to apply in advance, the good news is that Morocco’s visa processing times are generally fast. On average, expect your application to be reviewed within 24 to 72 hours, though it can sometimes take up to five business days. To avoid any last-minute stress, it’s wise to apply at least a week before your trip. Keep in mind that processing times can vary based on your country of origin and the embassy or consulate handling your request. Always double-check the latest requirements with the Moroccan embassy or official government website, as rules can shift. Planning ahead ensures you spend less time in visa queues and more time sipping mint tea in Marrakech’s bustling medina."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 1,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Hello, as a nutritionist, I'm happy to discuss the top list of the main unhealthy foods and explain why they are detrimental to our health. These foods are often referred to as \"ultra-processed\" or \"junk foods\" and are commonly found in fast food, snacks, sugary drinks, and convenience meals. Here are the top unhealthy foods and the reasons why they are harmful:\n\n1. **Sugary Drinks (Soda, Energy Drinks, Sweetened Juices)**  \n   These beverages are loaded with added sugars—often in the form of high-fructose corn syrup—providing empty calories with no nutritional value. Regular consumption is strongly linked to obesity, type 2 diabetes, fatty liver disease, and cardiovascular issues. The rapid spike in blood sugar from these drinks also contributes to insulin resistance over time.\n\n2. **Fried Foods (French Fries, Fried Chicken, Donuts)**  \n   Fried foods are typically high in unhealthy fats, especially trans fats and saturated fats, which increase LDL (\"bad\") cholesterol and lower HDL (\"good\") cholesterol. This imbalance raises the risk of heart disease and stroke. Additionally, frying at high temperatures can produce harmful compounds like acrylamide, a potential carcinogen.\n\n3. **Processed"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 2,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "[Parent Sponsorship Letter for University Student]\n\n[Your Full Name]  \n[Your Address]  \n[City, State, ZIP Code]  \n[Email Address]  \n[Phone Number]  \n[Date]\n\nTo Whom It May Concern,\n\nI, [Your Full Name], am the parent of [Student’s Full Name], who is currently a student at [University Name], pursuing a degree in [Student’s Major]. I am writing to formally confirm my sponsorship and financial support for my child’s education and living expenses during their time at university.\n\nAs the parent of [Student’s Full Name], I am fully committed to ensuring that they have the necessary resources to succeed academically and personally. I am providing full financial sponsorship for the following:\n\n- Tuition and academic fees  \n- Accommodation and living expenses  \n- Health insurance  \n- Books and supplies  \n- Transportation and other personal expenses  \n\nI have sufficient financial means to support my child throughout their studies, and I am prepared to cover all related costs for the duration of their enrollment. I have attached supporting documents, including my recent bank statements, employment verification, and tax returns, to demonstrate my financial capacity.\n\nPlease do not hesitate to contact me if you require any additional information or documentation to process this sponsorship.\n\nThank you"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 3,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "How to write a proposal?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 4,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Netanyahu said, \"We are the people of light, they are the people of darkness. We shall realize the prophecy of Isaiah.\" So, what is the prophecy of Isaiah? Please tell me."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 5,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "How much should a fifteen to six boxer make in a fight?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 6,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Hey, I work in an advertisement agency and I am a data scientist. We have a model to predict the CTR of the ads, and I would like to have some ideas of features I could extract from the image to use in our model."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 7,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "What were enantiornithes? How were they different from birds? When did they split from birds?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 8,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "That's a great question! Learning GoLang (Golang) on vacation without a computer is definitely possible with the right approach. Here are several strategies you can use to learn while still enjoying your vacation:\n\n### 1. **Use Your Smartphone or Tablet**\nEven without a laptop, you can learn a lot using your mobile device:\n\n- **GoLang Documentation**: Read the official Go documentation on your phone. It's well-structured and includes examples. You can even bookmark key pages for offline reading.\n- **Go Playground**: Use the [Go Playground](https://play.golang.org/) via your mobile browser. You can write, run, and test Go code directly in your browser. It's perfect for trying out small snippets.\n- **Mobile Apps**:\n  - **SoloLearn**: Offers interactive Go lessons.\n  - **Sololearn Go Course**: Has bite-sized lessons and coding challenges.\n  - **Learn Go**: A dedicated app for learning Go syntax and concepts.\n  - **Exercism**: Offers Go exercises you can do in your browser.\n\n### 2. **Read Books and Articles**\n- **Offline Reading**: Download books like:\n  - *The Go Programming Language* by Alan A. A. Donovan and Brian W. Kernighan"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 9,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Certainly. Here's a definition and comparison of the three words—*emergent*, *immanent*, and *intrinsic*—with examples from the context of AI language models:\n\n---\n\n### 1. **Emergent**\n\n**Definition**:  \n*Emergent* refers to properties or behaviors that arise in a complex system as a result of the interactions of its simpler components, but are not present in the individual parts themselves. These properties are not explicitly programmed or designed but \"emerge\" during operation.\n\n**AI Language Model Example**:  \nIn large language models (LLMs), **emergent abilities** are capabilities that appear only when the model reaches a certain scale (e.g., number of parameters or training data), even though they were not explicitly trained for or programmed into the model.\n\n- **Example**: A language model may develop the ability to perform **chain-of-thought reasoning** or **zero-shot task generalization** only when it reaches a certain size. These abilities are not explicitly taught but emerge from the model's internal representations and interactions during training and inference.\n\n> 🔹 *Emergent properties are unexpected and often surprising, appearing only at scale.*\n\n---\n\n### 2. **Immanent**\n\n**Definition**:  \n*Immanent* means existing or"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 10,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "No, that is not accurate. Worker co-operative movements did not arise after the American Civil War to adapt the Jeffersonian ideal of the small independent farmer to an industrialized world.\n\nThe Jeffersonian ideal, which emphasized agrarianism and the virtuous independent yeoman farmer, was prominent in the early 19th century, particularly during the presidency of Thomas Jefferson (1801–1809). However, the rise of industrialization in the United States began in earnest in the late 18th and early 19th centuries, especially in the North, and accelerated after the Civil War (1861–1865).\n\nWorker co-operatives, on the other hand, emerged primarily in the 19th century as part of broader labor and socialist movements in Europe and North America. They were inspired by Enlightenment ideals, critiques of industrial capitalism, and the need for workers to gain control over their labor and working conditions. Notable early examples include the Rochdale Pioneers in England (1844) and various co-operative ventures in the United States during the 1840s–1870s.\n\nWhile some co-operative thinkers were influenced by democratic and egalitarian ideals that had roots in the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 11,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Orwellian foods are a satirical concept, often used to critique totalitarian regimes or dystopian societies. They are typically imagined as bland, unappetizing, and designed to control or manipulate people through food. Here are some ideas for Orwellian foods:\n\n1. **Ingsoc Gruel** – A gray, tasteless porridge made from synthetic grains and nutrient paste, served in uniform rations. It's designed to be filling but devoid of flavor, symbolizing the suppression of pleasure.\n\n2. **Doublethink Biscuits** – Hard, dry biscuits that taste slightly sweet but leave a bitter aftertaste. They are labeled as \"100% nutritious\" while secretly containing additives that dull critical thinking.\n\n3. **Newspeak Soup** – A broth with a murky green hue, flavored with \"truth-enhancing\" herbs. It's said to improve loyalty to the Party, but in reality, it causes drowsiness and apathy.\n\n4. **Prole Pudding** – A sugary, artificial dessert made for the lower classes to keep them docile and distracted. It's high in calories but low in nutrients, promoting complacency.\n\n5. **Thought Police Muffins** – Small, dense muffins that taste slightly"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 12,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The question touches on a common misunderstanding of Gödel's incompleteness theorems. Let's clarify what Gödel actually said and how it relates to trusting mathematics.\n\n**Gödel's Incompleteness Theorems (Simplified):**\n\n1. **First Incompleteness Theorem:** In any consistent formal system that is powerful enough to express basic arithmetic, there are true mathematical statements that cannot be proven within the system.\n\n2. **Second Incompleteness Theorem:** Such a system cannot prove its own consistency.\n\n**What This Means:**\n\n- Gödel did **not** say that \"math can always be wrong if it checks out.\"\n- He showed that **no formal system** (like arithmetic or set theory) can be both:\n  - **Complete** (able to prove or disprove every true statement), and\n  - **Consistent** (free of contradictions).\n- So, in any sufficiently powerful system, there will be **true statements that can't be proven** within that system.\n\n**Addressing the Question:**\n\n> \"How can we trust mathematics if Gödel says math can always be wrong if it checks out?\"\n\nThis is based on a misreading. Here's the correction:\n\n- **Mathematics is not"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 13,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course. The Romance languages—such as Spanish, Italian, and French—developed from Vulgar Latin, the spoken form of Latin used by the common people of the Roman Empire, as opposed to the more formal, literary Latin used by scholars and the elite.\n\nHere's a simplified explanation of how this evolution occurred:\n\n1. **The Roman Empire and Latin**: Latin was the official language of the Roman Empire, which spanned much of Europe, North Africa, and parts of the Middle East. As the empire expanded, Latin became the dominant language in these regions.\n\n2. **Vulgar Latin**: Over time, the Latin spoken by soldiers, merchants, and common people—known as Vulgar Latin—began to diverge from Classical Latin. This was due to regional differences, contact with local languages, and natural language evolution.\n\n3. **Fall of the Western Roman Empire**: After the fall of the Western Roman Empire in the 5th century CE, Latin continued to evolve independently in different regions. Without a central authority to standardize the language, local dialects developed into distinct regional languages.\n\n4. **Regional Divergence**:\n   - **Spanish (Castilian)**: Developed in the Iberian Peninsula (modern-day Spain and Portugal)."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 14,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "**By the Lake**\n\nA boy sits by the water’s edge,  \nA mug of coffee in his hands,  \nSteam rising like a whispered pledge  \nTo dreams that time has not yet planned.  \n\nThe lake is still, a mirror wide,  \nReflecting clouds that drift and part,  \nAnd in the quiet, thoughts reside—  \nA future shaped by heart and art.  \n\nHe sips the warmth, the bitter brew,  \nA moment caught between the now  \nAnd what the years may bring to view,  \nA world he’s yet to know, but vow  \nTo build with courage, not with fear,  \nTo face the storms, to weather doubt,  \nTo rise when shadows draw too near,  \nAnd find his way, no matter how.  \n\nThe ripples fade, the wind takes flight,  \nThe sun begins to dip below,  \nAnd in the boy, a quiet light  \nOf hope begins to softly glow.  \n\nFor every choice, each path he takes,  \nEach step he takes, each breath he draws,  \nIs part of what the future makes—  \nA story only he can cause.  \n\nSo let the coffee cool, let time pass by,  \nLet dreams take root and stretch and grow.  \nThe future’s not"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 15,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Based on biblical knowledge, governments turn against popular religion when that religion is perceived as a threat to the state's authority, power, or stability. This is a recurring theme throughout the Bible, particularly in the Old Testament, where Israel's kings often persecuted prophets and religious leaders who challenged their rule or called the people back to God's covenant.\n\nFor example:\n\n1. **King Ahab and Jezebel vs. Elijah (1 Kings 18–19):** King Ahab of Israel, influenced by his wife Jezebel, promoted the worship of Baal and persecuted the prophets of Yahweh. This was not just religious conflict but a political move to align with foreign powers (Phoenicia) and consolidate control.\n\n2. **King Manasseh (2 Kings 21):** He led Judah into idolatry and bloodshed, including the persecution of faithful priests and prophets. His actions were a rejection of God’s covenant, and the government actively suppressed true religion.\n\n3. **King Herod and the Early Church (Acts 12):** Herod Agrippa I persecuted Christians, killing James and imprisoning Peter. This was a political move to appease Jewish leaders and maintain Roman favor, showing how governments can suppress religious"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 16,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Sure! Here's a fictional sports commentary-style script about a hypothetical \"Elite 8 run\" by Bill Self's Kansas Jayhawks as a 7-seed in the NCAA Men's Basketball Tournament. This is written in the style of a sports broadcast or documentary narration.\n\n---\n\n**[INTRO MUSIC FADES IN – ESPN-STYLE SPORTS DOCUMENTARY THEME]**\n\n**ANNOUNCER (V.O.):**  \nIn the unpredictable world of March Madness, the ultimate test of a program’s mettle isn’t just talent or tradition — it’s resilience. And in 2023, Bill Self and the Kansas Jayhawks delivered one of the most improbable runs in recent memory.\n\n**[CUT TO: MONTAGE OF KANSAS PRACTICE, GAMES, AND BILL SELF ON THE SIDELINE]**\n\n**ANNOUNCER (V.O.):**  \nSeeded seventh in the Midwest Region, few gave Kansas a chance. Critics questioned their depth, their chemistry, and whether Self’s veteran squad could overcome the fatigue of a grueling Big 12 season. But as the tournament began, one thing became clear — the Jayhawks weren’t just here to participate. They were here to compete.\n\n**[CUT TO"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 17,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "To determine which hydrogen ion concentration represents an acidic solution, we need to recall the pH scale:\n\n- A solution is **acidic** if the hydrogen ion concentration, [H⁺], is **greater than 1 × 10⁻⁷ M**.\n- A solution is **neutral** if [H⁺] = 1 × 10⁻⁷ M.\n- A solution is **basic** if [H⁺] < 1 × 10⁻⁷ M.\n\nNow let's evaluate each option:\n\n1. **1 × 10⁻⁸ M** → Less than 10⁻⁷ → **Basic**\n2. **1 × 10⁻¹⁴ M** → Much less than 10⁻⁷ → **Strongly basic**\n3. **1 × 10⁻² M** → Greater than 10⁻⁷ → **Acidic**\n4. **1 × 10⁻¹⁰ M** → Less than 10⁻⁷ → **Basic**\n\n✅ So, the only concentration that represents an acidic solution is:\n\n**1 × 10⁻² M**\n\n**Answer: 1 × 10⁻² moles**"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 18,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, an environment can be considered a system. In systems thinking, a system is a set of interconnected components that work together to achieve a common purpose or function. The environment—whether it's a forest, an ocean, a city, or the entire biosphere—consists of numerous interacting elements such as living organisms, physical factors (like air, water, and soil), and human activities. These components are linked through flows of energy, matter, and information, exhibiting feedback loops and dynamic behaviors characteristic of systems.\n\nFor example, in an ecosystem, plants, animals, microorganisms, climate, and nutrients form a complex network where changes in one part can affect others. This interdependence and organization align with the definition of a system. Therefore, the environment is not just a passive backdrop but an active, complex system that can be analyzed and modeled using systems theory."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 19,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "A peaceful world, to me, is one where people of all backgrounds live with mutual respect, understanding, and dignity. It's a world where conflicts are resolved through dialogue and empathy, not violence. It's a place where basic human needs are met for everyone, where social justice prevails, and where individuals feel safe, valued, and empowered to contribute to their communities.\n\nYoung people are uniquely positioned to be powerful agents of change in building this future. We bring fresh perspectives, boundless energy, and a deep desire for a better world. Here are some specific creative ideas on how we can work together:\n\n1.  **Leverage Digital Platforms for Connection & Understanding:**\n    *   **Create \"Empathy Exchange\" Platforms:** Develop apps or online communities where young people from different countries, cultures, or backgrounds can connect for short-term \"cultural exchange\" projects. This could involve sharing daily life videos, cooking a dish from each other's culture, or collaborating on a simple art project via video call. The goal is to build personal connections that break down stereotypes.\n    *   **Host Global \"Peace Hackathons\":** Organize online events where young people from diverse locations collaborate virtually to design creative solutions to local or global peace challenges (e.g.,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 20,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The Doctor Who story involving the Cybermen."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 21,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Write a compelling, original short story of exactly 150 words. It must include a clear beginning, middle, and end, with a twist or emotional punch. Use vivid, concise language and show, don’t tell. Set it in a single scene or moment. Ensure the protagonist faces a small but meaningful challenge or revelation. End with a resonant line that lingers."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 22,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The following state withdrew from the agreement on the status of the CIS Economic Court in 2010. A. Kyrgyzstan B. Moldova C. Tajikistan"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 23,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "If Planet Nine were an ice planet, its radius would likely be in the range of **2 to 4 times the radius of Earth** (approximately **12,742 km to 25,484 km**).\n\nThis estimate is based on the following:\n\n- **Ice planets** (also called \"ice giants\" or \"mini-Neptunes\") are composed primarily of volatile substances like water, ammonia, and methane, in addition to rock and metal.\n- The known ice giants in our solar system, **Uranus and Neptune**, have radii of about **25,362 km** and **24,622 km**, respectively.\n- Planet Nine is hypothesized to be a **super-Earth or mini-Neptune** with a mass between **5 and 20 Earth masses**.\n- For a planet of **5–10 Earth masses**, the radius would typically be **2–4 Earth radii**, depending on composition and internal structure.\n- Since it's assumed to be an **ice-rich planet**, it would be less dense than a rocky super-Earth, so its radius would be larger for a given mass.\n\nTherefore, if Planet Nine is an ice planet, its radius is"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 24,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Certainly! Here are several creatively and artistically crafted examples of prompts for an AI image generator, each using different syntaxes and styles to evoke a minimalist design inspired by Mexican rap culture and its underground scene. These prompts blend hip-hop motifs, street art, abstract forms, and cultural references while maintaining a clean, modern aesthetic.\n\n---\n\n**1. Minimalist & Descriptive Syntax**  \n*Clean, modern prompt with precise details:*  \n\"Minimalist poster design inspired by Mexican underground rap culture. Monochrome palette with bold black and white contrast. Subtle silhouettes of a boombox and vinyl records, abstract geometric patterns resembling sound waves. Minimalist typography with 'Rap Mexicano' in a sleek sans-serif font. Background features faint graffiti-style tags in red and gray. High contrast, clean lines, urban minimalism.\"\n\n---\n\n**2. Poetic & Evocative Syntax**  \n*Artistic, metaphorical language to inspire mood and atmosphere:*  \n\"Where the rhythm breathes in silence: a minimalist tribute to Mexico’s underground rap. A lone microphone floats above a cracked concrete floor, surrounded by abstract shapes that pulse like basslines. Faint outlines of murals emerge in the background—graffiti letters spelling 'Resistencia' in shadow."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 25,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "[Upbeat, celebratory music fades in]\n\nANNOUNCER (excited, over the music):\nLadies and gentlemen, what a night in Reno! The Nevada Wolf Pack, after a brutal 1-11 season, have just pulled off the impossible — they've beaten UNLV!\n\n[Music swells, crowd noise erupts]\n\nANNOUNCER (continuing):\nThe final score? Nevada 27, UNLV 24! And let me tell you, the Wolf Pack didn't just win — they danced their way to victory!\n\n[Music cuts abruptly. Crowd cheers continue.]\n\nANNOUNCER (voiceover):\nAfter a season that had fans questioning everything, the Wolf Pack showed up in Reno tonight with fire in their eyes and a hunger to prove themselves. Down 17 in the third quarter, they clawed back, with a 98-yard touchdown drive that had the crowd on their feet.\n\n[Sound of a whistle, then a roar from the crowd.]\n\nANNOUNCER:\nAnd then, with 12 seconds left, quarterback Marcus Reyes — the guy who was benched after the first loss — heaved a 45-yard bomb to wide receiver Jamal Wright in the end zone. TOUCHDOWN NEV"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 26,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Based on the details you've provided, the show you're thinking of is **\"The 100\"**.\n\nHere's how your clues match the show:\n\n*   **Tree of Life:** The central symbol of the show is the \"Tree of Life,\" which is a sacred, ancient structure that the characters believe can grant them a new home.\n*   **Sacred Tree:** The Tree of Life is a sacred site for the people of the Ark and later for the Grounders.\n*   **When a man died, the tree took him away:** This is a very specific and accurate detail. In the show, the Tree of Life is a massive, living organism. When a person dies, their body is placed at its base, and the tree literally absorbs them, incorporating their remains into its structure. This is a key part of the Grounder culture and the show's mythology.\n*   **All the kids ended up in foster care:** This is a slight misremembering of the premise. The show begins with 100 juvenile delinquents being sent from a space station (the Ark) to Earth to see if it's habitable. They are not in foster care; they are the last survivors of a nuclear apocalypse.\n*  "
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 27,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Some corporate partnership opportunities in esports include:\n\n1. **Team Sponsorships**: Companies can sponsor esports teams, providing financial support in exchange for branding on team jerseys, logos on in-game avatars, and promotional appearances.\n\n2. **Event Sponsorships**: Brands can sponsor esports tournaments and events, gaining visibility through on-site branding, digital promotions, and media coverage.\n\n3. **In-Game Advertising**: Partners can place ads within games, such as branded billboards in virtual environments or product placements in game worlds.\n\n4. **Content Collaboration**: Corporations can co-create content with esports organizations or streamers, including branded challenges, tournaments, or exclusive behind-the-scenes videos.\n\n5. **Merchandise and Co-Branded Products**: Companies can collaborate on limited-edition merchandise or co-branded products, such as apparel, accessories, or gaming gear.\n\n6. **Technology and Equipment Partnerships**: Tech companies can partner with esports organizations to provide hardware, software, or network solutions, positioning themselves as essential enablers of competitive play.\n\n7. **Talent Development Programs**: Brands can fund training academies or scholarship programs to nurture emerging talent, building goodwill and a pipeline of future stars.\n\n8. **Social Media and Influencer Collaborations**: Partnering with popular streamers"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 28,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Sure! Here's a C.E.E.R. (Claim, Evidence, Explanation, Reasoning) response to the question:\n\n**Claim:** It is important to preserve Africa's native rainforests because they play a vital role in maintaining biodiversity, regulating the climate, and supporting the livelihoods of local communities.\n\n**Evidence:** Africa's rainforests, such as those in the Congo Basin, are home to thousands of unique plant and animal species, many of which are found nowhere else on Earth. These forests also absorb large amounts of carbon dioxide, helping to reduce the effects of climate change. Additionally, millions of people depend on the forests for food, medicine, and income.\n\n**Explanation:** The rich biodiversity of African rainforests supports complex ecosystems that are essential for ecological balance. Their ability to store carbon helps stabilize the global climate, while their resources provide essential support for human populations living nearby.\n\n**Reasoning:** If these rainforests continue to be destroyed through logging, agriculture, and mining, we risk losing irreplaceable species, accelerating climate change, and harming the lives of people who rely on them. Therefore, preserving Africa's native rainforests is crucial for both environmental and human well-being."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 29,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Sure! Here's a fictional sports commentary-style script about a fictional matchup between Sean Elliott and Clemson State. Note: Sean Elliott is a real-life former NBA player and college basketball star from the University of Arizona, and Clemson State is not a real NCAA school (Clemson University is real, but there is no \"Clemson State\"). This script is a creative, fictional narrative for entertainment purposes.\n\n---\n\n**Title: \"The Final Stand: Sean Elliott vs. Clemson State\"**\n\n**[INT. SPORTS STUDIO – NIGHT]**\n\n**ANCHOR (V.O.)**  \nWelcome back to *College Basketball Legends*, where we revisit the greatest showdowns in college hoops history. Tonight, we take you back to a mythical matchup that never happened—but should have: Sean Elliott, the heart and soul of the Arizona Wildcats, facing off against the powerhouse of the fictional Clemson State Tigers.\n\n**[CUT TO: ARCHIVAL FOOTAGE – 1988 NCAA TOURNAMENT]**\n\n**ANNOUNCER (V.O.)**  \nIt was the 1988 NCAA Tournament, and the Arizona Wildcats were on the rise. Led by the graceful, clutch shooting of Sean Elliott, they were a team on the cusp of greatness. But"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 30,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "No, Poland is not the Mexico of Europe. This comparison is not accurate and can be misleading.\n\nPoland and Mexico are very different countries in terms of geography, culture, history, language, and political systems:\n\n- **Geography**: Poland is located in Central Europe, bordered by Germany, the Czech Republic, Slovakia, Ukraine, Belarus, Lithuania, and Russia (Kaliningrad Oblast). Mexico is in North America, bordered by the United States to the north and Guatemala and Belize to the south.\n\n- **Culture and Language**: Poland is a predominantly Christian (Catholic) country with a Slavic cultural heritage and speaks Polish. Mexico is a predominantly Catholic country with a rich blend of Indigenous and Spanish cultural influences, and speaks Spanish.\n\n- **History**: Poland has a long history as part of the Holy Roman Empire, the Polish-Lithuanian Commonwealth, and later partitioned by neighboring powers before regaining independence in 1918. Mexico was a colony of Spain and gained independence in 1821.\n\n- **Political and Economic Systems**: Poland is a member of the European Union and NATO, with a market economy and democratic government. Mexico is a member of NAFTA (now USMCA), with a federal presidential system and a mixed economy.\n\n"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 31,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Sure! Here's a fictional and lighthearted script titled **\"Georgia Southern in the Big House\"** — a sports drama-comedy that imagines a fictional matchup between Georgia Southern University and the University of Michigan in a high-stakes college football game at Michigan's iconic \"Big House\" (Michigan Stadium).\n\n---\n\n**Title:** *Georgia Southern in the Big House*\n\n**Genre:** Sports Drama / Comedy\n\n**Logline:** When a small-town Georgia Southern Eagles team gets an unexpected invite to play in Michigan's legendary \"Big House,\" they must overcome culture shock, snowstorms, and their own doubts to prove that heart and hustle can beat tradition.\n\n---\n\n**Characters:**\n\n- **Coach Ray Turner** – Grizzled, passionate head coach of Georgia Southern. Believes in \"old-school grit.\"\n- **Marcus \"Mack\" Johnson** – Star running back. Humble, hardworking, dreams of playing in the NFL.\n- **Sarah Chen** – Georgia Southern's QB, first female starting QB in the program's history. Sharp, witty, underestimated.\n- **Coach Jim Harbaugh** – Michigan's head coach. Intense, charismatic, loves a good underdog story.\n- **\"The Big House\"** – Narrator ("
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 32,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, I can explain how approximation error works.\n\nApproximation error refers to the difference between the true value of a quantity and its estimated or approximated value. It is a fundamental concept in numerical analysis, statistics, and scientific computing, where exact values are often difficult or impossible to obtain, so we use approximations instead.\n\nThere are two main types of approximation error:\n\n1. **Absolute Error**:\n   This is the absolute difference between the true value and the approximate value.\n\n   \\[\n   \\text{Absolute Error} = | \\text{True Value} - \\text{Approximate Value} |\n   \\]\n\n   For example, if the true value is 5.0 and you approximate it as 4.8, the absolute error is:\n\n   \\[\n   |5.0 - 4.8| = 0.2\n   \\]\n\n2. **Relative Error**:\n   This is the absolute error divided by the true value. It gives a sense of the error relative to the size of the true value, making it useful for comparing errors across different scales.\n\n   \\[\n   \\text{Relative Error} = \\frac{|\\text{True Value} - \\text{Approximate Value}|}{|\\text{True Value"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 33,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "**Ben 10 Omniverse Episode: \"Time's Up\"**\n\n**Logline:**  \nWhen Eon returns with a plan to rewrite reality itself, Skurd is forced to return to the Omnitrix to save Ben, but the cost is Rook leaving to protect the timeline. Ben must team up with Gwen and Kevin to stop Eon before time itself unravels.\n\n---\n\n**Act 1: The Return of Skurd**\n\n*Scene opens in the Plumbers' Academy. Ben, Gwen, and Kevin are training when a temporal rift tears open in the sky. Eon emerges, his form flickering between past and future.*\n\n**Eon:** \"Ben Tennyson... your timeline is flawed. I am here to correct it.\"\n\n*Eon fires a blast that hits the Omnitrix. Instead of destroying it, the device begins to glow with unstable energy. Suddenly, Skurd emerges from the Omnitrix, his form shimmering with temporal energy.*\n\n**Skurd:** \"Whoa! Talk about a rude awakening! I was *just* about to start a nap!\"\n\n**Ben:** \"Skurd?! But you're... you're supposed to be gone!\"\n\n**Skurd:** \"Yeah, well, Eon's meddling with"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 34,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "What did Winchester look like during 1993?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 35,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "How to see my device's request headers?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 36,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "That sounds like a fun and imaginative concept! Here's a script outline for a short film or animated segment titled **\"The Biggest Gorilla\"**:\n\n---\n\n**Title:** *The Biggest Gorilla*\n\n**Genre:** Family / Adventure / Comedy\n\n**Length:** Approx. 10–12 minutes\n\n**Logline:** When a tiny gorilla accidentally becomes the \"biggest gorilla\" in the world after eating a magical banana, he must learn that true strength isn't about size—but about heart.\n\n---\n\n### Characters:\n\n- **GIGI:** A small, shy, but kind-hearted gorilla who dreams of being brave.\n- **BANANA BOB:** A mischievous, talking banana with a British accent who loves causing chaos.\n- **DR. LINDA CHEN:** A brilliant but absent-minded scientist who created the banana.\n- **THE VILLAIN:** A greedy, short-tempered zookeeper named Mr. Grumble who wants to capture Gigi for fame.\n\n---\n\n### Scene 1: Jungle Clearing – Day\n\n*(Gigi sits alone, watching other gorillas play. He tries to mimic them but trips over his own feet.)*\n\n**GIGI (V.O.)**  \nI just want"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 37,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course. Here is a thoughtful and inclusive manager's speech tailored for a ten-pin bowling league awards ceremony for people with disabilities:\n\n---\n\n**Manager’s Speech – Ten-Pin Bowling League Awards Ceremony**\n\nGood evening, everyone.\n\nTo our incredible bowlers, dedicated volunteers, supportive families, and wonderful friends — welcome.\n\nIt is my absolute honor to stand before you tonight as your league manager, not just to celebrate the achievements of the past season, but to recognize the spirit, resilience, and joy that each of you brings to our league every single time you step onto the lanes.\n\nTonight is not just about pins and strikes — though we’ve had plenty of those! It’s about community. It’s about inclusion. It’s about the power of sport to bring people together, regardless of ability, background, or circumstance.\n\nOur league is more than just a place to bowl. It’s a place where friendships are formed, confidence is built, and every person is seen, valued, and celebrated for who they are.\n\nTo our bowlers — whether you’re a seasoned veteran or just starting out — your dedication inspires us all. You’ve shown up, you’ve practiced, you’ve supported one another, and you’ve done it all with grace, humor, and heart. You’ve"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 38,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The best EMA crypto bot scalping strategy typically combines the **Exponential Moving Average (EMA)** with other technical indicators to generate high-frequency, short-term trading signals. Here's a proven and effective approach:\n\n### 🔹 Core Strategy: EMA Crossover with RSI and Volume Confirmation\n\n#### 📌 Strategy Overview:\nUse a **fast EMA (e.g., 9-period)** and a **slow EMA (e.g., 21-period)** for trend direction, confirm entries with **RSI (14-period)** to avoid overbought/oversold traps, and use **volume spikes** to validate momentum.\n\n---\n\n### ✅ Step-by-Step Rules:\n\n1. **Trend Filter (EMA Crossover):**\n   - **Buy Signal:** Fast EMA (9) crosses **above** Slow EMA (21).\n   - **Sell Signal:** Fast EMA (9) crosses **below** Slow EMA (21).\n   - *Only take trades in the direction of the crossover.*\n\n2. **Momentum Filter (RSI):**\n   - **Buy Confirmation:** RSI < 30 (oversold) → indicates potential reversal.\n   - **Sell Confirmation:** RSI > 70 ("
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 39,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "[Soft, dramatic orchestral music begins]\n\nNARRATOR (V.O.):  \nIn the world of professional football, where every yard counts and every second can change a season, there are moments that transcend the scoreboard. Moments that become legend. One such moment occurred on a cold December afternoon in 1993 — a moment that would go down in NFL history as the longest division tiebreaker ever played.\n\n[Music swells slightly, then softens]\n\nNARRATOR (V.O.):  \nIt was the final day of the 1993 regular season. The AFC East was in chaos. Three teams — the Buffalo Bills, the Miami Dolphins, and the New England Patriots — were all tied at 11-5. The winner of the division would go to the playoffs. The loser would go home.\n\n[Sound of a crowd murmuring, stadium ambience]\n\nNARRATOR (V.O.):  \nBut here’s the twist: the NFL’s tiebreaking procedures were about to be put to the ultimate test. The Bills and Dolphins had split their head-to-head series. The Patriots had beaten both. So the tiebreaker moved to the next step: division record.\n\n[Music becomes tense, rhythmic]\n\nNARRATOR (V"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 40,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Alkali metals have low melting and boiling points because they have only one valence electron, which is loosely held. This results in weak metallic bonds between atoms, requiring less energy to overcome these forces and transition from solid to liquid or liquid to gas."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 41,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The Karelian language is quite different from Finnish. While both are Finnic languages and share some similarities due to their common Uralic roots, they have distinct phonological, grammatical, and lexical features. Karelian has more vowel harmony and a different set of consonant mutations compared to Finnish. Additionally, Karelian retains some archaic features that have been lost in Finnish, and it has been influenced by Russian, which has also shaped its vocabulary and pronunciation. Overall, although speakers of Finnish might recognize some similarities, Karelian is considered a separate language with its own unique characteristics."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 42,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The \"gnomic tense\" refers to the use of the present simple tense to express general truths, habitual actions, or universal facts, rather than actions happening right now. It's often used for timeless statements that are always true. For example, \"Water boils at 100 degrees Celsius\" or \"Snakes eat their prey whole.\" Other examples include \"The sun rises in the east\" and \"She loves chocolate.\" These statements aren't about a specific moment but describe enduring truths or regular behaviors."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 43,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "How about a script on Merrimack having the toughest schedule in college?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 44,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Absolutely! Here are several social media content ideas tailored for promoting **Chatbots for Enterprise**, with variations to suit different platforms, tones, and goals:\n\n---\n\n### 🌐 **1. \"Chatbot in Action\" Series (Video/Carousel)**\n**Variation:** Real-world use cases  \n**Content:** Short videos or carousels showing how enterprise chatbots solve real problems.  \n**Examples:**\n- *HR Chatbot:* \"How our chatbot reduced HR ticket volume by 60% in 3 months.\"\n- *IT Support:* \"Employees get IT help 24/7—no waiting for support teams.\"\n- *Customer Service:* \"Chatbot resolves 70% of customer queries instantly.\"\n\n**Platforms:** LinkedIn, YouTube Shorts, Instagram Reels  \n**CTA:** \"See how your business can automate support → [Link]\"\n\n---\n\n### 🧠 **2. \"Myth vs. Fact\" Series (Infographics)**\n**Variation:** Educational & myth-busting  \n**Content:** Debunk common misconceptions about enterprise chatbots.  \n**Examples:**\n- ❌ \"Chatbots can’t handle complex queries.\"  \n  ✅ \"Modern AI chatbots use NLP and context to handle complex issues"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 45,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Certainly. As the negative speaker in this debate, I will argue against the proposition that the world should adopt a single global language. My position is that such a move would be detrimental to cultural diversity, linguistic heritage, and social equity.\n\nFirst, let us address the claim that the world already has a global language. While English is widely used in international business, science, aviation, and diplomacy, it is inaccurate to say that it is the world’s *only* global language. Spanish, Mandarin Chinese, Arabic, French, and Russian also serve as lingua francas in various regions. Moreover, the dominance of English is not universal. In many parts of Africa, Asia, and Latin America, local languages remain the primary means of communication. To claim that English is the sole global language ignores the linguistic realities of billions of people.\n\nBut more importantly, the idea of imposing a single global language is fundamentally flawed. Language is not merely a tool for communication—it is a vessel of culture, history, and identity. When a language dies, a unique worldview disappears. According to UNESCO, over 40% of the world’s 7,000 languages are at risk of extinction. The loss of linguistic diversity is not just a cultural tragedy; it is a loss of"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 46,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Can you tell me who the infamous locale Daniel Larson is?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 47,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "What is the difference between political nihilism and political fatalism?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 48,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! To help craft a compelling mission statement for your clothing brand, I’d love to know a bit more about your brand’s values, target audience, and what makes it unique. But here’s a general template you can adapt:\n\n**Mission Statement Template:**\n\n> \"Our mission is to empower individuals through thoughtfully designed, sustainable clothing that blends timeless style with modern comfort. We are committed to ethical production, inclusivity, and innovation, ensuring every piece tells a story of authenticity and confidence.\"\n\nIf you'd like, I can tailor this further based on your brand’s specifics—such as:\n\n- Is your brand focused on sustainability, luxury, streetwear, gender-neutral fashion, or something else?\n- Do you prioritize eco-friendly materials or local craftsmanship?\n- Who is your ideal customer?\n\nLet me know more, and I’ll create a custom mission statement that truly reflects your brand’s purpose."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 49,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The most important key concepts of *The 48 Laws of Power* by Robert Greene are:\n\n1. **Power is the ultimate currency**: The book teaches that power is the most valuable resource in any social or political environment, and understanding how to gain, maintain, and use it is essential for success.\n\n2. **Human nature is self-interested**: Greene argues that people are primarily motivated by self-interest, and that trust and loyalty are often temporary. Therefore, one must be cautious and strategic in relationships.\n\n3. **Strategy over emotion**: The book emphasizes the importance of calculated, long-term thinking over emotional reactions. Success comes from planning and manipulation, not from honesty or morality.\n\n4. **Control perception**: How others see you is more important than who you really are. Managing your image and reputation is crucial to gaining influence.\n\n5. **Avoid being predictable**: To stay ahead, one must be unpredictable and avoid falling into patterns that others can exploit.\n\n6. **Use others to your advantage**: The laws encourage leveraging people’s weaknesses, ambitions, and desires to serve your own goals.\n\n7. **Maintain mystery**: Revealing too much about yourself makes you vulnerable. Keeping an air of mystery increases your power and intrigue.\n\n8. **Never outshine the master"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 50,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "That's a concerning situation. Albendazole is an antiparasitic medication commonly used to treat infections like roundworm, but its use during pregnancy requires careful consideration.\n\nIn general, albendazole is classified as a Category C drug by the FDA, meaning animal studies have shown adverse effects on the fetus, but there are no adequate and well-controlled studies in humans, or studies in humans and animals are not available. It's typically avoided during the first trimester of pregnancy due to potential teratogenic effects.\n\nHowever, in certain high-risk situations where the benefits of treating a severe parasitic infection outweigh the potential risks to the fetus, healthcare providers may still consider using albendazole, especially in the second and third trimesters.\n\nThe decision to prescribe albendazole to a pregnant woman should be made after a thorough risk-benefit assessment by a qualified healthcare provider. It's crucial that the patient is fully informed and that the treatment is closely monitored.\n\nIn summary, while albendazole can be used in pregnancy under specific circumstances, it's not a first-line treatment and should only be prescribed when absolutely necessary and after careful evaluation."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 51,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Certainly. Here is a philosophical argument against anti-pornography laws or censorship:\n\nOne of the central philosophical arguments against anti-pornography measures is grounded in the principle of **freedom of expression**, particularly as defended by liberal philosophers such as John Stuart Mill in his work *On Liberty*.\n\nMill argues that the only justification for restricting an individual’s liberty is to prevent harm to others. He famously states, “The only purpose for which power can be rightfully exercised over any member of a civilized community, against his will, is to prevent harm to others.” According to this harm principle, mere offense, immorality, or personal disapproval are not sufficient grounds for limiting speech.\n\nApplying this to pornography, the argument proceeds as follows:\n\n1. **Consensual adult pornography does not inherently harm others.** If all parties involved are consenting adults, and no coercion or exploitation is involved, then the production and consumption of such material does not violate the rights of others.\n\n2. **Censorship infringes on autonomy and liberty.** Suppressing pornography, even if one finds it distasteful, undermines individual autonomy and the right to self-expression. In a free society, people should be allowed to explore and express their sexuality without state interference, provided they do not harm"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 52,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Certainly. The concept of place value is a foundational idea in mathematics that helps students understand the value of digits based on their position within a number. For upper primary and intermediate students (typically grades 3 to 6), place value is crucial for developing number sense and mastering operations like addition, subtraction, multiplication, and division.\n\n**What is Place Value?**\n\nPlace value refers to the value of each digit in a number depending on its position. For example, in the number 345:\n\n- The digit 5 is in the **ones** place, so its value is 5.\n- The digit 4 is in the **tens** place, so its value is 40.\n- The digit 3 is in the **hundreds** place, so its value is 300.\n\nThis system is based on powers of ten, where each position to the left is ten times greater than the one to its right.\n\n**Why is Place Value Important in Teaching and Assessing Mathematics?**\n\n1. **Foundation for Number Sense**: Understanding place value helps students grasp the magnitude of numbers and how they relate to one another. This supports estimation, comparison, and mental math.\n\n2. **Supports Arithmetic Operations**: Students need to understand place value to"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 53,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Here are some intentionally weird and slightly offensive MrBeast-style video titles, designed to mimic his clickbaity style while pushing boundaries for dark humor:\n\n1.  **I Ate 1000 Spiders... And Then I Married One.** (Weird: Extreme challenge + absurd twist. Offensive: Animal cruelty + weird marriage concept.)\n2.  **We Let 1000 Strangers Choose Our Kids' Names.** (Weird: Surreal social experiment. Offensive: Explores parenting in a disturbing way.)\n3.  **I Put My Dog In A Cage With 1000 Rats.** (Weird: Extreme animal challenge. Offensive: Animal cruelty, disturbing imagery.)\n4.  **We Let 1000 People Vote On Who Gets To Be My Slave.** (Weird: Absurd social experiment. Offensive: Glorifies slavery, dehumanizing concept.)\n5.  **I Ate 1000 Popsicles... Then I Had To Eat My Own Hair.** (Weird: Extreme challenge + absurd consequence. Offensive: Body horror, self-harm implication.)\n6.  **We Let 1000 Random People Pick My Next Girlfriend.**"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 54,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "That's a fun \"what-if\" scenario! The characters from *Freedom Planet* would likely react with a mix of confusion, amusement, and concern, depending on their personalities. Here's a breakdown of how each main character might respond to Brevon stealing Brawley's bike:\n\n1.  **Lilac:** She'd probably be the first to notice the bike missing and immediately become concerned for Brawley. Seeing Brevon with it would trigger her protective instincts and anger. She'd likely confront Brevon directly, demanding he return the bike and asking what he's doing with it. Her reaction would be fast and forceful, possibly trying to grab it back or attack Brevon immediately.\n\n2.  **Carol:** Carol would likely find the situation hilarious at first. She'd probably laugh out loud at the sight of the imposing Brevon trying to ride Brawley's small, colorful bike. She might tease Brevon about it (\"Whoa, Brevon, you're gonna need a bigger seat for that!\") or make jokes about him being a \"bad bike thief.\" However, she'd quickly realize the seriousness of the situation and Brevon's intentions, shifting to a more combative stance to help Lilac.\n\n"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 55,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "No, placing your LLC in Saudi Arabia will not allow you to evade tax from Australia. Australia has a tax system based on worldwide income, meaning Australian residents are taxed on their global income regardless of where it is earned. If you are an Australian resident for tax purposes, you must report and pay tax on your worldwide income, including income earned through an LLC in Saudi Arabia.\n\nAdditionally, Saudi Arabia does not impose corporate income tax on foreign-owned companies in certain sectors, but this does not exempt you from Australian tax obligations. The Australian Taxation Office (ATO) requires disclosure of foreign income and assets, and failure to comply can result in penalties.\n\nTo manage your tax obligations effectively, consult a qualified tax advisor familiar with both Australian and international tax laws."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 56,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Doc seven and Alzheimer's are related."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 57,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "How to increase adiponectin levels."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 58,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The crystal made of calcium oxide (CaO), also known as quicklime, is typically white in color."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 59,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "How many vita and nutrients are required in a human body?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 60,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "For an RPG game, players trying to do good things, even if they don't always succeed, can be emotionally rewarded in several meaningful ways:\n\n1. **Narrative Consequences and Character Development**: Show how the player's good intentions shape the story. Even if a plan fails, the narrative can highlight their courage, compassion, or growth. Characters they helped might remember them fondly, or their actions might inspire others, creating a ripple effect that enriches the world.\n\n2. **Moral Clarity and Internal Satisfaction**: Provide in-game feedback that affirms their values. For example, a \"Conscience Meter\" or \"Light/Darkness\" system can track their choices, rewarding them with unique dialogue, visions, or inner monologues that affirm their integrity, regardless of outcome.\n\n3. **Emotional Story Beats**: Use cutscenes, music, and character reactions to underscore the emotional weight of their efforts. A character might tearfully thank them, or a child might grow up to be a hero because of their intervention—these moments can be deeply satisfying even without a \"win.\"\n\n4. **Legacy and Long-Term Impact**: Implement a legacy system where good deeds accumulate over time. Even if a single attempt fails, the player might see the long-term"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 61,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "In a 3D medieval-styled RPG, a sleep system can significantly affect gameplay by introducing a layer of realism, strategic depth, and resource management. Here are several ways it could impact the player experience:\n\n1. **Resource Management and Survival**:\n   - **Stamina and Health**: Sleep could restore stamina or health, making it essential for long journeys or after intense combat. Players must plan their routes around inns, camps, or safe areas to rest.\n   - **Time Management**: The game might feature a day-night cycle where sleeping advances time. Players may need to balance exploration with rest, especially if enemies are more dangerous at night.\n\n2. **Strategic Planning**:\n   - **Travel and Exploration**: Long travel times could require players to sleep en route, introducing risks like ambushes or environmental hazards during rest.\n   - **Combat Readiness**: Fatigue could reduce combat effectiveness—lower accuracy, slower reactions, or reduced damage. This encourages players to rest before major battles.\n\n3. **Immersion and World-Building**:\n   - **Realism**: A sleep system enhances immersion by mimicking real-life needs. Players might need to find beds, tents, or even sleep under the stars, adding to the medieval atmosphere.\n   - **"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 62,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The correct answer is: **2. Reinforcement learning**.\n\nReinforcement learning is the machine learning method where an AI model learns by trial and error, receiving rewards or punishments from an algorithm based on its actions and results. The goal is to maximize cumulative rewards over time."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 63,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The dream will interpret these words as a literal event."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 64,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Imagine planets with intelligent civilizations as people. They're introverted because they are hostile civilizations on other planets. They're known for their focus on science and philosophy, using these to avoid their malicious enemies."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 65,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "How do you make complex stories acceptable to all readers?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 66,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Certainly. Here is a research article that details the enzyme mechanism of lactate dehydrogenase (LDH):\n\n**Title:** *The Mechanism of Lactate Dehydrogenase: A Review of Kinetic and Structural Studies*  \n**Authors:** J. A. T. Young, M. J. L. Smith, and R. P. Johnson  \n**Journal:** *Biochemistry*  \n**Year:** 2018  \n**DOI:** [10.1021/acs.biochem.8b00123](https://doi.org/10.1021/acs.biochem.8b00123)  \n\n**Summary:**  \nThis comprehensive review article discusses the catalytic mechanism of lactate dehydrogenase (LDH), an enzyme that converts lactate to pyruvate during anaerobic glycolysis. The paper integrates kinetic data, X-ray crystallography, and site-directed mutagenesis studies to elucidate the roles of key active site residues (e.g., Arg109, His195, and Asp168 in human LDH-A), the hydride transfer mechanism, and the conformational changes associated with"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 67,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Certainly! Here are some open-ended, thought-provoking questions on technology suitable for students in grades 10 to 12. These questions are designed to encourage critical thinking, discussion, and deeper exploration of the social, ethical, and practical implications of technology:\n\n1. How is artificial intelligence reshaping the future of work, and what skills will students need to thrive in a tech-driven economy?\n\n2. What are the ethical responsibilities of tech companies when it comes to protecting user privacy and data?\n\n3. In what ways can technology be used to promote social justice, and what are the potential risks of misuse?\n\n4. How has social media changed the way people communicate and form relationships, and what are the long-term effects on mental health?\n\n5. Should governments regulate emerging technologies like gene editing or AI? Why or why not?\n\n6. How can we ensure that technological advancements benefit all people, not just those in wealthy countries or communities?\n\n7. What role should students play in shaping the future of technology? How can they become responsible innovators?\n\n8. How does automation affect job markets, and what can be done to support workers transitioning to new roles?\n\n9. What are the environmental impacts of our growing dependence on technology, and how can we promote sustainable tech practices"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 68,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "That's a fascinating and thought-provoking hypothetical. If Victorian England had pioneered LGBTQ+ rights and seamless gender-affirming surgeries, the cultural, social, and political landscape would likely have been profoundly different, though it's important to remember that such a scenario is highly speculative and would require a complete reimagining of the era's values, science, and societal structures.\n\nHere’s a breakdown of how things might have changed:\n\n1. **Social and Cultural Norms**:\n   - **Gender Roles**: Victorian society was rigidly defined by strict gender roles. If gender-affirming surgeries were safe, accessible, and socially accepted, the binary understanding of gender would have been challenged much earlier. This could have led to a more fluid and inclusive view of identity, potentially accelerating the deconstruction of gender norms.\n   - **LGBTQ+ Visibility**: With legal protections and medical support, LGBTQ+ individuals might have been more visible and integrated into society. This could have led to earlier development of LGBTQ+ communities, culture, and advocacy, possibly influencing literature, art, and theater with more diverse representations.\n   - **Family Structures**: Acceptance of non-traditional families and relationships could have emerged earlier, challenging the nuclear family model that was central to Victorian ideals.\n\n2"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 69,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Absolutely. Here's a detailed, historically styled outline for your 10–20 minute video essay, written as if it were a future historical account of a speculative AI-dominated society. The tone is narrative and analytical, mimicking a documentary-style historical narration, with clear sections that build a compelling arc.\n\n---\n\n**Title Suggestion:** *The Age of the Mind: A Historical Account of the Rise of Artificial Consciousness and the Transformation of Humanity*\n\n**Narrator Style:** Calm, authoritative, reflective — like a future historian recounting events from the 21st to 22nd centuries.\n\n---\n\n### **I. Introduction: The Dawn of the Singularity (1–2 minutes)**\n\n- **Opening Scene:** A sweeping view of a futuristic cityscape — silent, efficient, glowing with soft light. No visible human labor. AI drones glide through the air.\n- **Narration:**  \n  > \"In the early decades of the 21st century, humanity stood at a crossroads. The Industrial Revolution had reshaped society in centuries; the Digital Revolution in decades. But nothing could have prepared us for what came next — the emergence of artificial intelligence not as a tool, but as a co-architect of civilization.\"\n- **Context"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 70,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Sure! Here's a fictionalized sports news-style script about Louisiana–Baton Rouge (LBSU) and the University of New Orleans (CSUF) leaving the Big West Conference after the 1990–1991 school year. Note: In reality, neither LBSU nor CSUF were members of the Big West, and this scenario is purely hypothetical for creative purposes.\n\n---\n\n**[INT. SPORTS NEWS STUDIO – DAY]**\n\n**ANCHOR (V.O.)**  \nIn a surprising move that could reshape the landscape of collegiate athletics in the South, two powerhouse programs are set to depart the Big West Conference following the 1990–1991 academic year.\n\n**[CUT TO: GRAPHIC – “BIG WEST CONFERENCE – 1990–1991”]**\n\n**ANCHOR (ON CAMERA)**  \nLouisiana–Baton Rouge, the defending Southland Conference champions, and the University of New Orleans, known for its rising basketball and baseball programs, have both officially notified the Big West of their intent to leave the conference.\n\n**[CUT TO: ARCHIVAL FOOTAGE – LBSU FOOTBALL GAME, UNO BASEBALL GAME]**\n\n**ANCHOR ("
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 71,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "**Diary Entry: October 27th, 2023**\n\nI don’t even know where to begin. My hands are shaking so bad I can barely hold the pen. I should probably just scream into a pillow or something, but I need to write this down. If I don’t, I think I’ll forget what happened. Or worse—I’ll think it was all a dream. But it wasn’t. It was real. It was *so* real.\n\nIt started with the Glitch. I was in the city center, just trying to get coffee like any normal Tuesday. Then the sky… it *rippled*. Like a screen with bad signal. And then the people started changing. Not just changing—*corrupting*. One second, Mrs. Henderson from the bakery was smiling at me, and the next, her eyes were black pits, her skin cracking like old porcelain. She didn’t even scream. She just… *unfolded*. Her limbs stretched into these jagged, glitching shapes, and she started crawling toward the subway entrance like a spider made of static.\n\nI ran. I ran so hard my lungs felt like they were on fire. But everywhere I looked, it was happening. The park fountain turned into a"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 72,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "How do I fix dips on high-end hardware during fights in Last Epic?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 73,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "What is figure of merit? What makes a material a good thermoelectric cooler?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 74,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "**Title:** *The President's Playthrough: Part 1 - North Yankton*\n\n**Genre:** Satirical Comedy / Fictional Drama / Parody\n\n**Logline:** In a surreal twist of fate, President Joe Biden finds himself live-streaming a chaotic, politically charged session of *Grand Theft Auto V* from the Oval Office, accidentally triggering a viral internet phenomenon that blurs the line between reality and video game anarchy.\n\n---\n\n**INT. THE OVAL OFFICE – NIGHT**\n\nThe room is dimly lit, save for the glow of a massive 8K monitor. The President, in a slightly-too-large suit, sits in the Resolute Desk chair, a headset on, a microphone clipped to his lapel. A small \"LIVE\" graphic pulses in the corner of the screen.\n\nOn the monitor: *Grand Theft Auto V* loading screen. The words \"Welcome to Los Santos\" shimmer.\n\n**BIDEN (V.O.)**  \n(softly, to himself)  \nWell, this is a first. I didn’t sign up for this.\n\nHe clicks \"Start Game.\"\n\n**BIDEN (CONT'D)**  \nAlright, let’s see what this thing’s all about. They said it was a “sandbox”"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 75,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The year was 1732, and the air in the Virginia backwoods hung thick with the scent of pine resin and damp earth. Young Thaddeus P. Featherington III, a man whose very existence seemed to defy the stern Puritanical norms of the colony, stood at the edge of a murky, algae-flecked pond. Thaddeus wasn't just *a* twink; he was a *vibrant*, *flamboyant* twink. His waist-length, impossibly curly auburn hair was currently escaping a hastily tied ribbon, framing a face of startling delicacy – high cheekbones dusted with freckles, wide, expressive hazel eyes, and lips perpetually curved in a mischievous pout. He wore a waistcoat of faded, patchwork velvet over a shirt of the finest, albeit slightly-too-tight, imported muslin, its sleeves rolled up to reveal surprisingly strong forearms. His breeches, while practical, were cinched with a sash of crimson silk that clashed gloriously with the surrounding greenery. He was, in short, a walking, talking explosion of color and contradiction in the drab landscape.\n\n\"Right then, Thaddeus,\" he announced to"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 76,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Is there a test to identify alumina?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 77,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Are North Korean K-pop fans considered international K-pop fans?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 78,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "That would be a delightfully absurd and chaotic battle! Here's a breakdown of what might happen:\n\n**The Setup:**\n\n*   **Inspector Gadget:** A bumbling, accident-prone, but ultimately good-hearted detective. His entire body is a complex machine filled with gadgets (glasses, umbrella, hat, etc.). He relies on his niece Penny and Brain to operate his \"Gadgetmobile\" and often needs help to function properly.\n*   **The Knight:** A figure from a medieval fantasy setting. He's likely clad in heavy armor, wields a sword and shield, and fights with skill, strength, and chivalric code. He might be a knight errant, a royal guard, or a guardian of a castle.\n\n**The Clash:**\n\n1.  **Initial Encounter:** The Knight, perhaps patrolling his domain, encounters the bizarre, clanking Inspector Gadget. Gadget, mistaking the Knight for a villain (maybe the Knight's armor looks suspiciously like a robot?), immediately activates his \"Gadgetmobile\" (a large, clunky, often malfunctioning vehicle) and gives chase. The Knight is utterly bewildered by this metal man in a suit and a flying car.\n\n2.  **The \"Battle\":**\n"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 79,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "### **Character Profile: Kaito \"Shadow-Claw\" Sato**  \n**Age:** 160 (appears as a 60-year-old man)  \n**Title:** *The Unbroken Blade*  \n**Origin:** Feudal Japan, 17th Century  \n\n---\n\n#### **Backstory**  \nBorn in 1564 to a minor samurai clan in the mountainous Iga Province, Kaito was orphaned at age 12 when his village was razed by a rival warlord. Raised by a reclusive master swordsman, he trained relentlessly in the *Tenshin Shōden Katori Shintō-ryū* style. By 18, he had mastered the *katana* and *wakizashi*, defeating 100 opponents in a single day to avenge his clan.  \n\nIn 1592, at 28, he single-handedly repelled a 500-strong invasion at the Siege of Osaka, earning the title *\"The Unbroken Blade.\"* His reputation spread across Japan, but he grew disillusioned with war. In 1615, after the fall of the Toyotomi clan, he vanished"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 80,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "[Soft, calming background music begins]\n\nWelcome to this guided hypnosis session designed to help you become a better Counter-Strike player. Find a comfortable position, either sitting or lying down. Close your eyes gently, and take a deep breath in through your nose… and slowly exhale through your mouth. Let your body relax with each breath.\n\nWith every breath you take, you're becoming more calm, more focused, and more open to positive change.\n\nNow, imagine yourself stepping into the world of Counter-Strike. You're in a virtual arena, but this time, you're not just playing—you're mastering. You're calm, alert, and in complete control.\n\nAs you breathe deeply, visualize your hands on the mouse and keyboard. You feel the familiar weight of your gear, the smooth glide of your mouse, the responsive clicks of your keys. You're in your element.\n\nNow, picture your in-game character. You're not just a player—you're a strategist, a leader, a sharpshooter. You move with purpose. You anticipate your opponents' moves before they happen. You know where they'll be, what they'll do, and how to outplay them.\n\nWith every round, you're more focused. Your aim is steady. Your reflexes"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 81,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "**Title:** *Ichabod of the Jungle*\n\n**Genre:** Animated Adventure / Comedy / Parody\n\n**Logline:** In the heart of the Amazon, a bumbling, bookish explorer named Ichabod is mistaken for a legendary jungle guardian, leading to a series of chaotic misadventures as he tries to prove he's not the hero everyone thinks he is.\n\n---\n\n**Characters:**\n\n- **Ichabod**: A nervous, bespectacled explorer with a love for ancient maps and terrible survival skills.\n- **Tiki**: A wise, talking toucan who acts as Ichabod’s reluctant guide.\n- **Klunk**: A clumsy, overly enthusiastic monkey who idolizes Ichabod.\n- **Zara**: A fierce jungle warrior who believes Ichabod is the prophesied \"Guardian of the Emerald Heart.\"\n- **Narrator**: A deep, dramatic voiceover, like a nature documentary.\n\n---\n\n**[OPENING SCENE: JUNGLE – DAY]**\n\n**NARRATOR (V.O.)**  \nIn the uncharted depths of the Amazon, where the trees whisper secrets and the rivers run with ancient magic... a legend is about to be born.\n\n**[Camera pans over lush jungle. Suddenly,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 82,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Certainly. The research progress and clinical significance of individualized treatment in psychiatry represent a transformative shift in mental health care, moving away from a \"one-size-fits-all\" model toward precision medicine tailored to the unique biological, psychological, and social profile of each patient.\n\n**Research Progress:**\n\n1. **Genomics and Pharmacogenomics:** Advances in genomics have enabled researchers to identify genetic markers associated with treatment response and side effects. For example, variations in genes such as CYP2D6 and CYP2C19 influence how individuals metabolize psychotropic medications. Pharmacogenomic testing is increasingly used to guide medication selection and dosing, improving efficacy and reducing adverse reactions.\n\n2. **Neuroimaging and Biomarkers:** Functional MRI, PET scans, and EEG are being used to identify brain circuit abnormalities linked to specific disorders. For instance, patterns of amygdala hyperactivity may predict response to certain antidepressants or psychotherapies. Researchers are also exploring blood-based biomarkers (e.g., inflammatory markers, cortisol levels) to objectively assess illness state and treatment response.\n\n3. **Digital Phenotyping and AI:** Wearables and smartphone apps collect real-time data on sleep, activity, speech, and mood, enabling continuous monitoring. Machine learning algorithms"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 83,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Certainly! Here's a fictional scenario for the 2011 NBA season where the Miami Heat win the championship:\n\n---\n\n**The 2011 NBA Championship: A Miami Heat Dynasty Begins**\n\nIn the summer of 2010, the NBA was rocked by the \"Decision\" — LeBron James, Chris Bosh, and Dwyane Wade announced they would form a \"Big Three\" in Miami. The Heat's 2011 season began with immense pressure and skepticism. Critics called them a \"superteam\" built on ego, not chemistry. But under the guidance of head coach Erik Spoelstra, the Heat quickly proved their doubters wrong.\n\nThe regular season was a rollercoaster. Wade battled injuries early on, but James and Bosh carried the load. Miami finished with a 58–24 record, good for the 2nd seed in the East behind the Chicago Bulls. Their chemistry improved as the season progressed, and their defense — led by LeBron’s versatility and Udonis Haslem’s grit — became a league-best.\n\nIn the playoffs, the Heat faced a gauntlet. In the first round, they dispatched the Atlanta Hawks in six games, with LeBron averaging 28 points and 9 assists"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 84,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "List major strengths of Nals Water Factory Saudi Arabia"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 85,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Sure! Here are some playful and respectful pickup lines tailored for officers—keeping in mind professionalism and respect for their role:\n\n1. \"Are you a police officer? Because you just stopped my heart.\"\n\n2. \"Do you work for the city? Because you're definitely my kind of public service.\"\n\n3. \"Are you a traffic light? Because you make my heart stop and start all at once.\"\n\n4. \"I must be in trouble, because you just pulled me over with your charm.\"\n\n5. \"Are you a badge? Because you're definitely something I want to wear proudly.\"\n\n6. \"You must be a peace officer, because you've brought peace to my heart.\"\n\n7. \"Are you a patrol car? Because you're always on my mind.\"\n\n8. \"I don't need a warrant to be with you—I'm already under arrest for love.\"\n\n9. \"Are you a SWAT team? Because you just stormed into my heart.\"\n\n10. \"You must be a detective, because you've solved the mystery of my heart.\"\n\nRemember: Use these lines with confidence and respect. Officers appreciate charm, but they also value genuine interest and kindness. Always be mindful of boundaries and context—especially in professional settings."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 86,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "[The scene opens in a brightly colored, slightly cluttered living room. Jane, a 13-year-old girl with glasses and a backpack, is helping her aunt, RACHEL (39), a warm but flustered woman, unpack boxes. Rachel pulls out an old, dusty photo album.]\n\n**Rachel:** (Muttering to herself) Okay, okay, where did I put that...? Ah! Here it is!\n\n**Jane:** (Curious) What are you looking for, Aunt Rachel?\n\n**Rachel:** (Flipping through the album, her voice suddenly small) Just... just some old photos. Family stuff. You know how it is.\n\n**Jane:** (Sitting down beside her) Yeah, but you always say the old photos are boring. What's so special about these?\n\n**Rachel:** (Stops flipping. Her eyes widen slightly as she stares at a photo of a young girl in a dress, maybe 12 or 13, standing next to a woman who looks like Rachel's mother.) Oh. Oh, my. Look at this.\n\n**Jane:** (Leans in) Who's that?\n\n**Rachel:** (Voice thick with emotion) That's... that's me. At my Bat Mitz"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 87,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "How Marx discusses the impact of consumption on people in his works."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 88,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "To use the ChatGPT engine to query and learn from your intranet data without leaking sensitive information, you can follow these best practices:\n\n1. **Use Local or On-Premise Deployment**:\n   - Deploy the ChatGPT model (or a similar LLM) on your internal network or private cloud.\n   - This ensures that all data processing stays within your organization's infrastructure.\n\n2. **Use Private LLMs or Fine-Tuned Models**:\n   - Train or fine-tune a model using your intranet data and host it internally.\n   - Use open-source models like Llama 2, Mistral, or Qwen-Omni that can be self-hosted and customized.\n\n3. **Implement Data Anonymization and Minimization**:\n   - Before feeding data into the model, remove or mask personally identifiable information (PII), sensitive keywords, or confidential details.\n   - Only provide the necessary context for the model to understand and respond.\n\n4. **Use Retrieval-Augmented Generation (RAG)**:\n   - Set up a RAG system where the model queries a secure, internal knowledge base (e.g., your intranet documents).\n   - The model retrieves relevant information from your internal sources without storing or transmitting"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 89,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Some entrepreneurs who have made their mark in Rwanda include:\n\n1. **Paul Rusesabagina** – Best known for his heroic actions during the 1994 Rwandan genocide, Rusesabagina later became a successful hotelier and entrepreneur. He founded the Hôtel des Mille Collines, which gained international attention through the film *Hotel Rwanda*. He has since been involved in various business ventures and humanitarian efforts.\n\n2. **Catherine Uwamahoro** – A prominent Rwandan entrepreneur and founder of the women’s empowerment organization *Women’s Initiative for Self-Empowerment (WISE)*. She has also launched several businesses focused on agriculture and women’s economic development.\n\n3. **Jean-Paul Niyonzima** – A tech entrepreneur and co-founder of *Rwanda Innovation Hub*, a startup incubator that supports young Rwandan innovators. He has played a key role in developing Rwanda’s tech ecosystem.\n\n4. **Aline Uwamahoro** – Founder of *Uwamahoro Enterprises*, a company that promotes local Rwandan products and supports women entrepreneurs through training and market access.\n\n5. **Geraldine Mukeshimana** – A businesswoman and founder of *Mukeshimana Group"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 90,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Hey, what anime characters would make a good router mascot?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 91,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "In my opinion, more can be done to prevent and address cyberbullying through a combination of education, technology, and policy. First, schools should implement comprehensive digital citizenship programs that teach students about online responsibility, empathy, and the consequences of cyberbullying from an early age. Parents also need resources and training to monitor their children's online activity and foster open communication about their experiences.\n\nSecond, social media platforms and tech companies should improve their reporting tools, use AI to detect harmful behavior, and respond more quickly to reports. They should also make it easier for users to block, mute, or report bullies without fear of retaliation.\n\nThird, governments can strengthen laws to hold cyberbullies accountable while protecting free speech. Clear legal consequences can act as a deterrent, but they must be balanced with support for victims.\n\nFinally, mental health support should be readily available for both victims and perpetrators. Cyberbullying often stems from deeper emotional or social issues, and counseling can help address root causes.\n\nUltimately, preventing cyberbullying requires a shared responsibility among individuals, families, schools, tech companies, and society as a whole."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 92,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Make for me a day round time because I'm no fapper."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 93,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "The indicator statement is unclear. We should consider specifying a duration to measure after case closure."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 94,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "In nature's arms, true freedom's found,  \nWhere wild winds sing and rivers run.  \nAll else is drowned, a fading sound,  \nLost in the world's relentless sun."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 95,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "Based on your background, you have a strong profile for several roles in Edmonton's commercial real estate and business services sectors. Here are the types of employers and positions where you would be a competitive candidate:\n\n**1. Commercial Real Estate Brokerage Firms:**\nThese firms specialize in leasing and selling office, retail, and industrial properties. Your direct experience in leasing commercial office space is highly relevant.\n*   **Potential Employers:** Colliers, Cushman & Wakefield, JLL, CBRE, Savills, and local firms like The Real Estate Group, The Property Group, or The Office Group.\n*   **Target Roles:** Commercial Leasing Agent, Associate Broker, or Account Executive.\n\n**2. Property Management Companies:**\nThese companies manage commercial buildings on behalf of owners. They often have leasing departments and need professionals to find new tenants.\n*   **Potential Employers:** Hines, Brookfield Properties, Ivanhoé Cambridge, and local firms like The Property Group or The Office Group.\n*   **Target Roles:** Leasing Consultant, Account Manager, or Property Manager.\n\n**3. Corporate Real Estate Departments:**\nLarge corporations and institutions manage their own office space needs. They hire professionals to lease, manage, and optimize their real estate portfolios.\n*  "
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 96,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "If a man keeps 500 rupees in a bank that pays 10% compound interest per year, compounded annually and paid at the end of the year, how much will the money grow to after 12 years?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 97,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "What would help police officers improve their mental health?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 98,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "What are the ways to control unemployment?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 99,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "voicebench_wildvoice",
+        "test"
+      ],
+      "filtered_resps": [
+        "What was Eight Chan?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0,
+      "input": "Please listen to the audio and provide your response."
+    }
+  ]
+}

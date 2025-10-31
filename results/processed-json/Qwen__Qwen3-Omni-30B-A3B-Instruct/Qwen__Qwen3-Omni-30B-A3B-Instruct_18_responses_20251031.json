@@ -1,0 +1,2508 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "benchmark_id": "voicebench_mmsu_chemistry",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 1,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 2,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 3,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 4,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 5,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 6,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 7,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 8,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 9,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 10,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "To calculate the pH of a solution, we use the formula:\n\n$$\n\\text{pH} = -\\log[H^+]\n$$\n\nGiven:  \n$$\n[H^+] = 2.7 \\times 10^{-6} \\, \\text{M}\n$$\n\nNow calculate:\n\n$$\n\\text{pH} = -\\log(2.7 \\times 10^{-6})\n$$\n\nBreak it down:\n\n$$\n\\log(2.7 \\times 10^{-6}) = \\log(2.7) + \\log(10^{-6}) = \\log(2.7) - 6\n$$\n\n$$\n\\log(2.7) \\approx 0.431\n$$\n\nSo:\n\n$$\n\\log(2.7 \\times 10^{-6}) \\approx 0.431 - 6 = -5.569\n$$\n\nThen:\n\n$$\n\\text{pH} = -(-5.569) = 5.569 \\approx 5.57\n$$\n\nSo the correct answer is:\n\n**B. 5.57**\n\n✅ **Answer: B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 11,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "To solve the quadratic equation:\n\n$$\nx^2 - 7x - 10 = 0\n$$\n\nWe can use the **quadratic formula**:\n\n$$\nx = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n$$\n\nFor the equation $x^2 - 7x - 10 = 0$, the coefficients are:\n\n- $a = 1$\n- $b = -7$\n- $c = -10$\n\nNow plug into the formula:\n\n$$\nx = \\frac{-(-7) \\pm \\sqrt{(-7)^2 - 4(1)(-10)}}{2(1)} = \\frac{7 \\pm \\sqrt{49 + 40}}{2} = \\frac{7 \\pm \\sqrt{89}}{2}\n$$\n\nSo the solutions are:\n\n$$\nx = \\frac{7 + \\sqrt{89}}{2} \\quad \\text{and} \\quad x = \\frac{7 - \\sqrt{89}}{2}\n$$\n\nNow, let's approximate $\\sqrt{89}$. Since $9^2 = 81"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 12,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 13,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 14,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 15,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 16,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 17,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 18,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 19,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 20,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 21,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 22,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 23,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 24,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 25,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 26,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 27,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 28,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 29,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 30,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 31,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 32,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 33,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 34,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 35,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 36,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 37,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "To solve this problem, we need to analyze the **Wurtz reaction** and calculate the amount of **hexane** produced from **n-propyl chloride** with a **70% yield**.\n\n---\n\n### Step 1: Understand the Wurtz Reaction\n\nThe Wurtz reaction involves the coupling of two alkyl halides using sodium metal in dry ether to form a higher alkane:\n\n\\[\n2R-X + 2Na \\rightarrow R-R + 2NaX\n\\]\n\nFor **n-propyl chloride** (\\(C_3H_7Cl\\)), the reaction is:\n\n\\[\n2C_3H_7Cl + 2Na \\rightarrow C_6H_{14} + 2NaCl\n\\]\n\nSo, **two molecules of n-propyl chloride** produce **one molecule of hexane**.\n\n---\n\n### Step 2: Molar Masses\n\n- Molar mass of **n-propyl chloride** (\\(C_3H_7Cl\\)):\n  - C: 3 × 12.01 = 36.03\n  - H: 7 × 1.008 = 7.056\n  - Cl:"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 38,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 39,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 40,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "To solve the quadratic equation:\n\n$$\n6x^2 - 7x - 20 = 0\n$$\n\nWe can use the **quadratic formula**:\n\n$$\nx = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n$$\n\nFor the equation $6x^2 - 7x - 20 = 0$, the coefficients are:\n\n- $a = 6$\n- $b = -7$\n- $c = -20$\n\nNow plug into the formula:\n\n$$\nx = \\frac{-(-7) \\pm \\sqrt{(-7)^2 - 4(6)(-20)}}{2(6)}\n$$\n\n$$\nx = \\frac{7 \\pm \\sqrt{49 + 480}}{12}\n$$\n\n$$\nx = \\frac{7 \\pm \\sqrt{529}}{12}\n$$\n\n$$\n\\sqrt{529} = 23\n$$\n\nSo:\n\n$$\nx = \\frac{7 \\pm 23}{12}\n$$\n\nNow compute both solutions:\n\n1. $x = \\frac{7 + 23"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 41,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 42,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 43,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 44,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 45,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 46,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "To find the freezing point of a solution, we use the formula for freezing point depression:\n\n\\[\n\\Delta T_f = i \\cdot K_f \\cdot m\n\\]\n\nWhere:\n- \\(\\Delta T_f\\) is the freezing point depression,\n- \\(i\\) is the van't Hoff factor (number of particles the solute dissociates into),\n- \\(K_f\\) is the freezing point depression constant for water (\\(1.86^\\circ \\text{C} \\cdot \\text{kg/mol}\\)),\n- \\(m\\) is the molality of the solution (moles of solute per kilogram of solvent).\n\n---\n\n**Step 1: Identify the solute and solvent**\n\n- Solute: Alcohol (we assume it's ethanol, C₂H₅OH)\n- Solvent: Water\n\nEthanol is a **non-electrolyte**, so it does **not dissociate** in water → \\(i = 1\\)\n\n---\n\n**Step 2: Calculate moles of ethanol**\n\nMolar mass of ethanol (C₂H₅OH) = \\(2(12.01) + 6(1.008) + 16.00 + 1.008"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 47,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 48,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 49,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 50,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 51,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 52,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 53,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 54,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 55,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 56,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "To solve this problem, we use the **Ideal Gas Law**:\n\n$$\nPV = nRT\n$$\n\nWe are given:\n\n- Mass of H₂S = 0.17 g  \n- Temperature $ T = 27^\\circ \\text{C} = 27 + 273 = 300 \\text{ K} $  \n- Pressure $ P = 380 \\text{ torr} $  \n- We need to find volume $ V $ in liters  \n- R (gas constant) = $ 62.3637 \\text{ L·torr·mol}^{-1}\\text{·K}^{-1} $ (since pressure is in torr)\n\n---\n\n### Step 1: Find moles of H₂S\n\nMolar mass of H₂S = $ 2(1.01) + 32.06 = 2.02 + 32.06 = 34.08 \\text{ g/mol} $\n\n$$\nn = \\frac{\\text{mass}}{\\text{molar mass}} = \\frac{0.17}{34.08} \\approx 0.0"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 57,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 58,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 59,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "Let’s solve the problem step by step.\n\nWe are mixing:\n\n- **x ounces** of a silver alloy that is **28% silver**.\n- **24 ounces** of another silver alloy that is **8% silver**.\n- The result is a new alloy that is **20% silver**.\n\nWe need to find **x**, the number of ounces of the 28% alloy.\n\n---\n\n### Step 1: Set up the equation\n\nTotal silver from both alloys = Silver in final mixture.\n\nSilver from first alloy: 0.28x  \nSilver from second alloy: 0.08 × 24 = 1.92  \nTotal silver: 0.28x + 1.92\n\nTotal weight of new alloy: x + 24  \nThis new alloy is 20% silver, so total silver = 0.20(x + 24)\n\nSet up the equation:\n\n$$\n0.28x + 1.92 = 0.20(x + 24)\n$$\n\n---\n\n### Step 2: Solve the equation\n\n$$\n0.28x + 1.92 = 0.20x + "
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 60,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 61,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 62,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 63,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 64,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 65,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 66,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "The equilibrium polarization of nuclear spins in a magnetic field is given by the Boltzmann distribution and can be calculated using the formula:\n\n\\[\nP = \\frac{\\gamma \\hbar B_0}{2k_B T}\n\\]\n\nwhere:\n- \\( \\gamma \\) is the gyromagnetic ratio of the nucleus,\n- \\( \\hbar \\) is the reduced Planck's constant,\n- \\( B_0 \\) is the magnetic field strength,\n- \\( k_B \\) is the Boltzmann constant,\n- \\( T \\) is the temperature.\n\nFor \\( ^{13}\\text{C} \\), the gyromagnetic ratio \\( \\gamma \\) is approximately \\( 6.728 \\times 10^7 \\, \\text{rad s}^{-1} \\text{T}^{-1} \\).\n\nWe can use the simplified formula for polarization:\n\n\\[\nP \\approx \\frac{\\gamma \\hbar B_0}{2k_B T}\n\\]\n\nBut more commonly, the polarization is approximated as:\n\n\\[\nP = \\frac{\\mu B_0}{k_B T}\n\\]\n\nwhere \\( \\mu \\) is the magnetic moment of the nucleus.\n\nFor \\( ^{13"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 67,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 68,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 69,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 70,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 71,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 72,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 73,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 74,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 75,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 76,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 77,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 78,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 79,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "To calculate the **normality** of the solution, we use the formula:\n\n$$\n\\text{Normality (N)} = \\frac{\\text{Number of equivalents of solute}}{\\text{Volume of solution in liters}}\n$$\n\nBut in titration, we use the **equivalence point**:\n\n$$\nN_1 V_1 = N_2 V_2\n$$\n\nBut here, we are given:\n\n- Volume of acid (unknown normality) = 40 mL\n- Mass of KOH = 0.56 g\n- KOH is a base, and we can find its **equivalents**.\n\n---\n\n### Step 1: Find equivalents of KOH\n\n$$\n\\text{Equivalent weight of KOH} = \\frac{\\text{Molecular weight}}{1} = \\frac{39 + 16 + 1}{1} = 56 \\, \\text{g/equivalent}\n$$\n\n$$\n\\text{Number of equivalents of KOH} = \\frac{0.56 \\, \\text{g}}{56 \\, \\text{g/equivalent}} = 0.01 \\, \\text{equival"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 80,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 81,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 82,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 83,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 84,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 85,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 86,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 87,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 88,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 89,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 90,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 91,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 92,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 93,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 94,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 95,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 96,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 97,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 98,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 99,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "voicebench_mmsu_chemistry",
+        "chemistry"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "failure rate": 0,
+      "input": "Please listen to the audio and provide your response."
+    }
+  ],
+  "total_samples": 167
+}

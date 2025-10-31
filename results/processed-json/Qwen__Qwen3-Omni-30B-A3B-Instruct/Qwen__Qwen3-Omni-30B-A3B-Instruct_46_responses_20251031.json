@@ -1,0 +1,2908 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "benchmark_id": "open_asr_ami",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, and then I'll be coming to you as the user interface person to try to tell me from your point of view what are the most friendly features that we could put on it, and try to help me with that prioritizing of uh of the features and of the the look and the color. And I'll be coming back to you to help weed out those suggestions from that point of view."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um and then I'll be coming to you as the User Interface person to try to tell me from your point of view what are the most friendly features that we could put on it and try to prior help me with that prioritising of uh of the features and of the the look and the colour and I'll be coming back to you to help weed out those suggestions from that point of view.",
+        "pred": "Um, and then I'll be coming to you as the user interface person to try to tell me from your point of view what are the most friendly features that we could put on it, and try to help me with that prioritizing of uh of the features and of the the look and the color. And I'll be coming back to you to help weed out those suggestions from that point of view."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 1,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "But the only problem is that with a mobile phone, you signed for a contract, so they um the companies, who uh, who you deal with have actually they've they've got an obligation to, to help you out and also. I mean, it's it's fair enough to have some sort of help service, but I I'm not sure how much, the cost would be, of having."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "But the only problem is that with a mobile phone you signed for a contract so they um the companies who uh who you deal with have actually they've they've got an obligation to to help you out and also I mean it's it's fair enough to have some sort of help service but I I'm not sure how much the cost would be of having",
+        "pred": "But the only problem is that with a mobile phone, you signed for a contract, so they um the companies, who uh, who you deal with have actually they've they've got an obligation to, to help you out and also. I mean, it's it's fair enough to have some sort of help service, but I I'm not sure how much, the cost would be, of having."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 2,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "It should be a battery because a remote control should be like you. You should take it to wherever you want, and then ah, ah, this integrated circuit it takes energy from the power source and whatever like if you press a button, it's like input for the remote controller, and it takes the input and it, it transforms into infrared bits and it sends it to the device."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It should be a battery because uh uh remote controller should be like you you you should take it t to wherever you want and then um uh th this integrated circuitry takes energy from the power source and whatever like if you press a button it's like a input for the remote controller and it takes the input and it it transforms into a infro infrared bits and it sends it into the device,",
+        "pred": "It should be a battery because a remote control should be like you. You should take it to wherever you want, and then ah, ah, this integrated circuit it takes energy from the power source and whatever like if you press a button, it's like input for the remote controller, and it takes the input and it, it transforms into infrared bits and it sends it to the device."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 3,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "It doesn't have to know exactly what I've done. I mean, yeah, I mean it's not finished, but it doesn't really miss it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "He he d he doesn't have to know exactly what I mean, yeah m I mean it's hot finished, but it doesn't really say",
+        "pred": "It doesn't have to know exactly what I've done. I mean, yeah, I mean it's not finished, but it doesn't really miss it."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 4,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "It'll connect the circuit, and each each switch is connected to two different legs on the chip, and so sends a different message. And that then gets translated by the chip into a code, and then it's fired out of this LED in a sequence of on and off bursts."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it'll connect the circuit and each each switch is connected to two uh different legs on the chip and so sends a different message and that then uh gets translated by the chip into a code and then it's fired out of this L. E. D. in the sequence of l on and off bursts.",
+        "pred": "It'll connect the circuit, and each each switch is connected to two different legs on the chip, and so sends a different message. And that then gets translated by the chip into a code, and then it's fired out of this LED in a sequence of on and off bursts."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 5,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "You want to change the channel. You want to control the volume. You you want to, mute mute the T V or you want to have a child lock or you want to do some operations. There should there should be some device to tell what to do to the, in, integrated circuit so that the integrated circuit can send the signals and T V can perform the, actions."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "you want to change the channel you want to control the volume you you want to uh mute uh mute the uh T. V. or you want to have a child lock or you want to do some operations there's a there should be some device to tell what to do to the uh in uh integrated circuit so that the integrated circuit can s send the signals and T. V. can perform the actions.",
+        "pred": "You want to change the channel. You want to control the volume. You you want to, mute mute the T V or you want to have a child lock or you want to do some operations. There should there should be some device to tell what to do to the, in, integrated circuit so that the integrated circuit can send the signals and T V can perform the, actions."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 6,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "The chip is Morse code related, relays the to the generator amplification, and the circuit board is very inexpensive to build. And so, she thinks this is a great feature to consider."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the chip is morse morse code related relays the uh to the generat to the generator amplification and uh the circuit board is very inexpensive to build and so she thinks this is a great feature uh to to to consider.",
+        "pred": "The chip is Morse code related, relays the to the generator amplification, and the circuit board is very inexpensive to build. And so, she thinks this is a great feature to consider."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 7,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "If it is the kinetic thing, and, it is small and it is portable and it is a different shape and the kinetic is something people don't do, kind of, we're doing something original and different, um, but if you wore it, if it's something you could just clip on your pocket, then you would have that less."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "If it is the kinetic thing and it is small and it is portable and it is a different shape and the kinetic is something people don't do kind of we're doing something original and different um but if you wore it if it's something you could just clip on your pocket then you would have that less",
+        "pred": "If it is the kinetic thing, and, it is small and it is portable and it is a different shape and the kinetic is something people don't do, kind of, we're doing something original and different, um, but if you wore it, if it's something you could just clip on your pocket, then you would have that less."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 8,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "No, generally we can we can design a remote which is mainly for people with age from ten to forty, and then we can add on specific functional buttons for children as well as the elderly people or the people with who have nervous problems."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "No uh generally we can we can design a remote which is mainly for people with uh f age from ten to um forty and and then we can add on uh specific functional buttons for children as well as the elderly people or the people wit with who have nervous problems",
+        "pred": "No, generally we can we can design a remote which is mainly for people with age from ten to forty, and then we can add on specific functional buttons for children as well as the elderly people or the people with who have nervous problems."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 9,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Findings: Most people prefer user-friendly rather than complex remote controls. Because there are times like people have used a remote control for, say, a year or something, and they have not used maybe thirty to forty percent of the buttons. So it's of no use of punching in, trying to put in those things on the top of the remote control and try to confuse a user."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Findings most people prefer us user-friendly rather than complex remote controls because there are times like uh people have used a remote control for say a year or something and they they are not used maybe thirty to forty percent of the buttons so it's not of no use of punching in the uh trying to put in those things in on the top of the remote control and try to confuse the user.",
+        "pred": "Findings: Most people prefer user-friendly rather than complex remote controls. Because there are times like people have used a remote control for, say, a year or something, and they have not used maybe thirty to forty percent of the buttons. So it's of no use of punching in, trying to put in those things on the top of the remote control and try to confuse a user."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 10,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "And the ah other component we should ah we have in the remote controller is a resistor, ah, which is like it is very very much important for the electricity ah flow through through through the remote controller and also a capacitor which is a, which is a, I think it's it's like a battery."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And the uh other component we should uh we have in the remote controller is a resistor uh which is like uh uh i it is very very much important for the electricity uh flow through through through the uh remote controller and uh also a capacitor which is a b which is a m I think it's it's like a battery",
+        "pred": "And the ah other component we should ah we have in the remote controller is a resistor, ah, which is like it is very very much important for the electricity ah flow through through through the remote controller and also a capacitor which is a, which is a, I think it's it's like a battery."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 11,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "We can discuss that later, and then you obviously need something, to decode the information that you are putting in, from from the, controller, and to turn it into an infrared signal. Which we're going to use to send the information."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "we can uh discuss that later and then you obviously need something to decode the information that you're putting in from from the controller and to turn it into an i uh infrared signal which we're going to use to send the information.",
+        "pred": "We can discuss that later, and then you obviously need something, to decode the information that you are putting in, from from the, controller, and to turn it into an infrared signal. Which we're going to use to send the information."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 12,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "So if you can work on that, and then like. No, actually no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "so if you can work on it that and then like No, actually not.",
+        "pred": "So if you can work on that, and then like. No, actually no."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 13,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "I'm I'm not sure whether we want to look at the size issue because most of them are powered by triple A batteries, but those can be quite bulky. So I I didn't know if you wanted to look at something else. Um, so we could shrink down the size. Of the control."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I'm I'm not sure whether we want to look at the size issue because most of them are powered by triple A. batteries but those can be quite bulky so I d I didn't know if you wanted to look at something else um so we could shrink down the size of the control.",
+        "pred": "I'm I'm not sure whether we want to look at the size issue because most of them are powered by triple A batteries, but those can be quite bulky. So I I didn't know if you wanted to look at something else. Um, so we could shrink down the size. Of the control."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 14,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Because there might be ten speakers, and I'll have to have different windows. And, and I am working on when you click on a topic to see a list of the of the topics of of the meetings that that topic was mentioned in."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "because there's there might be ten speakers that all have to have different mee windows and Um and I'm working on when you click on a topic to see a list of the of the topics of of of the meetings that that topic was mentioned in.",
+        "pred": "Because there might be ten speakers, and I'll have to have different windows. And, and I am working on when you click on a topic to see a list of the of the topics of of the meetings that that topic was mentioned in."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 15,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Ah, this is us in a snail shape, so ah, it it is attractive, um, and it's it's blue in color, ah, bright, and it has yellow buttons and all the different color buttons. So it is ah, ah, look wise, it is beautiful."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Uh this is us in a snail shape so uh it it is attractive um and it's it's blue in colour uh bright and uh it has yellow buttons and all the different colour buttons so it is a uh uh a looks-wise it is beautiful.",
+        "pred": "Ah, this is us in a snail shape, so ah, it it is attractive, um, and it's it's blue in color, ah, bright, and it has yellow buttons and all the different color buttons. So it is ah, ah, look wise, it is beautiful."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 16,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "But yeah, I have a doubt. Like, will it be cost wise effective if we if we design a remote having all the, different features for different people, or designing three different, remotes for three different categories of people."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "But uh yeah I I have a doubt like will it be cost wise effective if we if we design a remote having all the uh different features for different people or designing three different um remotes for three different categories of people.",
+        "pred": "But yeah, I have a doubt. Like, will it be cost wise effective if we if we design a remote having all the, different features for different people, or designing three different, remotes for three different categories of people."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 17,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um. Uh, I've been I've, uh, doing a little research on the internet. Um, there, uh, not much information about it. So, um, about the interface, but uh, uh."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Uh uh I've do I've uh done a little uh research on the internet and not much information about it, Um about uh interface but uh Uh",
+        "pred": "Um. Uh, I've been I've, uh, doing a little research on the internet. Um, there, uh, not much information about it. So, um, about the interface, but uh, uh."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 18,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Try that a few times. Yeah, I started. I started using your um, the speak. I don't know if you've seen that in the yeah."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Yeah, I started I started using your um um the speak I don't know if you've seen that in the yeah.",
+        "pred": "Try that a few times. Yeah, I started. I started using your um, the speak. I don't know if you've seen that in the yeah."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 19,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "And there should be a beep if many buttons are pressed. If suppose a child is playing with the remote control and and she she or he is pressing the buttons all at the time, then there should be a beep saying that it this is not a, you know, ah, action."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And ther there should be a beep if many buttons are pressed if suppose a child is playing with the remote controller and a and she she or he is pressing the buttons all at the time then there should be a beep saying that it's this this is not a a you know a a action",
+        "pred": "And there should be a beep if many buttons are pressed. If suppose a child is playing with the remote control and and she she or he is pressing the buttons all at the time, then there should be a beep saying that it this is not a, you know, ah, action."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 20,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "It's like ah, the text or buttons which ah, which are there on the ah, remote controller. Those we can make, ah, like fluorescent. Ah, they'll be like light emitting if it is dark, so that you can find your remote controller if it is dark."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it's like el the text or buttons which uh which are there on the uh remote controller they those we can make uh um like fluorescent uh they'll be like light emitting if it is dark so that you can find your remote controller if it is dark.",
+        "pred": "It's like ah, the text or buttons which ah, which are there on the ah, remote controller. Those we can make, ah, like fluorescent. Ah, they'll be like light emitting if it is dark, so that you can find your remote controller if it is dark."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 21,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Ergonomics, there is sort of physically different things because, if you've ever seen the Xbox, they had to make two different sized controllers because people in Japan wouldn't buy it because the controller was physically too big because, um."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "ergonomics uh there's sort of physically different things 'cause um if you've ever seen the X. Box they had to make two different sized controllers because people in Japan wouldn't buy it because the controller was physically to big because um",
+        "pred": "Ergonomics, there is sort of physically different things because, if you've ever seen the Xbox, they had to make two different sized controllers because people in Japan wouldn't buy it because the controller was physically too big because, um."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 22,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "They're cut just generally. Japanese people have smaller hands, so they can, go around the controller, which is so. If you, I don't know what because you obviously you could have bigger buttons for some countries or something and smaller ones for others."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "they're c uh just generally Japanese people have smaller hands so they couldn't get round the controller which is uh so if you I don't know what 'cause you obviously you can have bigger buttons for some countries or something and smaller ones for others.",
+        "pred": "They're cut just generally. Japanese people have smaller hands, so they can, go around the controller, which is so. If you, I don't know what because you obviously you could have bigger buttons for some countries or something and smaller ones for others."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 23,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "And I don't know what you feel about whether we can just say we have one target group and for this one target group we're going to design this one thing, or whether we're looking at what we like we're talking about different shapes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and um I dunno what you feel about whether we can just say we have one target group and for this one target group we're gonna design this one thing or whether we're looking at what we like we we talking about different shapes",
+        "pred": "And I don't know what you feel about whether we can just say we have one target group and for this one target group we're going to design this one thing, or whether we're looking at what we like we're talking about different shapes."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 24,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "If you want to design it for multiple devices, then you should make all the devices compatible with the frequency, like the remote controller. It sends some bits, some, waves like with a particular frequency. The device should know what the frequency is."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "If you want to design it for multiple devices then you should make all the devices compatible with the frequency like uh th the remote controller it sends some bits some uh waves like with a particular frequency the device should know what the frequency is.",
+        "pred": "If you want to design it for multiple devices, then you should make all the devices compatible with the frequency, like the remote controller. It sends some bits, some, waves like with a particular frequency. The device should know what the frequency is."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 25,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "We have decided on, leaving out the voice recognition. We've decided on there being a flip design, and a different shape from what's normal."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "we have decided on a leaving out the voice recognition, we've decided on there being a flip design and um a different shape from what's normal.",
+        "pred": "We have decided on, leaving out the voice recognition. We've decided on there being a flip design, and a different shape from what's normal."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 26,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "That in each package, you know, you have, you have, you have, for example, you have, let's say, a fluorescent blue on it, but then you have another color or a stripe, whatever that already comes in a package."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "that in each package you know you have you you have you have for example uh you have let's say a fluorescent blue on it but then you have uh another colour or stripe whatever that already comes in a package.",
+        "pred": "That in each package, you know, you have, you have, you have, for example, you have, let's say, a fluorescent blue on it, but then you have another color or a stripe, whatever that already comes in a package."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 27,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Well, I think the idea here is to design one remote, and the only change is going to be the functional cosmetics, if you want to put it that way."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Well I think I think the idea here is to uh to to d design one remote and what the only change is gonna be um the funct d t yeah uh the functional functional cosmetics if you want to put it that way",
+        "pred": "Well, I think the idea here is to design one remote, and the only change is going to be the functional cosmetics, if you want to put it that way."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 28,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Well, you know, I think we could do something really funny with this too because the snail is known to be slow, and we could have some sort of little, comic effect on our marketing, about how this is a rapid snail or something like that. You know, that would."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Well you know I think we could do something really funny with this too because the snail is known to be slow and we could have some sort of little comic effect on our marketing about how this is a rapid snail or something like that you know that would",
+        "pred": "Well, you know, I think we could do something really funny with this too because the snail is known to be slow, and we could have some sort of little, comic effect on our marketing, about how this is a rapid snail or something like that. You know, that would."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 29,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Six-digit number afterwards, and that's the number you put in, and it's recorded that it's going to be on on Tuesdays at ten o'clock, on the seventeenth things like that. So you don't have to worry about dates and you don't have to worry about times."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times",
+        "pred": "Six-digit number afterwards, and that's the number you put in, and it's recorded that it's going to be on on Tuesdays at ten o'clock, on the seventeenth things like that. So you don't have to worry about dates and you don't have to worry about times."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 30,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, it's obviously in a sort of clamshell design, and the um, the top LCD screen that you can see there would would be sort of um."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um it's obviously an a sort of clam-shell design and uh the um the top L. C. D. screen that you can see that would b would be sort of um",
+        "pred": "Um, it's obviously in a sort of clamshell design, and the um, the top LCD screen that you can see there would would be sort of um."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 31,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, important thing of this phase is that we're going to, uh, try to get an agreement about the user requirements, technical, function design and the working design."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um important thing of this phase is that we're going to uh try to get an agreement about the user requirements, technical function design, and the working design.",
+        "pred": "Um, important thing of this phase is that we're going to, uh, try to get an agreement about the user requirements, technical, function design and the working design."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 32,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "It should recognize the, ah, waves which are coming from the remote controller and it should take the action like if you press a button, channel or something like that, then the remote, remote controller will send a, send a, send a signal."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It should re re recognise the uh waves which are coming from the remote controller and it should take the action like if you press a button channel or something like that then uh the remote uh remote controller will send a send a se send a signal",
+        "pred": "It should recognize the, ah, waves which are coming from the remote controller and it should take the action like if you press a button, channel or something like that, then the remote, remote controller will send a, send a, send a signal."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 33,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Like ah, you should be able to lock your remote controller so that ah, whatever buttons are pressed by a child, they can't be like if you if you have kids and all, then they'll be playing with remote controllers, so, can lock the remote controller."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "like uh uh you should be able to lock your remote controller so that uh um whatever buttons are pressed by a child they can't be like y you i you if you have ki kids and all then they'll be pl playing with the remote controllers so can lock the remote controller.",
+        "pred": "Like ah, you should be able to lock your remote controller so that ah, whatever buttons are pressed by a child, they can't be like if you if you have kids and all, then they'll be playing with remote controllers, so, can lock the remote controller."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 34,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, you've got the general functions of the device for a DVD player, so for playing, reverse, etc."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So um yeah you got a general f uh f the functions of the device uh for a D. V. D. player or uh so um the pl yeah um f for uh playing uh reverse uh.",
+        "pred": "So, you've got the general functions of the device for a DVD player, so for playing, reverse, etc."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 35,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Now what I was saying before about instead of having, you could have just a bare PCB circuit board, and I am sure you could probably get it in different colors, and so just by touching it with your finger, it would make the connection."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Now what I was saying before about instead of having you could have just a bare P. C. B. circuit board and I'm sure you could probably get it in different colours and so just by touching it with your finger it'd make the connection",
+        "pred": "Now what I was saying before about instead of having, you could have just a bare PCB circuit board, and I am sure you could probably get it in different colors, and so just by touching it with your finger, it would make the connection."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 36,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, um, is I can have it so that it returns you a is at the moment the main data structures are hash tables for the meetings that say it's got one that says percent is called percent talk."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So um so I can have it so that it returns you a 'cause at the moment the main data structures are hash tables for the meetings that say it's got one that says percent it's called percent talk.",
+        "pred": "So, um, is I can have it so that it returns you a is at the moment the main data structures are hash tables for the meetings that say it's got one that says percent is called percent talk."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 37,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "And the the material which we are going to use for the case is a plastic, and which which is strong, and also for the."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um yeah and um uh the material which we are going to use for the case is uh plastic and uh w which which is s strong um uh and also uh for the",
+        "pred": "And the the material which we are going to use for the case is a plastic, and which which is strong, and also for the."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 38,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, my role is industrial designer, and my responsibilities are deal with the technical, functional designs and specifications of user interface and dealing with user interface design."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um uh my role is industrial designer and my responsibilities are uh uh um deal with the technical-functional designs and specifications of user interface and dealing with user interface design.",
+        "pred": "Um, my role is industrial designer, and my responsibilities are deal with the technical, functional designs and specifications of user interface and dealing with user interface design."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 39,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "It should heat up your motor. It should, turn on your seat heater, whatever you want it to do, and then as we go on, what we'll have to do is accept and eliminate these suggestions according to design and budget feasibility."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it should heat up your motor if should um turn on your C. D. whatever you want it to do um and then as we go on what we'll have to do is accept and eliminate these suggestions according to um design and budget feasibility.",
+        "pred": "It should heat up your motor. It should, turn on your seat heater, whatever you want it to do, and then as we go on, what we'll have to do is accept and eliminate these suggestions according to design and budget feasibility."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 40,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "There should be a signal, something like a radio wave or an infrared light or a LED, which can be used to change the different functionalities in the television. If the user wants to, change the channels or increase the volume, he can change it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "There should be a signal uh something like a radio wave or a infrared light or a LED which can be used to change the different functionalities in the television if the user wants to uh change the channels or increase the volume he can change it.",
+        "pred": "There should be a signal, something like a radio wave or an infrared light or a LED, which can be used to change the different functionalities in the television. If the user wants to, change the channels or increase the volume, he can change it."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 41,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "So this button is for DVD or so for every device you've got a, apart display or a part buttons."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So um this button is for a D. V. D. or So um for every um device you've got a uh a f a b a part uh display of a part buttons.",
+        "pred": "So this button is for DVD or so for every device you've got a, apart display or a part buttons."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 42,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "I mean, and you don't want to. I hate. I hate looking at a control and seeing a million tiny little buttons with tiny little words saying what they all do and just, sitting there searching for the teletext button or something like that."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I mean and you don't want to I hate I hate looking at a control and seeing a million tiny little buttons with tiny little words saying what they all do and just sitting there searching for the teletext button or something like that.",
+        "pred": "I mean, and you don't want to. I hate. I hate looking at a control and seeing a million tiny little buttons with tiny little words saying what they all do and just, sitting there searching for the teletext button or something like that."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 43,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "And I found out that most controls use some form of infrared to send signals to the TV, presumably because of the cost issue of something like the same thing that computers use."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um and uh I found out that most uh controls use some form of infrared to send signals to the T. V. presumably because of the cost issue of uh something like uh the same thing that computers use,",
+        "pred": "And I found out that most controls use some form of infrared to send signals to the TV, presumably because of the cost issue of something like the same thing that computers use."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 44,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Well, should you want to explore any other, how's your quantifier raising?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Well, should you find you want to explore any other perhaps you as your um uh quantify raising.",
+        "pred": "Well, should you want to explore any other, how's your quantifier raising?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 45,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "My second, part of my findings, the most current remotes use this, silicon. PCB board, which printed circuit board."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, my second part of my findings uh the mo most current remotes use this silicone uh P. C. B. board which pr printed circuit board",
+        "pred": "My second, part of my findings, the most current remotes use this, silicon. PCB board, which printed circuit board."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 46,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, we want, uh, the it to be available to a wide audience at a low cost. So all the components, that I've put forward are, uh, low in cost. So that that should be good."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "um we want uh the it to be available to a wide audience at a low cost so all the components that I've put forward are uh low in cost so that that should be good.",
+        "pred": "Um, we want, uh, the it to be available to a wide audience at a low cost. So all the components, that I've put forward are, uh, low in cost. So that that should be good."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 47,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "This stage of the evaluation is really for us as a team to evaluate if we have now got a product specification and prototype design that meets the the criteria that we got from our market research."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "This stage of the evaluation is really for us as a team to evaluate if we have now got a product specification and prototype design that meets the the criteria that we got from our market research.",
+        "pred": "This stage of the evaluation is really for us as a team to evaluate if we have now got a product specification and prototype design that meets the the criteria that we got from our market research."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 48,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, if you design something that's very attractive to children, the \"mommy, please, mommy, please,\" you know, we want it now, we want to go to the store and see it, that has a lot of marketing pull."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So if you've designed something that's very attractive to children um the mummy please mummy please um you know we want it now we wanna go to the store and see it um that has uh a lot of marketing pull.",
+        "pred": "So, if you design something that's very attractive to children, the \"mommy, please, mommy, please,\" you know, we want it now, we want to go to the store and see it, that has a lot of marketing pull."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 49,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, for our, um, group, we're focusing on the people of sixty to eighty years old. This is um. These factors are slightly, more equal."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um for our um group, we're focusing on the people of sixty to eighty y years old, this is um, these factors are slightly more equal.",
+        "pred": "Um, for our, um, group, we're focusing on the people of sixty to eighty years old. This is um. These factors are slightly, more equal."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 50,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "It takes the power from a battery. Say a battery, it can't be an electric supply. Like you have to, ah, like switch connect connect connect your remote controller to a power supply from the you know electricity or something like that."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It takes the power from a battery say a battery it it can be a elec an electric supply like you have to uh like uh switch connec connect connect your remote controller to uh power supply from the you know electricity or something like that.",
+        "pred": "It takes the power from a battery. Say a battery, it can't be an electric supply. Like you have to, ah, like switch connect connect connect your remote controller to a power supply from the you know electricity or something like that."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 51,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "And do you think a good clue for that is that it would respond to a clap, or respond to your voice, or it would respond? What should you have to do to make it beep or blink?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And do you think a good c c um clue for that is that it would respond to a clap or it would respond to your voice or it would respond what what should you have to do to make it beep or blink?",
+        "pred": "And do you think a good clue for that is that it would respond to a clap, or respond to your voice, or it would respond? What should you have to do to make it beep or blink?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 52,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "I I just would like to ah add some extra features to the remote controller, um I think these are the very simple features and they don't take much ah much of the, um, investment also."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So I I just would like to uh add some extra features to the remote controller um I think these are the very simple features and uh they don't take much uh uh much of the um um investment also",
+        "pred": "I I just would like to ah add some extra features to the remote controller, um I think these are the very simple features and they don't take much ah much of the, um, investment also."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 53,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Designer that looks would be very important on this new remote, and it is to send messages, of course, to the TV."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "designer that uh looks would be very important on this new remote and um it is to send messages of course to the T. V. .",
+        "pred": "Designer that looks would be very important on this new remote, and it is to send messages, of course, to the TV."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 54,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "When they're, when you've got the main things on the front of it and a section opens up or something, to the, other functions when you can do sound or options kind of, recording."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "When they're when you've got the main things on the front of it and a section opens up or something to the other functions where you can do sound or options kind of recording",
+        "pred": "When they're, when you've got the main things on the front of it and a section opens up or something, to the, other functions when you can do sound or options kind of, recording."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 55,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "She never said that."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Hmm she never said that.",
+        "pred": "She never said that."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 56,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Flip top with a trendy design and maybe, we should look at also like the buttons whether they are like soft or a little hard because there are times the buttons tend to be a bit hard, after continuous usage and all that."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "flip-top with a trendy uh uh design and s maybe we we should look at also like the buttons whe whether they are like soft or little hard because they are times when the buttons tend to be a bit hard after uh continuous use usage and all that.",
+        "pred": "Flip top with a trendy design and maybe, we should look at also like the buttons whether they are like soft or a little hard because there are times the buttons tend to be a bit hard, after continuous usage and all that."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 57,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, yeah, it's it charges into um some form of it's a smaller cell, which it charges into, and uh, the size the size of a watch a watch battery."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um yeah it's it charges into um some form of it's a smaller cell which it charges into and uh the si the size sort of a watch a watch battery",
+        "pred": "Um, yeah, it's it charges into um some form of it's a smaller cell, which it charges into, and uh, the size the size of a watch a watch battery."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 58,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, but I think it will attract elderly people who want to have something exclusive, which they can show off to their grandkids."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um but I think it will attract elderly people who wanna have something exclusive, which they can show off to their grandkids.",
+        "pred": "Um, but I think it will attract elderly people who want to have something exclusive, which they can show off to their grandkids."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 59,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "And display clock. If you want more features, then we can display a clock. I I don't think it will take any money, extra money, because anyway we have an integrated circuit. I think we can just definitely fit that feature into the circuit. So it's."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And uh display clock i if you want more features then we can display a clock it I I don't think it will take any money extra money because anyway we have an integrated circuit I think we can just definitely fit that feature into the circuit so it's",
+        "pred": "And display clock. If you want more features, then we can display a clock. I I don't think it will take any money, extra money, because anyway we have an integrated circuit. I think we can just definitely fit that feature into the circuit. So it's."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 60,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, it's like it could be accessed by a wider range of audience, and we can punch in new features such as added features such as shockproof body, and maybe a design to appeal to, a lot of people."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So it's like it could be accessed by a wide ra range of uh audience and we can punch in new f features such as uh added features such as shock proof body and maybe a design to appeal to a lot of people.",
+        "pred": "So, it's like it could be accessed by a wider range of audience, and we can punch in new features such as added features such as shockproof body, and maybe a design to appeal to, a lot of people."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 61,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "The main functions such as which are like often used will be on the top, and the complex functions which say you you can say like the young generation or trend generation want to, say program their favorite channels or whatever."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The main functions such as which are like often used will be on the top and the complex functions which say you you can say like the y young generation or trendy generation want to pr say programme their favourite channels or whatever",
+        "pred": "The main functions such as which are like often used will be on the top, and the complex functions which say you you can say like the young generation or trend generation want to, say program their favorite channels or whatever."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 62,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Although it's only a tiny amount, it's always moving for the whole day, and they don't run out overnight when you leave them on the side."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "although it's only a tiny amount it's it's um it's always moving for the whole day and they don't run out over night when you leave them on the side.",
+        "pred": "Although it's only a tiny amount, it's always moving for the whole day, and they don't run out overnight when you leave them on the side."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 63,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "We can see if we can find a way, between the functions we want to use and the market we want to reach with our products."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Uh we can see if we can find a way uh between the functions we wanna use and the market we wanna reach with our product.",
+        "pred": "We can see if we can find a way, between the functions we want to use and the market we want to reach with our products."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 64,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "But specifically, if if like elderly people want a big buttons, then you can't really make a bit big remote controller, so maybe specifically you can design a big remote control for elderly and for children, like."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "but specifically if y if like elderly people want big buttons then you can't really make a bi big remote controller so maybe specifically you can design a big con remote controller for elderly and for children",
+        "pred": "But specifically, if if like elderly people want a big buttons, then you can't really make a bit big remote controller, so maybe specifically you can design a big remote control for elderly and for children, like."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 65,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "I am sorry to interrupt, that but I just remembered that there was no that that was not included, that there was no room for any special features."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I'm sorry to interrupt then but I just uh recog I just remembered that there was no that that was not um included uh that there was no room for any special features",
+        "pred": "I am sorry to interrupt, that but I just remembered that there was no that that was not included, that there was no room for any special features."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 66,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, you got with mobile phones, so like the Nokia, mobile phones, when you can change the case of it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So um uh you 'cause uh Yeah with uh mobile phones uh uh so uh like the Nokia mobile phones, uh when you can change the case of it.",
+        "pred": "So, you got with mobile phones, so like the Nokia, mobile phones, when you can change the case of it."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 67,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "It's maybe not in the best position in the room, you know. Like sometimes it's positioned so that it's much better visible for everybody, and I think from that point of view we sort of ignored it a little bit."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it's maybe not in the best position in the room um you know like sometimes it's positioned so that it's much better visible for everybody and I think from that point of view we sort of ignored it a little bit.",
+        "pred": "It's maybe not in the best position in the room, you know. Like sometimes it's positioned so that it's much better visible for everybody, and I think from that point of view we sort of ignored it a little bit."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 68,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "I think if you make a good advertisement on television and in the in the guide, you can explain to the people how to use the scroll wheel."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I think if you make a good advertisement uh on television and in the in the guide, you can explain to the people how to use the scroll wheel.",
+        "pred": "I think if you make a good advertisement on television and in the in the guide, you can explain to the people how to use the scroll wheel."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 69,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Because they're small, they're also easy to lose. So if we could look into some way of, you know, some anti, going down the side of the sofa, thing that you could have."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "uh because they're small they're also easy to lose so if we could look into some way of d dunno some anti-going down the side of the sofa thing that you could have",
+        "pred": "Because they're small, they're also easy to lose. So if we could look into some way of, you know, some anti, going down the side of the sofa, thing that you could have."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 70,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "When you like, is there a open thingy or what? Like, what did you do to like how did you figure out that it uses, nexted search like, is it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "When you like you is there a open thingy or Like well what did you two do to like how did you figure out that this uses N. X. T. search like is it",
+        "pred": "When you like, is there a open thingy or what? Like, what did you do to like how did you figure out that it uses, nexted search like, is it."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 71,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "So he can use that kind of properties or features, and then there should be a child lock system if a particular channel is not to be viewed by a particular for a certain age."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So he can use that kind of uh uh properties of features and then there should be a child lock system if a particular channel is not to be viewed by a particular uh for a certain age",
+        "pred": "So he can use that kind of properties or features, and then there should be a child lock system if a particular channel is not to be viewed by a particular for a certain age."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 72,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Just because the topic box and all this is based on what was it called, non no night text area or something."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Just because um the the topic box and all this is um is based on um, oh what's it called, nom no, NITE text area or something.",
+        "pred": "Just because the topic box and all this is based on what was it called, non no night text area or something."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 73,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "We did our traditional, our usual market research study with our hundred subjects, and the general feedback from them is that the most... I'm sorry, I'm slightly tongue-tied after lunch."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "were that we did our traditional uh our usual market research study uh with a hundred subjects and the the general feedback from them is that the most im uh w I'm sorry I'm slightly tongue-tied after lunch",
+        "pred": "We did our traditional, our usual market research study with our hundred subjects, and the general feedback from them is that the most... I'm sorry, I'm slightly tongue-tied after lunch."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 74,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "But does everybody has experiences with remote controls, and I mean not the ordinary remote controls, but also a little bit different ones?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "But so mm does everybody has um experiences with uh remote controls, and I mean not the ordinary mote controls, but also a little bit different ones?",
+        "pred": "But does everybody has experiences with remote controls, and I mean not the ordinary remote controls, but also a little bit different ones?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 75,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "A remote controller should have a switch on off button, by which a user can sit anywhere in the room in front of the T V and he can control the functionalities, different functionalities of the, T V."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "uh a remote controller should have a switch on off button by which a user can sit anywhere in the room in front of the T. V. and he can control the functionalities different functionalities of the T. V. .",
+        "pred": "A remote controller should have a switch on off button, by which a user can sit anywhere in the room in front of the T V and he can control the functionalities, different functionalities of the, T V."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 76,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, whatever form of communication that the TVs are already using, and since that that's another reason to use that infrared, because that's what all TVs use at the moment."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "um whatever form of communication that the T. V. s are already using and since that that's another use and reason to use that infrared because that's what all T. V. s use at the moment.",
+        "pred": "Um, whatever form of communication that the TVs are already using, and since that that's another reason to use that infrared, because that's what all TVs use at the moment."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 77,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um. In the last meeting, the marketing manager had presented her method of working, meaning gathering suggestions."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um in the last meeting uh the marketing manager had presented uh her method of working, meaning gathering i suggestions",
+        "pred": "Um. In the last meeting, the marketing manager had presented her method of working, meaning gathering suggestions."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 78,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, I have referred the site. Ah, the home page of the, um, our website. Ah, from where I have ah, ah, I got few points."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um I have referred the site uh the homepage of the um our website, uh from where I have uh uh I got s few points.",
+        "pred": "Um, I have referred the site. Ah, the home page of the, um, our website. Ah, from where I have ah, ah, I got few points."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 79,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, you have just to make one standard remote control, and you can sell a few."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So um um you have just to make one um standard um remote control, and um yeah you can sell uh few uh Yeah.",
+        "pred": "So, you have just to make one standard remote control, and you can sell a few."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 80,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "You have one computer scientist and one dude off the street."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Yeah, but one computer scientist one l and one dude off the street.",
+        "pred": "You have one computer scientist and one dude off the street."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 81,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, think that might appeal. I am thinking kind of Japan. I am thinking, uh, young, um, office people, trendy, kind of a thing."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, think that might appeal I'm thinking kind of Japan, I'm thinking uh young, um office people, trendy kind of a thing.",
+        "pred": "Um, think that might appeal. I am thinking kind of Japan. I am thinking, uh, young, um, office people, trendy, kind of a thing."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 82,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "In that, you've got the basic buttons just for your play, volume, program, things, and also and then a menu to go into, with obvious pictures."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "In that you've got the basic buttons just for your play, volume, programme things and also and then a menu to go into with obvious pictures",
+        "pred": "In that, you've got the basic buttons just for your play, volume, program, things, and also and then a menu to go into, with obvious pictures."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 83,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "I mean, do we want some general blurb about welcome to the browser or something?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I mean do we want some general blurb about welcome to the browser or something?",
+        "pred": "I mean, do we want some general blurb about welcome to the browser or something?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 84,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Are we happy with the creativity that has passed here, or we are not happy with the new product we created or that was created?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Uh, um are we happy with the creativity that has passed here or we're not happy with the new product we created or that was created?",
+        "pred": "Are we happy with the creativity that has passed here, or we are not happy with the new product we created or that was created?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 85,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Speech recognition is one of her very favorite personal features. She would like to be integrated in this new remote."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Uh speech recognition is one of her very f favourite personal uh features she would like see d d to be integrated in this um in this new remote.",
+        "pred": "Speech recognition is one of her very favorite personal features. She would like to be integrated in this new remote."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 86,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yeah, but um, on on that again, I just thought because you can get those key chains now, and you whistle, and then it'll let off a loud noise to let you know where it is, so I thought that could be quite."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Yeah but um on on that again I just thought 'cause you can get those key chains now and you whistle and then it'll let off a loud noise to let you know where it is so I thought that could be quite a",
+        "pred": "Yeah, but um, on on that again, I just thought because you can get those key chains now, and you whistle, and then it'll let off a loud noise to let you know where it is, so I thought that could be quite."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 87,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Not something like you know, whole house control, and then I found on the internet from my research that some extended electronic entertainment control should be possible."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "not something like you know whole house control what'll be And then I found on the internet from from my research that some extended electronic entertainment control should be possible.",
+        "pred": "Not something like you know, whole house control, and then I found on the internet from my research that some extended electronic entertainment control should be possible."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 88,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, actually, I guess the first thing I just sort of did a really sort of brief, um, you know, version of what we have to do."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um actually first thing I just sorta did a really sorta brief um, yeah, version of what we have to do.",
+        "pred": "Um, actually, I guess the first thing I just sort of did a really sort of brief, um, you know, version of what we have to do."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 89,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "We're going to practice with the pens and draw our favorite animal on the whiteboard. I'll go first and sum up the characteristics of that animal."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "We're gonna practice with the pens and draw our favourite animal on the white board, I'll go first, and um sum up the characteristics of that animal.",
+        "pred": "We're going to practice with the pens and draw our favorite animal on the whiteboard. I'll go first and sum up the characteristics of that animal."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 90,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "The the main idea of the whole thing is just so you, you just press buttons and it should activate things on the TV and we discussed last meeting. It should be easy to find."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The the main idea of the whole thing is just so you sh you just press buttons and it should activate things on the T. V. and we discussed last meeting that it should be easy to find.",
+        "pred": "The the main idea of the whole thing is just so you, you just press buttons and it should activate things on the TV and we discussed last meeting. It should be easy to find."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 91,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, functionality is the only place where maybe we have to think about maybe heaven forbid having another meeting."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um the functionality's the only place where maybe we have to think about m m maybe, heaven forbid, having another meeting.",
+        "pred": "Um, functionality is the only place where maybe we have to think about maybe heaven forbid having another meeting."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 92,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "A lot of times, the thing that works the best from an engineering point of view isn't the thing that somebody's really just going to take out their wallet and buy for Christmas for their child or for their husband or whatever."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "A lot of times the thing that works the best from an engineering point of view isn't the thing that somebody's really just gonna take out their wallet and buy for Christmas for for their child or for their husband or whatever.",
+        "pred": "A lot of times, the thing that works the best from an engineering point of view isn't the thing that somebody's really just going to take out their wallet and buy for Christmas for their child or for their husband or whatever."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 93,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "They can be as big or as small as you want them to be because you can print a circuit board like that. It's simply spaced like that so you can fit the size of the nine buttons in."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "they they can be as big or as small as you want them to be because you can you can print circuit board like that that it's it's simply spaced like that so you can have fit the n the size of the nine buttons in.",
+        "pred": "They can be as big or as small as you want them to be because you can print a circuit board like that. It's simply spaced like that so you can fit the size of the nine buttons in."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 94,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "And because, obviously, all TVs use this this same infrared medium, we'd just be using using the same thing to transmit the data."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And uh because, obviously, all T. V. s use this, the same infrared medium, we'd just be using using the same thing to transmit the data.",
+        "pred": "And because, obviously, all TVs use this this same infrared medium, we'd just be using using the same thing to transmit the data."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 95,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yeah, I think I, you could have a dual um power thing, but the the thing with the solar cells is you would need to put them on the case, and they, because."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Ye yeah I think I th uh g y you could have a dual um power thing but the the thing with the solar cells is you would need to put them on the case and they because",
+        "pred": "Yeah, I think I, you could have a dual um power thing, but the the thing with the solar cells is you would need to put them on the case, and they, because."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 96,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "It's not like a chocolate brown lozenge that's going to go down the sofa. People might want to put it on their mantelpiece or whatever if it looks attractive enough as a kind of ornament, and they're not going to lose it so much then either."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it's not like a chocolate brown lozenge that's gonna go down the sofa and people might want to put it on their mantelpiece or whatever as a ki if it looks attractive enough as a kind of ornament they don't not gonna lose it so much either.",
+        "pred": "It's not like a chocolate brown lozenge that's going to go down the sofa. People might want to put it on their mantelpiece or whatever if it looks attractive enough as a kind of ornament, and they're not going to lose it so much then either."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 97,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Franchina, who is our interface designer, has mentioned that the."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Francino who is our um interface designer um uh has mentioned that the that it,",
+        "pred": "Franchina, who is our interface designer, has mentioned that the."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 98,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "Because we had something sort of sexy for adults, and we could have something sort of silly for children, or a little animal shape, or a little elephant, so they can remember where it is."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Because we had something sort of sexy for adults and we could have something sort of silly for children or a little animal shape or in a or a little elephant so they can remember where it is.",
+        "pred": "Because we had something sort of sexy for adults, and we could have something sort of silly for children, or a little animal shape, or a little elephant, so they can remember where it is."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 99,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "open_asr_ami",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, we're all still writing our summaries, sending them to you. You send it on to Penelope."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "But uh So we're all still writing our um summaries, sending them to you, you send it on to Pernilla.",
+        "pred": "So, we're all still writing our summaries, sending them to you. You send it on to Penelope."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    }
+  ],
+  "total_samples": 12643
+}

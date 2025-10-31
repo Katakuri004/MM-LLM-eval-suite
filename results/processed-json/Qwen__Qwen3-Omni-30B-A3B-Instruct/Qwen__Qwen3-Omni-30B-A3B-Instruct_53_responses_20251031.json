@@ -1,0 +1,2908 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "benchmark_id": "open_asr_tedlium",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Can you see it? Yes, good. This is actually me making the \"I'm not good at life\" face. This is a piece of graffiti in my old neighborhood in Berkeley, California, where I did my PhD on why we're better in games than we are in real life. And this is a problem that a lot of gamers have. We feel that we are not as good in reality as we are in games. And I don't mean just good as in successful, although that's part of it. We do achieve more in game worlds. But I also mean good as in motivated to do something that matters, inspired to collaborate and to cooperate. When we're in game worlds,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "making it can you see yes good this is actually me making the i'm not good at life face this is a piece of graffiti in my old neighborhood in berkeley california where i did my phd on why we're better in games than we are in real life and this is a problem that a lot of gamers have we feel that we are not as good in reality as we are in games and i don't mean just good as in successful although that's part of it we do achieve more in game worlds but i also mean good as in motivated to do something that matters inspired to collaborate and to cooperate and when we're in game worlds",
+        "pred": "Can you see it? Yes, good. This is actually me making the \"I'm not good at life\" face. This is a piece of graffiti in my old neighborhood in Berkeley, California, where I did my PhD on why we're better in games than we are in real life. And this is a problem that a lot of gamers have. We feel that we are not as good in reality as we are in games. And I don't mean just good as in successful, although that's part of it. We do achieve more in game worlds. But I also mean good as in motivated to do something that matters, inspired to collaborate and to cooperate. When we're in game worlds,"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 1,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And the fundamental lesson, I believe, is that design truly is a contact sport. It demands that we bring all of our senses to the task and that we apply the very best of our thinking, our feeling, and our doing to the challenge that we have at hand. And sometimes a little prototype of this experience is all that it takes to turn us from an uh-oh moment to a ta-da moment, and that can make a big difference. Thank you very much."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and the fundamental lesson i believe is that design truly is a contact sport it demands that we bring all of our senses to the task and that we apply the very best of our thinking our feeling and our doing to the challenge that we have at hand and sometimes a little prototype of this experience is all that it takes to turn us from an uh oh moment to a ta da moment and that can make a big difference thank you very much",
+        "pred": "And the fundamental lesson, I believe, is that design truly is a contact sport. It demands that we bring all of our senses to the task and that we apply the very best of our thinking, our feeling, and our doing to the challenge that we have at hand. And sometimes a little prototype of this experience is all that it takes to turn us from an uh-oh moment to a ta-da moment, and that can make a big difference. Thank you very much."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 2,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "We think it changes the way information can be used. So, I want to extrapolate on this idea a bit with something that's a little bit crazy. What we've done here is we've taken every single Wikipedia page and we reduced it down to a little summary. So, the summary consists of just a little synopsis and an icon to indicate the topical area that it comes from. I'm only showing the top 500 most popular Wikipedia pages right here, but even in this limited view,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "we think it changes the way information can be used so i want to extrapolate on this idea a bit with something that's a little bit crazy what we're done here is we've taken every single wikipedia page and we've reduced it down to a little summary so the summary consisted of just little synopsis and an icon to indicate the topical area that it comes from i'm only showing the top five hundred most popular wikipedia pages right here but even in this limited view",
+        "pred": "We think it changes the way information can be used. So, I want to extrapolate on this idea a bit with something that's a little bit crazy. What we've done here is we've taken every single Wikipedia page and we reduced it down to a little summary. So, the summary consists of just a little synopsis and an icon to indicate the topical area that it comes from. I'm only showing the top 500 most popular Wikipedia pages right here, but even in this limited view,"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 3,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Several years ago here at TED, Peter Skillman introduced a design challenge called the Marshmallow Challenge. And the idea is pretty simple. Teams of four have to build the tallest freestanding structure out of 20 sticks of spaghetti, one yard of tape, one yard of string, and a marshmallow. The marshmallow has to be on top. And though it seems really simple, it's actually pretty hard because it forces people to collaborate very quickly."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "several years ago here at ted peter skillman introduced a design challenge called the marshmallow challenge and the idea's pretty simple teams of four have to build the tallest free standing structure out of twenty sticks of spaghetti one yard of tape one yard of string and a marshmallow the marshmallow has to be on top and though it seems really simple it's actually pretty hard because it forces people to collaborate very quickly",
+        "pred": "Several years ago here at TED, Peter Skillman introduced a design challenge called the Marshmallow Challenge. And the idea is pretty simple. Teams of four have to build the tallest freestanding structure out of 20 sticks of spaghetti, one yard of tape, one yard of string, and a marshmallow. The marshmallow has to be on top. And though it seems really simple, it's actually pretty hard because it forces people to collaborate very quickly."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 4,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Every project has its own marshmallow, doesn't it? The challenge provides a shared experience, a common language, a common stance to build the right prototype. And so, this is the value of the experience of this so simple exercise. And those of you who are interested may want to go to marshmallowchallenge dot com. It's a blog that you can look at how to build the marshmallows. There are step by step instructions on this. There are"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "every project has its own marshmallow doesn't it the challenge provides a shared experience a common language a common stance to build the right prototype and so this is the value of the experience of this so simple exercise and those of you who are interested may want to go to marshmallowchallenge dot com it's a blog that you can look at how to build the marshmallows there's step by step instructions on this there are",
+        "pred": "Every project has its own marshmallow, doesn't it? The challenge provides a shared experience, a common language, a common stance to build the right prototype. And so, this is the value of the experience of this so simple exercise. And those of you who are interested may want to go to marshmallowchallenge dot com. It's a blog that you can look at how to build the marshmallows. There are step by step instructions on this. There are"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 5,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "I met Mr. Ayers in 2008, two years ago, at Walt Disney Concert Hall. He had just heard a performance of Beethoven's First and Fourth Symphonies and came backstage and introduced himself, speaking in a very jovial and gregarious way about Yo-Yo Ma and Hillary Clinton and how the Dodgers were never going to make the World Series, all because of the treacherous first violin passage work in the last movement of Beethoven's Fourth Symphony."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i met mister ayers in two thousand eight two years ago at walt disney concert hall he had just heard a performance of beethoven's first and fourth symphonies and came backstage and introduced himself he was speaking in a very jovial and gregarious way about yo yo ma and hillary clinton and how the dodgers were never going to make the world series all because of the treacherous first violin passage work in the last movement in beethoven's fourth symphony",
+        "pred": "I met Mr. Ayers in 2008, two years ago, at Walt Disney Concert Hall. He had just heard a performance of Beethoven's First and Fourth Symphonies and came backstage and introduced himself, speaking in a very jovial and gregarious way about Yo-Yo Ma and Hillary Clinton and how the Dodgers were never going to make the World Series, all because of the treacherous first violin passage work in the last movement of Beethoven's Fourth Symphony."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 6,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "fear, but intense concentration, deep, deep focus on tackling a really difficult problem. If you are a gamer, you will notice a few nuances here. The crinkle of the eyes up and around the mouth is a sign of optimism, and the eyebrows up is surprise. This is a gamer who's on the verge of something called an epic win. Now,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "fear but intense concentration deep deep focus on tackling a really difficult problem if you are a gamer you will notice a few nuances here the crinkle of the eyes up and around the mouth is a sign of optimism and the eyebrows up is surprise this is a gamer who is on the verge of something called an epic win now",
+        "pred": "fear, but intense concentration, deep, deep focus on tackling a really difficult problem. If you are a gamer, you will notice a few nuances here. The crinkle of the eyes up and around the mouth is a sign of optimism, and the eyebrows up is surprise. This is a gamer who's on the verge of something called an epic win. Now,"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 7,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "So it goes like this from here, right? And as I move around, my fingers shift. So we can talk about why this is deceptive, why you don't notice there are only three fingers down here. Because the mind and the way it processes information, it doesn't count one, two, three, it groups them. But that's not really what this is about, right? Then I open my hand. Obviously, it's clinging there not by animal magnetism, but by"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "so it goes like this from here right and as i move around my finger shifts so we could talk about why this is deceptive why you don't notice there are only three fingers down here because the mind and the way it processes information it doesn't count one two three it groups them but that's not really what this is about right and then i open my hand up obviously it's clinging there not by animal magnetism but by",
+        "pred": "So it goes like this from here, right? And as I move around, my fingers shift. So we can talk about why this is deceptive, why you don't notice there are only three fingers down here. Because the mind and the way it processes information, it doesn't count one, two, three, it groups them. But that's not really what this is about, right? Then I open my hand. Obviously, it's clinging there not by animal magnetism, but by"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 8,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Turns out that if you administer a placebo in the form of a white pill that's like aspirin-shaped, just a round white pill, it has some certain measurable effect. But if you change the form that you give the placebo in, like you make a smaller pill and color it blue and stamp a letter into it, it is actually measurably more effective."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "turns out that if you administer a placebo in the form of a white pill that's like aspirin shaped it's just a round white pill it has some certain measurable effect but if you change the form that you give the placebo in like you make a smaller pill and color it blue and stamp a letter into it it is actually measurably more effective",
+        "pred": "Turns out that if you administer a placebo in the form of a white pill that's like aspirin-shaped, just a round white pill, it has some certain measurable effect. But if you change the form that you give the placebo in, like you make a smaller pill and color it blue and stamp a letter into it, it is actually measurably more effective."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 9,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Not one team had a standing structure. Not one had, if anyone had built, say, a one-inch structure, they would have taken home the prize. So, isn't it interesting that high stakes have a strong impact? We did the exercise again with the same students. What do you think happened then? So, now they understand the value of prototyping."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "not one team had a standing structure not one had a a if anyone had built say a one inch structure they could have taken home the prize so isn't it interesting that high stakes have a strong impact we did the exercise again with the same students what do you think happened then so now they understand the value of prototyping",
+        "pred": "Not one team had a standing structure. Not one had, if anyone had built, say, a one-inch structure, they would have taken home the prize. So, isn't it interesting that high stakes have a strong impact? We did the exercise again with the same students. What do you think happened then? So, now they understand the value of prototyping."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 10,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Normally, most people begin by orienting themselves to the task. They talk about it, they figure out what it's going to look like, they jockey for power. Then they spend some time planning, organizing, they sketch in, they lay out spaghetti. They spend the majority of their time assembling the sticks into ever-growing structures, and then."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "normally most people begin by orienting themselves to the task they talk about it they figure out what it's going to look like they jockey for power then they spend some time planning organizing they sketch in they lay out spaghetti they spend the majority of their time assembling the sticks into ever growing structures and then",
+        "pred": "Normally, most people begin by orienting themselves to the task. They talk about it, they figure out what it's going to look like, they jockey for power. Then they spend some time planning, organizing, they sketch in, they lay out spaghetti. They spend the majority of their time assembling the sticks into ever-growing structures, and then."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 11,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "You sign up, you tell us where you live, and then we give you real-time news videos, data feeds that show you exactly how much oil costs, what's not available, how food supply is being affected, how transportation is being affected, if schools are closed, if there's rioting, and you have to figure out how you would live your real life as if this were true. And then we ask you to blog about it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "you sign up you tell us where you live and then we give you real time news videos data feeds that show you exactly how much oil costs what's not available how food supply is being affected how transportation is being affected if schools are closed if their is rioting and you have to figure out how you would live your real life as if this were true and then we ask you to blog about it",
+        "pred": "You sign up, you tell us where you live, and then we give you real-time news videos, data feeds that show you exactly how much oil costs, what's not available, how food supply is being affected, how transportation is being affected, if schools are closed, if there's rioting, and you have to figure out how you would live your real life as if this were true. And then we ask you to blog about it."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 12,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "If you're queasy, if you faint easily, I was doing this for some friends in the hotel room last night and some people that I didn't know, and one woman almost passed out. So I suggest, if you get queasy easy, that look away for about the next 30. In fact, you know what? I'll do the first bad part behind it. You'll get to see. You can look away too if you'd like to."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "if you're queasy if you if you faint easily i was doing this for some friends in the hotel room last night and some people that i didn't know and one woman almost passed out so i suggest if you if you get queasy easy that you look away for about the next thirty in fact you know what i'll do the first bad part behind it you'll get to see you can look away too if you'd like to",
+        "pred": "If you're queasy, if you faint easily, I was doing this for some friends in the hotel room last night and some people that I didn't know, and one woman almost passed out. So I suggest, if you get queasy easy, that look away for about the next 30. In fact, you know what? I'll do the first bad part behind it. You'll get to see. You can look away too if you'd like to."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 13,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And even though the film didn't make any money, barely broke even, I should say, I witnessed something amazing, which is that the audience, the global audience, was mesmerized by this apparent magic. You know, it's Arthur Clarke's law that any sufficiently advanced technology is indistinguishable from magic. They were seeing something magical."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and even though the film didn't make any money barely broke even i should say i witnessed something amazing which is that the the audience the global audience was mesmerized by this apparent magic you know it's arthur clarke's law that any sufficiently advanced technology is indistinguishable from magic they were seeing something magical",
+        "pred": "And even though the film didn't make any money, barely broke even, I should say, I witnessed something amazing, which is that the audience, the global audience, was mesmerized by this apparent magic. You know, it's Arthur Clarke's law that any sufficiently advanced technology is indistinguishable from magic. They were seeing something magical."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 14,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And the reason is, it takes a lot of trust to play a game with someone. We trust that they will spend their time with us, that they will play by the same rules, value the same goal, they'll stay with the game until it's over. And so, playing a game together actually builds up bonds and trust and cooperation, and we actually build stronger social relationships as a result."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and the reason is it takes a lot of trust to play a game with someone we trust that they will spend their time with us that they will play by the same rules value the same goal they'll stay with the game until it's over and so playing a game together actually builds up bonds and trust and cooperation and and we actually build stronger social relationships as a result",
+        "pred": "And the reason is, it takes a lot of trust to play a game with someone. We trust that they will spend their time with us, that they will play by the same rules, value the same goal, they'll stay with the game until it's over. And so, playing a game together actually builds up bonds and trust and cooperation, and we actually build stronger social relationships as a result."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 15,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "We've got leveling up in skills like local insight, knowledge networking, sustainability, vision, and resourcefulness. I would like to invite all of you to please share this game with young people anywhere in the world, particularly in developing areas, who might benefit from coming together to try to start to imagine their own social enterprises to save the world."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "we've got leveling up in skills like local insight knowledge networking sustainability vision and resourcefulness i would like to invite all of you to please share this game with young people anywhere in the world particularly in developing areas who might benefit from coming together to try to start to imagine their own social enterprises to save the world",
+        "pred": "We've got leveling up in skills like local insight, knowledge networking, sustainability, vision, and resourcefulness. I would like to invite all of you to please share this game with young people anywhere in the world, particularly in developing areas, who might benefit from coming together to try to start to imagine their own social enterprises to save the world."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 16,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Bill Gross has several companies, including one called eSolar that has some great solar thermal technology. Vinod Khosla's investing in dozens of companies that are doing great things and have interesting possibilities, and I am trying to help back that. Nathan Myhrvold and I actually are backing a company."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "bill gross has several companies including one called esolar that has some great solar thermal technologies vinod khosla's investing in dozens of companies that are doing great things and have interesting possibilities and i'm i'm trying to help back that nathan myhrvold and i actually are backing a company",
+        "pred": "Bill Gross has several companies, including one called eSolar that has some great solar thermal technology. Vinod Khosla's investing in dozens of companies that are doing great things and have interesting possibilities, and I am trying to help back that. Nathan Myhrvold and I actually are backing a company."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 17,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Is that it's so satisfying to be on the verge of an epic win all the time that we decide to spend all our time in these game worlds? It's just better than reality. So, so far, collectively, all the World of Warcraft gamers have spent five point nine three million years solving the virtual problems of Azeroth. Now."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "is that it's so satisfying to be on the verge of an epic win all the time that we decide to spend all our time in these game worlds it's just better than reality so so far collectively all the world of warcraft gamers have spent five point nine three million years solving the virtual problems of azeroth now",
+        "pred": "Is that it's so satisfying to be on the verge of an epic win all the time that we decide to spend all our time in these game worlds? It's just better than reality. So, so far, collectively, all the World of Warcraft gamers have spent five point nine three million years solving the virtual problems of Azeroth. Now."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 18,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And that is true of the stories that memory delivers for us, and it's also true of the stories that we make up. What defines a story are changes, significant moments, and endings. Endings are very, very important, and in this case, you know, the ending dominated."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and that is true of the stories that memory delivers for us and it's also true of the stories that we make up what defines a story are changes significant moments and endings endings are very very important and in this case you know the ending dominated",
+        "pred": "And that is true of the stories that memory delivers for us, and it's also true of the stories that we make up. What defines a story are changes, significant moments, and endings. Endings are very, very important, and in this case, you know, the ending dominated."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 19,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "that what's happening to them is a pharmaceutical or some sort of a for pain management, for example. If they believe it enough, there's a measurable effect in the body called the placebo effect. Something fake becomes something real because of someone's perception of it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "that what's happening to them is a pharmaceutical or some sort of a for pain management for example if they believe it enough there is a measurable effect in the body called the placebo effect something fake becomes something real because of someone's perception of it",
+        "pred": "that what's happening to them is a pharmaceutical or some sort of a for pain management, for example. If they believe it enough, there's a measurable effect in the body called the placebo effect. Something fake becomes something real because of someone's perception of it."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 20,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Five million people use it every month. They have compiled more information about World of Warcraft on the internet than any other topic covered on any other wiki in the world. They are building an epic story. They are building an epic knowledge resource about the World of Warcraft. Okay, so these are four superpowers that add up."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "five million people use it every month they have compiled more information about world of warcraft on the internet than any other topic covered on any other wiki in the world they are building an epic story they are building epic knowledge resource about the world of warcraft okay so these are four superpowers that add up",
+        "pred": "Five million people use it every month. They have compiled more information about World of Warcraft on the internet than any other topic covered on any other wiki in the world. They are building an epic story. They are building an epic knowledge resource about the World of Warcraft. Okay, so these are four superpowers that add up."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 21,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And so that would be your response to the Bjorn Lomborg argument that basically if you spend all this energy trying to solve the CO2 problem, it's going to take away all your other goals of trying to rid the world of poverty and malaria and so forth. It's a stupid waste of the Earth's resources to put money towards that when there are better things we can do."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "is that would be your response to the the the bjorn lomborg argument that basically if you if you spend all this energy trying to solve the co two problem it's going to take away all your other goals of trying to rid the world of poverty and malaria and so forth it's it's it's a stupid waste of the earth's resources to put money towards that when there are better things we can do",
+        "pred": "And so that would be your response to the Bjorn Lomborg argument that basically if you spend all this energy trying to solve the CO2 problem, it's going to take away all your other goals of trying to rid the world of poverty and malaria and so forth. It's a stupid waste of the Earth's resources to put money towards that when there are better things we can do."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 22,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "I've conducted about 70 design workshops across the world with students and designers and architects, even the CTOs of the Fortune 50. And there's something about this exercise that reveals very deep lessons about the nature of collaboration, and I'd like to share some of them with you. So,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "conducted about seventy design workshops across the world with students and designers and architects even the ctos of the fortune fifty and there's something about this exercise that reveals very deep lessons about the nature of collaboration and i'd like to share some of them with you so",
+        "pred": "I've conducted about 70 design workshops across the world with students and designers and architects, even the CTOs of the Fortune 50. And there's something about this exercise that reveals very deep lessons about the nature of collaboration, and I'd like to share some of them with you. So,"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 23,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And he was talking about invisible demons and smoke and how someone was poisoning him in his sleep. And I was afraid, not for myself, but I was afraid that I was going to lose him, that he was going to sink into one of his states."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and he was talking about invisible demons and smoke and how someone was poisoning him in his sleep and i was afraid not for myself but i was afraid that i was going to lose him that he was going to sink into one of his states",
+        "pred": "And he was talking about invisible demons and smoke and how someone was poisoning him in his sleep. And I was afraid, not for myself, but I was afraid that I was going to lose him, that he was going to sink into one of his states."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 24,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "My legs, you know, laser surgery for vision impairment, titanium knees and hip replacements for aging bodies that are allowing people to more fully engage with their abilities and move beyond the limits that nature has imposed on them."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "my legs hum you know laser surgery for vision impairment uh titanium knee and hip replacements for aging bodies that are allowing people to more fully engage with their abilities and move beyond the limits that nature has imposed on them",
+        "pred": "My legs, you know, laser surgery for vision impairment, titanium knees and hip replacements for aging bodies that are allowing people to more fully engage with their abilities and move beyond the limits that nature has imposed on them."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 25,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Right, a syringe with some inert, couple cc's of some inert something, and you inject this into a patient. Well, this is such a powerful image in their mind that it's so much stronger than the white pill. It's really this graph. Well, I'll show it to you some other time when we have slides. The point is."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "right a syringe with some inert a couple ccs of some inert something and you inject this into a patient well this is such a powerful image in their mind it it's so much stronger than the white pill it's a really this graph well i'll show it to you some other time when we have slides the point is",
+        "pred": "Right, a syringe with some inert, couple cc's of some inert something, and you inject this into a patient. Well, this is such a powerful image in their mind that it's so much stronger than the white pill. It's really this graph. Well, I'll show it to you some other time when we have slides. The point is."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 26,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "over a four and a half year period, and it completely changed how I do movies. So, people have commented on how, you know, you brought back the ocean organisms and put them on the planet of Pandora. To me, it was more of a fundamental way of doing business, the process itself that changed as a result of that."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "over a four and half year period and it completely changed how i do movies so people have commented on how well you know you brought back the ocean organisms and put them on the planet of pandora to me it was more of a fundamental way of doing business the process itself that changed as a result of that",
+        "pred": "over a four and a half year period, and it completely changed how I do movies. So, people have commented on how, you know, you brought back the ocean organisms and put them on the planet of Pandora. To me, it was more of a fundamental way of doing business, the process itself that changed as a result of that."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 27,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Now, what you could do with patient A, and we actually ran clinical experiments and it has been done and it does work, you could actually extend the colonoscopy of patient A by just keeping the tube in without jiggling it too much. That will"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "now what you could do with patient a and we actually ran clinical experiments and it has been done and it does work you could actually extend the colonoscopy of patient a by just keeping the tube in without jiggling it too much that will",
+        "pred": "Now, what you could do with patient A, and we actually ran clinical experiments and it has been done and it does work, you could actually extend the colonoscopy of patient A by just keeping the tube in without jiggling it too much. That will"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 28,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "There's a lot of great books that have been written about this, the Al Gore book, Our Choice, and the David Mackay book, Sustainable Energy Without the Hot Air. They really go through it and I think can create a framework that this can be discussed broadly, because we need broad backing for this."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "there's a lot of great books that have been written about this the al gore book our choice and the david mckay book sustainable energy without the hot air they really go through it and i think create a framework that this can be discussed broadly because we need broad backing for this",
+        "pred": "There's a lot of great books that have been written about this, the Al Gore book, Our Choice, and the David Mackay book, Sustainable Energy Without the Hot Air. They really go through it and I think can create a framework that this can be discussed broadly, because we need broad backing for this."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 29,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "In order for us to understand each other, I want to start by showing you a rudimentary, very simple magic trick, and I'm going to show you how it works. This is a trick that's been in every children's magic book since at least the 1950s. I learned it myself from Cub Scout magic in the 1970s."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "in order for us to understand each other i want to start by showing you a rudimentary very simple magic trick and i'm going to show you how it works this is a trick that's been in every children's magic book since at least the nineteen fifties i learned it myself from cub scout magic in the nineteen seventies",
+        "pred": "In order for us to understand each other, I want to start by showing you a rudimentary, very simple magic trick, and I'm going to show you how it works. This is a trick that's been in every children's magic book since at least the 1950s. I learned it myself from Cub Scout magic in the 1970s."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 30,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, this is really important because this is an insight that was not contained within any one Wikipedia page. It's only possible to see that insight when you step back and look at all of them. Looking at one of these particular summaries, I can then drill into the concept of."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "so this is really important because this is an insight that was not contained within any one wikipedia page it's only possible to see that insight when you step back and look at all of them looking at one of these particular summaries i can then drill into the concept of",
+        "pred": "So, this is really important because this is an insight that was not contained within any one Wikipedia page. It's only possible to see that insight when you step back and look at all of them. Looking at one of these particular summaries, I can then drill into the concept of."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 31,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "I'm Jane McGonigal. I'm a game designer. I've been making games online now for 10 years, and my goal for the next decade is to try to make it as easy to save the world in real life as it is to save the world in online games."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i'm jane mcgonigal i'm a game designer i've been making games online now for ten years and my goal for the next decade is to try to make it as easy to save the world in real life as it is to save the world in online games",
+        "pred": "I'm Jane McGonigal. I'm a game designer. I've been making games online now for 10 years, and my goal for the next decade is to try to make it as easy to save the world in real life as it is to save the world in online games."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 32,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "at that time, and it was called Digital Domain. And the concept of the company was that we would leapfrog past the kind of analog processes of optical printers and so on, and we would go right to digital production. And we actually did that, and it gave us a competitive advantage for a while."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "at that time and it was called digital domain and the concept of the company was that we would leap frog past the kind of analog processes of of optical printers and so on and we would go right to digital production and we actually did that and it gave us a competitive advantage for a while",
+        "pred": "at that time, and it was called Digital Domain. And the concept of the company was that we would leapfrog past the kind of analog processes of optical printers and so on, and we would go right to digital production. And we actually did that, and it gave us a competitive advantage for a while."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 33,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And so, you know, we started planning these expeditions, and we wound up going to the Bismarck and exploring it with robotic vehicles. We went back to the Titanic wreck. We took little bots that we had created that spooled a fiber optic."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and so you know we started planning these these expeditions and we wound up going to the bismark and and exploring it with with robotic vehicles we went back to the titanic wreck we took little bots that we had created that spooled a fiber optic",
+        "pred": "And so, you know, we started planning these expeditions, and we wound up going to the Bismarck and exploring it with robotic vehicles. We went back to the Titanic wreck. We took little bots that we had created that spooled a fiber optic."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 34,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And I wound up getting involved with the space community, really involved with NASA, sitting on the NASA advisory board, planning actual space missions, going to Russia, going through the pre-cosmonaut biomedical protocols and all these sorts of things."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and i wound up getting involved with the space community really involved with with nasa sitting on the nasa advisory board planning actual space missions going to russia going to the pre cosmonaut biomedical protocols and all these sorts of things",
+        "pred": "And I wound up getting involved with the space community, really involved with NASA, sitting on the NASA advisory board, planning actual space missions, going to Russia, going through the pre-cosmonaut biomedical protocols and all these sorts of things."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 35,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "The temperature will continue to rise, and so that's that's a big challenge. It's very different than saying, you know, we're a twelve foot high truck trying to get under a ten foot bridge, and we can just sort of squeeze under. This is something that has to get to zero."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the temperature will continue to rise and so that's that's a big challenge it's very different than saying you know we're a twelve feet high truck trying to get under a ten feet bridge and we can just sort of squeeze under this is something that has to get to zero",
+        "pred": "The temperature will continue to rise, and so that's that's a big challenge. It's very different than saying, you know, we're a twelve foot high truck trying to get under a ten foot bridge, and we can just sort of squeeze under. This is something that has to get to zero."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 36,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "I was seeing creatures at hydrothermal vents and sometimes things that I had never seen before, sometimes things that no one had seen before, that actually were not described by science at the time that we saw them and imaged them. So I was completely smitten by this."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i was seeing creatures at hydrothermal vents and and sometimes things that i had had never seen before sometimes things that no one had seen before that actually were not described by science at the time that we saw them and imaged them so i was completely smitten by this",
+        "pred": "I was seeing creatures at hydrothermal vents and sometimes things that I had never seen before, sometimes things that no one had seen before, that actually were not described by science at the time that we saw them and imaged them. So I was completely smitten by this."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 37,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "The second trap is a confusion between experience and memory. Basically, it's between being happy in your life and being happy about your life or happy with your life. And those are two very different concepts, and they're both lumped in the notion of happiness."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the second trap is a confusion between experience and memory basically it's between being happy in your life and being happy about your life or happy with your life and those are two very different concepts and they're both lumped in the notion of happiness",
+        "pred": "The second trap is a confusion between experience and memory. Basically, it's between being happy in your life and being happy about your life or happy with your life. And those are two very different concepts, and they're both lumped in the notion of happiness."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 38,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "What it had ruined was the memory of the experience. He had had the experience. He had had twenty minutes of glorious music. They counted for nothing because he was left with a memory. The memory was ruined, and the memory was all that he had gotten to keep."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "what it had ruined were the memory of the experience he had had the experience he had had twenty minutes of glorious music they counted for nothing because he was left with a memory the memory was ruined and the memory was all that he had gotten to keep",
+        "pred": "What it had ruined was the memory of the experience. He had had the experience. He had had twenty minutes of glorious music. They counted for nothing because he was left with a memory. The memory was ruined, and the memory was all that he had gotten to keep."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 39,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "These deep dives was like a space mission, you know, where it was highly technical and required enormous planning. And you get in this capsule, you go down to this dark, hostile environment where there's no hope of rescue if you can't get back by yourself."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "dive these deep dives was like a like a space mission you know where it was it was highly technical and it required enormous planning you get in this capsule you go down to this dark hostile environment where there is no hope of rescue if you can't get back by yourself",
+        "pred": "These deep dives was like a space mission, you know, where it was highly technical and required enormous planning. And you get in this capsule, you go down to this dark, hostile environment where there's no hope of rescue if you can't get back by yourself."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 40,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "So this is a trick that I often teach to young children that are interested in magic because you can learn a great deal about deception by studying this very even though it's a very simple trick methodologically probably many of you in the room know this trick what happens is this I hold the knife in my hand"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "so this is a trick that i often teach to young children that are interested in magic because you can learn a great deal about deception by studying this very even though it's a very simple trick methodologically probably many of you in the room know this trick what happens is this i hold the knife in my hand",
+        "pred": "So this is a trick that I often teach to young children that are interested in magic because you can learn a great deal about deception by studying this very even though it's a very simple trick methodologically probably many of you in the room know this trick what happens is this I hold the knife in my hand"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 41,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "I probably have consumed my memories of that three-week trip, I would say, for about 25 minutes in the last four years. Now, you know, if I had ever opened the folder with the 600 pictures in it, I would have spent another hour."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i probably have consumed my memories of that three week trip i would say for about twenty five minutes in the last four years now you know if if i had ever opened the folder with the six hundred pictures in it i would have spent another hour",
+        "pred": "I probably have consumed my memories of that three-week trip, I would say, for about 25 minutes in the last four years. Now, you know, if I had ever opened the folder with the 600 pictures in it, I would have spent another hour."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 42,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And neither of these stories is very inspiring or great, but one of them is distinctly worse than the other. And the one that is worse is the one where pain was at its peak at the very end."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and neither of these stories is very inspiring or great but but one of them is distinct but one of them is distinctly worse than the other and the one that is worse is the one where pain was at its peak at the very end",
+        "pred": "And neither of these stories is very inspiring or great, but one of them is distinctly worse than the other. And the one that is worse is the one where pain was at its peak at the very end."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 43,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "So the correlation is low. We know something about what controls satisfaction of the happiness self. We know that money is very important, goals are very important. We know that happiness is mainly"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "so the correlation is low we know something about what controls satisfaction of the happiness self we know that money is very important goals are very important we know that happiness is mainly",
+        "pred": "So the correlation is low. We know something about what controls satisfaction of the happiness self. We know that money is very important, goals are very important. We know that happiness is mainly"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 44,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "to do real world work, that games are a powerful platform for change. We have all these amazing superpowers: blissful productivity, the ability to weave a tight social fabric, this feeling of urgent optimism and the desire for epic meaning. I really hope that we can come together"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "to do real world work that games are a powerful platform for change we have all these amazing superpowers blissful productivity the ability to weave a tight social fabric this feeling of urgent optimism and the desire for epic meaning i really hope that we can come together",
+        "pred": "to do real world work, that games are a powerful platform for change. We have all these amazing superpowers: blissful productivity, the ability to weave a tight social fabric, this feeling of urgent optimism and the desire for epic meaning. I really hope that we can come together"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 45,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "doesn't get used for weapons, and then what do you do with the waste? Although it's not very large, there are a lot of concerns about that. People need to feel good about it. So, three very tough problems that might be solvable and so should be worked on."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "doesn't get used for weapons and then what do you do with the waste and although it's not very large there are a lot of concerns about that people need to feel good about it so three very tough problems that might be solvable and so should be worked on",
+        "pred": "doesn't get used for weapons, and then what do you do with the waste? Although it's not very large, there are a lot of concerns about that. People need to feel good about it. So, three very tough problems that might be solvable and so should be worked on."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 46,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And the premise was a supercomputer has calculated that humans have only 23 years left on the planet. The supercomputer was called the Global Extinction Awareness System, of course. And we asked people to come online, almost like a Jerry Bruckheimer movie."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and the premise was a supercomputer has calculated that humans have only twenty three years left on the planet this supercomputer was called the global extinction awareness system of course we asked people to come online almost like a jerry bruckheimer movie",
+        "pred": "And the premise was a supercomputer has calculated that humans have only 23 years left on the planet. The supercomputer was called the Global Extinction Awareness System, of course. And we asked people to come online, almost like a Jerry Bruckheimer movie."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 47,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "If you ask for the happiness of the remembering self, it's a completely different thing. This is not about how happily a person lives; it is about how satisfied or pleased the person is when that person thinks about her life."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "if you ask for the happiness of the remembering self it's a completely different thing this is not about how happily a person lives it is about how satisfied or pleased the person is when that person thinks about her life",
+        "pred": "If you ask for the happiness of the remembering self, it's a completely different thing. This is not about how happily a person lives; it is about how satisfied or pleased the person is when that person thinks about her life."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 48,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And perhaps this shift in me has happened because I've been exposed to more people who have opened doors for me than those who have put lids and cast shadows on me."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and perhaps this shift in me has happened because i've been exposed to more people who have opened doors for me than those who have put lids and cast shadows on me",
+        "pred": "And perhaps this shift in me has happened because I've been exposed to more people who have opened doors for me than those who have put lids and cast shadows on me."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 49,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "as we start to have cyborg bodies for exploration or for other means, and in many sort of post-human futures that I can imagine as a science fiction fan. So, having done these, these"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "as we start to have cyborg bodies for exploration or for other means in in many sort of post human futures that i that i can imagine as a science fiction fan so having done these these",
+        "pred": "as we start to have cyborg bodies for exploration or for other means, and in many sort of post-human futures that I can imagine as a science fiction fan. So, having done these, these"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 50,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "We are effectively grading someone's worth to our community. So we need to see through the pathology and into the range of human capability."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "we are effectively grading someone's worth to our community so we need to see through the pathology and into the range of human capability",
+        "pred": "We are effectively grading someone's worth to our community. So we need to see through the pathology and into the range of human capability."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 51,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Well, again, it should have the two elements. We should go through these efficiency measures to start getting reductions. The less we emit, the less that sum will be of CO two and therefore the less the temperature. But in some ways, the grade we get there."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "well it again it should have the two elements we should go through these efficiency measures to start getting reductions the less we emit the less that sum will be of co two and therefore the less the temperature but in some ways the grade we get there",
+        "pred": "Well, again, it should have the two elements. We should go through these efficiency measures to start getting reductions. The less we emit, the less that sum will be of CO two and therefore the less the temperature. But in some ways, the grade we get there."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 52,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And this reasonable people can disagree is when you have something that's non economic and you are trying to fund that. That to me mostly is a waste unless you are very close and you are just funding the learning curve and it's going to get very cheap. I believe we should try more."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and this reasonable people can disagree is when you have something that's non economic and you're trying to fund that that to me mostly is a waste unless you're very close and you're just funding the learning curve and it's going to get very cheap i believe we should try you know more",
+        "pred": "And this reasonable people can disagree is when you have something that's non economic and you are trying to fund that. That to me mostly is a waste unless you are very close and you are just funding the learning curve and it's going to get very cheap. I believe we should try more."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 53,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "They are lost forever. I mean, most of the moments of our life, and I calculated, you know, the psychological present is said to be about three seconds long. That means that, you know, in a life there are about six hundred million of them. In a month, there are about six hundred thousand."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "they are lost forever i mean most of the moments of our life and i calculated you know the psychological present is said to be about three seconds long which means that you know in in a life there are about six hundred million of them in a month there are about six hundred thousand",
+        "pred": "They are lost forever. I mean, most of the moments of our life, and I calculated, you know, the psychological present is said to be about three seconds long. That means that, you know, in a life there are about six hundred million of them. In a month, there are about six hundred thousand."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 54,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "We don't make money at these damn shows, you know. We barely break even. There's no fame in it. People sort of think I went away between Titanic and Avatar and was buffing my nails someplace, you know, sitting at the beach. Made all these films, made all these documentary films that, you know, for a very..."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "we don't make money at these damn shows you know we barely break even there is no fame in it people sort of think i went away between titanic and avatar and was buffing my nails someplace you know sitting at the beach made all these films made all these documentary films you know for a very",
+        "pred": "We don't make money at these damn shows, you know. We barely break even. There's no fame in it. People sort of think I went away between Titanic and Avatar and was buffing my nails someplace, you know, sitting at the beach. Made all these films, made all these documentary films that, you know, for a very..."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 55,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And that might seem a bit surprising because my full-time work at the foundation is mostly about vaccines and seeds, about the things that we need to invent and deliver to help the poorest two billion live better lives."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and that might seem a bit surprising because my full time work at the foundation is mostly about vaccines and seeds about the things that we need to invent and deliver to help the poorest two billion live better lives",
+        "pred": "And that might seem a bit surprising because my full-time work at the foundation is mostly about vaccines and seeds, about the things that we need to invent and deliver to help the poorest two billion live better lives."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 56,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "and had to do more. And so I actually made a kind of curious decision. After the success of \\\"Titanic, \\\" I said, \\\"Okay, you know, I'm going to park my day job as a Hollywood moviemaker, and I'm going to go be a full-time explorer for a while. \\."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and had to do more and so i actually made a kind of curious decision after the success of titanic i said okay you know i'm going to park my day job as a hollywood movie maker and i'm going to go be a full time explorer for a while",
+        "pred": "and had to do more. And so I actually made a kind of curious decision. After the success of \\\"Titanic, \\\" I said, \\\"Okay, you know, I'm going to park my day job as a Hollywood moviemaker, and I'm going to go be a full-time explorer for a while. \\."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 57,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "So let's think, how should we measure ourselves? What should our report card look like? Well, let's go out to where we really need to get and then look at the intermediate. For 2050, you've heard many people talk about."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "so let's think how should we measure ourselves what should our report card look like well let's go out to where we really need to get and and then look at the intermediate for twenty fifty you've heard many people talk about",
+        "pred": "So let's think, how should we measure ourselves? What should our report card look like? Well, let's go out to where we really need to get and then look at the intermediate. For 2050, you've heard many people talk about."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 58,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "It's been constantly going up. It's only various economic changes that have even flattened it at all. So we have to go from rapidly rising to falling and falling all the way to zero. This equation has four factors."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it's been constantly going up it's only various economic changes that have even flattened it at all so we have to go from rapidly rising to falling and falling all the way to zero this equation has four factors",
+        "pred": "It's been constantly going up. It's only various economic changes that have even flattened it at all. So we have to go from rapidly rising to falling and falling all the way to zero. This equation has four factors."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 59,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Where you have to get the miracle by a certain date. Usually, you just kind of stand by and some come along, some don't. This is a case where we actually have to drive at full speed and get a miracle in a pretty tight timeline."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "where you have to get the miracle by a certain date usually you just kind of stand by and some come along some don't this is a case where we actually have to drive it full speed and get a miracle in a a pretty tight time line",
+        "pred": "Where you have to get the miracle by a certain date. Usually, you just kind of stand by and some come along, some don't. This is a case where we actually have to drive at full speed and get a miracle in a pretty tight timeline."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 60,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And we're getting what we need from games, but it doesn't have to end there. This is really exciting. According to Herodotus, after eighteen years, the famine wasn't getting better, so the king decided they would play one final dice game."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and we're getting what we need from games but it doesn't have to end there this is really exciting according to herodotus after eighteen years the famine wasn't getting better so the king decided they would play one final dice game",
+        "pred": "And we're getting what we need from games, but it doesn't have to end there. This is really exciting. According to Herodotus, after eighteen years, the famine wasn't getting better, so the king decided they would play one final dice game."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 61,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And the third is it's the focusing illusion, and it's the unfortunate fact that we can't think about any circumstance that affects well-being without distorting its importance. I mean, this is a real cognitive trap. There's just no way of getting it right."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and the third is it's the focusing illusion and it's the unfortunate fact that we can't think about any circumstance that affects well being without distorting its importance i mean this is a real cognitive trap there's just no way of getting it right",
+        "pred": "And the third is it's the focusing illusion, and it's the unfortunate fact that we can't think about any circumstance that affects well-being without distorting its importance. I mean, this is a real cognitive trap. There's just no way of getting it right."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 62,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "factor of a hundred better than the approaches we have now. It's not impossible, but it's not a very easy thing. Now, this shows up when you try to get the intermittent source to be above, say, 20 to 30 percent."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "a factor of a hundred better than the approaches we have now it's not it's not impossible but it's not a very easy thing now this shows up when you try to get the the intermittent source to be above say twenty to thirty percent",
+        "pred": "factor of a hundred better than the approaches we have now. It's not impossible, but it's not a very easy thing. Now, this shows up when you try to get the intermittent source to be above, say, 20 to 30 percent."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 63,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "who've been messing up the study of happiness for a long time in precisely this way. The distinction between the happiness of the experiencing self and the satisfaction of the remembering self has been recognized in recent years."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "who've been messing up the study of happiness for a long time in precisely this way the the distinction between the happiness of the experiencing self and the satisfaction of the remembering self has been recognized in recent years",
+        "pred": "who've been messing up the study of happiness for a long time in precisely this way. The distinction between the happiness of the experiencing self and the satisfaction of the remembering self has been recognized in recent years."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 64,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Kids in the developing world every year pretty good, right? Well, it's good except that Paul goes around talking about vaccines and says how valuable they are, and the people ought to just stop the whining. And he actually says it that way. So, Paul's a terrorist."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "kids in the developing world every year pretty good right well it's good except that paul goes around talking about vaccines and says how valuable they are and that people ought to just stop the whining and he actually says it that way so paul's a terrorist",
+        "pred": "Kids in the developing world every year pretty good, right? Well, it's good except that Paul goes around talking about vaccines and says how valuable they are, and the people ought to just stop the whining. And he actually says it that way. So, Paul's a terrorist."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 65,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Nathaniel dropped out of Juilliard. He suffered a complete breakdown, and thirty years later, he was living homeless on the streets of Skid Row in downtown Los Angeles. I encourage all of you to read Steve's book or to watch the movie to understand not only the beautiful bond."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "nathaniel dropped out of juilliard he suffered a complete breakdown and thirty years later he was living homeless on the streets of skid row in downtown los angeles i encourage all of you to read steve's book or to watch the movie to understand not only the beautiful bond",
+        "pred": "Nathaniel dropped out of Juilliard. He suffered a complete breakdown, and thirty years later, he was living homeless on the streets of Skid Row in downtown Los Angeles. I encourage all of you to read Steve's book or to watch the movie to understand not only the beautiful bond."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 66,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "No, if you burn natural gas, no almost every way we make electricity today, except for the emerging renewables and nuclear, puts out CO two, and so we're going to have to do at a global scale."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "no if you burn natural gas no almost every way we make electricity today except for the emerging renewables and nuclear puts out co two and so what we're going to have to do at a global scale",
+        "pred": "No, if you burn natural gas, no almost every way we make electricity today, except for the emerging renewables and nuclear, puts out CO two, and so we're going to have to do at a global scale."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 67,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "greatly improved cost profile. You actually burn up the waste, and you can actually use as fuel all the leftover waste from today's reactors. And so instead of worrying about them, you just take that. It's a great thing."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "greatly improved cost profile you actually burn up the waste and you can actually use as fuel all the leftover waste from today's reactors so instead of worrying about them you just take that it's a great thing",
+        "pred": "greatly improved cost profile. You actually burn up the waste, and you can actually use as fuel all the leftover waste from today's reactors. And so instead of worrying about them, you just take that. It's a great thing."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 68,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Recently, scientists have suggested that Herodotus' crazy story is actually true, and geologists have found evidence of a global cooling that lasted for nearly twenty years that could have explained the famine. So, this crazy story might be true. They might have actually."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "recently scientists have suggested that herodotus's crazy story is actually true and geologists have found evidence of a global cooling that lasted for nearly twenty years that could have explained the famine so this crazy story might be true they might have actually",
+        "pred": "Recently, scientists have suggested that Herodotus' crazy story is actually true, and geologists have found evidence of a global cooling that lasted for nearly twenty years that could have explained the famine. So, this crazy story might be true. They might have actually."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 69,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And I was an artist. I could draw, I could paint, and I found that because there weren't, you know, video games and this saturation of CG movies and all of this imagery in the media landscape."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and i was a an artist i could draw i could paint and and i i found that because there weren't you know video games and this saturation of cg movies and and all of this imagery in the media landscape",
+        "pred": "And I was an artist. I could draw, I could paint, and I found that because there weren't, you know, video games and this saturation of CG movies and all of this imagery in the media landscape."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 70,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And he's going to land in a couple hours. He's going to rent a car and he's going to come to Long Beach and he's going to attend one of these fabulous TED dinners tonight. And he doesn't know that he's infected with a paralytic disease, and we don't either, because that's the way the world works. That's the planet we live on."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and he's going to land in a couple hours he's going to rent a car and he's going to come to long beach and he's going to attend one of these fabulous ted dinners tonight and he doesn't know that he's infected with a paralytic disease and we don't either because that's the way the world works that's the planet we live on",
+        "pred": "And he's going to land in a couple hours. He's going to rent a car and he's going to come to Long Beach and he's going to attend one of these fabulous TED dinners tonight. And he doesn't know that he's infected with a paralytic disease, and we don't either, because that's the way the world works. That's the planet we live on."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 71,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And you know, the A students get the tougher curriculum, the best teachers, et cetera. Well, they took over a three month period, D level students, gave them A's, told them they were A's, told them they were bright, and at the end of this three month period,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and you know the a students get the tougher curriculum the best teachers etc well they took over a three month period d level students gave them a's told them they were a's told them they were bright and at the end of this three month period",
+        "pred": "And you know, the A students get the tougher curriculum, the best teachers, et cetera. Well, they took over a three month period, D level students, gave them A's, told them they were A's, told them they were bright, and at the end of this three month period,"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 72,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Also, the price of energy is very important to them. In fact, if you could pick just one thing to lower the price of to reduce poverty, by far you would pick energy. Now, the price of energy has come down over time."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "also the price of energy is very important to them in fact if you could pick just one thing to lower the price of to reduce poverty by far you would pick energy now the price of energy has come down over time",
+        "pred": "Also, the price of energy is very important to them. In fact, if you could pick just one thing to lower the price of to reduce poverty, by far you would pick energy. Now, the price of energy has come down over time."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 73,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "We have transmission challenges. For example, say this energy source is outside your country. You not only need the technology, but you have to deal with the risk of the energy coming from elsewhere. And finally, this storage problem."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "we have transmission challenges for example say this energy source is outside your country you not only need the technology but you have to deal with the risk of the energy coming from elsewhere and finally this storage problem",
+        "pred": "We have transmission challenges. For example, say this energy source is outside your country. You not only need the technology, but you have to deal with the risk of the energy coming from elsewhere. And finally, this storage problem."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 74,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "This urge I had to tell stories with my my urges to create images, and I was as a kid constantly drawing comic books and so on. So, filmmaking was the way to put put pictures and stories together, and that made sense. And of course, the stories that..."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "this urge i had to tell stories with my my urges to create images and i was as a kid constantly drawing comic books and so on so film making was the way to put put pictures and stories together and that made sense and of course the stories that",
+        "pred": "This urge I had to tell stories with my my urges to create images, and I was as a kid constantly drawing comic books and so on. So, filmmaking was the way to put put pictures and stories together, and that made sense. And of course, the stories that..."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 75,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "The only way it makes sense to even think about it is to talk about time at the magnitude of human evolution, which is an extraordinary thing, but it's also apt because it turns out that by spending all this time playing games, we're actually changing."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the only way it makes sense to even think about it is to talk about time at the magnitude of human evolution which is an extraordinary thing but it's also apt because it turns out that by spending all this time playing games we are actually changing",
+        "pred": "The only way it makes sense to even think about it is to talk about time at the magnitude of human evolution, which is an extraordinary thing, but it's also apt because it turns out that by spending all this time playing games, we're actually changing."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 76,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "2,500 years ago. These are ancient dice made out of sheep's knuckles, right? Before we had awesome game controllers, we had sheep's knuckles. And these represent the first game equipment designed by human beings."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "twenty five hundred years ago these are ancient dice made out of sheep's knuckles right before we had awesome game controlers we had sheep's knuckles and these represent the first game equipment designed by human beings",
+        "pred": "2,500 years ago. These are ancient dice made out of sheep's knuckles, right? Before we had awesome game controllers, we had sheep's knuckles. And these represent the first game equipment designed by human beings."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 77,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "You can't explain it to people. It's that thing that maybe cops have or people in combat that have gone through something together and they know they can never explain it. Creates a bond, creates a bond of respect. So when I came back to make my next movie, which was Avatar,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "you can't explain it to people it's that thing that that maybe cops have or people in in combat that have gone through something together and they know they can never explain it creates a bond creates a bond of respect so when i came back to make my next movie which was avatar",
+        "pred": "You can't explain it to people. It's that thing that maybe cops have or people in combat that have gone through something together and they know they can never explain it. Creates a bond, creates a bond of respect. So when I came back to make my next movie, which was Avatar,"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 78,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "They're more effective than tablets in any form. A colored capsule that's yellow on one end and red on the other is better than a white capsule. Dosage has something to do with this, you know. One pill twice a day is not as good as three pills."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "they are more effective than tablets in any form a colored capsule that's yellow on one end and red on the other is better than a white capsule dosage has something to do with this you know one pill twice a day is not as good at three pills",
+        "pred": "They're more effective than tablets in any form. A colored capsule that's yellow on one end and red on the other is better than a white capsule. Dosage has something to do with this, you know. One pill twice a day is not as good as three pills."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 79,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "and knows the present. It's capable of reliving the past, but basically it has only the present. It's the experiencing self that the doctor approaches. You know, when the doctor asks, \\\"Does it hurt now when I touch you here?\\\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and knows the present is capable of re living the past but basically it has only the present it's the experiencing self that the doctor approaches you know when the doctor asks does it hurt now when i touch you here",
+        "pred": "and knows the present. It's capable of reliving the past, but basically it has only the present. It's the experiencing self that the doctor approaches. You know, when the doctor asks, \\\"Does it hurt now when I touch you here?\\\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 80,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of visual effects of CG effects beyond with realistic human emotive characters generated in CG, and the main characters would all be in CG, and the world would be in CG. and"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "of visual effects of cg effects beyond with realistic human emotive characters generated in cg and the main characters would all be in cg and the world would be in cg and",
+        "pred": "Of visual effects of CG effects beyond with realistic human emotive characters generated in CG, and the main characters would all be in CG, and the world would be in CG. and"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 81,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Oh, you've heard of that? Okay, good. So we have some gamers among us. So, an epic win is an outcome that is so extraordinarily positive you had no idea it was even possible until you achieved it. It was almost beyond the threshold of imagination."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "oh you've heard of that okay good so we have some gamers among us so an epic win is an outcome that is so extraordinarily positive you had no idea it was even possible until you achieved it it was almost beyond the threshold of imagination",
+        "pred": "Oh, you've heard of that? Okay, good. So we have some gamers among us. So, an epic win is an outcome that is so extraordinarily positive you had no idea it was even possible until you achieved it. It was almost beyond the threshold of imagination."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 82,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "of being trapped in data, we might actually extract information. And instead of dealing just with information, we can tease out knowledge. And if we get the knowledge, maybe there's wisdom to be found. So with that, I thank you."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "of being trapped in data we might actually extract information and instead of dealing just with information we can tease out knowledge and if we get the knowledge then maybe even there's wisdom to be found so with that i thank you",
+        "pred": "of being trapped in data, we might actually extract information. And instead of dealing just with information, we can tease out knowledge. And if we get the knowledge, maybe there's wisdom to be found. So with that, I thank you."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 83,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "You know, we were going to the moon. We were exploring the deep oceans. Jacques Cousteau was coming into our living rooms with his amazing specials that showed us animals and places and a wondrous world that we could never really have."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "you know we were we were going to the moon we were exploring the deep oceans jacques cousteau was coming into our living rooms with his amazing specials that showed us animals and places and a you know a wondrous world that we could never really have",
+        "pred": "You know, we were going to the moon. We were exploring the deep oceans. Jacques Cousteau was coming into our living rooms with his amazing specials that showed us animals and places and a wondrous world that we could never really have."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 84,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "This is really my flesh. This is not Damien's special-grown flesh. That's my skin right there. This is not a Hollywood special effect. I'm going to pierce my skin and run this needle through to the other side."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "this is really my flesh this is not damian's special grown flesh that's my skin right there this is not a hollywood special effect i'm going to pierce my skin and run this needle through to the other side",
+        "pred": "This is really my flesh. This is not Damien's special-grown flesh. That's my skin right there. This is not a Hollywood special effect. I'm going to pierce my skin and run this needle through to the other side."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 85,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And it turns out that below an income of sixty thousand dollars a year for Americans, and that's a very large sample of Americans, like six hundred thousand, so it's a large representative sample. Below an income of six hundred thousand dollars a year."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and it turns out that below an income of sixty thousand dollars a year for americans and that's a very large sample of americans like six hundred thousand so it's a large representative sample below an income of six hundred thousand dollars a year",
+        "pred": "And it turns out that below an income of sixty thousand dollars a year for Americans, and that's a very large sample of Americans, like six hundred thousand, so it's a large representative sample. Below an income of six hundred thousand dollars a year."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 86,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "And what we're doing, and then we get all this positive feedback. You guys have heard of leveling up and plus one strength and plus one intelligence. We don't get that kind of constant feedback in real life. When I get off the stage, I am not going to have you know plus one speaking and plus one."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and what we're doing and then we get all this positive feedback you guys have heard of leveling up and plus one strength and plus one intelligence we don't get that kind of constant feedback in real life when i get off this stage i'm not going to have plus one speaking and plus one",
+        "pred": "And what we're doing, and then we get all this positive feedback. You guys have heard of leveling up and plus one strength and plus one intelligence. We don't get that kind of constant feedback in real life. When I get off the stage, I am not going to have you know plus one speaking and plus one."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 87,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "There are reasons for that, and I think we know what those reasons are. We've lost faith in institutions, in authority, and sometimes in science itself. And there's no reason we shouldn't have. You can just say a few names and people will understand."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "okay there are reasons for that and i think we know what those reasons are we've lost faith in institutions in authority and sometimes in science itself and there there's no reason we shouldn't have you can just say a few names and people will understand",
+        "pred": "There are reasons for that, and I think we know what those reasons are. We've lost faith in institutions, in authority, and sometimes in science itself. And there's no reason we shouldn't have. You can just say a few names and people will understand."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 88,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "When I would have been starting primary school and forming an understanding of myself outside the family unit and as related to the other kids in the world around me, and needless to say, thank God I wasn't using a thesaurus back then."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "when i would have been starting primary school and forming an understanding of myself outside the family unit and as related to the other kids and the world around me and needless to say thank god i wasn't using a thesaurus back then",
+        "pred": "When I would have been starting primary school and forming an understanding of myself outside the family unit and as related to the other kids in the world around me, and needless to say, thank God I wasn't using a thesaurus back then."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 89,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "that this makes perfect sense because gamers can achieve more in online worlds than they can in real life. They can have stronger social relationships in games than they can have in real life. They get better feedback and feel more rewarded in games than they do in real life. So he says,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "that this makes perfect sense because gamers can achieve more in online worlds than they can in real life they can have stronger social relationships in games than they can have in real life they get better feedback and feel more rewarded in games than they do in real life so he says",
+        "pred": "that this makes perfect sense because gamers can achieve more in online worlds than they can in real life. They can have stronger social relationships in games than they can have in real life. They get better feedback and feel more rewarded in games than they do in real life. So he says,"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 90,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "It's about 20 tons. For people in poor countries, it's less than one ton. It's an average of about five tons for everyone on the planet. And somehow we have to make changes that will bring that down to zero."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it's about twenty tons uh for people in poor countries it's less than one ton it's an average of about five tons for everyone on the planet and somehow we have to make changes that will bring that down to zero",
+        "pred": "It's about 20 tons. For people in poor countries, it's less than one ton. It's an average of about five tons for everyone on the planet. And somehow we have to make changes that will bring that down to zero."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 91,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "Gamers love to be attached to awe-inspiring missions, to human planetary-scale stories. So, just one bit of trivia that helps put that into perspective. So, you all know Wikipedia."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "gamers love to be attached to awe inspiring missions to human planetary scale stories so just one bit of trivia that helps put that into perspective so you all know wikipedia",
+        "pred": "Gamers love to be attached to awe-inspiring missions, to human planetary-scale stories. So, just one bit of trivia that helps put that into perspective. So, you all know Wikipedia."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 92,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "their rare and valuable abilities with the community. Anthropologists tell us that the one thing we as humans have always required of our community members is to be of use, to be able to contribute."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "their rare and valuable abilities with the community anthropologists tell us that the one thing we as humans have always required of our community members is to be of use to be able to contribute",
+        "pred": "their rare and valuable abilities with the community. Anthropologists tell us that the one thing we as humans have always required of our community members is to be of use, to be able to contribute."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 93,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "that beetroot, garlic, and lemon oil were much more effective than the antiretroviral drugs we know can slow the course of AIDS. Hundreds of thousands of needless deaths in a country that has been plagued worse than any other by this disease."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "that beetroot garlic and lemon oil were much more effective than the antiretroviral drugs we know can slow the course of aids hundreds of thousands of needless deaths in a country that has been plagued worse than any other by this disease",
+        "pred": "that beetroot, garlic, and lemon oil were much more effective than the antiretroviral drugs we know can slow the course of AIDS. Hundreds of thousands of needless deaths in a country that has been plagued worse than any other by this disease."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 94,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "You know, I think that there is recognition of the role of happiness research in public policy. The recognition is going to be slow in the United States, no question about that, but in the U K it is happening, and in other countries it is happening."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "you know i think that there is recognition of the role of happiness research in public policy the recognition is going to be slow in the united states no question about that but in the uk it is happening and in other countries it is happening",
+        "pred": "You know, I think that there is recognition of the role of happiness research in public policy. The recognition is going to be slow in the United States, no question about that, but in the U K it is happening, and in other countries it is happening."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 95,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "You look around, you go, \"Oh, that team's going to win.\" You can just tell beforehand. And why is that? Because they have special skills of facilitation. They manage the process, they understand the process. And any team who manages and pays a close attention to work."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "you look around you go oh that team's going to win you can just tell beforehand and why is that because they have specials skills of facilitation they manage the process they understand the process and any team who manages and pays a close attention to to work",
+        "pred": "You look around, you go, \"Oh, that team's going to win.\" You can just tell beforehand. And why is that? Because they have special skills of facilitation. They manage the process, they understand the process. And any team who manages and pays a close attention to work."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 96,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "I mean, from this entry, it would seem that I was born into a world that perceived someone like me to have nothing positive whatsoever going for them. When in fact, today,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i mean from this entry it would seem that i was born into a world that perceived someone like me to have nothing positive whatsoever going for them when in fact today",
+        "pred": "I mean, from this entry, it would seem that I was born into a world that perceived someone like me to have nothing positive whatsoever going for them. When in fact, today,"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 97,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "The first is urgent optimism. Okay, think of this as extreme self-motivation. Urgent optimism is the desire to act immediately to tackle an obstacle, combined with the belief that we have a reasonable hope of success."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the first is urgent optimism okay think of this as extreme self motivation urgent optimism is the desire to act immediately to tackle an obstacle combined with the belief that we have a reasonable hope of success",
+        "pred": "The first is urgent optimism. Okay, think of this as extreme self-motivation. Urgent optimism is the desire to act immediately to tackle an obstacle, combined with the belief that we have a reasonable hope of success."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 98,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "It's a bad story. How do we know that? Because we asked these people after their colonoscopy and much later too, how bad was the whole thing in total? And it was much worse for A than for B in memory."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it's a bad story how do we know that because we asked these people after their colonoscopy and much later too how bad was the whole thing in total and it was much worse for a than for b in memory",
+        "pred": "It's a bad story. How do we know that? Because we asked these people after their colonoscopy and much later too, how bad was the whole thing in total? And it was much worse for A than for B in memory."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 99,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "open_asr_tedlium",
+        "test"
+      ],
+      "filtered_resps": [
+        "is believed in enough by somebody that it becomes something real. In other words, sugar pills have a measurable effect in certain kinds of studies, the placebo effect, just because the person thinks."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "is believed in enough by somebody that it becomes something real in other words sugar pills have a measurable effect in certain kinds of studies the placebo effect just because the person thinks",
+        "pred": "is believed in enough by somebody that it becomes something real. In other words, sugar pills have a measurable effect in certain kinds of studies, the placebo effect, just because the person thinks."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    }
+  ],
+  "total_samples": 1155
+}

@@ -1,0 +1,1408 @@
+{
+  "model": "Qwewn_Qwen2VL",
+  "benchmark_id": "ok_vqa_val2014",
+  "created_at": "2025-10-31T01:05:03.085Z",
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "answer",
+      "filtered_resps": [
+        "motorcross"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "2971475.jpg",
+        "answer": "motorcross"
+      },
+      "input": "What sport can you use this for?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 1,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "3397615.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "Name the type of plant this is?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 2,
+      "target": "answer",
+      "filtered_resps": [
+        "teddy bear"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "3575865.jpg",
+        "answer": "teddy bear"
+      },
+      "input": "What toy is this?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 3,
+      "target": "answer",
+      "filtered_resps": [
+        "mouth"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "949225.jpg",
+        "answer": "mouth"
+      },
+      "input": "Which part of this animal would be in use of it was playing the game that is played with the items the man is holding?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 4,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "2076115.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What could this gentleman be carrying in that red bag?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 5,
+      "target": "answer",
+      "filtered_resps": [
+        "cleaner"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "5723996.jpg",
+        "answer": "cleaner"
+      },
+      "input": "Who leaves a toilet like this?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 6,
+      "target": "answer",
+      "filtered_resps": [
+        "island"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "5759705.jpg",
+        "answer": "island"
+      },
+      "input": "A center affixed unit like this one in a kitchen is called a what?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 7,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "3045575.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "Why might someone go to this place?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 8,
+      "target": "answer",
+      "filtered_resps": [
+        "seed"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "2183655.jpg",
+        "answer": "seed"
+      },
+      "input": "What does this grow from?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 9,
+      "target": "answer",
+      "filtered_resps": [
+        "hit ball"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "2863135.jpg",
+        "answer": "hit ball"
+      },
+      "input": "What is that man doing with the bat?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 10,
+      "target": "answer",
+      "filtered_resps": [
+        "lake"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0.6,
+      "submission": {
+        "image": "299845.jpg",
+        "answer": "lake"
+      },
+      "input": "Is this at a salt water beach or a lake?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 11,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "115115.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "Who designed the statues?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 12,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "3234605.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What is the name of the items the hot dog are topped with?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 13,
+      "target": "answer",
+      "filtered_resps": [
+        "work"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0.6,
+      "submission": {
+        "image": "5169165.jpg",
+        "answer": "work"
+      },
+      "input": "What is this desk used for?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 14,
+      "target": "answer",
+      "filtered_resps": [
+        "bicycle"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "217115.jpg",
+        "answer": "bicycle"
+      },
+      "input": "What type of bike is on the ground?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 15,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "3133865.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What type of plane is that?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 16,
+      "target": "answer",
+      "filtered_resps": [
+        "girl"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "4026395.jpg",
+        "answer": "girl"
+      },
+      "input": "Is this a room for a boy or girl?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 17,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "4575845.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "In what year was this desert first introduced?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 18,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "4883775.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What is this surf trick called?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 19,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "3017535.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What do they call running around the bases on a single hit?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 20,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "1833195.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "Why is this plugged in?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 21,
+      "target": "answer",
+      "filtered_resps": [
+        "ring"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "3970635.jpg",
+        "answer": "ring"
+      },
+      "input": "What is the shape?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 22,
+      "target": "answer",
+      "filtered_resps": [
+        "510"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "4976605.jpg",
+        "answer": "510"
+      },
+      "input": "What is the horsepower of the truck pulling the load?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 23,
+      "target": "answer",
+      "filtered_resps": [
+        "cross country"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "2357845.jpg",
+        "answer": "cross country"
+      },
+      "input": "What kind of skiing is this person engaged in?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 24,
+      "target": "answer",
+      "filtered_resps": [
+        "wetsuit"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "3190735.jpg",
+        "answer": "wetsuit"
+      },
+      "input": "What is the person in the photo wearing?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 25,
+      "target": "answer",
+      "filtered_resps": [
+        "surfboard"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "5144685.jpg",
+        "answer": "surfboard"
+      },
+      "input": "What is the name of the board he is on?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 26,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "4371265.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "Name the material used to make this car seat shown in this picture?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 27,
+      "target": "answer",
+      "filtered_resps": [
+        "mouth"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "5182875.jpg",
+        "answer": "mouth"
+      },
+      "input": "What part of the face is the toothbrush in?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 28,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "3804595.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What flavor is this pastry?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 29,
+      "target": "answer",
+      "filtered_resps": [
+        "vase"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "5002005.jpg",
+        "answer": "vase"
+      },
+      "input": "What kind of container are the flowers in?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 30,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "3156685.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What country does this appear to be?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 31,
+      "target": "answer",
+      "filtered_resps": [
+        "soup"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "3736625.jpg",
+        "answer": "soup"
+      },
+      "input": "Which of the foods in the picture is best for you to eat when you have a cold?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 32,
+      "target": "answer",
+      "filtered_resps": [
+        "moo"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "4293695.jpg",
+        "answer": "moo"
+      },
+      "input": "What do teenage pranksters do to this animal?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 33,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "4273415.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "How many watts is that microwave?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 34,
+      "target": "answer",
+      "filtered_resps": [
+        "quilt"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "3938365.jpg",
+        "answer": "quilt"
+      },
+      "input": "What is this type of blanket called?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 35,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "179845.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What south american country usually has this climate?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 36,
+      "target": "answer",
+      "filtered_resps": [
+        "denny's"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0.6,
+      "submission": {
+        "image": "3268375.jpg",
+        "answer": "denny 's"
+      },
+      "input": "What american restaurant features an open kitchen with visible cooking area such as this?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 37,
+      "target": "answer",
+      "filtered_resps": [
+        "bus"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "2780325.jpg",
+        "answer": "bus"
+      },
+      "input": "What other big vehicle is often painted about the same shade as this vehicle?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 38,
+      "target": "answer",
+      "filtered_resps": [
+        "becker vineyards"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "1110325.jpg",
+        "answer": "becker vineyards"
+      },
+      "input": "What brand is this wine?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 39,
+      "target": "answer",
+      "filtered_resps": [
+        "break"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0.6,
+      "submission": {
+        "image": "5096415.jpg",
+        "answer": "break"
+      },
+      "input": "What would happen if these items fall to the ground?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 40,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "3413095.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What brand of suit is the man in the image wearing?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 41,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "1121605.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "Where might i buy a print that resembles this photo?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 42,
+      "target": "answer",
+      "filtered_resps": [
+        "sushi"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "2645405.jpg",
+        "answer": "sushi"
+      },
+      "input": "What are the rolled black food items called?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 43,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "1089825.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What type of bird is this?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 44,
+      "target": "answer",
+      "filtered_resps": [
+        "Unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "2929715.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "How can you tell that the people are not upset?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 45,
+      "target": "answer",
+      "filtered_resps": [
+        "120 mph"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "1902045.jpg",
+        "answer": "120 mph"
+      },
+      "input": "How fast is the vehicle pictured capable of reaching?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 46,
+      "target": "answer",
+      "filtered_resps": [
+        "cowboy hat"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "3774865.jpg",
+        "answer": "cowboy hat"
+      },
+      "input": "Name the type of hat the man is wearing?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 47,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "1282805.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What sates are these grown in?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 48,
+      "target": "answer",
+      "filtered_resps": [
+        "good"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "1318415.jpg",
+        "answer": "good"
+      },
+      "input": "How does the bread taste?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 49,
+      "target": "answer",
+      "filtered_resps": [
+        "tow"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "1305165.jpg",
+        "answer": "tow"
+      },
+      "input": "What is this type of mack truck used for?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 50,
+      "target": "answer",
+      "filtered_resps": [
+        "rail"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "2845485.jpg",
+        "answer": "rail"
+      },
+      "input": "What type of platform should this vehicle be on?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 51,
+      "target": "answer",
+      "filtered_resps": [
+        "fisheye"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "5069455.jpg",
+        "answer": "fisheye"
+      },
+      "input": "What is the term for the effect used in this photo?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 52,
+      "target": "answer",
+      "filtered_resps": [
+        "gazebo"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "4247445.jpg",
+        "answer": "gazebo"
+      },
+      "input": "What is the small white outdoor house like building called?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 53,
+      "target": "answer",
+      "filtered_resps": [
+        "throw"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0.6,
+      "submission": {
+        "image": "5681485.jpg",
+        "answer": "throw"
+      },
+      "input": "What can the woman do with this toy?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 54,
+      "target": "answer",
+      "filtered_resps": [
+        "high school"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "857725.jpg",
+        "answer": "high school"
+      },
+      "input": "Is this boy a professional player or still in high school?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 55,
+      "target": "answer",
+      "filtered_resps": [
+        "rug"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "1396845.jpg",
+        "answer": "rug"
+      },
+      "input": "What is the decorative fabric on the floor called?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 56,
+      "target": "answer",
+      "filtered_resps": [
+        "Commercial"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "4732085.jpg",
+        "answer": "commercial"
+      },
+      "input": "Is this in a home kitchen or commercial kitchen?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 57,
+      "target": "answer",
+      "filtered_resps": [
+        "baseball helmet"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "3030245.jpg",
+        "answer": "baseball helmet"
+      },
+      "input": "Which type of helmet is used by the sport person shown in this picture?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 58,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "5342525.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "Which brand of slipper is shown in this picture?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 59,
+      "target": "answer",
+      "filtered_resps": [
+        "Joss Whedon"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "1649245.jpg",
+        "answer": "joss whedon"
+      },
+      "input": "Who directed the 2012 movie shown on the television in the picture?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 60,
+      "target": "answer",
+      "filtered_resps": [
+        "afternoon"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0.6,
+      "submission": {
+        "image": "1197855.jpg",
+        "answer": "afternoon"
+      },
+      "input": "What time of day is it?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 61,
+      "target": "answer",
+      "filtered_resps": [
+        "high end"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "511915.jpg",
+        "answer": "high end"
+      },
+      "input": "Is this bathroom high or low end?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 62,
+      "target": "answer",
+      "filtered_resps": [
+        "lady gaga"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "1943135.jpg",
+        "answer": "lady gaga"
+      },
+      "input": "Name one famous person whom also has a black and white one of these?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 63,
+      "target": "answer",
+      "filtered_resps": [
+        "sink"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "3325125.jpg",
+        "answer": "sink"
+      },
+      "input": "Which item in this room is usually to wash hands?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 64,
+      "target": "answer",
+      "filtered_resps": [
+        "horn"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "3763585.jpg",
+        "answer": "horn"
+      },
+      "input": "What are the white objects on this animals head called?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 65,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "3959785.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "Which airline has this insignia?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 66,
+      "target": "answer",
+      "filtered_resps": [
+        "1886"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "2162545.jpg",
+        "answer": "1886"
+      },
+      "input": "When was the cola brand on the signs founded?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 67,
+      "target": "answer",
+      "filtered_resps": [
+        "top hat"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "2913705.jpg",
+        "answer": "top hat"
+      },
+      "input": "What type of hat is this gentleman wearing?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 68,
+      "target": "answer",
+      "filtered_resps": [
+        "mickey mouse"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "3304055.jpg",
+        "answer": "mickey mouse"
+      },
+      "input": "What character does this clock look like?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 69,
+      "target": "answer",
+      "filtered_resps": [
+        "coconut"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "505145.jpg",
+        "answer": "coconut"
+      },
+      "input": "What fruit comes from these trees?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 70,
+      "target": "answer",
+      "filtered_resps": [
+        "cross country"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "5666345.jpg",
+        "answer": "cross country"
+      },
+      "input": "What type of skiing is being done here?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 71,
+      "target": "answer",
+      "filtered_resps": [
+        "Long neck"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "1569995.jpg",
+        "answer": "long neck"
+      },
+      "input": "What is this animal famously known for?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 72,
+      "target": "answer",
+      "filtered_resps": [
+        "mammal"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "4535205.jpg",
+        "answer": "mammal"
+      },
+      "input": "Are these animals mammals or insects?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 73,
+      "target": "answer",
+      "filtered_resps": [
+        "freeze"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "3282845.jpg",
+        "answer": "freeze"
+      },
+      "input": "If it gets cold enough what will happen to the area being stepped over?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 74,
+      "target": "answer",
+      "filtered_resps": [
+        "15 feet"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "2335535.jpg",
+        "answer": "15 feet"
+      },
+      "input": "How tall do these animals get?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 75,
+      "target": "answer",
+      "filtered_resps": [
+        "calico"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0.6,
+      "submission": {
+        "image": "3589765.jpg",
+        "answer": "calico"
+      },
+      "input": "What is the breed of this cat?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 76,
+      "target": "answer",
+      "filtered_resps": [
+        "veggies"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "1050405.jpg",
+        "answer": "veggies"
+      },
+      "input": "Is this fruit or veggies?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 77,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "5379826.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "Why so many green vegetables?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 78,
+      "target": "answer",
+      "filtered_resps": [
+        "fear"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0.6,
+      "submission": {
+        "image": "2352215.jpg",
+        "answer": "fear"
+      },
+      "input": "What unpleasant emotional state does this weather phenomenon often cause?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 79,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "4854245.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What kind of oven is on the table?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 80,
+      "target": "answer",
+      "filtered_resps": [
+        "sleep"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "2864225.jpg",
+        "answer": "sleep"
+      },
+      "input": "How do people use this?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 81,
+      "target": "answer",
+      "filtered_resps": [
+        "napkin"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "5192715.jpg",
+        "answer": "napkin"
+      },
+      "input": "What small cloth is used to wipe the face or eating this meal?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 82,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "1449855.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What is this truck moving?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 83,
+      "target": "answer",
+      "filtered_resps": [
+        "quarter"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "5605665.jpg",
+        "answer": "quarter"
+      },
+      "input": "Which phase is that moon in?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 84,
+      "target": "answer",
+      "filtered_resps": [
+        "deer"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "3430685.jpg",
+        "answer": "deer"
+      },
+      "input": "What kind of animal is clearly displayed on the cover of this bed?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 85,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "1527025.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What is a type of horseback sport?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 86,
+      "target": "answer",
+      "filtered_resps": [
+        "blanket"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0.6,
+      "submission": {
+        "image": "1603935.jpg",
+        "answer": "blanket"
+      },
+      "input": "What item might be used to warm this item of furniture?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 87,
+      "target": "answer",
+      "filtered_resps": [
+        "helium"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "2597615.jpg",
+        "answer": "helium"
+      },
+      "input": "What fills the balloons?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 88,
+      "target": "answer",
+      "filtered_resps": [
+        "public"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "3883985.jpg",
+        "answer": "public"
+      },
+      "input": "Would this article of furniture typically be for public or private use?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 89,
+      "target": "answer",
+      "filtered_resps": [
+        "10"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0.6,
+      "submission": {
+        "image": "4071465.jpg",
+        "answer": "10"
+      },
+      "input": "How many passengers can this plane accomodate?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 90,
+      "target": "answer",
+      "filtered_resps": [
+        "wave"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "5525735.jpg",
+        "answer": "wave"
+      },
+      "input": "What knocked the guy off his chair?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 91,
+      "target": "answer",
+      "filtered_resps": [
+        "advertising"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "1000065.jpg",
+        "answer": "advertising"
+      },
+      "input": "What is the purpose of the logos on this truck?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 92,
+      "target": "answer",
+      "filtered_resps": [
+        "art"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "5685555.jpg",
+        "answer": "art"
+      },
+      "input": "What is the purpose of these objects?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 93,
+      "target": "answer",
+      "filtered_resps": [
+        "sleep"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "2873285.jpg",
+        "answer": "sleep"
+      },
+      "input": "What happens here?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 94,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "5649115.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "What company is this plane flying for?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 95,
+      "target": "answer",
+      "filtered_resps": [
+        "unanswerable"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "4471175.jpg",
+        "answer": "unanswerable"
+      },
+      "input": "Name the type of curtains shown in this picture?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 96,
+      "target": "answer",
+      "filtered_resps": [
+        "pig"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "3294555.jpg",
+        "answer": "pig"
+      },
+      "input": "What animal does the meat on the pizza come from?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 97,
+      "target": "answer",
+      "filtered_resps": [
+        "key"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 1,
+      "submission": {
+        "image": "1365725.jpg",
+        "answer": "key"
+      },
+      "input": "How do you turn this on?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 98,
+      "target": "answer",
+      "filtered_resps": [
+        "15 feet"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0.6,
+      "submission": {
+        "image": "5775245.jpg",
+        "answer": "15 feet"
+      },
+      "input": "How tall is this animal usually?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    },
+    {
+      "doc_id": 99,
+      "target": "answer",
+      "filtered_resps": [
+        "lot"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "exact_match": 0,
+      "submission": {
+        "image": "2707535.jpg",
+        "answer": "lot"
+      },
+      "input": "How much tomato sauce is in this dish?\nWhen the provided information is insufficient, respond with 'Unanswerable'.\nAnswer the question using a single word or phrase."
+    }
+  ],
+  "total_samples": 5046
+}

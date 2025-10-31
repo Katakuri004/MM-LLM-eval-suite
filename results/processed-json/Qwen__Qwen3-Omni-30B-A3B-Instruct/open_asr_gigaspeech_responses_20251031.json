@@ -1,0 +1,2908 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "benchmark_id": "open_asr_gigaspeech",
+  "total_samples": 19931,
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And you know, those stores look at trend reports and they look at what's on the runway. And part of their great skill in both marketing and manufacturing is being able to take those ideas and turn them around at just a rapid fire pace and get them into stores."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and you know, those stores look at trend reports and they look at what's on the runway and part of their great ah skill in both marketing and manufacturing is being able to take those ideas and turn them around at just a rapid fire pace and get them into stores.",
+        "pred": "And you know, those stores look at trend reports and they look at what's on the runway. And part of their great skill in both marketing and manufacturing is being able to take those ideas and turn them around at just a rapid fire pace and get them into stores."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 1,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Both the idea is that if you, want to participate in a trend in a fad and one that, is most likely a fleeting fad, fast fashion allows you to, glom onto that, as soon as possible."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "both. the idea is that if you want to participate in a trend and a fad, and one that is most likely a fleeting fad, fast fashion allows you to glom on to that as soon as possible.",
+        "pred": "Both the idea is that if you, want to participate in a trend in a fad and one that, is most likely a fleeting fad, fast fashion allows you to, glom onto that, as soon as possible."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 2,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And also, they can't collect the data without telling somebody how long they're going to keep it, and so Facebook users in Illinois sued Facebook, saying that it had collected their facial information and had not obtained their kind of affirmative opt in permission and had not told them how long that Facebook was going to keep it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and also, they can't collect the data without telling somebody how long they're gonna keep it. and so facebook users in illinois sued facebook saying that it had collected their facial information and had not obtained their kind of affirmative opt-in permission and had not told them how long that facebook was gonna keep it.",
+        "pred": "And also, they can't collect the data without telling somebody how long they're going to keep it, and so Facebook users in Illinois sued Facebook, saying that it had collected their facial information and had not obtained their kind of affirmative opt in permission and had not told them how long that Facebook was going to keep it."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 3,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "This is heavy metals from thirty for thirty podcast. I am Alyssa Roenick. Gymnastics has been part of my life in some form for as long as I can remember, from watching Mary Lou on TV at the nineteen eighty four Olympics when I was seven, to later being a teenage gymnast obsessing over Kim Zmeskal's tumbling passes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "this is heavy medals from thirty for thirty podcasts. i'm alyssa roenigk. gymnastics has been part of my life in some form for as long as i can remember. from watching mary lou on t v at the nineteen eighty-four olympics when i was seven, too later being a teenage gymnast obsessing over kim zmeskal's tumbling passes.",
+        "pred": "This is heavy metals from thirty for thirty podcast. I am Alyssa Roenick. Gymnastics has been part of my life in some form for as long as I can remember, from watching Mary Lou on TV at the nineteen eighty four Olympics when I was seven, to later being a teenage gymnast obsessing over Kim Zmeskal's tumbling passes."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 4,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "I wish I still had that tape. Here was Bela Karolyi, not just upset that China had possibly broken the rules, but wanting to make sure I knew he deserved credit for recognizing that younger and smaller gymnasts had better chances for gold. It was a point he'd been making to reporters for years."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i wish i still had that tape. here was bela karolyi, not just upset that china had possibly broken the rules, but wanting to make sure i knew he deserved credit for recognizing that younger and smaller gymnasts had better chances for gold. it was a point he'd been making to reporters for years.",
+        "pred": "I wish I still had that tape. Here was Bela Karolyi, not just upset that China had possibly broken the rules, but wanting to make sure I knew he deserved credit for recognizing that younger and smaller gymnasts had better chances for gold. It was a point he'd been making to reporters for years."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 5,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And then, if you didn't read it a couple of weeks ago, well, set aside a good few minutes to completely digest the New York Times story, \"The Secretive Company That Might End Privacy as We Know It.\" It's about Clearview AI, a little-known company that created an app for law enforcement to use facial recognition."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and then if you didn't read it a couple of weeks ago, well set aside a good few minutes to completely digest the new york times story the secretive company that might end privacy as we know it, it's about clearview a i, a little-known company that created an app for law enforcement to use facial recognition.",
+        "pred": "And then, if you didn't read it a couple of weeks ago, well, set aside a good few minutes to completely digest the New York Times story, \"The Secretive Company That Might End Privacy as We Know It.\" It's about Clearview AI, a little-known company that created an app for law enforcement to use facial recognition."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 6,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "When I covered my first Summer Olympic Games in Beijing in two thousand eight, China was accused of having an underage gymnast on the team, and I was writing about it. I'll never forget Bella Coroli shouting into my digital recorder about how the Chinese coaches had just stolen his playbook."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "when i covered my first summer olympic games in beijing in two thousand and eight, china was accused of having an underaged gymnast on the team and i was writing about it. i'll never forget bela karolyi, shouting into my digital recorder about how the chinese coaches had just stolen his playbook.",
+        "pred": "When I covered my first Summer Olympic Games in Beijing in two thousand eight, China was accused of having an underage gymnast on the team, and I was writing about it. I'll never forget Bella Coroli shouting into my digital recorder about how the Chinese coaches had just stolen his playbook."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 7,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Mister Chang had to review, every single real estate contract and was involved with the opening of, every new store. Which, at the pace that they were expanding, is is, a huge responsibility."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "mr. chang had to review every single real estate contract um and was involved with the opening of every new store, which at the pace that they are expanding is is a huge responsibility.",
+        "pred": "Mister Chang had to review, every single real estate contract and was involved with the opening of, every new store. Which, at the pace that they were expanding, is is, a huge responsibility."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 8,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "A grip on Fox News, a grip on Newsmax, and it's we're stuck in this cycle. I think we have to beat them all. I mean, I don't, I just like t here is no, I look, I know how hard the house is going to be in twenty twenty two. I don't know if everyone realizes this, but um, it's gonna it was gonna be hard no matter what. Now with redistricting, it's gonna be even harder."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "a grip on fox news, a grip on newsmax and it's we're stuck in the cycle. and i think we have to beat them all, i mean at all, i just, i like, there's no, i, look i know how hard the house is gonna be in twenty twenty-two. i don't know if everyone realizes this, but um it's gonna, it was gonna be hard no matter what, now with redistricting it's gonna be even harder.",
+        "pred": "A grip on Fox News, a grip on Newsmax, and it's we're stuck in this cycle. I think we have to beat them all. I mean, I don't, I just like t here is no, I look, I know how hard the house is going to be in twenty twenty two. I don't know if everyone realizes this, but um, it's gonna it was gonna be hard no matter what. Now with redistricting, it's gonna be even harder."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 9,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And so, biometric privacy pertains to your fingerprints or facial scans for facial recognition. And so, in Illinois, the law says that companies can't collect that kind of information, like facial data for facial recognition, without getting written permission from someone."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and so biometric privacy pertains to your fingerprints or facial scans for facial recognition, and so in illinois, the law says that companies can't collect that kind of information, like facial data for facial recognition, without getting written permission from someone.",
+        "pred": "And so, biometric privacy pertains to your fingerprints or facial scans for facial recognition. And so, in Illinois, the law says that companies can't collect that kind of information, like facial data for facial recognition, without getting written permission from someone."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 10,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Cocaine and Rhinestones is very scripted, very produced. It takes me a long time to make these episodes. Your Favorite Band Sucks is the exact opposite. It's just my friend Mark and I sit down and say some of the worst things you will ever hear about bands that you probably love."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "cocaine and rhinestones is very scripted, very produced. it takes me a long time to make these episodes. your favorite band sucks is the exact opposite. it's just my friend, mark and i sit down and say some of the worst things you will ever hear about bands that you probably love.",
+        "pred": "Cocaine and Rhinestones is very scripted, very produced. It takes me a long time to make these episodes. Your Favorite Band Sucks is the exact opposite. It's just my friend Mark and I sit down and say some of the worst things you will ever hear about bands that you probably love."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 11,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And they feel like, if their kids aren't learning these skills or aware of what's going on on social media and the internet more broadly, that they will somehow be social outcasts or they won't have the skills to be competitive in, you know, in the future workforce."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "um, and they feel like if their kids aren't learning these skills or aware of what's going on on social media and the internet more broadly, that they will somehow be social outcasts or they won't have the skills to be competitive in you know in the future workforce.",
+        "pred": "And they feel like, if their kids aren't learning these skills or aware of what's going on on social media and the internet more broadly, that they will somehow be social outcasts or they won't have the skills to be competitive in, you know, in the future workforce."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 12,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And it was about seven eight years ago when all of this research started to come out, showing the importance of these self regulation skills and how they were related to, school achievement, school readiness, and life lessons."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and it was about seven, eight years ago when all of this research started to come out, ah showing the importance of the self-regulation skills and how they were related to school achievement, school readiness and life lessons.",
+        "pred": "And it was about seven eight years ago when all of this research started to come out, showing the importance of these self regulation skills and how they were related to, school achievement, school readiness, and life lessons."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 13,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Fast forward to six months later, it's early in the fall of nineteen sixty seven. Jeannie's in Las Vegas for a week as Johnny Paycheck's opener. Paycheck is on his way up after having his first top ten hit the year before with \"The Lovin' Machine.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "fast forward to six months later. it's early in the fall of nineteen sixty-six. jeannie's in las vegas for a week, as johnny paycheck's opener. paycheck is on his way up after having his first top ten hit the year before with the lovin machine.",
+        "pred": "Fast forward to six months later, it's early in the fall of nineteen sixty seven. Jeannie's in Las Vegas for a week as Johnny Paycheck's opener. Paycheck is on his way up after having his first top ten hit the year before with \"The Lovin' Machine.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 14,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "I'm not saying it's immoral. It's just amoral, completely without regard, to, the morality of trying to help David Duke get into the runoff and whether or not that would be good or bad for the state of Louisiana."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i'm not saying it's immoral, it's just amoral completely without regard to the morality of trying to help david duke get into the runoff and whether or not that would be good or bad for the state of louisiana.",
+        "pred": "I'm not saying it's immoral. It's just amoral, completely without regard, to, the morality of trying to help David Duke get into the runoff and whether or not that would be good or bad for the state of Louisiana."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 15,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "One of them writes, \"How is it that we hear the loudest yelps for freedom from the drivers of negroes?\" Another writes to Benjamin Franklin and says, \"Perhaps you should ask the people who are actually enslaved what slavery is like.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "one of them writes, how is it that we hear the loudest yelps for freedom from the drivers of negroes? another writes to benjamin franklin and says, perhaps you should ask the people who are actually enslaved what slavery is like.",
+        "pred": "One of them writes, \"How is it that we hear the loudest yelps for freedom from the drivers of negroes?\" Another writes to Benjamin Franklin and says, \"Perhaps you should ask the people who are actually enslaved what slavery is like.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 16,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "During the Cold War, sports were a way for nations to assert their power without going to war. Olympic success equaled national pride for athletes and coaches in Romania. It meant security and stature. It meant not waiting in line for a loaf of bread."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "during the cold war, sports were a way for nations to assert their power without going to war. olympic success equaled national pride. for athletes and coaches in romania, it meant security and stature. it meant not waiting in line for a loaf of bread.",
+        "pred": "During the Cold War, sports were a way for nations to assert their power without going to war. Olympic success equaled national pride for athletes and coaches in Romania. It meant security and stature. It meant not waiting in line for a loaf of bread."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 17,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "All through July, she expects the call. All through August, she expects the call. Of course, it never comes, so she gets all bummed out. Until Mickey comes home from work one day and tells her to start packing. He's sick of seeing her mope around the house. They're moving to Nashville."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "all through july, she expects the call. all through august, she expects the call. of course, it never comes, so she gets all bummed out, until mickey comes home from work one day and tells her to start packing. he's sick of seeing her mope around the house. they're moving to nashville.",
+        "pred": "All through July, she expects the call. All through August, she expects the call. Of course, it never comes, so she gets all bummed out. Until Mickey comes home from work one day and tells her to start packing. He's sick of seeing her mope around the house. They're moving to Nashville."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 18,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "You know, there are many, many options, but moving away from the COBOL code running on the mainframe to a more modern platform might allow for greater, you know, scalability suddenly if needed, as well as for easier maintenance if you know code changes need to be made."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "ah you know, there are many, many options, but moving away from the cobol code running on the mainframe to a more modern platform might allow for greater, you know, scalability suddenly if needed, ah as well as for easier maintenance if you know code changes need to be made.",
+        "pred": "You know, there are many, many options, but moving away from the COBOL code running on the mainframe to a more modern platform might allow for greater, you know, scalability suddenly if needed, as well as for easier maintenance if you know code changes need to be made."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 19,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "There's at least one scene where two people go back and forth with lines of quoted dialogue in a conversation that Jeannie was not there for and could not possibly remember with such detail, even if she was blessed with total recall over a decade after the fact."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "there's at least one scene where two people go back and forth with lines of quoted dialogue, in a conversation that jeannie was not there for and could not possibly remember with such detail, even if she was blessed with total recall over a decade after the fact.",
+        "pred": "There's at least one scene where two people go back and forth with lines of quoted dialogue in a conversation that Jeannie was not there for and could not possibly remember with such detail, even if she was blessed with total recall over a decade after the fact."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 20,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "I need you to come back. I started crying. I said, \"Oh my gosh, what have I now wrong this time?\" He said, \"You are going to have to come back with us in our room.\" I started crying because I thought, \"You know, I mean, just the fear of what have I now wrong.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i need you to come back. i started crying. i said, oh my gosh, what have i done wrong this time? he said, you're gonna have to come back with us in our room. i started crying because i thought, you know, i i mean, just the fear of what have i done wrong?",
+        "pred": "I need you to come back. I started crying. I said, \"Oh my gosh, what have I now wrong this time?\" He said, \"You are going to have to come back with us in our room.\" I started crying because I thought, \"You know, I mean, just the fear of what have I now wrong.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 21,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Unless you've purposefully sat down to give yourself the same experience or spent the past seventy something years of your life glued to country radio, the same thing is true for you. Number one songs, hit songs, completely absent from our personal experience of country music."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "unless you've purposefully sat down to give yourself the same experience or spent the past seventy something years of your life glued to country radio, the same thing is true for you. number one songs, hit songs completely absent from our personal experience of country music.",
+        "pred": "Unless you've purposefully sat down to give yourself the same experience or spent the past seventy something years of your life glued to country radio, the same thing is true for you. Number one songs, hit songs, completely absent from our personal experience of country music."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 22,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "They live in a motel room, then a small apartment. Jeannie keeps calling Surefire Music to find out why they didn't hire her for that Wilburn Brothers tour. She eventually finds out that tour was canceled and then gets to work furthering her career by checking the mailbox."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "they lived in a motel room than a small apartment. jeannie keeps calling sure fire music to find out why they didn't hire her for that wilburn brothers tour. she eventually finds out that tour was canceled and then gets to work furthering her career by checking the mailbox.",
+        "pred": "They live in a motel room, then a small apartment. Jeannie keeps calling Surefire Music to find out why they didn't hire her for that Wilburn Brothers tour. She eventually finds out that tour was canceled and then gets to work furthering her career by checking the mailbox."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 23,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "People were reluctant to say, \"I am going to vote for Duke,\" because they were afraid of being labeled racist, even though they're talking to, you know, on an anonymous phone call to a pollster."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "people were reluctant to say, i'm gonna vote for duke because they were afraid of being labeled racist, even though they're talking to it, you know, um on an anonymous phone call to a pollster.",
+        "pred": "People were reluctant to say, \"I am going to vote for Duke,\" because they were afraid of being labeled racist, even though they're talking to, you know, on an anonymous phone call to a pollster."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 24,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Anytime she comes to her own name or the name of the song, she switches from black ink to red so it stands out on the page. A station in Ohio plays the single twenty six times in one day. Other stations ban it because they don't like her uppity tone."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "anytime she comes to her own name or the name of the song, she switches from black ink to red so it stands out on the page. a station in ohio plays the single twenty-six times in one day. other stations ban it because they don't like her uppity tone.",
+        "pred": "Anytime she comes to her own name or the name of the song, she switches from black ink to red so it stands out on the page. A station in Ohio plays the single twenty six times in one day. Other stations ban it because they don't like her uppity tone."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 25,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And I am sure there is some in the federal government, but you know, after this pandemic is over, it's really going to be time to take a serious look at a lot of these older systems and evaluate whether they really are reliable only because we haven't had to make changes or they're really reliable."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "um and i'm sure there're some in the federal government, but you know, this ah ah after this pandemic is over, it's really gonna be time to take a serious look at a lot of these older systems and evaluate whether they really are reliable only because we haven't had to make changes, or they're really reliable?",
+        "pred": "And I am sure there is some in the federal government, but you know, after this pandemic is over, it's really going to be time to take a serious look at a lot of these older systems and evaluate whether they really are reliable only because we haven't had to make changes or they're really reliable."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 26,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And we had a set of questions from one dissatisfied user of the service under your predecessor who felt that she hadn't been treated fairly by the system."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and we had a set of questions from one dissatisfied user of the service under your predecessor, who felt that she hadn't been treated fairly by the system.",
+        "pred": "And we had a set of questions from one dissatisfied user of the service under your predecessor who felt that she hadn't been treated fairly by the system."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 27,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, we finally got on a bus, and the security guy, who was already green on his face, was just all angry. They said, \"Where is Bella?\" You know it, I said, \"I don't know. How should I know? Maybe they didn't come back to a store yet. I have no idea.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "so we finally got on a bus and the security guy who was already green on his face, he was all green and said, where's bela? you know it, i said, i don't know. how should i know? maybe they didn't come back to the store yet. i have no idea.",
+        "pred": "So, we finally got on a bus, and the security guy, who was already green on his face, was just all angry. They said, \"Where is Bella?\" You know it, I said, \"I don't know. How should I know? Maybe they didn't come back to a store yet. I have no idea.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 28,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Romanian gymnastics coach Bela Karolyi, one of the world's best, his wife Marta, also a highly regarded trainer, and Gheorghe Popovici, the top choreographer for the Romanian women's team, today they were at the Capitol asking a congressman to help reunite them with their families."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "romanian gymnastics coach bela karolyi, one of the world's best, his wife martha, also a highly regarded trainer and geza pozsar, the top choreographer for the romanian women's team. today, they were at the capitol asking a congressman to help reunite them with their families.",
+        "pred": "Romanian gymnastics coach Bela Karolyi, one of the world's best, his wife Marta, also a highly regarded trainer, and Gheorghe Popovici, the top choreographer for the Romanian women's team, today they were at the Capitol asking a congressman to help reunite them with their families."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 29,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Some kind of lieutenant, I don't know. He was all dressed in green and stuff, big and big guy, and really serious. And he said, \"You better think what you are doing twice. Don't you ever bring shame on your country. You are wearing our country on your shoulders.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "some kind of lieutenant, i don't know. he was all dressed in green and stuff. big and big guy and really serious, and he said, you better think what you're doing twice. don't you ever bring shame on your country. you're wearing our country on your shoulders.",
+        "pred": "Some kind of lieutenant, I don't know. He was all dressed in green and stuff, big and big guy, and really serious. And he said, \"You better think what you are doing twice. Don't you ever bring shame on your country. You are wearing our country on your shoulders.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 30,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And they figured out with the garment manufacturing in Los Angeles how to deliver fashions that people wanted and to come up with a way of selling clothes that churned through styles, made an exciting environment."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and they figured out what the garment manufacturing in los angeles, how to deliver fashions that people wanted and to come up with a way of selling clothes that churned through styles, made an exciting environment.",
+        "pred": "And they figured out with the garment manufacturing in Los Angeles how to deliver fashions that people wanted and to come up with a way of selling clothes that churned through styles, made an exciting environment."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 31,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The merger between T Mobile and Sprint is finally done. That deal is worth about twenty six billion dollars and leaves us with just three big wireless networks: AT and T, Verizon, and T Mobile, and no one else."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the merger between t-mobile and sprint is finally done. that deal is worth about twenty-six billion dollars, and leaves us with just three big wireless networks, a t and t, verizon and t-mobile. and no one else.",
+        "pred": "The merger between T Mobile and Sprint is finally done. That deal is worth about twenty six billion dollars and leaves us with just three big wireless networks: AT and T, Verizon, and T Mobile, and no one else."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 32,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "But in essence, like as a Korean American, knowing there is Koreatown and all the people that I've been able to meet because this space allows our communities to come together and to be visible, I don't feel alone."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "but in essence, like, as a korean american, knowing there's koreatown um and all the people that i've been able to meet, because this space allows our communities to come together and to be visible, um i don't feel alone.",
+        "pred": "But in essence, like as a Korean American, knowing there is Koreatown and all the people that I've been able to meet because this space allows our communities to come together and to be visible, I don't feel alone."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 33,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Bela Karolyi was very visible, and he was unmistakable on the floor. Huge guy, he was, in our eyes, the guru, the genius behind, Nadia's precision and and perfection."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "bela karolyi was very visible, and he was unmistakable on the floor. huge guy. he was, in our eyes, the guru, the genius behind nadia's precision and and perfection.",
+        "pred": "Bela Karolyi was very visible, and he was unmistakable on the floor. Huge guy, he was, in our eyes, the guru, the genius behind, Nadia's precision and and perfection."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 34,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "He'd been working with Bella and Marta for years. He'd designed Nadia's floor routine and helped her train for this moment, but instead of watching from the sidelines with Bella and Marta, he was watching from home, because the Romanian government wouldn't let him travel to Montreal."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "he'd been working with bela and martha for years. he'd designed nadia's floor routine and helped her train for this moment. but instead of watching from the sidelines, with bela and martha, he was watching from home. because the romanian government wouldn't let him travel to montreal.",
+        "pred": "He'd been working with Bella and Marta for years. He'd designed Nadia's floor routine and helped her train for this moment, but instead of watching from the sidelines with Bella and Marta, he was watching from home, because the Romanian government wouldn't let him travel to Montreal."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 35,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "I mean, it's generally clothing that is produced very quickly, very much leaping onto a trend of the moment, and not meant to last."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i mean it's generally clothing that is produced very quickly, very much leaping on to a trend of the moment, and not meant to last.",
+        "pred": "I mean, it's generally clothing that is produced very quickly, very much leaping onto a trend of the moment, and not meant to last."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 36,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Jeannie Carolyn Stevenson was born in a small Texas town in nineteen forty five. In nineteen sixty two, while still a senior in high school, she married her boyfriend Mickey Riley and became Jeannie Carolyn Riley. So C stands for Carolyn."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "jeannie carolyn stephenson was born in a small texas town in nineteen forty-five. in nineteen sixty-two, while still a senior in high school, she married her boyfriend, mickey riley, and became jeannie carolyn riley. so, c stands for carolyn.",
+        "pred": "Jeannie Carolyn Stevenson was born in a small Texas town in nineteen forty five. In nineteen sixty two, while still a senior in high school, she married her boyfriend Mickey Riley and became Jeannie Carolyn Riley. So C stands for Carolyn."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 37,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The day the public forgets Harper Valley PTA may mean three. The difference between what is written there and what I quoted in the episode may seem so small as to not be noticeable by some of you, but it's there, and I do see it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the day the public forgets harper valley p t a may mean three, unquote. the difference between what is written there, and what i quoted in the episode may seem so small as to not be noticeable by some of you, but it's there, and i do see it.",
+        "pred": "The day the public forgets Harper Valley PTA may mean three. The difference between what is written there and what I quoted in the episode may seem so small as to not be noticeable by some of you, but it's there, and I do see it."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 38,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And waiting for the phone to ring, she writes that she spends weeks waiting for the world to notice her, resenting her husband for working twelve hour days at a gas station to support her and the baby, while also begging him to move them to a bigger apartment closer to his work."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and waiting for the phone to ring. she writes that she spends weeks, waiting for the world to notice her, resenting her husband for working twelve hour days at a gas station to support her and the baby, while also begging him to move them to a bigger apartment closer to his work.",
+        "pred": "And waiting for the phone to ring, she writes that she spends weeks waiting for the world to notice her, resenting her husband for working twelve hour days at a gas station to support her and the baby, while also begging him to move them to a bigger apartment closer to his work."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 39,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Speaking very strictly, \"Harper Valley PTA\" is not her debut single, as I said it was in the intro of this episode. But her first single may never have been meant for an audience larger than her immediate circle of family and friends."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "speaking very strictly, harper valley p t a is not her debut single, as i said it was in the intro of this episode, but her first single may never have been meant for an audience larger than her immediate circle of family and friends.",
+        "pred": "Speaking very strictly, \"Harper Valley PTA\" is not her debut single, as I said it was in the intro of this episode. But her first single may never have been meant for an audience larger than her immediate circle of family and friends."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 40,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Obviously, a good deal of Amazon is kind of essential in these times. You know, particularly if you are somebody with mobility issues, you are somebody who, for for health reasons, doesn't want to even take the risk of going to a, going to a supermarket or big box store that remains open. You know, you are reliant on e commerce and."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "obviously a good deal of amazon, is kind of essential in this times, and particularly if you're somebody with mobility issues, you're somebody who for for health reasons doesn't want to even take the risk going to ah, going to a supermarket or big-box store that remains open, yeah, you you are relying on e-comers and.",
+        "pred": "Obviously, a good deal of Amazon is kind of essential in these times. You know, particularly if you are somebody with mobility issues, you are somebody who, for for health reasons, doesn't want to even take the risk of going to a, going to a supermarket or big box store that remains open. You know, you are reliant on e commerce and."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 41,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, we're going to talk about that. I probably will announce it here on a live stream one week, and then we'll pick a day. Go ahead and be thinking of a day and time that would be good for a Facebook Live auction."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "so we're we're gonna talk about that um i'll probably will announce it here on a live stream one week and then we'll pick a day go ahead and be thinking of the day and tom that would be good for a facebook live auction.",
+        "pred": "So, we're going to talk about that. I probably will announce it here on a live stream one week, and then we'll pick a day. Go ahead and be thinking of a day and time that would be good for a Facebook Live auction."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 42,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Got some Andrew Purrs in the house talking about buying a forty breeder. It was unplanned, and now he needs to light it. Any cheap lighting recommendation to make it a planted breeding tank for guppies and bristlenose plecos?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "ah got some and ah andrew puhr in the house talking about buying a forty breeder. it was unplanned and now he needs to light it any cheap lighting recommendation to make it a planted breeding tank for guppies and bristlenose plecos.",
+        "pred": "Got some Andrew Purrs in the house talking about buying a forty breeder. It was unplanned, and now he needs to light it. Any cheap lighting recommendation to make it a planted breeding tank for guppies and bristlenose plecos?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 43,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Now it's too late, but at the time it was sort of fresh and romantic. Right, Hubert de Givenchy was such an incredible designer, but also such a gentleman. It was such a pleasure to be one of his girls. You know."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "but now it's too late but at the time it was so fresh and romantic right uber de givenchy was such an incredible designer but also such a gentleman to such a pleasure to be one of the girls you know.",
+        "pred": "Now it's too late, but at the time it was sort of fresh and romantic. Right, Hubert de Givenchy was such an incredible designer, but also such a gentleman. It was such a pleasure to be one of his girls. You know."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 44,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Owning the iron source meant that Carnegie's bridge building company would not be dependent on mining or extracting companies for iron like their competitors. This not only gave Carnegie more control over the entire process, it also improved their margins."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "owning the iron sauce meant that carnegie's bridge building company would not be dependent on mining or extracting companies for iron like their competitors. this not only gave carnegie more control over the entire process it also improved their margins.",
+        "pred": "Owning the iron source meant that Carnegie's bridge building company would not be dependent on mining or extracting companies for iron like their competitors. This not only gave Carnegie more control over the entire process, it also improved their margins."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 45,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Now, in my boy days, we were slaves. We belong to people. They sell us like they sell horses and cows and hogs and all like that. Have them auction bench."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "now in my boy days, we were slaves. we belonged to people. they'd sell us like they sell horses and cows and hogs and all like that, have an auction bench.",
+        "pred": "Now, in my boy days, we were slaves. We belong to people. They sell us like they sell horses and cows and hogs and all like that. Have them auction bench."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 46,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "I think we're going to be writing about, you know, how this, you know, as catastrophic an event as it's proving to be globally, this is kind of the thing that Amazon was built for. You know, they've spent most of the last decade building a giant logistics network in the US and parts of Europe to."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i think we're gonna be writing about you know, how this, you know as as catastrophic are gonna been as it's putting to be globally, um, this is the kind of the thing that amazon was built for. you know, they've spent most of the last decade building a a giant logistics network in the u s and and parts of europe to.",
+        "pred": "I think we're going to be writing about, you know, how this, you know, as catastrophic an event as it's proving to be globally, this is kind of the thing that Amazon was built for. You know, they've spent most of the last decade building a giant logistics network in the US and parts of Europe to."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 47,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And of course, most of these critics were pop writers who were only aware of Jeannie C. Riley because of the pop success of Harper Valley PTA, and whose only other frame of reference for country music in the sixties and seventies was probably Johnny Cash."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and, of course, most of these critics were pop writers who were only aware of jeannie c. riley because of the pop success of harper valley p t a and whose only other frame of reference for country music in the sixties and seventies was probably johnny cash.",
+        "pred": "And of course, most of these critics were pop writers who were only aware of Jeannie C. Riley because of the pop success of Harper Valley PTA, and whose only other frame of reference for country music in the sixties and seventies was probably Johnny Cash."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 48,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Chad Crots interrupting things here at the live stream with a nine point ninety nine super chat says, \"sleep calls, hope y'all have a good evening, thanks for the stream, right?\" Thank you, Chad Crots, for being here, thanks for the super chat, nine point ninety nine, I appreciate that."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "chad crotts interrupting things here at the live stream with a non dollar ninety-nine cent super chat says sleep calls hope y'all have a good evening thanks for the stream right. thank you chad crotts for being here thanks for the super chat nine ninety-nine i appreciate that.",
+        "pred": "Chad Crots interrupting things here at the live stream with a nine point ninety nine super chat says, \"sleep calls, hope y'all have a good evening, thanks for the stream, right?\" Thank you, Chad Crots, for being here, thanks for the super chat, nine point ninety nine, I appreciate that."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 49,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "You see, in medieval Europe, Christianity forbade anyone from lending money with interest, leaving this otherwise profitable business into the hands of the Jews. Experience with money lending and by extension anything relating to finance was passed down generations."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "you see, in medieval europe christianity forbade anyone from lending money with interest, leaving this otherwise profitable business into the hands of the jews. experience with money lending, and by extension anything relating to finance, was passed down generations.",
+        "pred": "You see, in medieval Europe, Christianity forbade anyone from lending money with interest, leaving this otherwise profitable business into the hands of the Jews. Experience with money lending and by extension anything relating to finance was passed down generations."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 50,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "But then you got to understand that there are, the other side of that is that, perhaps a clinician or a member of health staff, who has been criticised, receives you know a message that actually, they did it right."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "but then, you got to understand that there're, the other side of that is that perhaps a clinician or a a member of health staff who has been criticised, receives, ah ah you know, a message that, actually, they did it right.",
+        "pred": "But then you got to understand that there are, the other side of that is that, perhaps a clinician or a member of health staff, who has been criticised, receives you know a message that actually, they did it right."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 51,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "I'll link it down below so you can watch the chat. Also, follow my Facebook page because I'm going to do more live chats and just post more videos on Facebook. Anyway, this prompt is to list all the things that you, don't exactly like about yourself."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i'll link it down below so that you can watch the chat. also, follow my facebook page because i'm gonna do more live chats and just post more videos on facebook. anyway, this prompt is to list all the things that you don't exactly like about yourself.",
+        "pred": "I'll link it down below so you can watch the chat. Also, follow my Facebook page because I'm going to do more live chats and just post more videos on Facebook. Anyway, this prompt is to list all the things that you, don't exactly like about yourself."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 52,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And by two thousand and ten, Blockbuster had filed for bankruptcy. Netflix had emerged victorious, and in two thousand and seven, it celebrated the delivery of its billionth DVD. Then, in a single announcement, Hastings began the journey of making the very bedrock of his company obsolete."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and by two thousand ten blockbuster had filed for bankruptcy. netflix had emerged victorious and in two thousand seven it celebrated the delivery of its billionth d v d. then, in a single announcement, hastings began the journey of making the very bedrock of his company obsolete.",
+        "pred": "And by two thousand and ten, Blockbuster had filed for bankruptcy. Netflix had emerged victorious, and in two thousand and seven, it celebrated the delivery of its billionth DVD. Then, in a single announcement, Hastings began the journey of making the very bedrock of his company obsolete."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 53,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "In the armchair beside him was the actress. Like Bob, the actress in the video had been asked to come up with a marriage problem, but in doing so, the actress went to a darker place than Alvin anticipated, describing a husband who was vicious and cruel."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "in the armchair beside him was the actress. like bob, the actress in the video had been asked to come up with a marriage problem. but in doing so, the actress went to a darker place and alvin anticipated describing a husband who is vicious and cruel.",
+        "pred": "In the armchair beside him was the actress. Like Bob, the actress in the video had been asked to come up with a marriage problem, but in doing so, the actress went to a darker place than Alvin anticipated, describing a husband who was vicious and cruel."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 54,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "First of all, they changed the names to protect people. Jeannie loves Jeannie loves the person who blackmailed her with revenge porn. Okay, next, in one instance, we have changed the details slightly to disguise a scene."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "first of all, they changed the named to protect people jeannie loves. jeannie loves the person who blackmailed her with revenge porn. okay next, in one instance, we have changed the details slightly to disguise on scene.",
+        "pred": "First of all, they changed the names to protect people. Jeannie loves Jeannie loves the person who blackmailed her with revenge porn. Okay, next, in one instance, we have changed the details slightly to disguise a scene."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 55,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "It was really in the early two thousand s that you saw them sort of burst onto the national scene, and that really emerged with, the acquisition of, stores owned by, Gadzooks."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it was really in the early two thousands that you saw them sort of burst on to the national scene, and that really emerged with the acquisition of stores owned by gadzooks.",
+        "pred": "It was really in the early two thousand s that you saw them sort of burst onto the national scene, and that really emerged with, the acquisition of, stores owned by, Gadzooks."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 56,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "As the article says, without public scrutiny, more than six hundred law enforcement agencies have started using Clearview in the past year. And while big tech companies are at least facing some scrutiny for their facial recognition efforts, this company seems to have flown under the radar until now."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "as the article says, without public scrutiny, more than six hundred law enforcement agencies have started using clearview in the past year, and while big tech companies are at least facing some scrutiny for their facial recognition efforts, this company seems to have flown under the radar until now.",
+        "pred": "As the article says, without public scrutiny, more than six hundred law enforcement agencies have started using Clearview in the past year. And while big tech companies are at least facing some scrutiny for their facial recognition efforts, this company seems to have flown under the radar until now."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 57,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "We've created a framework, which sets out what our powers are and within that, what we are going to do, to either support or, if necessary, intervene."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "we've created a framework which sets out what our powers are and within that what we are going to do to either support or, if necessary, intervene.",
+        "pred": "We've created a framework, which sets out what our powers are and within that, what we are going to do, to either support or, if necessary, intervene."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 58,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Because when we, for example, a simple example, we might see a number of complaints from a public body where the final response that they give to the complainant does not signpost the ombudsman."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "because when we, for example, a simple example, we might see a number of complaints from a public body where the final response that they give to the complainer does not signpost the ombudsman.",
+        "pred": "Because when we, for example, a simple example, we might see a number of complaints from a public body where the final response that they give to the complainant does not signpost the ombudsman."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 59,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Uncle Johnny gets them backstage at the Grand Ole Opry, and Jeannie's all starstruck. She gets an autograph from Connie Smith, Jackie Phelps, the guy you'd later see playing guitar on Hee Haw, takes Uncle Johnny aside to give him some advice."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "uncle johnny gets them backstage at the grand ole opry and jeannie's all starstruck. she gets an autograph from connie smith. jackie phelps, the guy you'd later see playing guitar on hee haw, takes uncle johnny aside to give him some advice.",
+        "pred": "Uncle Johnny gets them backstage at the Grand Ole Opry, and Jeannie's all starstruck. She gets an autograph from Connie Smith, Jackie Phelps, the guy you'd later see playing guitar on Hee Haw, takes Uncle Johnny aside to give him some advice."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 60,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "I am not going to give bandwidth to things I can't change or affect. I am just over it. And at the end of the day, you know, Jocko said this. He's like, you know, people get so worked up that Trump's going to get elected. Well, he maybe moves the azimuth like two degrees to the right."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i'm not gonna give bandwidth things i can't change or effect ah i am just over and at the end of the day you know jocose said this is like you people get so worked up that trumps can elected while he may be moves the as myth like two degrees to the right.",
+        "pred": "I am not going to give bandwidth to things I can't change or affect. I am just over it. And at the end of the day, you know, Jocko said this. He's like, you know, people get so worked up that Trump's going to get elected. Well, he maybe moves the azimuth like two degrees to the right."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 61,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Take advantage, and the dollars actually don't get to the veterans. But Gary Sinise is, you know, the real gold standard and does so much for everyone. So, this is a charity that I've actually worked with firsthand."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "take advantage and the do and the dollars actually don't get to the veterans. um but but gary sinise is you know the real gold standard and and and does so much for ah for everyone so ah i this is a charity that i have actually worked with first hand.",
+        "pred": "Take advantage, and the dollars actually don't get to the veterans. But Gary Sinise is, you know, the real gold standard and does so much for everyone. So, this is a charity that I've actually worked with firsthand."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 62,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Simply sign up using the link in the video description below, and Acorns will deposit five dollars into your portfolio. That's free money to help you get started with investing. Whether you're saving money for your kid's college tuition or for retirement, there's no excuse not to start investing."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "simply sign up using the link in the video description below and acorns will deposit five dollars into a portfolio. that's free money to help you get started with investing whether your'e saving money for your kids college tuition or for retirement, there's no excuse not to start investing.",
+        "pred": "Simply sign up using the link in the video description below, and Acorns will deposit five dollars into your portfolio. That's free money to help you get started with investing. Whether you're saving money for your kid's college tuition or for retirement, there's no excuse not to start investing."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 63,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "It's ten forty three, ninety four, ninety three people watching now. Simply Better showed up, and all it's like this is a red carpet event. We got all the stars here tonight: KG Tropical, Simply Better, Friday Fish Facts, Bob Kaler."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it's ten forty-three, ninety-four ninety-three people watching now. simply brtta showed up and all that it's like this is a red carpet of me we got all the stars here tonight um k g tropical, simply betta, friday fish facts, bob caylor.",
+        "pred": "It's ten forty three, ninety four, ninety three people watching now. Simply Better showed up, and all it's like this is a red carpet event. We got all the stars here tonight: KG Tropical, Simply Better, Friday Fish Facts, Bob Kaler."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 64,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The FRS has a little bit better initial turn in because the steering rack is tighter, but the S two thousand seems to link the corner more consistently than the FRS. It gets a little bit of slide, a little bit of scrub going on, and the S two thousand just clings and hangs on."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the f r s has a little bit better initial turn because the steering rack is tighter but the s two thousand seems to link the coroner or more consistently than f r s it get a little bit sly little bit of scruff going on the s two thousand just clings hangs on.",
+        "pred": "The FRS has a little bit better initial turn in because the steering rack is tighter, but the S two thousand seems to link the corner more consistently than the FRS. It gets a little bit of slide, a little bit of scrub going on, and the S two thousand just clings and hangs on."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 65,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Right, right, and t here is a bunch of other areas that you know they stand to to likely benefit from this. You know, one of them it doesn't get talked about quite as much as as delivery, but Amazon Web Services, their cloud computing group, which you know it's essentially on demand software or or processing power."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "right, right, and there is just a bunch of other areas that, you know, they stand to to likely benefits from this you know one of them, it doesn't get talked about quite as much as as delivery, but ah amazon web services, their cloud computing group, which you know is essentially on-demand software or or or processing power.",
+        "pred": "Right, right, and t here is a bunch of other areas that you know they stand to to likely benefit from this. You know, one of them it doesn't get talked about quite as much as as delivery, but Amazon Web Services, their cloud computing group, which you know it's essentially on demand software or or processing power."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 66,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "No, I actually found this on the street. It was just laying in a mud puddle somewhere, and my wife cleaned it up. Yeah, yeah, so no, I like Bert's company too. I like everything that you guys do."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "no i actually found this on the street it was just laying in the mud puddle somewhere and and my wife plant it out yeah yeah, so ah, no. ah, no i i like like birds company too, i like everything you guys do, so.",
+        "pred": "No, I actually found this on the street. It was just laying in a mud puddle somewhere, and my wife cleaned it up. Yeah, yeah, so no, I like Bert's company too. I like everything that you guys do."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 67,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "You know, businesses with employees working from home are are making more use of that, analysts say. And then, you know, if you are sitting home watching Netflix or using a variety of internet services, a lot of the backbones of those live on Amazon Web Services, and so."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "you know, businesses with employees working from home are ah are making more use of that, ah analysts say. and then you know, if you're sitting at home watching netflix or using a variety of internet services, a lot of the backbones of of those ah live on amazon web services and so.",
+        "pred": "You know, businesses with employees working from home are are making more use of that, analysts say. And then, you know, if you are sitting home watching Netflix or using a variety of internet services, a lot of the backbones of those live on Amazon Web Services, and so."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 68,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Tallboy was, beautifully designed. If you can say that about a bomb, it had fins at the rear, so that when it fell, it went into a spin. That meant it was flying very accurately."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "tallboy was beautifully designed if you could say that about a bomb it had fins at the rear so that when it fell it went into a spin that meant it was flying very accurately.",
+        "pred": "Tallboy was, beautifully designed. If you can say that about a bomb, it had fins at the rear, so that when it fell, it went into a spin. That meant it was flying very accurately."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 69,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And personally negotiate rebates for using their trains, but this practice of negotiating backroom deals really got the business world riled up. At the time and still kind of today, most industrial goods were transported by rail."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and personally negotiate rebates for using their trains. but this practice of negotiating backroom deals really got the business world riled up. at the time and still kind of today most industrial goods were transported by rail.",
+        "pred": "And personally negotiate rebates for using their trains, but this practice of negotiating backroom deals really got the business world riled up. At the time and still kind of today, most industrial goods were transported by rail."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 70,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "So that meant that tweens in the Philippines or Romania or Macau could all rock a boxy shirted flounce cuff top or leopard drawstring lounge shorts for less than the price of a movie ticket."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "so that meant that tweens in the philippines or romania or macao could all rock a boxy shirred flounce-cuff top or leopard drawstring lounge shorts for less than the price of a movie ticket.",
+        "pred": "So that meant that tweens in the Philippines or Romania or Macau could all rock a boxy shirted flounce cuff top or leopard drawstring lounge shorts for less than the price of a movie ticket."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 71,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Jerry thinks they can get Monument to back off the name change if they stay on it. Jeannie gets shown off at a DJ convention, introduced to everyone in town as Tina Stevens, the next girl they're going to sign and do big things with."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "but jerry thinks they can get monument to back off the name change, if they stay on it. jeannie gets shown off at a d j convention, introduced to everyone in town as tina stephens, the next girl they're gonna sign and do big things with.",
+        "pred": "Jerry thinks they can get Monument to back off the name change if they stay on it. Jeannie gets shown off at a DJ convention, introduced to everyone in town as Tina Stevens, the next girl they're going to sign and do big things with."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 72,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "While the world continues to change, EPA's mission continues to endure. Our mission is to protect public health, and to safeguard the precious natural resources that we all need to survive and to thrive."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "while the world continues to change, e p a's mission continue to endorse. our mission is to protect public health, and to save god the precious natural resources that we all need to survive and to thrive.",
+        "pred": "While the world continues to change, EPA's mission continues to endure. Our mission is to protect public health, and to safeguard the precious natural resources that we all need to survive and to thrive."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 73,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Walking over to a recording studio and being greeted by Shelby Singleton, handing her the lyrics of \"Harbor Valley PTA,\" we've got Shelby saying, \"It's just right for your voice.\" Tom Hall has caught the angry mood of the country. Let's see if you can make it sing."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "walking over to a recording studio and being greeted by shelby singleton handing her the lyrics of harper valley p t a. we've got shelby saying, it's just right for your voice. tom hall has caught the angry mood of the country. let's see if you can make it sing.",
+        "pred": "Walking over to a recording studio and being greeted by Shelby Singleton, handing her the lyrics of \"Harbor Valley PTA,\" we've got Shelby saying, \"It's just right for your voice.\" Tom Hall has caught the angry mood of the country. Let's see if you can make it sing."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 74,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "I had to, get that aeroplane, positioned, so the bomb went down, to hit this, target, which from, fifteen thousand feet must have looked to my bomb aimer, like a dinky toy, even though it was nine hundred feet long."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i had to get that airplane positioned so the bomb went down she hit this target which from fifteen thousand feet must have took to my bomb ever like a dinky toy even though it was nine hundred feet long.",
+        "pred": "I had to, get that aeroplane, positioned, so the bomb went down, to hit this, target, which from, fifteen thousand feet must have looked to my bomb aimer, like a dinky toy, even though it was nine hundred feet long."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 75,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Here on Jeannie's side, she wants to listen to \"Harper Valley PTA\" before she agrees to anything. Her manager, Paul Perry, thinks she's crazy for not getting on board sight unseen, but he brings her a tape. She doesn't like the song."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "here, on jeannie's side, she wants to listen to harper valley p t a before she agrees to anything. her manager, paul perry, thinks she's crazy for not getting on board, sight unseen, but he brings her a tape. she doesn't like the song.",
+        "pred": "Here on Jeannie's side, she wants to listen to \"Harper Valley PTA\" before she agrees to anything. Her manager, Paul Perry, thinks she's crazy for not getting on board sight unseen, but he brings her a tape. She doesn't like the song."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 76,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Which has been an issue at Amazon off and on for a while, you know, but to a large extent, this company was designed to handle these kind of challenges. So, I think, you know, if this indeed means a sort of permanent increase in online commerce, you know, Amazon would stand to gain a tremendous amount from it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "which has been an issue at amazon um often on for a while. you know, but but to a large extent, this company was designed to handle these kind of challenges. so i think, you know, if this indeed means a a sort of permanent increase in online commerce, you know amazon would stand ah stand to gain a tremendous amount from it.",
+        "pred": "Which has been an issue at Amazon off and on for a while, you know, but to a large extent, this company was designed to handle these kind of challenges. So, I think, you know, if this indeed means a sort of permanent increase in online commerce, you know, Amazon would stand to gain a tremendous amount from it."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 77,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "It was a contested election, and Rutherford B Hayes is the Republican candidate. And remember, back then it was Republicans who were the progressive party, and they were the party of Lincoln that was working to pass all of this progressive legislation."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it was a contested election, and rutherford b. hayes is the republican candidate. and remember, back then it was republicans who were the progressive party, and they were the party of lincoln that was working to pass all of this progressive legislation.",
+        "pred": "It was a contested election, and Rutherford B Hayes is the Republican candidate. And remember, back then it was Republicans who were the progressive party, and they were the party of Lincoln that was working to pass all of this progressive legislation."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 78,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Where he then loaned it out to the British Crown, in essence Wilhelm was funding the British to fight Napoleon in order to restore his power. Now Meyer died in eighteen twelve, leaving Wilhelm's fortune and the Rothschild legacy in the hands of Nathan."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "where he then loaned it out to the british crown. in essence, wilhelm was funding the british to fight napoleon in order to restore his power. now, mayer died in eighteen twelve, leaving wilhelm's fortune and the rothschild legacy in the hands of nathan.",
+        "pred": "Where he then loaned it out to the British Crown, in essence Wilhelm was funding the British to fight Napoleon in order to restore his power. Now Meyer died in eighteen twelve, leaving Wilhelm's fortune and the Rothschild legacy in the hands of Nathan."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 79,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "With a better set of tires, I think you could out grip them both. But the great thing is, this just tells you so much about what's going on, that it gives you a lot of confidence. Partially because the limits in the F R S are low enough that you can approach them safely, and you can feel them coming."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "for the better side tires on a huguenot gripped them both but the great thing is this just tells you so much about what's going on better give you a lot of confidence partly because the limits in the forest alone on that you could approach them safely and you can feel them coming.",
+        "pred": "With a better set of tires, I think you could out grip them both. But the great thing is, this just tells you so much about what's going on, that it gives you a lot of confidence. Partially because the limits in the F R S are low enough that you can approach them safely, and you can feel them coming."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 80,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Rocky island just behind us, and you can see that in the bottom right hand corner of the picture. This box structure that's on the back of the scaffolding, if you like, is actually the rear of the radar set. So that would mean that the."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "ah rocky island just behind us and you can see with that in the bottom right hand corner of the picture um this box structure that's on the back of the scaffolding if you like is actually the rear of of of the radar set so that would mean that the.",
+        "pred": "Rocky island just behind us, and you can see that in the bottom right hand corner of the picture. This box structure that's on the back of the scaffolding, if you like, is actually the rear of the radar set. So that would mean that the."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 81,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Like I want you to do what I say, but I want you to do it how I pictured you doing it. Don't do it the way you want to do it. Do it the way I saw you do it when I told you to do it. It might be confusing, but this is serious to me. Other day, my son, he souped up off candy. He running all over the house."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "like i want you to do what i say but i want you to do it. how i pictured you doing. don't do it the way you want to do it. do it the way i saw you do it when i told you to do. it might be confusing but it is serious to me other than my son. he's super bowl of candy. he runs all over the house.",
+        "pred": "Like I want you to do what I say, but I want you to do it how I pictured you doing it. Don't do it the way you want to do it. Do it the way I saw you do it when I told you to do it. It might be confusing, but this is serious to me. Other day, my son, he souped up off candy. He running all over the house."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 82,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And this was her way of kind of telling the story of the great American melting pot. So she told us all to research our ancestral land and to write a small report about it, and then to draw a flag."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and this was her way of kind of telling the story of the great american melting pot. so she told us all to research our ancestral land and to write a small report about it, and then to draw a flag.",
+        "pred": "And this was her way of kind of telling the story of the great American melting pot. So she told us all to research our ancestral land and to write a small report about it, and then to draw a flag."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 83,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "In doing so, he hired the best engineers and architects that money could buy. He focused maniacally on increasing efficiency, always using the latest technology and pushing his employees to their maximum physical and mental capabilities."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "in doing so, he hired the best engineers and architects that money could buy. he focused maniacally on increasing efficiency, always using the latest technology and pushing his employees to their maximum physical and mental capabilities.",
+        "pred": "In doing so, he hired the best engineers and architects that money could buy. He focused maniacally on increasing efficiency, always using the latest technology and pushing his employees to their maximum physical and mental capabilities."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 84,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "But it's decent enough in size. Look at that you can fit a large suitcase and there is a bit of a lip to lift stuff over. But to stop you scratching your paintwork, there is a scuff plate here. I think it might be plastic, but it looks like metal. And I'll forgive it because quality in the boot here is really good."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "but it's decent enough in size. i mean look at that. you can fit a large suitcase and there was a bit of a little left over. but to stop your scratching your paint work. there is a scuff plate here. i think it might be plastic but it looks like metal. and i'll forgive it because quality in the booth here is really good.",
+        "pred": "But it's decent enough in size. Look at that you can fit a large suitcase and there is a bit of a lip to lift stuff over. But to stop you scratching your paintwork, there is a scuff plate here. I think it might be plastic, but it looks like metal. And I'll forgive it because quality in the boot here is really good."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 85,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yeah, what a great context to set the story in. As you have this idea, and so it's obviously going to be fiction in the fiction writing process. And maybe this even differs depending on if you are writing children's, or middle grade, or YA, or adult."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "yeah what a great contacts to set the story in. as you have this idea in so obviously gonna be fiction. in that fiction writing process and maybe this even differs depending on if you're writing children's or middle grade or why a or adult.",
+        "pred": "Yeah, what a great context to set the story in. As you have this idea, and so it's obviously going to be fiction in the fiction writing process. And maybe this even differs depending on if you are writing children's, or middle grade, or YA, or adult."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 86,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "We were taken up into the mountains to a modest house with a big front porch, and there we were introduced to a guy who is clearly in charge. He said, \"Farmers union, I mean it's open to interpretation.\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "we were taken up into the mountains to a modest house with a big front porch and now we are introduced to a guy who is clearly in charge he said farmers union or is open to interpretation.",
+        "pred": "We were taken up into the mountains to a modest house with a big front porch, and there we were introduced to a guy who is clearly in charge. He said, \"Farmers union, I mean it's open to interpretation.\""
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 87,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Would find that this actually made them a target of some of the most severe violence. But what was unusual was what happened after. Whatard's case was picked up by the NAACP and they take him on a bit of a tour."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "would find that this actually made them a target of some of the most severe violence. but what was unusual was what happened after. woodard's case was picked up by the n double a c p. and they take him on a bit of a tour.",
+        "pred": "Would find that this actually made them a target of some of the most severe violence. But what was unusual was what happened after. Whatard's case was picked up by the NAACP and they take him on a bit of a tour."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 88,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Are you kidding me right now? You want me to clean it? Fuck you, Joseph. That's disgusting. I've been throwing all your socks away, huh? You have two pair of socks left for the rest of the year. You fucked up. No more socks, Joseph."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "are you kidding me right now? you want me to clean it? fuck you, johnson. that's disgusting, i been throwing all your socks away, huh? you have two pair of socks left for the rest of the year. you fuck those, no more socks, johnson.",
+        "pred": "Are you kidding me right now? You want me to clean it? Fuck you, Joseph. That's disgusting. I've been throwing all your socks away, huh? You have two pair of socks left for the rest of the year. You fucked up. No more socks, Joseph."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 89,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Like that's all it is. It's experience one on one with a human being. It's the reason nobody hates gay people anymore. Everybody was afraid of gay people fifteen years ago, and they're like, \"Oh, everybody's gay, cool, yeah, yeah, no, no, no.\" Now no one cares anymore, and there is some reticence."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "like that's old as its experience one on one with a human being that's the reason nobody hates gay people anymore everybody was afraid gay people fifteen years ago and like oh everybody's gay cool no no now no one cares anymore as there is some reticence.",
+        "pred": "Like that's all it is. It's experience one on one with a human being. It's the reason nobody hates gay people anymore. Everybody was afraid of gay people fifteen years ago, and they're like, \"Oh, everybody's gay, cool, yeah, yeah, no, no, no.\" Now no one cares anymore, and there is some reticence."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 90,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "So it's just a slow burn with baby product and word of mouth, and I can tell you because it's designed by dads and our wives who play a big part in sort of the design."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "so it's you with just a slow burn with with baby product and word tp mouth and and i can tell you because it's designed by dads and or wives who played a big part in and sort of the design um.",
+        "pred": "So it's just a slow burn with baby product and word of mouth, and I can tell you because it's designed by dads and our wives who play a big part in sort of the design."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 91,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "I mean, look, I think it's over, right? I mean, the election's over. This one's over. Like, it's. I just hope that the Republicans don't make the same mistake that I feel like the Democrats did over the last four years and just try to fight out mistakes. and I hope this isn't their their tagline."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "i mean i think it's over right i mean the collections over that this one is over like it's i i just hoped the republicans don't make the same ah mistake that i feel like the democrats did over the last four years and just try to find out mistakes and i hope this isn't there their tagline.",
+        "pred": "I mean, look, I think it's over, right? I mean, the election's over. This one's over. Like, it's. I just hope that the Republicans don't make the same mistake that I feel like the Democrats did over the last four years and just try to fight out mistakes. and I hope this isn't their their tagline."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 92,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Played by Namdi Asamoah, cross paths one New York summer, sparking a deep passion that transcends time and career success. You can stream Amazon Studios' Sylvie's Love now only on Prime Video."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "played by nnamdi asomugha cross paths one new york summer sparking a deep passion that transcends time and career success. you can stream amazon studios is sylvia's love now only on prime video.",
+        "pred": "Played by Namdi Asamoah, cross paths one New York summer, sparking a deep passion that transcends time and career success. You can stream Amazon Studios' Sylvie's Love now only on Prime Video."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 93,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Well, the CIA's latest travel advisories for a number of areas in Mexico, but particularly here, is don't even bother going if you're a tourist. Reason for that, they say, is that the murder rate, the danger levels are so high they're actually comparable to Iraq."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "well the c i a's latest travel advisory for a number of areas in mexico but particularly here is don't even bother going if you are a tourist visa for that they say is that the murder rate danger levels so high that actually comparable to iraq.",
+        "pred": "Well, the CIA's latest travel advisories for a number of areas in Mexico, but particularly here, is don't even bother going if you're a tourist. Reason for that, they say, is that the murder rate, the danger levels are so high they're actually comparable to Iraq."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 94,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "That's kind of what I wanted to talk about because, on this show a few weeks ago, we had mentioned that you guys were back to shooting. A lot of people were asking us what the protocols and everything like that was for shooting. Now, I've seen pictures from the set of like."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "it's kinda what i wanted to talk about because um on this show ah few weeks ago we had mentioned that you guys were back to shooting. a lot people were asking us what the protocols and everything ah like that was for shooting now i have seen ah pictures from the set of like.",
+        "pred": "That's kind of what I wanted to talk about because, on this show a few weeks ago, we had mentioned that you guys were back to shooting. A lot of people were asking us what the protocols and everything like that was for shooting. Now, I've seen pictures from the set of like."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 95,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "For you, setting tough standards, setting standards that protect the people most at risk, and then allowing for flexibility in how those standards are met, which will allow us to build on the innovation and the creativity that exists in this country."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "for you, setting tough standards, setting standards that protect the people most at risk and then allowing for flexibility in how those standards are met, which will allow us to build on the innovation and the creativity that exists in this country.",
+        "pred": "For you, setting tough standards, setting standards that protect the people most at risk, and then allowing for flexibility in how those standards are met, which will allow us to build on the innovation and the creativity that exists in this country."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 96,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "After everything that Black Americans have been through in this country, that they didn't immediately, take up Lincoln's offer and go somewhere else and start over, is really an astounding testimony to their belief in the American ideals."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "after everything that black americans have been through in this country, that they didn't immediately take up lincoln's offer and go somewhere else and start over is really an astounding testimony to their belief in the american ideals.",
+        "pred": "After everything that Black Americans have been through in this country, that they didn't immediately, take up Lincoln's offer and go somewhere else and start over, is really an astounding testimony to their belief in the American ideals."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 97,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Rachel will later tell me that because of the way her dad brainwashed her, she often can't trust her memories. So it feels good that her memory of Joyce is correct. Joyce is nice, but Rachel is nice too, and can sense how badly Joyce is feeling."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "rachel will later tell me that because of the way her dad brainwashed her she often can't trust her memories. so, it feels good that her memory of joyce is correct. joyce is nice but rachel is nice too and can sense how badly joyce's feeling.",
+        "pred": "Rachel will later tell me that because of the way her dad brainwashed her, she often can't trust her memories. So it feels good that her memory of Joyce is correct. Joyce is nice, but Rachel is nice too, and can sense how badly Joyce is feeling."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 98,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And tell me based on fact and science, I'll comply. But until you can and give me the reasons, then I am not doing it, and I am not going to let my kids do it. And I am not. I mean, look at the schools that have been open."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and tell me based on fact and science i'm i'll comply. but until you can't and and give me the reasons then i i'm not doing it i'm not gonna let my kids do it and i'm not i mean look at the the schools that have been open.",
+        "pred": "And tell me based on fact and science, I'll comply. But until you can and give me the reasons, then I am not doing it, and I am not going to let my kids do it. And I am not. I mean, look at the schools that have been open."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 99,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "open_asr_gigaspeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Even if their faith is strong, the enticements of the world are now so strong, that if people aren't really rooted in God, they can they can easily be pulled out without even realizing at first what's happening to them."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "even if their faith is strong, the enticements of the world are now so strong that if people aren't really rooted in god, they can they can easily be pulled out without even realizing at first what's happening to them.",
+        "pred": "Even if their faith is strong, the enticements of the world are now so strong, that if people aren't really rooted in God, they can they can easily be pulled out without even realizing at first what's happening to them."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    }
+  ]
+}

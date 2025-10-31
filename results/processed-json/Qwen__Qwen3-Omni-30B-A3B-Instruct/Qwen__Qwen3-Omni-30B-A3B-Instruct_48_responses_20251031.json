@@ -1,0 +1,2908 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "benchmark_id": "open_asr_earnings22",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "If we look into take this forward, then what you can expect is that we, you know, in twenty two we'll be able as we recover from COVID, although we still have some weakness in you know the end of January and in January as we speak, we will be able to get to a better sustainable commercial rate, but not at the level of Q four, not the higher level of Q four because that's a seasonality, and not at the low levels we've seen earlier in twenty one where we were very much focused on EBITDA in the midst of COVID."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "If we look into, take this forward, then what you can expect is that we, uh, you know, in in ' 22 we'll be able, as we recover from, uh, COVID, although we still have some weakness in, you know, the end of January and in January as we speak, we will be able to get to a better sustainable commercial rate, uh, but not at the level of Q4, uh, not the high level of Q4 because that is a seasonality and not at the low levels we've seen earlier in- in 2021, where we were very much focused on, focused on EBITDA in the midst of COVID.",
+        "pred": "If we look into take this forward, then what you can expect is that we, you know, in twenty two we'll be able as we recover from COVID, although we still have some weakness in you know the end of January and in January as we speak, we will be able to get to a better sustainable commercial rate, but not at the level of Q four, not the higher level of Q four because that's a seasonality, and not at the low levels we've seen earlier in twenty one where we were very much focused on EBITDA in the midst of COVID."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 1,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "As far as the capital allocation, the significant part of the capital we earned over last year will be paid via dividends. Then, as I mentioned, we still have some of the liabilities in our balance sheet. There is a significant excess of liabilities over receivables, and this is also to be included in our cash flow plans."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "As far as the capital allocation, the significant part of the capital we earned over last year, will be paid via dividends, then as I mentioned we still have some of the liabilities in our balance sheet that there is a significant excess of liabilities over receivables and this is also to be included in our cash flow funds.",
+        "pred": "As far as the capital allocation, the significant part of the capital we earned over last year will be paid via dividends. Then, as I mentioned, we still have some of the liabilities in our balance sheet. There is a significant excess of liabilities over receivables, and this is also to be included in our cash flow plans."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 2,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, what we are looking into very closely right now, that's actually something you are well familiar with. We have been working on green energy, on new energy sources, namely small nuclear reactors as a source of energy, hydrogen, which is potentially a very interesting source of energy in our sector, also offshore projects are being considered."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So what we are looking into uh, very closely right now, that's actually something you are well familiar with, we have been working on green energy on new energy sources, namely, small uh, nuclear reactors as a source of energy, hydrogen, which is potentially a very interesting uh, source of energy uh, in our sector, also, offshore uh, projects uh, are being considered.",
+        "pred": "So, what we are looking into very closely right now, that's actually something you are well familiar with. We have been working on green energy, on new energy sources, namely small nuclear reactors as a source of energy, hydrogen, which is potentially a very interesting source of energy in our sector, also offshore projects are being considered."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 3,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "What influences our revenues are the digital sales, as then the sales are instant and the reporting is instant without the sub distributor in the middle of the process. And most of the sales occurred for PC on all of the available PC platforms. There is obviously the Xbox digital sales, and since Cyberpunk is not existent on the Sony storefront, we didn't report any revenues, any sales from this one."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Uh, what influences our- our revenues are the digital sales as uh, then, the- the sales are each time the reporting is instant without the sub-distributor in the middle of the process, uh, and most of the sales occurred uh, for PC on all of the available PC platforms, there's obviously the Xbox digital, uh, sales and since Cyberpunk is non-existent on the Sony store front we we didn't report any revenues NSAs from- from this one.",
+        "pred": "What influences our revenues are the digital sales, as then the sales are instant and the reporting is instant without the sub distributor in the middle of the process. And most of the sales occurred for PC on all of the available PC platforms. There is obviously the Xbox digital sales, and since Cyberpunk is not existent on the Sony storefront, we didn't report any revenues, any sales from this one."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 4,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "And I think the cooperation that we have with the unit within our technical organization, with the skill sets that they bring, and cooperation between the commercial and technical parts, that will yield better control, better performance, and execution going forward in all aspects, and not just commercial, I would say, but also from a customer experience perspective and a production perspective."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Uh, and I think the cooperation that we have with with the units within our technical organization, with the skillset that they bring, uh, the cooperation between the commercial and technical parts, that will yield, uh, better control and better, um, uh, performance and execution going forward in- in- in all aspects, and not just commercial, I would say, but also from a customer experience perspective, uh, and a production perspective.",
+        "pred": "And I think the cooperation that we have with the unit within our technical organization, with the skill sets that they bring, and cooperation between the commercial and technical parts, that will yield better control, better performance, and execution going forward in all aspects, and not just commercial, I would say, but also from a customer experience perspective and a production perspective."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 5,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, I wouldn't read much more into that from China, but I do believe our feeling is consistent with what we communicated in Q four saying that we expect China to be flat to slightly positive for us for the year, despite the continued negative development of the fermented category in China."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So, so, um, uh, I- I- I wouldn't read, um, much more into that from China, but I do believe, uh, uh, our feeling is consistent with what we communicated in Q4, saying that, um, we expect China to be, uh, you know, flat to-slightly positive for us for the year, despite the continued, uh, uh, negative development of the fermented category in, um, in China.",
+        "pred": "So, I wouldn't read much more into that from China, but I do believe our feeling is consistent with what we communicated in Q four saying that we expect China to be flat to slightly positive for us for the year, despite the continued negative development of the fermented category in China."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 6,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "When it comes to EBIT margin before special items, this is still expected to be around the same level as last year, between twenty seven and twenty eight percent. As cost synergies from the probiotics acquisitions, production efficiencies, and a small positive impact from the US dollar exchange rate will be offset by continued ramp up of activities, investments into HMO business, and the inflationary pressure on certain input costs."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "When it comes to EBIT margin before special items, this is still expected to be around the same level as last year, between 27% and 28%, as cost synergies from the probiotics acquisitions, production efficiencies and a small positive impact from the U.S. dollar exchange rate will be offset by continued ramp up of activities, investments into HMO business and the inflationary pressure on certain input costs.",
+        "pred": "When it comes to EBIT margin before special items, this is still expected to be around the same level as last year, between twenty seven and twenty eight percent. As cost synergies from the probiotics acquisitions, production efficiencies, and a small positive impact from the US dollar exchange rate will be offset by continued ramp up of activities, investments into HMO business, and the inflationary pressure on certain input costs."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 7,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "As we discussed at our investor day last April, we have significant runway in all of our businesses and see the opportunity to meaningfully scale across multiple platforms and markets simultaneously, including Asia, real estate, infrastructure, our core suite of products, private wealth, growth, impact and ESG, insurance, credit, and private equity, amongst others."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "As we discussed at our investor day last April, we had significant runway in all of our businesses and see the opportunity to meaningfully scale across multiple platforms and markets simultaneously, including Asia, real estate infrastructure, our core suite of products, private wealth, growth, impact in ESG, insurance, credit, and private equity amongst others.",
+        "pred": "As we discussed at our investor day last April, we have significant runway in all of our businesses and see the opportunity to meaningfully scale across multiple platforms and markets simultaneously, including Asia, real estate, infrastructure, our core suite of products, private wealth, growth, impact and ESG, insurance, credit, and private equity, amongst others."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 8,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "I think Andrei will provide more detail in a minute, but overall, well, the only reasonable response that we can take is long term, and this is all about the transformation and transition. And there is no other long term option to actually avoid the increase in the ETS allowances prices that determine at the end of the day the price of energy. So,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I think Andre will provide more detail in a minute, but overall, well, the only reasonable response that we can take is long term and this is all about the transfo- um, transformation and transition, and there is no other long term option to actually, um, avoid the increase in the ETS allowances prices that determine at the end of the day the price of, uh, energy.",
+        "pred": "I think Andrei will provide more detail in a minute, but overall, well, the only reasonable response that we can take is long term, and this is all about the transformation and transition. And there is no other long term option to actually avoid the increase in the ETS allowances prices that determine at the end of the day the price of energy. So,"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 9,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Increasingly restrictive regulations for the energy sector, and in the context of environment, energy use, also in the context of optimization of processes, the use of new technologies, automation, and in the context of securing new deposits for further exploration and operation of our business. So,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "increasingly restrictive regulations for the energy sector and in the context of uh, environment, energy use, also in the context of the optimization of processes, uh, the use of new technologies, automation, and in the context of securing new deposits for further exploration uh, and operation of our business.",
+        "pred": "Increasingly restrictive regulations for the energy sector, and in the context of environment, energy use, also in the context of optimization of processes, the use of new technologies, automation, and in the context of securing new deposits for further exploration and operation of our business. So,"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 10,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "The second one was about the Sony and the PlayStation, a particular set of metrics, how the conversation progresses. So, I cannot go deep into the set of metrics or how the conversation progresses. This has to remain at the discretion of PlayStation, of course, ourselves. But yes, there is some set of metrics, let's put it like that, at a high level. But again, we're not going, we cannot go into the details of where we are with that."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Uh, the second one was about the Sony and the, uh, PlayStation in particular instead of Netflix, how the conversation progresses, so, i I- I cannot go deep into the set of metrics so the how the conversation progresses, it has to remain at the discretion of- of- of PlayStation and of course ourselves, uh, um, but yes there is, there is some sort of metrics, lets, lets put it like that, at a high level but again we're not goi- we we cannot go into the details of of where we are with that.",
+        "pred": "The second one was about the Sony and the PlayStation, a particular set of metrics, how the conversation progresses. So, I cannot go deep into the set of metrics or how the conversation progresses. This has to remain at the discretion of PlayStation, of course, ourselves. But yes, there is some set of metrics, let's put it like that, at a high level. But again, we're not going, we cannot go into the details of where we are with that."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 11,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Great, just a quick cleanup question for Rob. If I could just hoping you might be able to update us on the amount of capital that was invested off the balance sheet in twenty one and the realizations as well off the balance sheet in twenty twenty one and how that compared to twenty twenty If you have that, yeah, activity was certainly up across the board. Mike, we monetized just over three billion off the balance sheet in twenty twenty one and we deployed about three point seven billion."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Great. And just a quick cleanup question for Rob if I could, just hoping you might be able to update us on the amount of capital that was invested off the balance sheet in ' 21 and the realizations as well off the balance sheet in, in 2021, and how that compared, uh, to 2020, if you have that- Yeah, um, activity was certainly up, um, across, across, um, the board, like, uh, we monetized just over $3 billion off the balance sheet in 2021, and we deployed about $3.7 billion.",
+        "pred": "Great, just a quick cleanup question for Rob. If I could just hoping you might be able to update us on the amount of capital that was invested off the balance sheet in twenty one and the realizations as well off the balance sheet in twenty twenty one and how that compared to twenty twenty If you have that, yeah, activity was certainly up across the board. Mike, we monetized just over three billion off the balance sheet in twenty twenty one and we deployed about three point seven billion."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 12,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "I think what we are very pleased from the five HMO mix is that everything that we expected on this being a front panel ingredient and positioned as the, let's say, important ingredient to make infant formula closer to mother's milk, that has been very clearly communicated in the product launches. Which I think is positive for the HMO market overall."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I think what we are very pleased from the um, five HMO mix is that everything that we expected on this being a front panel ingredient and positioned as the um, let's say important ingredient to make infant formula closer to mother's milk, that has been uh, uh very clearly communicated in the product launches which I think is positive for the HMO market uh, uh, overall.",
+        "pred": "I think what we are very pleased from the five HMO mix is that everything that we expected on this being a front panel ingredient and positioned as the, let's say, important ingredient to make infant formula closer to mother's milk, that has been very clearly communicated in the product launches. Which I think is positive for the HMO market overall."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 13,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "And I also have a question about the surplus that you show at Sierra Gorda. Are you going to actually continue to transfer that to Poland, or you really think about future development like Sierra Gorda two, the project that was considered at some time, or Sierra Gorda Oxide that was in the plan at some point in time?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And I also have a question about the surplus that you show at Sierra Garda, um, are you going to actually continue to transfer that to Poland or you really think about, uh, future development like Sierra Garda two, the project that was considered at some time or Sierra Garda oxide that was in the plan at some point in time?",
+        "pred": "And I also have a question about the surplus that you show at Sierra Gorda. Are you going to actually continue to transfer that to Poland, or you really think about future development like Sierra Gorda two, the project that was considered at some time, or Sierra Gorda Oxide that was in the plan at some point in time?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 14,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, bioprotection grew around 15% in the first quarter, which is solid. I would remind you that even though we launched in spring the generation three, we are working in projects with customers, and we should not expect a larger contribution for the first generation for the third generation of bioprotection before our second half of the year."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, so, so bioprotection grew around 15% in, in the first quarter, uh, which is, uh, which is only, uh, I would, uh, remind you that even though we launched in spring the, uh, Generation Tree, we are working in projects with customers and we should not expect a larger contribution for the first generation, for the third generation of bioprotection before our second half, uh, of the year.",
+        "pred": "So, bioprotection grew around 15% in the first quarter, which is solid. I would remind you that even though we launched in spring the generation three, we are working in projects with customers, and we should not expect a larger contribution for the first generation for the third generation of bioprotection before our second half of the year."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 15,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, very strong performance of projects in Europe, whereby the way we were able to be more present with customers and the cheese market in North America, partly driven by you know a larger presence in food service as well, but where we see some cheese types like mozzarella continue to perform very strongly."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So very strong performance of pros- of, uh, projects, uh, in Europe, where, by the way, we were able to be more present with customers, and, uh, the chief market in North America partly driven by, you know, uh, uh, a larger presence in, in food service as well, but where we see some chief types, like mozzarella, continue to perform very strongly.",
+        "pred": "So, very strong performance of projects in Europe, whereby the way we were able to be more present with customers and the cheese market in North America, partly driven by you know a larger presence in food service as well, but where we see some cheese types like mozzarella continue to perform very strongly."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 16,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Soren, on animal health, animal health basically faced a difficult comparable. And the only thing that we mentioned as well was that in swine, particularly, we had a high comparable from Q1 last year because of the strong momentum of rebuilding the swine population in China versus now a little bit the return of African swine fever."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So Sarinon, on, uh, animal health, animal health basically saved a, uh, difficult comparable, and the only thing, uh, that we, uh, I mentioned as well was that in swine particularly, uh, we had a high comparable from Q1 last year because of the strong momentum of rebuilding the, uh, swine, uh, um, uh, population in China versus now, a little bit of return of, uh, African swine fever.",
+        "pred": "Soren, on animal health, animal health basically faced a difficult comparable. And the only thing that we mentioned as well was that in swine, particularly, we had a high comparable from Q1 last year because of the strong momentum of rebuilding the swine population in China versus now a little bit the return of African swine fever."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 17,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, you know, pricing. We expect the growth to be mainly volume driven. Pricing will contribute, you know, north of the one point five percent or around the two percent that you mentioned. But we expect to continue to see a good performance of our business and hope that provides some visibility into our current guidance."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Yes, you know, pricing, um, uh, we expect the, uh, uh, the, uh, growth to be mainly volume driven, pricing will contribute, uh, you know, north of the, uh, uh, 1.5% or around the 2% that you mentioned, but we, um, uh, expect to continue to see a good, uh, performance of our business and hope that provides some, uh, visibility into, um, into our, uh, current, uh, guidance.",
+        "pred": "Yes, you know, pricing. We expect the growth to be mainly volume driven. Pricing will contribute, you know, north of the one point five percent or around the two percent that you mentioned. But we expect to continue to see a good performance of our business and hope that provides some visibility into our current guidance."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 18,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Segment, so looking at the efforts that we're doing, keeping more disciplined around our pricing guidelines, focusing on value, and making sure that we take a responsible stance in the market. And we're challenging ourselves all the time to making sure that we get the right price from our B two B customers."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, so, uh, looking at the efforts that we are doing, uh, keeping more disciplined around our pricing guidelines, uh, focusing on value, uh, and- and making sure that we take a responsible stance in the market, and we're challenging ourselves all the time to making sure that we get the right price from our B2B customers.",
+        "pred": "Segment, so looking at the efforts that we're doing, keeping more disciplined around our pricing guidelines, focusing on value, and making sure that we take a responsible stance in the market. And we're challenging ourselves all the time to making sure that we get the right price from our B two B customers."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 19,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let me remind you that in the last quarters, we also concluded certain investments that were those tiny steps, low cost, low capital intensity, baby steps that allowed us to improve the parameters of the installation."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Let me remind you that in the last quarters, we also concluded a certain investments, that were those tiny steps, low cost, uh, low, uh, capital intensity, baby steps that allowed us to improve the parameters of installation.",
+        "pred": "Let me remind you that in the last quarters, we also concluded certain investments that were those tiny steps, low cost, low capital intensity, baby steps that allowed us to improve the parameters of the installation."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 20,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Now, speaking of costs, the main driver for costs is much greater acquisition of third party ore. But when it comes to the cost by type, we are tracking them very closely, and there are third party services and raw materials consumption, electricity, and other energy consumption."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Now, speaking of costs, the main um, driver for costs is um, much greater acquisition of third party or but when it comes to the cost by type we are tracking them very closely and um, there are third party services and the raw materials, consumption and electricity and other energy consumption.",
+        "pred": "Now, speaking of costs, the main driver for costs is much greater acquisition of third party ore. But when it comes to the cost by type, we are tracking them very closely, and there are third party services and raw materials consumption, electricity, and other energy consumption."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 21,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Um, perhaps if you could just enlarge a little bit on that point about staff, your original plan had been that the cyberpunk team was kind of divided into three, um, third moving on to a new project, um, a third working on DLCs, and maybe a third on on uh the mobile game, I think anyway. Tell me perhaps sort of how things divide up at the moment, um, so."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, perhaps if you could just enlarge a little bit on that point about staff, your original plan had been that the Cyberpunk team would kind of divide into three, um, third moving onto a new project, um, a third working on DLCs and maybe a third on- on, uh, the mobile game, I think anyway, tell me perhaps how things divide up at the moment?",
+        "pred": "Um, perhaps if you could just enlarge a little bit on that point about staff, your original plan had been that the cyberpunk team was kind of divided into three, um, third moving on to a new project, um, a third working on DLCs, and maybe a third on on uh the mobile game, I think anyway. Tell me perhaps sort of how things divide up at the moment, um, so."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 22,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, we have a very strong pricing methodology, and in close collaboration with our customers, all I would say is like the pricing negotiations are advancing as planned and on target. And we track those to you know conclusion of the negotiations and completion of the price increases, and that is tracking on plan and on target."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Uh, yes we have a very strong pricing methodology and in close collaboration with our customers uh, all, all I would say is like, uh, the pricing negotiations are advancing as planned and on target and we track those to you know conclusion of the negotiations, and uh completion of the uh, uh price increases and that is tracking on plan and, and on target.",
+        "pred": "Yes, we have a very strong pricing methodology, and in close collaboration with our customers, all I would say is like the pricing negotiations are advancing as planned and on target. And we track those to you know conclusion of the negotiations and completion of the price increases, and that is tracking on plan and on target."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 23,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Please bear in mind that it's somewhat natural for each new update to cause some extra short-term boost in statistics, which is strictly related to the process of downloading and installing the update itself. That's why the chart shows local peaks around the time of releases. But overall, we can definitely observe a downward trend here."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Please bear in mind that it is somewhat natural for each update to cause some extra short term boost in statistics which is strictly related to the process of downloading the update itself, that's why the chart shows local peaks around the time of releases, but overall we can definitely observe a downward trend here.",
+        "pred": "Please bear in mind that it's somewhat natural for each new update to cause some extra short-term boost in statistics, which is strictly related to the process of downloading and installing the update itself. That's why the chart shows local peaks around the time of releases. But overall, we can definitely observe a downward trend here."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 24,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "After we have successfully established our setup in Herzlum and Basel to service customers in the clinical supply market, we are now accelerating investments into commercial manufacturing capabilities based on the long term commitment from Seres Therapeutics, whose lead candidate Seres one hundred and nine has the potential to become the first ever live biotherapeutic product in the market."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "After we have successfully established our setup in Hørsholm and Basel to service customers in the clinical supply market, we are now accelerating investments into commercial manufacturing capabilities based on the long term commitment from Seres Therapeutics, whose lead candidate, Seres 109, has the potential to become the first ever live biotherapeutic products in the market.",
+        "pred": "After we have successfully established our setup in Herzlum and Basel to service customers in the clinical supply market, we are now accelerating investments into commercial manufacturing capabilities based on the long term commitment from Seres Therapeutics, whose lead candidate Seres one hundred and nine has the potential to become the first ever live biotherapeutic product in the market."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 25,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Airlines, okay. Since the pandemic struck, we were completely on the sidelines of that, and we are not thinking about starting to push into that arena as of, let's say, the next few quarters. And we do not see a reason to do it given, number one, the ups and downs of the business, and number two, we see capacity, so there is no need to do it, okay."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Uh, since the pandemic struck, we, we were completely on the sidelines of that, and we are now thinking about starting to push into that arena, um, uh, as of, let's say, the, the next few quarters, and we do not see a reason to do it given, uh, number one, uh, uh the ups and downs of the business, and number two, the, we, we see capacity so there's no need to do it.",
+        "pred": "Airlines, okay. Since the pandemic struck, we were completely on the sidelines of that, and we are not thinking about starting to push into that arena as of, let's say, the next few quarters. And we do not see a reason to do it given, number one, the ups and downs of the business, and number two, we see capacity, so there is no need to do it, okay."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 26,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Under which we will pursue a number of initiatives, including converting total electricity supply to renewables, reaching one hundred percent recyclability of our key packaging materials, and one hundred percent circular management of our biowaste. Working smarter with heat supply and switching to refrigerants with limited climate impact."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Under which we will pursue a number of initiatives, including converting local, uh, electricity supply to renewables, reaching a 100% recyclability of our key packaging materials and 100% circular management of our bio waste, working smarter with heat supply, and switching to refrigerants with limited climate impact.",
+        "pred": "Under which we will pursue a number of initiatives, including converting total electricity supply to renewables, reaching one hundred percent recyclability of our key packaging materials, and one hundred percent circular management of our biowaste. Working smarter with heat supply and switching to refrigerants with limited climate impact."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 27,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Maybe it's high time now to use ordinary optimization of maintenance and management of industrial asset as you do manage industrial assets and try to squeeze as much of it as possible so that in the following stages we get even better financial results."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Maybe it's high time now to use ordinary, uh, optimization of, uh, maintenance and, uh, management of, uh, industrial asset to subdue, uh, manage of industrial assets and try to squeeze as much of it as possible, so that in the following, uh, stages, we get even better financial results.",
+        "pred": "Maybe it's high time now to use ordinary optimization of maintenance and management of industrial asset as you do manage industrial assets and try to squeeze as much of it as possible so that in the following stages we get even better financial results."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 28,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "The results of KGHM in the first half of the year will be presented by the management board in its almost full composition: Martin Chudzinski, President of the Management Board, Adam Bugajczyk, Vice President for Development, Paweł Grusza, Vice President for Assets, Foreign Assets, and Andrzej Kęsbock, Vice President for Financial Matters."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The results of, uh, KGHM in the first half of the year will be presented by the Management Board, uh, in its almost full composition, Marcin Chludzinski, President of the Management Board, and Adam Bugajczuk, Vice President for Development, Paweł Gruza, Vice President for assets, Foreign Assets, and Andrzej Kensbok, uh, Vice President for Financial Matters.",
+        "pred": "The results of KGHM in the first half of the year will be presented by the management board in its almost full composition: Martin Chudzinski, President of the Management Board, Adam Bugajczyk, Vice President for Development, Paweł Grusza, Vice President for Assets, Foreign Assets, and Andrzej Kęsbock, Vice President for Financial Matters."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 29,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Why these numbers one hundred percent higher year on year adjusted EBITDA, thirty percent higher revenues, four hundred thirty three percent higher net profit? If we make reference to the first half of twenty twenty."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Why these numbers, 100%, uh, higher, um, year on year a- adjusted EBITDA, 30% higher revenues, 433% higher net profit, if we, um, make reference to the first, uh, half of, uh, 2020.",
+        "pred": "Why these numbers one hundred percent higher year on year adjusted EBITDA, thirty percent higher revenues, four hundred thirty three percent higher net profit? If we make reference to the first half of twenty twenty."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 30,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "If we take sort of the average sort of digital revenue per unit to be somewhere in the one hundred thirty five one hundred and forty kind of slotting sort of range, when I look at what I use for Ubisoft et cetera, that would get me to eight hundred thousand ish kind of sort of range of."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "In, if we take, uh, sort or the- the- the average sort of digital, uh, revenue per unit to be somewhere in the 135-140 kind of sloppy sort of range, when I look at what I used for Ubisoft et cetera, that would get me to 800,000 -ish kind of er, sort of range of Cyberpunk in itself.",
+        "pred": "If we take sort of the average sort of digital revenue per unit to be somewhere in the one hundred thirty five one hundred and forty kind of slotting sort of range, when I look at what I use for Ubisoft et cetera, that would get me to eight hundred thousand ish kind of sort of range of."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 31,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Now we are finalizing the deal with our Vancouver studio and with Vancouver team. And if any further plans like this or of this kind will appear, we'll inform the market."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Now we are finalizing the deal with our Vancouver studio and with And if any further plans like this or of this kind will appear, we'll inform the market.",
+        "pred": "Now we are finalizing the deal with our Vancouver studio and with Vancouver team. And if any further plans like this or of this kind will appear, we'll inform the market."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 32,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "There and talking about the lighthouses, you know, all of them contributed to the strong performance of thirty five percent in Q one, but obviously, as we mentioned, particularly plant health and HMO benefited from order timing in Q one."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And- and- and talking about the, um, about the lighthouses, uh, you know, all of them contributed to these strong performance of 35% in- in, uh, Q1, but obviously as we mentioned, uh- uh, particularly plant health and HMO benefited from all the timing in Q1.",
+        "pred": "There and talking about the lighthouses, you know, all of them contributed to the strong performance of thirty five percent in Q one, but obviously, as we mentioned, particularly plant health and HMO benefited from order timing in Q one."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 33,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "If we look at the segments, food cultures and enzymes EBIT before special items was thirty point eight percent and on par with last year. With production efficiencies and scalability effects from volume growth being offset by higher input costs not yet reflected in the sales prices and a general ramp up of activities."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "If we look at the segments, food cultures and enzymes EBIT margin before special items was 30.8% and on par with last year, with production efficiencies and scalability effects from volume growth being offset by higher input costs not yet reflected in the sales prices, and a general ramp up of activities.",
+        "pred": "If we look at the segments, food cultures and enzymes EBIT before special items was thirty point eight percent and on par with last year. With production efficiencies and scalability effects from volume growth being offset by higher input costs not yet reflected in the sales prices and a general ramp up of activities."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 34,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Similar to past quarters, our take rate benefited from the investments we have made in technology and analytics, which allowed us to price more accurately, improving algorithms to capture more profitable transactions. And the positive impact from best day, which has a higher take rate, were also key contributors."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Similar to past quarters, our take rate benefited from the investments we have made in technology and analysis, which allowed us to price more accurately, improving algorithms to capture more process development sections, and the positive impact from that day, which has the highest take rate, were also the contributors.",
+        "pred": "Similar to past quarters, our take rate benefited from the investments we have made in technology and analytics, which allowed us to price more accurately, improving algorithms to capture more profitable transactions. And the positive impact from best day, which has a higher take rate, were also key contributors."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 35,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Now, deposit access program, we continue to sink GG one shaft. We hit one thousand two hundred thirty one meters, and for the shaft GG two, we do have a spatial plan, spatial development plan already published. And now we are actually moving on with the drill holes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Now, that was at acc- that was an access program, we continue to sync GG1 shaft, we hit 1231 meters and for the shaft GG2, we do have a spatial plan spatial development plan already published and now we are actually um, moving on with their drill holes.",
+        "pred": "Now, deposit access program, we continue to sink GG one shaft. We hit one thousand two hundred thirty one meters, and for the shaft GG two, we do have a spatial plan, spatial development plan already published. And now we are actually moving on with the drill holes."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 36,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "If one vehicle is loaded to a greater extent, thanks to better capacity, better motivation system, incentive system for the driver, for the loader, we have several dozen percent higher volume of those trucks."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "If, uh, one, uh, uh, vehicle is loaded to a greater extent, uh, thanks to better, uh, capacity, better motivation system, uh, incentive system for the driver, for, or the loader, we have, uh, several dozen percent higher volume of those, uh, trucks.",
+        "pred": "If one vehicle is loaded to a greater extent, thanks to better capacity, better motivation system, incentive system for the driver, for the loader, we have several dozen percent higher volume of those trucks."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 37,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "This is Damian. The new campaign was extremely effective. It's been extremely effective, still running. And what we are pointing towards is getting back to travel and being able to afford the travel as we always have been positioned in the minds of consumers."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "This is Damian. Um, uh, t- the new campaign was, uh, extremely, this has been extremely successful, , and uh, what we are pointing towards is, uh, getting back to travel and being able to afford the travel, uh, as, as always have been positioned in the market section.",
+        "pred": "This is Damian. The new campaign was extremely effective. It's been extremely effective, still running. And what we are pointing towards is getting back to travel and being able to afford the travel as we always have been positioned in the minds of consumers."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 38,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "It's different. And I am sorry to come back again, but you did say it was mostly PC and digital, so I was thinking that that wholesale partner relationship would be less relevant to the average unit average revenue per unit in this particular quarter."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And- and- and- and sorry to come back again but you did say it was mostly PC and digital, so, I was thinking that that, uh, wholesale partner relationship would be less relevant to the average unit, uh, average revenue per unit in this particular course.",
+        "pred": "It's different. And I am sorry to come back again, but you did say it was mostly PC and digital, so I was thinking that that wholesale partner relationship would be less relevant to the average unit average revenue per unit in this particular quarter."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 39,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "You know, very broad based again. I think when you look at a lot of the, you know, core is an example area for us in from a perpetual standpoint where we're raising capital, infrastructure, real estate. As I mentioned, to aspects of both Europe and Asia, real estate perpetual capital is going to be perpetual in nature."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, you know, very broad base again, I think when you look at a lot of the, you know, core is an example area for us, um, in, from a perpetual standpoint where we're raising capital infrastructure real estate, as I mentioned two aspects of, uh, of, of both Europe and Asia, real estate perpetual or capital is, is gonna be pe- perpetual in nature.",
+        "pred": "You know, very broad based again. I think when you look at a lot of the, you know, core is an example area for us in from a perpetual standpoint where we're raising capital, infrastructure, real estate. As I mentioned, to aspects of both Europe and Asia, real estate perpetual capital is going to be perpetual in nature."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 40,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Since we are very, very transparent in the way we go to market and operate with you, I could have made a bridge to you easily that would take us back to the consensus of three point seven by pointing out individual elements related to an IFRS adjustment we've done, the electricity cost in the Baltics, and some exchange losses."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "since we are very, very transparent in the way we go, uh, to market and operate with you, I could have made a bridge to you easily, that will take us back to the, uh, the, um, uh, consensus of 3.7 by pointing out, uh, individual elements related to an, uh, an IFRS adjustment we have done, the electricity cost in- in the Baltics and some exchange losses.",
+        "pred": "Since we are very, very transparent in the way we go to market and operate with you, I could have made a bridge to you easily that would take us back to the consensus of three point seven by pointing out individual elements related to an IFRS adjustment we've done, the electricity cost in the Baltics, and some exchange losses."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 41,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "As far as the profitability is concerned, the size of the team involved in updating Cyberpunk is slowly decreasing, and also the research costs I mentioned in my part of the presentation should also be smaller in the second quarter."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "As far as the profitability is concerned, the size of the team involved in updating Cyberpunk is slowly decreasing, and also the research costs I mentioned in my part of the presentation should also be smaller in the second quarter.",
+        "pred": "As far as the profitability is concerned, the size of the team involved in updating Cyberpunk is slowly decreasing, and also the research costs I mentioned in my part of the presentation should also be smaller in the second quarter."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 42,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, given that in Q two and Q four last year HMOs were six and seven million in revenue respectively, I just wonder if sort of the underlying run rate for HMOs was in fact weak, given that you have this big product launch from Abbott."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "so so given that, uh, in Q2 and Q4 last year, uh, HMOs were 6 and 7 million in revenue respectively, I just wonder if sort of the underlying run rate for HMOs was in fact weak, given that, uh, you- you- you have this big, uh, product launch fro- from Abbott.",
+        "pred": "So, given that in Q two and Q four last year HMOs were six and seven million in revenue respectively, I just wonder if sort of the underlying run rate for HMOs was in fact weak, given that you have this big product launch from Abbott."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 43,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Fee-related earnings per share of sixty-nine cents and after-tax distributable earnings of one point fifty-nine per share are record quarterly figures for us, and full-year FRE of two point twenty-three per share and after-tax DE of four point forty-four per share are record annual figures for us."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Fee related earnings per share of 69 cents and after tax distributable earnings of $1.59 per share are record quarterly figures for us and full year FRE of $2.23 per share and after tax PE of $4.44 per share are record annual figures for us.",
+        "pred": "Fee-related earnings per share of sixty-nine cents and after-tax distributable earnings of one point fifty-nine per share are record quarterly figures for us, and full-year FRE of two point twenty-three per share and after-tax DE of four point forty-four per share are record annual figures for us."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 44,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, when the whole two G, three G, four G market consolidates into one five G market, that is actually a net positive for us, too, because the combination of network mobility and our home networks will mean that, in terms of base stations and spectrum, we will have the strongest position in the market."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So when we, when the whole 2G, 3G, 4G market consolidates into one 5G market, that is actually a net positive for us at Tele2 because the combination of Net4Mobility on our home networks will mean that in terms of, um, base stations and spectrum, we would have the strongest position in the markets.",
+        "pred": "So, when the whole two G, three G, four G market consolidates into one five G market, that is actually a net positive for us, too, because the combination of network mobility and our home networks will mean that, in terms of base stations and spectrum, we will have the strongest position in the market."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 45,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Maybe that will sound like an anecdote, but there are quite a few examples like this where several dozen cars, more vehicles, more that carry output to the mill and give us specific, measurable results."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Maybe that will sound like an anecdote, uh, but, uh, there were quite a few examples like this, where several dozen costs, uh, uh, more, uh, m- m- that, uh, uh, um, carry out, but, uh, to the mill, and give us, uh, uh, specific, uh, measurable results.",
+        "pred": "Maybe that will sound like an anecdote, but there are quite a few examples like this where several dozen cars, more vehicles, more that carry output to the mill and give us specific, measurable results."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 46,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "With a proposed two and a half percent increase in ordinary dividend for the financial year of twenty twenty one, we will comfortably be within our range, and we remain committed to maintaining leverage around the midpoint of two point five and three over time, and re-lever the balance sheet as we grow underlying EBITDA in order to distribute excess cash to our shareholders."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Uh, with the proposed 2.5% increase in ordinary dividend for the financial year of 2021, we will comfortably be within our range, and we remain committed to maintaining leverage around the midpoint of 2.5 and 3 over time, and re-lever the balance sheet as we grow underlying EBITDAaL in order to distribute excess cash to our shareholders.",
+        "pred": "With a proposed two and a half percent increase in ordinary dividend for the financial year of twenty twenty one, we will comfortably be within our range, and we remain committed to maintaining leverage around the midpoint of two point five and three over time, and re-lever the balance sheet as we grow underlying EBITDA in order to distribute excess cash to our shareholders."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 47,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Now, the net income, the net result of the Capital Group, was up to four billion seven hundred twenty three million. The main driving factor was again increased revenue."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Now, the net uh, income, the net result of the Capital Group was up to 4,723,000,000 the main driving factor was um, again, increased revenue.",
+        "pred": "Now, the net income, the net result of the Capital Group, was up to four billion seven hundred twenty three million. The main driving factor was again increased revenue."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 48,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "When it comes to plant discounting policy for Q two we of course have certain assumptions and plans of what's going to be happening there, but we are definitely not in a position to reveal that. I've never actually seen anybody reveal ahead that kind of plans."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Uh, when it comes to planned discounting policy for Q2, we- we of course have, uh, certain assumptions, uh, and- and and- and plans of what- what's gonna be happening there, but uh, we we are definitely not in a position to reveal that actually seeing anybody, uh, uh, you know reveal ahead, uh, that kind of, uh, uh, uh plans.",
+        "pred": "When it comes to plant discounting policy for Q two we of course have certain assumptions and plans of what's going to be happening there, but we are definitely not in a position to reveal that. I've never actually seen anybody reveal ahead that kind of plans."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 49,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Ladies and gentlemen, when we joined this company, we had our in trays full of some big capex projects, which mean that by investing more billions, our production could grow."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Ladies and gentlemen, when we, uh, joined this company, oh, we had our entries full, uh, of some big CAPEX projects which, uh, mean that by investing, uh, more billions, our production could grow.",
+        "pred": "Ladies and gentlemen, when we joined this company, we had our in trays full of some big capex projects, which mean that by investing more billions, our production could grow."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 50,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, you know, I think suffice to say, when you combine with where we are in the development of the channel, the maturing of our product set, including and Scott mentioned this a moment ago, all the products that we have with the yields, real assets, et cetera, and put that together with our brand, we're just really encouraged with how we're situated and all of the opportunities that we have ahead of us."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So, um, you know, I think suffice to say, when you combine with where we are in the development of the channel, uh, the maturing of our product set including, and Scott mentioned this a moment ago, all the products that we have with the yields, uh, real assets, et cetera, and put that together with our brand, which is really encouraged with our, how we're situated and all of the opportunities that we have ahead of us.",
+        "pred": "So, you know, I think suffice to say, when you combine with where we are in the development of the channel, the maturing of our product set, including and Scott mentioned this a moment ago, all the products that we have with the yields, real assets, et cetera, and put that together with our brand, we're just really encouraged with how we're situated and all of the opportunities that we have ahead of us."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 51,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "And to answer your question about cash flow from Sierra Gorda, well, at this point, Sierra Gorda is not planning the second phase. There is no discussion about Sierra Gorda two at this point, so there is no investment planning towards that. We can."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And to answer your question about the cash flow from Sierra Garda, well at this point Sierra Garda is not planning the second phase, there is no discussion about Sierra Garda two at this point, so there is no, um, investment planning towards that.",
+        "pred": "And to answer your question about cash flow from Sierra Gorda, well, at this point, Sierra Gorda is not planning the second phase. There is no discussion about Sierra Gorda two at this point, so there is no investment planning towards that. We can."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 52,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Is we definitely have a much better balance in our total portfolio of, you know, end markets, portfolio of strengths, and channels, but you would still see more volatility in health and nutrition as compared to food cultures."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "If we definitely have a much better balance in our total portfolio of um, you know end markets um, portfolio strengths, end channels but you would still see uh, more volatility in health and nutrition as compared to food cultures uh, en- enzymes.",
+        "pred": "Is we definitely have a much better balance in our total portfolio of, you know, end markets, portfolio of strengths, and channels, but you would still see more volatility in health and nutrition as compared to food cultures."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 53,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "In principle, the output is a function of metal content in the ore, but also that depends on optimization of the process itself and on parametrization of this process."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "In principle, I mean, output as a function of metal content in the ore, but also, uh, that depends on optimization of the process itself and on parametrization of this process.",
+        "pred": "In principle, the output is a function of metal content in the ore, but also that depends on optimization of the process itself and on parametrization of this process."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 54,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Times continue to be uncertain, with high volatility from COVID nineteen increased focus from customers on business continuity and cost savings, potentially new travel restrictions which could impact our ability to advance our commercial pipeline, and low visibility to end market demand."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Times continue to be uncertain with high volatility from COVID-19, increased focus from customers on business continuity and cost savings, potentially new travel restrictions which could impact our ability to advance our commercial pipeline and low visibility to end market demand.",
+        "pred": "Times continue to be uncertain, with high volatility from COVID nineteen increased focus from customers on business continuity and cost savings, potentially new travel restrictions which could impact our ability to advance our commercial pipeline, and low visibility to end market demand."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 55,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Based on the strong financial position and taking into consideration the four hundred fifty five million zloty excess of short term liabilities over receivables as of the end of Q one, the board of Cellebrite proposed to the general meeting to pay out a dividend in the total amount of nearly five hundred four million zloty, which translates into five zloty per s hare."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Based on the strong financial position, and taking into consideration the 455 millions excess of liabilities over receivables, as of the end of Q1, the board proposed to the general to pay out a dividend in the total amount of nearly 504 millions which translates into 5 latic per share.",
+        "pred": "Based on the strong financial position and taking into consideration the four hundred fifty five million zloty excess of short term liabilities over receivables as of the end of Q one, the board of Cellebrite proposed to the general meeting to pay out a dividend in the total amount of nearly five hundred four million zloty, which translates into five zloty per s hare."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 56,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, the cost of electricity was up by one hundred two million laris because of the higher power price, seventy seven million up because of the ETS prices, and ninety million up because of the increase in natural gas and diesel fuel prices."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So the cost of electricity was up by 100, 2 million laries, 70s because of the higher power price, 77 million up because of the ETS prices and, uh, and 90 million up because of the increase in, uh, natural gas and diesel fuel prices.",
+        "pred": "So, the cost of electricity was up by one hundred two million laris because of the higher power price, seventy seven million up because of the ETS prices, and ninety million up because of the increase in natural gas and diesel fuel prices."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 57,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, I would definitely not read from that anything in relation to our pricing ability or pricing pass through for our business. As Lisa said, is more related to a one off in connection to the settlements in plant health with FMC."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So I would definitely not read that, not read from that, uh, anything in relation to our pricing ability or pricing pass through for our business, uh, as Lisa said, it is more related to a one off in connection to the uh, settlements in plant health with FMC.",
+        "pred": "So, I would definitely not read from that anything in relation to our pricing ability or pricing pass through for our business. As Lisa said, is more related to a one off in connection to the settlements in plant health with FMC."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 58,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Actually, as of today, Sierra Gorda has some electricity generated by renewable sources, and the ultimate 100% target has been adopted because of very advantageous contracts that we have signed."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, actually as of today, Sierra Garda has some electricity, uh, generated by renewable sources and the ultimate a hundred percent target has been adopted because very, um, advantages, uh, contracts that we have signed.",
+        "pred": "Actually, as of today, Sierra Gorda has some electricity generated by renewable sources, and the ultimate 100% target has been adopted because of very advantageous contracts that we have signed."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 59,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Our hedging policy works short term, and we can see the results. And on top of it, the price of the steel was up substantially on the general market, and we are actually using quite a lot of steel in the mining operations, and therefore we were impacted adversely by the growing prices of steel."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, our hedging policy works short term and we can see the results and- and on top of it the price of the steel was up substantially in the general market and we are actually using quite a lot of steel in the mining operations and therefore we were impacted adversely by the growing prices of steel.",
+        "pred": "Our hedging policy works short term, and we can see the results. And on top of it, the price of the steel was up substantially on the general market, and we are actually using quite a lot of steel in the mining operations, and therefore we were impacted adversely by the growing prices of steel."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 60,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, we pay out more, but on the other hand, we also have the feeling that this collective bargaining agreement and our activities allow us to share the beneficial situation of the company with a broad range of stakeholders, that is, employees. Thank."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So we pay out more, but on the other hand, we also have the feeling that this collective bargaining agreement and our activities allow us to share, uh, uh, the beneficial situation of the company, uh, with, um, broad range of stakeholders that is employees.",
+        "pred": "So, we pay out more, but on the other hand, we also have the feeling that this collective bargaining agreement and our activities allow us to share the beneficial situation of the company with a broad range of stakeholders, that is, employees. Thank."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 61,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, five G brings an opportunity for us to capitalize on that gap that you are pointing out. Because clearly, we moving forward with Tele two becoming a converged player, a quality player, gives us a chance to lift us over time."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So 5G brings an opportunity for us to capitalize on that gap that you are pointing out, because clearly, we moving forward with Tele2 becoming a converged player, quality, uh, player, gives us the chance to lift, uh, ASPUs over time.",
+        "pred": "So, five G brings an opportunity for us to capitalize on that gap that you are pointing out. Because clearly, we moving forward with Tele two becoming a converged player, a quality player, gives us a chance to lift us over time."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 62,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "A big project for us, Bittermodzajski license, that is basically a new mine, a new technology, new regulatory environment. That is a priority topic for us under the license and in potassium salts. That's also a very promising, future oriented subject in the context of the current business cycle."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "A big project for us license that is uh, basically new mind and new technology, a new regulatory environment, that is a priority uh, topic for us under the license and ports, and potassium salts, but also very promising future oriented subject to the context of the current business cycle.",
+        "pred": "A big project for us, Bittermodzajski license, that is basically a new mine, a new technology, new regulatory environment. That is a priority topic for us under the license and in potassium salts. That's also a very promising, future oriented subject in the context of the current business cycle."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 63,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Note that one time charges were nearly seven million dollars in the quarter, mainly in connection with extraordinary cancellations resulting from the surge in COVID nineteen cases, compared to non recurring charges of twelve million in second quarter twenty twenty one."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Note, that one time charges were nearly $7 million in the quarter, mainly in connection with extraordinary cancellations resulting from the surge in COVID-19 cases, compared to non-regarding charges of 12 million in second quarter t- 2021.",
+        "pred": "Note that one time charges were nearly seven million dollars in the quarter, mainly in connection with extraordinary cancellations resulting from the surge in COVID nineteen cases, compared to non recurring charges of twelve million in second quarter twenty twenty one."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 64,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "And then we'll be more and more into improving things without promising anything, but the course of action will change a bit. So we'll be more focused on pushing the perceived quality further."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, and then we'll be more and more into uh, improving things, uh without promising anything but the the the course of action will uh, will change a bit so we'll be more, more focused on pushing uh, the the the uh, persist quality uh, further.",
+        "pred": "And then we'll be more and more into improving things without promising anything, but the course of action will change a bit. So we'll be more focused on pushing the perceived quality further."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 65,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Driving commercialization of new innovations and delivering synergies from our recent acquisitions, while mitigating any potential disruptions from supply chain constraints and implementing price adjustments in close collaborations with customers to offset inflationary pressures."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Driving commercialization of new innovations and delivering synergies from our recent acquisitions while mitigating any potential disruptions from supply chain constraints and implementing price adjustments in close collaborations with customers to offset inflationary pressures.",
+        "pred": "Driving commercialization of new innovations and delivering synergies from our recent acquisitions, while mitigating any potential disruptions from supply chain constraints and implementing price adjustments in close collaborations with customers to offset inflationary pressures."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 66,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Could you step back on the retail side of the 50 billion in private wealth assets right now? Are you able to break that out between what you would call democratized products? And I know those are still very much in development, but just to try to get a sense of how you're thinking about that fundraising in retail from new products."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, just to back on the retail side, um, of the $50 billion in, in private wealth assets right now, can, uh, you're able to break that out between what you would call, um, democratized products and I know those are still very much in development, but just to try to get a sense of how you're thinking about that fundraising in retail from new products.",
+        "pred": "Could you step back on the retail side of the 50 billion in private wealth assets right now? Are you able to break that out between what you would call democratized products? And I know those are still very much in development, but just to try to get a sense of how you're thinking about that fundraising in retail from new products."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 67,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Before we begin our remarks, allow me to remind you that certain statements made during the course of the discussion may constitute forward looking statements, which are based on management's current expectations and beliefs and are subject to a number of risks and uncertainties that could cause actual results to materially differ, including factors that may be beyond the company's control."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Before we begin, I would like to remind, allow me to remind you that certain statements made in the course of the discussion will constitute correlating statements which are based on management's current expectations and beliefs, and as such you'll see a number of risks and uncertainties that the report's actual may be beyond the company's control.",
+        "pred": "Before we begin our remarks, allow me to remind you that certain statements made during the course of the discussion may constitute forward looking statements, which are based on management's current expectations and beliefs and are subject to a number of risks and uncertainties that could cause actual results to materially differ, including factors that may be beyond the company's control."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 68,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "But I may say that contributors to the EBITDA growth to some extent are also related to the fact that we are able to keep the production stable in terms of the cost wherever it's possible. I will address the cost at the greater length later, but."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "But I may say that uh, contributors to the EBITDA growth to some extent uh, are also related to the fact that we are able to keep the production stable in terms of the cost wherever it's possible, I will address the cost of the greater length later.",
+        "pred": "But I may say that contributors to the EBITDA growth to some extent are also related to the fact that we are able to keep the production stable in terms of the cost wherever it's possible. I will address the cost at the greater length later, but."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 69,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Our third quarter results demonstrate that the strategic initiatives undertaken since the start of the pandemic and their successful execution are delivering improved margins when compared to twenty eighteen Our performance this quarter underscores the future earnings power of the company."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Our third quarter result demonstrates that the strategic initiatives and the stake in since the start of the pandemic, and there's a careful execution and delivery improvement in, when compared to 2018, our performance this quarter and this course, the future earnings power of the company.",
+        "pred": "Our third quarter results demonstrate that the strategic initiatives undertaken since the start of the pandemic and their successful execution are delivering improved margins when compared to twenty eighteen Our performance this quarter underscores the future earnings power of the company."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 70,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "That's going to be a multiyear process, and we're going to do it in a very prudent way and make sure that we're rotating GA's balance sheet from quality investments that they had today into opportunities for KKR to be able to invest that capital with a similar or better risk level and at an increased yield."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, that's gonna be a multiyear process and we're gonna do it, um, in a, in a very prudent way and, and make sure that we're rotating GA's balance sheet from, you know, quality investments that they, um, had today into, uh, opportunities for KKR to be able to invest that capital, uh, with a similar, better risk level and, and at a, uh, increased yield.",
+        "pred": "That's going to be a multiyear process, and we're going to do it in a very prudent way and make sure that we're rotating GA's balance sheet from quality investments that they had today into opportunities for KKR to be able to invest that capital with a similar or better risk level and at an increased yield."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 71,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, sometimes we are at the mercy of nature, and whatever possible, we try to over deliver if situation is conducive and the production situation allows that."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So, um, we, sometimes we are at the mercy of nature and, um, whatever possible we try to, um, over deliver if a situation is, uh, conducive and, uh, production situation allows that.",
+        "pred": "So, sometimes we are at the mercy of nature, and whatever possible, we try to over deliver if situation is conducive and the production situation allows that."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 72,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Europe, we are benefiting from our strength to solution strategy and the broader portfolio that we have in human health, where we are now able to commercialize across the combined units."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Uh, we are benefiting from our strength solution, uh, uh, strategy and the broader portfolio that we have in, uh, human health, where we are now, uh, able to commercialize, uh, uh, across the combined units.",
+        "pred": "Europe, we are benefiting from our strength to solution strategy and the broader portfolio that we have in human health, where we are now able to commercialize across the combined units."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 73,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "And it was mostly annulled copper that we had to stock up. We have to stock it up before we actually prepare ourselves for the smelter repair. We also had higher stock up of concentrate copper in the port."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And uh, it was mostly copper, but we had to stock up, we have to stock it up before we um, actually prepare ourselves for the smelter um, repair, we also had higher stock up of concentrate copper in the port.",
+        "pred": "And it was mostly annulled copper that we had to stock up. We have to stock it up before we actually prepare ourselves for the smelter repair. We also had higher stock up of concentrate copper in the port."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 74,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So all those activities taken together translate into greater capacity for processing and greater recovery on what geology offers to us."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So all those activities are taken together, translated into greater capacity for processing and greater, uh, recovery on what geology offers to us.",
+        "pred": "So all those activities taken together translate into greater capacity for processing and greater recovery on what geology offers to us."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 75,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Future, and finally, on the discussions with Sony and with Xbox, firstly, does it potentially involve the next gen version, or is it simply a discussion about the old last gen?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, and finally, um, on the discussions with Sony and with Xbox, firstly, does it potentially involve the next gen version, or is it simply a discussion about the last gen?",
+        "pred": "Future, and finally, on the discussions with Sony and with Xbox, firstly, does it potentially involve the next gen version, or is it simply a discussion about the old last gen?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 76,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Telenor, can you describe to us just very top down how important that is going forward in terms of having a good position in five G and the perception in the market of fast and strong networks and the investments in those?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Can you describe to us just very top down, how important that is going forward in terms of having a good position in 5G, uh, and the perception in the market of fast and strong networks and the investments in those?",
+        "pred": "Telenor, can you describe to us just very top down how important that is going forward in terms of having a good position in five G and the perception in the market of fast and strong networks and the investments in those?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 77,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "But of course, before the games launch in a full scale, we don't want to announce any internal data regarding how soft launches were progressing. But the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "But of course, before the game is launched in the full scale, we don't want to you know, announce any internal data regarding how soft launches were progressing.",
+        "pred": "But of course, before the games launch in a full scale, we don't want to announce any internal data regarding how soft launches were progressing. But the"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 78,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "And maybe to add upon this, I think if I look at typical consumer behavior and uptake on, for example, new phones and handsets, you see quite a lot of the phones that we've been shipping also in the fourth quarter are five G ready, and that's sort of making its way into the market quite quickly."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And maybe to add, Pontus, I- I think if I look at the, you know, typical consumer behavior and uptake on, uh, on for example, new phones and handsets, you see quite quite a lot of the phones that we have been shipping also in the fourth quarter are, you know, 5G ready, um, and that's sort of making its way into the market quite quickly.",
+        "pred": "And maybe to add upon this, I think if I look at typical consumer behavior and uptake on, for example, new phones and handsets, you see quite a lot of the phones that we've been shipping also in the fourth quarter are five G ready, and that's sort of making its way into the market quite quickly."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 79,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "The return on invested capital excluding goods was twenty point zero percent compared to twenty point six percent last year, and the decrease was driven by health and nutrition due to the inclusion of HMO, while the return on invested capital in food cultures and enzymes was on par with Q one from last year."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The return on invested capital, excluding goodwill, was 20.0% compared to 20.6% last year, and the decrease was driven by health and nutrition due to the inclusion of HMO while the return on invested capital in food cultures and enzymes was on par with Q1 from last year.",
+        "pred": "The return on invested capital excluding goods was twenty point zero percent compared to twenty point six percent last year, and the decrease was driven by health and nutrition due to the inclusion of HMO, while the return on invested capital in food cultures and enzymes was on par with Q one from last year."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 80,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Just based on this and your earlier comments, just to clarify, so there hasn't been any material development cost capitalized for any new project on anything resembling Cyberpunk's scale before Q one this year."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, just based on this and your earlier comments, just to clarify, so there hasn't been any material development costs capitalized for any new project on anything resembling Cyberpunk's scale before Q1 this year?",
+        "pred": "Just based on this and your earlier comments, just to clarify, so there hasn't been any material development cost capitalized for any new project on anything resembling Cyberpunk's scale before Q one this year."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 81,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "If there are any questions that we won't be able to answer today, or questions that will require more detailed answers, we will answer them in a more detailed manner on our website, and you will be able to find all the answers there."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "If, uh, there are any questions that, uh, we, uh, won't be able to answer today or questions that will require more detailed answers, we will, uh, answer them in a more detailed manner on our website and you will be able to, uh, find all the answers, uh, there.",
+        "pred": "If there are any questions that we won't be able to answer today, or questions that will require more detailed answers, we will answer them in a more detailed manner on our website, and you will be able to find all the answers there."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 82,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "And at Sierra Gorda, we actually have huge machines that are also electrical, but they have to load vehicles that have capacity of two hundred fifty tons. So."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And at Sierra Gorda, we actually have, um, uh, huge machines, uh, that are also, um, electrical, but, um, they, um, have to load vehicles that, um, have capacity of 250 tons.",
+        "pred": "And at Sierra Gorda, we actually have huge machines that are also electrical, but they have to load vehicles that have capacity of two hundred fifty tons. So."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 83,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Second, EBITDA excluding cancellations near breakeven, even with gross bookings still forty four percent below nineteen levels, as the initiatives implemented since the start of the pandemic have significantly strengthened the earnings power of the company."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Second EBITDA, excluding cancellations, we neared break even, even with gross bookings still 44% below ' 19 levels, as the initiatives implemented since the start of the pandemic have significantly strengthened the earnings power of the company.",
+        "pred": "Second, EBITDA excluding cancellations near breakeven, even with gross bookings still forty four percent below nineteen levels, as the initiatives implemented since the start of the pandemic have significantly strengthened the earnings power of the company."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 84,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Morning. I'll take the first part of your question in relation to what part of the growth on health and nutrition was sort of underlying growth versus one-offs, and then I'll pass it on to Lisa in relation to the infant formula and market potential."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, I will take the first part of your question in relation to what part of the uh, growth on health and nutrition was sort of underlying growth vs um, a one off and then I'll pass it on to Lisa in relation to the, uh infant formula, uh in market potential.",
+        "pred": "Morning. I'll take the first part of your question in relation to what part of the growth on health and nutrition was sort of underlying growth versus one-offs, and then I'll pass it on to Lisa in relation to the infant formula and market potential."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 85,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, when we come out end of twenty three and early twenty four with great coverage and great spectrum and a very strong five G proposition, that gives us an opportunity to equalize some of that gap that you are pointing out."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So, uh, when we come out end of ' 23 and early ' 24 with great coverage and great spectrum and a very strong, uh, 5G proposition, that gives us an opportunity to equalize some of that, uh, gap that you are pointing out.",
+        "pred": "So, when we come out end of twenty three and early twenty four with great coverage and great spectrum and a very strong five G proposition, that gives us an opportunity to equalize some of that gap that you are pointing out."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 86,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "I am not very precise because we don't want to pre-announce anything which is not announced yet. So, I am not referring directly to the question, but there are teams, smaller teams, in transformation preparing works on future content."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I'm not very precise because we don't want to pre announce anything which is not announced yet so I'm not referring directly to the question, but, but, there are teams uh, smaller teams, uh, in transformation, uh, preparing, uh, works on on future content.",
+        "pred": "I am not very precise because we don't want to pre-announce anything which is not announced yet. So, I am not referring directly to the question, but there are teams, smaller teams, in transformation preparing works on future content."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 87,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "We've also had EBITDA going up, and the smaller companies of the group, like Zanam, Pebecca, et cetera, they are doing quite well. They are not growing at such a dynamic rate, but nevertheless, because of that growth, they were able to keep their balances in check."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "We've also had EBITDA going up in the smaller companies of the group like etc, they are doing quite well, they are not growing at such a dynamic rate, but nevertheless, because of that growth, they were able to keep their balances in check.",
+        "pred": "We've also had EBITDA going up, and the smaller companies of the group, like Zanam, Pebecca, et cetera, they are doing quite well. They are not growing at such a dynamic rate, but nevertheless, because of that growth, they were able to keep their balances in check."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 88,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Our receivables increased by one billion, decreased by one billion and ninety one million zloty, leading to an increase of cash and bank deposits by eight hundred twenty three million zloty, and one hundred fourteen million zloty increase of domestic key bonds included in the other financial assets line."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The increased by 1 billion, decreased by 1 billion and 91 millions , leading to an increase in cash and bank deposits by 823 millions and 140 millions increase in domestic included in the other financial assets line.",
+        "pred": "Our receivables increased by one billion, decreased by one billion and ninety one million zloty, leading to an increase of cash and bank deposits by eight hundred twenty three million zloty, and one hundred fourteen million zloty increase of domestic key bonds included in the other financial assets line."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 89,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "It generated almost two hundred million dollars of revenue in twenty twenty one. I think that really speaks to our business model and the quality of our people, that we were able to take that business and scale to the point that is not too different from a revenue perspective from where our capital markets business was in aggregate. You know not too long ago."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It generated almost $200 million of revenue in 2021 and I think that really speaks to our business model and the quality of our people, uh, that we were able to take that business and scale to the point that, um, is not too different from a revenue perspective from, uh, where our capital markets was, business was in aggregate, you know, not too long ago.",
+        "pred": "It generated almost two hundred million dollars of revenue in twenty twenty one. I think that really speaks to our business model and the quality of our people, that we were able to take that business and scale to the point that is not too different from a revenue perspective from where our capital markets business was in aggregate. You know not too long ago."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 90,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Industry, and with that, we're in a regular cycle that is recovering coming out of COVID. With typically the fourth quarter being a very high trading season, with you know some additional commercial spend just from the quarter itself."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And- and with the, with that we are in a, we're in a regular cycle that is recovering coming out of COVID with typically the fourth quarter being a very high trading season with, you know, some, um, additional commercial spend just from the quarter itself.",
+        "pred": "Industry, and with that, we're in a regular cycle that is recovering coming out of COVID. With typically the fourth quarter being a very high trading season, with you know some additional commercial spend just from the quarter itself."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 91,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "We are not guiding future results, so I cannot give you too much and too precise information. But definitely, each year, the most important part of the second quarter is the June and all the summer promos, and this is still in front of us."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, we're not hiding future results so I cannot lead too much into pre sizing formation, but definitely each year, the most important part of the second quarter is the June and all the summer promos, and this is still in front of us.",
+        "pred": "We are not guiding future results, so I cannot give you too much and too precise information. But definitely, each year, the most important part of the second quarter is the June and all the summer promos, and this is still in front of us."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 92,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "The Sierra Gorda budget is subject to different rules than our key G H M in Poland or international. At Sierra Gorda, we have to actually come to the arrangements with our partners at the joint ventures every time we work on the budget."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Well, the Sierra Garda budget, uh, is subject to different rules that, uh, our, uh, KGHM in Poland or, um, international at, um, Sierra Garda we have to actually come to the arrangements with our partners at the joint ventures every time we work on the budget.",
+        "pred": "The Sierra Gorda budget is subject to different rules than our key G H M in Poland or international. At Sierra Gorda, we have to actually come to the arrangements with our partners at the joint ventures every time we work on the budget."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 93,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "And the key reason for the question, really, there is we're trying to think about whether you can continue to create further efficiencies further out than the middle of twenty twenty three and trying to understand how much scope there is for long term greater efficiencies in the company."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And the- the key reason for the question really there is, we're trying to think about whether you can continue to create further efficiencies further out than- than middle of 2023 and trying to understand how much scope there is for, um, long-term, uh, greater efficiencies in the, in the company?",
+        "pred": "And the key reason for the question, really, there is we're trying to think about whether you can continue to create further efficiencies further out than the middle of twenty twenty three and trying to understand how much scope there is for long term greater efficiencies in the company."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 94,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Thank you very much, and see you on half the first half results in roughly three months. Bye bye."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Thank you very much and see you on half, first half results in roughly three months.",
+        "pred": "Thank you very much, and see you on half the first half results in roughly three months. Bye bye."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 95,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Quarter, and hopefully that answers the ambition that we have. And going from minus seven in twenty twenty to that level that we see now, with two consecutive quarters with positive growth."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Um, and, uh, hopefully that that- that, uh, answers the the ambitions that we have, uh, and going from minus 7% in- in 2020, uh, to- to to that level that we see now with two consecutive quarters with- with positive growth.",
+        "pred": "Quarter, and hopefully that answers the ambition that we have. And going from minus seven in twenty twenty to that level that we see now, with two consecutive quarters with positive growth."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 96,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "And as we also execute on the FMC strategy, and we will be able to, as we have been alluding to, get more out of the customer base and customer value focus, we will also be able to address some of the churn levels and see some churn reduction."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And, uh, as we also execute on, you know, the FMC strategy, uh, and we will be able to, as we have been alluding to, get more out of the customer base and customer value focus, we will also, we will also be able to address, you know, some of the churn levels and see some churn reduction.",
+        "pred": "And as we also execute on the FMC strategy, and we will be able to, as we have been alluding to, get more out of the customer base and customer value focus, we will also be able to address some of the churn levels and see some churn reduction."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 97,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "The free cash flow before special items is expected to be around one hundred and forty to one hundred and seventy million euros. As improved operating profit is expected to be more than offset by significant increases in taxes paid, as FY twenty one was positively impacted by acquisition related one offs."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The free cash flow before special items is expected to be around EUR 140 million to EUR 170 million as improved operating profit is expected to be more than offset by significant increases in taxes paid as FY ' 21 was positively impacted by acquisition related one-offs.",
+        "pred": "The free cash flow before special items is expected to be around one hundred and forty to one hundred and seventy million euros. As improved operating profit is expected to be more than offset by significant increases in taxes paid, as FY twenty one was positively impacted by acquisition related one offs."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 98,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "And I also would like to point out that a lot of that commercial cost is driven by acquisition cost and not as much as marketing cost, which I saw in some of the commentaries. Because we've of course also been able to get some transformation savings onto our marketing spend by moving to one brand."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And I also would like to point out that a lot of that commercial cost is driven by acquisition costs and not as much as marketing costs, which I saw on some of the commentaries, because we have, of course, also been able to get, um, some, you know, transformation savings on to our marketing spend by moving to, uh, one brand.",
+        "pred": "And I also would like to point out that a lot of that commercial cost is driven by acquisition cost and not as much as marketing cost, which I saw in some of the commentaries. Because we've of course also been able to get some transformation savings onto our marketing spend by moving to one brand."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 99,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "open_asr_earnings22",
+        "test"
+      ],
+      "filtered_resps": [
+        "Excluding HMO, which was not fully reflected in Q one last year, we would have seen a margin improvement as scalability from solid sales performance more than offset the inflationary pressure and the general ramp up of activities."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Excluding HMO, which was not fully reflected in Q1 last year, we both have seen a margin improvement, a scalability from solid sales performance more than offset the inflationary pressure and the general ramp up of activities.",
+        "pred": "Excluding HMO, which was not fully reflected in Q one last year, we would have seen a margin improvement as scalability from solid sales performance more than offset the inflationary pressure and the general ramp up of activities."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    }
+  ],
+  "total_samples": 2741
+}

@@ -1,0 +1,2408 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "benchmark_id": "voicebench_bbh",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the instructions step by step:\n\n1. Start at a point, facing some direction (assume forward is the initial direction).\n2. \"Return to the starting point\" – this is a bit ambiguous, but likely means \"start at the starting point\" or \"begin from the starting point\". So we begin at the starting point.\n3. \"Turn right\" – now we are facing a new direction, 90 degrees to the right.\n4. \"Turn around\" – this means turn 180 degrees. So from the current direction (right turn from original), turning around will face us in the opposite direction of the right turn, which is the original direction but reversed. Let's track this carefully.\n\nLet’s assign directions:\n\n- Assume initial direction is North.\n- Step 1: Start at origin, facing North.\n- Step 2: \"Turn right\" → now facing East.\n- Step 3: \"Turn around\" → turn 180 degrees → now facing West.\n- Step 4: \"Take two steps\" → move 2 steps West.\n- Step 5: \"Take six steps\" → move 6 steps West → total 8 steps West from start.\n- Step 6: \"Take four"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 1,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's go step by step:\n\n1. Start at a point, facing forward (let's assume north for simplicity).\n2. \"Return to the starting point\" – this means you are already at the starting point. So no movement yet.\n3. \"Turn around\" – you were facing north, now you face south.\n4. \"Take one step\" – move one step south.\n5. \"Take two steps\" – move two steps south (total 3 steps south).\n6. \"Take nine steps\" – move nine steps south (total 12 steps south).\n7. \"Take seven steps\" – move seven steps south (total 19 steps south).\n8. \"Turn left\" – currently facing south, turn left → now facing east.\n9. \"Take one step\" – move one step east.\n10. \"Take two steps\" – move two steps east (total 3 steps east).\n11. \"Take nine steps\" – move nine steps east (total 12 steps east).\n12. \"Take seven steps\" – move seven steps east (total 19 steps east).\n\nNow, you are 19 steps south and 19 steps east of the starting point.\n\nSo, you are not"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 2,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's follow the instructions step by step, keeping track of position and direction.\n\nAssume we start at a point, facing North.\n\n1. Take six steps:  \n   - Move 6 steps forward (North).  \n   - Position: 6 steps North of start.  \n   - Direction: North.\n\n2. Turn right:  \n   - Right turn from North → East.  \n   - Direction: East.\n\n3. Turn right:  \n   - Right turn from East → South.  \n   - Direction: South.\n\n4. Take seven steps:  \n   - Move 7 steps South.  \n   - Net movement: 6 North - 7 South = 1 South.  \n   - Position: 1 step South of start.  \n   - Direction: South.\n\n5. Turn around:  \n   - Turn around from South → North.  \n   - Direction: North.\n\n6. Take one step:  \n   - Move 1 step North.  \n   - From 1 South → back to start.  \n   - Position: back at starting point.  \n   - Direction: North.\n\nYes, we return to the starting point.\n\nThe answer is yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 3,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze this step by step:\n\n1. The sentence is: \"Deshaun Watson took a corner kick.\"\n\n2. Deshaun Watson is a professional American football player, specifically a quarterback in the NFL. He plays in the National Football League, which is a football code that does not use corner kicks.\n\n3. A corner kick is a feature of association football (soccer), not American football. In American football, there is no such thing as a corner kick.\n\n4. Therefore, it is implausible that Deshaun Watson, as an American football player, would take a corner kick in a professional context.\n\n5. While it's theoretically possible that he might have taken a corner kick in a casual or recreational setting, the sentence implies a plausible real-world scenario, which is not supported by his professional role.\n\nThus, the sentence is implausible.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 4,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. \"James Caroncheck\" – This appears to be a person's name. While it is not a widely known public figure, names can be unique or less common, so this is plausible.\n\n2. \"worked a full count\" – This phrase is ambiguous. In baseball, a \"full count\" refers to a situation where the batter has three balls and two strikes. However, \"worked a full count\" is not standard phrasing in baseball commentary. Typically, one would say a pitcher \"worked a full count\" or a batter \"faced a full count.\" Saying someone \"worked a full count\" is awkward and not idiomatic.\n\n3. The sentence lacks context. Without knowing who James Caroncheck is or what field he works in, it's hard to assess plausibility. If he is a baseball player or coach, the phrase might make sense in a metaphorical or informal way. But as written, it's unclear.\n\n4. Overall, the sentence is grammatically correct but semantically odd due to the awkward use of \"worked a full count.\" It is not a standard expression in any known context.\n\nTherefore, the sentence is not plausible as written.\n\nThe answer is: No."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 5,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's go step by step:\n\n1. Start at a point, let's call it the origin (0,0).\n2. Take 6 steps forward. Let's assume forward is along the positive x-axis. Now at (6,0).\n3. Take 8 steps. The direction isn't specified, but since the previous was forward, and no turn is mentioned, we assume same direction. So another 8 steps forward. Now at (6+8,0) = (14,0).\n4. Take 7 steps. Again, no turn mentioned, so same direction. Now at (14+7,0) = (21,0).\n5. Turn around. This means you now face the opposite direction (negative x-axis).\n6. Take 6 steps. Now you move 6 steps backward along the x-axis. From (21,0) to (21-6,0) = (15,0).\n\nYou are now at (15,0), but you started at (0,0). So you have not returned to the starting point.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 6,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjective order in English. In English, adjectives typically follow a specific order when multiple adjectives are used before a noun. The standard order is:\n\n1. Determiner (e.g., the, a, this)\n2. Opinion (e.g., terrible, beautiful)\n3. Size (e.g., small, large)\n4. Age (e.g., old, new)\n5. Shape (e.g., round, square)\n6. Color (e.g., red, blue)\n7. Origin (e.g., French, American)\n8. Material (e.g., wooden, metal)\n9. Purpose (e.g., cooking, sleeping)\n10. Noun\n\nIn this case, we have the noun \"knife\" and three adjectives: \"terrible\", \"archaic\", and \"paper\".\n\nLet's analyze each adjective:\n\n- \"terrible\" is an opinion adjective.\n- \"archaic\" is an age adjective (meaning old-fashioned).\n- \"paper\" is a material adjective (indicating what the knife is made of or used for).\n\nAccording to the standard order, opinion adjectives come before age adjectives, and age adjectives come before material adjectives.\n\nSo the correct order should be: opinion → age"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 7,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe have six people: Vina, Helene, Candy, Jamie, and Cara. Each person either always tells the truth or always lies.\n\nStatements:\n\n1. Vina says: \"Helene tells the truth.\"\n2. Helene says: \"Vina lies.\"\n3. Candy says: \"Helene tells the truth.\"\n4. Jamie says: \"Candy lies.\"\n5. Cara says: \"Jamie lies.\"\n\nWe are to determine: Does Cara tell the truth?\n\nLet’s suppose Vina tells the truth.\n\nThen her statement \"Helene tells the truth\" is true → Helene tells the truth.\n\nBut Helene says \"Vina lies\". If Helene tells the truth, then Vina lies.\n\nBut we assumed Vina tells the truth → contradiction.\n\nSo our assumption is wrong.\n\nTherefore, Vina does not tell the truth → Vina lies.\n\nSo Vina's statement \"Helene tells the truth\" is false → Helene lies.\n\nSo Helene lies.\n\nHelene says \"Vina lies\". Since Helene lies, this statement is false → \"Vina lies\" is false → Vina tells the truth.\n\nBut we just concluded Vina lies → contradiction?\n\nWait, let's"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 8,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's go step by step:\n\n1. Start at the starting point.  \n2. Always face forward.  \n3. Take 9 steps backward.  \n   → You are now 9 steps behind the starting point.  \n4. Take 2 steps forward.  \n   → 9 - 2 = 7 steps behind the starting point.  \n5. Take 1 step backward.  \n   → 7 + 1 = 8 steps behind the starting point.  \n6. Take 8 steps forward.  \n   → 8 - 8 = 0 steps from the starting point.  \n\nSo, after all the steps, you are back at the starting point.\n\nThe answer is: Yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 9,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjective order in the given options.\n\nWe are looking at a noun phrase: \"____ computer\".\n\nThe adjectives involved are:\n- \"black\" (color)\n- \"typing\" (function or purpose)\n- \"awful\" (opinion)\n\nIn English, the standard order of adjectives is:\n1. Opinion\n2. Size\n3. Age\n4. Shape\n5. Color\n6. Origin\n7. Material\n8. Purpose\n9. Noun\n\nSo, the correct order should be:\n- Opinion: \"awful\"\n- Color: \"black\"\n- Purpose: \"typing\"\n- Noun: \"computer\"\n\nTherefore, the correct order is: \"awful black typing computer\".\n\nNow, let's check the options:\nA. black typing awful computer → color, purpose, opinion → incorrect order\nB. awful black typing computer → opinion, color, purpose → correct order\n\nSo, option B is correct.\n\nThe answer is B."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 10,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe are given:\n\n1. Alejandro lies.\n2. Amberly says: \"Alejandro tells the truth.\"\n3. Osvaldo says: \"Amberly lies.\"\n4. Vernell says: \"Osvaldo lies.\"\n5. Sheena says: \"Vernell lies.\"\n\nWe are to determine: Does Sheena tell the truth?\n\nLet’s denote:\n- If someone tells the truth, their statement is true.\n- If someone lies, their statement is false.\n\nStart with statement 1: \"Alejandro lies.\"\n\nSo, Alejandro is a liar.\n\nNow, Amberly says: \"Alejandro tells the truth.\"\n\nBut we know Alejandro lies, so Amberly's statement is false.\n\nTherefore, Amberly is lying.\n\nSo far:\n- Alejandro: lies\n- Amberly: lies\n\nNow, Osvaldo says: \"Amberly lies.\"\n\nWe just determined that Amberly does lie, so Osvaldo's statement is true.\n\nTherefore, Osvaldo tells the truth.\n\nSo:\n- Osvaldo: tells the truth\n\nNext, Vernell says: \"Osvaldo lies.\"\n\nBut Osvaldo tells the truth, so Vernell's statement is false.\n\nTherefore, Vernell is"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 11,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe have five people: Vernal, Conception, Candy, Michael, and Osvaldo.\n\nEach person either always tells the truth or always lies.\n\nTheir statements:\n\n1. Vernal says: \"Conception lies.\"\n2. Conception says: \"Vernal lies.\"\n3. Candy says: \"Conception lies.\"\n4. Michael says: \"Candy tells the truth.\"\n5. Osvaldo says: \"Michael tells the truth.\"\n\nWe need to determine whether Osvaldo tells the truth.\n\nLet’s denote:\n- T = tells the truth\n- L = lies\n\nWe will analyze the logic.\n\nStep 1: Look at Vernal and Conception.\n\nVernal says: \"Conception lies.\"\nConception says: \"Vernal lies.\"\n\nThis is a classic mutual accusation.\n\nLet’s suppose Vernal is telling the truth.\n\nThen Conception lies.\n\nBut if Conception lies, then her statement \"Vernal lies\" is false → so Vernal tells the truth. That matches.\n\nSo if Vernal is truthful, Conception is lying → consistent.\n\nNow suppose Vernal is lying.\n\nThen his statement \"Conception lies\" is false → so Conception tells the truth.\n\nBut if Conception"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 12,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe are given:\n\n1. Phoebe says: \"Phoebe tells the truth.\"\n2. Christy says: \"Phoebe tells the truth.\"\n3. Fletcher says: \"Christy tells the truth.\"\n4. Amberly says: \"Fletcher lies.\"\n5. Raymond says: \"Amberly tells the truth.\"\n\nWe are to determine whether Raymond tells the truth.\n\nLet’s suppose Phoebe tells the truth.\n\nThen her statement \"Phoebe tells the truth\" is true — consistent.\n\nThen Christy says \"Phoebe tells the truth\" — which would be true, so Christy is telling the truth.\n\nThen Fletcher says \"Christy tells the truth\" — which is true, so Fletcher is telling the truth.\n\nThen Amberly says \"Fletcher lies\" — but Fletcher tells the truth, so Amberly is lying.\n\nThen Raymond says \"Amberly tells the truth\" — but Amberly lies, so Raymond is lying.\n\nSo in this case, Raymond lies.\n\nNow, suppose Phoebe lies.\n\nThen her statement \"Phoebe tells the truth\" is false — which is consistent with her being a liar.\n\nSo Phoebe lies.\n\nThen Christy says \""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 13,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. The sentence is: \"Joe Burrow caught the back shoulder fade in the Super Bowl.\"\n\n2. First, identify the subject: Joe Burrow. He is a professional American football quarterback, known for playing in the NFL.\n\n3. Next, analyze the action: \"caught the back shoulder fade.\" In football terminology, a \"back shoulder fade\" is a pass route typically thrown to a receiver, not a quarterback. The quarterback throws the pass, and the receiver runs the route to catch it.\n\n4. Therefore, the verb \"caught\" implies that Joe Burrow was the one receiving the pass, not throwing it.\n\n5. However, Joe Burrow is a quarterback, and his primary role is to throw passes, not catch them. While it's not impossible for a quarterback to catch a pass (e.g., in trick plays), it is extremely rare and not a standard part of his role.\n\n6. Additionally, the \"back shoulder fade\" is a route usually run by a receiver, not a quarterback.\n\n7. Therefore, the sentence is implausible because it describes a quarterback catching a pass on a route typically run by a receiver, which is not a standard or likely occurrence.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 14,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. The sentence is: \"Petter check was safe at first.\"\n2. First, check the grammar: The subject \"Petter check\" is awkward. It seems like it might be a name, but \"Petter check\" is not a standard name. It could be a typo or mishearing of \"Petter Czech\" or \"Peter Czech,\" but even then, it's unusual.\n3. The verb \"check\" is used as a noun here, which is odd. \"Petter check\" doesn't make sense as a subject unless \"check\" is a surname, which is rare.\n4. The phrase \"was safe at first\" is grammatically correct, but it's unclear what \"Petter check\" refers to. If it's a person, it's odd to say someone was \"safe at first\" without context.\n5. The sentence lacks clarity and coherence. It's likely a garbled or incorrect sentence.\n\nGiven these issues, the sentence is not plausible.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 15,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's go step by step.\n\nWe start at a point, facing forward.\n\n1. Take 9 steps left → Now we are 9 steps to the left of the start.\n2. Take 10 steps left → 9 + 10 = 19 steps left.\n3. Take 3 steps left → 19 + 3 = 22 steps left.\n4. Take 1 step left → 22 + 1 = 23 steps left.\n5. Take 3 steps backward → Since we are facing forward, backward is opposite to forward. But we are currently facing forward, so backward is the direction we came from. But we have been moving left, so our facing direction is still forward (as per instruction: \"always face forward\"). So \"backward\" means opposite to forward, which is backward (i.e., away from the direction we were facing). But since we've been moving left, and we're still facing forward, \"backward\" is not left or right, but the direction opposite to forward.\n\nWait — this is ambiguous unless we define directions clearly.\n\nLet’s define:\n\n- Forward: positive Y direction\n- Backward: negative Y direction\n- Left: negative X direction\n- Right:"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 16,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. **Who is Khris Levitt?**  \n   Khris Levitt is a former professional basketball player who played in the NBA and other leagues. He was known for his defensive skills and athleticism, but he was not particularly known for scoring high or performing flashy moves like dunks.\n\n2. **What is a reverse dunk?**  \n   A reverse dunk is a basketball move where a player jumps toward the basket and, while in mid-air, changes the direction of the ball to dunk it with the opposite hand. It is a difficult and visually impressive move, typically performed by players with high leaping ability and coordination.\n\n3. **Did Khris Levitt score a reverse dunk?**  \n   While it's possible that Khris Levitt may have performed a reverse dunk during his career, especially in college or overseas leagues, there is no widely known or documented instance of him doing so in the NBA or in major highlight reels. Reverse dunks are relatively rare and usually performed by elite athletes.\n\n4. **Plausibility:**  \n   Given that Khris Levitt was an athletic player, it is *plausible* that he could have performed a reverse dunk at some point in his"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 17,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe have six people: Phoebe, Jamie, Audrey, Michaela, Vina.\n\nEach person makes a statement about someone else:\n\n1. Phoebe says: \"Jamie tells the truth.\"\n2. Jamie says: \"Phoebe lies.\"\n3. Audrey says: \"Jamie tells the truth.\"\n4. Michaela says: \"Audrey lies.\"\n5. Vina says: \"Michaela lies.\"\n\nWe are to determine whether Vina tells the truth.\n\nLet’s suppose Phoebe tells the truth.\n\nThen her statement \"Jamie tells the truth\" is true → Jamie tells the truth.\n\nJamie says \"Phoebe lies\". But we assumed Phoebe tells the truth, so Jamie's statement is false.\n\nBut we just concluded Jamie tells the truth → contradiction.\n\nTherefore, our assumption that Phoebe tells the truth must be false.\n\nSo Phoebe lies.\n\nSince Phoebe lies, her statement \"Jamie tells the truth\" is false → Jamie lies.\n\nSo Jamie lies.\n\nJamie says \"Phoebe lies\". Since Jamie lies, this statement is false → Phoebe does not lie → Phoebe tells the truth.\n\nBut we just concluded Phoebe lies → contradiction.\n\nWait"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 18,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "To determine which sentence has the correct adjective order, we need to recall the standard order of adjectives in English. The typical sequence is:\n\n1. **Opinion** (e.g., beautiful, ugly)  \n2. **Size** (e.g., large, small)  \n3. **Age** (e.g., old, new)  \n4. **Shape** (e.g., spherical, round)  \n5. **Color** (e.g., purple, red)  \n6. **Origin** (e.g., French, American)  \n7. **Material** (e.g., wool, cotton)  \n8. **Purpose** (e.g., cooking, sleeping)  \n\nNow, let's analyze the options:\n\n**Option A: large spherical purple smoking new sweater**  \n- Size: large ✅  \n- Shape: spherical ✅  \n- Color: purple ✅  \n- Purpose: smoking ✅  \n- Age: new ❌ (should come before shape, color, etc.)  \n\nThe word \"new\" (age) comes after \"smoking\" (purpose), which violates the correct order. Age should come before shape, color, and purpose.\n\n**Option B: large new spherical purple smoking sweater**  \n- Size: large"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 19,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. \"Klaus Jan Huntelaar\" is a real person — he is a Dutch professional footballer (soccer player), commonly known as Klaas-Jan Huntelaar. He played as a striker and was known for his goal-scoring ability.\n\n2. The sentence says: \"Klaus Jan Huntelaar scored the easy layup.\"\n\n3. A \"layup\" is a basketball term, referring to a type of shot where a player jumps and gently puts the ball into the basket, typically near the hoop.\n\n4. Huntelaar is a football (soccer) player, not a basketball player. He did not play basketball professionally, and there is no record of him playing in a basketball context.\n\n5. Therefore, it is implausible that he scored a \"layup,\" as it is a term from a different sport.\n\n6. The sentence combines a real person with an action from a different sport, making it implausible.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 20,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the instructions step by step:\n\n1. \"Return to the starting point\" – This means we begin at a reference point, say point A.\n\n2. \"Take 8 steps\" – We move 8 steps from the starting point. Let's assume we're moving in a straight line, so we're now 8 steps away from the start.\n\n3. \"Take 5 steps\" – We move 5 more steps. If we continue in the same direction, we're now 8 + 5 = 13 steps from the start.\n\n4. \"Take 5 steps\" – Another 5 steps in the same direction: 13 + 5 = 18 steps from the start.\n\n5. \"Take 10 steps\" – Another 10 steps: 18 + 10 = 28 steps from the start.\n\n6. \"Take 5 steps\" – One final 5 steps: 28 + 5 = 33 steps from the start.\n\nThe question is: \"Do you return to the starting point?\"\n\nWe are now 33 steps away from the starting point, and there is no instruction to move back. Therefore, we do not return to the starting point.\n\n"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 21,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjective order in English. The standard order for multiple adjectives before a noun is:\n\n1. Opinion\n2. Size\n3. Age\n4. Shape\n5. Color\n6. Origin\n7. Material\n8. Purpose\n\nNow, let's look at the adjectives in the options:\n\n- \"awful\" – opinion\n- \"huge\" – size\n- \"tan\" – color\n- \"wool\" – material\n\nSo, the correct order should be: Opinion → Size → Color → Material\n\nThat would be: \"awful huge tan wool car\"\n\nNow, let's check the options:\n\nA. \"tan wool huge awful car\" – This has color, material, size, opinion – incorrect order.\n\nB. \"awful huge tan wool car\" – This has opinion, size, color, material – correct order.\n\nTherefore, option B has the correct adjective order.\n\nThe answer is B."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 22,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. \"Corbin Burns\" – This is a proper name, likely referring to a person. It is plausible that Corbin Burns is a real or fictional individual, possibly a sports player.\n\n2. \"earned an indirect kick\" – This phrase is used in the context of sports, particularly soccer (football). In soccer, an \"indirect kick\" is a type of free kick awarded to a team when a foul is committed that does not involve physical contact or is a non-penal foul (e.g., dangerous play, obstruction, or handling the ball deliberately with the hand).\n\n3. \"earned\" – This verb is appropriate in this context. A player can \"earn\" a free kick (indirect or direct) if their team is fouled or if the opposing team commits a violation.\n\n4. \"indirect kick\" – This is a standard term in soccer. It is a legitimate outcome of a foul, and a player can be the one who \"earns\" it for their team.\n\nTherefore, the sentence \"Corbin Burns earned an indirect kick\" is plausible if Corbin Burns is a soccer player who was fouled or whose team was awarded an indirect free kick due to an opponent's violation.\n\n"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 23,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe are given:\n\n1. Shalonda tells the truth.\n2. Alexis says: \"Shalonda tells the truth.\"\n3. Christy says: \"Alexis lies.\"\n4. Inga says: \"Christy tells the truth.\"\n5. Krista says: \"Inga tells the truth.\"\n\nWe are to determine: Does Krista tell the truth?\n\nLet’s denote:\n- T = tells the truth\n- L = lies\n\nWe start with statement 1: \"Shalonda tells the truth.\" So we assume Shalonda is a truth-teller.\n\nSo:\n- Shalonda: T\n\nNow, Alexis says: \"Shalonda tells the truth.\"\n\nWe already have that Shalonda does tell the truth, so Alexis is making a true statement.\n\nTherefore, Alexis is telling the truth → Alexis: T\n\nNow, Christy says: \"Alexis lies.\"\n\nBut we just determined Alexis tells the truth, so Christy is making a false statement.\n\nTherefore, Christy is lying → Christy: L\n\nNow, Inga says: \"Christy tells the truth.\"\n\nBut Christy lies, so Inga is making a false statement.\n\nTherefore, Inga is lying →"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 24,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze this step by step:\n\n1) First, identify who Mario Gomez is: He is a professional football (soccer) player from Germany, known for his career as a striker.\n\n2) Understand what a \"reverse layup\" is: This is a basketball term, referring to a specific type of shot where a player jumps and shoots the ball with one hand while moving backward or in reverse motion.\n\n3) Consider the sport: Football and basketball are entirely different sports with different rules, equipment, and techniques.\n\n4) Evaluate the plausibility: A football player scoring a \"reverse layup\" would require him to be playing basketball, not football. While it's theoretically possible that Mario Gomez could play basketball and score a reverse layup, the sentence implies he did this in a football context, which is impossible.\n\n5) Conclusion: The sentence is implausible because it combines a football player with a basketball-specific move.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 25,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's break down the instructions step by step:\n\n1. Start at a point, facing forward.\n2. \"Always face forward\" – this means you do not turn; you keep facing the same direction throughout.\n3. \"Take three steps right\" – since you're facing forward, \"right\" means to your right side. So you move 3 steps to the right (perpendicular to your forward direction).\n4. \"Take five steps right\" – again, still facing forward, so you move 5 more steps to the right. Total rightward movement: 3 + 5 = 8 steps to the right.\n5. \"Take two steps backward\" – still facing forward, so \"backward\" means opposite to your forward direction. So you move 2 steps in the backward direction (which is the same as the direction you were facing).\n\nNow, to determine if you return to the starting point, we need to see if your final position is the same as your initial position.\n\n- In the forward-backward direction: You started at 0, moved 0 steps forward or backward until the last step, then moved 2 steps backward. So your net movement in the forward-backward direction is -2 (i.e., 2 steps behind"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 26,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's break down the instructions step by step:\n\n1. Start at a point (let's call it the origin).\n2. Take 7 steps forward. You are now 7 steps away from the starting point in the initial direction (say, North).\n3. Turn around. This means you now face the opposite direction (South).\n4. Take 7 steps. Since you're facing South, you walk 7 steps back toward the starting point.\n   - After these 7 steps, you are back at the starting point.\n5. Turn left. Since you were facing South, turning left means you now face East.\n6. Take 7 steps. You move 7 steps to the East from the starting point.\n\nNow, you are 7 steps East of the starting point, not at the starting point.\n\nSo, do you return to the starting point? No.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 27,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjectives in the sentence step by step.\n\nWe are given two options with the following adjectives:\n\n- nice\n- archaic\n- rectangular\n- gray\n- snorkeling\n- baby\n\nWe need to determine the correct order of these adjectives before the noun \"baby\".\n\nIn English, there is a conventional order for multiple adjectives. The standard order is:\n\n1. **Determiner** (e.g., the, a, this, my) – not present here.\n2. **Opinion** (e.g., nice, beautiful, terrible)\n3. **Size** (e.g., big, small, rectangular)\n4. **Age** (e.g., old, new, archaic)\n5. **Shape** (e.g., round, square, rectangular)\n6. **Color** (e.g., red, gray, blue)\n7. **Origin** (e.g., French, American)\n8. **Material** (e.g., wooden, plastic)\n9. **Purpose** (e.g., cooking, snorkeling)\n10. **Noun** (e.g., baby, dog, car)\n\nNow, let's classify each adjective:\n\n- **nice** → opinion\n- **archaic**"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 28,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's go step by step to determine whether you return to the starting point.\n\nWe'll track your position on a 2D grid, with coordinates (x, y). Assume you start at (0, 0), and initially face forward (let's say the positive y-direction).\n\nWe'll define directions:\n- Forward: +y\n- Backward: -y\n- Left: -x\n- Right: +x\n\nNow, follow each instruction:\n\n1. **Always face forward**  \n   → You're facing forward (positive y-direction).\n\n2. **Take 9 steps left**  \n   → Left is -x direction.  \n   → Move 9 steps in -x:  \n   → New position: (-9, 0)\n\n3. **Take 7 steps forward**  \n   → Forward is +y  \n   → Move 7 steps in +y:  \n   → New position: (-9, 7)\n\n4. **Take 9 steps right**  \n   → Right is +x  \n   → Move 9 steps in +x:  \n   → New position: (0, 7)\n\n5. **Take 7 steps left**  \n   → Left is -x  \n   → Move 7 steps in"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 29,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. **Subject**: \"Patrice Bergeron\" – This is a real person. He is a well-known professional ice hockey player who played in the NHL, primarily for the Boston Bruins. He is recognized for his defensive skills, work ethic, and two-way play.\n\n2. **Action**: \"took a backhand shot\" – In ice hockey, a backhand shot is a legitimate and common technique where a player shoots the puck using the back of the stick blade. It is a standard move in the game.\n\n3. **Plausibility**: Given that Patrice Bergeron is a hockey player, it is entirely plausible that he would take a backhand shot during a game or practice. While he was not known primarily as a high-scoring offensive player, he was capable of shooting and scoring, including with backhand moves in tight situations.\n\nTherefore, the sentence is plausible.\n\nThe answer is: Yes"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 30,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's break down the instructions step by step:\n\n1. \"Take six steps\" – You move forward 6 steps.\n2. \"Take two steps\" – You move forward 2 steps.\n3. \"Take six steps\" – You move forward 6 steps.\n\nNow, let's calculate the total movement:\n\n6 + 2 + 6 = 14 steps forward.\n\nSince all the steps are in the same direction (forward), you end up 14 steps away from the starting point.\n\nTherefore, you do not return to the starting point.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 31,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's follow the instructions step by step, keeping track of position and direction.\n\nAssume we start at a point, facing North.\n\n1. Take three steps: Move 3 steps forward (North).  \n   Position: 3 steps North of start.  \n   Direction: North.\n\n2. Take five steps: Move 5 steps forward (North).  \n   Position: 8 steps North of start.  \n   Direction: North.\n\n3. Turn around: Turn 180 degrees. Now facing South.  \n   Direction: South.\n\n4. Take three steps: Move 3 steps forward (South).  \n   Position: 8 - 3 = 5 steps North of start.  \n   Direction: South.\n\n5. Take five steps: Move 5 steps forward (South).  \n   Position: 5 - 5 = 0 steps North → back to start.  \n   Direction: South.\n\n6. Turn right: From South, turning right → West.  \n   Direction: West.\n\n7. Turn right: From West, turning right → North.  \n   Direction: North.\n\nFinal position: Back at the starting point.  \nFinal direction: North.\n\nSo, yes, you return to the starting point.\n\nThe answer is yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 32,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. **Identify the subject**: \"Tyler Boyd\" – Tyler Boyd is a real NFL player, a wide receiver who has played for teams like the Cincinnati Bengals and Buffalo Bills. So, the subject is plausible.\n\n2. **Identify the action**: \"hit the screen pass\" – In football terminology, a \"screen pass\" is a type of play where the quarterback throws a short pass to a receiver behind the line of scrimmage, often to a running back or tight end. \"Hit the screen pass\" is a plausible phrase, meaning he caught or was targeted on a screen pass.\n\n3. **Identify the context**: \"in the NFC divisional round\" – The NFC (National Football Conference) divisional round is a playoff game in the NFL. However, Tyler Boyd has never played in an NFC divisional round game. He has played in the AFC (American Football Conference) with the Cincinnati Bengals, and the divisional round is a playoff game between teams from the same conference. Since the Bengals are in the AFC, they would not play in the NFC divisional round.\n\n4. **Conclusion**: While Tyler Boyd could have caught a screen pass in a playoff game, he has never played in an NFC"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 33,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. \"Kyle Tucker\" is a real person — he is a professional baseball player who plays in Major League Baseball (MLB).\n2. \"Stepped on first base\" is a common phrase in baseball, referring to a player reaching first base, typically after hitting the ball or being walked.\n3. In baseball, it is entirely plausible for a player like Kyle Tucker to step on first base during a game.\n\nTherefore, the sentence is plausible.\n\nThe answer is Yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 34,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjectives in each option step by step.\n\nWe are looking for the correct order of adjectives in English. The standard order of adjectives in English is:\n\n1. Opinion\n2. Size\n3. Age\n4. Shape\n5. Color\n6. Origin\n7. Material\n8. Purpose / Type\n\nNow, let's look at the adjectives in the sentence:\n\n- \"silly\" – this is an opinion\n- \"ancient\" – this is age\n- \"brown\" – this is color\n- \"smoking\" – this is a type or purpose (a smoking shoe is a shoe used for smoking, so it's a type)\n\nSo, the correct order should be:\n\nOpinion → Age → Color → Purpose/Type\n\nSo: silly (opinion) → ancient (age) → brown (color) → smoking (purpose/type)\n\nNow, let's check the options:\n\nA. silly ancient brown smoking shoe\n\nThis follows: opinion → age → color → purpose → noun → correct order.\n\nB. brown silly smoking ancient shoe\n\nThis is: color → opinion → purpose → age → noun → incorrect order.\n\nTherefore, option A is correct.\n\nThe answer is A."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 35,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's break down the instructions step by step, tracking the position relative to the starting point.\n\nWe'll assume the starting point is (0, 0), and the initial facing direction is forward (let's define this as the positive y-direction). We'll track movement in two dimensions: x (left/right) and y (forward/backward).\n\n1. **Always face forward**  \n   → We start facing forward (positive y-direction).\n\n2. **Take 10 steps backward**  \n   → Moving backward means moving in the negative y-direction.  \n   → New position: (0, -10)\n\n3. **Take 7 steps backward**  \n   → Again, backward is negative y-direction.  \n   → New position: (0, -10 - 7) = (0, -17)\n\n4. **Take 8 steps right**  \n   → Right is the positive x-direction.  \n   → New position: (0 + 8, -17) = (8, -17)\n\n5. **Take 6 steps right**  \n   → Again, positive x-direction.  \n   → New position: (8 + 6, -17) = (14, -17)\n\n6"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 36,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. The sentence is: \"Clint Capela got into the end zone.\"\n2. Clint Capela is a professional basketball player.\n3. The term \"end zone\" is a term used in American football, not basketball.\n4. In basketball, the equivalent area would be the basket or hoop, not an \"end zone.\"\n5. Therefore, using the term \"end zone\" in reference to Clint Capela is incorrect and implausible.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 37,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's go step by step:\n\n1. Start at a point, facing forward.\n2. \"Always face forward\" means you do not turn or change direction at any point.\n3. \"Take three steps forward\" — you move three steps in the forward direction, away from the starting point.\n4. \"Take three steps backward\" — you move three steps in the backward direction, which brings you back to the starting point.\n\nSince you were always facing forward, moving backward means moving in the opposite direction of your facing, but you end up at the original position.\n\nSo, yes, you return to the starting point.\n\nThe answer is Yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 38,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's break down the instructions step by step:\n\n1. \"Always face forward.\" – This means you don't turn; you keep moving in the same direction.\n\n2. \"Take 7 steps forward.\" – You move 7 steps in the forward direction.\n\n3. \"Take 3 steps backward.\" – You move 3 steps in the opposite direction (backward).\n\n4. \"Take 4 steps backward.\" – You move 4 more steps backward.\n\nNow, calculate the net movement:\n\n- Forward: +7\n- Backward: -3 -4 = -7\n\nNet movement: +7 - 7 = 0\n\nSo, you end up at the same position as where you started.\n\nTherefore, yes, you return to the starting point.\n\nThe answer is yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 39,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. \"Petter check\" – This appears to be a misspelling or mishearing of \"Petter\" as \"Petter check\". However, the name \"Petter\" is not a well-known basketball player. It's possible the intended name is \"Petter\" as a variant of \"Peter\", but there is no prominent basketball player named \"Petter\" who is known for shooting three-pointers.\n\n2. \"Bricked\" – In basketball slang, \"to brick\" means to miss a shot badly, especially a layup or a close-range shot. It is a colloquial term used to describe a very poor shot attempt.\n\n3. \"The three-pointer\" – This refers to a basketball shot made from beyond the three-point line, worth three points.\n\nSo, the sentence means: \"Petter check missed a three-pointer badly.\"\n\nHowever, the name \"Petter check\" is likely a mishearing or misspelling of \"Petter\" and \"check\", which doesn't make sense. It could be a mishearing of \"Petter\" as \"Petter\" and \"check\" as \"check\", but that doesn't form a coherent name.\n\nAlternatively, it"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 40,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe have five people: Jim, Yolanda, Willie, Delbert, and Shalonda.\n\nEach person either always tells the truth or always lies.\n\nWe are given:\n\n1. Jim lies.\n2. Yolanda says: \"Jim lies.\"\n3. Willie says: \"Yolanda tells the truth.\"\n4. Delbert says: \"Willie lies.\"\n5. Shalonda says: \"Delbert tells the truth.\"\n\nWe need to determine: Does Shalonda tell the truth?\n\nLet’s go step by step.\n\nFrom statement 1: \"Jim lies.\" This is a direct assertion. So Jim is a liar.\n\nNow, statement 2: Yolanda says \"Jim lies.\"\n\nWe already know Jim does lie. So Yolanda is making a true statement.\n\nTherefore, if Yolanda says something true, then Yolanda must be a truth-teller.\n\nSo far:\n- Jim: liar\n- Yolanda: truth-teller\n\nNow, statement 3: Willie says \"Yolanda tells the truth.\"\n\nWe just determined Yolanda does tell the truth. So Willie is making a true statement.\n\nTherefore, Willie is a truth-teller.\n\nSo far:\n"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 41,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's follow the instructions step by step, keeping track of position and direction.\n\nAssume we start at a point, facing North.\n\n1. Take 3 steps:  \n   - Move 3 steps North.  \n   - Now at a point 3 steps North of start, still facing North.\n\n2. Turn around:  \n   - Turn 180 degrees.  \n   - Now facing South.\n\n3. Take 5 steps:  \n   - Move 5 steps South.  \n   - Since we were 3 steps North, moving 5 South brings us 2 steps South of the start.  \n   - Now at a point 2 steps South of start, facing South.\n\n4. Turn right:  \n   - Right turn from South is West.  \n   - Now facing West.\n\n5. Turn right:  \n   - Right turn from West is North.  \n   - Now facing North.\n\n6. Take 1 step:  \n   - Move 1 step North.  \n   - From 2 steps South, moving 1 North brings us 1 step South of start.  \n   - Now at a point 1 step South of start, facing North.\n\n7. Take 1 step:  \n   - Move 1 step North."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 42,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjective order in English. The standard order of adjectives in English is:\n\n1. Opinion  \n2. Size  \n3. Age  \n4. Shape  \n5. Color  \n6. Origin  \n7. Material  \n8. Purpose  \n\nNow, let's look at the adjectives in the options:\n\n- \"cloth\" → material  \n- \"Vietnamese\" → origin  \n- \"little\" → size  \n- \"ancient\" → age  \n\nSo, the correct order should be:\n\nSize → Age → Origin → Material\n\nThat is: little → ancient → Vietnamese → cloth\n\nNow, check the options:\n\nA. cloth Vietnamese little ancient sweater → material, origin, size, age → incorrect order  \nB. little ancient Vietnamese cloth sweater → size, age, origin, material → correct order\n\nTherefore, option B follows the correct adjective order.\n\nThe answer is B."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 43,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. \"Neymar did a Maradona on the defender\" – This is a metaphorical expression meaning Neymar performed a skillful or iconic move similar to what Diego Maradona was famous for, such as dribbling past a defender. This is plausible, as Neymar is known for his dribbling skills and has performed such moves in real matches.\n\n2. \"in the Champions League semi-final\" – This specifies the context of the match. Neymar has played in the Champions League semi-finals with FC Barcelona, so the context is plausible.\n\n3. The sentence as a whole is grammatically correct and makes logical sense. It describes a plausible event: Neymar performing a skillful move reminiscent of Maradona during a high-stakes Champions League semi-final match.\n\nTherefore, the sentence is plausible.\n\nThe answer is: Yes"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 44,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjective order in English. When multiple adjectives modify a noun, there is a conventional order: opinion, size, age, shape, color, origin, material, purpose, then the noun.\n\nIn this case, we have three adjectives: \"silly\" (opinion), \"mid-sized\" (size), and \"tan\" (color).\n\nThe correct order should be: opinion, size, color.\n\nSo, \"silly mid-sized tan computer\" follows the correct order.\n\nOption A: \"silly mid-sized tan computer\" — opinion, size, color — correct order.\n\nOption B: \"mid-sized silly tan computer\" — size, opinion, color — incorrect order.\n\nTherefore, the correct sentence is A.\n\nthe answer is A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 45,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's go step by step to determine whether the person returns to the starting point after following all the instructions.\n\nWe'll assume the starting point is at coordinates (0, 0), and the initial facing direction is forward (let's define this as the positive y-direction).\n\nWe'll track position (x, y) and direction.\n\nInitial state:\n- Position: (0, 0)\n- Facing: Forward (positive y)\n\nNow process each instruction:\n\n1. **Always face forward**  \n   → This just means that each movement is in the current forward direction. So we don't change direction.\n\n2. **Take 6 steps backward**  \n   → Backward from forward is negative y-direction.  \n   → Move 6 steps in negative y:  \n   → New position: (0, 0 - 6) = (0, -6)\n\n3. **Take 8 steps left**  \n   → Left from forward is negative x-direction.  \n   → Move 8 steps in negative x:  \n   → New position: (0 - 8, -6) = (-8, -6)\n\n4. **Take 3 steps right**  \n   → Right from forward is positive x-direction.  \n   → Move 3 steps"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 46,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's follow the instructions step by step, keeping track of position and direction.\n\nWe start at a point, facing forward (let's assume direction is North).\n\n1. Take 7 steps forward.  \n   Position: 7 steps North.  \n   Direction: North.\n\n2. Take 6 steps forward.  \n   Position: 7 + 6 = 13 steps North.  \n   Direction: North.\n\n3. Take 5 steps forward.  \n   Position: 13 + 5 = 18 steps North.  \n   Direction: North.\n\n4. Turn around.  \n   Direction: Now facing South.\n\n5. Take 5 steps forward.  \n   Position: 18 - 5 = 13 steps North.  \n   Direction: South.\n\n6. Take 3 steps forward.  \n   Position: 13 - 3 = 10 steps North.  \n   Direction: South.\n\n7. Take 4 steps forward.  \n   Position: 10 - 4 = 6 steps North.  \n   Direction: South.\n\n8. Take 6 steps forward.  \n   Position: 6 - 6 = 0 steps North.  \n   Direction: South.\n\nFinal position: 0 steps"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 47,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjectives in the sentence: \"shoe\".\n\nThe adjectives given are: cloth, pink, prism-like, wonderful, exercise, large.\n\nWe need to determine the correct order of adjectives in English.\n\nStandard English adjective order is:\n\n1. Opinion (e.g., wonderful)\n2. Size (e.g., large)\n3. Shape (e.g., prism-like)\n4. Age (not present)\n5. Color (e.g., pink)\n6. Origin (not present)\n7. Material (e.g., cloth)\n8. Purpose (e.g., exercise)\n\nSo, applying this order:\n\n- Opinion: wonderful\n- Size: large\n- Shape: prism-like\n- Color: pink\n- Material: cloth\n- Purpose: exercise\n\nSo the correct order should be: wonderful, large, prism-like, pink, cloth, exercise, shoe.\n\nNow, let's look at the options:\n\nA. cloth, pink, prism-like, wonderful, exercise, large, shoe\n\nThis starts with material, then color, shape, opinion, purpose, size — incorrect order.\n\nB. wonderful, large, prism-like, pink, cloth, exercise, shoe\n\nThis follows: opinion, size, shape, color, material, purpose"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 48,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. The sentence is: \"Wayne Rooney threw a touchdown in the Super Bowl.\"\n\n2. First, identify who Wayne Rooney is:\n   - Wayne Rooney is a famous English professional footballer (soccer player).\n   - He played primarily as a forward or attacking midfielder.\n   - He is known for his career in English football, notably with Manchester United and the England national team.\n\n3. Next, understand what a \"touchdown\" is:\n   - A touchdown is a term used in American football, not soccer.\n   - It is a scoring play where the ball is carried into the end zone or caught in the end zone.\n\n4. The Super Bowl:\n   - The Super Bowl is the championship game of the National Football League (NFL), which is American football.\n   - It is not a soccer event.\n\n5. Wayne Rooney's career:\n   - Rooney never played American football professionally.\n   - He never played in the NFL or the Super Bowl.\n   - He is a soccer player, not an American football player.\n\n6. Therefore, it is not possible for Wayne Rooney to have thrown a touchdown in the Super Bowl, because:\n   - He is not an American football player.\n   - He has never"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 49,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze this step by step:\n\n1) First, identify who Malik Beasley is: He is a professional basketball player in the NBA.\n\n2) Understand what a \"three-second violation\" is: In basketball, this is a rule that prevents an offensive player from staying in the key (the painted area near the basket) for more than three seconds.\n\n3) Consider the plausibility: As a professional basketball player, Malik Beasley would be subject to NBA rules, including the three-second violation rule.\n\n4) Evaluate the statement: The sentence claims that Malik Beasley committed a three-second violation. This is entirely plausible as it's a standard basketball rule that all players must follow.\n\n5) Conclusion: Since Malik Beasley plays basketball and the three-second violation is a real rule in the game, it's entirely possible that he has committed this violation during a game.\n\nThe answer is yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 50,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's go step by step:\n\n1. Start at a point. Let's call this point 0.\n2. Take 7 steps forward. Now you are at position 7.\n3. Turn around. You are now facing the opposite direction.\n4. Turn around. You are now facing the original direction again.\n5. Turn around. You are now facing the opposite direction again.\n6. Take 1 step. Since you are facing the opposite direction, this step takes you back to position 6.\n7. Take 6 steps. Since you are still facing the opposite direction, you move 6 steps backward from position 6, ending at position 0.\n\nSo, you return to the starting point.\n\nThe answer is Yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 51,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. \"Dani Alves\" is a well-known professional footballer, specifically a left-back, who has played for clubs like Barcelona, PSG, and the Brazilian national team.\n\n2. \"Took the snap\" is a phrase commonly used in American football, where the \"snap\" refers to the action of the center passing the ball to the quarterback at the start of a play.\n\n3. Dani Alves is a football (soccer) player, not an American football player. The terminology and rules of American football are not part of his professional background.\n\n4. Therefore, it is implausible that Dani Alves would \"take the snap\" in the context of American football.\n\n5. There is no known context in which Dani Alves would perform this action in a soccer match either, as \"snap\" is not a term used in soccer.\n\nBased on this reasoning, the sentence is implausible.\n\nThe answer is No."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 52,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's follow the instructions step by step, starting from an arbitrary point and facing a certain direction (let's assume we start facing North).\n\n1. Turn left.  \n   - If we were facing North, turning left means we now face West.\n\n2. Turn left.  \n   - From West, turning left means we now face South.\n\n3. Take 10 steps.  \n   - We move 10 steps South.\n\n4. Take 6 steps.  \n   - We move 6 steps South.  \n   - Total South movement: 10 + 6 = 16 steps South.\n\n5. Turn left.  \n   - From South, turning left means we now face East.\n\n6. Take 3 steps.  \n   - We move 3 steps East.\n\n7. Take 3 steps.  \n   - We move 3 steps East.  \n   - Total East movement: 3 + 3 = 6 steps East.\n\nNow, let's analyze the net displacement from the starting point:\n\n- North-South: 16 steps South (no North movement).\n- East-West: 6 steps East (no West movement).\n\nSo, we are 16 steps South and 6 steps East of the starting point."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 53,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe have six people: Maybelle, Antoine, Audrey, Ryan, Delphina.\n\nEach person either always tells the truth or always lies.\n\nStatements:\n\n1. Maybelle says: \"Antoine tells the truth.\"\n2. Antoine says: \"Maybelle tells the truth.\"\n3. Audrey says: \"Antoine tells the truth.\"\n4. Ryan says: \"Audrey lies.\"\n5. Delphina says: \"Ryan lies.\"\n\nWe are to determine: Does Delphina tell the truth?\n\nLet’s denote:\n- M = Maybelle tells the truth\n- A = Antoine tells the truth\n- Au = Audrey tells the truth\n- R = Ryan tells the truth\n- D = Delphina tells the truth\n\nWe will analyze the logic.\n\nFrom (1): Maybelle says \"Antoine tells the truth\"\n- If M is true, then A is true\n- If M is false, then her statement is false → Antoine does NOT tell the truth → A is false\n\nSo: M ↔ A\n\nBecause:\n- If M is true, then A is true\n- If M is false, then A is false\n\nSo Maybelle and Antoine have the same"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 54,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. The sentence is: \"Robert Woods converted the first down.\"\n\n2. \"First down\" is a term used in American football. It refers to the first of four attempts (downs) a team has to advance the ball at least 10 yards.\n\n3. \"Converted\" in this context means that the team successfully advanced the ball at least 10 yards during the first down attempt.\n\n4. Robert Woods is a real person — he is a professional American football wide receiver who has played in the NFL.\n\n5. As a wide receiver, Robert Woods's role is to catch passes from the quarterback. He can contribute to converting a first down by catching a pass that gains enough yards.\n\n6. Therefore, it is plausible that Robert Woods caught a pass that helped his team convert a first down.\n\n7. The sentence is grammatically correct and contextually plausible within the sport of American football.\n\nThe answer is yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 55,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjectives in the sentence: \"large\", \"archaic\", \"red\", \"Indonesian\", and \"sock\".\n\nThe correct order of adjectives in English follows a specific sequence:\n\n1. Opinion\n2. Size\n3. Age\n4. Shape\n5. Color\n6. Origin\n7. Material\n8. Purpose\n\nNow, let's classify each adjective:\n\n- \"large\" → Size\n- \"archaic\" → Age\n- \"red\" → Color\n- \"Indonesian\" → Origin\n- \"sock\" → Purpose (noun)\n\nSo, the correct order should be:\n\nSize → Age → Color → Origin → Purpose\n\nThat gives us: \"large archaic red Indonesian sock\"\n\nNow, let's check the options:\n\nA) \"large archaic red Indonesian sock\" → Size, Age, Color, Origin, Purpose → Correct order\n\nB) \"large red Indonesian archaic sock\" → Size, Color, Origin, Age → Incorrect, because Age (\"archaic\") comes after Origin, but Age should come before Color.\n\nTherefore, option A is correct.\n\nThe answer is A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 56,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. **Who is Tyreek Hill?**  \n   Tyreek Hill is a professional American football player who plays as a wide receiver in the NFL. He is known for his speed and ability to catch passes.\n\n2. **What is a \"screen pass\"?**  \n   A screen pass is a type of offensive play in American football where the quarterback throws a short pass to a running back or receiver behind a line of blockers (often offensive linemen), designed to \"screen\" the defense.\n\n3. **Can a wide receiver catch a screen pass?**  \n   Yes, wide receivers are often used in screen pass plays, especially in modern NFL offenses. They are frequently the intended targets of screen passes, particularly on quick-developing plays.\n\n4. **Is it plausible that Tyreek Hill caught a screen pass?**  \n   Yes, given that he is a wide receiver and screen passes are a common part of NFL offensive strategy, it is entirely plausible that Tyreek Hill has caught a screen pass during his career.\n\nTherefore, the sentence is plausible.\n\nThe answer is yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 57,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's break down the instructions step by step, tracking the position and direction.\n\nWe start at a point, facing forward (let's assume \"forward\" is the positive y-direction, and \"right\" is the positive x-direction).\n\nInitial position: (0, 0), facing forward (positive y).\n\n1. Take 10 steps forward:  \n   Move 10 in the y-direction.  \n   New position: (0, 10)\n\n2. Take 8 steps right:  \n   \"Right\" means turning right from current facing direction (forward), so now facing right (positive x).  \n   Move 8 in x-direction.  \n   New position: (8, 10)\n\n3. Take 8 steps right:  \n   Turn right again (from facing right, turning right means now facing backward, i.e., negative y).  \n   Move 8 in negative y-direction.  \n   New position: (8, 10 - 8) = (8, 2)\n\n4. Take 9 steps left:  \n   Turn left from current facing direction (backward).  \n   Left from backward is facing left (negative x).  \n   Move 9 in negative x-direction.  \n   New position: ("
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 58,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's break down the instructions step by step:\n\n1. Start at a point (let's call this point 0).\n2. Take four steps forward: you are now at position +4.\n3. Take two steps forward: you are now at position +6.\n4. Turn around: now you are facing the opposite direction.\n5. Take six steps: since you turned around, these six steps are in the negative direction.\n\nSo from position +6, you move 6 steps backward: +6 - 6 = 0.\n\nYou are back at the starting point.\n\nYes, you return to the starting point.\n\nThe answer is yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 59,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's follow the instructions step by step:\n\n1. \"Always face forward.\" – This means you maintain your orientation; you don't turn or rotate.\n\n2. \"Take two steps forward.\" – You move two steps in the forward direction. You are now two steps away from the starting point, still facing forward.\n\n3. \"Take two steps backward.\" – You move two steps in the backward direction. Since you were facing forward, moving backward brings you back to the original position.\n\nAfter these steps, you are back at the starting point.\n\nThe answer is yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 60,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjectives in the sentence: \"mysterious old circular black Pakistani steel exercise softball\".\n\nWe need to determine the correct order of adjectives in English. The standard order for adjectives in English is:\n\n1. Opinion (e.g., mysterious)\n2. Age (e.g., old)\n3. Size (e.g., circular – though circular is more of a shape)\n4. Shape (e.g., circular)\n5. Color (e.g., black)\n6. Origin (e.g., Pakistani)\n7. Material (e.g., steel)\n8. Purpose/Type (e.g., exercise)\n9. Noun (e.g., softball)\n\nWait – there's a conflict here. \"Circular\" is a shape, and \"old\" is age. But \"circular\" is a shape, so it should come after size and before color. However, \"circular\" is not a size; it's a shape. So the correct order should be:\n\nOpinion → Age → Size → Shape → Color → Origin → Material → Purpose → Noun\n\nBut in this case, \"circular\" is a shape, so it should come after size and before color.\n\nBut let's look at the options:\n\nOption A: circular Pakistani"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 61,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. The sentence is: \"Dylan Larkin walked on ball four.\"\n2. \"Dylan Larkin\" is a real person — he is a professional ice hockey player for the Detroit Red Wings in the NHL.\n3. The term \"walked\" in baseball refers to a batter receiving four pitches outside of the strike zone and being awarded first base.\n4. \"Ball four\" is the correct term for the fourth pitch that is not in the strike zone, resulting in a walk.\n5. However, Dylan Larkin is a hockey player, not a baseball player. He does not play in Major League Baseball (MLB), so he would not be in a situation where he could \"walk on ball four.\"\n6. Therefore, the sentence is implausible because it attributes a baseball-specific action to a hockey player who does not participate in baseball.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 62,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. **Understanding the term \"double play\"**: In baseball, a double play is a defensive move where two outs are recorded during a single continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 63,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze this step by step:\n\n1. The sentence is: \"Draymond Green threw a touchdown.\"\n\n2. A touchdown is a term used in American football, where a player scores by carrying or catching the ball in the opposing team's end zone.\n\n3. Draymond Green is a professional basketball player, known for playing in the NBA for the Golden State Warriors.\n\n4. Basketball and American football are different sports. In basketball, players do not throw touchdowns; they score baskets.\n\n5. Draymond Green is not known to play American football professionally, and there is no record of him throwing a touchdown in an NFL game.\n\n6. Therefore, the sentence is implausible.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 64,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe are given:\n\n1. William tells the truth.\n2. Michaela says: \"William tells the truth.\"\n3. Sienna says: \"Michaela lies.\"\n4. Inge says: \"Sienna tells the truth.\"\n5. Audrey says: \"Inge lies.\"\n\nWe are to determine: Does Audrey tell the truth?\n\nLet’s assume each person is either a truth-teller or a liar.\n\nStart with statement 1: \"William tells the truth.\"\n\nSo William is a truth-teller.\n\nNow, Michaela says: \"William tells the truth.\"\n\nSince William does tell the truth, Michaela's statement is true.\n\nSo Michaela is telling the truth.\n\nNow, Sienna says: \"Michaela lies.\"\n\nBut we just determined Michaela tells the truth, so Sienna's statement is false.\n\nTherefore, Sienna is lying.\n\nNow, Inge says: \"Sienna tells the truth.\"\n\nBut Sienna lies, so Inge's statement is false.\n\nTherefore, Inge is lying.\n\nNow, Audrey says: \"Inge lies.\"\n\nWe just determined Inge does lie, so Audrey's statement is true.\n\nTherefore, Audrey is telling the truth.\n\nSo, the answer is yes.\n\nThe"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 65,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. \"Mookie Betts\" is a real person — he is a professional baseball player in Major League Baseball (MLB). This part of the sentence is plausible.\n\n2. \"took a sidestep\" — this is a metaphorical or literal phrase meaning to move aside or avoid something. In a physical sense, it could refer to a movement in a game, such as dodging a pitch or avoiding a collision. In a figurative sense, it could mean avoiding a confrontation or responsibility.\n\n3. \"three\" — this could refer to a number of things: three steps, three times, three people, or even a reference to a play or event (e.g., \"sidestep three\" as a move in a game or choreography).\n\nHowever, the phrase \"took a sidestep three\" is awkward and ambiguous. It's not a standard expression in baseball or in common English usage. It could be interpreted as \"took a sidestep three times\" or \"sidestep number three,\" but without context, it's unclear.\n\nAdditionally, while Mookie Betts is known for his athleticism and defensive plays, there is no widely known or documented event where he \"took a sidest"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 66,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. The sentence is: \"Michael Thomas took the snap.\"\n2. \"Snap\" is a term used in American football, referring to the action of the center passing the ball to the quarterback to start a play.\n3. Michael Thomas is a real person — a professional American football player who has played as a wide receiver.\n4. As a wide receiver, Michael Thomas's role is to catch passes, not to take the snap. The snap is typically taken by the quarterback or sometimes the center, depending on the play.\n5. Therefore, it is implausible that Michael Thomas, as a wide receiver, would take the snap in a typical football game.\n\nFinal answer: The answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 67,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. \"Luka Modric\" is a real person — a professional footballer who has played for clubs like Real Madrid and the Croatian national team.\n\n2. \"Went in studs up\" is a phrase used in football to describe a player making a tackle with their boots raised, often dangerously, which can be considered a foul or reckless play.\n\n3. \"In the FA Cup\" refers to the Football Association Challenge Cup, a prestigious English football competition.\n\n4. Luka Modric has played in the FA Cup — he joined Tottenham Hotspur in 2012 and played in the FA Cup during his time there.\n\n5. The phrase \"went in studs up\" is a plausible description of a tackle Modric might have made during a match.\n\n6. While Modric is known more for his technical skill than aggressive tackles, it is not implausible that he may have made such a tackle at some point in his career.\n\nTherefore, the sentence is plausible — it describes a real player, a real competition, and a real type of action that could have occurred.\n\nThe answer is yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 68,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's go step by step:\n\n1. Start at a point, facing forward.\n2. Take 7 steps backward: You are now 7 steps behind the starting point, still facing forward.\n3. Take 4 steps left: You move 4 steps to your left (which is the west direction if forward is north). You are now 7 steps south and 4 steps west of the start.\n4. Take 7 steps left: From your current direction (left from forward), you turn left again. Since you were facing forward (north), after the first left turn you were facing west. Now you turn left again, so you're facing south. You take 7 steps south. So now you are 7 + 7 = 14 steps south and 4 steps west of the start.\n5. Take 7 steps right: From facing south, a right turn makes you face west. You take 7 steps west. So now you are 14 steps south and 4 + 7 = 11 steps west of the start.\n6. Take 8 steps forward: You are facing west, so forward is west. You take 8 steps west. Now you are 14 steps south and 11 +"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 69,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe have five people: Millie, Michael, Avina, Conception, and Seema.\n\nEach person either always tells the truth or always lies.\n\nTheir statements:\n\n1. Millie says: \"Michael lies.\"\n2. Michael says: \"Millie tells the truth.\"\n3. Avina says: \"Michael lies.\"\n4. Conception says: \"Avina tells the truth.\"\n5. Seema says: \"Conception tells the truth.\"\n\nWe are to determine: Does Seema tell the truth?\n\nLet’s denote:\n- T = tells the truth\n- L = lies\n\nWe will analyze possible truth values.\n\nStart with Millie and Michael.\n\nFrom (1): Millie says \"Michael lies.\"\nFrom (2): Michael says \"Millie tells the truth.\"\n\nLet’s suppose Millie is telling the truth.\nThen her statement \"Michael lies\" is true → Michael lies.\n\nNow, Michael says \"Millie tells the truth.\" But we assumed Millie does tell the truth, so Michael's statement is true. But we just concluded Michael lies → contradiction.\n\nSo our assumption that Millie tells the truth leads to contradiction.\n\nTherefore, Millie must be lying.\n\nSo Millie lies → her statement \""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 70,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. \"Carles Puyol\" was a professional footballer, known for his career as a defender, primarily with FC Barcelona and the Spanish national team.\n\n2. \"Did a Maradona on the defender\" refers to a football move or action inspired by Diego Maradona, a legendary Argentine footballer known for his dribbling skills and ability to beat defenders.\n\n3. The phrase \"did a Maradona\" is a colloquial expression meaning to perform a skillful dribble or maneuver to get past a defender, often involving close control and agility.\n\n4. Carles Puyol was a defender, not an attacking player. While he was known for his defensive prowess and occasional forays forward, he was not known for dribbling past defenders like Maradona.\n\n5. However, in football, any player can perform a skillful move, even if it's not typical for their position. So, while it's unusual, it's not impossible for Puyol to have dribbled past a defender.\n\n6. The plausibility depends on whether such an event could have occurred. Given that Puyol was a skilled player, it's possible he may have performed a skillful move,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 71,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjectives in the sentence: \"repulsive, ancient, white, cloth, car\".\n\nWe need to determine the correct order of adjectives in English. The standard order for multiple adjectives before a noun is:\n\n1. Opinion (e.g., repulsive)\n2. Age (e.g., ancient)\n3. Color (e.g., white)\n4. Material (e.g., cloth)\n5. Noun (e.g., car)\n\nSo, applying this order:\n\n- Opinion: repulsive\n- Age: ancient\n- Color: white\n- Material: cloth\n- Noun: car\n\nThus, the correct order is: \"repulsive ancient white cloth car\".\n\nNow, let's check the options:\n\nA. repulsive ancient white cloth car → matches the correct order.\n\nB. cloth white ancient repulsive car → incorrect order.\n\nTherefore, the correct sentence is A.\n\nThe answer is A."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 72,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. \"Ryan O'Reily\" – This is a proper name. It is plausible that someone named Ryan O'Reily exists. The spelling is unusual but not impossible; it could be a variation of \"Ryan O'Reilly,\" a known name.\n\n2. \"hit the wheel route\" – This is a phrase from American football. In football, a \"wheel route\" is a type of pass play where a receiver starts by running a slant or curl and then turns into a circular or \"wheel\" motion to get open. \"Hit the wheel route\" is a plausible phrase in the context of football, meaning the player ran that specific route.\n\n3. Combining the two: \"Ryan O'Reily hit the wheel route\" – This would mean that a person named Ryan O'Reily ran a wheel route in a football game. This is grammatically correct and contextually plausible in a sports context.\n\nTherefore, the sentence is plausible.\n\nThe answer is yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 73,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's follow the instructions step by step:\n\n1. Start at a point (let's assume facing north for simplicity).\n2. Take one step forward. Now you are one step north of the starting point.\n3. Take two steps forward. Now you are three steps north of the starting point.\n4. Turn right. Since you were facing north, turning right means you now face east.\n5. Take six steps forward. You move six steps east from your current position.\n\nNow, you are three steps north and six steps east of the starting point. You are not back at the starting point.\n\nTherefore, the answer is no.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 74,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe have five people: Jamie, Anna, Sal, Amberly, and Jerry.\n\nEach person either always tells the truth or always lies.\n\nStatements:\n\n1. Jamie lies.\n2. Anna says: Jamie tells the truth.\n3. Sal says: Anna lies.\n4. Amberly says: Sal lies.\n5. Jerry says: Amberly tells the truth.\n\nWe need to determine whether Jerry tells the truth.\n\nLet’s suppose Jamie tells the truth.\n\nThen, from statement 1: \"Jamie lies\" is false → so Jamie does not lie → Jamie tells the truth. That’s consistent.\n\nNow, Anna says: \"Jamie tells the truth.\" If Jamie does tell the truth, then Anna’s statement is true → so Anna tells the truth.\n\nThen Sal says: \"Anna lies.\" But we just said Anna tells the truth → so Sal’s statement is false → Sal lies.\n\nAmberly says: \"Sal lies.\" Since Sal does lie, Amberly’s statement is true → so Amberly tells the truth.\n\nJerry says: \"Amberly tells the truth.\" Amberly does tell the truth → Jerry’s statement is true → Jerry tells the truth.\n\nSo under the assumption that Jamie tells the truth, we get"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 75,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's follow the instructions step by step:\n\n1. Start at a point (let's call it the origin).\n2. Take two steps forward. Now you are 2 steps away from the start.\n3. Take three steps forward. Now you are 2 + 3 = 5 steps away from the start.\n4. Turn around. Now you are facing the opposite direction.\n5. Take five steps. Since you turned around, you are now moving back toward the start.\n\nYou were 5 steps away from the start, and you take 5 steps back. So you return to the starting point.\n\nYes, you return to the starting point.\n\nThe answer is yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 76,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe are given:\n\n1. Fidel lies.\n2. Fletcher says: Fidel tells the truth.\n3. Yolande says: Fletcher lies.\n4. Raymond says: Yolande lies.\n5. Leda says: Raymond lies.\n\nWe are to determine: Does Leda tell the truth?\n\nLet’s denote:\n- If someone tells the truth, their statement is true.\n- If someone lies, their statement is false.\n\nWe start with the first statement: \"Fidel lies.\"\n\nSo, Fidel is a liar.\n\nNow, Fletcher says: \"Fidel tells the truth.\"\n\nBut we know Fidel lies, so Fletcher's statement is false.\n\nTherefore, Fletcher is lying.\n\nSo Fletcher is a liar.\n\nNext, Yolande says: \"Fletcher lies.\"\n\nWe just determined Fletcher does lie, so Yolande's statement is true.\n\nTherefore, Yolande tells the truth.\n\nNext, Raymond says: \"Yolande lies.\"\n\nBut we just determined Yolande tells the truth, so Raymond's statement is false.\n\nTherefore, Raymond is lying.\n\nSo Raymond is a liar.\n\nFinally, Leda says: \"Raymond lies.\"\n\nWe just determined Raymond does lie, so Leda's statement"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 77,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's follow the instructions step by step:\n\n1. Start at a point, let's assume facing forward (north).\n2. Take 8 steps forward. You are now 8 steps north of the starting point.\n3. Take 1 step forward. You are now 9 steps north of the starting point.\n4. Take 8 steps forward. You are now 17 steps north of the starting point.\n5. Turn right. You were facing north, so turning right means you now face east.\n6. You are now facing east, but no further steps are given.\n\nSo, you are 17 steps north and 0 steps east of the starting point. You are not at the starting point.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 78,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe are given:\n\n1. Yolyn tells the truth.\n2. Gwen says: \"Yolyn tells the truth.\"\n3. Michaela says: \"Gwen lies.\"\n4. Jamie says: \"Michaela tells the truth.\"\n5. Amberly says: \"Jamie lies.\"\n\nWe are to determine whether Amberly tells the truth.\n\nLet’s assume Yolyn tells the truth. (This is stated directly.)\n\nSo, Yolyn is a truth-teller.\n\nNow, Gwen says: \"Yolyn tells the truth.\" Since Yolyn does tell the truth, Gwen's statement is true.\n\nSo Gwen is telling the truth.\n\nNow, Michaela says: \"Gwen lies.\" But we just determined Gwen tells the truth, so Michaela's statement is false.\n\nTherefore, Michaela is lying.\n\nNow, Jamie says: \"Michaela tells the truth.\" But Michaela lies, so Jamie's statement is false.\n\nTherefore, Jamie is lying.\n\nNow, Amberly says: \"Jamie lies.\" We just determined Jamie does lie, so Amberly's statement is true.\n\nTherefore, Amberly tells the truth.\n\nSo, the answer is yes.\n\nThe answer is yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 79,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's go step by step:\n\n1. Start at a point, facing forward (let's assume north for simplicity).\n2. Take 1 step → move 1 step north.\n3. Take 10 steps → move 10 steps north. Total: 11 steps north.\n4. Take 4 steps → move 4 steps north. Total: 15 steps north.\n5. Take 1 step → move 1 step north. Total: 16 steps north.\n6. Take 10 steps → move 10 steps north. Total: 26 steps north.\n7. Turn right → now facing east.\n8. Turn around → now facing west.\n\nNow, the final position is 26 steps north of the start, and facing west.\n\nThe question is: Do you return to the starting point?\n\nNo, you are 26 steps north of the starting point, and you are not at the starting point.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 80,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe are given:\n\n1. Shalonda lies.\n2. Krista says: \"Shalonda tells the truth.\"\n3. Yolanda says: \"Krista tells the truth.\"\n4. Kay says: \"Yolanda tells the truth.\"\n5. Michaela says: \"Kay lies.\"\n\nWe are to determine: Does Michaela tell the truth?\n\nLet’s go step by step.\n\nFrom (1): Shalonda lies. So Shalonda is a liar.\n\nNow, Krista says: \"Shalonda tells the truth.\"\n\nBut we know Shalonda lies, so the statement \"Shalonda tells the truth\" is false.\n\nTherefore, Krista is making a false statement → Krista is a liar.\n\nSo far:\n- Shalonda: liar\n- Krista: liar\n\nNow, Yolanda says: \"Krista tells the truth.\"\n\nBut we just determined Krista is a liar, so \"Krista tells the truth\" is false.\n\nTherefore, Yolanda is making a false statement → Yolanda is a liar.\n\nSo:\n- Yolanda: liar\n\nNow, Kay says: \"Yolanda tells the truth.\"\n\nBut Yolanda is a"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 81,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe are given:\n\n1. Ryan lies.\n2. Christian says: \"Ryan lies.\"\n3. Theresa says: \"Christian tells the truth.\"\n4. Amberly says: \"Theresa tells the truth.\"\n5. Jamie says: \"Amberly tells the truth.\"\n\nWe need to determine whether Jamie tells the truth.\n\nLet’s denote:\n- T = tells the truth\n- L = lies\n\nWe start with statement 1: \"Ryan lies.\" This is a factual claim. But we don't yet know if it's true or false. However, this is a statement made by someone? Wait — actually, the first statement is \"Ryan lies.\" But who says that?\n\nWait — re-reading: \"Ryan lies.\" — this is not attributed to anyone. Then \"Christian says Ryan lies.\" So the first statement is not a claim by someone, but rather a given fact? Or is it a statement?\n\nWait — the way it's written:\n\n\"Ryan lies. Christian says Ryan lies. Theresa says Christian tells the truth. Amberly says Theresa tells the truth. Jamie says Amberly tells the truth.\"\n\nSo the first sentence \"Ryan lies\" is a statement — but it's not attributed to anyone. But"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 82,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjectives in the sentence: \"lovely tiny triangular black knife\".\n\nThe adjectives are:\n- lovely (opinion)\n- tiny (size)\n- triangular (shape)\n- black (color)\n\nThe standard order of adjectives in English is:\n1. Opinion\n2. Size\n3. Shape\n4. Color\n5. ... (and then other descriptors like origin, material, purpose, etc.)\n\nSo, the correct order should be:\nOpinion → Size → Shape → Color\n\nTherefore:\n- \"lovely\" (opinion)\n- \"tiny\" (size)\n- \"triangular\" (shape)\n- \"black\" (color)\n\nThis matches option A: \"lovely tiny triangular black knife\".\n\nOption B: \"black triangular tiny lovely knife\" is incorrect because it starts with color, then shape, then size, then opinion — which violates the standard adjective order.\n\nThe answer is A."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 83,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "To determine the correct adjective order, we need to follow the standard English adjective order, which is:\n\n1. **Quantity or number**  \n2. **Quality or opinion**  \n3. **Size**  \n4. **Age**  \n5. **Shape**  \n6. **Color**  \n7. **Origin**  \n8. **Material**  \n9. **Purpose or qualifier**\n\nLet’s analyze the adjectives in the sentence:\n\n- **medium-sized** → size  \n- **ancient** → age  \n- **rectangular** → shape  \n- **Congolese** → origin  \n- **whittling** → purpose (a whittling ship is one used for whittling, so it's a functional qualifier)\n\nNow, let's apply the correct order:\n\n1. **Size**: medium-sized  \n2. **Age**: ancient  \n3. **Shape**: rectangular  \n4. **Origin**: Congolese  \n5. **Purpose**: whittling\n\nSo the correct order should be:  \n**medium-sized ancient rectangular Congolese whittling ship**\n\nNow compare with the options:\n\n- **A**: medium-sized ancient rectangular Congolese whittling ship → matches the correct order  \n- **B**: medium-sized whitt"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 84,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjective order in the two options.\n\nIn English, when multiple adjectives are used before a noun, there is a conventional order: opinion, size, age, shape, color, origin, material, purpose, and then the noun.\n\nIn this case, we have two adjectives: \"driving\" and \"blue\".\n\n\"Blue\" is a color, which is a standard adjective.\n\n\"Driving\" is a present participle used as an adjective. It describes the purpose or function of the car — a car that is used for driving.\n\nIn English, the order of adjectives typically places descriptive adjectives (like color) before adjectives that describe function or purpose.\n\nSo, \"blue driving car\" would be the correct order: color first, then function.\n\nBut wait — \"driving\" is not a typical descriptive adjective. It's a functional one. So, \"blue\" (color) should come before \"driving\" (purpose).\n\nTherefore, \"blue driving car\" is the correct order.\n\nNow, let's look at the options:\n\nA. driving blue car — this puts the functional adjective before the color, which is incorrect.\n\nB. blue driving car — this puts the color before the functional adjective, which is correct.\n\nSo"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 85,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's break down the instructions step by step:\n\n1. Start at a point (let's call it the \"starting point\").\n2. Take 5 steps forward.\n3. Take 4 steps backward.\n4. Take 3 steps forward.\n\nNow, let's calculate the net movement:\n\n- After step 2: you are 5 steps ahead of the starting point.\n- After step 3: you move back 4 steps → 5 - 4 = 1 step ahead.\n- After step 4: you move forward 3 steps → 1 + 3 = 4 steps ahead.\n\nSo, you end up 4 steps ahead of the starting point.\n\nTherefore, you do not return to the starting point.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 86,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjective order in English. The standard order for adjectives is:\n\n1. Opinion\n2. Size\n3. Age\n4. Shape\n5. Color\n6. Origin\n7. Material\n8. Purpose\n\nIn the phrase \"mysterious lead orange walking surfboard\", we have:\n\n- \"mysterious\" – opinion\n- \"lead\" – material\n- \"orange\" – color\n- \"walking\" – purpose\n\nSo the correct order should be: Opinion → Material → Color → Purpose.\n\nTherefore, the correct order is: \"mysterious lead orange walking surfboard\".\n\nOption A is: \"mysterious lead orange walking surfboard\" → correct order.\n\nOption B is: \"mysterious orange lead walking surfboard\" → color before material, which is incorrect.\n\nSo, the correct sentence is A.\n\nThe answer is A."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 87,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjectives in the sentence: \"ridiculous\", \"pyramidal\", \"big\", and \"leather\".\n\nWe need to determine the correct order of adjectives in English. The standard order of adjectives in English is:\n\n1. Opinion (e.g., ridiculous)\n2. Size (e.g., big)\n3. Shape (e.g., pyramidal)\n4. Material (e.g., leather)\n\nSo, applying this order:\n\n- Opinion: ridiculous\n- Size: big\n- Shape: pyramidal\n- Material: leather\n\nTherefore, the correct order is: \"ridiculous big pyramidal leather sock\".\n\nNow, let's check the options:\n\nA. ridiculous pyramidal big leather sock → Opinion, shape, size, material → Incorrect order (shape before size)\n\nB. ridiculous big pyramidal leather sock → Opinion, size, shape, material → Correct order\n\nSo, option B is correct.\n\nThe answer is B."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 88,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. \"Jamal Murray\" is a real person — he is a professional basketball player in the NBA, currently playing for the Denver Nuggets.\n\n2. The phrase \"walked on ball four\" refers to a baseball term. In baseball, a \"walk\" (or base on balls) occurs when a pitcher throws four pitches outside of the strike zone, and the batter is awarded first base. The term \"ball four\" is the fourth ball in the count.\n\n3. Jamal Murray is a basketball player, not a baseball player. He does not play in Major League Baseball (MLB), and therefore would not be in a situation where he could be \"walked on ball four.\"\n\n4. The sentence combines a basketball player's name with a baseball-specific event, which is not plausible in a real-world context.\n\nTherefore, the sentence is not plausible.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 89,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjectives in the sentence: \"plastic, grey, old-fashioned, small sock\".\n\nAdjectives in English typically follow a specific order. The standard order is:\n\n1. Opinion\n2. Size\n3. Age\n4. Shape\n5. Color\n6. Origin\n7. Material\n8. Purpose\n\nNow, let's classify each adjective:\n\n- \"small\" → Size\n- \"old-fashioned\" → Age\n- \"grey\" → Color\n- \"plastic\" → Material\n\nSo, the correct order should be:\n\nSize → Age → Color → Material\n\nThat gives us: \"small old-fashioned grey plastic sock\"\n\nNow, let's check the options:\n\nA. plastic grey old-fashioned small sock → Material → Color → Age → Size → Incorrect order\n\nB. small old-fashioned grey plastic sock → Size → Age → Color → Material → Correct order\n\nTherefore, option B has the correct adjective order.\n\nThe answer is B."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 90,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe have five people: Candy, Michaela, Vernell, Antoine, and Sal.\n\nEach person either tells the truth or lies.\n\nLet’s denote:\n- T = tells the truth\n- L = lies\n\nWe are given:\n\n1. Candy says: \"Michaela lies.\"\n2. Michaela says: \"Candy lies.\"\n3. Vernell says: \"Michaela lies.\"\n4. Antoine says: \"Vernell tells the truth.\"\n5. Sal says: \"Antoine lies.\"\n\nWe need to determine whether Sal tells the truth.\n\nLet’s suppose **Candy tells the truth**.\n\nThen her statement \"Michaela lies\" is true → Michaela lies.\n\nSo Michaela lies → her statement \"Candy lies\" is false → so Candy tells the truth. This matches our assumption.\n\nSo far:\n- Candy: T\n- Michaela: L\n\nNow, Vernell says: \"Michaela lies.\"\n\nWe already have Michaela lies → so Vernell's statement is true → Vernell tells the truth.\n\nSo:\n- Vernell: T\n\nAntoine says: \"Vernell tells the truth.\"\n\nWe have Vernell tells the truth → so Antoine's statement is true → Antoine tells"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 91,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe are given:\n\n1. Osvaldo lies.\n2. Ryan says: Osvaldo lies.\n3. Andre says: Ryan tells the truth.\n4. Rashida says: Andre tells the truth.\n5. Milly says: Rashida tells the truth.\n\nWe are to determine: Does Milly tell the truth?\n\nLet’s denote:\n- T = tells the truth\n- L = lies\n\nWe are told: \"Osvaldo lies.\" So Osvaldo is a liar.\n\nNow, Ryan says: \"Osvaldo lies.\"\n\nBut we are told Osvaldo does lie, so Ryan's statement is TRUE.\n\nSo Ryan is telling the truth → Ryan is a truth-teller.\n\nAndre says: \"Ryan tells the truth.\"\n\nWe just determined Ryan does tell the truth, so Andre's statement is TRUE.\n\nSo Andre is telling the truth → Andre is a truth-teller.\n\nRashida says: \"Andre tells the truth.\"\n\nAndre does tell the truth, so Rashida's statement is TRUE.\n\nSo Rashida is telling the truth → Rashida is a truth-teller.\n\nMilly says: \"Rashida tells the truth.\"\n\nRashida does tell the truth, so Milly's statement"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 92,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the sentence step by step:\n\n1. \"Chris Godwin\" is a professional American football player, specifically a wide receiver in the NFL. He plays for the Tampa Bay Buccaneers.\n\n2. The \"Stanley Cup\" is the championship trophy awarded annually to the National Hockey League (NHL) playoff champion.\n\n3. The \"blue line\" is a term used in ice hockey, referring to the lines painted on the ice that mark the boundaries of the offensive and defensive zones.\n\n4. Since Chris Godwin is a football player and the Stanley Cup is related to ice hockey, it is not possible for him to participate in the Stanley Cup.\n\n5. Therefore, the sentence \"Chris Godwin crossed the blue line in the Stanley Cup\" is not plausible.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 93,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze this step by step:\n\n1) The sentence is \"Adam Thielen got on base.\"\n\n2) Adam Thielen is a professional American football player, specifically a wide receiver who plays in the NFL.\n\n3) The term \"got on base\" is a baseball-specific phrase that means a batter successfully reaches a base without being put out.\n\n4) Since Adam Thielen is a football player and not a baseball player, he does not participate in baseball games where one can \"get on base.\"\n\n5) Therefore, the sentence is not plausible in a literal sense.\n\nThe answer is No."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 94,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's follow the instructions step by step, keeping track of the direction and position.\n\n1. **Always face forward.**  \n   → Start facing forward (let's assume this is the positive x-direction).\n\n2. **Take 4 steps forward.**  \n   → Move 4 steps in the forward direction.  \n   → Position: 4 steps forward from start.  \n   → Still facing forward.\n\n3. **Take 9 steps right.**  \n   → \"Right\" means turn 90 degrees to the right (clockwise).  \n   → Now facing right (positive y-direction).  \n   → Move 9 steps in that direction.  \n   → Position: 4 forward, 9 right.\n\n4. **Take 6 steps right.**  \n   → Turn 90 degrees right again.  \n   → Now facing backward (negative x-direction).  \n   → Move 6 steps backward.  \n   → Position: (4 - 6) = -2 in forward direction, 9 right.\n\n5. **Take 8 steps right.**  \n   → Turn 90 degrees right again.  \n   → Now facing left (negative y-direction).  \n   → Move 8 steps left.  \n   → Position:"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 95,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's break down the instructions step by step:\n\n1. Start at the starting point.\n2. Always face forward.\n3. Take 7 steps backward.\n   - Position: 7 steps behind the start.\n4. Take 6 steps forward.\n   - Position: 7 - 6 = 1 step behind the start.\n5. Take 6 steps backward.\n   - Position: 1 + 6 = 7 steps behind the start.\n6. Take 7 steps forward.\n   - Position: 7 - 7 = 0 steps from the start.\n\nSo, after all the steps, you are back at the starting point.\n\nThe answer is yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 96,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the instructions step by step:\n\n1. \"Turn left\" – This changes your direction. Let's assume you start facing a certain direction, say North. Turning left would make you face West.\n\n2. \"Take nine steps\" – You move 9 steps in the new direction (West).\n\n3. \"Take nine steps\" – You continue moving 9 steps in the same direction (West).\n\nSo, you turned left and then took 9 steps, then another 9 steps in the same direction. That means you moved a total of 18 steps in the West direction.\n\nYou never turned again, so you are now 18 steps west of your starting point.\n\nTherefore, you do not return to the starting point.\n\nThe answer is no."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 97,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's break down the instructions step by step, assuming we start at a point we'll call \"Start\" and we're moving in a straight line, with directions being forward or backward depending on the context.\n\n1. \"Return to the starting point\" – This means we are already at the starting point, so we are at Start.\n\n2. \"Take five steps\" – Let's assume we take 5 steps forward. Now we are 5 steps away from Start in the forward direction.\n\n3. \"Take four steps\" – We take 4 more steps forward. Now we are 5 + 4 = 9 steps from Start.\n\n4. \"Turn around\" – Now we face the opposite direction (back toward Start).\n\n5. \"Take ten steps\" – We take 10 steps backward. Since we were 9 steps forward, going back 10 steps means we go past Start by 1 step. So we are now 1 step behind Start.\n\n6. \"Take eight steps\" – We continue in the same direction (backward), so we take 8 more steps backward. From 1 step behind Start, going 8 more steps backward puts us 1 + 8 = 9 steps behind Start.\n\n7. \"Turn"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 98,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the statements step by step.\n\nWe have six people: Jamie, Millicent, Milly, Vina, Leda.\n\nEach person makes a statement about someone else.\n\nLet’s list the statements:\n\n1. Jamie tells the truth.\n2. Millicent says: Jamie lies.\n3. Milly says: Millicent tells the truth.\n4. Vina says: Milly lies.\n5. Leda says: Vina tells the truth.\n\nWe are to determine: Does Leda tell the truth?\n\nWe will use logic and assume a truth value for one person and see if it leads to a consistent assignment.\n\nLet’s suppose **Jamie tells the truth**.\n\nThen, from statement 1: Jamie tells the truth → True.\n\nNow, Millicent says: \"Jamie lies.\"\n\nBut Jamie tells the truth, so Millicent is saying something false → Millicent lies.\n\nSo Millicent lies.\n\nNow, Milly says: \"Millicent tells the truth.\"\n\nBut Millicent lies → so Milly is saying something false → Milly lies.\n\nSo Milly lies.\n\nNow, Vina says: \"Milly lies.\"\n\nWe just concluded Milly lies → so Vina is saying something true → Vina"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 99,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "voicebench_bbh",
+        "test"
+      ],
+      "filtered_resps": [
+        "Let's analyze the adjective order in English. The standard order for adjectives in English is:\n\n1. Opinion\n2. Size\n3. Age\n4. Shape\n5. Color\n6. Origin\n7. Material\n8. Purpose\n\nNow, let's look at the adjectives in the options:\n\n- \"repulsive\" – opinion\n- \"little\" – size\n- \"pink\" – color\n- \"Indonesian\" – origin\n- \"drinking\" – purpose\n\nSo, the correct order should be:\n\nOpinion → Size → Color → Origin → Purpose\n\nThat would be: \"repulsive little pink Indonesian drinking dog\"\n\nNow, let's check the options:\n\nA) \"little pink Indonesian drinking repulsive dog\" – incorrect order. \"repulsive\" is an opinion and should come first.\n\nB) \"repulsive little pink Indonesian drinking dog\" – this follows the correct order: opinion (\"repulsive\"), size (\"little\"), color (\"pink\"), origin (\"Indonesian\"), purpose (\"drinking\").\n\nTherefore, option B is correct.\n\nThe answer is B."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 100,
+      "input": "Please listen to the audio and provide your response."
+    }
+  ],
+  "total_samples": 1000
+}

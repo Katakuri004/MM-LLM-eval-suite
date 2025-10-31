@@ -288,15 +288,51 @@ export function Dashboard() {
                 </Link>
               </Button>
               <Button asChild variant="outline" className="w-full justify-start">
-                <Link href="/models">
-                  <Brain className="h-4 w-4 mr-2" />
-                  Settings
+                <Link href="/external-results">
+                  <Eye className="h-4 w-4 mr-2" />
+                  External Results
                 </Link>
               </Button>
             </div>
           </CardContent>
         </Card>
       </div>
+
+      {/* External Results Section */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="flex items-center justify-between">
+            <span>External Results</span>
+            <Button asChild variant="outline" size="sm">
+              <Link href="/external-results">
+                View All
+                <ArrowRight className="h-4 w-4 ml-2" />
+              </Link>
+            </Button>
+          </CardTitle>
+          <CardDescription>
+            Explore benchmark results from externally added models
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <Link href="/external-results">
+            <CardHoverEffect className="cursor-pointer">
+              <div className="flex items-center justify-between p-4 border rounded-lg hover:bg-accent transition-colors">
+                <div className="flex items-center space-x-3">
+                  <Eye className="h-5 w-5 text-muted-foreground" />
+                  <div>
+                    <div className="font-medium">Browse External Results</div>
+                    <div className="text-sm text-muted-foreground">
+                      View benchmark results from external model folders
+                    </div>
+                  </div>
+                </div>
+                <ArrowRight className="h-4 w-4 text-muted-foreground" />
+              </div>
+            </CardHoverEffect>
+          </Link>
+        </CardContent>
+      </Card>
     </div>
   );
 }

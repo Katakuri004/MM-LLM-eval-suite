@@ -1,0 +1,2208 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "benchmark_id": "lvbench",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "D",
+      "arguments": [
+        "What year appears in the opening caption of the video?\n(A) 1636\n(B) 1366\n(C) 1363\n(D) 1633\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "The opening caption of the video displays the year 1636. Therefore"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What year appears in the opening caption of the video?\n(A) 1636\n(B) 1366\n(C) 1363\n(D) 1633\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 1,
+      "target": "B",
+      "arguments": [
+        "How is the weather like in the opening?\n(A) Cloudy\n(B) Snowy\n(C) Sunny\n(D) Rainy\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "How is the weather like in the opening?\n(A) Cloudy\n(B) Snowy\n(C) Sunny\n(D) Rainy\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 2,
+      "target": "A",
+      "arguments": [
+        "After the man with the gun threatens the cook, what does the protagonist do?\n(A) The protagonist pushes the table aside and stands up, confronting the man. After a series of quarrels, she kills the man and leaves the restaurant. The chef follows her\n(B) The protagonist pushes the table aside and stands up, confronting the man. After a series of quarrels, she injuries  the man and leaves the restaurant. The chef follows her\n(C) The protagonist pushes the table aside and stands up, taking out her gun and pointing at the man. After a series of quarrels, she kills the man and leaves the restaurant. The chef follows her\n(D) The protagonist pushes the table aside and stands up, taking out her gun and pointing at the man. After a series of quarrels, she kills the man and leaves the restaurant\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, the correct answer is:\n\n(C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "After the man with the gun threatens the cook, what does the protagonist do?\n(A) The protagonist pushes the table aside and stands up, confronting the man. After a series of quarrels, she kills the man and leaves the restaurant. The chef follows her\n(B) The protagonist pushes the table aside and stands up, confronting the man. After a series of quarrels, she injuries  the man and leaves the restaurant. The chef follows her\n(C) The protagonist pushes the table aside and stands up, taking out her gun and pointing at the man. After a series of quarrels, she kills the man and leaves the restaurant. The chef follows her\n(D) The protagonist pushes the table aside and stands up, taking out her gun and pointing at the man. After a series of quarrels, she kills the man and leaves the restaurant\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 3,
+      "target": "B",
+      "arguments": [
+        "What does the protagonist do when the man with the gun keeps approaching her?\n(A) The protagonist cuts off the hand of the man with the gun with her sword\n(B) The protagonist cuts off two fingers of the man with the gun with her sword\n(C) The protagonist impales the man with the gun with her word\n(D) The protagonist breaks the windows with her sword and flees\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, the protagonist is in a confrontation"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "What does the protagonist do when the man with the gun keeps approaching her?\n(A) The protagonist cuts off the hand of the man with the gun with her sword\n(B) The protagonist cuts off two fingers of the man with the gun with her sword\n(C) The protagonist impales the man with the gun with her word\n(D) The protagonist breaks the windows with her sword and flees\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 4,
+      "target": "D",
+      "arguments": [
+        "How many sticks does the protagonist put in the incense burner?\n(A) 3\n(B) 2\n(C) 5\n(D) 1\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided frames, we can analyze the scene where the protagonist interacts with"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "How many sticks does the protagonist put in the incense burner?\n(A) 3\n(B) 2\n(C) 5\n(D) 1\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 5,
+      "target": "A",
+      "arguments": [
+        "Why are the mother and child, who line in front of the protagonist, unable to enter the city?\n(A) They do not bribe the guard\n(B) They are foreigners\n(C) They bring illegal weapons\n(D) They do not have a pass\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the visual evidence in the frames, we can analyze the situation of the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "Why are the mother and child, who line in front of the protagonist, unable to enter the city?\n(A) They do not bribe the guard\n(B) They are foreigners\n(C) They bring illegal weapons\n(D) They do not have a pass\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 6,
+      "target": "C",
+      "arguments": [
+        "How many people are carrying the sedan chair for the woman?\n(A) 4\n(B) 8\n(C) 6\n(D) 2\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the visual information in the video, we can determine the number of people"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "How many people are carrying the sedan chair for the woman?\n(A) 4\n(B) 8\n(C) 6\n(D) 2\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 7,
+      "target": "D",
+      "arguments": [
+        "What happens when the woman wearing a red kimono kneels?\n(A) A child rides on her back\n(B) A man kneels beside her\n(C) A man takes out his sword\n(D) A child hits her head with noodles\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, we can analyze the scene in"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What happens when the woman wearing a red kimono kneels?\n(A) A child rides on her back\n(B) A man kneels beside her\n(C) A man takes out his sword\n(D) A child hits her head with noodles\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 8,
+      "target": "D",
+      "arguments": [
+        "How many times does the protagonist knock on the green door?\n(A) 1\n(B) 5\n(C) 2\n(D) 4\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided video frames, we can analyze the protagonist's actions at the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "How many times does the protagonist knock on the green door?\n(A) 1\n(B) 5\n(C) 2\n(D) 4\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 9,
+      "target": "C",
+      "arguments": [
+        "What does the protagonist see through the window after she is taken to the utility room?\n(A) A group of monks sitting cross-legged in the snow\n(B) A group of citizens chatting together\n(C) A group of warriors practicing swords\n(D) A group of samurais eating\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, after the protagonist is taken to"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What does the protagonist see through the window after she is taken to the utility room?\n(A) A group of monks sitting cross-legged in the snow\n(B) A group of citizens chatting together\n(C) A group of warriors practicing swords\n(D) A group of samurais eating\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 10,
+      "target": "A",
+      "arguments": [
+        "Why does the protagonist tie iron to her limbs?\n(A) Because she wants to strength her body\n(B) Because irons are decorations\n(C) Because she has superpower and iron surpress it\n(D) Because tying iron is a culture tradition\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "The protagonist ties iron to her limbs as a form of physical training to strengthen her"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "Why does the protagonist tie iron to her limbs?\n(A) Because she wants to strength her body\n(B) Because irons are decorations\n(C) Because she has superpower and iron surpress it\n(D) Because tying iron is a culture tradition\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 11,
+      "target": "A",
+      "arguments": [
+        "What does the protagonist wipe her face with when she is knocked to the ground during a solo fight?\n(A) With snow on the ground\n(B) With her sleeves\n(C) With her hands\n(D) With a handkerchief in her pocket\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What does the protagonist wipe her face with when she is knocked to the ground during a solo fight?\n(A) With snow on the ground\n(B) With her sleeves\n(C) With her hands\n(D) With a handkerchief in her pocket\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 12,
+      "target": "D",
+      "arguments": [
+        "Why does the protagonist aim her sword at the cook?\n(A) Because he is a spy\n(B) Because he wants to steal the sword\n(C) Because he wants to challenge the protagonist\n(D) Because he finds out that the protagonist is a woman\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "Why does the protagonist aim her sword at the cook?\n(A) Because he is a spy\n(B) Because he wants to steal the sword\n(C) Because he wants to challenge the protagonist\n(D) Because he finds out that the protagonist is a woman\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 13,
+      "target": "D",
+      "arguments": [
+        "What is the protagonist primary objection at the spring?\n(A) Sleep\n(B) Drink some water\n(C) Wash clothes\n(D) Take a bath\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the visual evidence from the frames, the protagonist's primary activity at the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What is the protagonist primary objection at the spring?\n(A) Sleep\n(B) Drink some water\n(C) Wash clothes\n(D) Take a bath\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 14,
+      "target": "B",
+      "arguments": [
+        "What else does the protagonist do in the shower besides taking a shower?\n(A) Eat some food\n(B) Stitches her wound\n(C) Drink spring water\n(D) Relax\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided video frames, the protagonist is shown in a shower-like environment"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "What else does the protagonist do in the shower besides taking a shower?\n(A) Eat some food\n(B) Stitches her wound\n(C) Drink spring water\n(D) Relax\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 15,
+      "target": "A",
+      "arguments": [
+        "When the protagonist moves the table at the restaurant, what happens to the things on the table?\n(A) One of the chopsticks on the bowl falls to the table\n(B) One of the chopsticks on the bowl falls to the floor\n(C) The seasoning bottle falls\n(D) The bowl falls to the floor\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the scene in the video, when the protagonist moves the table, the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "When the protagonist moves the table at the restaurant, what happens to the things on the table?\n(A) One of the chopsticks on the bowl falls to the table\n(B) One of the chopsticks on the bowl falls to the floor\n(C) The seasoning bottle falls\n(D) The bowl falls to the floor\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 16,
+      "target": "D",
+      "arguments": [
+        "What part of the cook is different from other people?\n(A) Leg\n(B) Foot\n(C) Eye\n(D) Hand\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What part of the cook is different from other people?\n(A) Leg\n(B) Foot\n(C) Eye\n(D) Hand\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 17,
+      "target": "D",
+      "arguments": [
+        "What does the protagonist cut off from the man who she fights in the snow in the end?\n(A) Leg\n(B) Cloth\n(C) Eye\n(D) Hair\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the final fight scene in the snow, the protagonist is shown in a"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What does the protagonist cut off from the man who she fights in the snow in the end?\n(A) Leg\n(B) Cloth\n(C) Eye\n(D) Hair\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 18,
+      "target": "D",
+      "arguments": [
+        "What color is the scene at the begining?\n(A) White\n(B) Blue\n(C) Brown\n(D) Grey\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "The initial scene of the video is a black screen with white text that reads \""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What color is the scene at the begining?\n(A) White\n(B) Blue\n(C) Brown\n(D) Grey\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 19,
+      "target": "D",
+      "arguments": [
+        "What happens from 01:58-02:46?\n(A) A woman runs, stumbles against a man, and knocks over all his stuff\n(B) A woman runs, stumbles against a man, and he cries\n(C) A man runs, stumbles against a woman, and she cries\n(D) A man runs, stumbles against a woman, and knocks over all her stuff\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video:\n\n1.  At 0"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What happens from 01:58-02:46?\n(A) A woman runs, stumbles against a man, and knocks over all his stuff\n(B) A woman runs, stumbles against a man, and he cries\n(C) A man runs, stumbles against a woman, and she cries\n(D) A man runs, stumbles against a woman, and knocks over all her stuff\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 20,
+      "target": "C",
+      "arguments": [
+        "What does the woman in red do after she collides with the man?\n(A) She picks up things on the ground on her own and throws them away\n(B) She picks up things on the ground with the man\n(C) She picks up things on the ground on her own\n(D) She picks up things on the ground with a passerby\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, we can analyze the interaction between"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What does the woman in red do after she collides with the man?\n(A) She picks up things on the ground on her own and throws them away\n(B) She picks up things on the ground with the man\n(C) She picks up things on the ground on her own\n(D) She picks up things on the ground with a passerby\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 21,
+      "target": "A",
+      "arguments": [
+        "What does the man do after the second collision?\n(A) He looks for his book\n(B) He looks for his phone\n(C) He looks for the woman\n(D) He looks for the post\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, we can analyze the man's"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What does the man do after the second collision?\n(A) He looks for his book\n(B) He looks for his phone\n(C) He looks for the woman\n(D) He looks for the post\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 22,
+      "target": "D",
+      "arguments": [
+        "Why does the man follow the woman in red after they meet for the third time?\n(A) He falls in love with the woman\n(B) He is a spy\n(C) The woman has his phone\n(D) The woman has his book\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the narrative established in the provided images, the man follows the woman in"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "Why does the man follow the woman in red after they meet for the third time?\n(A) He falls in love with the woman\n(B) He is a spy\n(C) The woman has his phone\n(D) The woman has his book\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 23,
+      "target": "C",
+      "arguments": [
+        "What best summarizes the first half of the events when the woman and the man meet for the third time?\n(A) They walk for a while and then sit down at the patio of a coffee shop. She eats, drinks, and smokes while the man stares at her. She goes to a beach\n(B) They walk for a while and then sit down at the patio of a coffee shop. She eats, drinks, and smokes while the man reads a book. He then leaves\n(C) They walk for a while and then sit down at the patio of a coffee shop. She eats, drinks, and smokes while the man stares at her. She then sits near a rive\n(D) They walk for a while and then sit down at the patio of a coffee shop. She eats, drinks, and smokes while the man stares at her. He then leaves\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What best summarizes the first half of the events when the woman and the man meet for the third time?\n(A) They walk for a while and then sit down at the patio of a coffee shop. She eats, drinks, and smokes while the man stares at her. She goes to a beach\n(B) They walk for a while and then sit down at the patio of a coffee shop. She eats, drinks, and smokes while the man reads a book. He then leaves\n(C) They walk for a while and then sit down at the patio of a coffee shop. She eats, drinks, and smokes while the man stares at her. She then sits near a rive\n(D) They walk for a while and then sit down at the patio of a coffee shop. She eats, drinks, and smokes while the man stares at her. He then leaves\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 24,
+      "target": "A",
+      "arguments": [
+        "What color is the first plane?\n(A) Yellow\n(B) Red\n(C) White\n(D) Blue\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided images, the first plane appears in the scene at 0"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What color is the first plane?\n(A) Yellow\n(B) Red\n(C) White\n(D) Blue\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 25,
+      "target": "C",
+      "arguments": [
+        "What appears on the screen after the fictional character from the man's book appears in the air for the first time, traveling between buildings?\n(A) The book\n(B) A butterfly\n(C) A rainbow\n(D) A plane\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "After the character from the book appears in the air, the scene transitions to a"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What appears on the screen after the fictional character from the man's book appears in the air for the first time, traveling between buildings?\n(A) The book\n(B) A butterfly\n(C) A rainbow\n(D) A plane\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 26,
+      "target": "C",
+      "arguments": [
+        "What does the man do after he sees the woman for the third time?\n(A) He runs a marathon\n(B) He sleeps in his bed\n(C) He draws the woman in the book\n(D) He looks for the woman\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, we can analyze the man's"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What does the man do after he sees the woman for the third time?\n(A) He runs a marathon\n(B) He sleeps in his bed\n(C) He draws the woman in the book\n(D) He looks for the woman\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 27,
+      "target": "A",
+      "arguments": [
+        "What does the woman do before throwing the Coca-Cola can into the air?\n(A) She dances with people\n(B) She throws her shoe away\n(C) She walks barefoot\n(D) She fights with a police\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, we can analyze the woman's"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What does the woman do before throwing the Coca-Cola can into the air?\n(A) She dances with people\n(B) She throws her shoe away\n(C) She walks barefoot\n(D) She fights with a police\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 28,
+      "target": "C",
+      "arguments": [
+        "What does the woman do after she sees a rolling stone on the ground\n(A) She runs away\n(B) She goes to meet the man\n(C) She throws her shoe away\n(D) She dances with people\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, we can analyze the woman's"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What does the woman do after she sees a rolling stone on the ground\n(A) She runs away\n(B) She goes to meet the man\n(C) She throws her shoe away\n(D) She dances with people\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 29,
+      "target": "B",
+      "arguments": [
+        "Where do the man and the woman sit at where the woman is eating a pear?\n(A) A river\n(B) A fountain\n(C) A street corner\n(D) A park bench\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the visual evidence in the scene, the man and woman are sitting on"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "Where do the man and the woman sit at where the woman is eating a pear?\n(A) A river\n(B) A fountain\n(C) A street corner\n(D) A park bench\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 30,
+      "target": "B",
+      "arguments": [
+        "What happens from 35:52-36:41?\n(A) The woman goes to meet the man barefoot, but she is stopped by other people\n(B) The woman goes to meet the man, but she is stopped by other people\n(C) The woman goes to meet the man barefoot, but she is stopped by a car\n(D) The woman goes to meet the man, but she is stopped by some dancers\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, we can analyze the scene in"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "What happens from 35:52-36:41?\n(A) The woman goes to meet the man barefoot, but she is stopped by other people\n(B) The woman goes to meet the man, but she is stopped by other people\n(C) The woman goes to meet the man barefoot, but she is stopped by a car\n(D) The woman goes to meet the man, but she is stopped by some dancers\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 31,
+      "target": "A",
+      "arguments": [
+        "How is the weather before the season transitions to winter?\n(A) Rainy\n(B) Windy\n(C) Snowy\n(D) Sunny\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided images, we can analyze the weather conditions before the transition to"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "How is the weather before the season transitions to winter?\n(A) Rainy\n(B) Windy\n(C) Snowy\n(D) Sunny\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 32,
+      "target": "A",
+      "arguments": [
+        "What happens from 37:30-38:05?\n(A) The man visits the places that he and the woman have been to before\n(B) The man visits the new places\n(C) The man visits the places that he and the woman have been to before, would like to go to, and new places\n(D) The man visits the places that he and the woman would like to go to\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What happens from 37:30-38:05?\n(A) The man visits the places that he and the woman have been to before\n(B) The man visits the new places\n(C) The man visits the places that he and the woman have been to before, would like to go to, and new places\n(D) The man visits the places that he and the woman would like to go to\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 33,
+      "target": "C",
+      "arguments": [
+        "When does the man meet the woman for the last time?\n(A) Autumn\n(B) Winter\n(C) Spring\n(D) Summer\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the visual evidence in the video, we can determine the season of the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "When does the man meet the woman for the last time?\n(A) Autumn\n(B) Winter\n(C) Spring\n(D) Summer\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 34,
+      "target": "C",
+      "arguments": [
+        "What happens to the woman in the man's imagery when she is not around?\n(A) She becomes an angel\n(B) She turns into an elvis\n(C) She turns into a flower fairy\n(D) She grows six more hands\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the visual narrative of the provided images, we can analyze the transformation of"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What happens to the woman in the man's imagery when she is not around?\n(A) She becomes an angel\n(B) She turns into an elvis\n(C) She turns into a flower fairy\n(D) She grows six more hands\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 35,
+      "target": "C",
+      "arguments": [
+        "What color hair do the two kids have in the video?\n(A) Black\n(B) Blue\n(C) Green\n(D) Red\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "What color hair do the two kids have in the video?\n(A) Black\n(B) Blue\n(C) Green\n(D) Red\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 36,
+      "target": "A",
+      "arguments": [
+        "Where is the camera angle locate at 03:19 in the video?\n(A) Behind the girl\n(B) Above the girl\n(C) In front of the girl\n(D) Next to the girl\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "Where is the camera angle locate at 03:19 in the video?\n(A) Behind the girl\n(B) Above the girl\n(C) In front of the girl\n(D) Next to the girl\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 37,
+      "target": "A",
+      "arguments": [
+        "What color is the necklace around the neck of the elderly person in the video?\n(A) Blue\n(B) Black\n(C) Green\n(D) Red\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What color is the necklace around the neck of the elderly person in the video?\n(A) Blue\n(B) Black\n(C) Green\n(D) Red\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 38,
+      "target": "C",
+      "arguments": [
+        "Why does the girl wear a mask in the video?\n(A) Because she's participating in a costume party\n(B) Because it's a fashion statement\n(C) She wants to know where someone is\n(D) Because she's trying to hide her identity\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "Why does the girl wear a mask in the video?\n(A) Because she's participating in a costume party\n(B) Because it's a fashion statement\n(C) She wants to know where someone is\n(D) Because she's trying to hide her identity\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 39,
+      "target": "A",
+      "arguments": [
+        "What is on the head of the older brother of the two childreno?\n(A) Headscarf\n(B) Crown\n(C) Helmet\n(D) Hat\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the scene in frame 6, the two children are walking together."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What is on the head of the older brother of the two childreno?\n(A) Headscarf\n(B) Crown\n(C) Helmet\n(D) Hat\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 40,
+      "target": "B",
+      "arguments": [
+        "What color are the balls held by the two people in the video?\n(A) Black\n(B) Blue\n(C) Green\n(D) Red\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the video, the two people are holding balls that are blue in color"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "What color are the balls held by the two people in the video?\n(A) Black\n(B) Blue\n(C) Green\n(D) Red\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 41,
+      "target": "D",
+      "arguments": [
+        "What color light is emanating from the woman's arm at 36:05 in the video?\n(A) Green\n(B) Red\n(C) Yellow\n(D) Blue\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "What color light is emanating from the woman's arm at 36:05 in the video?\n(A) Green\n(B) Red\n(C) Yellow\n(D) Blue\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 42,
+      "target": "A",
+      "arguments": [
+        "What does the girl use to find the person she is looking for in the video?\n(A) Mask\n(B) Tail\n(C) Phone\n(D) Car\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "What does the girl use to find the person she is looking for in the video?\n(A) Mask\n(B) Tail\n(C) Phone\n(D) Car\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 43,
+      "target": "D",
+      "arguments": [
+        "What color is the crystal on the object held by the girl?\n(A) White\n(B) Yellow\n(C) Red\n(D) Blue\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "What color is the crystal on the object held by the girl?\n(A) White\n(B) Yellow\n(C) Red\n(D) Blue\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 44,
+      "target": "A",
+      "arguments": [
+        "What color are the runes on the bottom of the girl's feet at 38:18 in the video?\n(A) Golden\n(B) White\n(C) Red\n(D) Black\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What color are the runes on the bottom of the girl's feet at 38:18 in the video?\n(A) Golden\n(B) White\n(C) Red\n(D) Black\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 45,
+      "target": "D",
+      "arguments": [
+        "How many people are leaving by boat in the video?\n(A) 2\n(B) 4\n(C) 0\n(D) 1\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "How many people are leaving by boat in the video?\n(A) 2\n(B) 4\n(C) 0\n(D) 1\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 46,
+      "target": "C",
+      "arguments": [
+        "The girl rescue a total of how many spirits?\n(A) 5\n(B) 2\n(C) 4\n(D) 3\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the visual evidence in the video, we can identify the spirits the girl"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "The girl rescue a total of how many spirits?\n(A) 5\n(B) 2\n(C) 4\n(D) 3\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 47,
+      "target": "B",
+      "arguments": [
+        "What is the first word in the video?\n(A) ENT\n(B) NET\n(C) TNE\n(D) ETN\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "What is the first word in the video?\n(A) ENT\n(B) NET\n(C) TNE\n(D) ETN\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 48,
+      "target": "C",
+      "arguments": [
+        "How many birds are there flying at the beginning of the video?\n(A) 6\n(B) 4\n(C) 5\n(D) 8\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided video frames, there are no birds flying at the beginning of"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "How many birds are there flying at the beginning of the video?\n(A) 6\n(B) 4\n(C) 5\n(D) 8\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 49,
+      "target": "C",
+      "arguments": [
+        "How many doors have colored lights at 00:29?\n(A) 2\n(B) 1\n(C) 3\n(D) 0\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the scene at 00:29, we can analyze the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "How many doors have colored lights at 00:29?\n(A) 2\n(B) 1\n(C) 3\n(D) 0\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 50,
+      "target": "A",
+      "arguments": [
+        "What is the character doing between 01:05-01:09?\n(A) Tie the gift box\n(B) Destroy the gift box\n(C) Colour the gift box\n(D) Stuff a gift box with something\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What is the character doing between 01:05-01:09?\n(A) Tie the gift box\n(B) Destroy the gift box\n(C) Colour the gift box\n(D) Stuff a gift box with something\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 51,
+      "target": "C",
+      "arguments": [
+        "What color are the clothes on the two men playing the trumpet?\n(A) Blue\n(B) Yellow\n(C) Lilac\n(D) Rose\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the image provided, the two men playing the trumpet are wearing matching uniforms"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What color are the clothes on the two men playing the trumpet?\n(A) Blue\n(B) Yellow\n(C) Lilac\n(D) Rose\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 52,
+      "target": "C",
+      "arguments": [
+        "Does the Queen go first or does the king go first?\n(A) Their children\n(B) King\n(C) Queen\n(D) They walk side by side\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided images, we can analyze the sequence of events to determine the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "Does the Queen go first or does the king go first?\n(A) Their children\n(B) King\n(C) Queen\n(D) They walk side by side\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 53,
+      "target": "A",
+      "arguments": [
+        "After the king talk to the green Dragon, who embraces the king?\n(A) Prince\n(B) Green dragon\n(C) Queen\n(D) Princess\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video:\n\n1.  In frame "
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "After the king talk to the green Dragon, who embraces the king?\n(A) Prince\n(B) Green dragon\n(C) Queen\n(D) Princess\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 54,
+      "target": "A",
+      "arguments": [
+        "What are the patterns on the shawls of Kings and queens?\n(A) Heart pattern\n(B) Circle pattern\n(C) Star pattern\n(D) Fruit pattern\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided images, we can analyze the patterns on the shawls"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What are the patterns on the shawls of Kings and queens?\n(A) Heart pattern\n(B) Circle pattern\n(C) Star pattern\n(D) Fruit pattern\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 55,
+      "target": "D",
+      "arguments": [
+        "What color are the teeth in the middle of the green dragon?\n(A) Yellow\n(B) Aqua\n(C) Brown\n(D) Faint yellow\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided images, we can analyze the teeth of the green dragon.\n\n"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What color are the teeth in the middle of the green dragon?\n(A) Yellow\n(B) Aqua\n(C) Brown\n(D) Faint yellow\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 56,
+      "target": "D",
+      "arguments": [
+        "What happens when the villain's mirror breaks?\n(A) The mirror fragments automatically fuse on the ground into a whole mirror again\n(B) The mirror fragments cut the villain's hand\n(C) The mirror fragments are thrown away by the villains\n(D) The mirror fragments fly into the sky\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, we can analyze what happens to"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What happens when the villain's mirror breaks?\n(A) The mirror fragments automatically fuse on the ground into a whole mirror again\n(B) The mirror fragments cut the villain's hand\n(C) The mirror fragments are thrown away by the villains\n(D) The mirror fragments fly into the sky\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 57,
+      "target": "B",
+      "arguments": [
+        "Who save the green dragon from the net?\n(A) Villain\n(B) Prince\n(C) Pink dragon\n(D) Princess\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, we can determine who saves the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "Who save the green dragon from the net?\n(A) Villain\n(B) Prince\n(C) Pink dragon\n(D) Princess\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 58,
+      "target": "B",
+      "arguments": [
+        "Who grasps the villain in the net?\n(A) Green dragon and light blue dragon\n(B) Yellow dragon and light blue dragon\n(C) The prince and the pink dragon\n(D) Yellow dragon and pink dragon\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided images, we can analyze the scene where the villain is captured"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "Who grasps the villain in the net?\n(A) Green dragon and light blue dragon\n(B) Yellow dragon and light blue dragon\n(C) The prince and the pink dragon\n(D) Yellow dragon and pink dragon\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 59,
+      "target": "C",
+      "arguments": [
+        "How does the villain follow the prince, princess and dragon?\n(A) Run after\n(B) Pilot a plane\n(C) Drive a car\n(D) Ride a bike\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the visual evidence in the video, the villain is seen in a sle"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "How does the villain follow the prince, princess and dragon?\n(A) Run after\n(B) Pilot a plane\n(C) Drive a car\n(D) Ride a bike\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 60,
+      "target": "D",
+      "arguments": [
+        "What instruments do the prince and princess play respectively during the performance?\n(A) Both the prince and the princess are playing the guitar\n(B) The prince is playing the guitar and the princess is playing the drum set\n(C) The prince is playing the guitar and the princess is playing the piano\n(D) The prince plays the drum set and the princess plays the guitar\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided images, we can determine the instruments being played by the prince"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What instruments do the prince and princess play respectively during the performance?\n(A) Both the prince and the princess are playing the guitar\n(B) The prince is playing the guitar and the princess is playing the drum set\n(C) The prince is playing the guitar and the princess is playing the piano\n(D) The prince plays the drum set and the princess plays the guitar\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 61,
+      "target": "D",
+      "arguments": [
+        "When the prince and princess play, the green dragon is singing in the sky while dropping what?\n(A) Tree leaf\n(B) Star\n(C) Snowflake\n(D) Flower\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "When the prince and princess play, the green dragon is singing in the sky while dropping what?\n(A) Tree leaf\n(B) Star\n(C) Snowflake\n(D) Flower\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 62,
+      "target": "D",
+      "arguments": [
+        "Why is the king so happy after using the telescope?\n(A) Because the king is curious about binoculars\n(B) Because he sees his children greeting him\n(C) Because he sees the first prize\n(D) The villain makes a fool of himself because his sleigh caught fire\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "Why is the king so happy after using the telescope?\n(A) Because the king is curious about binoculars\n(B) Because he sees his children greeting him\n(C) Because he sees the first prize\n(D) The villain makes a fool of himself because his sleigh caught fire\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 63,
+      "target": "B",
+      "arguments": [
+        "What festival are they celebrating?\n(A) Mid-Autumn Festival\n(B) Christmas Day\n(C) All Saints' Day\n(D) Valentine's day\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the visual evidence in the video, the characters are celebrating Christmas Day.\n\n"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "What festival are they celebrating?\n(A) Mid-Autumn Festival\n(B) Christmas Day\n(C) All Saints' Day\n(D) Valentine's day\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 64,
+      "target": "D",
+      "arguments": [
+        "What is on the green dragon at 27:08?\n(A) Black scarf\n(B) Red scarf\n(C) Green scarf\n(D) Yellow scarf\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the image provided at 27:08, the green dragon"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What is on the green dragon at 27:08?\n(A) Black scarf\n(B) Red scarf\n(C) Green scarf\n(D) Yellow scarf\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 65,
+      "target": "B",
+      "arguments": [
+        "Who gets the lollipop last?\n(A) Frankenstein\n(B) Zombie\n(C) Vampire\n(D) Dokkaebi\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, we can determine who receives the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "Who gets the lollipop last?\n(A) Frankenstein\n(B) Zombie\n(C) Vampire\n(D) Dokkaebi\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 66,
+      "target": "D",
+      "arguments": [
+        "Why doesn't the vampire want the lollipop?\n(A) Because he thinks it is child who eat lollipop\n(B) Because he can't eat lollipop\n(C) Because he doesn't like lollipop\n(D) Because he thinks the lollipop is dirty\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "The vampire's reaction to the lollipop is one of disgust and revulsion."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "Why doesn't the vampire want the lollipop?\n(A) Because he thinks it is child who eat lollipop\n(B) Because he can't eat lollipop\n(C) Because he doesn't like lollipop\n(D) Because he thinks the lollipop is dirty\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 67,
+      "target": "A",
+      "arguments": [
+        "When is the school let out in the afternoon?\n(A) 2:00 pm\n(B) 3:30 pm\n(C) 2:30 pm\n(D) 3:00 pm\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "The scene at 00:20 shows a classroom with sunlight streaming in"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "When is the school let out in the afternoon?\n(A) 2:00 pm\n(B) 3:30 pm\n(C) 2:30 pm\n(D) 3:00 pm\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 68,
+      "target": "D",
+      "arguments": [
+        "What does the vampire do when the girl first finds him?\n(A) Hide in the cabinet\n(B) Return the phone\n(C) Drink tomato juice\n(D) Clean the desk\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, we can determine the vampire's"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What does the vampire do when the girl first finds him?\n(A) Hide in the cabinet\n(B) Return the phone\n(C) Drink tomato juice\n(D) Clean the desk\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 69,
+      "target": "D",
+      "arguments": [
+        "What happens in the vampire's dream after he faints in front of the girl?\n(A) The girl ties him to a tree and washes him\n(B) The girl ties him to a cross and burns him\n(C) The girl ties him to a cross and washes him\n(D) The girl ties him to a tree and burns him\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, after the vampire faints in"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What happens in the vampire's dream after he faints in front of the girl?\n(A) The girl ties him to a tree and washes him\n(B) The girl ties him to a cross and burns him\n(C) The girl ties him to a cross and washes him\n(D) The girl ties him to a tree and burns him\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 70,
+      "target": "B",
+      "arguments": [
+        "Why the girl faints after the Frankenstein enters the room in the night she hides in the cabinet?\n(A) She is scared by a ghost hunter\n(B) She is scared by a zombie's head\n(C) She is scared by a vampire\n(D) She is scared by the Frankenstein\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "Why the girl faints after the Frankenstein enters the room in the night she hides in the cabinet?\n(A) She is scared by a ghost hunter\n(B) She is scared by a zombie's head\n(C) She is scared by a vampire\n(D) She is scared by the Frankenstein\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 71,
+      "target": "B",
+      "arguments": [
+        "Why does vampire bang his head on a table?\n(A) He have no money to compensate\n(B) The girl is noisy and doesn't study hard\n(C) He is hungry\n(D) He is nervous\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the visual evidence in the video, the vampire character is shown in a"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "Why does vampire bang his head on a table?\n(A) He have no money to compensate\n(B) The girl is noisy and doesn't study hard\n(C) He is hungry\n(D) He is nervous\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 72,
+      "target": "D",
+      "arguments": [
+        "Where does the girl take the vampire after the exam?\n(A) A playground\n(B) Her home\n(C) The principal room\n(D) A park\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, after the exam, the girl"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "Where does the girl take the vampire after the exam?\n(A) A playground\n(B) Her home\n(C) The principal room\n(D) A park\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 73,
+      "target": "D",
+      "arguments": [
+        "What happens to the girl and the vampire?\n(A) The vampire breaks the girl's game console but has no money to compensate, so he can only help the girl study. In the end, they become good friends\n(B) The vampire breaks the girl's game console but has no money to compensate, so he can only work in labor to earn money with the girl. In the end, they become good friends\n(C) The vampire breaks the girl's cell phone but has no money to compensate, so he can only work in labor to earn money with the girl. In the end, they become good friends\n(D) The vampire breaks the girl's cell phone but has no money to compensate, so he can only help the girl study. In the end, they become good friends\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the narrative presented in the video clips, we can analyze the events that"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What happens to the girl and the vampire?\n(A) The vampire breaks the girl's game console but has no money to compensate, so he can only help the girl study. In the end, they become good friends\n(B) The vampire breaks the girl's game console but has no money to compensate, so he can only work in labor to earn money with the girl. In the end, they become good friends\n(C) The vampire breaks the girl's cell phone but has no money to compensate, so he can only work in labor to earn money with the girl. In the end, they become good friends\n(D) The vampire breaks the girl's cell phone but has no money to compensate, so he can only help the girl study. In the end, they become good friends\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 74,
+      "target": "A",
+      "arguments": [
+        "What does dokkaebi do after dancing alone?\n(A) Vomit\n(B) Play music\n(C) Sing\n(D) Eat lollipop\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, after Dokkaebi is"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What does dokkaebi do after dancing alone?\n(A) Vomit\n(B) Play music\n(C) Sing\n(D) Eat lollipop\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 75,
+      "target": "D",
+      "arguments": [
+        "How many monsters does the ghost hunter capture first?\n(A) 3\n(B) 6\n(C) 5\n(D) 4\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, we can determine the number of"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "How many monsters does the ghost hunter capture first?\n(A) 3\n(B) 6\n(C) 5\n(D) 4\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 76,
+      "target": "D",
+      "arguments": [
+        "Who stop the ghost hunter at last?\n(A) Skeleton\n(B) The human girl\n(C) Principal\n(D) Vampire\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of events in the video, the character who ultimately stops the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "Who stop the ghost hunter at last?\n(A) Skeleton\n(B) The human girl\n(C) Principal\n(D) Vampire\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 77,
+      "target": "A",
+      "arguments": [
+        "Who is the director of this video?\n(A) Bong Ho Kim\n(B) Bong Joon Ho\n(C) Mike Yangtzi\n(D) Jin Kum\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the information provided in the video, we can determine the director by examining"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "Who is the director of this video?\n(A) Bong Ho Kim\n(B) Bong Joon Ho\n(C) Mike Yangtzi\n(D) Jin Kum\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 78,
+      "target": "A",
+      "arguments": [
+        "How many round glasses are there in the round frame above the house?\n(A) 7\n(B) 5\n(C) 6\n(D) 8\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the image provided, we can analyze the round frame above the house,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "How many round glasses are there in the round frame above the house?\n(A) 7\n(B) 5\n(C) 6\n(D) 8\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 79,
+      "target": "D",
+      "arguments": [
+        "What are running around the street?\n(A) Rabbit\n(B) Spider\n(C) Cat\n(D) Mouse\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "What are running around the street?\n(A) Rabbit\n(B) Spider\n(C) Cat\n(D) Mouse\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 80,
+      "target": "D",
+      "arguments": [
+        "Why do the two women break down and cover their ears?\n(A) Because they can not finish the chores\n(B) Because the neighbor is renovating the house\n(C) Because there are dogs everywhere\n(D) Because there are rats everywhere\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "Why do the two women break down and cover their ears?\n(A) Because they can not finish the chores\n(B) Because the neighbor is renovating the house\n(C) Because there are dogs everywhere\n(D) Because there are rats everywhere\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 81,
+      "target": "B",
+      "arguments": [
+        "How many mice run across the roof above the street?\n(A) 5\n(B) 2\n(C) 3\n(D) 1\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided images, we can analyze the scene on the roof above the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "How many mice run across the roof above the street?\n(A) 5\n(B) 2\n(C) 3\n(D) 1\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 82,
+      "target": "B",
+      "arguments": [
+        "There is a group of people wearing the same outfit, lining up in a line across the street. How many people are there\n(A) 8\n(B) 6\n(C) 5\n(D) 4\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided images, we can analyze the scene you described.\n\n1."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "There is a group of people wearing the same outfit, lining up in a line across the street. How many people are there\n(A) 8\n(B) 6\n(C) 5\n(D) 4\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 83,
+      "target": "C",
+      "arguments": [
+        "After two groups of people collide, which direction do the six people wearing the same outfit go to?\n(A) All but one go in the opposite direction\n(B) To the opposite direction of the other group\n(C) To the same direction as the other group\n(D) Some go to the opposite direction of the other group, some go to the same direction as the other group\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "D"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "After two groups of people collide, which direction do the six people wearing the same outfit go to?\n(A) All but one go in the opposite direction\n(B) To the opposite direction of the other group\n(C) To the same direction as the other group\n(D) Some go to the opposite direction of the other group, some go to the same direction as the other group\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 84,
+      "target": "C",
+      "arguments": [
+        "How do people in the government communicate with everyone?\n(A) They use a telephone hotline\n(B) They sit face to face and talk\n(C) They communicate through the government window\n(D) They utilize the email listed on the website\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "How do people in the government communicate with everyone?\n(A) They use a telephone hotline\n(B) They sit face to face and talk\n(C) They communicate through the government window\n(D) They utilize the email listed on the website\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 85,
+      "target": "A",
+      "arguments": [
+        "How many people are there in the government?\n(A) 7\n(B) 8\n(C) 6\n(D) 5\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided images, the scene appears to be from a stop-motion animated"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "How many people are there in the government?\n(A) 7\n(B) 8\n(C) 6\n(D) 5\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 86,
+      "target": "B",
+      "arguments": [
+        "When the people in the government are thinking, what kind of person comes into the meeting room?\n(A) A person without a nose\n(B) A person with a particularly long nose\n(C) A person with colorful hat\n(D) A person in a tall hat\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the sequence of images, we can analyze the scene in question.\n\n1"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "When the people in the government are thinking, what kind of person comes into the meeting room?\n(A) A person without a nose\n(B) A person with a particularly long nose\n(C) A person with colorful hat\n(D) A person in a tall hat\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 87,
+      "target": "A",
+      "arguments": [
+        "What kind of flying creatures can the person summon with a flute?\n(A) Bat\n(B) Butterfly\n(C) Eagle\n(D) Sparrow\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the visual evidence in the video, we can determine the type of flying"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What kind of flying creatures can the person summon with a flute?\n(A) Bat\n(B) Butterfly\n(C) Eagle\n(D) Sparrow\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 88,
+      "target": "A",
+      "arguments": [
+        "How much does the man with a long nose get paid?\n(A) A gold coin\n(B) He gets nothing\n(C) Three gold coins\n(D) A bag of gold coins\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the narrative of the film, the man with the long nose is a"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "How much does the man with a long nose get paid?\n(A) A gold coin\n(B) He gets nothing\n(C) Three gold coins\n(D) A bag of gold coins\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 89,
+      "target": "B",
+      "arguments": [
+        "One of the events for the celebration is a number of people riding on top of each other and performing acrobatics. How many people are there?\n(A) 5\n(B) 3\n(C) 2\n(D) 4\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided images, the scene you are referring to is shown in image"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "One of the events for the celebration is a number of people riding on top of each other and performing acrobatics. How many people are there?\n(A) 5\n(B) 3\n(C) 2\n(D) 4\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 90,
+      "target": "B",
+      "arguments": [
+        "After the performance of three people riding on top of each other, what's the next performance?\n(A) Dance performance\n(B) Nunchaku performance\n(C) Somersault performance\n(D) Kite flying performance\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "After the performance of three people riding on top of each other, what's the next performance?\n(A) Dance performance\n(B) Nunchaku performance\n(C) Somersault performance\n(D) Kite flying performance\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 91,
+      "target": "A",
+      "arguments": [
+        "What is the image of the government?\n(A) Irresponsible and stingy\n(B) Accountable but poor\n(C) Friendly but unorganized\n(D) Wealthy and responsible\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "A"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "What is the image of the government?\n(A) Irresponsible and stingy\n(B) Accountable but poor\n(C) Friendly but unorganized\n(D) Wealthy and responsible\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 92,
+      "target": "B",
+      "arguments": [
+        "Who is the narrator?\n(A) John Hambley\n(B) Robert Hardy\n(C) Chris Walker\n(D) David Rohl\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "B"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "Who is the narrator?\n(A) John Hambley\n(B) Robert Hardy\n(C) Chris Walker\n(D) David Rohl\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 93,
+      "target": "C",
+      "arguments": [
+        "Where does the man with long nose spend his night?\n(A) In an inn\n(B) In a moutain\n(C) Near a river\n(D) On the roof of the government building\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the visual evidence in the video, we can determine where the man with"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "Where does the man with long nose spend his night?\n(A) In an inn\n(B) In a moutain\n(C) Near a river\n(D) On the roof of the government building\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 94,
+      "target": "C",
+      "arguments": [
+        "What instruments are already on the stage before the actors come on?\n(A) Harp\n(B) Bass\n(C) Drum kit\n(D) Piano\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided images, we can analyze the scene on the stage.\n\n-"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What instruments are already on the stage before the actors come on?\n(A) Harp\n(B) Bass\n(C) Drum kit\n(D) Piano\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 95,
+      "target": "C",
+      "arguments": [
+        "How does the red-haired girl who plays bass look from 01:42-01:47?\n(A) Angry\n(B) Boring\n(C) Amazed\n(D) Excited\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided frames, the red-haired girl who plays bass is shown in"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "How does the red-haired girl who plays bass look from 01:42-01:47?\n(A) Angry\n(B) Boring\n(C) Amazed\n(D) Excited\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 96,
+      "target": "A",
+      "arguments": [
+        "What color vest is the man lifting weights wearing?\n(A) Green\n(B) Blue\n(C) Orange\n(D) Yellow\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "C"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What color vest is the man lifting weights wearing?\n(A) Green\n(B) Blue\n(C) Orange\n(D) Yellow\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 97,
+      "target": "B",
+      "arguments": [
+        "Why does the three girls run?\n(A) They are chasing the escaped pig\n(B) They are afraid of being hit by a giant green cylinder\n(C) They are comparing the running speed\n(D) They are being chased by a man with a gun\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the visual evidence in the video, we can analyze the situation to determine"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": true,
+      "input": "Why does the three girls run?\n(A) They are chasing the escaped pig\n(B) They are afraid of being hit by a giant green cylinder\n(C) They are comparing the running speed\n(D) They are being chased by a man with a gun\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 98,
+      "target": "D",
+      "arguments": [
+        "What does the three girls do between 07:48-07:50?\n(A) They are bowing\n(B) They are hugging\n(C) They are dancing\n(D) They are shaking hands\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "Based on the provided video frames, the scene at 07:48"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What does the three girls do between 07:48-07:50?\n(A) They are bowing\n(B) They are hugging\n(C) They are dancing\n(D) They are shaking hands\nAnswer the question with the option letter"
+    },
+    {
+      "doc_id": 99,
+      "target": "A",
+      "arguments": [
+        "What is the license plate number of the purple car driven by a woman with long black hair?\n(A) Mandy\n(B) Erica\n(C) Lucy\n(D) Angela\nAnswer the question with the option letter",
+        {
+          "max_new_tokens": 16,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "lvbench",
+        "train"
+      ],
+      "filtered_resps": [
+        "The provided images do not contain a scene with a purple car driven by a woman"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "lvbench_score": false,
+      "input": "What is the license plate number of the purple car driven by a woman with long black hair?\n(A) Mandy\n(B) Erica\n(C) Lucy\n(D) Angela\nAnswer the question with the option letter"
+    }
+  ],
+  "total_samples": 1549
+}

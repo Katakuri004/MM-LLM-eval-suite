@@ -1,0 +1,2908 @@
+{
+  "model": "Qwen__Qwen3-Omni-30B-A3B-Instruct",
+  "benchmark_id": "open_asr_spgispeech",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Out of the six million users, I think so far, should we think that most of them are active users? And with the campaigns in place, are you expecting to gradually increase your user base?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "out of the 6 million users, I think so far, should we think that most of them are active users? And with the campaigns in place, are you expecting to gradually increase your user-base?",
+        "pred": "Out of the six million users, I think so far, should we think that most of them are active users? And with the campaigns in place, are you expecting to gradually increase your user base?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 1,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And that kind of marketing will be quite feasible. And I talked about this when I explained to you about integrated marketing solution in the previous presentation. Now, what are shoppers buying?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and that kind of marketing will be quite feasible and I talked about this when I explained to you about integrated marketing solution in the previous presentation. Now what are shoppers buying?",
+        "pred": "And that kind of marketing will be quite feasible. And I talked about this when I explained to you about integrated marketing solution in the previous presentation. Now, what are shoppers buying?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 2,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The capacity of the existing tank houses that we have with our improvement program, so that's an important part of this. As I said just before the discussion, the tank houses is something that we try to have full all the time."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the capacity of the existing tank houses that we have with our improvement program, so that's an important part of this. As I said just before the discussion, the tank houses is something that we try to have full all the time.",
+        "pred": "The capacity of the existing tank houses that we have with our improvement program, so that's an important part of this. As I said just before the discussion, the tank houses is something that we try to have full all the time."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 3,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Actually, put that into refined product service when we bring two and two X on. So, as time goes on, and when we finally ultimately bring two X on, we have a multitude of options. But what we've built is an incredible enterprise."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "actually put that into refined product service when we bring 2 and 2x on. So as time goes on and when we finally openly bring 2x on, we have a multitude of options. But what we've built is an incredible enterprise",
+        "pred": "Actually, put that into refined product service when we bring two and two X on. So, as time goes on, and when we finally ultimately bring two X on, we have a multitude of options. But what we've built is an incredible enterprise."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 4,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "We were able to improve this ratio significantly, due not only to higher profits for the period attributable to the owners of the parent, but also to a recovery in market conditions, including stock prices and foreign exchange."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "We were able to improve this ratio significantly due not only to higher profits for the period attributable to the owners of the parent but also to a recovery in market conditions, including stock prices and foreign exchange.",
+        "pred": "We were able to improve this ratio significantly, due not only to higher profits for the period attributable to the owners of the parent, but also to a recovery in market conditions, including stock prices and foreign exchange."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 5,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The press release and the information on this call speak only as of today's date, and the company disclaims any duty to update the information provided therein and herein. I will now turn the call over to Greg Mullins, President and CEO of Reliance."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The press release and the information on this call speak only as of today's date, and the company disclaims any duty to update the information provided therein and herein. I will now turn the call over to Gregg Mollins, President and CEO of Reliance.",
+        "pred": "The press release and the information on this call speak only as of today's date, and the company disclaims any duty to update the information provided therein and herein. I will now turn the call over to Greg Mullins, President and CEO of Reliance."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 6,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Content, whether that be hundreds of thousands of books or millions of articles, and the growth of our content library is the fundamental strategy that we have in that business. Then, what you need to do with that content library as you build it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "content, whether that be hundreds of thousands of books or millions of articles. And the growth of our content library is the fundamental strategy that we have in that business. Then what you need to do with that content library, as you build it,",
+        "pred": "Content, whether that be hundreds of thousands of books or millions of articles, and the growth of our content library is the fundamental strategy that we have in that business. Then, what you need to do with that content library as you build it."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 7,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, to recap, a strong progress seen from Orkla investments, both from the fully consolidated businesses as well as joint ventures and associates."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So to recap, a strong progress seen from Orkla Investments, both from the fully consolidated businesses as well as joint ventures and associates.",
+        "pred": "So, to recap, a strong progress seen from Orkla investments, both from the fully consolidated businesses as well as joint ventures and associates."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 8,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "What is the advertiser or agency response to this process? Are they prepared to potentially have to pay for a much larger audience once these additional this additional leakage, I guess, is plugged? Thank you."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "What is the advertiser or agency response to this process? Are they prepared to potentially have to pay for a much larger audience once this additional leakage, I guess, is plugged?",
+        "pred": "What is the advertiser or agency response to this process? Are they prepared to potentially have to pay for a much larger audience once these additional this additional leakage, I guess, is plugged? Thank you."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 9,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "But they have so far not chosen to let that happen for their reasons, and we respect those reasons. We found an alternative approach to be able to measure viewing of video on demand through SVOD platforms. That's been critically important to our."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "But they have so far not chosen to let that happen for their reasons, and we respect those reasons. We found an alternative approach to be able to measure viewing of Video On Demand through SVOD platforms. That's been critically important to",
+        "pred": "But they have so far not chosen to let that happen for their reasons, and we respect those reasons. We found an alternative approach to be able to measure viewing of video on demand through SVOD platforms. That's been critically important to our."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 10,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And as you know, with Intuitive, you see that's a very attractive market for us, and we look forward to being able to launch Mako in Japan. But I would say it's a broad range of countries, and it's very similar the pattern that we're seeing is a similar pattern."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And as you know, with Intuitive, you see that's a very attractive market for us, and we look forward to being able to launch Mako in Japan. But I would say, it's a broad range of countries, and it's very similar -- the pattern that we're seeing is a similar pattern",
+        "pred": "And as you know, with Intuitive, you see that's a very attractive market for us, and we look forward to being able to launch Mako in Japan. But I would say it's a broad range of countries, and it's very similar the pattern that we're seeing is a similar pattern."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 11,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "By completing these strategic acquisitions, we expanded our sound platform for growth that drives Granite's diverse portfolio as America's infrastructure company. Twenty eighteen proved to be a year of significant evolution for a company that is nearly a century old."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "By completing these strategic acquisitions, we expanded our sound platform for growth that drives Granite's diverse portfolio as America's infrastructural company. 2018 proved to be a year of significant evolution for a company that is nearly a century old.",
+        "pred": "By completing these strategic acquisitions, we expanded our sound platform for growth that drives Granite's diverse portfolio as America's infrastructure company. Twenty eighteen proved to be a year of significant evolution for a company that is nearly a century old."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 12,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Earlier this year, we introduced a Korean barbecue meatball shareable featuring gochujang sauce, as well as a new pad thai formulation, which is a popular dish where we had the opportunity to improve the flavor profile."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Earlier this year, we introduced a Korean barbecue meatballs shareable featuring Gochujang sauce as well as a new Pad Thai formulation, which is a popular dish where we have the opportunity to improve the flavor profile.",
+        "pred": "Earlier this year, we introduced a Korean barbecue meatball shareable featuring gochujang sauce, as well as a new pad thai formulation, which is a popular dish where we had the opportunity to improve the flavor profile."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 13,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Our future continues to look very bright for UQM as the commercial electric vehicle market is continuing to increase in its market adoption. And I want to thank everyone again for your ongoing support and we look forward to another exciting quarter."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Our future continues to look very bright for UQM as the commercial electrical vehicle market is continuing increase in its market adoption. And I want to thank, everyone, again, for your ongoing support, and we look forward to another exciting quarter.",
+        "pred": "Our future continues to look very bright for UQM as the commercial electric vehicle market is continuing to increase in its market adoption. And I want to thank everyone again for your ongoing support and we look forward to another exciting quarter."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 14,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Sometimes affect the conversion of that sale, or they may not be converted into a sale. But it does not eliminate our sale; it does not take away sales from us. Therefore, we want to have in the marketplace responsible and reliable partners."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "sometimes affect the conversion of that sale or they may not be converted into a sale, but it does not eliminate our sale. It does not take away sales from us. Therefore, we want to have in the marketplace responsible and reliable partners",
+        "pred": "Sometimes affect the conversion of that sale, or they may not be converted into a sale. But it does not eliminate our sale; it does not take away sales from us. Therefore, we want to have in the marketplace responsible and reliable partners."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 15,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Are people to engage in that? That's exactly what Iberia has done. It's the reason why we say we are enthusiastic about the maintenance activity in Iberia because we've improved our cost performance and we are meeting the financial targets."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "our people to engage in that. That's exactly what Iberia has done. It's the reason why we say we are enthusiastic about the maintenance activity in Iberia because we've improved our cost performance and we are meeting the financial targets.",
+        "pred": "Are people to engage in that? That's exactly what Iberia has done. It's the reason why we say we are enthusiastic about the maintenance activity in Iberia because we've improved our cost performance and we are meeting the financial targets."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 16,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The question we're currently evaluating is how much of that payment is related to future services and thus will have to be spread over the remaining period of the contract, and how much of it is a."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The question we're currently evaluating is, how much of that payment is related to future services, and thus will have to be spread over the remaining period of the contract, and how much of it is",
+        "pred": "The question we're currently evaluating is how much of that payment is related to future services and thus will have to be spread over the remaining period of the contract, and how much of it is a."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 17,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Thank you, operator. Before we get started, please note that some of the comments today that are not historical facts could be considered forward-looking statements under federal securities laws and are based on certain assumptions and expectations of management."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Thank you, operator. Before we get started, please note that some of the comments today that are not historical facts could be considered forward-looking statements under federal securities laws and are based on certain assumptions and expectations of management.",
+        "pred": "Thank you, operator. Before we get started, please note that some of the comments today that are not historical facts could be considered forward-looking statements under federal securities laws and are based on certain assumptions and expectations of management."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 18,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "It was, you know, not a small effort because you had product families and product configurations that were largely independent and different from one another across all of the companies within the architectural segment that we had acquired over the last few years."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It was not a small effort because you had product families and product configurations that were largely independent and different from one another across all of the companies within the Architectural segment that we had acquired over the last few years.",
+        "pred": "It was, you know, not a small effort because you had product families and product configurations that were largely independent and different from one another across all of the companies within the architectural segment that we had acquired over the last few years."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 19,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Our sawtooth storage business continues to operate below plan as many customers and potential customers are utilizing rail storage in lieu of the caverns. We are continuing to work on additional contracts for this storage season, which would need to be in place by September timeframe to benefit this year."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Our storage business continues to operate below plan as many customers and potential customers are utilizing real storage in lieu of the caverns. We're continuing to work on additional contracts for this storage season, which we need to be in place by September time frame to benefit this year.",
+        "pred": "Our sawtooth storage business continues to operate below plan as many customers and potential customers are utilizing rail storage in lieu of the caverns. We are continuing to work on additional contracts for this storage season, which would need to be in place by September timeframe to benefit this year."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 20,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The results of what we had been talking about in the first half, first quarter, we talked about what we were seeing in terms of activity in the marketplace, where clients were starting to think about spending significant amounts of money."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the results of what we have been talking about. In the first half -- first quarter, we talked about what we were seeing in terms of activity in the marketplace, where clients were starting to think about spending significant amounts of money.",
+        "pred": "The results of what we had been talking about in the first half, first quarter, we talked about what we were seeing in terms of activity in the marketplace, where clients were starting to think about spending significant amounts of money."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 21,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, how do you how should we look at it from a two three year perspective? Will it sort of stabilize and probably increase in line with your other expenses, or your advertising and publicity will tend to be more like a percentage of revenues?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So how do you -- how should we look at it from a 2-, 3-year perspective? Will it sort of stabilize and probably increase in line with your other expenses, or your advertising and publicity will tend to be more like a percentage of revenues?",
+        "pred": "So, how do you how should we look at it from a two three year perspective? Will it sort of stabilize and probably increase in line with your other expenses, or your advertising and publicity will tend to be more like a percentage of revenues?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 22,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The overall structure longer term, because we're also differentiating and strengthening our product line as we go. And we'd like to see more in terms of these project sales with the turnkey solutions and integrated pieces in those projects."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the overall structure longer term because we're also differentiating and strengthening our product line as we go. And we would like to see more in terms of these project sales with the turnkey solutions and integrated pieces in those projects.",
+        "pred": "The overall structure longer term, because we're also differentiating and strengthening our product line as we go. And we'd like to see more in terms of these project sales with the turnkey solutions and integrated pieces in those projects."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 23,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The warehouse to pick for e-commerce, which breeds more life into them, so this is a evolving story. Vivian, and you know, the outlook is not perfectly clear because the economics of many of these new digital channels."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the warehouse to pick for e-commerce, which breathes more life into them. So this is a evolving story, Vivien. And the outlook is not perfectly clear because the economics of many of these new digital channels",
+        "pred": "The warehouse to pick for e-commerce, which breeds more life into them, so this is a evolving story. Vivian, and you know, the outlook is not perfectly clear because the economics of many of these new digital channels."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 24,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Our summer guests will have the opportunity to enjoy a great lineup of activities for the whole family, including ropes courses, zip lines, summer tubing, and alpine coasters, along with incredible opportunities for experiential learning in a high alpine environment."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Our summer guests will have the opportunity to enjoy a great lineup of activities for the whole family, including ropes courses, zip lines, summer tubing and alpine coasters, along with incredible opportunities for experiential learning in a high alpine environment.",
+        "pred": "Our summer guests will have the opportunity to enjoy a great lineup of activities for the whole family, including ropes courses, zip lines, summer tubing, and alpine coasters, along with incredible opportunities for experiential learning in a high alpine environment."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 25,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The only area where we have been considering share buybacks is in the event of the IPO, and what we have said is the following, and this is still true: we have said that."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The only area where we have been considering share buybacks is in the event of the IPO. And what we have said is the following and this is still true. We've said that",
+        "pred": "The only area where we have been considering share buybacks is in the event of the IPO, and what we have said is the following, and this is still true: we have said that."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 26,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And now, enabling all of the different protocols you need to connect with the different devices to enable binaural voice streaming and get to the best audiological performance."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and now enabling all of the different product calls you need to connect with the different devices, to enable Binaural VoiceStreaming and get to the best audiological performance.",
+        "pred": "And now, enabling all of the different protocols you need to connect with the different devices to enable binaural voice streaming and get to the best audiological performance."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 27,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "One of the primary drivers of resolving our distressed loans is reperformance through modifications. Since last year, we have heightened our focus on using modification programs and have generated."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "One of the primary drivers of resolving our distressed loans is re-performance through modifications. Since last year, we have heightened our focus on using modification programs and have generated",
+        "pred": "One of the primary drivers of resolving our distressed loans is reperformance through modifications. Since last year, we have heightened our focus on using modification programs and have generated."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 28,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And we are also pursuing a broad approach to recyclable cups. We have long espoused the importance of companies doing well by doing good, and we will not waver from our focus and leadership position in sustainability."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And we are also pursuing a broad approach to recyclable cups. We have long espoused the importance of companies doing well by doing good, and we will not waver from our focus and leadership position in sustainability.",
+        "pred": "And we are also pursuing a broad approach to recyclable cups. We have long espoused the importance of companies doing well by doing good, and we will not waver from our focus and leadership position in sustainability."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 29,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "We believe that we have developed a claim department structure and process that, combined with a highly trained and centralized staff, provide the foundation that allows us to build on our success in the area of transportation."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "We believe that we have developed the claim department structure and process, that combined with the highly trained and centralized staff, provide the foundation that allows us to build on our success in the area of transportation.",
+        "pred": "We believe that we have developed a claim department structure and process that, combined with a highly trained and centralized staff, provide the foundation that allows us to build on our success in the area of transportation."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 30,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The composition of our loan book and a regional view are shown on slides thirty-three and thirty-four. And we are seeing positive trends in several of our markets and verticals, most notably commercial real estate and construction, and our national lending platforms."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The composition of our loan book and regional view are shown on Slides 33 and 34, and we are seeing positive trends in several of our markets and verticals, most notably commercial real estate and construction and our national lending platforms.",
+        "pred": "The composition of our loan book and a regional view are shown on slides thirty-three and thirty-four. And we are seeing positive trends in several of our markets and verticals, most notably commercial real estate and construction, and our national lending platforms."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 31,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And then, the cash flow impact, could you give us an update on what you would anticipate for twenty sixteen The reduced cash payments for losses, what does that mean for your free cash flow?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And then the cash flow impact, could you give us an update on what you would anticipate for 2016? The reduced cash payments for losses, what does that mean for your free cash flow?",
+        "pred": "And then, the cash flow impact, could you give us an update on what you would anticipate for twenty sixteen The reduced cash payments for losses, what does that mean for your free cash flow?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 32,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "As you saw in our press release today, effective at the end of the fourth quarter, we deconsolidated our Venezuela operations and we began to account for our investments in Venezuela using the cost method of accounting in our GAAP financial statements."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "As you saw in our press release today, effective at the end of the fourth quarter, we deconsolidated our Venezuela operations and we began to account for our investments in Venezuela using the cost method of accounting in our GAAP financial statements.",
+        "pred": "As you saw in our press release today, effective at the end of the fourth quarter, we deconsolidated our Venezuela operations and we began to account for our investments in Venezuela using the cost method of accounting in our GAAP financial statements."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 33,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Okay, and so if we back out the Costa Rican new store impact on comps, was there any country or territory this past quarter that was negative, or was everything flat to up?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Okay. And so if we back out the Costa Rican new store impact on comps, was there any country or territory this past quarter that was negative? Or was everything flat to up?",
+        "pred": "Okay, and so if we back out the Costa Rican new store impact on comps, was there any country or territory this past quarter that was negative, or was everything flat to up?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 34,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Either in the cloud or on the apps processor, and they're finding more and more applications that can fit in this processor. So, as you go throughout the year in the products introduced, we'll talk more about the use cases, but they for sure are expanding."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "either in the cloud or on the apps processor. And they're finding more and more applications that can fit in this processor. So as you go throughout the year and the products are introduced, we'll talk more about the use cases, but they, for sure, are expanding.",
+        "pred": "Either in the cloud or on the apps processor, and they're finding more and more applications that can fit in this processor. So, as you go throughout the year in the products introduced, we'll talk more about the use cases, but they for sure are expanding."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 35,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "In our case, as we look at the market from a quarter standpoint, we know exactly the units that we've shipped. We obviously know exactly the revenue that we've generated. We have very high specificity around what the inventory levels are in the wholesaler channel."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "in our case, as we look at the market from a quarter standpoint, we know exactly the units that we shipped. We obviously know exactly the revenue that we generated. We have very high specificity around what the inventory levels are in the wholesaler channel,",
+        "pred": "In our case, as we look at the market from a quarter standpoint, we know exactly the units that we've shipped. We obviously know exactly the revenue that we've generated. We have very high specificity around what the inventory levels are in the wholesaler channel."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 36,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "We used Catalyst to plan and allocate our marketing spend across markets and brands at the beginning of the year, and now marketeers are using Catalyst in their day-to-day roles to continuously optimize their spend based on the most current data."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "We used catalyst to plan and allocate our marketing spend across markets and brands at the beginning of the year. And now marketeers are using catalyst in their day-to-day roles to continuously optimize their spend based on the most current data.",
+        "pred": "We used Catalyst to plan and allocate our marketing spend across markets and brands at the beginning of the year, and now marketeers are using Catalyst in their day-to-day roles to continuously optimize their spend based on the most current data."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 37,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "I'll begin today's call with a summary of our operational highlights for the quarter, and then turn the call over to Rui to discuss the financial results in a little bit more detail. After that, I'll return with a few concluding remarks before opening up the call to questions."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I'll begin today's call with a summary of our operational highlights for the quarter and then turn the call over to Rui to discuss the financial results in a little bit more detail. After that, I'll return with a few concluding remarks before opening up the call to questions.",
+        "pred": "I'll begin today's call with a summary of our operational highlights for the quarter, and then turn the call over to Rui to discuss the financial results in a little bit more detail. After that, I'll return with a few concluding remarks before opening up the call to questions."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 38,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And then the third one is whether this is right or wrong. It's just very difficult to be in this space without having a brand rooted in a traditional university in a traditional campus that's rooted in a physical location."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And then the third one is, whether this is right or wrong, it's just very difficult to be in this space without having a brand really in a traditional university in a traditional campus that's rooted in a physical location.",
+        "pred": "And then the third one is whether this is right or wrong. It's just very difficult to be in this space without having a brand rooted in a traditional university in a traditional campus that's rooted in a physical location."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 39,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "How does that change going forward? How does the industry, and you are the leader in the industry, how does the industry finally get to a point where they can earn their cost of capital at some point other than the peak of a seven-year cycle?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "How does that change going forward? How does the industry -- and you're the leader in the industry. How does the industry finally get to a point where they can earn their cost of capital at some point other than the peak of the 7-year cycle?",
+        "pred": "How does that change going forward? How does the industry, and you are the leader in the industry, how does the industry finally get to a point where they can earn their cost of capital at some point other than the peak of a seven-year cycle?"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 40,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The emergence of new distribution channels offers the potential for our brands to reach more directly and deeply than ever before. You've heard us talk a lot about the investments we've made across these channels, and I'll come back to this later."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The emergence of new distribution channels offers the potential for our brands to reach more directly and deeply than ever before. You've heard us talk a lot about the investments we've made across these channels, and I'll come back to these later.",
+        "pred": "The emergence of new distribution channels offers the potential for our brands to reach more directly and deeply than ever before. You've heard us talk a lot about the investments we've made across these channels, and I'll come back to this later."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 41,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Which is a little bit above eleven percent. I think the things that help us get to the higher end of guidance are faster ramps of the projects that we have visibility to today, an acceleration in the new business."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "which is a little bit above 11%. I think the things that help us get to the higher end of guidance are faster ramps of the projects that we have visibility to today and acceleration in the new business",
+        "pred": "Which is a little bit above eleven percent. I think the things that help us get to the higher end of guidance are faster ramps of the projects that we have visibility to today, an acceleration in the new business."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 42,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "You know that we have divested the China business, but it has not yet been closed. So, China is still part of our numbers and are impacting the numbers more negatively than expected. But the problem is solved going forward."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "You know that we have divested the China business, but it has not yet been closed, so China is still part of our numbers and are impacting the numbers more negatively than expected. But the problem is solved going forward.",
+        "pred": "You know that we have divested the China business, but it has not yet been closed. So, China is still part of our numbers and are impacting the numbers more negatively than expected. But the problem is solved going forward."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 43,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Virtual reality and new consoles are a wild card in that business segment and could dramatically change the growth projections. And the fourth takeaway was that all of these combined to make GME a growing and diversified company."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Virtual reality and new consoles are a wildcard in that business segment and could dramatically change the growth projections. And the fourth takeaway was that all of these combine to make GME a growing and diversified company.",
+        "pred": "Virtual reality and new consoles are a wild card in that business segment and could dramatically change the growth projections. And the fourth takeaway was that all of these combined to make GME a growing and diversified company."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 44,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "This is higher than last year, primarily due to the unfavorable foreign exchange rates and capital spending in our new CIS segment. In addition, we made equipment purchases to expand manufacturing capacity in China."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "This is higher than last year primarily due to the unfavorable foreign exchange rates and capital spending in our new CIS segment. In addition, we made equipment purchases to expand manufacturing capacity in China.",
+        "pred": "This is higher than last year, primarily due to the unfavorable foreign exchange rates and capital spending in our new CIS segment. In addition, we made equipment purchases to expand manufacturing capacity in China."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 45,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Regarding our second objective, which relates to our pipeline portfolio of innovative whole product solutions, we continue to make progress. Starting with our drug delivery programs, we have targeted several aggressive milestones over the next several quarters."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Regarding our second objective, which relates to our pipeline portfolio of innovative whole-product solutions, we continue to make progress. Starting with our drug delivery programs, we have targeted several aggressive milestones over the next several quarters.",
+        "pred": "Regarding our second objective, which relates to our pipeline portfolio of innovative whole product solutions, we continue to make progress. Starting with our drug delivery programs, we have targeted several aggressive milestones over the next several quarters."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 46,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Improving application performance is just the beginning when it comes to removing friction so that our community can grow and enjoy Snapchat. We have recently launched partnerships with wireless carriers in over a dozen markets to begin reducing cellular bandwidth costs for Snapchatters around the world."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Improving application performance is just the beginning when it comes to removing friction so that our community can grow and enjoy Snapchat. We have recently launched partnerships with wireless carriers in over a dozen markets to begin reducing cellular bandwidth costs for Snapchatters around the world.",
+        "pred": "Improving application performance is just the beginning when it comes to removing friction so that our community can grow and enjoy Snapchat. We have recently launched partnerships with wireless carriers in over a dozen markets to begin reducing cellular bandwidth costs for Snapchatters around the world."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 47,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Despite all the noise during the quarter, we're confident that we will have success passing through the price increases. While we continue to focus on execution of our strategy to grow our sales and invest and manage our business for further operating leverage."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Despite all the noise during the quarter, we're confident that we will have success passing through the price increases while we continue to focus on execution of our strategy to grow our sales and invest and manage our business for further operating leverage",
+        "pred": "Despite all the noise during the quarter, we're confident that we will have success passing through the price increases. While we continue to focus on execution of our strategy to grow our sales and invest and manage our business for further operating leverage."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 48,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Low interest rates, ample liquidity, and a search for yield continue to sustain the credit markets and buoy equity markets, creating a somewhat challenging investment environment for our countercyclical investment strategies."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Low interest rates, ample liquidity, and a search for yield continue to sustain the credit markets and buoy equity markets, creating a somewhat challenging investment environment through our countercyclical investment strategies.",
+        "pred": "Low interest rates, ample liquidity, and a search for yield continue to sustain the credit markets and buoy equity markets, creating a somewhat challenging investment environment for our countercyclical investment strategies."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 49,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "I should add that the majority of the assets that we have closed or are under contract were secured off-market, thus avoiding competitive auction-like bidding. This is a complement to our ongoing efforts to further develop our relationships throughout the industry."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I should add that the majority of the assets that we have closed or are under contract were secured off-market, thus avoiding competitive option like bidding. This is a complement to our ongoing efforts to further develop our relationships throughout the industry.",
+        "pred": "I should add that the majority of the assets that we have closed or are under contract were secured off-market, thus avoiding competitive auction-like bidding. This is a complement to our ongoing efforts to further develop our relationships throughout the industry."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 50,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And hang on to the business that we have. And they also don't want to see antagonistic relationships where we have multiple suppliers of the same product that have to compete through our channels. So."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "and hang on to the business that we have. And they also don't want to see antagonistic relationships, where we have multiple suppliers of the same product that have to compete through our channels. So",
+        "pred": "And hang on to the business that we have. And they also don't want to see antagonistic relationships where we have multiple suppliers of the same product that have to compete through our channels. So."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 51,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "They'll ask us to look at that, so it's really it's a little bit of a two way street. A lot of our opportunities come from client driven needs that they're talking to our account management and sales team about all the time."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "they'll ask us to look at that. So it's really -- it's a little bit of a 2-way street. A lot of our opportunities come from client-driven needs that they're talking to our account management and sales team about all the time.",
+        "pred": "They'll ask us to look at that, so it's really it's a little bit of a two way street. A lot of our opportunities come from client driven needs that they're talking to our account management and sales team about all the time."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 52,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "But we still want every quarter to be at a certain number, and that I thought we were a little disappointed that we didn't get to the double-digit number. And we did see actually a slowdown post Diwali."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "but we still want every quarter to be at a certain number and that I thought we were a little disappointed that we didn't get to the double-digit number, and we did see actually a slowdown post Diwali.",
+        "pred": "But we still want every quarter to be at a certain number, and that I thought we were a little disappointed that we didn't get to the double-digit number. And we did see actually a slowdown post Diwali."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 53,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Turning to Seven Seas Water on slide six, we had a very productive quarter with plants operating as expected. All plants either met or exceeded production expectations, and the majority experienced increased demand from our customers."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Turning to Seven Seas Water on Slide 6. We had a very productive quarter with plants operating as expected. All plants either met or exceeded production expectations and the majority experienced increased demand from our customers",
+        "pred": "Turning to Seven Seas Water on slide six, we had a very productive quarter with plants operating as expected. All plants either met or exceeded production expectations, and the majority experienced increased demand from our customers."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 54,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "We are also planning to change our calculation of adjusted operating margins to exclude transaction amortization, so investors can get a better sense of core margin performance. We envision making this change starting with our first quarter reporting."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "We are also planning to change our calculation of adjusted operating margins to exclude transaction amortization, so investors can get a better sense of core margin performance. We envision making this change starting with our first quarter reporting.",
+        "pred": "We are also planning to change our calculation of adjusted operating margins to exclude transaction amortization, so investors can get a better sense of core margin performance. We envision making this change starting with our first quarter reporting."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 55,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, you were talking about O two O and you were talking about advertisements, but that's an area of your strength from the past. So, for financial services and its monetization, as you strive to make progress, I think t here is a lot of still missing pieces."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So you were talking about O2O, and you were talking about advertisements, but that's an area of your strength from the past. So for financial services and its monetization, as you strive to make progress, I think there's a lot of still missing pieces.",
+        "pred": "So, you were talking about O two O and you were talking about advertisements, but that's an area of your strength from the past. So, for financial services and its monetization, as you strive to make progress, I think t here is a lot of still missing pieces."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 56,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The first changes we've made to focus the business on the storage business, where we are dedicated to making sure that we decline less than a market that is in secular decline."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "the first changes we've made to focus the business -- the storage business where we are dedicated to making sure that we decline less than a market that is in secular decline,",
+        "pred": "The first changes we've made to focus the business on the storage business, where we are dedicated to making sure that we decline less than a market that is in secular decline."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 57,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "I also want to salute the heroic efforts of our Aramark team members who supported our clients, consumers, and the broad communities in the face of several unprecedented natural disasters, and who will continue to do so with the cleanup efforts that lie ahead."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I also want to salute the heroic efforts of our Aramark team members who supported our clients, consumers and the broad communities in the face of several unprecedented natural disasters and who'll continue to do so with the cleanup efforts that lie ahead.",
+        "pred": "I also want to salute the heroic efforts of our Aramark team members who supported our clients, consumers, and the broad communities in the face of several unprecedented natural disasters, and who will continue to do so with the cleanup efforts that lie ahead."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 58,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Ship out your products. However, if your products cannot be sold through, it will be very difficult for you. You have to protect your brand. You have to return the payments. You cannot have your products in the wrong places."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "ship out your products. However, if your products can not be sell-through, it will be very difficult for you. You have to protect your brand, you have to return the payments. You cannot have your products in the wrong places.",
+        "pred": "Ship out your products. However, if your products cannot be sold through, it will be very difficult for you. You have to protect your brand. You have to return the payments. You cannot have your products in the wrong places."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 59,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "When, the market changes very fast. You don't want to be caught unprepared. For example, when it starts raining, you suddenly realize you don't have your umbrella or the bucket. Then that, you have a big problem. Regarding your second question."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "when the market changes very fast, you don't want to be caught unprepared. For example, when it starts raining, you suddenly realize you don't have your umbrella or the bucket, then that -- you have a big problem. Regarding your second question,",
+        "pred": "When, the market changes very fast. You don't want to be caught unprepared. For example, when it starts raining, you suddenly realize you don't have your umbrella or the bucket. Then that, you have a big problem. Regarding your second question."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 60,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "But I, you know, I think the one point we can make is we're starting to see that, you know, we get sort of a better grip on and visibility on what the overall pipeline looks like, and it's gradually coming down. And I think that's."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "But I think the one point we can make is we're starting to see that we get sort of a better grip on and visibility on what the overall pipeline looks like, and it is gradually coming down. And I think that's",
+        "pred": "But I, you know, I think the one point we can make is we're starting to see that, you know, we get sort of a better grip on and visibility on what the overall pipeline looks like, and it's gradually coming down. And I think that's."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 61,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Which ended on September thirtieth, two thousand sixteen. Through this audio presentation, we would like to review the financial results and highlight the major factors that influenced Honda's business operations during the period."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "which ended on September 30, 2016. Through this audio presentation, we would like to review the financial results and highlight the major factors that influenced Honda's business operations during the period.",
+        "pred": "Which ended on September thirtieth, two thousand sixteen. Through this audio presentation, we would like to review the financial results and highlight the major factors that influenced Honda's business operations during the period."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 62,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "When we publish our third quarter actuals, we will also be updating our first and second quarter non-GAAP actual results to reflect this common measurement. This measurement will eliminate the noise associated with negative purchase accounting effects that are most pronounced with software acquisitions."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "When we publish our third quarter actuals, we will also be updating our first and second quarter non-GAAP actual results to reflect this common measurement. This measurement will eliminate the noise associated with negative purchase accounting effects that are most pronounced in the software acquisitions",
+        "pred": "When we publish our third quarter actuals, we will also be updating our first and second quarter non-GAAP actual results to reflect this common measurement. This measurement will eliminate the noise associated with negative purchase accounting effects that are most pronounced with software acquisitions."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 63,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "You have a very good idea of what the traffic patterns are now. So, going forward, we shouldn't see more of these changes in the as dramatic changes in the mix as you've seen in the past. And you start to see the benefits of some of the circuit costs you spent."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "you have a very good idea of what the traffic patterns are now. So going forward, we shouldn't see more of these changes in the -- as dramatic a change in the mix as you've seen in the past? And you start to see the benefits of some of the circuit costs you spent?",
+        "pred": "You have a very good idea of what the traffic patterns are now. So, going forward, we shouldn't see more of these changes in the as dramatic changes in the mix as you've seen in the past. And you start to see the benefits of some of the circuit costs you spent."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 64,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Textbook sales were impacted by the delayed rush and the community college trends, as well as increased consumer purchases directly from publishers and other online providers."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Textbook sales were impacted by the delayed rush and the community college trends as well as increased consumer purchases directly from publishers and other online providers.",
+        "pred": "Textbook sales were impacted by the delayed rush and the community college trends, as well as increased consumer purchases directly from publishers and other online providers."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 65,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Such as customer acquisition analysis, credit decisioning, and fraud prevention, we have signed a number of large clients already across several industries and recorded real revenue in our first year of operation."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "such as corporate acquisition analysis, credit decisioning and fraud prevention. We have signed a number of large clients already across several industries and recorded real revenue in our first year of operation.",
+        "pred": "Such as customer acquisition analysis, credit decisioning, and fraud prevention, we have signed a number of large clients already across several industries and recorded real revenue in our first year of operation."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 66,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "But on the other end of that spectrum, older dogs, dogs with chronic diseases, you know, they have inappetence that is much more of a chronic condition. So we would expect over time to see use in chronic as vets get familiar with the product."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "But on the other end of that spectrum, older dogs, dogs with chronic diseases, they have inappetence that is much more of a chronic condition. So we would expect over time to see use in chronic, as vets get familiar with the product.",
+        "pred": "But on the other end of that spectrum, older dogs, dogs with chronic diseases, you know, they have inappetence that is much more of a chronic condition. So we would expect over time to see use in chronic as vets get familiar with the product."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 67,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "As well as our performance during the third quarter and year to date, we remain confident in our ability to execute during the holiday season and into two thousand and sixteen. Before I conclude, I would like to take a moment to thank our associates."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "as well as our performance during the third quarter and year-to-date, we remain confident in our ability to execute during the holiday season and into 2016. Before I conclude, I would like to take a moment to thank our associates",
+        "pred": "As well as our performance during the third quarter and year to date, we remain confident in our ability to execute during the holiday season and into two thousand and sixteen. Before I conclude, I would like to take a moment to thank our associates."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 68,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Such forward-looking statements are given as of the date of this call and involve risks and uncertainties. A number of factors and assumptions were applied in the formulation of such statements, and actual results could differ materially."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Such forward-looking statements are given as of the date of this call and involve risks and uncertainties. A number of factors and assumptions were applied in the formulation of such statements and actual results could differ materially.",
+        "pred": "Such forward-looking statements are given as of the date of this call and involve risks and uncertainties. A number of factors and assumptions were applied in the formulation of such statements, and actual results could differ materially."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 69,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Just trying to figure out what exactly is kind of causing the shift. You know, I think a big piece of it is that you guys are shifting more activity to the Delaware, which is a higher per well cost, and that might be bringing up the average. But want to get your thoughts there."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Just trying to figure out what exactly is kind of causing the shift. I think a big piece of it is that you guys are shifting more activity to the Delaware, which has a higher per well cost and that might be bringing up the average. But wanted to get your thoughts there.",
+        "pred": "Just trying to figure out what exactly is kind of causing the shift. You know, I think a big piece of it is that you guys are shifting more activity to the Delaware, which is a higher per well cost, and that might be bringing up the average. But want to get your thoughts there."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 70,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Silver Lake has extensive experience supporting both growth and margin expansion initiatives, and we believe their advice and support will help speed our transformation into a high-margin growth software company."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Silver Lake has extensive experience supporting both growth and margin expansion initiatives, and we believe their advice and support will help speed our transformation into a high-margin growth software company.",
+        "pred": "Silver Lake has extensive experience supporting both growth and margin expansion initiatives, and we believe their advice and support will help speed our transformation into a high-margin growth software company."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 71,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "For a protocol violation, after he received an unrelated vaccination for shingles just before his second dose of SEL two hundred and twelve, his uric acid level had been fully controlled over the first month."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "for a protocol violation, after he received an unrelated vaccination for shingles just before his second dose of SEL-212. His uric acid level had been fully controlled over the first month.",
+        "pred": "For a protocol violation, after he received an unrelated vaccination for shingles just before his second dose of SEL two hundred and twelve, his uric acid level had been fully controlled over the first month."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 72,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Having been in China since nineteen ninety nine, the strength of our brand, the trust we have built with our customers and partners, and our working knowledge of the many nuances of the China market uniquely positions us for continued long term success."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Having been in China since 1999, the strength of our brand, the trust we have built with our customers and partners and our working knowledge of the many nuances of the China market uniquely positions us for continued long-term success.",
+        "pred": "Having been in China since nineteen ninety nine, the strength of our brand, the trust we have built with our customers and partners, and our working knowledge of the many nuances of the China market uniquely positions us for continued long term success."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 73,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "But of even greater longer term importance is the work we're doing to make our marketing more effective. Diageo has marketing flair. Our teams create great marketing campaigns to drive the growth of our brands."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "But of even greater longer-term importance is the work we're doing to make our marketing more effective. Diageo has marketing flair. Our teams create great marketing campaigns to drive the growth of our brands,",
+        "pred": "But of even greater longer term importance is the work we're doing to make our marketing more effective. Diageo has marketing flair. Our teams create great marketing campaigns to drive the growth of our brands."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 74,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, you know, it's a combination. There is just not one easy answer, and I can tell you, we're very dedicated to those practices. Those geographies are very important to us. We have outstanding clients in those areas."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So it's a combination. There's just not one easy answer. And I can tell you, we're very dedicated to those practices. Those geographies are very important to us. We have outstanding clients in those areas.",
+        "pred": "So, you know, it's a combination. There is just not one easy answer, and I can tell you, we're very dedicated to those practices. Those geographies are very important to us. We have outstanding clients in those areas."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 75,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, as is clearly illustrated, loading operations of blast holes are significantly complicated by the presence of wires. So, you see the two pictures that I draw your attention. So, this is how the traditional"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So as is clearly illustrated, loading operations on blast holes are significantly complicated by the presence of wires. So you see the 2 pictures that I draw your attention. So this is how the traditional",
+        "pred": "So, as is clearly illustrated, loading operations of blast holes are significantly complicated by the presence of wires. So, you see the two pictures that I draw your attention. So, this is how the traditional"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 76,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "That both gave you some cost absorption. Actually, the growth could contribute some amount of earnings, and then we started to see some pricing that also helped us sustain fifty percent operating leverage over the last couple of years. We're now kind of entering a stage where our assets are a bit better utilized."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "that both gave you some cost absorption, actually, the growth could contribute some amount of earnings, and then we started to see some pricing that also helped us sustain 50% operating leverage over the last couple of years. We are now kind of entering a stage where our assets are a bit better utilized.",
+        "pred": "That both gave you some cost absorption. Actually, the growth could contribute some amount of earnings, and then we started to see some pricing that also helped us sustain fifty percent operating leverage over the last couple of years. We're now kind of entering a stage where our assets are a bit better utilized."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 77,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "At the beginning of July, we divested our household cleaning segment. The transaction is accumulation of many strategic actions we've taken over the last seven years towards becoming a focused and leading consumer healthcare company."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "At the beginning of July, we divested our household cleaning segment. The transaction is accumulation of many strategic actions we've taken over the last 7 years towards becoming a focused and leading consumer healthcare company.",
+        "pred": "At the beginning of July, we divested our household cleaning segment. The transaction is accumulation of many strategic actions we've taken over the last seven years towards becoming a focused and leading consumer healthcare company."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 78,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "That started to ship in June. We believe, given the six-month timeframe provided, we will be able to sell out a significant portion of that capacity in the form of parent rolls and retail sales with margins comparable to or better than currently achieved."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "that started to ship in June. We believe, given the 6-month time frame provided, we will be able to sell out a significant portion of that capacity in the form of parent rolls and retail sales with margins comparable to or better than currently achieved.",
+        "pred": "That started to ship in June. We believe, given the six-month timeframe provided, we will be able to sell out a significant portion of that capacity in the form of parent rolls and retail sales with margins comparable to or better than currently achieved."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 79,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Please be advised that this conference call will contain statements that are forward-looking and subject to a number of risks and uncertainties that could cause actual results to differ materially from those anticipated. I would like to remind everyone that this conference call is being recorded today, Wednesday."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "please be advised that this conference call will contain statements that are forward-looking and subject to a number of risks and uncertainties that could cause actual results to differ materially from those anticipated. I would like to remind everyone that this conference call is being recorded today, Wednesday,",
+        "pred": "Please be advised that this conference call will contain statements that are forward-looking and subject to a number of risks and uncertainties that could cause actual results to differ materially from those anticipated. I would like to remind everyone that this conference call is being recorded today, Wednesday."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 80,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "To work for less than their peers at other airlines, we're not going to do that. So, yeah, we're going to sign contracts when we sign them; they're going to be at those levels. And yes, and no, we don't expect that."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "to work for less than their peers at other airline. We're not going to do that. So yes, we're going to sign contracts. When we sign them, they're going to be at those levels and yes. And no, we don't expect that",
+        "pred": "To work for less than their peers at other airlines, we're not going to do that. So, yeah, we're going to sign contracts when we sign them; they're going to be at those levels. And yes, and no, we don't expect that."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 81,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "High single digits throughout the year and had moderated back to flat in Q three, and then also we had the water purification business, which also was strong most of the year and took a little bit of a pause in Q three. So, that's where the misses came, Steve."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "high single digits throughout the year and had moderated back to flat in Q3. And then also, we had the water purification business, which also was strong most of the year and took a little bit of a pause in Q3. So that's where the misses came, Steve.",
+        "pred": "High single digits throughout the year and had moderated back to flat in Q three, and then also we had the water purification business, which also was strong most of the year and took a little bit of a pause in Q three. So, that's where the misses came, Steve."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 82,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Build plans to address unforeseen circumstances as they come up, but just keep our eye on the ball as it relates to delivering this year, but also investing in things that are exciting and will lead to sustainable growth for the future."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "build plans to address unforeseen circumstances as they come up, but just keep our eye on the ball as it relates to delivering this year but also investing in things that are exciting and will lead to sustainable growth for the future.",
+        "pred": "Build plans to address unforeseen circumstances as they come up, but just keep our eye on the ball as it relates to delivering this year, but also investing in things that are exciting and will lead to sustainable growth for the future."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 83,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "All of the details, by the way, are available on the Form 4s that we filed to disclose all of the details to grants to officers and directors. And I would like to add that most of these grants are performance-based grants."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "All of the details, by the way, are available on the Form 4s that we filed to disclose all of the details to grants to officers and directors. And I would like to add that most of these grants are performance-based grants",
+        "pred": "All of the details, by the way, are available on the Form 4s that we filed to disclose all of the details to grants to officers and directors. And I would like to add that most of these grants are performance-based grants."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 84,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "As I mentioned on our October call, our budget for repairs and maintenance expenses does not assume expenses related to property damage or other one-time items. Our updated guidance does include the impact of recent minimum wage changes in states such as Arizona and Washington."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "As I mentioned on our October call, our budget for repairs and maintenance expenses does not assume expenses related to property damage or other onetime items. Our updated guidance does include the impact of recent minimum wage changes in states such as Arizona and Washington.",
+        "pred": "As I mentioned on our October call, our budget for repairs and maintenance expenses does not assume expenses related to property damage or other one-time items. Our updated guidance does include the impact of recent minimum wage changes in states such as Arizona and Washington."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 85,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "So with that, I just tell you, I think he is an ideal candidate to take over that role from our really long standing, Camilo Kissmantel, that made an excellent job representing that company."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So with that, I just tell you, I think he is an ideal candidate to take over that role from our really long-standing Kamillo Kitzmantel that made an excellent job representing that company",
+        "pred": "So with that, I just tell you, I think he is an ideal candidate to take over that role from our really long standing, Camilo Kissmantel, that made an excellent job representing that company."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 86,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Is this, you know, the opportunities is more and more like a credit card kind of portfolio? And one of the attractive aspects of a credit card portfolio is actually you've got a high average credit score relative to the yield."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "is this -- the opportunities is more and more like a credit card kind of portfolio. And one of the attractive aspects of a credit card portfolio is actually you've got a high average credit score relative to the yield",
+        "pred": "Is this, you know, the opportunities is more and more like a credit card kind of portfolio? And one of the attractive aspects of a credit card portfolio is actually you've got a high average credit score relative to the yield."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 87,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "In South Dakota, a bill requiring every school to have a safety plan and lockdown drills passed committee. In Indiana, the state senate is voting on a proposal to create a handbook of safety precautions schools can follow."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "In South Dakota, a bill requiring every school to have a safety plan and lockdown drills pass committee. In Indiana, the state senate is voting on a proposal to create a handbook of safety precautions schools can follow.",
+        "pred": "In South Dakota, a bill requiring every school to have a safety plan and lockdown drills passed committee. In Indiana, the state senate is voting on a proposal to create a handbook of safety precautions schools can follow."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 88,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "A moving target there, as well as in other countries, so we like to have that capacity that gives us liquidity. And we think that it's an advantage to be able to move in areas that we need as we go into the next crop season."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "a moving target there as well as in other countries. So we like to have that capacity that gives us liquidity and we think that it's an advantage to be able to move in areas that we need as we go into the next crop season.",
+        "pred": "A moving target there, as well as in other countries, so we like to have that capacity that gives us liquidity. And we think that it's an advantage to be able to move in areas that we need as we go into the next crop season."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 89,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And so, these are technologies that they'll turn off in very dire times, but they will end up turning them back on because it's not very smart economically to have these turned off for long periods of time because you are going to basically blow out your pipe."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And so these are technologies that they'll turn off in very dire times, but they will end up turning it back on because it's not very smart economically to have these turned off for a long period of time because you're going to be basically blow out your pipe.",
+        "pred": "And so, these are technologies that they'll turn off in very dire times, but they will end up turning them back on because it's not very smart economically to have these turned off for long periods of time because you are going to basically blow out your pipe."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 90,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "The other area, I think, would be just kind of world economic health. I don't think the world's going to turn to recession, but it's kind of a flaky world right now, and it's almost binary; things turn on and off."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The other area I think would be just kind of world economic health. I don't think the world's going to turn to recession, but it's kind of a flaky world right now, and it's almost a binary, things turn on and off",
+        "pred": "The other area, I think, would be just kind of world economic health. I don't think the world's going to turn to recession, but it's kind of a flaky world right now, and it's almost binary; things turn on and off."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 91,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "So, customers with that profile are hidden. Not everybody gets to them, but we do. So, that's basically it. We are going to places where we understand that."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "So customers with that profile are hidden. Not everybody gets to them, but we do. So that's basically it. We are going to places where we understand that",
+        "pred": "So, customers with that profile are hidden. Not everybody gets to them, but we do. So, that's basically it. We are going to places where we understand that."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 92,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Also, we have a continued focus on safety and reliability. We have an unwavering commitment to top-quartile safety performance and reliability. So, we want to create value for not just the shareholders, but our customers and our employees as well."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Also, we have a continued focus on safety and reliability. We have an unwavering commitment to top quartile safety performance and reliability, so we want to create value for not just the shareholders but our customers and our employees as well.",
+        "pred": "Also, we have a continued focus on safety and reliability. We have an unwavering commitment to top-quartile safety performance and reliability. So, we want to create value for not just the shareholders, but our customers and our employees as well."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 93,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Latin America had positive organic growth, but slowed compared to prior year because of lower pricing and the strike in Brazil. Pricing was still negative in the half, but improved significantly in the second quarter."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Latin America had positive organic growth, but slowed compared to prior year because of lower pricing and the strike in Brazil. Pricing was still negative in the half, but improved significantly in the second quarter. Brazil",
+        "pred": "Latin America had positive organic growth, but slowed compared to prior year because of lower pricing and the strike in Brazil. Pricing was still negative in the half, but improved significantly in the second quarter."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 94,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "That's why we believe that it may be in the late second quarter or early in the third quarter that we may actually have this export license move through the process. But it is not something that is new."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "That's why we believe that it may be in the late second quarter or early in the third quarter that we may actually have this export license move through the process, but it is not something that is new.",
+        "pred": "That's why we believe that it may be in the late second quarter or early in the third quarter that we may actually have this export license move through the process. But it is not something that is new."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 95,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Today's remarks may also include financial measures that were not prepared in accordance with U.S. generally accepted accounting principles. Reconciliations of non-GAAP financial measures to the most directly comparable GAAP financial measures can be found in our earnings release."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Today's remarks may also include financial measures that were not prepared in accordance with U.S. generally accepted accounting principles. Reconciliations of non-GAAP financial measures to the most directly comparable GAAP financial measures can be found in our earnings release",
+        "pred": "Today's remarks may also include financial measures that were not prepared in accordance with U.S. generally accepted accounting principles. Reconciliations of non-GAAP financial measures to the most directly comparable GAAP financial measures can be found in our earnings release."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 96,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Hi, I just had a quick follow up one to the few questions ago on the capital recycling. I was just wondering if you could discuss as you go forward and you are more balanced in terms of dispositions versus and the uses of those proceeds, what do you"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I just had a quick follow-up one to the -- a few questions ago on the capital recycling. I was just wondering if you could discuss, as you go forward and you're more balanced in terms of dispositions versus -- and the uses of those proceeds, what do you",
+        "pred": "Hi, I just had a quick follow up one to the few questions ago on the capital recycling. I was just wondering if you could discuss as you go forward and you are more balanced in terms of dispositions versus and the uses of those proceeds, what do you"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 97,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "And so, I think we have a good level of confidence in the middle market right now. I think it does give us the capability to continue to recruit strong numbers. Keep in mind that you are always going to have a lag time as recruits pull through to licenses of a quarter or so."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "And so I think we have a good level of confidence in the middle market right now. I think it does give us the capability to continue to recruit strong numbers. Keep in mind that you're always going to have a lag time as recruits pull through the licenses of a quarter or so.",
+        "pred": "And so, I think we have a good level of confidence in the middle market right now. I think it does give us the capability to continue to recruit strong numbers. Keep in mind that you are always going to have a lag time as recruits pull through to licenses of a quarter or so."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 98,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "Although we set what I felt was a low bar of attaining historical job-to-date productivity at the end of the second quarter, we experienced slightly lower productivity than historical performance in Q three and took an additional charge."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Although we set what I felt was a low bar of attaining historical job-to-date productivity at the end of the second quarter, we experienced slightly lower productivity than historical performance in Q3 and took an additional charge.",
+        "pred": "Although we set what I felt was a low bar of attaining historical job-to-date productivity at the end of the second quarter, we experienced slightly lower productivity than historical performance in Q three and took an additional charge."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 99,
+      "target": "gt",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 4096,
+          "temperature": 0,
+          "top_p": 1,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "open_asr_spgispeech",
+        "test"
+      ],
+      "filtered_resps": [
+        "In this study, no infants have discontinued or withdrawn from the study due to adverse events, and no new safety concerns have been identified. These results are encouraging, and we believe continue to highlight the need for newborn screening."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "In this study, no infants have discontinued or withdrawn from the study due to adverse events and no new safety concerns have been identified. These results are encouraging and we believe continue to highlight the need for newborn screening.",
+        "pred": "In this study, no infants have discontinued or withdrawn from the study due to adverse events, and no new safety concerns have been identified. These results are encouraging, and we believe continue to highlight the need for newborn screening."
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    }
+  ],
+  "total_samples": 39341
+}

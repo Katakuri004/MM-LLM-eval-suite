@@ -62,11 +62,32 @@ async def get_external_results():
             benchmark_count = len(detail.get('benchmarks', []))
             total_samples = sum(b.get('total_samples', 0) for b in detail.get('benchmarks', []))
             
-            # Aggregate numeric metrics across benchmarks
+            # Aggregate numeric metrics across benchmarks, excluding time fields
+            time_fields = [
+                'start_time', 'end_time', 'starttime', 'endtime',
+                'created_at', 'updated_at', 'createdat', 'updatedat',
+                'timestamp', 'time', 'duration', 'elapsed',
+                'date', 'datetime', 'when'
+            ]
+            
             sums = {}
             for b in detail.get('benchmarks', []):
                 for k, v in b.get('metrics', {}).items():
                     if isinstance(v, (int, float)) and not (isinstance(v, float) and (v != v or v == float('inf'))):
+                        # Exclude time-related fields
+                        key_lower = k.lower().replace('_', '').replace('-', '')
+                        if any(tf.lower() in key_lower for tf in time_fields):
+                            continue
+                        
+                        # Exclude config-like fields
+                        config_fields = ['fewshot', 'config', 'setting', 'param', 'multiturn']
+                        if any(cf.lower() in key_lower for cf in config_fields):
+                            continue
+                        
+                        # Exclude timestamp-like values (very large numbers)
+                        if v > 1000000000:
+                            continue
+                        
                         if k not in sums:
                             sums[k] = {"total": 0, "count": 0}
                         sums[k]["total"] += v

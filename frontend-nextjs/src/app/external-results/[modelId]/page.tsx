@@ -180,26 +180,108 @@ export default function ExternalModelDetailPage() {
         </div>
       </div>
 
-      {detail.summary_metrics && Object.keys(detail.summary_metrics).length > 0 && (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {Object.entries(detail.summary_metrics)
-            .filter(([_, v]) => typeof v === 'number')
-            .slice(0, 4)
-            .map(([key, value]: any) => (
-              <div
-                key={key}
-                className="bg-card border rounded-lg p-4 text-center hover:shadow-sm transition-shadow"
-              >
-                <div className="text-2xl font-bold text-blue-600">
-                  {typeof value === 'number' ? (value * 100).toFixed(1) + '%' : String(value)}
+      {detail.summary_metrics && Object.keys(detail.summary_metrics).length > 0 && (() => {
+        // Filter summary metrics to exclude time fields and show only relevant performance metrics
+        const timeFields = [
+          'start_time', 'end_time', 'starttime', 'endtime',
+          'created_at', 'updated_at', 'createdat', 'updatedat',
+          'timestamp', 'time', 'duration', 'elapsed',
+          'date', 'datetime', 'when'
+        ]
+        
+        const relevantSummaryMetrics = Object.entries(detail.summary_metrics)
+          .filter(([k, v]) => {
+            if (typeof v !== 'number' || !Number.isFinite(v)) return false
+            
+            const key = k.toLowerCase().replace(/_/g, '').replace(/-/g, '')
+            
+            // Exclude time-related fields
+            if (timeFields.some(tf => key.includes(tf.toLowerCase()))) return false
+            
+            // Exclude timestamp-like values (very large numbers)
+            if (v > 1000000000) return false
+            
+            // Exclude config-like fields (fewshot, config, settings, etc.)
+            const configFields = ['fewshot', 'config', 'setting', 'param', 'multiturn']
+            if (configFields.some(cf => key.includes(cf.toLowerCase()))) return false
+            
+            // Include performance metrics
+            const isPerformanceMetric = (
+              key.includes('acc') || 
+              key.includes('exact_match') || 
+              key.includes('exactmatch') ||
+              key.includes('f1') || 
+              key.includes('score') ||
+              key.includes('bleu') ||
+              key.includes('rouge') ||
+              key.includes('precision') ||
+              key.includes('recall') ||
+              key.includes('meteor') ||
+              key.includes('cider') ||
+              key.includes('spice') ||
+              key.includes('wer') ||
+              key.includes('cer') ||
+              key.includes('em') ||
+              key.includes('error') ||
+              key.includes('rate')
+            )
+            
+            // Show performance metrics, or reasonable metric values that aren't config
+            const isReasonableMetricValue = (v >= 0 && v <= 1) || (v >= 0 && v <= 100)
+            return isPerformanceMetric || (isReasonableMetricValue && !key.includes('config'))
+          })
+          .sort(([a], [b]) => {
+            // Prioritize accuracy metrics
+            const aKey = a.toLowerCase().replace(/_/g, '').replace(/-/g, '')
+            const bKey = b.toLowerCase().replace(/_/g, '').replace(/-/g, '')
+            
+            const getPriority = (key: string): number => {
+              if (key === 'acc' || key === 'accuracy') return 1
+              if (key === 'accnorm' || key === 'acc_norm') return 2
+              if (key.includes('exactmatch')) return 3
+              if (key.includes('f1')) return 4
+              if (key.includes('score')) return 5
+              if (key.includes('bleu')) return 6
+              if (key.includes('rouge')) return 7
+              return 8
+            }
+            
+            return getPriority(aKey) - getPriority(bKey)
+          })
+          .slice(0, 8) // Show top 8 summary metrics
+        
+        if (relevantSummaryMetrics.length === 0) return null
+        
+        return (
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4">
+            {relevantSummaryMetrics.map(([key, value]: any) => {
+              // Format metric name
+              const displayKey = key
+                .replace(/_/g, ' ')
+                .replace(/\bacc\b/gi, 'Acc')
+                .replace(/\bexact match\b/gi, 'Exact Match')
+                .replace(/\bstderr\b/gi, 'Stderr')
+                .split(' ')
+                .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+                .join(' ')
+              
+              return (
+                <div
+                  key={key}
+                  className="bg-card border rounded-lg p-4 text-center hover:shadow-sm transition-shadow"
+                >
+                  <div className="text-2xl font-bold text-blue-600">
+                    {(value * 100).toFixed(2)}%
+                  </div>
+                  <div className="text-sm text-muted-foreground capitalize mt-1">
+                    {displayKey}
+                  </div>
                 </div>
-                <div className="text-sm text-muted-foreground capitalize mt-1">
-                  {key.replace(/_/g, ' ')}
-                </div>
-              </div>
-            ))}
-        </div>
-      )}
+              )
+            })}
+          </div>
+        )
+      })()}
 
       {/* Benchmarks and Capabilities side-by-side */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -231,16 +313,42 @@ export default function ExternalModelDetailPage() {
                   // Timestamps are typically > 1000000000 (epoch in seconds) or > 1000000000000 (epoch in ms)
                   if (v > 1000000000) return false
                   
-                  // Include only important performance metrics
-                  // Acc, Acc Norm, Exact Match, F1, Score (with or without stderr)
-                  return key.includes('acc') || 
-                         key.includes('exact_match') || 
-                         key.includes('f1') || 
-                         key.includes('score') ||
-                         key.includes('bleu') ||
-                         key.includes('rouge') ||
-                         key.includes('precision') ||
-                         key.includes('recall')
+                  // Include all performance metrics - be inclusive to show all relevant metrics
+                  // Check if it's a reasonable metric value (between 0 and 1 for most metrics, or up to 100 for percentages)
+                  // This allows us to show metrics even if they don't match common patterns
+                  const isReasonableMetricValue = (v >= 0 && v <= 10) || (v >= 0 && v <= 1) || (v <= 100)
+                  
+                  // Include common performance metric patterns
+                  const isPerformanceMetric = (
+                    key.includes('acc') || 
+                    key.includes('exact_match') || 
+                    key.includes('exactmatch') ||
+                    key.includes('f1') || 
+                    key.includes('score') ||
+                    key.includes('bleu') ||
+                    key.includes('rouge') ||
+                    key.includes('precision') ||
+                    key.includes('recall') ||
+                    key.includes('meteor') ||
+                    key.includes('cider') ||
+                    key.includes('spice') ||
+                    key.includes('wer') ||
+                    key.includes('cer') ||
+                    key.includes('perplexity') ||
+                    key.includes('loss') ||
+                    key.includes('auc') ||
+                    key.includes('mse') ||
+                    key.includes('mae') ||
+                    key.includes('r2') ||
+                    key.includes('em') || // Exact Match abbreviated
+                    key.includes('metric') ||
+                    key.includes('error') ||
+                    key.includes('rate')
+                  )
+                  
+                  // Show all numeric metrics that are performance-related OR reasonable values
+                  // This ensures we don't miss any important metrics
+                  return isPerformanceMetric || (isReasonableMetricValue && !key.includes('fewshot')) // Exclude "fewshot" config values
                 })
                 .sort(([a], [b]) => {
                   const aKey = a.toLowerCase().replace(/_/g, '').replace(/-/g, '')
@@ -278,7 +386,7 @@ export default function ExternalModelDetailPage() {
                   
                   return getPriority(aKey) - getPriority(bKey)
                 })
-                .slice(0, 6) // Show up to 6 metrics (2x3 or 3x2 grid)
+                // Show all filtered metrics, not just 6
 
               return (
                 <div key={b.benchmark_id} className="border rounded-md p-3 space-y-2.5">
@@ -290,9 +398,9 @@ export default function ExternalModelDetailPage() {
                     </span>
                   </div>
 
-                  {/* Metrics grid */}
+                  {/* Metrics grid - show all relevant metrics */}
                   {importantMetrics.length > 0 && (
-                    <div className="grid grid-cols-2 gap-2">
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                       {importantMetrics.map(([k, v]: any) => {
                         // Format metric name (Acc, Acc Norm, Acc Stderr, etc.)
                         const key = k.toLowerCase()

@@ -577,13 +577,35 @@ class ExternalResultsParser:
         
         if not metrics_exists:
             # Only write if file doesn't exist
+            # Exclude time-related fields when aggregating
+            time_fields = [
+                'start_time', 'end_time', 'starttime', 'endtime',
+                'created_at', 'updated_at', 'createdat', 'updatedat',
+                'timestamp', 'time', 'duration', 'elapsed',
+                'date', 'datetime', 'when'
+            ]
+            
             metrics_summary = {}
             consolidated = []
             
             for b in detail.get('benchmarks', []):
-                # Aggregate metrics
+                # Aggregate metrics, excluding time fields
                 for k, v in b.get('metrics', {}).items():
                     if isinstance(v, (int, float)) and not (isinstance(v, float) and (v != v or v == float('inf'))):
+                        # Exclude time-related fields
+                        key_lower = k.lower().replace('_', '').replace('-', '')
+                        if any(tf.lower() in key_lower for tf in time_fields):
+                            continue
+                        
+                        # Exclude config-like fields
+                        config_fields = ['fewshot', 'config', 'setting', 'param', 'multiturn']
+                        if any(cf.lower() in key_lower for cf in config_fields):
+                            continue
+                        
+                        # Exclude timestamp-like values (very large numbers)
+                        if v > 1000000000:
+                            continue
+                        
                         if k not in metrics_summary:
                             metrics_summary[k] = {"total": 0, "count": 0}
                         metrics_summary[k]["total"] += v

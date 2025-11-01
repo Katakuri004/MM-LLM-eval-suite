@@ -207,25 +207,25 @@ export function normalizeMetricValue(key: string, value: number): {
       // Check if dividing by 100 makes it reasonable
       const divided = value / 100
       if (divided >= 0 && divided <= 100) {
-        // Likely double-multiplied, divide back
+        // Likely double-multiplied, divide back and cap at 100%
         return {
-          displayValue: divided,
+          displayValue: Math.min(divided, 100),
           isPercentage: true,
           unit: '%'
         }
       }
-      // Otherwise might be a data error
+      // Otherwise cap at 100% for accuracy metrics
       return {
-        displayValue: value,
-        isPercentage: false,
-        unit: ''
+        displayValue: 100,
+        isPercentage: true,
+        unit: '%'
       }
     } else {
-      // Extremely large value, likely data error
+      // Extremely large value, likely data error - cap at 100% for accuracy metrics
       return {
-        displayValue: value,
-        isPercentage: false,
-        unit: ''
+        displayValue: 100,
+        isPercentage: true,
+        unit: '%'
       }
     }
   }
@@ -241,6 +241,29 @@ export function normalizeMetricValue(key: string, value: number): {
     } else if (value > 1 && value <= 100) {
       return {
         displayValue: value,
+        isPercentage: true,
+        unit: '%'
+      }
+    } else if (value > 100 && value <= 10000) {
+      // Might be double-multiplied, try dividing by 100
+      const divided = value / 100
+      if (divided >= 0 && divided <= 100) {
+        return {
+          displayValue: Math.min(divided, 100),
+          isPercentage: true,
+          unit: '%'
+        }
+      }
+      // Otherwise cap at 100%
+      return {
+        displayValue: 100,
+        isPercentage: true,
+        unit: '%'
+      }
+    } else {
+      // Extremely large, cap at 100%
+      return {
+        displayValue: 100,
         isPercentage: true,
         unit: '%'
       }
@@ -261,12 +284,30 @@ export function normalizeMetricValue(key: string, value: number): {
       isPercentage: true,
       unit: '%'
     }
-  } else {
-    // Values > 100 might be errors or special metrics - display as-is
+  } else if (value > 100 && value <= 10000) {
+    // Values > 100 but <= 10000 might be double-multiplied (e.g., 999.0 means 9.99% was multiplied twice)
+    // Try dividing by 100 to see if it makes sense
+    const divided = value / 100
+    if (divided >= 0 && divided <= 100) {
+      // Likely double-multiplied, divide back and cap at 100%
+      return {
+        displayValue: Math.min(divided, 100),
+        isPercentage: true,
+        unit: '%'
+      }
+    }
+    // If dividing doesn't help, cap at 100% for percentage metrics
     return {
-      displayValue: value,
-      isPercentage: false,
-      unit: ''
+      displayValue: 100,
+      isPercentage: true,
+      unit: '%'
+    }
+  } else {
+    // Extremely large values - likely data errors, cap at 100% for percentage metrics
+    return {
+      displayValue: 100,
+      isPercentage: true,
+      unit: '%'
     }
   }
 }
@@ -466,7 +507,16 @@ export function prepareHeatmapData(
         data[benchmark.benchmark_id] = {}
       }
       const normalized = normalizeMetricValue(key, value)
-      data[benchmark.benchmark_id][displayName] = normalized.displayValue
+      
+      // Cap percentage values at 100% for non-error-rate metrics
+      // Error rates (WER, CER) can legitimately exceed 100%, but accuracy metrics should be capped at 100%
+      let finalValue = normalized.displayValue
+      if (normalized.isPercentage && !isErrorRateMetric(key)) {
+        // For accuracy and score metrics, cap at 100%
+        finalValue = Math.min(finalValue, 100)
+      }
+      
+      data[benchmark.benchmark_id][displayName] = finalValue
     })
   })
   

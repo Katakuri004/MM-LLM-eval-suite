@@ -35,7 +35,6 @@ import { PerformanceOverview } from '@/components/external-results/PerformanceOv
 import { BenchmarkDetailChart } from '@/components/external-results/BenchmarkDetailChart'
 import { BenchmarkCompactCard } from '@/components/external-results/BenchmarkCompactCard'
 import { BenchmarkMetricsHeatmap } from '@/components/external-results/BenchmarkMetricsHeatmap'
-import { MetricCorrelationChart } from '@/components/external-results/MetricCorrelationChart'
 import { SampleDistributionChart } from '@/components/external-results/SampleDistributionChart'
 import { normalizeMetricValue } from '@/lib/chart-data-utils'
 
@@ -82,6 +81,10 @@ export default function ExternalModelDetailPage() {
   const [activeTab, setActiveTab] = useState<string>('overview')
   // State for selected benchmark detail view
   const [selectedBenchmark, setSelectedBenchmark] = useState<any | null>(null)
+  // State for chart dialog
+  const [chartDialogOpen, setChartDialogOpen] = useState<boolean>(false)
+  const [selectedChart, setSelectedChart] = useState<React.ReactNode | null>(null)
+  const [selectedChartTitle, setSelectedChartTitle] = useState<string>('')
 
   const { data: detail, isLoading, error } = useQuery({
     queryKey: ['external-model', modelId],
@@ -395,6 +398,16 @@ export default function ExternalModelDetailPage() {
           <PerformanceOverview
             benchmarks={detail.benchmarks || []}
             summaryMetrics={detail.summary_metrics}
+            onChartClick={(chartType, chartElement) => {
+              const titles: Record<string, string> = {
+                'summary': 'Summary Metrics Distribution',
+                'samples': 'Sample Distribution',
+                'top5': 'Top 5 Benchmarks by Accuracy'
+              }
+              setSelectedChart(chartElement)
+              setSelectedChartTitle(titles[chartType] || 'Chart')
+              setChartDialogOpen(true)
+            }}
           />
 
           {/* Benchmark Comparison Chart */}
@@ -407,28 +420,93 @@ export default function ExternalModelDetailPage() {
             <MetricDistributionChart benchmarks={detail.benchmarks} />
           )}
 
-          {/* Sample Distribution */}
-          {detail.benchmarks && detail.benchmarks.length > 0 && (
-            <SampleDistributionChart benchmarks={detail.benchmarks} />
-          )}
+          {/* Sample Distribution and Model Capabilities - Side by Side */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            {/* Sample Distribution */}
+            {detail.benchmarks && detail.benchmarks.length > 0 && (
+              <div
+                role="button"
+                tabIndex={0}
+                onClick={() => {
+                  setSelectedChart(
+                    <SampleDistributionChart 
+                      benchmarks={detail.benchmarks} 
+                      height={600}
+                    />
+                  )
+                  setSelectedChartTitle('Sample Distribution')
+                  setChartDialogOpen(true)
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault()
+                    setSelectedChart(
+                      <SampleDistributionChart 
+                        benchmarks={detail.benchmarks} 
+                        height={600}
+                      />
+                    )
+                    setSelectedChartTitle('Sample Distribution')
+                    setChartDialogOpen(true)
+                  }
+                }}
+                className="cursor-pointer transition-all duration-200 hover:scale-[1.02] hover:shadow-lg flex items-stretch"
+              >
+                <div className="w-full flex flex-col">
+                  <SampleDistributionChart benchmarks={detail.benchmarks} height={400} />
+                </div>
+              </div>
+            )}
 
-          {/* Capabilities Radar */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {/* Model Capabilities */}
             {capabilityScores.length > 0 && (
-              <Card>
-                <CardHeader>
-                  <CardTitle>Model Capabilities</CardTitle>
-                </CardHeader>
-                <CardContent>
+              <div
+                role="button"
+                tabIndex={0}
+                onClick={() => {
+                  setSelectedChart(
+                    <CapabilitiesRadar
+                      data={Object.fromEntries(
+                        capabilityScores.map(c => [c.name, c.score / 100])
+                      )}
+                      height={600}
+                      outerRadius={180}
+                      showTitle={false}
+                    />
+                  )
+                  setSelectedChartTitle('Model Capabilities')
+                  setChartDialogOpen(true)
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault()
+                    setSelectedChart(
+                      <CapabilitiesRadar
+                        data={Object.fromEntries(
+                          capabilityScores.map(c => [c.name, c.score / 100])
+                        )}
+                        height={600}
+                        outerRadius={180}
+                        showTitle={false}
+                      />
+                    )
+                    setSelectedChartTitle('Model Capabilities')
+                    setChartDialogOpen(true)
+                  }
+                }}
+                className="cursor-pointer transition-all duration-200 hover:scale-[1.02] hover:shadow-lg flex items-stretch"
+              >
+                <div className="w-full flex flex-col">
                   <CapabilitiesRadar
                     data={Object.fromEntries(
                       capabilityScores.map(c => [c.name, c.score / 100])
                     )}
+                    height={400}
                   />
-                </CardContent>
-              </Card>
-            )}
+                </div>
               </div>
+            )}
+          </div>
         </TabsContent>
 
         {/* Benchmarks Tab */}
@@ -555,11 +633,6 @@ export default function ExternalModelDetailPage() {
             />
           )}
 
-          {/* Metric Correlation */}
-          {detail.benchmarks && detail.benchmarks.length > 1 && (
-            <MetricCorrelationChart benchmarks={detail.benchmarks} />
-          )}
-
           {/* Performance Heatmap */}
           {detail.benchmarks && detail.benchmarks.length > 0 && (
             <BenchmarkMetricsHeatmap benchmarks={detail.benchmarks} />
@@ -601,6 +674,18 @@ export default function ExternalModelDetailPage() {
       </Tabs>
 
       <ExternalModelMetricsTabs detail={detailForTabs} />
+
+      {/* Chart Dialog */}
+      <Dialog open={chartDialogOpen} onOpenChange={setChartDialogOpen}>
+        <DialogContent className="max-w-6xl max-h-[90vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle>{selectedChartTitle}</DialogTitle>
+          </DialogHeader>
+          <div className="mt-4 w-full">
+            {selectedChart}
+          </div>
+        </DialogContent>
+      </Dialog>
 
       {/* Benchmark Detail Dialog */}
       <Dialog open={selectedBenchmark !== null} onOpenChange={(open) => !open && setSelectedBenchmark(null)}>

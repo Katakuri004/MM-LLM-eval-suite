@@ -9,7 +9,7 @@ import {
   TooltipTrigger
 } from '@/components/ui/tooltip'
 import { cn } from '@/lib/utils'
-import { prepareHeatmapData } from '@/lib/chart-data-utils'
+import { prepareHeatmapData, formatMetricName, isErrorRateMetric } from '@/lib/chart-data-utils'
 
 interface Benchmark {
   benchmark_id: string
@@ -83,50 +83,50 @@ export function BenchmarkMetricsHeatmap({
 
   return (
     <Card>
-      <CardHeader>
-        <CardTitle>Benchmark Metrics Heatmap</CardTitle>
-        <div className="text-sm text-muted-foreground">
-          Performance scores across benchmarks and metrics
-        </div>
+      <CardHeader className="pb-3">
+        <CardTitle className="text-base">Benchmark Metrics Heatmap</CardTitle>
       </CardHeader>
-      <CardContent>
+      <CardContent className="pt-0">
         <TooltipProvider>
-          <div className="space-y-4">
-            {/* Legend */}
-            <div className="flex items-center gap-4 text-sm flex-wrap">
+          <div className="space-y-2">
+            {/* Compact Legend */}
+            <div className="flex items-center gap-3 text-xs flex-wrap pb-2">
               <span className="text-muted-foreground">Performance:</span>
               <div className="flex items-center gap-1">
-                <div className="w-4 h-4 bg-gray-100 border rounded"></div>
+                <div className="w-3 h-3 bg-gray-100 border rounded"></div>
                 <span>No data</span>
               </div>
               <div className="flex items-center gap-1">
-                <div className="w-4 h-4 bg-red-100 border rounded"></div>
-                <span>Low (0-20%)</span>
+                <div className="w-3 h-3 bg-red-100 border rounded"></div>
+                <span>Low</span>
               </div>
               <div className="flex items-center gap-1">
-                <div className="w-4 h-4 bg-yellow-100 border rounded"></div>
-                <span>Medium (20-60%)</span>
+                <div className="w-3 h-3 bg-yellow-100 border rounded"></div>
+                <span>Medium</span>
               </div>
               <div className="flex items-center gap-1">
-                <div className="w-4 h-4 bg-green-100 border rounded"></div>
-                <span>High (60-100%)</span>
+                <div className="w-3 h-3 bg-green-100 border rounded"></div>
+                <span>High</span>
               </div>
             </div>
 
-            {/* Heatmap Table */}
-            <div className="overflow-x-auto">
+            {/* Compact Heatmap Table */}
+            <div className="overflow-x-auto -mx-2 px-2">
               <table className="w-full border-collapse">
                 <thead>
                   <tr>
-                    <th className="text-left p-2 font-medium text-muted-foreground sticky left-0 bg-background z-10">
+                    <th className="text-left px-1.5 py-1 text-xs font-medium text-muted-foreground sticky left-0 bg-background z-10 min-w-[120px]">
                       Benchmark
                     </th>
                     {heatmapData.metrics.map(metric => (
                       <th
                         key={metric}
-                        className="text-center p-2 font-medium text-muted-foreground min-w-[100px]"
+                        className="text-center px-1 py-1 text-xs font-medium text-muted-foreground min-w-[60px]"
+                        title={metric}
                       >
-                        {metric}
+                        <div className="truncate max-w-[60px]" title={metric}>
+                          {metric.length > 8 ? metric.substring(0, 8) + '...' : metric}
+                        </div>
                       </th>
                     ))}
                   </tr>
@@ -134,43 +134,60 @@ export function BenchmarkMetricsHeatmap({
                 <tbody>
                   {heatmapData.benchmarks.map(benchmarkId => {
                     const benchmark = benchmarks.find(b => b.benchmark_id === benchmarkId)
-                    const shortName = benchmarkId.length > 30
-                      ? benchmarkId.substring(0, 30) + '...'
+                    const shortName = benchmarkId.length > 20
+                      ? benchmarkId.substring(0, 20) + '...'
                       : benchmarkId
 
                     return (
-                      <tr key={benchmarkId} className="border-t">
-                        <td className="p-2 font-medium sticky left-0 bg-background z-10">
-                          <div className="flex items-center gap-2">
-                            <div className="w-3 h-3 rounded-full bg-blue-500"></div>
-                            <span className="truncate max-w-[200px]" title={benchmarkId}>
+                      <tr key={benchmarkId} className="border-t border-border/50">
+                        <td className="px-1.5 py-1 text-xs font-medium sticky left-0 bg-background z-10">
+                          <div className="flex items-center gap-1.5">
+                            <div className="w-2 h-2 rounded-full bg-blue-500 flex-shrink-0"></div>
+                            <span className="truncate max-w-[120px]" title={benchmarkId}>
                               {shortName}
                             </span>
                           </div>
                         </td>
                         {heatmapData.metrics.map(metric => {
-                          const value = heatmapData.data[benchmarkId]?.[metric] || 0
+                          let value = heatmapData.data[benchmarkId]?.[metric] || 0
+                          
+                          // Cap percentage values at 100% for non-error-rate metrics
+                          // Find the original metric key to check if it's an error rate
+                          const benchmark = benchmarks.find(b => b.benchmark_id === benchmarkId)
+                          if (benchmark) {
+                            const originalKey = Object.keys(benchmark.metrics || {}).find(
+                              k => formatMetricName(k) === metric
+                            )
+                            
+                            // Only cap if it's not an error rate metric
+                            if (originalKey && !isErrorRateMetric(originalKey) && value > 100) {
+                              value = 100
+                            }
+                          } else if (value > 100) {
+                            // Fallback: cap all values > 100 if we can't determine the metric type
+                            value = 100
+                          }
 
                           return (
-                            <td key={metric} className="p-1">
+                            <td key={metric} className="px-0.5 py-0.5">
                               <Tooltip>
                                 <TooltipTrigger asChild>
                                   <div
                                     className={cn(
-                                      'w-full h-12 rounded border flex items-center justify-center cursor-pointer transition-colors hover:opacity-80',
+                                      'w-full h-8 rounded-sm border border-border/30 flex items-center justify-center cursor-pointer transition-colors hover:opacity-80',
                                       getColorIntensity(value)
                                     )}
                                   >
-                                    <span className={cn('text-sm font-mono', getTextColor(value))}>
-                                      {value > 0 ? value.toFixed(1) + '%' : '—'}
+                                    <span className={cn('text-xs font-mono', getTextColor(value))}>
+                                      {value > 0 ? value.toFixed(0) + '%' : '—'}
                                     </span>
                                   </div>
                                 </TooltipTrigger>
                                 <TooltipContent>
                                   <div className="text-center">
-                                    <div className="font-semibold">{benchmarkId}</div>
-                                    <div className="text-sm text-muted-foreground">{metric}</div>
-                                    <div className="text-sm">
+                                    <div className="font-semibold text-xs">{benchmarkId}</div>
+                                    <div className="text-xs text-muted-foreground">{metric}</div>
+                                    <div className="text-xs">
                                       Score: {value > 0 ? value.toFixed(2) + '%' : 'No data'}
                                     </div>
                                   </div>
@@ -186,19 +203,19 @@ export function BenchmarkMetricsHeatmap({
               </table>
             </div>
 
-            {/* Statistics */}
-            <div className="grid grid-cols-3 gap-4 text-sm">
+            {/* Compact Statistics */}
+            <div className="grid grid-cols-3 gap-2 text-xs pt-2 border-t">
               <div className="text-center">
-                <div className="font-semibold text-muted-foreground">Min</div>
-                <div className="font-mono">{stats.min.toFixed(2)}%</div>
+                <div className="text-muted-foreground">Min</div>
+                <div className="font-mono font-semibold">{stats.min.toFixed(1)}%</div>
               </div>
               <div className="text-center">
-                <div className="font-semibold text-muted-foreground">Average</div>
-                <div className="font-mono">{stats.avg.toFixed(2)}%</div>
+                <div className="text-muted-foreground">Avg</div>
+                <div className="font-mono font-semibold">{stats.avg.toFixed(1)}%</div>
               </div>
               <div className="text-center">
-                <div className="font-semibold text-muted-foreground">Max</div>
-                <div className="font-mono">{stats.max.toFixed(2)}%</div>
+                <div className="text-muted-foreground">Max</div>
+                <div className="font-mono font-semibold">{stats.max.toFixed(1)}%</div>
               </div>
             </div>
           </div>

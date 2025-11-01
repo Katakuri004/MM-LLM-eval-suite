@@ -9,6 +9,7 @@ import Link from 'next/link'
 import { Database, Eye, Calendar, BarChart3 } from 'lucide-react'
 import { ShimmerLoader } from '@/components/ui/shimmer-loader'
 import { apiClient } from '@/lib/api'
+import { normalizeMetricValue } from '@/lib/chart-data-utils'
 
 export default function ExternalResultsPage() {
   const { data, isLoading, error } = useQuery({
@@ -100,7 +101,14 @@ export default function ExternalResultsPage() {
                               {key.replace(/_/g, ' ').slice(0, 20)}
                             </div>
                             <div className="font-semibold">
-                              {typeof value === 'number' ? (value * 100).toFixed(1) + '%' : String(value)}
+                              {typeof value === 'number' 
+                                ? (() => {
+                                    const normalized = normalizeMetricValue(key, value)
+                                    return normalized.isPercentage 
+                                      ? `${normalized.displayValue.toFixed(1)}%`
+                                      : normalized.displayValue.toFixed(2)
+                                  })()
+                                : String(value)}
                             </div>
                           </div>
                         ))}

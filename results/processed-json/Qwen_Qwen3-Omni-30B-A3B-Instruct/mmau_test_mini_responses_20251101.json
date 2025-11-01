@@ -1,6 +1,6 @@
 {
   "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
-  "created_at": "2025-10-31T01:00:13.111Z",
+  "created_at": "2025-10-31T06:30:13.110851",
   "benchmark_id": "mmau_test_mini",
   "total_samples": 1000,
   "samples": [
@@ -25,7 +25,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -64,7 +64,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -103,7 +103,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -142,7 +142,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -181,7 +181,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -220,7 +220,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -259,7 +259,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -298,7 +298,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -337,7 +337,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -376,7 +376,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -415,7 +415,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -454,7 +454,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -493,7 +493,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -532,7 +532,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -571,7 +571,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -610,7 +610,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -649,7 +649,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -688,7 +688,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -727,7 +727,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -766,7 +766,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -805,7 +805,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -844,7 +844,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -883,7 +883,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -922,7 +922,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -961,7 +961,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1000,7 +1000,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -1039,7 +1039,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1078,7 +1078,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1117,7 +1117,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -1156,7 +1156,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1195,7 +1195,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -1234,7 +1234,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1273,7 +1273,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1312,7 +1312,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1351,7 +1351,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1390,7 +1390,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -1429,7 +1429,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1468,7 +1468,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1507,7 +1507,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1546,7 +1546,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1585,7 +1585,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1624,7 +1624,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1663,7 +1663,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1702,7 +1702,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1741,7 +1741,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1780,7 +1780,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1819,7 +1819,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1858,7 +1858,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1897,7 +1897,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -1936,7 +1936,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -1975,7 +1975,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2014,7 +2014,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -2053,7 +2053,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2092,7 +2092,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -2131,7 +2131,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2170,7 +2170,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2209,7 +2209,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2248,7 +2248,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2287,7 +2287,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2326,7 +2326,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -2365,7 +2365,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -2404,7 +2404,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2443,7 +2443,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -2482,7 +2482,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2521,7 +2521,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -2560,7 +2560,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2599,7 +2599,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -2638,7 +2638,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2677,7 +2677,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -2716,7 +2716,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -2755,7 +2755,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2794,7 +2794,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -2833,7 +2833,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -2872,7 +2872,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2911,7 +2911,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -2950,7 +2950,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -2989,7 +2989,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -3028,7 +3028,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -3067,7 +3067,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -3106,7 +3106,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -3145,7 +3145,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -3184,7 +3184,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -3223,7 +3223,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -3262,7 +3262,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -3301,7 +3301,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -3340,7 +3340,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -3379,7 +3379,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -3418,7 +3418,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -3457,7 +3457,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -3496,7 +3496,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -3535,7 +3535,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -3574,7 +3574,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "sound"
       },
       "submission": {
@@ -3613,7 +3613,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -3652,7 +3652,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -3691,7 +3691,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -3730,7 +3730,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 0,
+        "overall": 0.0,
         "task": "sound"
       },
       "submission": {
@@ -3769,7 +3769,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "speech"
       },
       "submission": {
@@ -3808,7 +3808,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "speech"
       },
       "submission": {
@@ -3847,7 +3847,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "speech"
       },
       "submission": {
@@ -3886,7 +3886,7 @@
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "accuracy": {
-        "overall": 1,
+        "overall": 1.0,
         "task": "speech"
       },
       "submission": {

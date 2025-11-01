@@ -1,6 +1,6 @@
 {
   "model": "Qwewn_Qwen2VL",
-  "created_at": "2025-10-31T01:05:03.085Z",
+  "created_at": "2025-10-31T06:35:03.085496",
   "benchmark_id": "arc_easy",
   "total_samples": 2376,
   "samples": [
@@ -52,8 +52,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which statement best explains why photosynthesis is the foundation of most food webs?\nAnswer:"
     },
     {
@@ -104,8 +104,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which piece of safety equipment is used to keep mold spores from entering the respiratory system?\nAnswer:"
     },
     {
@@ -156,8 +156,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Meiosis is a type of cell division in which germ cells divide to produce haploid cells. Where does meiosis occur?\nAnswer:"
     },
     {
@@ -208,8 +208,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which characteristic describes the texture of a kitten's fur?\nAnswer:"
     },
     {
@@ -260,8 +260,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which best describes the structure of an atom?\nAnswer:"
     },
     {
@@ -312,8 +312,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: To express the distance between the Milky Way galaxy and other galaxies, the most appropriate unit of measurement is the\nAnswer:"
     },
     {
@@ -364,8 +364,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 1,
+      "acc": 0.0,
+      "acc_norm": 1.0,
       "input": "Question: A student has just completed a laboratory activity. What is the last action that the student should perform before leaving the lab area?\nAnswer:"
     },
     {
@@ -416,8 +416,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Students are investigating the effects of different fertilizers on plant growth. Which units would be best to measure the mass of the fertilizer used?\nAnswer:"
     },
     {
@@ -468,8 +468,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Plants use sunlight to make\nAnswer:"
     },
     {
@@ -520,8 +520,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which of these correctly identifies the way materials are transported in a plant?\nAnswer:"
     },
     {
@@ -572,8 +572,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 1,
+      "acc": 0.0,
+      "acc_norm": 1.0,
       "input": "Question: When trees develop leaves in the spring, 10 changes occur on the forest floor. Why does the development of leaves cause changes on the forest floor?\nAnswer:"
     },
     {
@@ -624,8 +624,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: The circulatory system and the endocrine system work together in the human body. Which describes one way in which these systems interact?\nAnswer:"
     },
     {
@@ -676,8 +676,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A student throws a ball into the air. While the ball travels up, the speed of the ball decreases. What force causes the ball to slow while traveling up?\nAnswer:"
     },
     {
@@ -728,8 +728,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which of these will most likely harm a habitat?\nAnswer:"
     },
     {
@@ -780,8 +780,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: All living and nonliving material is composed of\nAnswer:"
     },
     {
@@ -832,8 +832,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which process best explains how the Grand Canyon became so wide?\nAnswer:"
     },
     {
@@ -884,8 +884,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: As global temperatures increase, certain organisms will be more affected than others. The changes associated with global warming may result in an increase in sea level. Which organisms will be affected most as a result of the change in sea level?\nAnswer:"
     },
     {
@@ -936,8 +936,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A dish of sugar water was left on a window sill. One week later, there were only sugar crystals left in the dish. The water was gone. The best explanation for the appearance of sugar crystals is\nAnswer:"
     },
     {
@@ -988,8 +988,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Using a softball bat to hit a softball is an example of using which simple machine?\nAnswer:"
     },
     {
@@ -1040,8 +1040,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: When an igneous intrusion comes into contact with surrounding rock, the surrounding rock will\nAnswer:"
     },
     {
@@ -1092,8 +1092,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A research scientist writes a paper on the initial regrowth of a forest after a fire has damaged the entire ecosystem. Which title would be best for the paper?\nAnswer:"
     },
     {
@@ -1144,8 +1144,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Where do plants get most of the energy they need to live and grow?\nAnswer:"
     },
     {
@@ -1196,8 +1196,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which is a statement about climate?\nAnswer:"
     },
     {
@@ -1248,8 +1248,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: While on a movie set, a stuntman jumps off the roof of a building. As he falls toward an airbag, what is increasing?\nAnswer:"
     },
     {
@@ -1300,8 +1300,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Jessica wants to see cells in an oak tree leaf. Which tool is best for Jessica to use to see the cells?\nAnswer:"
     },
     {
@@ -1352,8 +1352,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Biologists conduct investigations to learn about living organisms. Which method helps reduce bias during an investigation?\nAnswer:"
     },
     {
@@ -1404,8 +1404,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which factor is most likely to cause the number of rabbits living in an area to increase?\nAnswer:"
     },
     {
@@ -1456,8 +1456,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Seeds that remain inactive until the right conditions of light, water, and soil are present are called ___.\nAnswer:"
     },
     {
@@ -1508,8 +1508,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: What allows a light bulb to give off light?\nAnswer:"
     },
     {
@@ -1560,8 +1560,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: What causes sound?\nAnswer:"
     },
     {
@@ -1612,8 +1612,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Photosynthesis occurs in which of these organisms?\nAnswer:"
     },
     {
@@ -1664,8 +1664,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: In order for cells to grow at a normal rate, they must\nAnswer:"
     },
     {
@@ -1716,8 +1716,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Marshall learned that plants need a substance from the air to make their own food. What does a plant take from the air in the presence of sunlight?\nAnswer:"
     },
     {
@@ -1768,8 +1768,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Antarctica is a continent at Earth's south pole. Fossils of tropical fern plants were discovered in Antarctica even though these plants do not grow there today. Which conclusion does the fossil evidence best support?\nAnswer:"
     },
     {
@@ -1820,8 +1820,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which two theories of Moon formation propose that much or all of the material comprising the Moon came from Earth?\nAnswer:"
     },
     {
@@ -1872,8 +1872,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: When white, fluffy clouds appear in Massachusetts, the weather that day will MOST LIKELY be\nAnswer:"
     },
     {
@@ -1924,8 +1924,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Plants and animals are composed of organic compounds. Which of the following are the common elements found in organic compounds?\nAnswer:"
     },
     {
@@ -1976,8 +1976,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: New research uncovers information that proves that the data from an old theory is partially incorrect. What should the scientific community do about the old theory?\nAnswer:"
     },
     {
@@ -2028,8 +2028,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which is the greatest benefit of sexual reproduction?\nAnswer:"
     },
     {
@@ -2080,8 +2080,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: The speed at which sound waves travel depends on the\nAnswer:"
     },
     {
@@ -2132,8 +2132,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which scientist is credited with discovering the first four moons of Jupiter?\nAnswer:"
     },
     {
@@ -2184,8 +2184,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: During science class, a teacher explains that the samples the students are studying are made of two or more minerals. What are the students studying?\nAnswer:"
     },
     {
@@ -2236,8 +2236,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: When the Northern Hemisphere is tilted away from the Sun causing the rays of light to hit Earth at large angles, which season occurs?\nAnswer:"
     },
     {
@@ -2288,8 +2288,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A scientist found fossils of ocean shells on a mountain top. Based on this find, which statement can be made?\nAnswer:"
     },
     {
@@ -2340,8 +2340,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A student sees many plants around a pond. The student can determine which plants are nonvascular by\nAnswer:"
     },
     {
@@ -2392,8 +2392,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Darryl learns that freezing temperatures may help cause weathering. Which statement explains how freezing temperatures most likely cause weathering?\nAnswer:"
     },
     {
@@ -2444,8 +2444,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A bond is formed when an electron is transferred from a sodium atom to a chlorine atom. What happens to the sodium atom during this process?\nAnswer:"
     },
     {
@@ -2496,8 +2496,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A group of fish was released into a local lake. This species of fish had never lived in the lake before. Scientists want to collect data on how the lake's ecosystem is affected by the new fish. Which method of data collection will give the most accurate results?\nAnswer:"
     },
     {
@@ -2548,8 +2548,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: On a career day at school, an X-ray technician discusses her daily work with the class. Which equipment would she most likely say she uses on a regular basis to help ensure the safety of patients?\nAnswer:"
     },
     {
@@ -2600,8 +2600,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "acc_norm": 0,
+      "acc": 1.0,
+      "acc_norm": 0.0,
       "input": "Question: In the United States, windmills have been used for farming for hundreds of years. Which simple machine is the most important part of a windmill?\nAnswer:"
     },
     {
@@ -2652,8 +2652,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "acc_norm": 0,
+      "acc": 1.0,
+      "acc_norm": 0.0,
       "input": "Question: Which tools are needed to measure the effects of friction on a block of wood?\nAnswer:"
     },
     {
@@ -2704,8 +2704,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Planets outside of our solar system have been detected. What suggested the presence of a planet outside of our solar system?\nAnswer:"
     },
     {
@@ -2756,8 +2756,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: During which process are pieces of rock material being moved over Earth's surface by water and wind?\nAnswer:"
     },
     {
@@ -2808,8 +2808,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: The Apollo 11 mission was able to retrieve samples of the Moon's surface because it was the first mission to have astronauts\nAnswer:"
     },
     {
@@ -2860,8 +2860,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A student mixes a teaspoon of sugar in a large glass of water. What happens to the sugar when it is mixed with the water?\nAnswer:"
     },
     {
@@ -2912,8 +2912,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Particle accelerators, such as the Large Hadron Collider in Europe, accelerate subatomic particles to great speeds. These particles move in opposite directions at nearly the speed of light and collide into one another to simulate conditions that were present as the universe formed. Which property of matter in the initial moments of the universe are these accelerators designed to simulate?\nAnswer:"
     },
     {
@@ -2964,8 +2964,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A doorbell circuit converts electrical energy into mechanical energy. The mechanical energy is in the form of vibrations that ultimately produce\nAnswer:"
     },
     {
@@ -3016,8 +3016,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which factor determines if two individuals are members of the same species?\nAnswer:"
     },
     {
@@ -3068,8 +3068,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which of the following planets is always closer to the Sun than it is to Earth?\nAnswer:"
     },
     {
@@ -3120,8 +3120,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Cells need nutrients for energy. Which system is responsible for breaking down food to provide cellular energy?\nAnswer:"
     },
     {
@@ -3172,8 +3172,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "acc_norm": 1,
+      "acc": 1.0,
+      "acc_norm": 1.0,
       "input": "Question: During which activity should a student wear goggles?\nAnswer:"
     },
     {
@@ -3224,8 +3224,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Bacillus thuringiensis (Bt) is a soil bacterium that is toxic to certain insects. Genes from this bacterium have been inserted into cotton to make Bt cotton. Farmers that use Bt cotton would most likely use less of which of the following?\nAnswer:"
     },
     {
@@ -3276,8 +3276,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A student examined a rock sample and described it as having particles of various colors that were 1 millimeter to 12 millimeters in size. The student was making\nAnswer:"
     },
     {
@@ -3328,8 +3328,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 1,
+      "acc": 0.0,
+      "acc_norm": 1.0,
       "input": "Question: What are genes composed of?\nAnswer:"
     },
     {
@@ -3380,8 +3380,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: In a classroom demonstration, a teacher pours sulfuric acid on some granulated sugar in a beaker. The sugar turns yellow and then black. Smoke rises and a strong smell is released. This demonstration is an example of what kind of change?\nAnswer:"
     },
     {
@@ -3432,8 +3432,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Marta studied different forms of energy. Which two types of energy travel in waves?\nAnswer:"
     },
     {
@@ -3484,8 +3484,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: The tops of some mountains are sharp and pointed, while the tops of others are smooth and rounded. This difference was most likely caused by\nAnswer:"
     },
     {
@@ -3536,8 +3536,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A student suggests to the school board that they use a renewable energy source. The student suggests they use\nAnswer:"
     },
     {
@@ -3588,8 +3588,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Solar radiation provides more heat near the equator than near the poles on Earth. The greatest amount of heat is moved away from the equator by\nAnswer:"
     },
     {
@@ -3640,8 +3640,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which human activity will help conserve Earth's natural resources?\nAnswer:"
     },
     {
@@ -3692,8 +3692,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which characteristic helps some animals defend themselves against predators?\nAnswer:"
     },
     {
@@ -3744,8 +3744,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Most plants begin their life cycle as ___.\nAnswer:"
     },
     {
@@ -3796,8 +3796,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Erin wants to make a strong, light chair. Which natural material should she use?\nAnswer:"
     },
     {
@@ -3848,8 +3848,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Jonathon was studying bears. He found out that bears are born with some behaviors and learn others from their environment. Which behavior does a bear most likely inherit?\nAnswer:"
     },
     {
@@ -3900,8 +3900,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A group of the same species of fish swim together to increase an individual's\nAnswer:"
     },
     {
@@ -3952,8 +3952,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: In the oxygen cycle, which group of organisms replenishes a large portion of the atmospheric oxygen supply?\nAnswer:"
     },
     {
@@ -4004,8 +4004,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Some antibiotics used to treat infections in humans are also used to treat chickens, but some groups oppose this practice. The overuse of the antibiotics will most likely influence the natural selection of which type of organisms?\nAnswer:"
     },
     {
@@ -4056,8 +4056,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A student performs a lab investigation by measuring the average time it takes for a toy car to travel 10 meters. Why is it best to perform the experiment in three trials?\nAnswer:"
     },
     {
@@ -4108,8 +4108,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A scientist finds a metamorphic rock formation next to a magma chamber and determines that it was originally a sedimentary rock formation. He concludes that the temperature of the magma chamber caused the rock formation to become metamorphic. Which is another reliable explanation of how the rock formation was changed?\nAnswer:"
     },
     {
@@ -4160,8 +4160,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Earth orbiting the Sun causes\nAnswer:"
     },
     {
@@ -4212,8 +4212,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: The cycle of night and day on Earth is a result of\nAnswer:"
     },
     {
@@ -4264,8 +4264,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 1,
+      "acc": 0.0,
+      "acc_norm": 1.0,
       "input": "Question: Which of these traits is most influenced by environment?\nAnswer:"
     },
     {
@@ -4316,8 +4316,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which statement describes a characteristic of a gas that has a significant effect on the climates of both Earth and Venus?\nAnswer:"
     },
     {
@@ -4368,8 +4368,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: DNA technology has improved greatly in the last twenty years. Which task has been made easier by the development of DNA technology?\nAnswer:"
     },
     {
@@ -4420,8 +4420,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which condition is necessary for metamorphic rocks to form?\nAnswer:"
     },
     {
@@ -4472,8 +4472,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which event helps to renew a resource?\nAnswer:"
     },
     {
@@ -4524,8 +4524,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which part of a plant takes in water and nutrients from the soil?\nAnswer:"
     },
     {
@@ -4576,8 +4576,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A certain type of hybrid car utilizes a braking system in which energy is recovered and stored in batteries. This is an example of which type of energy conversion?\nAnswer:"
     },
     {
@@ -4628,8 +4628,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Clownfish take shelter in the tentacles of sea anemones and keep sea anemones clean. Which type of relationship does this represent?\nAnswer:"
     },
     {
@@ -4680,8 +4680,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "acc_norm": 0,
+      "acc": 1.0,
+      "acc_norm": 0.0,
       "input": "Question: Some animals have behaviors that help them find food when little is available. Which best describes an animal with this type of behavior?\nAnswer:"
     },
     {
@@ -4732,8 +4732,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Part of a student's experiment is to measure changes in wind speed several hours before a storm. What piece of equipment should the student use?\nAnswer:"
     },
     {
@@ -4784,8 +4784,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: An organism is born with a genetic abnormality not present in any of its ancestors. This abnormality is most likely the result of\nAnswer:"
     },
     {
@@ -4836,8 +4836,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: The length of one day on Earth is determined by how long it takes\nAnswer:"
     },
     {
@@ -4878,8 +4878,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: When a rock is placed in a graduated cylinder containing water, the height of the water will\nAnswer:"
     },
     {
@@ -4930,8 +4930,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A student heats the same amount of two different liquids over Bunsen burners. Each liquid is at room temperature when the student begins. If liquid 1 has a higher specific heat than liquid 2, then liquid 1 will\nAnswer:"
     },
     {
@@ -4982,8 +4982,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Through which activity do animals get the carbon that is needed for their bodies?\nAnswer:"
     },
     {
@@ -5034,9 +5034,9 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
-      "input": "Question: Scientists have discovered organisms that thrive in hot water that is 90°C (194°F) and do not need sunlight or oxygen to live. Into which kingdom would the scientists classify these organisms?\nAnswer:"
+      "acc": 0.0,
+      "acc_norm": 0.0,
+      "input": "Question: Scientists have discovered organisms that thrive in hot water that is 90\u00b0C (194\u00b0F) and do not need sunlight or oxygen to live. Into which kingdom would the scientists classify these organisms?\nAnswer:"
     },
     {
       "doc_id": 97,
@@ -5086,8 +5086,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: A cook touches a hot stove and quickly moves his hand away. What are the two primary body systems that work together to produce this response?\nAnswer:"
     },
     {
@@ -5138,8 +5138,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: Which statement correctly describes both gases and liquids?\nAnswer:"
     },
     {
@@ -5190,8 +5190,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Question: When the soil is saturated, earthworms move to the top of the soil to obtain oxygen. This behavior is evidence of which biological concept in earthworms?\nAnswer:"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
-  "created_at": "2025-10-31T01:00:13.111Z",
+  "created_at": "2025-10-31T06:30:13.110851",
   "benchmark_id": "librispeech_test_clean",
   "total_samples": 2620,
   "samples": [
@@ -11,8 +11,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -42,8 +42,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -73,8 +73,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -104,8 +104,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -135,8 +135,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -166,8 +166,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -197,8 +197,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -228,8 +228,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -259,8 +259,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -290,8 +290,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -321,8 +321,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -352,8 +352,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -383,8 +383,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -396,12 +396,12 @@
         "librispeech_test_clean"
       ],
       "filtered_resps": [
-        "Her eyes seemed to regard him with mild pity, her holiness—a strange light glowing faintly upon her frail flesh—did not humiliate the sinner who approached her."
+        "Her eyes seemed to regard him with mild pity, her holiness\u2014a strange light glowing faintly upon her frail flesh\u2014did not humiliate the sinner who approached her."
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
       "wer": {
         "gt": "HER EYES SEEMED TO REGARD HIM WITH MILD PITY HER HOLINESS A STRANGE LIGHT GLOWING FAINTLY UPON HER FRAIL FLESH DID NOT HUMILIATE THE SINNER WHO APPROACHED HER",
-        "pred": "Her eyes seemed to regard him with mild pity, her holiness—a strange light glowing faintly upon her frail flesh—did not humiliate the sinner who approached her.",
+        "pred": "Her eyes seemed to regard him with mild pity, her holiness\u2014a strange light glowing faintly upon her frail flesh\u2014did not humiliate the sinner who approached her.",
         "source": "librispeech_test_clean",
         "task": "asr_en"
       },
@@ -414,8 +414,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -445,8 +445,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -476,8 +476,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -507,8 +507,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -538,8 +538,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -569,8 +569,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -600,8 +600,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -631,8 +631,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -662,8 +662,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -693,8 +693,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -724,8 +724,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -755,8 +755,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -786,8 +786,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -817,8 +817,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -848,8 +848,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -879,8 +879,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -910,8 +910,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -941,8 +941,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -972,8 +972,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1003,8 +1003,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1034,8 +1034,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1065,8 +1065,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1096,8 +1096,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1127,8 +1127,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1158,8 +1158,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1189,8 +1189,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1220,8 +1220,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1251,8 +1251,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1282,8 +1282,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1313,8 +1313,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1344,8 +1344,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1375,8 +1375,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1406,8 +1406,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1437,8 +1437,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1468,8 +1468,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1499,8 +1499,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1530,8 +1530,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1561,8 +1561,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1592,8 +1592,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1623,8 +1623,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1654,8 +1654,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1685,8 +1685,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1716,8 +1716,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1747,8 +1747,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1778,8 +1778,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1809,8 +1809,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1840,8 +1840,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1871,8 +1871,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1902,8 +1902,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1933,8 +1933,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1964,8 +1964,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -1995,8 +1995,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2026,8 +2026,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2057,8 +2057,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2088,8 +2088,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2119,8 +2119,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2150,8 +2150,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2181,8 +2181,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2212,8 +2212,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2243,8 +2243,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2274,8 +2274,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2305,8 +2305,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2336,8 +2336,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2367,8 +2367,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2398,8 +2398,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2429,8 +2429,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2460,8 +2460,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2491,8 +2491,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2522,8 +2522,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2553,8 +2553,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2584,8 +2584,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2615,8 +2615,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2646,8 +2646,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2677,8 +2677,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2708,8 +2708,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2739,8 +2739,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2770,8 +2770,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2801,8 +2801,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2832,8 +2832,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2863,8 +2863,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2894,8 +2894,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2925,8 +2925,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2956,8 +2956,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -2987,8 +2987,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -3018,8 +3018,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -3049,8 +3049,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [
@@ -3080,8 +3080,8 @@
         "Please recognize the speech and only output the recognized content:",
         {
           "max_new_tokens": 256,
-          "temperature": 0,
-          "top_p": 1,
+          "temperature": 0.0,
+          "top_p": 1.0,
           "num_beams": 1,
           "do_sample": false,
           "until": [

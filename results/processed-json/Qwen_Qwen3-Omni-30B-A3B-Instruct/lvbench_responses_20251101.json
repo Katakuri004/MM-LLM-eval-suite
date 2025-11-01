@@ -1,6 +1,6 @@
 {
   "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
-  "created_at": "2025-10-31T01:00:13.111Z",
+  "created_at": "2025-10-31T06:30:13.110851",
   "benchmark_id": "lvbench",
   "total_samples": 1549,
   "samples": [

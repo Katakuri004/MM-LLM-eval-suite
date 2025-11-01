@@ -1,6 +1,6 @@
 {
   "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
-  "created_at": "2025-10-31T01:00:13.111Z",
+  "created_at": "2025-10-31T06:30:13.110851",
   "benchmark_id": "mmlu_redux_logical_fallacies",
   "total_samples": 100,
   "samples": [
@@ -11,7 +11,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: All things that are spoiled are inedible. Timothy is spoiled. So, Timothy is inedible.\n\nChoices:\nA) Equivocation\nB) Attacking the Person (ad hominem)\nC) Fallacy of Division\nD) Questionable Cause\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -26,7 +26,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: All things that are spoiled are inedible. Timothy is spoiled. So, Timothy is inedible.\n\nChoices:\nA) Equivocation\nB) Attacking the Person (ad hominem)\nC) Fallacy of Division\nD) Questionable Cause\n\nAnswer:"
     },
     {
@@ -36,7 +36,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: An arguer who threatens another to gain agreement commits the fallacy of\n\nChoices:\nA) appeal to force\nB) tu quoque\nC) ignorance of refutation\nD) straw person\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -51,7 +51,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: An arguer who threatens another to gain agreement commits the fallacy of\n\nChoices:\nA) appeal to force\nB) tu quoque\nC) ignorance of refutation\nD) straw person\n\nAnswer:"
     },
     {
@@ -61,7 +61,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The false analogy fallacy is\n\nChoices:\nA) a specific type of false cause fallacy that argues that since two event happened at the same time one event must have caused the other\nB) arguing that an event that preceded another event necessarily is the cause of the second event\nC) arguing that since something is new it is necessarily good\nD) drawing a conclusion based on a comparison when the items being compared are not similar enough to support the conclusion.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -76,7 +76,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The false analogy fallacy is\n\nChoices:\nA) a specific type of false cause fallacy that argues that since two event happened at the same time one event must have caused the other\nB) arguing that an event that preceded another event necessarily is the cause of the second event\nC) arguing that since something is new it is necessarily good\nD) drawing a conclusion based on a comparison when the items being compared are not similar enough to support the conclusion.\n\nAnswer:"
     },
     {
@@ -86,7 +86,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Tan ah Tiat, forty-nine years old, a native of Kuala Lumpar, Malaysia, was charged with possession of opium. Arguing for acquittal, he told the judge that his opium habit did no harm, as he was too old to work anyway. Asked how he lived, he replied that he lived on the earnings of his grandmother.\n\nChoices:\nA) Straw Man\nB) False Dilemma\nC) Inconsistency\nD) Appeal to Authority\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -101,7 +101,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Tan ah Tiat, forty-nine years old, a native of Kuala Lumpar, Malaysia, was charged with possession of opium. Arguing for acquittal, he told the judge that his opium habit did no harm, as he was too old to work anyway. Asked how he lived, he replied that he lived on the earnings of his grandmother.\n\nChoices:\nA) Straw Man\nB) False Dilemma\nC) Inconsistency\nD) Appeal to Authority\n\nAnswer:"
     },
     {
@@ -111,7 +111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Whether someone is hypocritical regarding her claims is...\n\nChoices:\nA) Irrelevant to her character\nB) Evidence that the claims are false\nC) Irrelevant to the truth of the claims\nD) Relevant only in court\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -126,7 +126,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Whether someone is hypocritical regarding her claims is...\n\nChoices:\nA) Irrelevant to her character\nB) Evidence that the claims are false\nC) Irrelevant to the truth of the claims\nD) Relevant only in court\n\nAnswer:"
     },
     {
@@ -136,7 +136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The false cause fallacy is\n\nChoices:\nA) arguing that since someone is poor she must have high moral character\nB) arguing that two things are causally related without evidence of a causal relationship\nC) arguing that since something is new it is necessarily bad\nD) substituting individual stories for a larger sample in support of a claim\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -151,7 +151,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The false cause fallacy is\n\nChoices:\nA) arguing that since someone is poor she must have high moral character\nB) arguing that two things are causally related without evidence of a causal relationship\nC) arguing that since something is new it is necessarily bad\nD) substituting individual stories for a larger sample in support of a claim\n\nAnswer:"
     },
     {
@@ -161,7 +161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is another name for appeal to the people?\n\nChoices:\nA) argument by consensus\nB) appeal to beliefs\nC) no true Scotsman\nD) overlooked evidence\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -176,7 +176,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is another name for appeal to the people?\n\nChoices:\nA) argument by consensus\nB) appeal to beliefs\nC) no true Scotsman\nD) overlooked evidence\n\nAnswer:"
     },
     {
@@ -186,7 +186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies happens when someone attributes the cause of an event to a simple cause when the cause is actually more complicated?\n\nChoices:\nA) complex cause\nB) hasty generalization\nC) post hoc\nD) division\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -201,7 +201,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies happens when someone attributes the cause of an event to a simple cause when the cause is actually more complicated?\n\nChoices:\nA) complex cause\nB) hasty generalization\nC) post hoc\nD) division\n\nAnswer:"
     },
     {
@@ -211,7 +211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Arguing in favor of a claim based only on the evidence that some regular people believe the claim is one way to commit which of the following fallacies?\n\nChoices:\nA) poisoning the well\nB) common person appeal\nC) ad numerum\nD) suppressed evidence\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -226,7 +226,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Arguing in favor of a claim based only on the evidence that some regular people believe the claim is one way to commit which of the following fallacies?\n\nChoices:\nA) poisoning the well\nB) common person appeal\nC) ad numerum\nD) suppressed evidence\n\nAnswer:"
     },
     {
@@ -236,7 +236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Telling people that they haven't been harmed because there is something they should be thankful for commits which of the following fallacies?\n\nChoices:\nA) genetic fallacy\nB) horse laugh\nC) false consolation\nD) appeal to joy\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -251,7 +251,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Telling people that they haven't been harmed because there is something they should be thankful for commits which of the following fallacies?\n\nChoices:\nA) genetic fallacy\nB) horse laugh\nC) false consolation\nD) appeal to joy\n\nAnswer:"
     },
     {
@@ -261,7 +261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies happens when someone concludes that someone couldn't have done something bad because he or she has good qualities?\n\nChoices:\nA) Laudatory personality\nB) Guilt by association\nC) Reprehensible personality\nD) Circular reasoning\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -276,7 +276,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies happens when someone concludes that someone couldn't have done something bad because he or she has good qualities?\n\nChoices:\nA) Laudatory personality\nB) Guilt by association\nC) Reprehensible personality\nD) Circular reasoning\n\nAnswer:"
     },
     {
@@ -286,7 +286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: I don't understand why everyone thinks they belong in college. After all, everyone knows that when you are intelligent you'll succeed. But so many people that elect to attend college don't have even the most basic intelligence. How do they expect to get anywhere here?\n\nChoices:\nA) Attacking the Person (ad hominem)\nB) Straw Man\nC) Denying the Antecedent\nD) Begging the Question\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -301,7 +301,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: I don't understand why everyone thinks they belong in college. After all, everyone knows that when you are intelligent you'll succeed. But so many people that elect to attend college don't have even the most basic intelligence. How do they expect to get anywhere here?\n\nChoices:\nA) Attacking the Person (ad hominem)\nB) Straw Man\nC) Denying the Antecedent\nD) Begging the Question\n\nAnswer:"
     },
     {
@@ -311,7 +311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In a faulty analogy, the things being compared are...\n\nChoices:\nA) Sufficiently similar\nB) Sufficiently similar in irrelevant ways\nC) Complete opposites\nD) Not sufficiently similar in relevant ways\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -326,7 +326,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In a faulty analogy, the things being compared are...\n\nChoices:\nA) Sufficiently similar\nB) Sufficiently similar in irrelevant ways\nC) Complete opposites\nD) Not sufficiently similar in relevant ways\n\nAnswer:"
     },
     {
@@ -336,7 +336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When someone tries to support a proposition with information that really has nothing to do with the claim being made, that person has probably committed which of the following fallacies?\n\nChoices:\nA) straw person\nB) genetic fallacy\nC) irrelevant conclusion\nD) ignoratio elenchi\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -351,7 +351,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When someone tries to support a proposition with information that really has nothing to do with the claim being made, that person has probably committed which of the following fallacies?\n\nChoices:\nA) straw person\nB) genetic fallacy\nC) irrelevant conclusion\nD) ignoratio elenchi\n\nAnswer:"
     },
     {
@@ -361,7 +361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If you say an opposing arguer has taken a position that you can easily defeat, when he or she has not taken that position, then you go on to defeat that position and claim to have done significant damage to that arguer's overall argument, you are probably guilty of which of the following fallacies?\n\nChoices:\nA) genetic fallacy\nB) appeal to emotions\nC) straw person\nD) ignorance of refutation\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -376,7 +376,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If you say an opposing arguer has taken a position that you can easily defeat, when he or she has not taken that position, then you go on to defeat that position and claim to have done significant damage to that arguer's overall argument, you are probably guilty of which of the following fallacies?\n\nChoices:\nA) genetic fallacy\nB) appeal to emotions\nC) straw person\nD) ignorance of refutation\n\nAnswer:"
     },
     {
@@ -386,7 +386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When someone changes the meaning of a word or phrase from one part of the argument to another that person may have committed which of the following fallacies?\n\nChoices:\nA) Special pleading\nB) Hypostatization\nC) Question begging epithets\nD) Equivocation\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -401,7 +401,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When someone changes the meaning of a word or phrase from one part of the argument to another that person may have committed which of the following fallacies?\n\nChoices:\nA) Special pleading\nB) Hypostatization\nC) Question begging epithets\nD) Equivocation\n\nAnswer:"
     },
     {
@@ -411,7 +411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the fallacy of appeal to tradition?\n\nChoices:\nA) reasoning that a claim must be true because it's been made so often\nB) reasoning that a claim must be true because a regular person believes it\nC) reasoning that a claim must be true because it's been believed in the past\nD) reasoning that a claim must be true because a lot of people believe it\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -426,7 +426,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the fallacy of appeal to tradition?\n\nChoices:\nA) reasoning that a claim must be true because it's been made so often\nB) reasoning that a claim must be true because a regular person believes it\nC) reasoning that a claim must be true because it's been believed in the past\nD) reasoning that a claim must be true because a lot of people believe it\n\nAnswer:"
     },
     {
@@ -436,7 +436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Anecdotal evidence is a specific kind of\n\nChoices:\nA) False sign\nB) False criteria\nC) False cause\nD) Hasty Generalization\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -451,7 +451,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Anecdotal evidence is a specific kind of\n\nChoices:\nA) False sign\nB) False criteria\nC) False cause\nD) Hasty Generalization\n\nAnswer:"
     },
     {
@@ -461,7 +461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The genetic fallacy consists of\n\nChoices:\nA) arguing that a conclusion should be made based on feeling sorry for someone when that feeling is irrelevant to the conclusion\nB) responding to charges of wrongdoing by saying the accuser does something just as bad\nC) arguing that an idea should be accepted or rejected based only on who originated the idea.\nD) causing confusion during refutation because of a real or feigned lack of ability to engage in refutation\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -476,7 +476,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The genetic fallacy consists of\n\nChoices:\nA) arguing that a conclusion should be made based on feeling sorry for someone when that feeling is irrelevant to the conclusion\nB) responding to charges of wrongdoing by saying the accuser does something just as bad\nC) arguing that an idea should be accepted or rejected based only on who originated the idea.\nD) causing confusion during refutation because of a real or feigned lack of ability to engage in refutation\n\nAnswer:"
     },
     {
@@ -486,7 +486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the fallacy of false consolation?\n\nChoices:\nA) arguing against a position based only on negative personal feelings toward the position\nB) responding to charges of wrongdoing by saying others do things as bad or worse\nC) arguing that someone is not really harmed because things could be worse or by pointing out what they have to be thankful for\nD) using threats of harm instead of reasoning to get agreement\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -501,7 +501,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the fallacy of false consolation?\n\nChoices:\nA) arguing against a position based only on negative personal feelings toward the position\nB) responding to charges of wrongdoing by saying others do things as bad or worse\nC) arguing that someone is not really harmed because things could be worse or by pointing out what they have to be thankful for\nD) using threats of harm instead of reasoning to get agreement\n\nAnswer:"
     },
     {
@@ -511,7 +511,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When someone argues that making a change will have no significant effect, but there is no evidence that the effect will not be significant, that person has committed which of the following fallacies?\n\nChoices:\nA) poisoning the well\nB) solid slope\nC) appeal to tradition\nD) argument from authority\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -526,7 +526,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When someone argues that making a change will have no significant effect, but there is no evidence that the effect will not be significant, that person has committed which of the following fallacies?\n\nChoices:\nA) poisoning the well\nB) solid slope\nC) appeal to tradition\nD) argument from authority\n\nAnswer:"
     },
     {
@@ -536,7 +536,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Another name for the fallacy of false dilemma is\n\nChoices:\nA) Guilt by association\nB) Circular reasoning\nC) Laudatory personality\nD) False dichotomy\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -551,7 +551,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Another name for the fallacy of false dilemma is\n\nChoices:\nA) Guilt by association\nB) Circular reasoning\nC) Laudatory personality\nD) False dichotomy\n\nAnswer:"
     },
     {
@@ -561,7 +561,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Appeal to beliefs is another name for which of the following fallacies?\n\nChoices:\nA) ad nauseam\nB) appeal to tradition\nC) solid slope\nD) self evident truths\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -576,7 +576,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Appeal to beliefs is another name for which of the following fallacies?\n\nChoices:\nA) ad nauseam\nB) appeal to tradition\nC) solid slope\nD) self evident truths\n\nAnswer:"
     },
     {
@@ -586,7 +586,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Rejecting a claim by criticizing the person who makes it rather than the claim itself is known as the fallacy of...\n\nChoices:\nA) Division\nB) Appeal to emotion\nC) Composition\nD) Appeal to the person\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -601,7 +601,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Rejecting a claim by criticizing the person who makes it rather than the claim itself is known as the fallacy of...\n\nChoices:\nA) Division\nB) Appeal to emotion\nC) Composition\nD) Appeal to the person\n\nAnswer:"
     },
     {
@@ -611,7 +611,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: At the end of the course, Professor Jones told us that we were the best class he had ever had. That's why I'm sure that the 0.0 the appeared on my grade report is a mistake. Surely, if we were as good a class as Professor Jones said we were, none of us deserved to fail.\n\nChoices:\nA) Fallacy of Composition\nB) Fallacy of Division\nC) Questionable Cause\nD) Appeal to Gallery (Provicialism)\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -626,7 +626,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: At the end of the course, Professor Jones told us that we were the best class he had ever had. That's why I'm sure that the 0.0 the appeared on my grade report is a mistake. Surely, if we were as good a class as Professor Jones said we were, none of us deserved to fail.\n\nChoices:\nA) Fallacy of Composition\nB) Fallacy of Division\nC) Questionable Cause\nD) Appeal to Gallery (Provicialism)\n\nAnswer:"
     },
     {
@@ -636,7 +636,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Another name for the fallacy of reducing to an absurdity is\n\nChoices:\nA) tu quoque\nB) ad baculum\nC) ad hominem\nD) reductio ad absurdum\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -651,7 +651,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Another name for the fallacy of reducing to an absurdity is\n\nChoices:\nA) tu quoque\nB) ad baculum\nC) ad hominem\nD) reductio ad absurdum\n\nAnswer:"
     },
     {
@@ -661,7 +661,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The argument against the person consists of\n\nChoices:\nA) ignoring another person's arguments and attacking her character instead\nB) asserting an opposing arguer has taken an easily defeated position, which she has not really taken\nC) causing confusion during an argument by a lack of ability to engage in refutation\nD) using threats of harm instead of reasoning to gain agreement\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -676,7 +676,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The argument against the person consists of\n\nChoices:\nA) ignoring another person's arguments and attacking her character instead\nB) asserting an opposing arguer has taken an easily defeated position, which she has not really taken\nC) causing confusion during an argument by a lack of ability to engage in refutation\nD) using threats of harm instead of reasoning to gain agreement\n\nAnswer:"
     },
     {
@@ -686,7 +686,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Another name for the fallacy of accident is\n\nChoices:\nA) Sweeping generalization\nB) Black-or-white fallacy\nC) Petitio principii\nD) False dichotomy\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -701,7 +701,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Another name for the fallacy of accident is\n\nChoices:\nA) Sweeping generalization\nB) Black-or-white fallacy\nC) Petitio principii\nD) False dichotomy\n\nAnswer:"
     },
     {
@@ -711,7 +711,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is another name for evading the issue?\n\nChoices:\nA) \"you too\" fallacy\nB) irrelevant conclusion\nC) appeal to fear\nD) argument against the person\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -726,7 +726,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is another name for evading the issue?\n\nChoices:\nA) \"you too\" fallacy\nB) irrelevant conclusion\nC) appeal to fear\nD) argument against the person\n\nAnswer:"
     },
     {
@@ -736,7 +736,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the _tu quoque_ fallacy?\n\nChoices:\nA) summarizing an opponent's position in a way that makes it seem silly\nB) attempting to gain agreement based only on the feelings aroused in the argument\nC) responding to charges of wrongdoing by saying the accuser does the same thing\nD) arguing against a position based only on negative personal feelings toward the position\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -751,7 +751,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the _tu quoque_ fallacy?\n\nChoices:\nA) summarizing an opponent's position in a way that makes it seem silly\nB) attempting to gain agreement based only on the feelings aroused in the argument\nC) responding to charges of wrongdoing by saying the accuser does the same thing\nD) arguing against a position based only on negative personal feelings toward the position\n\nAnswer:"
     },
     {
@@ -761,7 +761,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms describes which of the following fallacies?\n\nChoices:\nA) Ambiguity\nB) Special pleading\nC) Reification\nD) Hypostatization\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -776,7 +776,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms describes which of the following fallacies?\n\nChoices:\nA) Ambiguity\nB) Special pleading\nC) Reification\nD) Hypostatization\n\nAnswer:"
     },
     {
@@ -786,7 +786,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a claim is supported only by asserting that unidentified experts accept the claim the arguer has committed which of the following fallacies?\n\nChoices:\nA) appeal to tradition\nB) ad vericundiam\nC) appeal to anonymous authority\nD) snob appeal\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -801,7 +801,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a claim is supported only by asserting that unidentified experts accept the claim the arguer has committed which of the following fallacies?\n\nChoices:\nA) appeal to tradition\nB) ad vericundiam\nC) appeal to anonymous authority\nD) snob appeal\n\nAnswer:"
     },
     {
@@ -811,7 +811,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \"To be valid, the minor premise must either agree with the antecedent, or disagree with the consequent\" is a requirement for\n\nChoices:\nA) a disjunctive syllogism\nB) a categorical syllogism\nC) a conditional syllogism\nD) disjunctive enthymeme\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -826,7 +826,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \"To be valid, the minor premise must either agree with the antecedent, or disagree with the consequent\" is a requirement for\n\nChoices:\nA) a disjunctive syllogism\nB) a categorical syllogism\nC) a conditional syllogism\nD) disjunctive enthymeme\n\nAnswer:"
     },
     {
@@ -836,7 +836,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the fallacy of special pleading?\n\nChoices:\nA) Reasoning that ideas presented in an appealing manner are correct, regardless of the content of the message.\nB) Using language and punctuation in a way that a statement can have multiple interpretations, so it's not really clear what is meant.\nC) Confusing figurative language with literal language.\nD) Referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -851,7 +851,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the fallacy of special pleading?\n\nChoices:\nA) Reasoning that ideas presented in an appealing manner are correct, regardless of the content of the message.\nB) Using language and punctuation in a way that a statement can have multiple interpretations, so it's not really clear what is meant.\nC) Confusing figurative language with literal language.\nD) Referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms\n\nAnswer:"
     },
     {
@@ -861,7 +861,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the fallacy of poisoning the well?\n\nChoices:\nA) a way of suppressing evidence that eliminates a source of evidence from consideration by claiming the source is flawed, when there is no true relationship between the alleged flaw and the reliability of the source\nB) arguing that a claim should be accepted based on evidence that is not presented, but asserted to be well known or obvious.\nC) arguing something should be done based only on evidence that it's been done that way in the past, or should be believed only because it's been believed for a long time.\nD) reasoning that a claim is true based only on the evidence that it has been made so often.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -876,7 +876,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the fallacy of poisoning the well?\n\nChoices:\nA) a way of suppressing evidence that eliminates a source of evidence from consideration by claiming the source is flawed, when there is no true relationship between the alleged flaw and the reliability of the source\nB) arguing that a claim should be accepted based on evidence that is not presented, but asserted to be well known or obvious.\nC) arguing something should be done based only on evidence that it's been done that way in the past, or should be believed only because it's been believed for a long time.\nD) reasoning that a claim is true based only on the evidence that it has been made so often.\n\nAnswer:"
     },
     {
@@ -886,7 +886,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If someone argues that something should be done in a certain way because that's the way it's always been done, that person has committed which of the following fallacies?\n\nChoices:\nA) slippery slope\nB) appeal to tradition\nC) argument from authority\nD) ad nauseam\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -901,7 +901,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If someone argues that something should be done in a certain way because that's the way it's always been done, that person has committed which of the following fallacies?\n\nChoices:\nA) slippery slope\nB) appeal to tradition\nC) argument from authority\nD) ad nauseam\n\nAnswer:"
     },
     {
@@ -911,7 +911,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When someone makes an argument, and the only evidence he or she uses to support the claim is the testimony that an authority figure believes the claim, the arguer has committed which fallacy?\n\nChoices:\nA) Questionable use of statistics\nB) Apple polishing\nC) Self evident truths\nD) Argument from authority\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -926,7 +926,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When someone makes an argument, and the only evidence he or she uses to support the claim is the testimony that an authority figure believes the claim, the arguer has committed which fallacy?\n\nChoices:\nA) Questionable use of statistics\nB) Apple polishing\nC) Self evident truths\nD) Argument from authority\n\nAnswer:"
     },
     {
@@ -936,7 +936,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The complex proposition fallacy involves\n\nChoices:\nA) including more than one claim in the proposition and treating proof for one claim as proof for all the claims.\nB) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nC) arguing that a claim must be true because there is no evidence that it is false.\nD) arguing something is inferior just because it doesn't do something it was never intended to do.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -951,7 +951,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The complex proposition fallacy involves\n\nChoices:\nA) including more than one claim in the proposition and treating proof for one claim as proof for all the claims.\nB) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nC) arguing that a claim must be true because there is no evidence that it is false.\nD) arguing something is inferior just because it doesn't do something it was never intended to do.\n\nAnswer:"
     },
     {
@@ -961,7 +961,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Including more than one claim in a proposition may lead to which of the following fallacies?\n\nChoices:\nA) Complex question\nB) Appeal to ignorance\nC) Compound proposition\nD) Extension\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -976,7 +976,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Including more than one claim in a proposition may lead to which of the following fallacies?\n\nChoices:\nA) Complex question\nB) Appeal to ignorance\nC) Compound proposition\nD) Extension\n\nAnswer:"
     },
     {
@@ -986,7 +986,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies happens when someone concludes that a legitimate generalization necessarily applies to a particular case?\n\nChoices:\nA) False dilemma\nB) Circular reasoning\nC) Accident\nD) Bifurcation\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1001,7 +1001,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies happens when someone concludes that a legitimate generalization necessarily applies to a particular case?\n\nChoices:\nA) False dilemma\nB) Circular reasoning\nC) Accident\nD) Bifurcation\n\nAnswer:"
     },
     {
@@ -1011,7 +1011,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Fallacies can be psychologically persuasive even though they are...\n\nChoices:\nA) Psychologically impotent\nB) Logically flawed\nC) Deductively valid\nD) Inductively valid\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1026,7 +1026,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Fallacies can be psychologically persuasive even though they are...\n\nChoices:\nA) Psychologically impotent\nB) Logically flawed\nC) Deductively valid\nD) Inductively valid\n\nAnswer:"
     },
     {
@@ -1036,7 +1036,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In a valid disjunctive syllogism the minor premise must\n\nChoices:\nA) accept one choice\nB) reject all but one choice\nC) either A or B\nD) none of the above\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1051,7 +1051,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In a valid disjunctive syllogism the minor premise must\n\nChoices:\nA) accept one choice\nB) reject all but one choice\nC) either A or B\nD) none of the above\n\nAnswer:"
     },
     {
@@ -1061,7 +1061,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Another name for the fallacy of complex question is\n\nChoices:\nA) Fallacy of interrogation\nB) Compound proposition\nC) Appeal to ignorance\nD) Extension\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1076,7 +1076,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Another name for the fallacy of complex question is\n\nChoices:\nA) Fallacy of interrogation\nB) Compound proposition\nC) Appeal to ignorance\nD) Extension\n\nAnswer:"
     },
     {
@@ -1086,7 +1086,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the snob appeal fallacy?\n\nChoices:\nA) reasoning that a claim is true based only on the evidence that it has been made so often.\nB) arguing someone should accept a claim based only on the evidence that he or she has the favorable characteristics to understand the truth of the claim.\nC) arguing a claim should be accepted based only on evidence that unidentified authorities accept it.\nD) arguing that someone should accept an idea or product based only on evidence that prestigious people accept it, or that non-prestigious people reject it.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1101,7 +1101,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the snob appeal fallacy?\n\nChoices:\nA) reasoning that a claim is true based only on the evidence that it has been made so often.\nB) arguing someone should accept a claim based only on the evidence that he or she has the favorable characteristics to understand the truth of the claim.\nC) arguing a claim should be accepted based only on evidence that unidentified authorities accept it.\nD) arguing that someone should accept an idea or product based only on evidence that prestigious people accept it, or that non-prestigious people reject it.\n\nAnswer:"
     },
     {
@@ -1111,7 +1111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy of guilt by association is a specific type of\n\nChoices:\nA) Fallacy of accident\nB) Laudatory personality\nC) Begging the question\nD) Circular reasoning\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1126,7 +1126,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy of guilt by association is a specific type of\n\nChoices:\nA) Fallacy of accident\nB) Laudatory personality\nC) Begging the question\nD) Circular reasoning\n\nAnswer:"
     },
     {
@@ -1136,7 +1136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: William Safire in American Heritage Magazine (December 1987): ...The greatness of Lincoln was his purposefulness. He saw something that few others saw: that the democratic experiment centered on the Union and that majority rule was everything. The minute you allowed secession, you made democracy an absurdity---because what would happen would be continued subdivision.\n\nChoices:\nA) Slippery Slope\nB) Questionable Analogy\nC) Appeal to Authority\nD) Straw Man\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1151,7 +1151,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: William Safire in American Heritage Magazine (December 1987): ...The greatness of Lincoln was his purposefulness. He saw something that few others saw: that the democratic experiment centered on the Union and that majority rule was everything. The minute you allowed secession, you made democracy an absurdity---because what would happen would be continued subdivision.\n\nChoices:\nA) Slippery Slope\nB) Questionable Analogy\nC) Appeal to Authority\nD) Straw Man\n\nAnswer:"
     },
     {
@@ -1161,7 +1161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the fallacy of appeal to common practice?\n\nChoices:\nA) eliminating a source of evidence from consideration by claiming the source is flawed, when there is no true relationship between the alleged flaw and the reliability of the source\nB) reasoning that an act or series of acts should be carried out because they will have no significant consequences, when there is no evidence there will be no consequences\nC) drawing a conclusion after purposely leaving out evidence or ignoring known evidence that might contradict a claim\nD) arguing that something is the right thing to do based only on evidence that other people are already doing it.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1176,7 +1176,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the fallacy of appeal to common practice?\n\nChoices:\nA) eliminating a source of evidence from consideration by claiming the source is flawed, when there is no true relationship between the alleged flaw and the reliability of the source\nB) reasoning that an act or series of acts should be carried out because they will have no significant consequences, when there is no evidence there will be no consequences\nC) drawing a conclusion after purposely leaving out evidence or ignoring known evidence that might contradict a claim\nD) arguing that something is the right thing to do based only on evidence that other people are already doing it.\n\nAnswer:"
     },
     {
@@ -1186,7 +1186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the fallacy of equivocation?\n\nChoices:\nA) A form of loaded language that uses an emotionally charged restatement of the claim in place of support for the claim.\nB) Changing the meaning of a word or phrase from one part of the argument to another.\nC) Confusing figurative language with literal language.\nD) Referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1201,7 +1201,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the fallacy of equivocation?\n\nChoices:\nA) A form of loaded language that uses an emotionally charged restatement of the claim in place of support for the claim.\nB) Changing the meaning of a word or phrase from one part of the argument to another.\nC) Confusing figurative language with literal language.\nD) Referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms.\n\nAnswer:"
     },
     {
@@ -1211,7 +1211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \" _Ad novitatem_ \" is\n\nChoices:\nA) arguing that what is true of a few members of a class is true of all members of the class\nB) drawing a conclusion by applying irrelevant criteria to a subject\nC) substituting individual stories for a larger sample as support for a claim\nD) arguing that something must be good because it is new, or must be bad because it is old\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1226,7 +1226,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \" _Ad novitatem_ \" is\n\nChoices:\nA) arguing that what is true of a few members of a class is true of all members of the class\nB) drawing a conclusion by applying irrelevant criteria to a subject\nC) substituting individual stories for a larger sample as support for a claim\nD) arguing that something must be good because it is new, or must be bad because it is old\n\nAnswer:"
     },
     {
@@ -1236,7 +1236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The universe, like a watch, must have a maker.\n\nChoices:\nA) Fallacy of Accident\nB) Questionable Analogy\nC) Questionable Cause\nD) Fallacy of Composition\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1251,7 +1251,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The universe, like a watch, must have a maker.\n\nChoices:\nA) Fallacy of Accident\nB) Questionable Analogy\nC) Questionable Cause\nD) Fallacy of Composition\n\nAnswer:"
     },
     {
@@ -1261,7 +1261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the fallacy of figure of speech?\n\nChoices:\nA) Using emotionally charged language to create an impression about the subject of a claim, without making an argument that the language fits the subject.\nB) Treating something that exists in the mind as if it was a real object.\nC) Confusing figurative language with literal language.\nD) A form of loaded language that uses an emotionally charged restatement of the claim in place of support for the claim.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1276,7 +1276,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the fallacy of figure of speech?\n\nChoices:\nA) Using emotionally charged language to create an impression about the subject of a claim, without making an argument that the language fits the subject.\nB) Treating something that exists in the mind as if it was a real object.\nC) Confusing figurative language with literal language.\nD) A form of loaded language that uses an emotionally charged restatement of the claim in place of support for the claim.\n\nAnswer:"
     },
     {
@@ -1286,7 +1286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Men are better drivers than women are. The proof of this is that men are more capable than women of managing cars on the road.\n\nChoices:\nA) Begging the question\nB) Ad hominem (Attacking the Person)\nC) False Dilemma\nD) Appeal to Pity\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1301,7 +1301,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Men are better drivers than women are. The proof of this is that men are more capable than women of managing cars on the road.\n\nChoices:\nA) Begging the question\nB) Ad hominem (Attacking the Person)\nC) False Dilemma\nD) Appeal to Pity\n\nAnswer:"
     },
     {
@@ -1311,7 +1311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Polonius in William Shakespeare's Hamlet: \"Your noble son is mad: Mad call I it, for to define true madness, What is't but to be nothing else but mad?\"\n\nChoices:\nA) Attacking the Person (ad hominem)\nB) Equivocation\nC) Begging the Question\nD) Appeal to Pity\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1326,7 +1326,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Polonius in William Shakespeare's Hamlet: \"Your noble son is mad: Mad call I it, for to define true madness, What is't but to be nothing else but mad?\"\n\nChoices:\nA) Attacking the Person (ad hominem)\nB) Equivocation\nC) Begging the Question\nD) Appeal to Pity\n\nAnswer:"
     },
     {
@@ -1336,7 +1336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: E.F. Schumacher, famous economist, in an article in the Atlantic (April 1979): Fifteen months [after I had advised that rural India should have a technology intermediate between the hoe and the tractor,] an all-India conference on intermediate technology was arranged. (They still didn't like the term [intermediate], so they called it appropriate technology. That's all right: when I come to India and somebody says, \"Oh, Mr. Schumacher, I don't believe in appropriate technology\", I just look him straight in the face and say, \"Oh, that's splendid. Do you believe in inappropriate technology?\")\n\nChoices:\nA) Equivocation\nB) Inconsistency\nC) Appeal to Authority\nD) Prejudicial Language\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1351,7 +1351,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: E.F. Schumacher, famous economist, in an article in the Atlantic (April 1979): Fifteen months [after I had advised that rural India should have a technology intermediate between the hoe and the tractor,] an all-India conference on intermediate technology was arranged. (They still didn't like the term [intermediate], so they called it appropriate technology. That's all right: when I come to India and somebody says, \"Oh, Mr. Schumacher, I don't believe in appropriate technology\", I just look him straight in the face and say, \"Oh, that's splendid. Do you believe in inappropriate technology?\")\n\nChoices:\nA) Equivocation\nB) Inconsistency\nC) Appeal to Authority\nD) Prejudicial Language\n\nAnswer:"
     },
     {
@@ -1361,7 +1361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A valid disjunctive syllogism has which of the following characteristics?\n\nChoices:\nA) The minor premise must either affirm the antecedent or deny the consequent\nB) The minor premise must either accept an alternative or reject an alternative\nC) One of the premises is missing\nD) It reaches a truthful conclusion\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1376,7 +1376,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A valid disjunctive syllogism has which of the following characteristics?\n\nChoices:\nA) The minor premise must either affirm the antecedent or deny the consequent\nB) The minor premise must either accept an alternative or reject an alternative\nC) One of the premises is missing\nD) It reaches a truthful conclusion\n\nAnswer:"
     },
     {
@@ -1386,7 +1386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Another name for the bandwagon appeal is\n\nChoices:\nA) appeal to beliefs\nB) appeal to authority\nC) appeal to the people\nD) common man appeal\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1401,7 +1401,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Another name for the bandwagon appeal is\n\nChoices:\nA) appeal to beliefs\nB) appeal to authority\nC) appeal to the people\nD) common man appeal\n\nAnswer:"
     },
     {
@@ -1411,7 +1411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Evading burden of proof is another name for the fallacy of\n\nChoices:\nA) Extension\nB) Appeal to ignorance\nC) Complex question\nD) Complex proposition\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1426,7 +1426,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Evading burden of proof is another name for the fallacy of\n\nChoices:\nA) Extension\nB) Appeal to ignorance\nC) Complex question\nD) Complex proposition\n\nAnswer:"
     },
     {
@@ -1436,7 +1436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: _A priori_ is a fallacy that involves\n\nChoices:\nA) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nB) arguing something is inferior just because it doesn't do something it was never intended to do.\nC) arguing that a claim must be true because there is no evidence that it is false.\nD) reasoning that determines the conclusion one wants first, then accepts only evidence supporting that conclusion, or interprets all evidence as support for that conclusion.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1451,7 +1451,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: _A priori_ is a fallacy that involves\n\nChoices:\nA) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nB) arguing something is inferior just because it doesn't do something it was never intended to do.\nC) arguing that a claim must be true because there is no evidence that it is false.\nD) reasoning that determines the conclusion one wants first, then accepts only evidence supporting that conclusion, or interprets all evidence as support for that conclusion.\n\nAnswer:"
     },
     {
@@ -1461,7 +1461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy of composition is\n\nChoices:\nA) attributing the cause of an event to a simple cause when the cause is more complex\nB) arguing that what is true of part of an object must be true of the entire object\nC) drawing a conclusion without enough evidence to support that conclusion\nD) drawing a conclusion based on sign reasoning when there is not really a direct relationship between the alleged sign and the subject of the conclusion\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1476,7 +1476,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy of composition is\n\nChoices:\nA) attributing the cause of an event to a simple cause when the cause is more complex\nB) arguing that what is true of part of an object must be true of the entire object\nC) drawing a conclusion without enough evidence to support that conclusion\nD) drawing a conclusion based on sign reasoning when there is not really a direct relationship between the alleged sign and the subject of the conclusion\n\nAnswer:"
     },
     {
@@ -1486,7 +1486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy of laudatory personality is a specific type of\n\nChoices:\nA) The fallacy of accident\nB) False dilemma\nC) Begging the question\nD) Circular reasoning\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1501,7 +1501,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy of laudatory personality is a specific type of\n\nChoices:\nA) The fallacy of accident\nB) False dilemma\nC) Begging the question\nD) Circular reasoning\n\nAnswer:"
     },
     {
@@ -1511,7 +1511,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Arguing that a lack of evidence proves something is the fallacy of...\n\nChoices:\nA) Appeal to ignorance\nB) Double negative\nC) Equivocation\nD) Burden of proof\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1526,7 +1526,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Arguing that a lack of evidence proves something is the fallacy of...\n\nChoices:\nA) Appeal to ignorance\nB) Double negative\nC) Equivocation\nD) Burden of proof\n\nAnswer:"
     },
     {
@@ -1536,7 +1536,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The appeal to anonymous authority fallacy consists of\n\nChoices:\nA) reasoning that an act or series of acts should be carried out because they will have no significant consequences, when there is no evidence there will be no consequences.\nB) arguing that a claim should be accepted based on the evidence that a large number of people accept it\nC) arguing that something should be done because it has been done in the past\nD) arguing a claim should be accepted based only on the assertion that unidentified authorities accept it\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1551,7 +1551,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The appeal to anonymous authority fallacy consists of\n\nChoices:\nA) reasoning that an act or series of acts should be carried out because they will have no significant consequences, when there is no evidence there will be no consequences.\nB) arguing that a claim should be accepted based on the evidence that a large number of people accept it\nC) arguing that something should be done because it has been done in the past\nD) arguing a claim should be accepted based only on the assertion that unidentified authorities accept it\n\nAnswer:"
     },
     {
@@ -1561,7 +1561,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Arguing that a claim must be true merely because a substantial number of people believe it is called the fallacy of...\n\nChoices:\nA) Tu quoque\nB) Composition\nC) Appeal to the masses\nD) Appeal to reason\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1576,7 +1576,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Arguing that a claim must be true merely because a substantial number of people believe it is called the fallacy of...\n\nChoices:\nA) Tu quoque\nB) Composition\nC) Appeal to the masses\nD) Appeal to reason\n\nAnswer:"
     },
     {
@@ -1586,7 +1586,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Arguing that what is true of an entire object is also true of each part of that object is the fallacy of\n\nChoices:\nA) false criteria\nB) hasty generalization\nC) ad crumenam\nD) division\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1601,7 +1601,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Arguing that what is true of an entire object is also true of each part of that object is the fallacy of\n\nChoices:\nA) false criteria\nB) hasty generalization\nC) ad crumenam\nD) division\n\nAnswer:"
     },
     {
@@ -1611,7 +1611,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy of appeal to emotions consists of\n\nChoices:\nA) trying to make an opponent's argument seem ridiculous\nB) defending wrongdoing by claiming the opposing arguer does the same thing\nC) arguing that an argument should be rejected because the source of the argument\nD) trying to get someone else to agree to a claim only by arousing that person's feelings about the subject\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1626,7 +1626,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy of appeal to emotions consists of\n\nChoices:\nA) trying to make an opponent's argument seem ridiculous\nB) defending wrongdoing by claiming the opposing arguer does the same thing\nC) arguing that an argument should be rejected because the source of the argument\nD) trying to get someone else to agree to a claim only by arousing that person's feelings about the subject\n\nAnswer:"
     },
     {
@@ -1636,7 +1636,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When someone treats an imaginary concept as if it was something tangible that person might commit the fallacy of\n\nChoices:\nA) Question begging epithets\nB) Misusing ambiguity\nC) Hypostatization\nD) Amphiboly\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1651,7 +1651,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When someone treats an imaginary concept as if it was something tangible that person might commit the fallacy of\n\nChoices:\nA) Question begging epithets\nB) Misusing ambiguity\nC) Hypostatization\nD) Amphiboly\n\nAnswer:"
     },
     {
@@ -1661,7 +1661,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Arguing that a claim must be true because there is no evidence that it is false is which of the following fallacies?\n\nChoices:\nA) a priori\nB) Extension\nC) Appeal to ignorance\nD) plurium interrogationum\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1676,7 +1676,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Arguing that a claim must be true because there is no evidence that it is false is which of the following fallacies?\n\nChoices:\nA) a priori\nB) Extension\nC) Appeal to ignorance\nD) plurium interrogationum\n\nAnswer:"
     },
     {
@@ -1686,7 +1686,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the fallacy of evading the issue?\n\nChoices:\nA) arguing that someone should do something only because of ill will towards someone else\nB) characterizing an opponent's position in a way that makes it seem ridiculous\nC) supporting a claim with evidence or reasoning that is not relevant to the proposition, or responding to another's argument by changing the subject\nD) attempting to gain agreement based only on the feelings aroused in the message\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1701,7 +1701,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the fallacy of evading the issue?\n\nChoices:\nA) arguing that someone should do something only because of ill will towards someone else\nB) characterizing an opponent's position in a way that makes it seem ridiculous\nC) supporting a claim with evidence or reasoning that is not relevant to the proposition, or responding to another's argument by changing the subject\nD) attempting to gain agreement based only on the feelings aroused in the message\n\nAnswer:"
     },
     {
@@ -1711,7 +1711,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the fallacy of appeal to indignation?\n\nChoices:\nA) attacking the character or background of someone making an argument instead of his or her evidence and reasoning\nB) responding to charges of wrongdoing by saying other people do the same thing\nC) arguing against a position only based on personal feelings toward the position\nD) responding to an argument with an expression of derision instead of a counter argument\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1726,7 +1726,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the fallacy of appeal to indignation?\n\nChoices:\nA) attacking the character or background of someone making an argument instead of his or her evidence and reasoning\nB) responding to charges of wrongdoing by saying other people do the same thing\nC) arguing against a position only based on personal feelings toward the position\nD) responding to an argument with an expression of derision instead of a counter argument\n\nAnswer:"
     },
     {
@@ -1736,7 +1736,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \"The minor premise must affirm the antecedent or deny the consequent\" is a way to determine the validity of which type of argument?\n\nChoices:\nA) Categorical syllogism\nB) Disjunctive syllogism\nC) Hypothetical syllogism\nD) Toulmin model\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1751,7 +1751,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \"The minor premise must affirm the antecedent or deny the consequent\" is a way to determine the validity of which type of argument?\n\nChoices:\nA) Categorical syllogism\nB) Disjunctive syllogism\nC) Hypothetical syllogism\nD) Toulmin model\n\nAnswer:"
     },
     {
@@ -1761,7 +1761,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy of extension consists of\n\nChoices:\nA) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nB) arguing something is flawed because it doesn't do what it was never intended to do.\nC) arguing about something when you don't know what you're talking about\nD) including more than one claim in the proposition and treating proof for one claim as proof for all the claims.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1776,7 +1776,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy of extension consists of\n\nChoices:\nA) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nB) arguing something is flawed because it doesn't do what it was never intended to do.\nC) arguing about something when you don't know what you're talking about\nD) including more than one claim in the proposition and treating proof for one claim as proof for all the claims.\n\nAnswer:"
     },
     {
@@ -1786,7 +1786,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies happens when someone concludes that someone couldn't have done something good because he or she has negative qualities?\n\nChoices:\nA) Laudatory personality\nB) Guilt by association\nC) Reprehensible personality\nD) Circular reasoning\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1801,7 +1801,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies happens when someone concludes that someone couldn't have done something good because he or she has negative qualities?\n\nChoices:\nA) Laudatory personality\nB) Guilt by association\nC) Reprehensible personality\nD) Circular reasoning\n\nAnswer:"
     },
     {
@@ -1811,7 +1811,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is another name for the fallacy of amphiboly?\n\nChoices:\nA) Misusing ambiguity\nB) Reification\nC) Figure of speech\nD) Special pleading\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1826,7 +1826,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is another name for the fallacy of amphiboly?\n\nChoices:\nA) Misusing ambiguity\nB) Reification\nC) Figure of speech\nD) Special pleading\n\nAnswer:"
     },
     {
@@ -1836,7 +1836,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which fallacy happens because of a failure to recognize the alternatives presented are not mutually exclusive?\n\nChoices:\nA) Begging the Question\nB) Accident\nC) Circular reasoning\nD) False dilemma\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1851,7 +1851,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which fallacy happens because of a failure to recognize the alternatives presented are not mutually exclusive?\n\nChoices:\nA) Begging the Question\nB) Accident\nC) Circular reasoning\nD) False dilemma\n\nAnswer:"
     },
     {
@@ -1861,7 +1861,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When someone responds to your argument with a sarcastic statement such as, \"Yeah, right. Like that's ever going to happen,\" that person may have committed which fallacy?\n\nChoices:\nA) appeal to indignation\nB) appeal to spite\nC) horse laugh\nD) tu quoque\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1876,7 +1876,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When someone responds to your argument with a sarcastic statement such as, \"Yeah, right. Like that's ever going to happen,\" that person may have committed which fallacy?\n\nChoices:\nA) appeal to indignation\nB) appeal to spite\nC) horse laugh\nD) tu quoque\n\nAnswer:"
     },
     {
@@ -1886,7 +1886,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \"The minor premise must affirm the antecedent or deny the consequent\" is a validity requirement of which type of argument?\n\nChoices:\nA) Toulmin\nB) Categorical\nC) Disjunctive\nD) Conditional (or hypothetical)\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1901,7 +1901,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \"The minor premise must affirm the antecedent or deny the consequent\" is a validity requirement of which type of argument?\n\nChoices:\nA) Toulmin\nB) Categorical\nC) Disjunctive\nD) Conditional (or hypothetical)\n\nAnswer:"
     },
     {
@@ -1911,7 +1911,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The hasty conclusion fallacy is\n\nChoices:\nA) arguing that a single event caused another when the cause is really several events\nB) making an argument without enough evidence to support the conclusion\nC) substituting individual stories for a larger sample in support of a claim\nD) reasoning that applies irrelevant criteria to the subject of the argument.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1926,7 +1926,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The hasty conclusion fallacy is\n\nChoices:\nA) arguing that a single event caused another when the cause is really several events\nB) making an argument without enough evidence to support the conclusion\nC) substituting individual stories for a larger sample in support of a claim\nD) reasoning that applies irrelevant criteria to the subject of the argument.\n\nAnswer:"
     },
     {
@@ -1936,7 +1936,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes he fallacy of appeal to pride?\n\nChoices:\nA) arguing a claim should be accepted based only on evidence that unidentified authorities accept it.\nB) arguing someone should accept a claim based only on the evidence that he or she has the favorable characteristics to understand the truth of the claim.\nC) arguing something should be done based only on evidence that it's been done that way in the past, or should be believed only because it's been believed for a long time.\nD) arguing that an act or series of acts should be carried out because they will have no significant consequences, when there is no evidence for the lack of significant effects.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1951,7 +1951,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes he fallacy of appeal to pride?\n\nChoices:\nA) arguing a claim should be accepted based only on evidence that unidentified authorities accept it.\nB) arguing someone should accept a claim based only on the evidence that he or she has the favorable characteristics to understand the truth of the claim.\nC) arguing something should be done based only on evidence that it's been done that way in the past, or should be believed only because it's been believed for a long time.\nD) arguing that an act or series of acts should be carried out because they will have no significant consequences, when there is no evidence for the lack of significant effects.\n\nAnswer:"
     },
     {
@@ -1961,7 +1961,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies is a way of suppressing evidence that eliminates a source of evidence from consideration by claiming the source is flawed, when there is no true relationship between the alleged flaw and the reliability of the source?\n\nChoices:\nA) significance\nB) snob appeal\nC) poisoning the well\nD) appeal to anonymous authority\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1976,7 +1976,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies is a way of suppressing evidence that eliminates a source of evidence from consideration by claiming the source is flawed, when there is no true relationship between the alleged flaw and the reliability of the source?\n\nChoices:\nA) significance\nB) snob appeal\nC) poisoning the well\nD) appeal to anonymous authority\n\nAnswer:"
     },
     {
@@ -1986,7 +1986,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The concomitant variation fallacy is\n\nChoices:\nA) attributing the cause of an event to a single cause when the cause is more complicated\nB) arguing that since two events happened at the same time, one event must have caused the other\nC) arguing that since one event preceded another event it must have caused the second event\nD) drawing a conclusion based on sign reasoning when there is not really a direct relationship between the alleged sign and the subject of the conclusion\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2001,7 +2001,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The concomitant variation fallacy is\n\nChoices:\nA) attributing the cause of an event to a single cause when the cause is more complicated\nB) arguing that since two events happened at the same time, one event must have caused the other\nC) arguing that since one event preceded another event it must have caused the second event\nD) drawing a conclusion based on sign reasoning when there is not really a direct relationship between the alleged sign and the subject of the conclusion\n\nAnswer:"
     },
     {
@@ -2011,7 +2011,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the fallacy of self-evident truths?\n\nChoices:\nA) arguing that a claim is true based only on evidence that an authority figure accepts the claim.\nB) arguing a claim should be accepted based only on evidence that unidentified authorities accept it.\nC) arguing that a claim should be accepted based on evidence that is not presented, but is asserted to be well known or obvious.\nD) arguing someone should accept a claim based only on the evidence that he or she has the favorable characteristics to understand the truth of the claim.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2026,7 +2026,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the fallacy of self-evident truths?\n\nChoices:\nA) arguing that a claim is true based only on evidence that an authority figure accepts the claim.\nB) arguing a claim should be accepted based only on evidence that unidentified authorities accept it.\nC) arguing that a claim should be accepted based on evidence that is not presented, but is asserted to be well known or obvious.\nD) arguing someone should accept a claim based only on the evidence that he or she has the favorable characteristics to understand the truth of the claim.\n\nAnswer:"
     },
     {
@@ -2036,7 +2036,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Another name for the fallacy of begging the question is\n\nChoices:\nA) Dito simpliciter\nB) Bifurcation\nC) Reprehensible personality\nD) Circular reasoning\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2051,7 +2051,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Another name for the fallacy of begging the question is\n\nChoices:\nA) Dito simpliciter\nB) Bifurcation\nC) Reprehensible personality\nD) Circular reasoning\n\nAnswer:"
     },
     {
@@ -2061,7 +2061,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the fallacy of amphiboly?\n\nChoices:\nA) Using emotionally charged languages to create an impression about the subject of a claim, without making an argument that the language fits the subject.\nB) Referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms.\nC) Using grammar and punctuation in a way that a statement may have multiple interpretations, so it's not really clear what is meant.\nD) Changing the meaning of a word or phrase from one part of the argument to another.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2076,7 +2076,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following best describes the fallacy of amphiboly?\n\nChoices:\nA) Using emotionally charged languages to create an impression about the subject of a claim, without making an argument that the language fits the subject.\nB) Referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms.\nC) Using grammar and punctuation in a way that a statement may have multiple interpretations, so it's not really clear what is meant.\nD) Changing the meaning of a word or phrase from one part of the argument to another.\n\nAnswer:"
     },
     {
@@ -2086,7 +2086,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy that involves reasoning that determines the conclusion one wants first, then accepts only evidence supporting that conclusion, or interprets all evidence as support for that conclusion is known as\n\nChoices:\nA) ad ignorantium\nB) a priori\nC) plurium interrogationum\nD) Extension\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2101,7 +2101,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy that involves reasoning that determines the conclusion one wants first, then accepts only evidence supporting that conclusion, or interprets all evidence as support for that conclusion is known as\n\nChoices:\nA) ad ignorantium\nB) a priori\nC) plurium interrogationum\nD) Extension\n\nAnswer:"
     },
     {
@@ -2111,7 +2111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The natural law fallacy is\n\nChoices:\nA) arguing that something is necessarily bad because it doesn't cost very much\nB) substituting individual stories for a larger sample when supporting a generalization\nC) arguing that what is true in nature must be true about humans\nD) the same thing as the  post hoc  fallacy\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2126,7 +2126,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The natural law fallacy is\n\nChoices:\nA) arguing that something is necessarily bad because it doesn't cost very much\nB) substituting individual stories for a larger sample when supporting a generalization\nC) arguing that what is true in nature must be true about humans\nD) the same thing as the  post hoc  fallacy\n\nAnswer:"
     },
     {
@@ -2136,7 +2136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \"Misuse of statistics,\" \"questionable statistics,\" and \"questionable use of statistics\" are all other names for the fallacy of\n\nChoices:\nA) appeal to a pride\nB) significance\nC) poisoning the well\nD) slippery slope\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2151,7 +2151,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \"Misuse of statistics,\" \"questionable statistics,\" and \"questionable use of statistics\" are all other names for the fallacy of\n\nChoices:\nA) appeal to a pride\nB) significance\nC) poisoning the well\nD) slippery slope\n\nAnswer:"
     },
     {
@@ -2161,7 +2161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the fallacy of appeal to spite?\n\nChoices:\nA) responding to an argument with an expression of derision instead of a counter argument\nB) arguing against a position based only on negative personal feelings toward the position\nC) arguing someone should do something only because that person dislikes someone else\nD) saying someone shouldn't do something because if he or she does it people won't like him or her\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2176,7 +2176,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following describes the fallacy of appeal to spite?\n\nChoices:\nA) responding to an argument with an expression of derision instead of a counter argument\nB) arguing against a position based only on negative personal feelings toward the position\nC) arguing someone should do something only because that person dislikes someone else\nD) saying someone shouldn't do something because if he or she does it people won't like him or her\n\nAnswer:"
     },
     {
@@ -2186,7 +2186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: _Ad hominem_ is another name for the fallacy of\n\nChoices:\nA) appeal to loyalty\nB) reducing to an absurdity\nC) ignorance of refutation\nD) argument against the person\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2201,7 +2201,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: _Ad hominem_ is another name for the fallacy of\n\nChoices:\nA) appeal to loyalty\nB) reducing to an absurdity\nC) ignorance of refutation\nD) argument against the person\n\nAnswer:"
     },
     {
@@ -2211,7 +2211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If someone uses an emotionally charged restatement of a claim in place of support for the claim, that person may have committed which of the following fallacies?\n\nChoices:\nA) Style over substance\nB) Question begging epithets\nC) Hypostatization\nD) Amphiboly\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2226,7 +2226,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If someone uses an emotionally charged restatement of a claim in place of support for the claim, that person may have committed which of the following fallacies?\n\nChoices:\nA) Style over substance\nB) Question begging epithets\nC) Hypostatization\nD) Amphiboly\n\nAnswer:"
     },
     {
@@ -2236,7 +2236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The appeal to fear involves\n\nChoices:\nA) arguing something should be done only because it will make the person doing it feel good\nB) arguing someone should do something only because of ill will towards someone else\nC) arguing actions should be taken to avoid exaggerated, unlikely, or irrelevant negative results\nD) characterizing an opponents position in a way that makes it seem silly\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2251,7 +2251,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The appeal to fear involves\n\nChoices:\nA) arguing something should be done only because it will make the person doing it feel good\nB) arguing someone should do something only because of ill will towards someone else\nC) arguing actions should be taken to avoid exaggerated, unlikely, or irrelevant negative results\nD) characterizing an opponents position in a way that makes it seem silly\n\nAnswer:"
     },
     {
@@ -2261,7 +2261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Arguing that an idea should be accepted or rejected only because of the source of the idea commits which of the following fallacies?\n\nChoices:\nA) genetic fallacy\nB) appeal to popularity\nC) scare tactics\nD) appeal to emotions\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2276,7 +2276,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Arguing that an idea should be accepted or rejected only because of the source of the idea commits which of the following fallacies?\n\nChoices:\nA) genetic fallacy\nB) appeal to popularity\nC) scare tactics\nD) appeal to emotions\n\nAnswer:"
     },
     {
@@ -2286,7 +2286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies happens when someone concludes that someone must be honest because the people he hangs around with are honest?\n\nChoices:\nA) Laudatory personality\nB) Guilt by association\nC) Reprehensible personality\nD) Circular reasoning\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2301,7 +2301,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies happens when someone concludes that someone must be honest because the people he hangs around with are honest?\n\nChoices:\nA) Laudatory personality\nB) Guilt by association\nC) Reprehensible personality\nD) Circular reasoning\n\nAnswer:"
     },
     {
@@ -2311,7 +2311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \" _Ad crumenam_ \" is a specific kind of\n\nChoices:\nA) False analogy\nB) Hasty Generalization\nC) False sign\nD) Hasty Conclusion\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2326,7 +2326,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: \" _Ad crumenam_ \" is a specific kind of\n\nChoices:\nA) False analogy\nB) Hasty Generalization\nC) False sign\nD) Hasty Conclusion\n\nAnswer:"
     },
     {
@@ -2336,7 +2336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which fallacy happens when someone argues in favor of a two part proposition, only supports one part of the proposition, then asserts that the entire proposition has been supported.\n\nChoices:\nA) a priori\nB) Complex proposition\nC) Extension\nD) Appeal to ignorance\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2351,7 +2351,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which fallacy happens when someone argues in favor of a two part proposition, only supports one part of the proposition, then asserts that the entire proposition has been supported.\n\nChoices:\nA) a priori\nB) Complex proposition\nC) Extension\nD) Appeal to ignorance\n\nAnswer:"
     },
     {
@@ -2361,7 +2361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: So, how long have you been beating your wife?\n\nChoices:\nA) Attacking the Person (ad hominem)\nB) False Dilemma\nC) Prejudicial Language\nD) Appeal to Force\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2376,7 +2376,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: So, how long have you been beating your wife?\n\nChoices:\nA) Attacking the Person (ad hominem)\nB) False Dilemma\nC) Prejudicial Language\nD) Appeal to Force\n\nAnswer:"
     },
     {
@@ -2386,7 +2386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: John S. Knight, Detroit Free Press (3 July 1970): ...Capitalism is the economic system in which the means of production and distribution are privately owned and operated for profit. The alternative system is called socialism, the theory of the ownership and operation of the means of production by society, with all members sharing in the work and the products.\n\nChoices:\nA) Begging the Question\nB) False Dilemma\nC) Straw Man\nD) Appeal to Gallery (Provicialism)\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2401,7 +2401,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: John S. Knight, Detroit Free Press (3 July 1970): ...Capitalism is the economic system in which the means of production and distribution are privately owned and operated for profit. The alternative system is called socialism, the theory of the ownership and operation of the means of production by society, with all members sharing in the work and the products.\n\nChoices:\nA) Begging the Question\nB) False Dilemma\nC) Straw Man\nD) Appeal to Gallery (Provicialism)\n\nAnswer:"
     },
     {
@@ -2411,7 +2411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy of appeal to the person is rejecting a claim by...\n\nChoices:\nA) Using rhetoric\nB) Making false statements\nC) Ignoring the person\nD) Criticizing the person who makes it\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2426,7 +2426,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fallacy of appeal to the person is rejecting a claim by...\n\nChoices:\nA) Using rhetoric\nB) Making false statements\nC) Ignoring the person\nD) Criticizing the person who makes it\n\nAnswer:"
     },
     {
@@ -2436,7 +2436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: We must assume that he is a Communist, because he says that he is not, and we know that Communists are taught always to deny party membership.\n\nChoices:\nA) Argument from Ignorance\nB) Affirming the Consequent\nC) Denying the Antecedent\nD) Begging the Question\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2451,7 +2451,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: We must assume that he is a Communist, because he says that he is not, and we know that Communists are taught always to deny party membership.\n\nChoices:\nA) Argument from Ignorance\nB) Affirming the Consequent\nC) Denying the Antecedent\nD) Begging the Question\n\nAnswer:"
     },
     {
@@ -2461,7 +2461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Asking a question that includes an unproven assumption may lead to which of the following fallacies?\n\nChoices:\nA) Appeal to ignorance\nB) Extension\nC) a priori\nD) Complex question\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2476,7 +2476,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Asking a question that includes an unproven assumption may lead to which of the following fallacies?\n\nChoices:\nA) Appeal to ignorance\nB) Extension\nC) a priori\nD) Complex question\n\nAnswer:"
     },
     {
@@ -2486,7 +2486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies happens when someone draws a conclusion that is simply a restatement of one of the premises?\n\nChoices:\nA) Laudatory personality\nB) Guilt by association\nC) Accident\nD) Begging the question\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2501,7 +2501,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_logical_fallacies) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following fallacies happens when someone draws a conclusion that is simply a restatement of one of the premises?\n\nChoices:\nA) Laudatory personality\nB) Guilt by association\nC) Accident\nD) Begging the question\n\nAnswer:"
     }
   ]

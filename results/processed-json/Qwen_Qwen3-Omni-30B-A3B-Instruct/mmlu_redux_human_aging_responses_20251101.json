@@ -1,6 +1,6 @@
 {
   "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
-  "created_at": "2025-10-31T01:00:13.111Z",
+  "created_at": "2025-10-31T06:30:13.110851",
   "benchmark_id": "mmlu_redux_human_aging",
   "total_samples": 100,
   "samples": [
@@ -11,7 +11,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a researcher takes part in the situation he or she is observing, he or she is said to be a(n)\n\nChoices:\nA) Active observer\nB) Participant observer\nC) Indiscreet observer\nD) Meddling observer\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -26,7 +26,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a researcher takes part in the situation he or she is observing, he or she is said to be a(n)\n\nChoices:\nA) Active observer\nB) Participant observer\nC) Indiscreet observer\nD) Meddling observer\n\nAnswer:"
     },
     {
@@ -36,7 +36,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Our social network refers to\n\nChoices:\nA) Everyone we know\nB) Those who are closest to us\nC) Those who we have not yet met\nD) Family members\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -51,7 +51,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Our social network refers to\n\nChoices:\nA) Everyone we know\nB) Those who are closest to us\nC) Those who we have not yet met\nD) Family members\n\nAnswer:"
     },
     {
@@ -61,7 +61,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The hypothesis that says adults will remain healthy until very old age and then quickly become ill and die is the ____ hypothesis\n\nChoices:\nA) Terminal drop\nB) Compression of morbidity\nC) Klagmore-Rensfeldt\nD) Decline avoidance\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -76,7 +76,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The hypothesis that says adults will remain healthy until very old age and then quickly become ill and die is the ____ hypothesis\n\nChoices:\nA) Terminal drop\nB) Compression of morbidity\nC) Klagmore-Rensfeldt\nD) Decline avoidance\n\nAnswer:"
     },
     {
@@ -86,7 +86,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: High levels of self-care behaviors have been associated with high levels of\n\nChoices:\nA) Neuroticism\nB) Extraversion\nC) Agreeableness\nD) Secondary control\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -101,7 +101,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: High levels of self-care behaviors have been associated with high levels of\n\nChoices:\nA) Neuroticism\nB) Extraversion\nC) Agreeableness\nD) Secondary control\n\nAnswer:"
     },
     {
@@ -111,7 +111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Surveys of older adults who are living together show that they tend to view cohabitation as\n\nChoices:\nA) A first step toward eventual marriage\nB) An alternative to marriage\nC) A way to save on expenses\nD) Their swan song\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -126,7 +126,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Surveys of older adults who are living together show that they tend to view cohabitation as\n\nChoices:\nA) A first step toward eventual marriage\nB) An alternative to marriage\nC) A way to save on expenses\nD) Their swan song\n\nAnswer:"
     },
     {
@@ -136,7 +136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The most frequent chronic condition for older adults is\n\nChoices:\nA) Hypertension\nB) Arthritis\nC) Diabetes\nD) Cataracts\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -151,7 +151,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The most frequent chronic condition for older adults is\n\nChoices:\nA) Hypertension\nB) Arthritis\nC) Diabetes\nD) Cataracts\n\nAnswer:"
     },
     {
@@ -161,7 +161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: People with which of the following forms of control are least likely to have accessibility problems where they live?\n\nChoices:\nA) External\nB) Internal\nC) Primary\nD) Total\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -176,7 +176,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: People with which of the following forms of control are least likely to have accessibility problems where they live?\n\nChoices:\nA) External\nB) Internal\nC) Primary\nD) Total\n\nAnswer:"
     },
     {
@@ -186,7 +186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A difference between the social networks of older and younger adults is that older adults have\n\nChoices:\nA) Larger inner circles\nB) Larger outer circles\nC) Smaller inner circles\nD) Smaller outer circles\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -201,7 +201,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A difference between the social networks of older and younger adults is that older adults have\n\nChoices:\nA) Larger inner circles\nB) Larger outer circles\nC) Smaller inner circles\nD) Smaller outer circles\n\nAnswer:"
     },
     {
@@ -211,7 +211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following statements is TRUE concerning older workers' job performance?\n\nChoices:\nA) Older workers always perform better because of their vast experience\nB) Older workers never perform better than younger workers because with age, a worker's skills decline.\nC) Job performance for older workers depends both upon the decline of skills and the benefits of experience\nD) Most jobs are performed better by younger adults but a few are performed better by older adults\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -226,7 +226,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following statements is TRUE concerning older workers' job performance?\n\nChoices:\nA) Older workers always perform better because of their vast experience\nB) Older workers never perform better than younger workers because with age, a worker's skills decline.\nC) Job performance for older workers depends both upon the decline of skills and the benefits of experience\nD) Most jobs are performed better by younger adults but a few are performed better by older adults\n\nAnswer:"
     },
     {
@@ -236,7 +236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The law that requires all healthcare institutions that receive Medicaid funds to inform patients about advance directives is called the\n\nChoices:\nA) Patient Self-Determination Act\nB) Informed Consent Act\nC) Advance Directive\nD) Medicaid Directive Information Act\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -251,7 +251,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The law that requires all healthcare institutions that receive Medicaid funds to inform patients about advance directives is called the\n\nChoices:\nA) Patient Self-Determination Act\nB) Informed Consent Act\nC) Advance Directive\nD) Medicaid Directive Information Act\n\nAnswer:"
     },
     {
@@ -261,7 +261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: That super sweet iced tea that your grandmother gives you might be that way because she\n\nChoices:\nA) Has lost a lot of sweet taste buds and cannot taste sweetness as well anymore\nB) Is a member of that cohort that really enjoys sweets\nC) Is trying to get you to be a little sweeter than you have been in the past\nD) Has experienced damage in her parietal lobe where sweet sensations are directed\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -276,7 +276,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: That super sweet iced tea that your grandmother gives you might be that way because she\n\nChoices:\nA) Has lost a lot of sweet taste buds and cannot taste sweetness as well anymore\nB) Is a member of that cohort that really enjoys sweets\nC) Is trying to get you to be a little sweeter than you have been in the past\nD) Has experienced damage in her parietal lobe where sweet sensations are directed\n\nAnswer:"
     },
     {
@@ -286,7 +286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Bu is often late for appointments but says it's because she had more important things on her mind. This is an example of which coping strategy?\n\nChoices:\nA) Immunization\nB) Accommodation\nC) Avoidance\nD) Assimilation\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -301,7 +301,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Bu is often late for appointments but says it's because she had more important things on her mind. This is an example of which coping strategy?\n\nChoices:\nA) Immunization\nB) Accommodation\nC) Avoidance\nD) Assimilation\n\nAnswer:"
     },
     {
@@ -311,7 +311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which dementia are cognitive symptoms less likely?\n\nChoices:\nA) Parkinson's\nB) Pick's\nC) Huntington's\nD) NeuroAIDS\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -326,7 +326,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which dementia are cognitive symptoms less likely?\n\nChoices:\nA) Parkinson's\nB) Pick's\nC) Huntington's\nD) NeuroAIDS\n\nAnswer:"
     },
     {
@@ -336,7 +336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Neuroticism has been found to be correlated with which of the following?\n\nChoices:\nA) Anger and guilt\nB) Apathy and indifference\nC) Deceit and cunning\nD) Mania and hypertension\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -351,7 +351,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Neuroticism has been found to be correlated with which of the following?\n\nChoices:\nA) Anger and guilt\nB) Apathy and indifference\nC) Deceit and cunning\nD) Mania and hypertension\n\nAnswer:"
     },
     {
@@ -361,7 +361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The answer \"both play an important role\" is clearly applicable to the question of\n\nChoices:\nA) Nature vs. nurture\nB) Mechanistic vs organismic\nC) Continuity vs. discontinuity\nD) All of these questions\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -376,7 +376,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The answer \"both play an important role\" is clearly applicable to the question of\n\nChoices:\nA) Nature vs. nurture\nB) Mechanistic vs organismic\nC) Continuity vs. discontinuity\nD) All of these questions\n\nAnswer:"
     },
     {
@@ -386,7 +386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The information stored in memory, according to research and our Senior View interviewees, is\n\nChoices:\nA) True to life\nB) Our own interpretation\nC) Always exaggerated\nD) Never accurate\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -401,7 +401,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The information stored in memory, according to research and our Senior View interviewees, is\n\nChoices:\nA) True to life\nB) Our own interpretation\nC) Always exaggerated\nD) Never accurate\n\nAnswer:"
     },
     {
@@ -411,7 +411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The environmental design that brings pets and plants to nursing homes and young people and children as regular visitors is referred to as\n\nChoices:\nA) Instrumental Living Design\nB) The Humanistic Choice\nC) Human-Environment Congruence\nD) The Eden Alternative\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -426,7 +426,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The environmental design that brings pets and plants to nursing homes and young people and children as regular visitors is referred to as\n\nChoices:\nA) Instrumental Living Design\nB) The Humanistic Choice\nC) Human-Environment Congruence\nD) The Eden Alternative\n\nAnswer:"
     },
     {
@@ -436,7 +436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is caused by a prion?\n\nChoices:\nA) Vascular dementia\nB) Alzheimer's\nC) Creutzfeldt-Jakob\nD) Huntington's\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -451,7 +451,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is caused by a prion?\n\nChoices:\nA) Vascular dementia\nB) Alzheimer's\nC) Creutzfeldt-Jakob\nD) Huntington's\n\nAnswer:"
     },
     {
@@ -461,7 +461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The cause of Alzheimer's appears to be\n\nChoices:\nA) Mostly environmental\nB) Aluminum\nC) Mostly genetic\nD) Apo-E 4\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -476,7 +476,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The cause of Alzheimer's appears to be\n\nChoices:\nA) Mostly environmental\nB) Aluminum\nC) Mostly genetic\nD) Apo-E 4\n\nAnswer:"
     },
     {
@@ -486,7 +486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Older adults generally perform very well when their _____ memory is tested.\n\nChoices:\nA) Episodic\nB) Working\nC) Retrospective\nD) Semantic\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -501,7 +501,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Older adults generally perform very well when their _____ memory is tested.\n\nChoices:\nA) Episodic\nB) Working\nC) Retrospective\nD) Semantic\n\nAnswer:"
     },
     {
@@ -511,7 +511,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Do traits change with age?\n\nChoices:\nA) No\nB) They change a little\nC) Only for women\nD) They change quite a lot\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -526,7 +526,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Do traits change with age?\n\nChoices:\nA) No\nB) They change a little\nC) Only for women\nD) They change quite a lot\n\nAnswer:"
     },
     {
@@ -536,7 +536,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Changes in the reproductive system are more _____ for men but not for women\n\nChoices:\nA) Mechanistic\nB) Continuous\nC) Organismic\nD) Nurturant\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -551,7 +551,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Changes in the reproductive system are more _____ for men but not for women\n\nChoices:\nA) Mechanistic\nB) Continuous\nC) Organismic\nD) Nurturant\n\nAnswer:"
     },
     {
@@ -561,7 +561,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A disadvantage of institutional care is that the staff frequently teach older residents to be\n\nChoices:\nA) Rude\nB) Dependent\nC) Independent\nD) Selfish\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -576,7 +576,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A disadvantage of institutional care is that the staff frequently teach older residents to be\n\nChoices:\nA) Rude\nB) Dependent\nC) Independent\nD) Selfish\n\nAnswer:"
     },
     {
@@ -586,7 +586,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The decline in working memory with advanced age seems to be due to\n\nChoices:\nA) A loss of resources and slower processing speed\nB) An increase in the inhibition of relevant information\nC) A general decline in the ability to process information\nD) A severe loss of neural connections and decreased blood flow\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -601,7 +601,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The decline in working memory with advanced age seems to be due to\n\nChoices:\nA) A loss of resources and slower processing speed\nB) An increase in the inhibition of relevant information\nC) A general decline in the ability to process information\nD) A severe loss of neural connections and decreased blood flow\n\nAnswer:"
     },
     {
@@ -611,7 +611,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following does NOT increase the risk of falling?\n\nChoices:\nA) Taking many prescription medications\nB) Visual impairment\nC) Having no emotional support\nD) A change in walking style or gait\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -626,7 +626,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following does NOT increase the risk of falling?\n\nChoices:\nA) Taking many prescription medications\nB) Visual impairment\nC) Having no emotional support\nD) A change in walking style or gait\n\nAnswer:"
     },
     {
@@ -636,7 +636,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The Hayflick number for human cells is\n\nChoices:\nA) Unknown\nB) Between 45 and 55\nC) Less than 30\nD) More than 60\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -651,7 +651,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The Hayflick number for human cells is\n\nChoices:\nA) Unknown\nB) Between 45 and 55\nC) Less than 30\nD) More than 60\n\nAnswer:"
     },
     {
@@ -661,7 +661,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Continued stress is damaging to health and longevity because it leads to\n\nChoices:\nA) Over exercising which causes physical damage\nB) Suppression of the immune system\nC) Less eating and, in many cases, severe eating disorders\nD) Risky behaviors such as speeding and not using a seat belt\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -676,7 +676,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Continued stress is damaging to health and longevity because it leads to\n\nChoices:\nA) Over exercising which causes physical damage\nB) Suppression of the immune system\nC) Less eating and, in many cases, severe eating disorders\nD) Risky behaviors such as speeding and not using a seat belt\n\nAnswer:"
     },
     {
@@ -686,7 +686,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Comorbidity is a problem for older adults because it\n\nChoices:\nA) Makes correct diagnoses difficult\nB) Increases funeral costs\nC) Is very contagious\nD) Cannot, at present, be cured\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -701,7 +701,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Comorbidity is a problem for older adults because it\n\nChoices:\nA) Makes correct diagnoses difficult\nB) Increases funeral costs\nC) Is very contagious\nD) Cannot, at present, be cured\n\nAnswer:"
     },
     {
@@ -711,7 +711,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: With respect to theories of senescence, it's probably safe to say that\n\nChoices:\nA) Programmed theories are the best we have at present\nB) Many theories will have to be combined to explain senescence\nC) The evidence for these theories is direct and quickly accumulating\nD) All of these theories are merely speculation at this point\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -726,7 +726,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: With respect to theories of senescence, it's probably safe to say that\n\nChoices:\nA) Programmed theories are the best we have at present\nB) Many theories will have to be combined to explain senescence\nC) The evidence for these theories is direct and quickly accumulating\nD) All of these theories are merely speculation at this point\n\nAnswer:"
     },
     {
@@ -736,7 +736,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A burial site where the body is allowed to decompose naturally without a casket is called a _____ cemetery\n\nChoices:\nA) Naturalistic\nB) Green\nC) Rapid decay\nD) Sunshine\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -751,7 +751,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A burial site where the body is allowed to decompose naturally without a casket is called a _____ cemetery\n\nChoices:\nA) Naturalistic\nB) Green\nC) Rapid decay\nD) Sunshine\n\nAnswer:"
     },
     {
@@ -761,7 +761,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: High levels of social support are strongly associated with\n\nChoices:\nA) Longevity\nB) Internal control\nC) Culture\nD) Education\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -776,7 +776,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: High levels of social support are strongly associated with\n\nChoices:\nA) Longevity\nB) Internal control\nC) Culture\nD) Education\n\nAnswer:"
     },
     {
@@ -786,7 +786,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Of the following, which is the more frequent stereotype of older adults?\n\nChoices:\nA) Full of wisdom and knowledge\nB) Healthy and independent\nC) Confused and disoriented\nD) Sleepy and lazy\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -801,7 +801,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Of the following, which is the more frequent stereotype of older adults?\n\nChoices:\nA) Full of wisdom and knowledge\nB) Healthy and independent\nC) Confused and disoriented\nD) Sleepy and lazy\n\nAnswer:"
     },
     {
@@ -811,7 +811,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The houses of the future may allow you to operate virtually everything in the house from a central terminal; such a house is already in production and is referred to as\n\nChoices:\nA) Technohouse\nB) Compuhouse\nC) Futurehouse\nD) Smarthouse\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -826,7 +826,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The houses of the future may allow you to operate virtually everything in the house from a central terminal; such a house is already in production and is referred to as\n\nChoices:\nA) Technohouse\nB) Compuhouse\nC) Futurehouse\nD) Smarthouse\n\nAnswer:"
     },
     {
@@ -836,7 +836,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following appears to lower bad cholesterol?\n\nChoices:\nA) Vitamin D\nB) Niacin\nC) Thiamine\nD) Riboflavin\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -851,7 +851,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following appears to lower bad cholesterol?\n\nChoices:\nA) Vitamin D\nB) Niacin\nC) Thiamine\nD) Riboflavin\n\nAnswer:"
     },
     {
@@ -861,7 +861,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: About how many grieving individuals seem to require some professional help?\n\nChoices:\nA) Less than 10%\nB) About 25%\nC) Nearly half\nD) More than 50%\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -876,7 +876,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: About how many grieving individuals seem to require some professional help?\n\nChoices:\nA) Less than 10%\nB) About 25%\nC) Nearly half\nD) More than 50%\n\nAnswer:"
     },
     {
@@ -886,7 +886,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Loss of smell for adults 80 and older is\n\nChoices:\nA) Very infrequent (less than 15%)\nB) Very frequent (more than 75%)\nC) Infrequent (less than 40%)\nD) Frequent (close to 50%)\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -901,7 +901,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Loss of smell for adults 80 and older is\n\nChoices:\nA) Very infrequent (less than 15%)\nB) Very frequent (more than 75%)\nC) Infrequent (less than 40%)\nD) Frequent (close to 50%)\n\nAnswer:"
     },
     {
@@ -911,7 +911,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: An example of an objective test of personality is the\n\nChoices:\nA) TAT\nB) MMPI\nC) Rorschach ink blot test\nD) McAdams test of levels\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -926,7 +926,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: An example of an objective test of personality is the\n\nChoices:\nA) TAT\nB) MMPI\nC) Rorschach ink blot test\nD) McAdams test of levels\n\nAnswer:"
     },
     {
@@ -936,7 +936,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A person who is not very well organized, rarely sets goals, and frequently puts things off until the last minute would be said to be low on which trait?\n\nChoices:\nA) Agreeableness\nB) Conscientiousness\nC) Openness\nD) Neuroticism\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -951,7 +951,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A person who is not very well organized, rarely sets goals, and frequently puts things off until the last minute would be said to be low on which trait?\n\nChoices:\nA) Agreeableness\nB) Conscientiousness\nC) Openness\nD) Neuroticism\n\nAnswer:"
     },
     {
@@ -961,7 +961,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Surveys of bereaved individuals have found that one of the things that is reported as being most helpful is when others\n\nChoices:\nA) Avoid any discussion of the deceased\nB) Remain in close contact\nC) Stay away and let the person grieve\nD) Change the home environment for the bereaved\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -976,7 +976,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Surveys of bereaved individuals have found that one of the things that is reported as being most helpful is when others\n\nChoices:\nA) Avoid any discussion of the deceased\nB) Remain in close contact\nC) Stay away and let the person grieve\nD) Change the home environment for the bereaved\n\nAnswer:"
     },
     {
@@ -986,7 +986,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In this chapter's Senior View, Dr. Shealy advises you to\n\nChoices:\nA) Stay in school\nB) Eat the right foods\nC) Get plenty of exercise\nD) Find a high paying job\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1001,7 +1001,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In this chapter's Senior View, Dr. Shealy advises you to\n\nChoices:\nA) Stay in school\nB) Eat the right foods\nC) Get plenty of exercise\nD) Find a high paying job\n\nAnswer:"
     },
     {
@@ -1011,7 +1011,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which type of reaction time results in the biggest age differences?\n\nChoices:\nA) Simple\nB) Choice\nC) Complex\nD) Elaborate\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1026,7 +1026,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which type of reaction time results in the biggest age differences?\n\nChoices:\nA) Simple\nB) Choice\nC) Complex\nD) Elaborate\n\nAnswer:"
     },
     {
@@ -1036,7 +1036,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: With respect to hair loss\n\nChoices:\nA) Men lose but women do not\nB) Men are more systematic than women\nC) Women lose hair less frequently but more rapidly than men\nD) Environmental factors are the main causes\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1051,7 +1051,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: With respect to hair loss\n\nChoices:\nA) Men lose but women do not\nB) Men are more systematic than women\nC) Women lose hair less frequently but more rapidly than men\nD) Environmental factors are the main causes\n\nAnswer:"
     },
     {
@@ -1061,7 +1061,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Older adults with higher education and self-esteem are more likely to be\n\nChoices:\nA) Sexually active\nB) Socially isolated\nC) Lonely as they grow older\nD) Married for a long time\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1076,7 +1076,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Older adults with higher education and self-esteem are more likely to be\n\nChoices:\nA) Sexually active\nB) Socially isolated\nC) Lonely as they grow older\nD) Married for a long time\n\nAnswer:"
     },
     {
@@ -1086,7 +1086,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A possible positive effect of moderate alcohol consumption is that it may\n\nChoices:\nA) Inhibit the growth of cancers\nB) Promote healing from injuries and illnesses\nC) Keep blood vessels from stiffening\nD) Result in relaxation and lower blood pressure\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1101,7 +1101,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A possible positive effect of moderate alcohol consumption is that it may\n\nChoices:\nA) Inhibit the growth of cancers\nB) Promote healing from injuries and illnesses\nC) Keep blood vessels from stiffening\nD) Result in relaxation and lower blood pressure\n\nAnswer:"
     },
     {
@@ -1111,7 +1111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The major question concerning aging and personality is:\n\nChoices:\nA) Do older adults still have personalities?\nB) Does personality change with age?\nC) Does personality decline as we grow older?\nD) Does personality increase of decrease with age?\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1126,7 +1126,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The major question concerning aging and personality is:\n\nChoices:\nA) Do older adults still have personalities?\nB) Does personality change with age?\nC) Does personality decline as we grow older?\nD) Does personality increase of decrease with age?\n\nAnswer:"
     },
     {
@@ -1136,7 +1136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The first person to measure and compare the response times of young and old was\n\nChoices:\nA) Francis Galton\nB) William James\nC) Michelle Meer\nD) Tom Penge\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1151,7 +1151,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The first person to measure and compare the response times of young and old was\n\nChoices:\nA) Francis Galton\nB) William James\nC) Michelle Meer\nD) Tom Penge\n\nAnswer:"
     },
     {
@@ -1161,7 +1161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following factors has NOT received as much support as the others in research investigating why social support is related to better health?\n\nChoices:\nA) Social\nB) Behavioral\nC) Psychological\nD) Gerontological\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1176,7 +1176,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following factors has NOT received as much support as the others in research investigating why social support is related to better health?\n\nChoices:\nA) Social\nB) Behavioral\nC) Psychological\nD) Gerontological\n\nAnswer:"
     },
     {
@@ -1186,7 +1186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: We want our measures to be as reliable as possible; reliability refers to\n\nChoices:\nA) Whether our measure really measure anything at all\nB) Whether our measure is really measuring what it claims to measure\nC) Whether our measure is consistent in the information it provides\nD) Whether our measure has or has not been used before\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1201,7 +1201,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: We want our measures to be as reliable as possible; reliability refers to\n\nChoices:\nA) Whether our measure really measure anything at all\nB) Whether our measure is really measuring what it claims to measure\nC) Whether our measure is consistent in the information it provides\nD) Whether our measure has or has not been used before\n\nAnswer:"
     },
     {
@@ -1211,7 +1211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Middle-aged adults appear to be more ____ than older or younger adults\n\nChoices:\nA) Generative\nB) Neurotic\nC) Agreeable\nD) Certain\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1226,7 +1226,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Middle-aged adults appear to be more ____ than older or younger adults\n\nChoices:\nA) Generative\nB) Neurotic\nC) Agreeable\nD) Certain\n\nAnswer:"
     },
     {
@@ -1236,7 +1236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Older adults' coping strategies are generally\n\nChoices:\nA) Ineffective at solving problems\nB) Variable as they have more strategies\nC) Persistent as they use the same strategy over and over\nD) Narrow as they ignore many aspects of the problem\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1251,7 +1251,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Older adults' coping strategies are generally\n\nChoices:\nA) Ineffective at solving problems\nB) Variable as they have more strategies\nC) Persistent as they use the same strategy over and over\nD) Narrow as they ignore many aspects of the problem\n\nAnswer:"
     },
     {
@@ -1261,7 +1261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Workers in which of the following jobs still have mandatory retirements once they reach a certain age?\n\nChoices:\nA) Cab drivers\nB) Fire fighters\nC) Insurance regulators\nD) Computer programmers\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1276,7 +1276,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Workers in which of the following jobs still have mandatory retirements once they reach a certain age?\n\nChoices:\nA) Cab drivers\nB) Fire fighters\nC) Insurance regulators\nD) Computer programmers\n\nAnswer:"
     },
     {
@@ -1286,7 +1286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The Supreme Court has now ruled that older workers need no longer prove _____________ to win a job discrimination suit.\n\nChoices:\nA) Discrimination\nB) Age bias\nC) Negative impact\nD) Intention\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1301,7 +1301,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The Supreme Court has now ruled that older workers need no longer prove _____________ to win a job discrimination suit.\n\nChoices:\nA) Discrimination\nB) Age bias\nC) Negative impact\nD) Intention\n\nAnswer:"
     },
     {
@@ -1311,7 +1311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following groups of Americans have the lowest rate of alcohol abuse?\n\nChoices:\nA) African-American\nB) White\nC) Native-American\nD) Asian-American\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1326,7 +1326,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following groups of Americans have the lowest rate of alcohol abuse?\n\nChoices:\nA) African-American\nB) White\nC) Native-American\nD) Asian-American\n\nAnswer:"
     },
     {
@@ -1336,7 +1336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In this chapter's Senior View, May Lee told us that we should all respect our elders because\n\nChoices:\nA) They are much older than we are\nB) They raised us\nC) They lived through difficult times\nD) They ask nothing in return\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1351,7 +1351,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In this chapter's Senior View, May Lee told us that we should all respect our elders because\n\nChoices:\nA) They are much older than we are\nB) They raised us\nC) They lived through difficult times\nD) They ask nothing in return\n\nAnswer:"
     },
     {
@@ -1361,7 +1361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Theories\n\nChoices:\nA) Are not very important in aging research\nB) Attempt to explain findings and guide future research\nC) Have never been adequately tested\nD) Have been around for a long time but have only recently been tested\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1376,7 +1376,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Theories\n\nChoices:\nA) Are not very important in aging research\nB) Attempt to explain findings and guide future research\nC) Have never been adequately tested\nD) Have been around for a long time but have only recently been tested\n\nAnswer:"
     },
     {
@@ -1386,7 +1386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The retirement phase that occurs least frequently is the ____ phase\n\nChoices:\nA) Disenchantment\nB) Honeymoon\nC) Retirement routine\nD) Preretirement\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1401,7 +1401,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The retirement phase that occurs least frequently is the ____ phase\n\nChoices:\nA) Disenchantment\nB) Honeymoon\nC) Retirement routine\nD) Preretirement\n\nAnswer:"
     },
     {
@@ -1411,7 +1411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following does NOT usually occur to the lens of the eye as one grows older?\n\nChoices:\nA) It becomes thicker\nB) It yellows\nC) It becomes clouded\nD) It fills with fluid\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1426,7 +1426,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following does NOT usually occur to the lens of the eye as one grows older?\n\nChoices:\nA) It becomes thicker\nB) It yellows\nC) It becomes clouded\nD) It fills with fluid\n\nAnswer:"
     },
     {
@@ -1436,7 +1436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Free radicals are produced by\n\nChoices:\nA) Normal metabolism\nB) Excess consumption of Vitamins A and C\nC) Lack of sunlight\nD) A weakened immune system\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1451,7 +1451,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Free radicals are produced by\n\nChoices:\nA) Normal metabolism\nB) Excess consumption of Vitamins A and C\nC) Lack of sunlight\nD) A weakened immune system\n\nAnswer:"
     },
     {
@@ -1461,7 +1461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The term \"cohort\" refers to\n\nChoices:\nA) An individual's chronological age\nB) A generation of people who lived through major events\nC) A person's gender\nD) A group of people living in the same culture\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1476,7 +1476,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The term \"cohort\" refers to\n\nChoices:\nA) An individual's chronological age\nB) A generation of people who lived through major events\nC) A person's gender\nD) A group of people living in the same culture\n\nAnswer:"
     },
     {
@@ -1486,7 +1486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A problem for immune system theories of senescence is\n\nChoices:\nA) Determining what first causes the senescence in the immune system\nB) Auto-immune disorders are far too rare\nC) That the immune system does not decline with age\nD) The lack of information about senescence in general\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1501,7 +1501,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A problem for immune system theories of senescence is\n\nChoices:\nA) Determining what first causes the senescence in the immune system\nB) Auto-immune disorders are far too rare\nC) That the immune system does not decline with age\nD) The lack of information about senescence in general\n\nAnswer:"
     },
     {
@@ -1511,7 +1511,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following could very well be a cohort difference rather than a change that occurs with age?\n\nChoices:\nA) Differences in weight\nB) Shrinkage of the thymus gland\nC) Enlargement of the heart\nD) Increasing size of nose and ears\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1526,7 +1526,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following could very well be a cohort difference rather than a change that occurs with age?\n\nChoices:\nA) Differences in weight\nB) Shrinkage of the thymus gland\nC) Enlargement of the heart\nD) Increasing size of nose and ears\n\nAnswer:"
     },
     {
@@ -1536,7 +1536,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The study of older adults and aging is referred to as\n\nChoices:\nA) Gerontology\nB) Geropsychiatry\nC) Geriatrics\nD) Gero-education\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1551,7 +1551,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The study of older adults and aging is referred to as\n\nChoices:\nA) Gerontology\nB) Geropsychiatry\nC) Geriatrics\nD) Gero-education\n\nAnswer:"
     },
     {
@@ -1561,7 +1561,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is NOT among the top 10 causes of death in the U. S.?\n\nChoices:\nA) Kidney diseases\nB) AIDS\nC) Septicemia\nD) Accidents\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1576,7 +1576,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is NOT among the top 10 causes of death in the U. S.?\n\nChoices:\nA) Kidney diseases\nB) AIDS\nC) Septicemia\nD) Accidents\n\nAnswer:"
     },
     {
@@ -1586,7 +1586,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If you believe that we are mostly in control of our own development and that our behaviors, good or bad, determine how successful our aging with be, you would be said to have which of the following perspectives?\n\nChoices:\nA) Organismic\nB) Nurture\nC) Continuity\nD) Mechanistic\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1601,7 +1601,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If you believe that we are mostly in control of our own development and that our behaviors, good or bad, determine how successful our aging with be, you would be said to have which of the following perspectives?\n\nChoices:\nA) Organismic\nB) Nurture\nC) Continuity\nD) Mechanistic\n\nAnswer:"
     },
     {
@@ -1611,7 +1611,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Projective tests generally ___ than objective tests of personality.\n\nChoices:\nA) Have higher reliability\nB) Are more visual\nC) Are more valid\nD) Provide more information\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1626,7 +1626,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Projective tests generally ___ than objective tests of personality.\n\nChoices:\nA) Have higher reliability\nB) Are more visual\nC) Are more valid\nD) Provide more information\n\nAnswer:"
     },
     {
@@ -1636,7 +1636,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: All other things being equal, which of the following persons is likely to live the longest?\n\nChoices:\nA) A black man\nB) A white man\nC) A black woman\nD) A white woman\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1651,7 +1651,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: All other things being equal, which of the following persons is likely to live the longest?\n\nChoices:\nA) A black man\nB) A white man\nC) A black woman\nD) A white woman\n\nAnswer:"
     },
     {
@@ -1661,7 +1661,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When speaking with an older adults with some hearing loss, you should\n\nChoices:\nA) Speak a little slower than normal\nB) Speak loudly into their best ear\nC) Face them so they can watch your lips\nD) Ask another person to translate\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1676,7 +1676,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When speaking with an older adults with some hearing loss, you should\n\nChoices:\nA) Speak a little slower than normal\nB) Speak loudly into their best ear\nC) Face them so they can watch your lips\nD) Ask another person to translate\n\nAnswer:"
     },
     {
@@ -1686,7 +1686,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following has been found to improve balance for older adults?\n\nChoices:\nA) Tai chi\nB) Aerobic exercise\nC) Weight lifting\nD) Walking briskly\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1701,7 +1701,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following has been found to improve balance for older adults?\n\nChoices:\nA) Tai chi\nB) Aerobic exercise\nC) Weight lifting\nD) Walking briskly\n\nAnswer:"
     },
     {
@@ -1711,7 +1711,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following forms of dementia has the highest prevalence rate?\n\nChoices:\nA) Alzheimer's\nB) Vascular\nC) Parkinson's\nD) Fronto-temporal lobe\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1726,7 +1726,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following forms of dementia has the highest prevalence rate?\n\nChoices:\nA) Alzheimer's\nB) Vascular\nC) Parkinson's\nD) Fronto-temporal lobe\n\nAnswer:"
     },
     {
@@ -1736,7 +1736,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Longevity is strongly associated with higher levels of\n\nChoices:\nA) Social support\nB) BMI\nC) Alcohol use\nD) Supplement use\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1751,7 +1751,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Longevity is strongly associated with higher levels of\n\nChoices:\nA) Social support\nB) BMI\nC) Alcohol use\nD) Supplement use\n\nAnswer:"
     },
     {
@@ -1761,7 +1761,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Those more likely to experience depression after a loss are those who\n\nChoices:\nA) Are young survivors\nB) Have not previously experienced depression\nC) Have been married more than 40 years\nD) Are in poor health themselves\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1776,7 +1776,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Those more likely to experience depression after a loss are those who\n\nChoices:\nA) Are young survivors\nB) Have not previously experienced depression\nC) Have been married more than 40 years\nD) Are in poor health themselves\n\nAnswer:"
     },
     {
@@ -1786,7 +1786,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In this chapter's Senior View, Dr. Donham told us that mental stimulation, exercise, diet, and what other factor is important for long life?\n\nChoices:\nA) Moderate amounts of alcohol\nB) Social support\nC) Good genes\nD) Avoiding stress\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1801,7 +1801,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In this chapter's Senior View, Dr. Donham told us that mental stimulation, exercise, diet, and what other factor is important for long life?\n\nChoices:\nA) Moderate amounts of alcohol\nB) Social support\nC) Good genes\nD) Avoiding stress\n\nAnswer:"
     },
     {
@@ -1811,7 +1811,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The Kingbergs give us several keys to successful aging; which of the following is one that they did not name?\n\nChoices:\nA) Eat the correct food but not too much.\nB) Respect each other\nC) Party at least once a month\nD) Make long-range plans\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1826,7 +1826,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The Kingbergs give us several keys to successful aging; which of the following is one that they did not name?\n\nChoices:\nA) Eat the correct food but not too much.\nB) Respect each other\nC) Party at least once a month\nD) Make long-range plans\n\nAnswer:"
     },
     {
@@ -1836,7 +1836,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which level of personality description appears to show the most change with age?\n\nChoices:\nA) Traits\nB) Personal concerns\nC) Coping strategies\nD) Identity\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1851,7 +1851,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which level of personality description appears to show the most change with age?\n\nChoices:\nA) Traits\nB) Personal concerns\nC) Coping strategies\nD) Identity\n\nAnswer:"
     },
     {
@@ -1861,7 +1861,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Identity refers to one's\n\nChoices:\nA) Use of a particular coping strategy\nB) Control over one's own life story\nC) Physical appearance and overall personality\nD) Coherent sense of self\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1876,7 +1876,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Identity refers to one's\n\nChoices:\nA) Use of a particular coping strategy\nB) Control over one's own life story\nC) Physical appearance and overall personality\nD) Coherent sense of self\n\nAnswer:"
     },
     {
@@ -1886,7 +1886,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When older and younger workers have lost their jobs, older workers typically\n\nChoices:\nA) Find a job quicker because of their greater experience\nB) Take longer to find a new job\nC) Retire rather than search for a new job\nD) Sue the company using the ADEA\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1901,7 +1901,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When older and younger workers have lost their jobs, older workers typically\n\nChoices:\nA) Find a job quicker because of their greater experience\nB) Take longer to find a new job\nC) Retire rather than search for a new job\nD) Sue the company using the ADEA\n\nAnswer:"
     },
     {
@@ -1911,7 +1911,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Prejudice or bias against older adults is referred to as\n\nChoices:\nA) Ageism\nB) Oldism\nC) Age bigotry\nD) Senilism\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1926,7 +1926,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Prejudice or bias against older adults is referred to as\n\nChoices:\nA) Ageism\nB) Oldism\nC) Age bigotry\nD) Senilism\n\nAnswer:"
     },
     {
@@ -1936,7 +1936,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Research has offered some longitudinal as well as cross sectional support for the theory put forth by\n\nChoices:\nA) Peck\nB) Foos\nC) Levenson\nD) Erikson\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1951,7 +1951,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Research has offered some longitudinal as well as cross sectional support for the theory put forth by\n\nChoices:\nA) Peck\nB) Foos\nC) Levenson\nD) Erikson\n\nAnswer:"
     },
     {
@@ -1961,7 +1961,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The reaction time difference between younger and older adults is reduced when older adults\n\nChoices:\nA) Practice regular aerobic exercise\nB) Lift weights on a regular schedule\nC) Consume large quantities of vitamins\nD) Practice Tai chi\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1976,7 +1976,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The reaction time difference between younger and older adults is reduced when older adults\n\nChoices:\nA) Practice regular aerobic exercise\nB) Lift weights on a regular schedule\nC) Consume large quantities of vitamins\nD) Practice Tai chi\n\nAnswer:"
     },
     {
@@ -1986,7 +1986,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A researcher finds that age is negatively correlated with cigarette smoking; this means that\n\nChoices:\nA) Older adults experience more negative effects from smoking that do younger adults\nB) Older adults smoke more than younger adults\nC) Older adults smoke less than younger adults\nD) Older and younger adults smoke about the same number of cigarettes and both experience negative effects\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2001,7 +2001,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A researcher finds that age is negatively correlated with cigarette smoking; this means that\n\nChoices:\nA) Older adults experience more negative effects from smoking that do younger adults\nB) Older adults smoke more than younger adults\nC) Older adults smoke less than younger adults\nD) Older and younger adults smoke about the same number of cigarettes and both experience negative effects\n\nAnswer:"
     },
     {
@@ -2011,7 +2011,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The woman who conducted a longitudinal study on herself and found increased retrieval difficulty as she got older was named\n\nChoices:\nA) Clark\nB) Smith\nC) Whitebear\nD) Ebbinghaus\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2026,7 +2026,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The woman who conducted a longitudinal study on herself and found increased retrieval difficulty as she got older was named\n\nChoices:\nA) Clark\nB) Smith\nC) Whitebear\nD) Ebbinghaus\n\nAnswer:"
     },
     {
@@ -2036,7 +2036,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: One possible reason that time seems to pass more rapidly for older adults is that\n\nChoices:\nA) Their memories are poor so they forget to check the time\nB) They have fewer novel experiences\nC) They pay less attention to important events in life\nD) Their lives are full of events which they don't recall at a later time\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2051,7 +2051,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: One possible reason that time seems to pass more rapidly for older adults is that\n\nChoices:\nA) Their memories are poor so they forget to check the time\nB) They have fewer novel experiences\nC) They pay less attention to important events in life\nD) Their lives are full of events which they don't recall at a later time\n\nAnswer:"
     },
     {
@@ -2061,7 +2061,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A major difference between programmed and unprogrammed theories of senescence is that programmed theories\n\nChoices:\nA) Attribute senescence only to environmental factors\nB) Are far too difficulty to test\nC) Claim that senescence follows a predetermined plan\nD) Rely too heavily on computer models\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2076,7 +2076,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A major difference between programmed and unprogrammed theories of senescence is that programmed theories\n\nChoices:\nA) Attribute senescence only to environmental factors\nB) Are far too difficulty to test\nC) Claim that senescence follows a predetermined plan\nD) Rely too heavily on computer models\n\nAnswer:"
     },
     {
@@ -2086,7 +2086,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is the most important variable for gerontological researchers?\n\nChoices:\nA) Age\nB) Gender\nC) Cohort\nD) Time of measurement\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2101,7 +2101,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is the most important variable for gerontological researchers?\n\nChoices:\nA) Age\nB) Gender\nC) Cohort\nD) Time of measurement\n\nAnswer:"
     },
     {
@@ -2111,7 +2111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hearing loss for higher pitch is referred to as\n\nChoices:\nA) Presbyopia\nB) Presbycusis\nC) Pitch deafness\nD) Conductive loss\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2126,7 +2126,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hearing loss for higher pitch is referred to as\n\nChoices:\nA) Presbyopia\nB) Presbycusis\nC) Pitch deafness\nD) Conductive loss\n\nAnswer:"
     },
     {
@@ -2136,7 +2136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Gary says he won $1000 in the lottery because he really knows how to pick those numbers. Gary would be said to have a strong ____ locus of control\n\nChoices:\nA) External, powerful others\nB) Internal\nC) External, chance\nD) Secondary\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2151,7 +2151,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Gary says he won $1000 in the lottery because he really knows how to pick those numbers. Gary would be said to have a strong ____ locus of control\n\nChoices:\nA) External, powerful others\nB) Internal\nC) External, chance\nD) Secondary\n\nAnswer:"
     },
     {
@@ -2161,7 +2161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: About what percentage of people who have had bridge jobs say it was better than their career job?\n\nChoices:\nA) Less than 25%\nB) Less than 50%\nC) More than 50%\nD) More than 75%\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2176,7 +2176,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: About what percentage of people who have had bridge jobs say it was better than their career job?\n\nChoices:\nA) Less than 25%\nB) Less than 50%\nC) More than 50%\nD) More than 75%\n\nAnswer:"
     },
     {
@@ -2186,7 +2186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Grandparents with grandchildren in college report feeling especially loved when such grandchildren\n\nChoices:\nA) Ask about their satisfaction with life and offer to help\nB) Visit during the holidays and bring gifts\nC) Pay a surprise visit and ask for advice\nD) Invite the grandparents over to their place and cook a good meal\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2201,7 +2201,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Grandparents with grandchildren in college report feeling especially loved when such grandchildren\n\nChoices:\nA) Ask about their satisfaction with life and offer to help\nB) Visit during the holidays and bring gifts\nC) Pay a surprise visit and ask for advice\nD) Invite the grandparents over to their place and cook a good meal\n\nAnswer:"
     },
     {
@@ -2211,7 +2211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following improves attitudes toward aging and older adults?\n\nChoices:\nA) Staying away from older adults\nB) Education about older adults\nC) Travelling to older communities\nD) Watching the portrayals of older adults in movies and on TV\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2226,7 +2226,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following improves attitudes toward aging and older adults?\n\nChoices:\nA) Staying away from older adults\nB) Education about older adults\nC) Travelling to older communities\nD) Watching the portrayals of older adults in movies and on TV\n\nAnswer:"
     },
     {
@@ -2236,7 +2236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: One of the most important points made in this chapter is that physical changes\n\nChoices:\nA) Occur for everyone\nB) Occur more for some and less for others and, within the same person, more for some systems and less for others\nC) Usually occur for very old people but not for very young people\nD) Can be totally avoided if one learns enough about gerontology\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2251,7 +2251,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: One of the most important points made in this chapter is that physical changes\n\nChoices:\nA) Occur for everyone\nB) Occur more for some and less for others and, within the same person, more for some systems and less for others\nC) Usually occur for very old people but not for very young people\nD) Can be totally avoided if one learns enough about gerontology\n\nAnswer:"
     },
     {
@@ -2261,7 +2261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Those who survive the loss of another are called the\n\nChoices:\nA) Survivors\nB) Grieving\nC) Bereaved\nD) Family and friends\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2276,7 +2276,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Those who survive the loss of another are called the\n\nChoices:\nA) Survivors\nB) Grieving\nC) Bereaved\nD) Family and friends\n\nAnswer:"
     },
     {
@@ -2286,7 +2286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is most strongly associated with loss of bone density?\n\nChoices:\nA) Genetic factors\nB) Lifestyle factors like not exercising\nC) Hormonal factors such as loss of estrogen\nD) Cohort factors\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2301,7 +2301,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is most strongly associated with loss of bone density?\n\nChoices:\nA) Genetic factors\nB) Lifestyle factors like not exercising\nC) Hormonal factors such as loss of estrogen\nD) Cohort factors\n\nAnswer:"
     },
     {
@@ -2311,7 +2311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If links between various diseases are found, then future older adults will probably\n\nChoices:\nA) Take fewer medications\nB) Be able to avoid certain diseases\nC) Pay far less for pharmaceuticals\nD) Pick and choose the disease(s) they want\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2326,7 +2326,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If links between various diseases are found, then future older adults will probably\n\nChoices:\nA) Take fewer medications\nB) Be able to avoid certain diseases\nC) Pay far less for pharmaceuticals\nD) Pick and choose the disease(s) they want\n\nAnswer:"
     },
     {
@@ -2336,7 +2336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A problem in comparing older adults' memory for recent events and events that happened a long time ago is that recent events\n\nChoices:\nA) May be very well rehearsed\nB) Are far more meaningful\nC) Have no denominator to help in computing an average\nD) Can be verified while older events often cannot\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2351,7 +2351,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A problem in comparing older adults' memory for recent events and events that happened a long time ago is that recent events\n\nChoices:\nA) May be very well rehearsed\nB) Are far more meaningful\nC) Have no denominator to help in computing an average\nD) Can be verified while older events often cannot\n\nAnswer:"
     },
     {
@@ -2361,7 +2361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Mabel Davis, in this chapter's Senior View, would agree with which of the following?\n\nChoices:\nA) Time seems to speed up when you grow older\nB) Exercise keeps your mind sharp\nC) Women are tougher than men\nD) Glasses and hearing aids should be avoided\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2376,7 +2376,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Mabel Davis, in this chapter's Senior View, would agree with which of the following?\n\nChoices:\nA) Time seems to speed up when you grow older\nB) Exercise keeps your mind sharp\nC) Women are tougher than men\nD) Glasses and hearing aids should be avoided\n\nAnswer:"
     },
     {
@@ -2386,7 +2386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Of the following animals, which has the longest life span by current measures?\n\nChoices:\nA) Gorilla\nB) Blue whale\nC) Dog\nD) Queen honey bee\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2401,7 +2401,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Of the following animals, which has the longest life span by current measures?\n\nChoices:\nA) Gorilla\nB) Blue whale\nC) Dog\nD) Queen honey bee\n\nAnswer:"
     },
     {
@@ -2411,7 +2411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: One reason that older adults show high levels of optimism is that\n\nChoices:\nA) Many pessimists die at a younger age\nB) They do not really know what is going on\nC) This may be a warning sign for dementia\nD) Our measures have low validity\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2426,7 +2426,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: One reason that older adults show high levels of optimism is that\n\nChoices:\nA) Many pessimists die at a younger age\nB) They do not really know what is going on\nC) This may be a warning sign for dementia\nD) Our measures have low validity\n\nAnswer:"
     },
     {
@@ -2436,7 +2436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The positive relationship between religion and physical health is NOT thought to be due to\n\nChoices:\nA) Social support derived from a religious community\nB) The rules of some religions which forbid unhealthy behaviors\nC) The stress reducing effects of prayerful meditation\nD) The benefits of knowing that others are praying for you\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2451,7 +2451,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The positive relationship between religion and physical health is NOT thought to be due to\n\nChoices:\nA) Social support derived from a religious community\nB) The rules of some religions which forbid unhealthy behaviors\nC) The stress reducing effects of prayerful meditation\nD) The benefits of knowing that others are praying for you\n\nAnswer:"
     },
     {
@@ -2461,7 +2461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Most people who have used physician assisted suicide have had\n\nChoices:\nA) Alzheimer's\nB) Health insurance\nC) No family\nD) Clinical depression\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2476,7 +2476,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Most people who have used physician assisted suicide have had\n\nChoices:\nA) Alzheimer's\nB) Health insurance\nC) No family\nD) Clinical depression\n\nAnswer:"
     },
     {
@@ -2486,7 +2486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Before we can collect data from other human beings we must make sure that they\n\nChoices:\nA) Have information that will be worth our effort to collect\nB) Are going to be honest and forthright\nC) Are informed about our study and give their consent to participate\nD) Have been granted permission to participate by the IRB\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2501,7 +2501,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_human_aging) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Before we can collect data from other human beings we must make sure that they\n\nChoices:\nA) Have information that will be worth our effort to collect\nB) Are going to be honest and forthright\nC) Are informed about our study and give their consent to participate\nD) Have been granted permission to participate by the IRB\n\nAnswer:"
     }
   ]

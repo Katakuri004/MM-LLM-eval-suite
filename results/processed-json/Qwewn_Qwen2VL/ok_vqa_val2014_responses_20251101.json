@@ -1,6 +1,6 @@
 {
   "model": "Qwewn_Qwen2VL",
-  "created_at": "2025-10-31T01:05:03.085Z",
+  "created_at": "2025-10-31T06:35:03.085496",
   "benchmark_id": "ok_vqa_val2014",
   "total_samples": 5046,
   "samples": [
@@ -11,7 +11,7 @@
         "motorcross"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "2971475.jpg",
         "answer": "motorcross"
@@ -25,7 +25,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "3397615.jpg",
         "answer": "unanswerable"
@@ -67,7 +67,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "2076115.jpg",
         "answer": "unanswerable"
@@ -81,7 +81,7 @@
         "cleaner"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "5723996.jpg",
         "answer": "cleaner"
@@ -109,7 +109,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "3045575.jpg",
         "answer": "unanswerable"
@@ -123,7 +123,7 @@
         "seed"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "2183655.jpg",
         "answer": "seed"
@@ -137,7 +137,7 @@
         "hit ball"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "2863135.jpg",
         "answer": "hit ball"
@@ -165,7 +165,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "115115.jpg",
         "answer": "unanswerable"
@@ -179,7 +179,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "3234605.jpg",
         "answer": "unanswerable"
@@ -221,7 +221,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "3133865.jpg",
         "answer": "unanswerable"
@@ -249,7 +249,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "4575845.jpg",
         "answer": "unanswerable"
@@ -263,7 +263,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "4883775.jpg",
         "answer": "unanswerable"
@@ -277,7 +277,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "3017535.jpg",
         "answer": "unanswerable"
@@ -291,7 +291,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "1833195.jpg",
         "answer": "unanswerable"
@@ -305,7 +305,7 @@
         "ring"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "3970635.jpg",
         "answer": "ring"
@@ -375,7 +375,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "4371265.jpg",
         "answer": "unanswerable"
@@ -403,7 +403,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "3804595.jpg",
         "answer": "unanswerable"
@@ -431,7 +431,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "3156685.jpg",
         "answer": "unanswerable"
@@ -459,7 +459,7 @@
         "moo"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "4293695.jpg",
         "answer": "moo"
@@ -473,7 +473,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "4273415.jpg",
         "answer": "unanswerable"
@@ -501,7 +501,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "179845.jpg",
         "answer": "unanswerable"
@@ -529,7 +529,7 @@
         "bus"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "2780325.jpg",
         "answer": "bus"
@@ -571,7 +571,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "3413095.jpg",
         "answer": "unanswerable"
@@ -585,7 +585,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "1121605.jpg",
         "answer": "unanswerable"
@@ -613,7 +613,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "1089825.jpg",
         "answer": "unanswerable"
@@ -627,7 +627,7 @@
         "Unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "2929715.jpg",
         "answer": "unanswerable"
@@ -641,7 +641,7 @@
         "120 mph"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "1902045.jpg",
         "answer": "120 mph"
@@ -655,7 +655,7 @@
         "cowboy hat"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "3774865.jpg",
         "answer": "cowboy hat"
@@ -669,7 +669,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "1282805.jpg",
         "answer": "unanswerable"
@@ -697,7 +697,7 @@
         "tow"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "1305165.jpg",
         "answer": "tow"
@@ -711,7 +711,7 @@
         "rail"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "2845485.jpg",
         "answer": "rail"
@@ -809,7 +809,7 @@
         "baseball helmet"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "3030245.jpg",
         "answer": "baseball helmet"
@@ -823,7 +823,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "5342525.jpg",
         "answer": "unanswerable"
@@ -879,7 +879,7 @@
         "lady gaga"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "1943135.jpg",
         "answer": "lady gaga"
@@ -907,7 +907,7 @@
         "horn"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "3763585.jpg",
         "answer": "horn"
@@ -921,7 +921,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "3959785.jpg",
         "answer": "unanswerable"
@@ -935,7 +935,7 @@
         "1886"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "2162545.jpg",
         "answer": "1886"
@@ -1019,7 +1019,7 @@
         "mammal"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "4535205.jpg",
         "answer": "mammal"
@@ -1047,7 +1047,7 @@
         "15 feet"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "2335535.jpg",
         "answer": "15 feet"
@@ -1089,7 +1089,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "5379826.jpg",
         "answer": "unanswerable"
@@ -1117,7 +1117,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "4854245.jpg",
         "answer": "unanswerable"
@@ -1131,7 +1131,7 @@
         "sleep"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "2864225.jpg",
         "answer": "sleep"
@@ -1159,7 +1159,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "1449855.jpg",
         "answer": "unanswerable"
@@ -1173,7 +1173,7 @@
         "quarter"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "5605665.jpg",
         "answer": "quarter"
@@ -1201,7 +1201,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "1527025.jpg",
         "answer": "unanswerable"
@@ -1327,7 +1327,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "5649115.jpg",
         "answer": "unanswerable"
@@ -1341,7 +1341,7 @@
         "unanswerable"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "4471175.jpg",
         "answer": "unanswerable"
@@ -1397,7 +1397,7 @@
         "lot"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "exact_match": 0,
+      "exact_match": 0.0,
       "submission": {
         "image": "2707535.jpg",
         "answer": "lot"

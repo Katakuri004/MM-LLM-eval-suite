@@ -1,6 +1,6 @@
 {
   "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
-  "created_at": "2025-10-31T01:00:13.111Z",
+  "created_at": "2025-10-31T06:30:13.110851",
   "benchmark_id": "mmlu_redux_conceptual_physics",
   "total_samples": 100,
   "samples": [
@@ -11,7 +11,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Sound travels in air by a series of\n\nChoices:\nA) compressions\nB) rarefactions\nC) Both of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -26,7 +26,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Sound travels in air by a series of\n\nChoices:\nA) compressions\nB) rarefactions\nC) Both of these\nD) Neither of these\n\nAnswer:"
     },
     {
@@ -36,7 +36,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Consider a ball rolling in a horizontal circular path on the inside surface of a cone. The normal force on the ball\n\nChoices:\nA) is mg\nB) is greater than mg always\nC) may be greater or less than mg\nD) is less than mg always\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -51,17 +51,17 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Consider a ball rolling in a horizontal circular path on the inside surface of a cone. The normal force on the ball\n\nChoices:\nA) is mg\nB) is greater than mg always\nC) may be greater or less than mg\nD) is less than mg always\n\nAnswer:"
     },
     {
       "doc_id": 2,
       "target": "1",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When the shadow of the Moon falls on Earth, we have a\n\nChoices:\nA) lunar eclipse.\nB) solar eclipse.\nC) solar eclipse if it’s daytime and lunar eclipse if it’s nighttime.\nD) very dangerous event.\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When the shadow of the Moon falls on Earth, we have a\n\nChoices:\nA) lunar eclipse.\nB) solar eclipse.\nC) solar eclipse if it\u2019s daytime and lunar eclipse if it\u2019s nighttime.\nD) very dangerous event.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -76,8 +76,8 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When the shadow of the Moon falls on Earth, we have a\n\nChoices:\nA) lunar eclipse.\nB) solar eclipse.\nC) solar eclipse if it’s daytime and lunar eclipse if it’s nighttime.\nD) very dangerous event.\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When the shadow of the Moon falls on Earth, we have a\n\nChoices:\nA) lunar eclipse.\nB) solar eclipse.\nC) solar eclipse if it\u2019s daytime and lunar eclipse if it\u2019s nighttime.\nD) very dangerous event.\n\nAnswer:"
     },
     {
       "doc_id": 3,
@@ -86,7 +86,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Find the speed of a wave by multiplying its frequency by its\n\nChoices:\nA) period\nB) wavelength\nC) amplitude\nD) None of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -101,7 +101,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Find the speed of a wave by multiplying its frequency by its\n\nChoices:\nA) period\nB) wavelength\nC) amplitude\nD) None of these\n\nAnswer:"
     },
     {
@@ -111,7 +111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In a mixture of hydrogen oxygen and nitrogen gases at a given temperature the molecules having the greatest average speed are those of\n\nChoices:\nA) hydrogen.\nB) oxygen.\nC) nitrogen.\nD) But all have the same speed on average.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -126,7 +126,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In a mixture of hydrogen oxygen and nitrogen gases at a given temperature the molecules having the greatest average speed are those of\n\nChoices:\nA) hydrogen.\nB) oxygen.\nC) nitrogen.\nD) But all have the same speed on average.\n\nAnswer:"
     },
     {
@@ -136,7 +136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The speed of sound is slightly greater on a\n\nChoices:\nA) cold day\nB) hot day\nC) day with steady temperature\nD) None of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -151,7 +151,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The speed of sound is slightly greater on a\n\nChoices:\nA) cold day\nB) hot day\nC) day with steady temperature\nD) None of these\n\nAnswer:"
     },
     {
@@ -161,7 +161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Heat engines, such as a jet engine, are more efficient when run at\n\nChoices:\nA) high temperatures\nB) constant temperatures\nC) low temperatures\nD) a constant rate\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -176,7 +176,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Heat engines, such as a jet engine, are more efficient when run at\n\nChoices:\nA) high temperatures\nB) constant temperatures\nC) low temperatures\nD) a constant rate\n\nAnswer:"
     },
     {
@@ -186,7 +186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The distance of your image behind a plane mirror is equal to\n\nChoices:\nA) half your height\nB) half your distance from the mirror\nC) your distance in front of the mirror\nD) more than your distance in front of the mirror\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -201,7 +201,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The distance of your image behind a plane mirror is equal to\n\nChoices:\nA) half your height\nB) half your distance from the mirror\nC) your distance in front of the mirror\nD) more than your distance in front of the mirror\n\nAnswer:"
     },
     {
@@ -211,7 +211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: To say that a rose petal is red is to say that it\n\nChoices:\nA) absorbs red\nB) reflects red\nC) emits red\nD) transmits red\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -226,7 +226,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: To say that a rose petal is red is to say that it\n\nChoices:\nA) absorbs red\nB) reflects red\nC) emits red\nD) transmits red\n\nAnswer:"
     },
     {
@@ -236,7 +236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A radioactive sample has a half-life of 1 hour. If we start with 1.000 gram of it at noon, how much remains at 3:00 pm?\n\nChoices:\nA) 0.50 g\nB) 0.25 g\nC) 0.125 g\nD) 0.0625 g\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -251,7 +251,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A radioactive sample has a half-life of 1 hour. If we start with 1.000 gram of it at noon, how much remains at 3:00 pm?\n\nChoices:\nA) 0.50 g\nB) 0.25 g\nC) 0.125 g\nD) 0.0625 g\n\nAnswer:"
     },
     {
@@ -261,7 +261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When an element ejects a beta particle, the atomic number of that element\n\nChoices:\nA) reduces by 1\nB) increases by 1\nC) reduces by 2\nD) increases by 2\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -276,7 +276,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When an element ejects a beta particle, the atomic number of that element\n\nChoices:\nA) reduces by 1\nB) increases by 1\nC) reduces by 2\nD) increases by 2\n\nAnswer:"
     },
     {
@@ -286,7 +286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fact that the Moon always shows its same face to Earth is evidence that the Moon rotates about its axis about once per\n\nChoices:\nA) day\nB) month\nC) year\nD) None of these for the moon does not rotate about an axis\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -301,7 +301,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The fact that the Moon always shows its same face to Earth is evidence that the Moon rotates about its axis about once per\n\nChoices:\nA) day\nB) month\nC) year\nD) None of these for the moon does not rotate about an axis\n\nAnswer:"
     },
     {
@@ -311,7 +311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When the color yellow is seen on your TV screen the phosphors being activated on the screen are\n\nChoices:\nA) mainly yellow.\nB) blue and red.\nC) green and yellow.\nD) red and green.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -326,7 +326,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When the color yellow is seen on your TV screen the phosphors being activated on the screen are\n\nChoices:\nA) mainly yellow.\nB) blue and red.\nC) green and yellow.\nD) red and green.\n\nAnswer:"
     },
     {
@@ -336,7 +336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: To receive an electric shock there must be a\n\nChoices:\nA) current in one direction.\nB) presence of moisture.\nC) high voltage and low body resistance.\nD) voltage difference across part or all of your body.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -351,7 +351,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: To receive an electric shock there must be a\n\nChoices:\nA) current in one direction.\nB) presence of moisture.\nC) high voltage and low body resistance.\nD) voltage difference across part or all of your body.\n\nAnswer:"
     },
     {
@@ -361,7 +361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A diffraction grating relies on light\n\nChoices:\nA) interference\nB) amplitudes\nC) variations in brightness\nD) being composed of photons\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -376,7 +376,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A diffraction grating relies on light\n\nChoices:\nA) interference\nB) amplitudes\nC) variations in brightness\nD) being composed of photons\n\nAnswer:"
     },
     {
@@ -386,7 +386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In the atomic nucleus, electrical forces tend to\n\nChoices:\nA) hold particles together\nB) push particles apart\nC) produce orbital motion\nD) charge particles\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -401,7 +401,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In the atomic nucleus, electrical forces tend to\n\nChoices:\nA) hold particles together\nB) push particles apart\nC) produce orbital motion\nD) charge particles\n\nAnswer:"
     },
     {
@@ -411,7 +411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When an increase in speed doubles the kinetic energy of a moving body its momentum\n\nChoices:\nA) increases but less than doubles\nB) doubles\nC) more than doubles\nD) depends on factors not stated\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -426,7 +426,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When an increase in speed doubles the kinetic energy of a moving body its momentum\n\nChoices:\nA) increases but less than doubles\nB) doubles\nC) more than doubles\nD) depends on factors not stated\n\nAnswer:"
     },
     {
@@ -436,7 +436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you look at the red petals of a rose the color light you're seeing is\n\nChoices:\nA) red.\nB) green.\nC) white minus red.\nD) a mixture of green and yellow.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -451,7 +451,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you look at the red petals of a rose the color light you're seeing is\n\nChoices:\nA) red.\nB) green.\nC) white minus red.\nD) a mixture of green and yellow.\n\nAnswer:"
     },
     {
@@ -461,7 +461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you bend the branch of a tree by hanging on its end, the top side of the branch is under\n\nChoices:\nA) tension.\nB) compression.\nC) Both.\nD) Neither.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -476,7 +476,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you bend the branch of a tree by hanging on its end, the top side of the branch is under\n\nChoices:\nA) tension.\nB) compression.\nC) Both.\nD) Neither.\n\nAnswer:"
     },
     {
@@ -486,7 +486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Electricity and magnetism connect to form\n\nChoices:\nA) mass\nB) energy\nC) ultrahigh-frequency sound\nD) light\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -501,7 +501,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Electricity and magnetism connect to form\n\nChoices:\nA) mass\nB) energy\nC) ultrahigh-frequency sound\nD) light\n\nAnswer:"
     },
     {
@@ -511,7 +511,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A step-up transformer in an electric circuit can step up\n\nChoices:\nA) voltage\nB) energy\nC) Both of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -526,7 +526,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A step-up transformer in an electric circuit can step up\n\nChoices:\nA) voltage\nB) energy\nC) Both of these\nD) Neither of these\n\nAnswer:"
     },
     {
@@ -536,7 +536,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: During the time an aircraft produces a sonic boom, the aircraft is\n\nChoices:\nA) breaking the sound barrier\nB) pulling out of a subsonic dive\nC) flying faster than sound\nD) All of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -551,7 +551,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: During the time an aircraft produces a sonic boom, the aircraft is\n\nChoices:\nA) breaking the sound barrier\nB) pulling out of a subsonic dive\nC) flying faster than sound\nD) All of these\n\nAnswer:"
     },
     {
@@ -561,7 +561,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The magnitude of the gravitational force on a satellite is constant if the orbit is\n\nChoices:\nA) parabolic\nB) circular\nC) elliptical\nD) All of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -576,7 +576,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The magnitude of the gravitational force on a satellite is constant if the orbit is\n\nChoices:\nA) parabolic\nB) circular\nC) elliptical\nD) All of these\n\nAnswer:"
     },
     {
@@ -586,7 +586,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Big brother and little sister can balance on a seesaw because of balanced\n\nChoices:\nA) forces\nB) torques\nC) energies\nD) All of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -601,7 +601,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Big brother and little sister can balance on a seesaw because of balanced\n\nChoices:\nA) forces\nB) torques\nC) energies\nD) All of these\n\nAnswer:"
     },
     {
@@ -611,7 +611,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The Doppler effect occurs when a source of sound moves\n\nChoices:\nA) toward you\nB) away from you\nC) Both of these\nD) None of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -626,7 +626,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The Doppler effect occurs when a source of sound moves\n\nChoices:\nA) toward you\nB) away from you\nC) Both of these\nD) None of these\n\nAnswer:"
     },
     {
@@ -636,7 +636,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Thermal conduction involves mainly\n\nChoices:\nA) electrons\nB) protons\nC) neutrons\nD) ions\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -651,7 +651,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Thermal conduction involves mainly\n\nChoices:\nA) electrons\nB) protons\nC) neutrons\nD) ions\n\nAnswer:"
     },
     {
@@ -661,7 +661,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: An airplane with its nose pointing north with an airspeed of 40 km/h in a 30-km/h crosswind (at right angles) has a groundspeed of\n\nChoices:\nA) 30 km/h\nB) 40 km/h\nC) 50 km/h\nD) 60 km/h\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -676,7 +676,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: An airplane with its nose pointing north with an airspeed of 40 km/h in a 30-km/h crosswind (at right angles) has a groundspeed of\n\nChoices:\nA) 30 km/h\nB) 40 km/h\nC) 50 km/h\nD) 60 km/h\n\nAnswer:"
     },
     {
@@ -686,7 +686,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The mass of an atom comes mostly from its _ ; and its volume from its _.\n\nChoices:\nA) nucleons; nucleons.\nB) electrons; electrons.\nC) electrons; nucleons.\nD) nucleons; electrons.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -701,7 +701,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The mass of an atom comes mostly from its _ ; and its volume from its _.\n\nChoices:\nA) nucleons; nucleons.\nB) electrons; electrons.\nC) electrons; nucleons.\nD) nucleons; electrons.\n\nAnswer:"
     },
     {
@@ -711,7 +711,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If the Sun collapsed to become a black hole Planet Earth would\n\nChoices:\nA) continue in its present orbit.\nB) likely be sucked into the black hole.\nC) be pulled apart by tidal forces.\nD) Both C and D.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -726,7 +726,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If the Sun collapsed to become a black hole Planet Earth would\n\nChoices:\nA) continue in its present orbit.\nB) likely be sucked into the black hole.\nC) be pulled apart by tidal forces.\nD) Both C and D.\n\nAnswer:"
     },
     {
@@ -736,7 +736,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In both fission and fusion, energy is released while mass\n\nChoices:\nA) decreases\nB) remains unchanged; is conserved\nC) increases\nD) may decrease or increase\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -751,7 +751,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In both fission and fusion, energy is released while mass\n\nChoices:\nA) decreases\nB) remains unchanged; is conserved\nC) increases\nD) may decrease or increase\n\nAnswer:"
     },
     {
@@ -761,7 +761,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The vibrations in a longitudinal wave move in a direction\n\nChoices:\nA) along and parallel to the wave\nB) perpendicular to the wave\nC) Both of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -776,17 +776,17 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The vibrations in a longitudinal wave move in a direction\n\nChoices:\nA) along and parallel to the wave\nB) perpendicular to the wave\nC) Both of these\nD) Neither of these\n\nAnswer:"
     },
     {
       "doc_id": 31,
       "target": "0",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Most of the radiation in Earth’s biosphere is\n\nChoices:\nA) natural background radiation\nB) the result of military activities\nC) from nuclear power plants\nD) in the form of cosmic rays\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Most of the radiation in Earth\u2019s biosphere is\n\nChoices:\nA) natural background radiation\nB) the result of military activities\nC) from nuclear power plants\nD) in the form of cosmic rays\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -801,8 +801,8 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Most of the radiation in Earth’s biosphere is\n\nChoices:\nA) natural background radiation\nB) the result of military activities\nC) from nuclear power plants\nD) in the form of cosmic rays\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Most of the radiation in Earth\u2019s biosphere is\n\nChoices:\nA) natural background radiation\nB) the result of military activities\nC) from nuclear power plants\nD) in the form of cosmic rays\n\nAnswer:"
     },
     {
       "doc_id": 32,
@@ -811,7 +811,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When an element ejects an alpha particle, the atomic number of the resulting element\n\nChoices:\nA) reduces by 2\nB) reduces by 4\nC) increases by 2\nD) increases by 4\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -826,7 +826,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When an element ejects an alpha particle, the atomic number of the resulting element\n\nChoices:\nA) reduces by 2\nB) reduces by 4\nC) increases by 2\nD) increases by 4\n\nAnswer:"
     },
     {
@@ -836,7 +836,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a ball at rest hangs by a single vertical string tension in the string is mg. If the ball is made to move in amhorizontal circle so that the string describes a cone string tension\n\nChoices:\nA) is mg\nB) is greater than mg always\nC) is less than mg always\nD) may be greater or less than mg depending on the speed of the ball\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -851,7 +851,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a ball at rest hangs by a single vertical string tension in the string is mg. If the ball is made to move in amhorizontal circle so that the string describes a cone string tension\n\nChoices:\nA) is mg\nB) is greater than mg always\nC) is less than mg always\nD) may be greater or less than mg depending on the speed of the ball\n\nAnswer:"
     },
     {
@@ -861,7 +861,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you drop a ball from rest it accelerates downward at 9.8 m/s^2. If you instead throw it downward assuming no air resistance its acceleration immediately after leaving your hand is\n\nChoices:\nA) 9.8 m/s2\nB) more than 9.8 m/s2\nC) less than 9.8 m/s2\nD) Cannot say unless the speed of throw is given.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -876,7 +876,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you drop a ball from rest it accelerates downward at 9.8 m/s^2. If you instead throw it downward assuming no air resistance its acceleration immediately after leaving your hand is\n\nChoices:\nA) 9.8 m/s2\nB) more than 9.8 m/s2\nC) less than 9.8 m/s2\nD) Cannot say unless the speed of throw is given.\n\nAnswer:"
     },
     {
@@ -886,7 +886,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Noise-canceling devices make use of sound\n\nChoices:\nA) destruction\nB) interference\nC) resonance\nD) amplification\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -901,7 +901,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Noise-canceling devices make use of sound\n\nChoices:\nA) destruction\nB) interference\nC) resonance\nD) amplification\n\nAnswer:"
     },
     {
@@ -911,7 +911,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A capacitor can store\n\nChoices:\nA) charge\nB) energy\nC) Both of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -926,7 +926,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A capacitor can store\n\nChoices:\nA) charge\nB) energy\nC) Both of these\nD) Neither of these\n\nAnswer:"
     },
     {
@@ -936,7 +936,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The difference between dc and ac in electric circuits is that in dc, charges flow\n\nChoices:\nA) steadily in one direction\nB) in one direction\nC) to and fro\nD) All of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -951,7 +951,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The difference between dc and ac in electric circuits is that in dc, charges flow\n\nChoices:\nA) steadily in one direction\nB) in one direction\nC) to and fro\nD) All of these\n\nAnswer:"
     },
     {
@@ -961,7 +961,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When relatively slow-moving molecules condense from the air, the temperature of the remaining air tends to\n\nChoices:\nA) remain unchanged\nB) decrease\nC) increase\nD) spread out uniformly\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -976,7 +976,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When relatively slow-moving molecules condense from the air, the temperature of the remaining air tends to\n\nChoices:\nA) remain unchanged\nB) decrease\nC) increase\nD) spread out uniformly\n\nAnswer:"
     },
     {
@@ -986,7 +986,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When an element ejects an alpha particle, the mass number of the resulting element\n\nChoices:\nA) reduces by 2\nB) reduces by 4\nC) increases by 2\nD) increases by 4\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1001,7 +1001,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When an element ejects an alpha particle, the mass number of the resulting element\n\nChoices:\nA) reduces by 2\nB) reduces by 4\nC) increases by 2\nD) increases by 4\n\nAnswer:"
     },
     {
@@ -1011,7 +1011,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: As more lamps are connected in a series circuit the current in the power source\n\nChoices:\nA) increases.\nB) decreases.\nC) remains much the same.\nD) Need more information.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1026,7 +1026,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: As more lamps are connected in a series circuit the current in the power source\n\nChoices:\nA) increases.\nB) decreases.\nC) remains much the same.\nD) Need more information.\n\nAnswer:"
     },
     {
@@ -1036,7 +1036,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If the volume of an object were to double, with no change in mass, its density would\n\nChoices:\nA) halve.\nB) double.\nC) be the same.\nD) None of these.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1051,7 +1051,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If the volume of an object were to double, with no change in mass, its density would\n\nChoices:\nA) halve.\nB) double.\nC) be the same.\nD) None of these.\n\nAnswer:"
     },
     {
@@ -1061,7 +1061,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Boiling and freezing occur when water is subjected to\n\nChoices:\nA) decreased temperatures\nB) decreased atmospheric pressure\nC) increased temperatures\nD) increased atmospheric pressure\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1076,7 +1076,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Boiling and freezing occur when water is subjected to\n\nChoices:\nA) decreased temperatures\nB) decreased atmospheric pressure\nC) increased temperatures\nD) increased atmospheric pressure\n\nAnswer:"
     },
     {
@@ -1086,7 +1086,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Sound travels in\n\nChoices:\nA) solids\nB) liquids\nC) gases\nD) All of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1101,7 +1101,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Sound travels in\n\nChoices:\nA) solids\nB) liquids\nC) gases\nD) All of these\n\nAnswer:"
     },
     {
@@ -1111,7 +1111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you brush your hair and scrape electrons from your hair, the charge of your hair becomes\n\nChoices:\nA) positive\nB) negative\nC) Both of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1126,7 +1126,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you brush your hair and scrape electrons from your hair, the charge of your hair becomes\n\nChoices:\nA) positive\nB) negative\nC) Both of these\nD) Neither of these\n\nAnswer:"
     },
     {
@@ -1136,7 +1136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The electric field inside the dome of a Van de Graaff generator is zero when the dome is\n\nChoices:\nA) charged\nB) uncharged\nC) Either of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1151,7 +1151,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The electric field inside the dome of a Van de Graaff generator is zero when the dome is\n\nChoices:\nA) charged\nB) uncharged\nC) Either of these\nD) Neither of these\n\nAnswer:"
     },
     {
@@ -1161,7 +1161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Two vectors, one 3 N and the other 4 N, can have a resultant of\n\nChoices:\nA) 0 N\nB) 5 N\nC) 8 N\nD) Any of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1176,7 +1176,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Two vectors, one 3 N and the other 4 N, can have a resultant of\n\nChoices:\nA) 0 N\nB) 5 N\nC) 8 N\nD) Any of these\n\nAnswer:"
     },
     {
@@ -1186,7 +1186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Heat comes from the Sun to Earth by the process of\n\nChoices:\nA) conduction\nB) convection\nC) radiation\nD) All of these, although radiation is greatest\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1201,7 +1201,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Heat comes from the Sun to Earth by the process of\n\nChoices:\nA) conduction\nB) convection\nC) radiation\nD) All of these, although radiation is greatest\n\nAnswer:"
     },
     {
@@ -1211,7 +1211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The phenomenon of interference occurs for\n\nChoices:\nA) sound waves\nB) light waves\nC) Both of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1226,7 +1226,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The phenomenon of interference occurs for\n\nChoices:\nA) sound waves\nB) light waves\nC) Both of these\nD) Neither of these\n\nAnswer:"
     },
     {
@@ -1236,7 +1236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The neutrons in an atom are normally found\n\nChoices:\nA) inside the nucleus\nB) outside the nucleus\nC) Either of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1251,7 +1251,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The neutrons in an atom are normally found\n\nChoices:\nA) inside the nucleus\nB) outside the nucleus\nC) Either of these\nD) Neither of these\n\nAnswer:"
     },
     {
@@ -1261,7 +1261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Coulomb, a pair of charged particles placed twice as close to each other experience a force\n\nChoices:\nA) twice as strong\nB) four times as strong\nC) half as strong\nD) one-fourth as strong\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1276,7 +1276,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Coulomb, a pair of charged particles placed twice as close to each other experience a force\n\nChoices:\nA) twice as strong\nB) four times as strong\nC) half as strong\nD) one-fourth as strong\n\nAnswer:"
     },
     {
@@ -1286,7 +1286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these does NOT belong in the family of electromagnetic waves?\n\nChoices:\nA) Light\nB) Sound\nC) Radio waves\nD) X-rays\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1301,7 +1301,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these does NOT belong in the family of electromagnetic waves?\n\nChoices:\nA) Light\nB) Sound\nC) Radio waves\nD) X-rays\n\nAnswer:"
     },
     {
@@ -1311,7 +1311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Clocks on a fast-moving spaceship whizzing past Earth appear to run slow when viewed from\n\nChoices:\nA) inside the spaceship.\nB) Earth.\nC) Both of these.\nD) Neither of these.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1326,17 +1326,17 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Clocks on a fast-moving spaceship whizzing past Earth appear to run slow when viewed from\n\nChoices:\nA) inside the spaceship.\nB) Earth.\nC) Both of these.\nD) Neither of these.\n\nAnswer:"
     },
     {
       "doc_id": 53,
       "target": "3",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A 10-Ω resistor carries 10 A. The voltage across the resistor is\n\nChoices:\nA) 0\nB) more than 0 but less than 10 V\nC) 10 V\nD) more than 10 V\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A 10-\u03a9 resistor carries 10 A. The voltage across the resistor is\n\nChoices:\nA) 0\nB) more than 0 but less than 10 V\nC) 10 V\nD) more than 10 V\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1351,8 +1351,8 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A 10-Ω resistor carries 10 A. The voltage across the resistor is\n\nChoices:\nA) 0\nB) more than 0 but less than 10 V\nC) 10 V\nD) more than 10 V\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A 10-\u03a9 resistor carries 10 A. The voltage across the resistor is\n\nChoices:\nA) 0\nB) more than 0 but less than 10 V\nC) 10 V\nD) more than 10 V\n\nAnswer:"
     },
     {
       "doc_id": 54,
@@ -1361,7 +1361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The color of light most intense in the solar radiation curve is\n\nChoices:\nA) infrared\nB) red\nC) yellow-green\nD) violet\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1376,7 +1376,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The color of light most intense in the solar radiation curve is\n\nChoices:\nA) infrared\nB) red\nC) yellow-green\nD) violet\n\nAnswer:"
     },
     {
@@ -1386,7 +1386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these changes when light refracts in passing from one medium to another?\n\nChoices:\nA) Speed only\nB) Wavelength only\nC) Both speed and wavelength\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1401,7 +1401,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these changes when light refracts in passing from one medium to another?\n\nChoices:\nA) Speed only\nB) Wavelength only\nC) Both speed and wavelength\nD) Neither of these\n\nAnswer:"
     },
     {
@@ -1411,7 +1411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The electric field between a pair of oppositely charged parallel plates\n\nChoices:\nA) gets weaker with distance inside the plates\nB) follows the inverse-square law\nC) Both of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1426,7 +1426,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The electric field between a pair of oppositely charged parallel plates\n\nChoices:\nA) gets weaker with distance inside the plates\nB) follows the inverse-square law\nC) Both of these\nD) Neither of these\n\nAnswer:"
     },
     {
@@ -1436,7 +1436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The amount of air drag on an 0.8-N flying squirrel dropping vertically at terminal velocity is\n\nChoices:\nA) less than 0.8 N\nB) 0.8 N\nC) greater than 0.8 N\nD) dependent on the orientation of its body\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1451,7 +1451,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The amount of air drag on an 0.8-N flying squirrel dropping vertically at terminal velocity is\n\nChoices:\nA) less than 0.8 N\nB) 0.8 N\nC) greater than 0.8 N\nD) dependent on the orientation of its body\n\nAnswer:"
     },
     {
@@ -1461,7 +1461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The rotational inertia of an object is greater when most of the mass is located\n\nChoices:\nA) near the rotational axis\nB) away from the axis\nC) on the rotational axis\nD) off center\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1476,7 +1476,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The rotational inertia of an object is greater when most of the mass is located\n\nChoices:\nA) near the rotational axis\nB) away from the axis\nC) on the rotational axis\nD) off center\n\nAnswer:"
     },
     {
@@ -1486,7 +1486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A voltage will be induced in a wire loop when the magnetic field within that loop\n\nChoices:\nA) changes\nB) aligns with the electric field\nC) is at right angles to the electric field\nD) converts to magnetic energy\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1501,7 +1501,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A voltage will be induced in a wire loop when the magnetic field within that loop\n\nChoices:\nA) changes\nB) aligns with the electric field\nC) is at right angles to the electric field\nD) converts to magnetic energy\n\nAnswer:"
     },
     {
@@ -1511,7 +1511,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The magnetic field lines about a current-carrying wire form\n\nChoices:\nA) circles\nB) radial lines\nC) eddy currents\nD) energy loops\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1526,7 +1526,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The magnetic field lines about a current-carrying wire form\n\nChoices:\nA) circles\nB) radial lines\nC) eddy currents\nD) energy loops\n\nAnswer:"
     },
     {
@@ -1536,7 +1536,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Chain reactions in a fission reactor are caused by\n\nChoices:\nA) kinetic energy\nB) energy conversion\nC) mass conversion\nD) ejected neutrons\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1551,7 +1551,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Chain reactions in a fission reactor are caused by\n\nChoices:\nA) kinetic energy\nB) energy conversion\nC) mass conversion\nD) ejected neutrons\n\nAnswer:"
     },
     {
@@ -1561,7 +1561,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Polarization is a property of\n\nChoices:\nA) transverse waves\nB) longitudinal waves\nC) all waves\nD) None of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1576,7 +1576,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Polarization is a property of\n\nChoices:\nA) transverse waves\nB) longitudinal waves\nC) all waves\nD) None of these\n\nAnswer:"
     },
     {
@@ -1586,7 +1586,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you scale up an object to 3 times its linear size, the surface area increases by\n\nChoices:\nA) 3 and the volume by 9.\nB) 3 and the volume by 27.\nC) 9 and the volume by 27.\nD) 4 and the volume by 8.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1601,7 +1601,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you scale up an object to 3 times its linear size, the surface area increases by\n\nChoices:\nA) 3 and the volume by 9.\nB) 3 and the volume by 27.\nC) 9 and the volume by 27.\nD) 4 and the volume by 8.\n\nAnswer:"
     },
     {
@@ -1611,7 +1611,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a nucleus of uranium-238 emits an alpha particle, left behind is\n\nChoices:\nA) thorium-242\nB) thorium-238\nC) thorium-234\nD) radium-214\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1626,7 +1626,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a nucleus of uranium-238 emits an alpha particle, left behind is\n\nChoices:\nA) thorium-242\nB) thorium-238\nC) thorium-234\nD) radium-214\n\nAnswer:"
     },
     {
@@ -1636,7 +1636,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The phenomenon of beats is the result of sound\n\nChoices:\nA) destruction\nB) interference\nC) resonance\nD) amplification\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1651,7 +1651,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The phenomenon of beats is the result of sound\n\nChoices:\nA) destruction\nB) interference\nC) resonance\nD) amplification\n\nAnswer:"
     },
     {
@@ -1661,7 +1661,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Compared with radiation from the Sun, terrestrial radiation has a lower\n\nChoices:\nA) wavelength\nB) frequency\nC) Both\nD) Neither\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1676,7 +1676,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Compared with radiation from the Sun, terrestrial radiation has a lower\n\nChoices:\nA) wavelength\nB) frequency\nC) Both\nD) Neither\n\nAnswer:"
     },
     {
@@ -1686,7 +1686,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A rock suspended by a weighing scale weighs 5 N out of water and 3 N when submerged in water. What is the buoyant force on the rock?\n\nChoices:\nA) 3 N\nB) 5 N\nC) 8 N\nD) None of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1701,7 +1701,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A rock suspended by a weighing scale weighs 5 N out of water and 3 N when submerged in water. What is the buoyant force on the rock?\n\nChoices:\nA) 3 N\nB) 5 N\nC) 8 N\nD) None of these\n\nAnswer:"
     },
     {
@@ -1711,7 +1711,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A 1134-Hz tuning fork is sounded at the same time a piano note is struck. You hear three beats per second. The frequency of the piano string is\n\nChoices:\nA) 1131 Hz\nB) 1134 Hz\nC) 1137 Hz\nD) More information is needed\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1726,7 +1726,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A 1134-Hz tuning fork is sounded at the same time a piano note is struck. You hear three beats per second. The frequency of the piano string is\n\nChoices:\nA) 1131 Hz\nB) 1134 Hz\nC) 1137 Hz\nD) More information is needed\n\nAnswer:"
     },
     {
@@ -1736,7 +1736,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The red glow in the neon tube of an advertising sign is a result of\n\nChoices:\nA) fluorescence.\nB) coherence.\nC) polarization.\nD) de-excitation.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1751,17 +1751,17 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The red glow in the neon tube of an advertising sign is a result of\n\nChoices:\nA) fluorescence.\nB) coherence.\nC) polarization.\nD) de-excitation.\n\nAnswer:"
     },
     {
       "doc_id": 70,
       "target": "2",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Hooke’s law, if you hang by a tree branch and note how much it bends, then hanging with twice the weight produces\n\nChoices:\nA) half the bend.\nB) the same bend if the branch doesn’t break.\nC) twice the bend.\nD) 4 times the bend.\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Hooke\u2019s law, if you hang by a tree branch and note how much it bends, then hanging with twice the weight produces\n\nChoices:\nA) half the bend.\nB) the same bend if the branch doesn\u2019t break.\nC) twice the bend.\nD) 4 times the bend.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1776,8 +1776,8 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Hooke’s law, if you hang by a tree branch and note how much it bends, then hanging with twice the weight produces\n\nChoices:\nA) half the bend.\nB) the same bend if the branch doesn’t break.\nC) twice the bend.\nD) 4 times the bend.\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to Hooke\u2019s law, if you hang by a tree branch and note how much it bends, then hanging with twice the weight produces\n\nChoices:\nA) half the bend.\nB) the same bend if the branch doesn\u2019t break.\nC) twice the bend.\nD) 4 times the bend.\n\nAnswer:"
     },
     {
       "doc_id": 71,
@@ -1786,7 +1786,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The model of light most supported by the photoelectric effect is the\n\nChoices:\nA) wave model\nB) particle model\nC) Both of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1801,7 +1801,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The model of light most supported by the photoelectric effect is the\n\nChoices:\nA) wave model\nB) particle model\nC) Both of these\nD) Neither of these\n\nAnswer:"
     },
     {
@@ -1811,7 +1811,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When an increase in speed doubles the momentum of a moving body its kinetic energy\n\nChoices:\nA) increases but less than doubles\nB) doubles\nC) more than doubles\nD) depends on factors not stated\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1826,7 +1826,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When an increase in speed doubles the momentum of a moving body its kinetic energy\n\nChoices:\nA) increases but less than doubles\nB) doubles\nC) more than doubles\nD) depends on factors not stated\n\nAnswer:"
     },
     {
@@ -1836,7 +1836,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When light undergoes interference, it can sometimes\n\nChoices:\nA) build up to more than the sum of amplitudes\nB) cancel completely\nC) Both of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1851,7 +1851,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When light undergoes interference, it can sometimes\n\nChoices:\nA) build up to more than the sum of amplitudes\nB) cancel completely\nC) Both of these\nD) Neither of these\n\nAnswer:"
     },
     {
@@ -1861,7 +1861,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The team that wins in a tug-of-war is the team that\n\nChoices:\nA) produces more tension in the rope than the opponent\nB) pushes hardest on the ground\nC) Both\nD) Neither\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1876,7 +1876,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The team that wins in a tug-of-war is the team that\n\nChoices:\nA) produces more tension in the rope than the opponent\nB) pushes hardest on the ground\nC) Both\nD) Neither\n\nAnswer:"
     },
     {
@@ -1886,7 +1886,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In a vacuum, an object has no\n\nChoices:\nA) buoyant force\nB) mass\nC) weight\nD) All of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1901,7 +1901,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In a vacuum, an object has no\n\nChoices:\nA) buoyant force\nB) mass\nC) weight\nD) All of these\n\nAnswer:"
     },
     {
@@ -1911,7 +1911,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A torque is a force\n\nChoices:\nA) like any other force\nB) multiplied by a lever arm\nC) that is fictitious\nD) that accelerates things\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1926,7 +1926,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A torque is a force\n\nChoices:\nA) like any other force\nB) multiplied by a lever arm\nC) that is fictitious\nD) that accelerates things\n\nAnswer:"
     },
     {
@@ -1936,7 +1936,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: An electron can be speeded up by\n\nChoices:\nA) an electric field\nB) a magnetic field\nC) Both of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1951,17 +1951,17 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: An electron can be speeded up by\n\nChoices:\nA) an electric field\nB) a magnetic field\nC) Both of these\nD) Neither of these\n\nAnswer:"
     },
     {
       "doc_id": 78,
       "target": "0",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hot sand cools off faster at night than does vegetation. Compared with vegetation, sand’s specific heat capacity is\n\nChoices:\nA) lower\nB) higher\nC) about the same\nD) Can’t say\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hot sand cools off faster at night than does vegetation. Compared with vegetation, sand\u2019s specific heat capacity is\n\nChoices:\nA) lower\nB) higher\nC) about the same\nD) Can\u2019t say\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1976,8 +1976,8 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hot sand cools off faster at night than does vegetation. Compared with vegetation, sand’s specific heat capacity is\n\nChoices:\nA) lower\nB) higher\nC) about the same\nD) Can’t say\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Hot sand cools off faster at night than does vegetation. Compared with vegetation, sand\u2019s specific heat capacity is\n\nChoices:\nA) lower\nB) higher\nC) about the same\nD) Can\u2019t say\n\nAnswer:"
     },
     {
       "doc_id": 79,
@@ -1986,7 +1986,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A galvanometer can be calibrated to read electric\n\nChoices:\nA) current\nB) voltage\nC) Either of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2001,17 +2001,17 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A galvanometer can be calibrated to read electric\n\nChoices:\nA) current\nB) voltage\nC) Either of these\nD) Neither of these\n\nAnswer:"
     },
     {
       "doc_id": 80,
       "target": "1",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to four-dimensional geometry, the angles of a triangle add to 180°\n\nChoices:\nA) always.\nB) sometimes.\nC) never.\nD) on planet Earth only.\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to four-dimensional geometry, the angles of a triangle add to 180\u00b0\n\nChoices:\nA) always.\nB) sometimes.\nC) never.\nD) on planet Earth only.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2026,8 +2026,8 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to four-dimensional geometry, the angles of a triangle add to 180°\n\nChoices:\nA) always.\nB) sometimes.\nC) never.\nD) on planet Earth only.\n\nAnswer:"
+      "acc": 0.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to four-dimensional geometry, the angles of a triangle add to 180\u00b0\n\nChoices:\nA) always.\nB) sometimes.\nC) never.\nD) on planet Earth only.\n\nAnswer:"
     },
     {
       "doc_id": 81,
@@ -2036,7 +2036,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The pitch of a sound is mostly related to its\n\nChoices:\nA) intensity\nB) frequency\nC) amplitude\nD) speed\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2051,7 +2051,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The pitch of a sound is mostly related to its\n\nChoices:\nA) intensity\nB) frequency\nC) amplitude\nD) speed\n\nAnswer:"
     },
     {
@@ -2061,7 +2061,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A capacitor loses half its remaining charge every second. If after five seconds its charge is q what was its initial charge?\n\nChoices:\nA) 4q.\nB) 8q.\nC) 16q.\nD) 32q.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2076,7 +2076,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A capacitor loses half its remaining charge every second. If after five seconds its charge is q what was its initial charge?\n\nChoices:\nA) 4q.\nB) 8q.\nC) 16q.\nD) 32q.\n\nAnswer:"
     },
     {
@@ -2086,7 +2086,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Compared with the current in an LED lamp the current in the connecting wire is\n\nChoices:\nA) less.\nB) more.\nC) the same.\nD) Need more information.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2101,7 +2101,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Compared with the current in an LED lamp the current in the connecting wire is\n\nChoices:\nA) less.\nB) more.\nC) the same.\nD) Need more information.\n\nAnswer:"
     },
     {
@@ -2111,7 +2111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The component of velocity that can remain constant for a tossed baseball is\n\nChoices:\nA) horizontal\nB) vertical\nC) Either of these\nD) None of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2126,7 +2126,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The component of velocity that can remain constant for a tossed baseball is\n\nChoices:\nA) horizontal\nB) vertical\nC) Either of these\nD) None of these\n\nAnswer:"
     },
     {
@@ -2136,7 +2136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Any atom that emits an alpha particle or beta particle\n\nChoices:\nA) becomes an atom of a different element always.\nB) may become an atom of a different element.\nC) becomes a different isotope of the same element.\nD) increases its mass.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2151,7 +2151,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Any atom that emits an alpha particle or beta particle\n\nChoices:\nA) becomes an atom of a different element always.\nB) may become an atom of a different element.\nC) becomes a different isotope of the same element.\nD) increases its mass.\n\nAnswer:"
     },
     {
@@ -2161,7 +2161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The phenomenon of beats results from sound\n\nChoices:\nA) reflection.\nB) refraction.\nC) interference.\nD) All of these.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2176,7 +2176,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The phenomenon of beats results from sound\n\nChoices:\nA) reflection.\nB) refraction.\nC) interference.\nD) All of these.\n\nAnswer:"
     },
     {
@@ -2186,7 +2186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The blueness of the daytime sky is due mostly to light\n\nChoices:\nA) absorption\nB) transmission\nC) reflection\nD) scattering\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2201,17 +2201,17 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The blueness of the daytime sky is due mostly to light\n\nChoices:\nA) absorption\nB) transmission\nC) reflection\nD) scattering\n\nAnswer:"
     },
     {
       "doc_id": 88,
       "target": "3",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: General relativity predicts that\n\nChoices:\nA) light leaving the Sun is slowed by gravity.\nB) light passing the Sun is deflected.\nC) a clock on the Sun’s surface runs faster than on Earth.\nD) All of these.\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: General relativity predicts that\n\nChoices:\nA) light leaving the Sun is slowed by gravity.\nB) light passing the Sun is deflected.\nC) a clock on the Sun\u2019s surface runs faster than on Earth.\nD) All of these.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2226,8 +2226,8 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: General relativity predicts that\n\nChoices:\nA) light leaving the Sun is slowed by gravity.\nB) light passing the Sun is deflected.\nC) a clock on the Sun’s surface runs faster than on Earth.\nD) All of these.\n\nAnswer:"
+      "acc": 0.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: General relativity predicts that\n\nChoices:\nA) light leaving the Sun is slowed by gravity.\nB) light passing the Sun is deflected.\nC) a clock on the Sun\u2019s surface runs faster than on Earth.\nD) All of these.\n\nAnswer:"
     },
     {
       "doc_id": 89,
@@ -2236,7 +2236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a model car speeds up to three times its original speed, its kinetic energy is\n\nChoices:\nA) the same\nB) twice as great\nC) three times greater\nD) None of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2251,17 +2251,17 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a model car speeds up to three times its original speed, its kinetic energy is\n\nChoices:\nA) the same\nB) twice as great\nC) three times greater\nD) None of these\n\nAnswer:"
     },
     {
       "doc_id": 90,
       "target": "3",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The second law of thermodynamics tells us that heat doesn’t flow from\n\nChoices:\nA) hot to cold ever\nB) cold to hot ever\nC) hot to cold without external energy\nD) cold to hot without external energy\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The second law of thermodynamics tells us that heat doesn\u2019t flow from\n\nChoices:\nA) hot to cold ever\nB) cold to hot ever\nC) hot to cold without external energy\nD) cold to hot without external energy\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2276,17 +2276,17 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The second law of thermodynamics tells us that heat doesn’t flow from\n\nChoices:\nA) hot to cold ever\nB) cold to hot ever\nC) hot to cold without external energy\nD) cold to hot without external energy\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The second law of thermodynamics tells us that heat doesn\u2019t flow from\n\nChoices:\nA) hot to cold ever\nB) cold to hot ever\nC) hot to cold without external energy\nD) cold to hot without external energy\n\nAnswer:"
     },
     {
       "doc_id": 91,
       "target": "1",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you buy a pipe in a hardware store, the water isn’t included. When you buy copper wire, electrons\n\nChoices:\nA) must be supplied by you\nB) are included in the wire\nC) may fall out—hence insulation\nD) None of these\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you buy a pipe in a hardware store, the water isn\u2019t included. When you buy copper wire, electrons\n\nChoices:\nA) must be supplied by you\nB) are included in the wire\nC) may fall out\u2014hence insulation\nD) None of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2301,8 +2301,8 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you buy a pipe in a hardware store, the water isn’t included. When you buy copper wire, electrons\n\nChoices:\nA) must be supplied by you\nB) are included in the wire\nC) may fall out—hence insulation\nD) None of these\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When you buy a pipe in a hardware store, the water isn\u2019t included. When you buy copper wire, electrons\n\nChoices:\nA) must be supplied by you\nB) are included in the wire\nC) may fall out\u2014hence insulation\nD) None of these\n\nAnswer:"
     },
     {
       "doc_id": 92,
@@ -2311,7 +2311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: As entropy in a system increases, energy in the system\n\nChoices:\nA) becomes more ordered\nB) becomes less ordered\nC) reaches equilibrium\nD) moves toward destruction\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2326,7 +2326,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: As entropy in a system increases, energy in the system\n\nChoices:\nA) becomes more ordered\nB) becomes less ordered\nC) reaches equilibrium\nD) moves toward destruction\n\nAnswer:"
     },
     {
@@ -2336,7 +2336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Light reflecting from a smooth surface undergoes a change in\n\nChoices:\nA) frequency.\nB) wavelength.\nC) All of these.\nD) None of these.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2351,7 +2351,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Light reflecting from a smooth surface undergoes a change in\n\nChoices:\nA) frequency.\nB) wavelength.\nC) All of these.\nD) None of these.\n\nAnswer:"
     },
     {
@@ -2361,7 +2361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Spectral lines of the elements are\n\nChoices:\nA) chaotic\nB) ordered\nC) positioned by amplitude\nD) in phase\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2376,7 +2376,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Spectral lines of the elements are\n\nChoices:\nA) chaotic\nB) ordered\nC) positioned by amplitude\nD) in phase\n\nAnswer:"
     },
     {
@@ -2386,7 +2386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Lift a 100-N crate with an ideal pulley system by pulling a rope downward with 25 N of force. For every 1-m length of rope pulled down, the crate rises\n\nChoices:\nA) 25 cm\nB) 25 m\nC) 50 cm\nD) None of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2401,17 +2401,17 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Lift a 100-N crate with an ideal pulley system by pulling a rope downward with 25 N of force. For every 1-m length of rope pulled down, the crate rises\n\nChoices:\nA) 25 cm\nB) 25 m\nC) 50 cm\nD) None of these\n\nAnswer:"
     },
     {
       "doc_id": 96,
       "target": "3",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to general relativity,\n\nChoices:\nA) mass distorts spacetime.\nB) gravity affects clocks.\nC) light can’t escape from a black hole.\nD) All of these.\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to general relativity,\n\nChoices:\nA) mass distorts spacetime.\nB) gravity affects clocks.\nC) light can\u2019t escape from a black hole.\nD) All of these.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2426,17 +2426,17 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to general relativity,\n\nChoices:\nA) mass distorts spacetime.\nB) gravity affects clocks.\nC) light can’t escape from a black hole.\nD) All of these.\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to general relativity,\n\nChoices:\nA) mass distorts spacetime.\nB) gravity affects clocks.\nC) light can\u2019t escape from a black hole.\nD) All of these.\n\nAnswer:"
     },
     {
       "doc_id": 97,
       "target": "1",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When food is exposed to gamma radiation, the food\n\nChoices:\nA) becomes slightly radioactive\nB) doesn’t become radioactive\nC) will spoil faster\nD) should be avoided\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When food is exposed to gamma radiation, the food\n\nChoices:\nA) becomes slightly radioactive\nB) doesn\u2019t become radioactive\nC) will spoil faster\nD) should be avoided\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2451,8 +2451,8 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When food is exposed to gamma radiation, the food\n\nChoices:\nA) becomes slightly radioactive\nB) doesn’t become radioactive\nC) will spoil faster\nD) should be avoided\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When food is exposed to gamma radiation, the food\n\nChoices:\nA) becomes slightly radioactive\nB) doesn\u2019t become radioactive\nC) will spoil faster\nD) should be avoided\n\nAnswer:"
     },
     {
       "doc_id": 98,
@@ -2461,7 +2461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If the Sun were twice as massive, its pull on Mars would be\n\nChoices:\nA) unchanged\nB) twice as much\nC) half as much\nD) four times as much\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2476,7 +2476,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If the Sun were twice as massive, its pull on Mars would be\n\nChoices:\nA) unchanged\nB) twice as much\nC) half as much\nD) four times as much\n\nAnswer:"
     },
     {
@@ -2486,7 +2486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The potential energy of a compressed spring and the potential energy of a charged object both depend on\n\nChoices:\nA) the work done on them\nB) motion\nC) Both of these\nD) Neither of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2501,7 +2501,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_conceptual_physics) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The potential energy of a compressed spring and the potential energy of a charged object both depend on\n\nChoices:\nA) the work done on them\nB) motion\nC) Both of these\nD) Neither of these\n\nAnswer:"
     }
   ]

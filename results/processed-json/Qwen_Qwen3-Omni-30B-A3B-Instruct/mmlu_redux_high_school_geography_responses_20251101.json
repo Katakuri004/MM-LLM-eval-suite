@@ -1,6 +1,6 @@
 {
   "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
-  "created_at": "2025-10-31T01:00:13.111Z",
+  "created_at": "2025-10-31T06:30:13.110851",
   "benchmark_id": "mmlu_redux_high_school_geography",
   "total_samples": 100,
   "samples": [
@@ -11,7 +11,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following is NOT a centripetal force in a state?\n\nChoices:\nA) A high level of confidence in central government\nB) The existence of strong separatist groups\nC) The existence of national transportation networks\nD) The national anthem\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -26,7 +26,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following is NOT a centripetal force in a state?\n\nChoices:\nA) A high level of confidence in central government\nB) The existence of strong separatist groups\nC) The existence of national transportation networks\nD) The national anthem\n\nAnswer:"
     },
     {
@@ -36,7 +36,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The tendency for migration to decrease with distance is called\n\nChoices:\nA) push factors.\nB) pull factors.\nC) distance decay.\nD) migration selectivity.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -51,7 +51,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The tendency for migration to decrease with distance is called\n\nChoices:\nA) push factors.\nB) pull factors.\nC) distance decay.\nD) migration selectivity.\n\nAnswer:"
     },
     {
@@ -61,7 +61,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following countries is actively trying to preserve the purity of their native language from contamination by English or other languages?\n\nChoices:\nA) Italy\nB) Russia\nC) Japan\nD) Brazil\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -76,7 +76,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following countries is actively trying to preserve the purity of their native language from contamination by English or other languages?\n\nChoices:\nA) Italy\nB) Russia\nC) Japan\nD) Brazil\n\nAnswer:"
     },
     {
@@ -86,7 +86,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following factors has little or no impact on mortality rates in the developing countries?\n\nChoices:\nA) New medicines\nB) Improved birth control methods\nC) Pesticides\nD) Famine relief\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -101,7 +101,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following factors has little or no impact on mortality rates in the developing countries?\n\nChoices:\nA) New medicines\nB) Improved birth control methods\nC) Pesticides\nD) Famine relief\n\nAnswer:"
     },
     {
@@ -111,7 +111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a functional region?\n\nChoices:\nA) Dixie\nB) Pennsylvania\nC) The market area of Winn-Dixie\nD) The Pacific Northwest\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -126,7 +126,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a functional region?\n\nChoices:\nA) Dixie\nB) Pennsylvania\nC) The market area of Winn-Dixie\nD) The Pacific Northwest\n\nAnswer:"
     },
     {
@@ -136,7 +136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Urban agriculture can benefit urban society in all of the following ways EXCEPT\n\nChoices:\nA) create sustainable food systems in urban areas.\nB) provide jobs for women and children.\nC) turn urban waste into a resource when utilized in safe manner.\nD) replace agribusiness as the main focus of global food production.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -151,7 +151,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Urban agriculture can benefit urban society in all of the following ways EXCEPT\n\nChoices:\nA) create sustainable food systems in urban areas.\nB) provide jobs for women and children.\nC) turn urban waste into a resource when utilized in safe manner.\nD) replace agribusiness as the main focus of global food production.\n\nAnswer:"
     },
     {
@@ -161,7 +161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The most rapidly urbanizing area of the world is:\n\nChoices:\nA) Europe\nB) East Asia\nC) Sub-Saharan Africa\nD) South Asia\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -176,17 +176,17 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The most rapidly urbanizing area of the world is:\n\nChoices:\nA) Europe\nB) East Asia\nC) Sub-Saharan Africa\nD) South Asia\n\nAnswer:"
     },
     {
       "doc_id": 7,
       "target": "1",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following U.S. main immigration flow associations is NOT correct?\n\nChoices:\nA) Pioneer settlement to 1870—Germans, British, Scotch-Irish, Africans\nB) 1870–1914—Asians\nC) 1870–1914—Eastern and southern Europeans\nD) 1965–present—Hispanics\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following U.S. main immigration flow associations is NOT correct?\n\nChoices:\nA) Pioneer settlement to 1870\u2014Germans, British, Scotch-Irish, Africans\nB) 1870\u20131914\u2014Asians\nC) 1870\u20131914\u2014Eastern and southern Europeans\nD) 1965\u2013present\u2014Hispanics\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -201,8 +201,8 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following U.S. main immigration flow associations is NOT correct?\n\nChoices:\nA) Pioneer settlement to 1870—Germans, British, Scotch-Irish, Africans\nB) 1870–1914—Asians\nC) 1870–1914—Eastern and southern Europeans\nD) 1965–present—Hispanics\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following U.S. main immigration flow associations is NOT correct?\n\nChoices:\nA) Pioneer settlement to 1870\u2014Germans, British, Scotch-Irish, Africans\nB) 1870\u20131914\u2014Asians\nC) 1870\u20131914\u2014Eastern and southern Europeans\nD) 1965\u2013present\u2014Hispanics\n\nAnswer:"
     },
     {
       "doc_id": 8,
@@ -211,7 +211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: An earlier boundary formed before meticulous geographic knowledge and mapping was available is known as\n\nChoices:\nA) an antecedent boundary.\nB) a geometric boundary.\nC) a relict boundary.\nD) a subsequent boundary.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -226,7 +226,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: An earlier boundary formed before meticulous geographic knowledge and mapping was available is known as\n\nChoices:\nA) an antecedent boundary.\nB) a geometric boundary.\nC) a relict boundary.\nD) a subsequent boundary.\n\nAnswer:"
     },
     {
@@ -236,7 +236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which of the following Asian countries would one find special economic zones (SEZs)?\n\nChoices:\nA) Japan\nB) South Korea\nC) China\nD) Vietnam\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -251,7 +251,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which of the following Asian countries would one find special economic zones (SEZs)?\n\nChoices:\nA) Japan\nB) South Korea\nC) China\nD) Vietnam\n\nAnswer:"
     },
     {
@@ -261,7 +261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a centrifugal force in a country?\n\nChoices:\nA) Religious differences\nB) A national holiday\nC) An attack by another country\nD) A charismatic national leader\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -276,7 +276,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a centrifugal force in a country?\n\nChoices:\nA) Religious differences\nB) A national holiday\nC) An attack by another country\nD) A charismatic national leader\n\nAnswer:"
     },
     {
@@ -286,7 +286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The largest exporter of agricultural goods in the world is\n\nChoices:\nA) China.\nB) Mexico.\nC) Chile.\nD) the United States.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -301,7 +301,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The largest exporter of agricultural goods in the world is\n\nChoices:\nA) China.\nB) Mexico.\nC) Chile.\nD) the United States.\n\nAnswer:"
     },
     {
@@ -311,7 +311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: You are planning to move from your hometown to Pittsburgh. Along the way, you stop in Columbus, Ohio to visit a relative and fall in love with the city! You decide to stay and make Columbus your new home. This is an example of\n\nChoices:\nA) intervening opportunity.\nB) distance decay.\nC) involuntary migration.\nD) push-pull factors.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -326,7 +326,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: You are planning to move from your hometown to Pittsburgh. Along the way, you stop in Columbus, Ohio to visit a relative and fall in love with the city! You decide to stay and make Columbus your new home. This is an example of\n\nChoices:\nA) intervening opportunity.\nB) distance decay.\nC) involuntary migration.\nD) push-pull factors.\n\nAnswer:"
     },
     {
@@ -336,7 +336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following organizations is NOT a supranational organization?\n\nChoices:\nA) UN\nB) NATO\nC) ASEAN\nD) PLO\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -351,17 +351,17 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following organizations is NOT a supranational organization?\n\nChoices:\nA) UN\nB) NATO\nC) ASEAN\nD) PLO\n\nAnswer:"
     },
     {
       "doc_id": 14,
       "target": "3",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The theory that cities grow outward from a core utilizing several nodes of growth was proposed by\n\nChoices:\nA) Rostow.\nB) Ravenstein.\nC) von Thünen.\nD) Harris and Ullmann.\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The theory that cities grow outward from a core utilizing several nodes of growth was proposed by\n\nChoices:\nA) Rostow.\nB) Ravenstein.\nC) von Th\u00fcnen.\nD) Harris and Ullmann.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -376,17 +376,17 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The theory that cities grow outward from a core utilizing several nodes of growth was proposed by\n\nChoices:\nA) Rostow.\nB) Ravenstein.\nC) von Thünen.\nD) Harris and Ullmann.\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The theory that cities grow outward from a core utilizing several nodes of growth was proposed by\n\nChoices:\nA) Rostow.\nB) Ravenstein.\nC) von Th\u00fcnen.\nD) Harris and Ullmann.\n\nAnswer:"
     },
     {
       "doc_id": 15,
       "target": "2",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which theorist(s) tried to explain the prices of farm products as they relate to patterns of land use?\n\nChoices:\nA) Rostow\nB) Ravenstein\nC) Von Thünen\nD) Burgess\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which theorist(s) tried to explain the prices of farm products as they relate to patterns of land use?\n\nChoices:\nA) Rostow\nB) Ravenstein\nC) Von Th\u00fcnen\nD) Burgess\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -401,8 +401,8 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which theorist(s) tried to explain the prices of farm products as they relate to patterns of land use?\n\nChoices:\nA) Rostow\nB) Ravenstein\nC) Von Thünen\nD) Burgess\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which theorist(s) tried to explain the prices of farm products as they relate to patterns of land use?\n\nChoices:\nA) Rostow\nB) Ravenstein\nC) Von Th\u00fcnen\nD) Burgess\n\nAnswer:"
     },
     {
       "doc_id": 16,
@@ -411,7 +411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following statements is TRUE concerning women in the labor force?\n\nChoices:\nA) Most women work in agriculture\nB) The percentage of women economically active in the labor force declined worldwide\nC) The percentage of women in the total labor force declined\nD) Women spend more hours per day working than men in all regions except Anglo America and Australia\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -426,7 +426,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following statements is TRUE concerning women in the labor force?\n\nChoices:\nA) Most women work in agriculture\nB) The percentage of women economically active in the labor force declined worldwide\nC) The percentage of women in the total labor force declined\nD) Women spend more hours per day working than men in all regions except Anglo America and Australia\n\nAnswer:"
     },
     {
@@ -436,7 +436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The use and spread of English in nineteenth-century India is an example of what type of diffusion?\n\nChoices:\nA) Stimulus\nB) Contagious\nC) Hierarchal\nD) Relocation\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -451,7 +451,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The use and spread of English in nineteenth-century India is an example of what type of diffusion?\n\nChoices:\nA) Stimulus\nB) Contagious\nC) Hierarchal\nD) Relocation\n\nAnswer:"
     },
     {
@@ -461,7 +461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The process whereby immigrants learn the values, language, and customs of their new country is called\n\nChoices:\nA) assimilation.\nB) acculturation.\nC) adaptation.\nD) amalgamation.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -476,7 +476,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The process whereby immigrants learn the values, language, and customs of their new country is called\n\nChoices:\nA) assimilation.\nB) acculturation.\nC) adaptation.\nD) amalgamation.\n\nAnswer:"
     },
     {
@@ -486,7 +486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The European Union (EU) replaced which of the following organizations?\n\nChoices:\nA) NATO\nB) EEC\nC) UN\nD) ASEAN\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -501,7 +501,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The European Union (EU) replaced which of the following organizations?\n\nChoices:\nA) NATO\nB) EEC\nC) UN\nD) ASEAN\n\nAnswer:"
     },
     {
@@ -511,7 +511,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Ralph purchases garden fertilizer at the nearby garden shop rather than drive 50 miles to the neighboring town for the same product. This reflects which type of spatial interaction?\n\nChoices:\nA) Transferability\nB) Complementarity\nC) Intervening opportunity\nD) Territoriality\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -526,7 +526,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Ralph purchases garden fertilizer at the nearby garden shop rather than drive 50 miles to the neighboring town for the same product. This reflects which type of spatial interaction?\n\nChoices:\nA) Transferability\nB) Complementarity\nC) Intervening opportunity\nD) Territoriality\n\nAnswer:"
     },
     {
@@ -536,7 +536,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What do the terms apartheid, ethnic cleansing, and integration all have in common?\n\nChoices:\nA) They all occurred in Nazi Germany during World War I.\nB) They are all forms of residential segregation.\nC) They are all ways to integrate different ethnic populations in neighborhoods.\nD) They are different expressions for the same concept.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -551,7 +551,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What do the terms apartheid, ethnic cleansing, and integration all have in common?\n\nChoices:\nA) They all occurred in Nazi Germany during World War I.\nB) They are all forms of residential segregation.\nC) They are all ways to integrate different ethnic populations in neighborhoods.\nD) They are different expressions for the same concept.\n\nAnswer:"
     },
     {
@@ -561,7 +561,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The \"melting pot\" theory of combining several immigrant groups into one mainstream culture is called\n\nChoices:\nA) amalgamation theory.\nB) acculturation.\nC) ethnic islands.\nD) ethnic clustering.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -576,7 +576,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The \"melting pot\" theory of combining several immigrant groups into one mainstream culture is called\n\nChoices:\nA) amalgamation theory.\nB) acculturation.\nC) ethnic islands.\nD) ethnic clustering.\n\nAnswer:"
     },
     {
@@ -586,7 +586,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a distinct characteristic of an East European city?\n\nChoices:\nA) A central park\nB) Prominent religious buildings\nC) A large central square surrounded by government and administrative buildings\nD) Luxury apartment buildings\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -601,7 +601,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a distinct characteristic of an East European city?\n\nChoices:\nA) A central park\nB) Prominent religious buildings\nC) A large central square surrounded by government and administrative buildings\nD) Luxury apartment buildings\n\nAnswer:"
     },
     {
@@ -611,7 +611,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a country combines its religion with its government, it is called a\n\nChoices:\nA) dictatorship.\nB) theocracy.\nC) democracy.\nD) autocracy.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -626,7 +626,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a country combines its religion with its government, it is called a\n\nChoices:\nA) dictatorship.\nB) theocracy.\nC) democracy.\nD) autocracy.\n\nAnswer:"
     },
     {
@@ -636,7 +636,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The voluntary association of three or more countries willing to give up some measure of sovereignty is called\n\nChoices:\nA) nationalism.\nB) devolution.\nC) supranationalism.\nD) complementarity.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -651,7 +651,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The voluntary association of three or more countries willing to give up some measure of sovereignty is called\n\nChoices:\nA) nationalism.\nB) devolution.\nC) supranationalism.\nD) complementarity.\n\nAnswer:"
     },
     {
@@ -661,7 +661,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following is NOT an advantage of urban agriculture?\n\nChoices:\nA) Helping to solve the problem of solid waste disposal\nB) Fresh produce for sale to others\nC) Beautification of a dingy urban area\nD) Renewed or purified water supplies\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -676,7 +676,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following is NOT an advantage of urban agriculture?\n\nChoices:\nA) Helping to solve the problem of solid waste disposal\nB) Fresh produce for sale to others\nC) Beautification of a dingy urban area\nD) Renewed or purified water supplies\n\nAnswer:"
     },
     {
@@ -686,7 +686,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is NOT a key milestone reached by the EU?\n\nChoices:\nA) The introduction of a common currency used by many EU countries\nB) A customs union\nC) A single market\nD) A common European language\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -701,7 +701,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is NOT a key milestone reached by the EU?\n\nChoices:\nA) The introduction of a common currency used by many EU countries\nB) A customs union\nC) A single market\nD) A common European language\n\nAnswer:"
     },
     {
@@ -711,7 +711,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a new fashion design is introduced globally, the information initially travels through a process known as\n\nChoices:\nA) contagious diffusion\nB) relocation diffusion\nC) innovative diffusion\nD) hierarchical diffusion\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -726,7 +726,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When a new fashion design is introduced globally, the information initially travels through a process known as\n\nChoices:\nA) contagious diffusion\nB) relocation diffusion\nC) innovative diffusion\nD) hierarchical diffusion\n\nAnswer:"
     },
     {
@@ -736,7 +736,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What family do most European languages belong to?\n\nChoices:\nA) Ural-Altaic\nB) Basque\nC) Indo-European\nD) Phoenician\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -751,7 +751,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What family do most European languages belong to?\n\nChoices:\nA) Ural-Altaic\nB) Basque\nC) Indo-European\nD) Phoenician\n\nAnswer:"
     },
     {
@@ -761,7 +761,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: China and Vietnam's dispute over the Spratley Islands is\n\nChoices:\nA) a positional dispute.\nB) a territorial dispute.\nC) a resource dispute.\nD) a functional dispute.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -776,7 +776,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: China and Vietnam's dispute over the Spratley Islands is\n\nChoices:\nA) a positional dispute.\nB) a territorial dispute.\nC) a resource dispute.\nD) a functional dispute.\n\nAnswer:"
     },
     {
@@ -786,7 +786,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The process of devolution involves\n\nChoices:\nA) the change of government from a democracy to a communist dictatorship.\nB) the movement of power from the central government to regional governments in the country.\nC) the movement of power from a monarchy to a military dictatorship.\nD) the movement of power from regional governments to central governments.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -801,7 +801,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The process of devolution involves\n\nChoices:\nA) the change of government from a democracy to a communist dictatorship.\nB) the movement of power from the central government to regional governments in the country.\nC) the movement of power from a monarchy to a military dictatorship.\nD) the movement of power from regional governments to central governments.\n\nAnswer:"
     },
     {
@@ -811,7 +811,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Early settlements and high population density along coastlines and rivers are best attributed to which of the following?\n\nChoices:\nA) Mediterranean climate\nB) Limited forest cover\nC) Growth of manufacturing\nD) Access to trade routes\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -826,7 +826,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Early settlements and high population density along coastlines and rivers are best attributed to which of the following?\n\nChoices:\nA) Mediterranean climate\nB) Limited forest cover\nC) Growth of manufacturing\nD) Access to trade routes\n\nAnswer:"
     },
     {
@@ -836,7 +836,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following capital cities is located OUTSIDE the central core area of the country?\n\nChoices:\nA) Abuja, Nigeria\nB) Paris, France\nC) London, United Kingdom\nD) Cairo, Egypt\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -851,7 +851,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following capital cities is located OUTSIDE the central core area of the country?\n\nChoices:\nA) Abuja, Nigeria\nB) Paris, France\nC) London, United Kingdom\nD) Cairo, Egypt\n\nAnswer:"
     },
     {
@@ -861,7 +861,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Shifting cultivation is most often practiced in\n\nChoices:\nA) alpine tundra.\nB) tropical forests.\nC) flood plains.\nD) deserts.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -876,7 +876,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Shifting cultivation is most often practiced in\n\nChoices:\nA) alpine tundra.\nB) tropical forests.\nC) flood plains.\nD) deserts.\n\nAnswer:"
     },
     {
@@ -886,7 +886,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The cities of Varanasi (Benares) in India and Mecca in Saudi Arabia are alike because both are\n\nChoices:\nA) capitals of countries formerly colonized by the English\nB) destinations for vast numbers of pilgrims\nC) financial centers for a large fraction of the world's economy\nD) examples of modern urban planning\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -901,7 +901,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The cities of Varanasi (Benares) in India and Mecca in Saudi Arabia are alike because both are\n\nChoices:\nA) capitals of countries formerly colonized by the English\nB) destinations for vast numbers of pilgrims\nC) financial centers for a large fraction of the world's economy\nD) examples of modern urban planning\n\nAnswer:"
     },
     {
@@ -911,7 +911,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Of these, the map using the smallest map scale would be the map of\n\nChoices:\nA) the world.\nB) Atlanta, Georgia.\nC) Main Street, Small Town, Ohio.\nD) Pennsylvania.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -926,7 +926,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Of these, the map using the smallest map scale would be the map of\n\nChoices:\nA) the world.\nB) Atlanta, Georgia.\nC) Main Street, Small Town, Ohio.\nD) Pennsylvania.\n\nAnswer:"
     },
     {
@@ -936,7 +936,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a major concern in countries with a large and rapidly aging population?\n\nChoices:\nA) Immunization\nB) Adequate schools\nC) Daycare facilities\nD) Health care\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -951,7 +951,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a major concern in countries with a large and rapidly aging population?\n\nChoices:\nA) Immunization\nB) Adequate schools\nC) Daycare facilities\nD) Health care\n\nAnswer:"
     },
     {
@@ -961,7 +961,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A population pyramid, or age-sex structure, displays all the following information about a country's population EXCEPT\n\nChoices:\nA) future social spending needs of the population.\nB) the impact of \"baby booms\" on the population.\nC) the impact of wars on the population.\nD) a quick visual depiction of the country's demographics.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -976,7 +976,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A population pyramid, or age-sex structure, displays all the following information about a country's population EXCEPT\n\nChoices:\nA) future social spending needs of the population.\nB) the impact of \"baby booms\" on the population.\nC) the impact of wars on the population.\nD) a quick visual depiction of the country's demographics.\n\nAnswer:"
     },
     {
@@ -986,7 +986,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The Basques, Bretons, Kashmiris, and Tamils are all examples of\n\nChoices:\nA) regionalist groups.\nB) separatist groups.\nC) terrorist groups.\nD) interventionist groups.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1001,7 +1001,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The Basques, Bretons, Kashmiris, and Tamils are all examples of\n\nChoices:\nA) regionalist groups.\nB) separatist groups.\nC) terrorist groups.\nD) interventionist groups.\n\nAnswer:"
     },
     {
@@ -1011,7 +1011,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If you wanted to find the global distribution of coal, you would use a\n\nChoices:\nA) reference map.\nB) topographic map.\nC) thematic map.\nD) location map.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1026,7 +1026,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If you wanted to find the global distribution of coal, you would use a\n\nChoices:\nA) reference map.\nB) topographic map.\nC) thematic map.\nD) location map.\n\nAnswer:"
     },
     {
@@ -1036,7 +1036,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard?\n\nChoices:\nA) European\nB) Muslim\nC) Sub-Saharan African\nD) Latin American\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1051,7 +1051,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard?\n\nChoices:\nA) European\nB) Muslim\nC) Sub-Saharan African\nD) Latin American\n\nAnswer:"
     },
     {
@@ -1061,7 +1061,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The majority of Kurds are found in which country?\n\nChoices:\nA) Iran\nB) Iraq\nC) Turkey\nD) Egypt\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1076,7 +1076,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The majority of Kurds are found in which country?\n\nChoices:\nA) Iran\nB) Iraq\nC) Turkey\nD) Egypt\n\nAnswer:"
     },
     {
@@ -1086,7 +1086,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following statements does NOT correctly describe transnational companies (TNCs)?\n\nChoices:\nA) Many TNCs operate in areas of electronics, chemicals, pharmaceuticals and petroleum.\nB) Most TNCs produce and sell manufactured goods.\nC) Most TNCs are headquartered in the United States, Japan, and the European Union.\nD) TNCs are generally controlled by foreign governments.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1101,7 +1101,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following statements does NOT correctly describe transnational companies (TNCs)?\n\nChoices:\nA) Many TNCs operate in areas of electronics, chemicals, pharmaceuticals and petroleum.\nB) Most TNCs produce and sell manufactured goods.\nC) Most TNCs are headquartered in the United States, Japan, and the European Union.\nD) TNCs are generally controlled by foreign governments.\n\nAnswer:"
     },
     {
@@ -1111,7 +1111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a characteristic of a developed country?\n\nChoices:\nA) Over 50% of workforce engaged in agriculture\nB) Women held in inferior place in society\nC) Main disease related to age and lifestyle\nD) High birth and death rates\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1126,7 +1126,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a characteristic of a developed country?\n\nChoices:\nA) Over 50% of workforce engaged in agriculture\nB) Women held in inferior place in society\nC) Main disease related to age and lifestyle\nD) High birth and death rates\n\nAnswer:"
     },
     {
@@ -1136,7 +1136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following jobs is in the non-basic employment sector?\n\nChoices:\nA) Software engineer\nB) F-10 pickup truck assembly-line worker\nC) Oil refinery worker\nD) Parking lot attendant\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1151,7 +1151,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following jobs is in the non-basic employment sector?\n\nChoices:\nA) Software engineer\nB) F-10 pickup truck assembly-line worker\nC) Oil refinery worker\nD) Parking lot attendant\n\nAnswer:"
     },
     {
@@ -1161,7 +1161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What type of countries generally possesses a greater variety of climates and resources than other countries?\n\nChoices:\nA) Perforated states\nB) Fragmented states\nC) Elongated states\nD) Prorupt states\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1176,7 +1176,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What type of countries generally possesses a greater variety of climates and resources than other countries?\n\nChoices:\nA) Perforated states\nB) Fragmented states\nC) Elongated states\nD) Prorupt states\n\nAnswer:"
     },
     {
@@ -1186,7 +1186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the chief religion practiced in Europe?\n\nChoices:\nA) Christianity\nB) Islam\nC) Hinduism\nD) Animism\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1201,7 +1201,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the chief religion practiced in Europe?\n\nChoices:\nA) Christianity\nB) Islam\nC) Hinduism\nD) Animism\n\nAnswer:"
     },
     {
@@ -1211,7 +1211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which structure(s) traditionally occupies the center of a historic Asian city?\n\nChoices:\nA) A central market\nB) High-density housing\nC) A religious building\nD) Government office buildings\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1226,7 +1226,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which structure(s) traditionally occupies the center of a historic Asian city?\n\nChoices:\nA) A central market\nB) High-density housing\nC) A religious building\nD) Government office buildings\n\nAnswer:"
     },
     {
@@ -1236,7 +1236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which pair of religions are both universalizing religions?\n\nChoices:\nA) Islam and Judaism\nB) Judaism and Buddhism\nC) Hinduism and Buddhism\nD) Christianity and Buddhism\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1251,7 +1251,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which pair of religions are both universalizing religions?\n\nChoices:\nA) Islam and Judaism\nB) Judaism and Buddhism\nC) Hinduism and Buddhism\nD) Christianity and Buddhism\n\nAnswer:"
     },
     {
@@ -1261,7 +1261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which factor in the last quarter century greatly destabilized Eastern Europe and led to ethnic conflict?\n\nChoices:\nA) The introduction of new languages\nB) The end of the Cold War\nC) The invasion by the Soviets\nD) The acceptance of many Eastern European countries into the EU\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1276,7 +1276,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which factor in the last quarter century greatly destabilized Eastern Europe and led to ethnic conflict?\n\nChoices:\nA) The introduction of new languages\nB) The end of the Cold War\nC) The invasion by the Soviets\nD) The acceptance of many Eastern European countries into the EU\n\nAnswer:"
     },
     {
@@ -1286,7 +1286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following statements is NOT true of the \"core\" countries?\n\nChoices:\nA) They are technologically advanced.\nB) They are wealthy.\nC) They are powerful.\nD) They are less developed.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1301,7 +1301,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following statements is NOT true of the \"core\" countries?\n\nChoices:\nA) They are technologically advanced.\nB) They are wealthy.\nC) They are powerful.\nD) They are less developed.\n\nAnswer:"
     },
     {
@@ -1311,7 +1311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Transnational corporations distribute their operations\n\nChoices:\nA) manufacturing goods where production costs are the highest.\nB) conducting accounting and research services where economical.\nC) based on comparative advantage.\nD) with headquarters located in LDCs.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1326,7 +1326,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Transnational corporations distribute their operations\n\nChoices:\nA) manufacturing goods where production costs are the highest.\nB) conducting accounting and research services where economical.\nC) based on comparative advantage.\nD) with headquarters located in LDCs.\n\nAnswer:"
     },
     {
@@ -1336,7 +1336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which urban US setting below would you expect to find planned communities?\n\nChoices:\nA) Ghettos\nB) Suburbs\nC) CBDs\nD) Transition zones\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1351,7 +1351,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which urban US setting below would you expect to find planned communities?\n\nChoices:\nA) Ghettos\nB) Suburbs\nC) CBDs\nD) Transition zones\n\nAnswer:"
     },
     {
@@ -1361,7 +1361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The theory that the main purpose of a settlement or market town is to furnish goods and services to the surrounding market area is called the\n\nChoices:\nA) urban hierarchy theory.\nB) central place theory.\nC) concentric zone model.\nD) multiplier effect.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1376,7 +1376,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The theory that the main purpose of a settlement or market town is to furnish goods and services to the surrounding market area is called the\n\nChoices:\nA) urban hierarchy theory.\nB) central place theory.\nC) concentric zone model.\nD) multiplier effect.\n\nAnswer:"
     },
     {
@@ -1386,7 +1386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A primate city is\n\nChoices:\nA) a large city located on the periphery of the country.\nB) the most important city in a country.\nC) when the largest city in a country is more than twice the size of the next largest city.\nD) the largest city in a country.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1401,7 +1401,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A primate city is\n\nChoices:\nA) a large city located on the periphery of the country.\nB) the most important city in a country.\nC) when the largest city in a country is more than twice the size of the next largest city.\nD) the largest city in a country.\n\nAnswer:"
     },
     {
@@ -1411,7 +1411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Ankara, Turkey and Islamabad, Pakistan are both examples of\n\nChoices:\nA) desert cities.\nB) forward-thrust capitals.\nC) old colonial capitals.\nD) rival cities.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1426,7 +1426,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Ankara, Turkey and Islamabad, Pakistan are both examples of\n\nChoices:\nA) desert cities.\nB) forward-thrust capitals.\nC) old colonial capitals.\nD) rival cities.\n\nAnswer:"
     },
     {
@@ -1436,7 +1436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The latitude and longitude coordinates of a place are an example of\n\nChoices:\nA) a formal region.\nB) a functional region.\nC) an absolute location.\nD) a relative location.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1451,7 +1451,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The latitude and longitude coordinates of a place are an example of\n\nChoices:\nA) a formal region.\nB) a functional region.\nC) an absolute location.\nD) a relative location.\n\nAnswer:"
     },
     {
@@ -1461,7 +1461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following is NOT a characteristic of world cities?\n\nChoices:\nA) World cities contain the headquarters of many transnational corporations.\nB) World cities are well connected to secondary-level world cities.\nC) World cities contain many offices of multinational organizations.\nD) World cities are found only in the northern and western hemispheres.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1476,17 +1476,17 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following is NOT a characteristic of world cities?\n\nChoices:\nA) World cities contain the headquarters of many transnational corporations.\nB) World cities are well connected to secondary-level world cities.\nC) World cities contain many offices of multinational organizations.\nD) World cities are found only in the northern and western hemispheres.\n\nAnswer:"
     },
     {
       "doc_id": 59,
       "target": "3",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following North American associations is NOT correct?\n\nChoices:\nA) Southeast—African Americans\nB) Oklahoma and the Southwest—Native Americans\nC) Quebec and northern Maine—French Americans and French Canadians\nD) Southern prairie provinces—African Americans\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following North American associations is NOT correct?\n\nChoices:\nA) Southeast\u2014African Americans\nB) Oklahoma and the Southwest\u2014Native Americans\nC) Quebec and northern Maine\u2014French Americans and French Canadians\nD) Southern prairie provinces\u2014African Americans\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1501,8 +1501,8 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following North American associations is NOT correct?\n\nChoices:\nA) Southeast—African Americans\nB) Oklahoma and the Southwest—Native Americans\nC) Quebec and northern Maine—French Americans and French Canadians\nD) Southern prairie provinces—African Americans\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following North American associations is NOT correct?\n\nChoices:\nA) Southeast\u2014African Americans\nB) Oklahoma and the Southwest\u2014Native Americans\nC) Quebec and northern Maine\u2014French Americans and French Canadians\nD) Southern prairie provinces\u2014African Americans\n\nAnswer:"
     },
     {
       "doc_id": 60,
@@ -1511,7 +1511,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which pair of religions below share a long-held tradition of cremating their dead?\n\nChoices:\nA) Hindu and Buddhist\nB) Hindu and Muslim\nC) Muslim and Jewish\nD) Christian and Buddhist\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1526,7 +1526,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which pair of religions below share a long-held tradition of cremating their dead?\n\nChoices:\nA) Hindu and Buddhist\nB) Hindu and Muslim\nC) Muslim and Jewish\nD) Christian and Buddhist\n\nAnswer:"
     },
     {
@@ -1536,7 +1536,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following entities is a state?\n\nChoices:\nA) Antarctica\nB) American Samoa\nC) Egypt\nD) Marshall Islands\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1551,7 +1551,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following entities is a state?\n\nChoices:\nA) Antarctica\nB) American Samoa\nC) Egypt\nD) Marshall Islands\n\nAnswer:"
     },
     {
@@ -1561,7 +1561,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A chief factor that contributed to the Second Agricultural Revolution was\n\nChoices:\nA) the Industrial Revolution.\nB) World War I.\nC) World War II.\nD) the discovery of the plow.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1576,7 +1576,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A chief factor that contributed to the Second Agricultural Revolution was\n\nChoices:\nA) the Industrial Revolution.\nB) World War I.\nC) World War II.\nD) the discovery of the plow.\n\nAnswer:"
     },
     {
@@ -1586,7 +1586,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which zone of Burgess's concentric zone model would one find better houses, single-family homes, and higher-rent apartments?\n\nChoices:\nA) First\nB) Second\nC) Third\nD) Fourth\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1601,7 +1601,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which zone of Burgess's concentric zone model would one find better houses, single-family homes, and higher-rent apartments?\n\nChoices:\nA) First\nB) Second\nC) Third\nD) Fourth\n\nAnswer:"
     },
     {
@@ -1611,7 +1611,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which theory below was used as justification for US involvement in Vietnam in the 1960s and 1970s?\n\nChoices:\nA) Devolution\nB) Colonialism\nC) Heartland theory\nD) Containment theory\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1626,7 +1626,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which theory below was used as justification for US involvement in Vietnam in the 1960s and 1970s?\n\nChoices:\nA) Devolution\nB) Colonialism\nC) Heartland theory\nD) Containment theory\n\nAnswer:"
     },
     {
@@ -1636,7 +1636,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The migration streams into the United States between 1980 and the present have been primarily composed of emigrants from which of the following regions?\n\nChoices:\nA) Europe and North Africa\nB) Asia and Latin America\nC) Sub-Saharan Africa and Oceania\nD) Central Europe and Australia\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1651,7 +1651,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The migration streams into the United States between 1980 and the present have been primarily composed of emigrants from which of the following regions?\n\nChoices:\nA) Europe and North Africa\nB) Asia and Latin America\nC) Sub-Saharan Africa and Oceania\nD) Central Europe and Australia\n\nAnswer:"
     },
     {
@@ -1661,7 +1661,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: To get to school in the morning, we ALL use this as our guide:\n\nChoices:\nA) Rand-McNally Road Atlas.\nB) world globe.\nC) road map.\nD) mental map.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1676,7 +1676,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: To get to school in the morning, we ALL use this as our guide:\n\nChoices:\nA) Rand-McNally Road Atlas.\nB) world globe.\nC) road map.\nD) mental map.\n\nAnswer:"
     },
     {
@@ -1686,7 +1686,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The first stage of the demographic transition exhibits\n\nChoices:\nA) high birth rates with high but fluctuating death rates.\nB) declining birth rates with continuing high death rates.\nC) low birth rates with continuing high death rates.\nD) high birth rates with declining death rates.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1701,7 +1701,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The first stage of the demographic transition exhibits\n\nChoices:\nA) high birth rates with high but fluctuating death rates.\nB) declining birth rates with continuing high death rates.\nC) low birth rates with continuing high death rates.\nD) high birth rates with declining death rates.\n\nAnswer:"
     },
     {
@@ -1711,7 +1711,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is NOT an example of syncretism?\n\nChoices:\nA) Halloween\nB) Foreign cuisine changed to suit American tastes\nC) Hasidic Judaism\nD) Catholicism in Louisiana\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1726,7 +1726,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is NOT an example of syncretism?\n\nChoices:\nA) Halloween\nB) Foreign cuisine changed to suit American tastes\nC) Hasidic Judaism\nD) Catholicism in Louisiana\n\nAnswer:"
     },
     {
@@ -1736,7 +1736,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is NOT a spread effect in the core-periphery model of development?\n\nChoices:\nA) Congestion in the core\nB) High cost of labor in the core\nC) High density in the core\nD) More infrastructure in the core\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1751,7 +1751,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is NOT a spread effect in the core-periphery model of development?\n\nChoices:\nA) Congestion in the core\nB) High cost of labor in the core\nC) High density in the core\nD) More infrastructure in the core\n\nAnswer:"
     },
     {
@@ -1761,7 +1761,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which description best describes the urban hierarchy model in which the population of a city is inversely proportional to its rank in the hierarchy?\n\nChoices:\nA) Multiplier effect\nB) Rank-size rule\nC) Central place theory\nD) Burgess's sector model\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1776,7 +1776,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which description best describes the urban hierarchy model in which the population of a city is inversely proportional to its rank in the hierarchy?\n\nChoices:\nA) Multiplier effect\nB) Rank-size rule\nC) Central place theory\nD) Burgess's sector model\n\nAnswer:"
     },
     {
@@ -1786,7 +1786,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following items is NOT a challenge to the state?\n\nChoices:\nA) Transnational corporations\nB) EU\nC) World Trade Organization\nD) Good transportation network\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1801,7 +1801,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following items is NOT a challenge to the state?\n\nChoices:\nA) Transnational corporations\nB) EU\nC) World Trade Organization\nD) Good transportation network\n\nAnswer:"
     },
     {
@@ -1811,7 +1811,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following statements is NOT part of Gunnar Myrdal's theory of cumulative causation?\n\nChoices:\nA) Developing and developed regions share similarly in wealth through trade.\nB) The core will always dominate the periphery.\nC) Growth and prosperity of the core exists at the expense of the periphery.\nD) Regions with initial advantage keep and expand it as they attract labor, capital, and trade.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1826,7 +1826,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following statements is NOT part of Gunnar Myrdal's theory of cumulative causation?\n\nChoices:\nA) Developing and developed regions share similarly in wealth through trade.\nB) The core will always dominate the periphery.\nC) Growth and prosperity of the core exists at the expense of the periphery.\nD) Regions with initial advantage keep and expand it as they attract labor, capital, and trade.\n\nAnswer:"
     },
     {
@@ -1836,7 +1836,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The language with the largest number of \"speakers\" is\n\nChoices:\nA) English.\nB) Russian.\nC) Spanish.\nD) Mandarin Chinese.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1851,7 +1851,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The language with the largest number of \"speakers\" is\n\nChoices:\nA) English.\nB) Russian.\nC) Spanish.\nD) Mandarin Chinese.\n\nAnswer:"
     },
     {
@@ -1861,7 +1861,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A large node of office and commercial land use outside the central city with more jobs than residents is a(n)\n\nChoices:\nA) suburb.\nB) primate city.\nC) town.\nD) edge city.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1876,7 +1876,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A large node of office and commercial land use outside the central city with more jobs than residents is a(n)\n\nChoices:\nA) suburb.\nB) primate city.\nC) town.\nD) edge city.\n\nAnswer:"
     },
     {
@@ -1886,7 +1886,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is NOT a characteristic of a city in the developing world?\n\nChoices:\nA) Contains modern centers of commerce\nB) Has a well-developed infrastructure\nC) Experiences large in-migrations of rural people into the city\nD) Produces a large share of its country's GDI\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1901,7 +1901,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is NOT a characteristic of a city in the developing world?\n\nChoices:\nA) Contains modern centers of commerce\nB) Has a well-developed infrastructure\nC) Experiences large in-migrations of rural people into the city\nD) Produces a large share of its country's GDI\n\nAnswer:"
     },
     {
@@ -1911,7 +1911,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following factors does NOT play a role in gender relationships in a culture or society?\n\nChoices:\nA) Biology\nB) Advancements in technological development\nC) Religion\nD) Custom\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1926,7 +1926,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following factors does NOT play a role in gender relationships in a culture or society?\n\nChoices:\nA) Biology\nB) Advancements in technological development\nC) Religion\nD) Custom\n\nAnswer:"
     },
     {
@@ -1936,7 +1936,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following items below is NOT considered a barrier to the diffusion of an innovation?\n\nChoices:\nA) Internet\nB) Distance\nC) Cultural obstacles\nD) Government interference\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1951,7 +1951,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following items below is NOT considered a barrier to the diffusion of an innovation?\n\nChoices:\nA) Internet\nB) Distance\nC) Cultural obstacles\nD) Government interference\n\nAnswer:"
     },
     {
@@ -1961,7 +1961,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If I wanted to ship a small piece of very valuable jewelry to my aunt who lives in Poughkeepsie, which mode of transportation makes the most sense?\n\nChoices:\nA) Truck\nB) Air\nC) Ship\nD) Railroad\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1976,7 +1976,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If I wanted to ship a small piece of very valuable jewelry to my aunt who lives in Poughkeepsie, which mode of transportation makes the most sense?\n\nChoices:\nA) Truck\nB) Air\nC) Ship\nD) Railroad\n\nAnswer:"
     },
     {
@@ -1986,7 +1986,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following could be considered a higher-order central place function?\n\nChoices:\nA) Winn-Dixie grocery store\nB) Mercedes-Benz dealership\nC) Shoe store\nD) Family doctor\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2001,7 +2001,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following could be considered a higher-order central place function?\n\nChoices:\nA) Winn-Dixie grocery store\nB) Mercedes-Benz dealership\nC) Shoe store\nD) Family doctor\n\nAnswer:"
     },
     {
@@ -2011,7 +2011,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The way of life based on breeding and herding of animals that are used as a source of food, shelter, and clothing is called\n\nChoices:\nA) swidden.\nB) subsistence farming.\nC) pastorialism.\nD) hunting and gathering.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2026,7 +2026,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The way of life based on breeding and herding of animals that are used as a source of food, shelter, and clothing is called\n\nChoices:\nA) swidden.\nB) subsistence farming.\nC) pastorialism.\nD) hunting and gathering.\n\nAnswer:"
     },
     {
@@ -2036,7 +2036,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The theory that whoever controlled the landmass of Europe would rule the world is called the\n\nChoices:\nA) devolution theory.\nB) domino theory.\nC) heartland theory.\nD) rimland theory.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2051,7 +2051,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The theory that whoever controlled the landmass of Europe would rule the world is called the\n\nChoices:\nA) devolution theory.\nB) domino theory.\nC) heartland theory.\nD) rimland theory.\n\nAnswer:"
     },
     {
@@ -2061,7 +2061,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Olives, grapes, and chickpeas are staple crops of which type of farming?\n\nChoices:\nA) Pastoral nomadism\nB) Subsistence\nC) Plantation\nD) Mediterranean\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2076,7 +2076,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Olives, grapes, and chickpeas are staple crops of which type of farming?\n\nChoices:\nA) Pastoral nomadism\nB) Subsistence\nC) Plantation\nD) Mediterranean\n\nAnswer:"
     },
     {
@@ -2086,7 +2086,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A city that is more than twice as large as the next largest city in a country is called a\n\nChoices:\nA) global city.\nB) world leader city.\nC) megalopolis.\nD) primate city.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2101,7 +2101,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A city that is more than twice as large as the next largest city in a country is called a\n\nChoices:\nA) global city.\nB) world leader city.\nC) megalopolis.\nD) primate city.\n\nAnswer:"
     },
     {
@@ -2111,7 +2111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The official languages of Guyana, Suriname, and French Guiana are English, Dutch, and French, respectively. On what continent are those countries located?\n\nChoices:\nA) North America\nB) South America\nC) Africa\nD) Asia\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2126,7 +2126,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The official languages of Guyana, Suriname, and French Guiana are English, Dutch, and French, respectively. On what continent are those countries located?\n\nChoices:\nA) North America\nB) South America\nC) Africa\nD) Asia\n\nAnswer:"
     },
     {
@@ -2136,7 +2136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the population statistic that tells us the level of fertility at which a population will have just enough births to replace parents and compensate for early deaths?\n\nChoices:\nA) Crude birth rate\nB) Replacement level\nC) Mortality rate\nD) Total fertility rate\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2151,7 +2151,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the population statistic that tells us the level of fertility at which a population will have just enough births to replace parents and compensate for early deaths?\n\nChoices:\nA) Crude birth rate\nB) Replacement level\nC) Mortality rate\nD) Total fertility rate\n\nAnswer:"
     },
     {
@@ -2161,7 +2161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which language family contains Italian, Spanish, Portuguese, and Romanian?\n\nChoices:\nA) European\nB) Slavic\nC) Germanic\nD) Romance\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2176,7 +2176,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which language family contains Italian, Spanish, Portuguese, and Romanian?\n\nChoices:\nA) European\nB) Slavic\nC) Germanic\nD) Romance\n\nAnswer:"
     },
     {
@@ -2186,7 +2186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When we talk about diffusion of a cultural trait, what do we mean by \"hearth\"?\n\nChoices:\nA) Destination\nB) Origin point\nC) All locations along the diffusion path\nD) Axis point\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2201,7 +2201,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: When we talk about diffusion of a cultural trait, what do we mean by \"hearth\"?\n\nChoices:\nA) Destination\nB) Origin point\nC) All locations along the diffusion path\nD) Axis point\n\nAnswer:"
     },
     {
@@ -2211,7 +2211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: All of the following are non-basic jobs in the city EXCEPT\n\nChoices:\nA) city firefighter.\nB) social worker.\nC) dry cleaner.\nD) garment factory worker.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2226,7 +2226,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: All of the following are non-basic jobs in the city EXCEPT\n\nChoices:\nA) city firefighter.\nB) social worker.\nC) dry cleaner.\nD) garment factory worker.\n\nAnswer:"
     },
     {
@@ -2236,7 +2236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the most rapidly growing religion in the United States today?\n\nChoices:\nA) Islam\nB) Christianity\nC) Hinduism\nD) Buddhism\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2251,7 +2251,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the most rapidly growing religion in the United States today?\n\nChoices:\nA) Islam\nB) Christianity\nC) Hinduism\nD) Buddhism\n\nAnswer:"
     },
     {
@@ -2261,7 +2261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The distance north and south of the equator is the\n\nChoices:\nA) global grid system.\nB) Prime Meridian\nC) latitude.\nD) longitude.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2276,7 +2276,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The distance north and south of the equator is the\n\nChoices:\nA) global grid system.\nB) Prime Meridian\nC) latitude.\nD) longitude.\n\nAnswer:"
     },
     {
@@ -2286,7 +2286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following statements best describes an application of the S-curve?\n\nChoices:\nA) Graph of the Bantu migration\nB) Graph of the growth of human populations since their first appearance on Earth\nC) The chart showing how cities associate with one another based on their population sizes\nD) A model showing the decrease in population growth for several countries after they industrialize\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2301,7 +2301,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which one of the following statements best describes an application of the S-curve?\n\nChoices:\nA) Graph of the Bantu migration\nB) Graph of the growth of human populations since their first appearance on Earth\nC) The chart showing how cities associate with one another based on their population sizes\nD) A model showing the decrease in population growth for several countries after they industrialize\n\nAnswer:"
     },
     {
@@ -2311,7 +2311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The influence of neo-Malthusianism can be seen in\n\nChoices:\nA) government programs for birth control and planning.\nB) famine relief.\nC) increased spending in social welfare programs.\nD) increased total fertility rates.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2326,7 +2326,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The influence of neo-Malthusianism can be seen in\n\nChoices:\nA) government programs for birth control and planning.\nB) famine relief.\nC) increased spending in social welfare programs.\nD) increased total fertility rates.\n\nAnswer:"
     },
     {
@@ -2336,7 +2336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The irregularity of the wet monsoon in South Asia in recent years may have a significant negative effect on which of the following?\n\nChoices:\nA) Food production\nB) Population patterns\nC) Wildlife conservation efforts\nD) Tourism\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2351,7 +2351,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The irregularity of the wet monsoon in South Asia in recent years may have a significant negative effect on which of the following?\n\nChoices:\nA) Food production\nB) Population patterns\nC) Wildlife conservation efforts\nD) Tourism\n\nAnswer:"
     },
     {
@@ -2361,7 +2361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following countries is situated in the region of tectonic activity known as the Pacific Ring of Fire?\n\nChoices:\nA) Brazil\nB) Australia\nC) Chile\nD) India\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2376,7 +2376,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following countries is situated in the region of tectonic activity known as the Pacific Ring of Fire?\n\nChoices:\nA) Brazil\nB) Australia\nC) Chile\nD) India\n\nAnswer:"
     },
     {
@@ -2386,7 +2386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which zone contains low-income slums, ethnic ghettos, and general deterioration in Burgess's concentric zone model of urban form?\n\nChoices:\nA) First\nB) Second\nC) Third\nD) Fourth\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2401,7 +2401,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which zone contains low-income slums, ethnic ghettos, and general deterioration in Burgess's concentric zone model of urban form?\n\nChoices:\nA) First\nB) Second\nC) Third\nD) Fourth\n\nAnswer:"
     },
     {
@@ -2411,7 +2411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The purpose for the creation of NATO was to\n\nChoices:\nA) defend North America and Western Europe against the threat of communism.\nB) form an economic alliance for trade between Europe and North America.\nC) defend Europe against a second Nazi invasion.\nD) defend northern Europe against Chinese missiles.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2426,7 +2426,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The purpose for the creation of NATO was to\n\nChoices:\nA) defend North America and Western Europe against the threat of communism.\nB) form an economic alliance for trade between Europe and North America.\nC) defend Europe against a second Nazi invasion.\nD) defend northern Europe against Chinese missiles.\n\nAnswer:"
     },
     {
@@ -2436,7 +2436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The multiplier effect is\n\nChoices:\nA) the addition of non-basic workers to an urban economy that has added more basic workers.\nB) a ratio of urban to rural workers in an economy.\nC) the ratio of city workers to farm workers in an economy.\nD) the addition of rural jobs created by the urban economy.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2451,7 +2451,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The multiplier effect is\n\nChoices:\nA) the addition of non-basic workers to an urban economy that has added more basic workers.\nB) a ratio of urban to rural workers in an economy.\nC) the ratio of city workers to farm workers in an economy.\nD) the addition of rural jobs created by the urban economy.\n\nAnswer:"
     },
     {
@@ -2461,7 +2461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What monotheistic religion is based on the life and teachings of Jesus Christ of Nazareth?\n\nChoices:\nA) Islam\nB) Christianity\nC) Hinduism\nD) Buddhism\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2476,17 +2476,17 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What monotheistic religion is based on the life and teachings of Jesus Christ of Nazareth?\n\nChoices:\nA) Islam\nB) Christianity\nC) Hinduism\nD) Buddhism\n\nAnswer:"
     },
     {
       "doc_id": 99,
       "target": "3",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which geographer viewed the US urban community of the 1920s as a set of concentric rings radiating outward from a central core?\n\nChoices:\nA) Rostow\nB) Ravenstein\nC) Von Thünen\nD) Burgess\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which geographer viewed the US urban community of the 1920s as a set of concentric rings radiating outward from a central core?\n\nChoices:\nA) Rostow\nB) Ravenstein\nC) Von Th\u00fcnen\nD) Burgess\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2501,8 +2501,8 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which geographer viewed the US urban community of the 1920s as a set of concentric rings radiating outward from a central core?\n\nChoices:\nA) Rostow\nB) Ravenstein\nC) Von Thünen\nD) Burgess\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_high_school_geography) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which geographer viewed the US urban community of the 1920s as a set of concentric rings radiating outward from a central core?\n\nChoices:\nA) Rostow\nB) Ravenstein\nC) Von Th\u00fcnen\nD) Burgess\n\nAnswer:"
     }
   ]
 }

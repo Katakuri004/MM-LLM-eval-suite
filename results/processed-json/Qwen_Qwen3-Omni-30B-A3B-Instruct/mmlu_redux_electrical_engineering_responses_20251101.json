@@ -1,6 +1,6 @@
 {
   "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
-  "created_at": "2025-10-31T01:00:13.111Z",
+  "created_at": "2025-10-31T06:30:13.110851",
   "benchmark_id": "mmlu_redux_electrical_engineering",
   "total_samples": 100,
   "samples": [
@@ -11,7 +11,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which lamp has the best Colour Rendering Index (CRI)?\n\nChoices:\nA) LED\nB) Fluorescent\nC) Incandescent\nD) High pressure sodium vapour\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -26,7 +26,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which lamp has the best Colour Rendering Index (CRI)?\n\nChoices:\nA) LED\nB) Fluorescent\nC) Incandescent\nD) High pressure sodium vapour\n\nAnswer:"
     },
     {
@@ -36,7 +36,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The number of output pins in 8085 microprocessors are\n\nChoices:\nA) 27.\nB) 40.\nC) 21.\nD) 19.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -51,7 +51,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The number of output pins in 8085 microprocessors are\n\nChoices:\nA) 27.\nB) 40.\nC) 21.\nD) 19.\n\nAnswer:"
     },
     {
@@ -61,7 +61,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In 8085 name/names of the 16 bit registers is/are\n\nChoices:\nA) stack pointer.\nB) program counter.\nC) both A and B.\nD) none of these.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -76,7 +76,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In 8085 name/names of the 16 bit registers is/are\n\nChoices:\nA) stack pointer.\nB) program counter.\nC) both A and B.\nD) none of these.\n\nAnswer:"
     },
     {
@@ -86,7 +86,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A microprocessor is ALU\n\nChoices:\nA) and control unit on a single chip.\nB) and memory on a single chip.\nC) register unit and I/O device on a single chip.\nD) register unit and control unit on a single chip.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -101,7 +101,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A microprocessor is ALU\n\nChoices:\nA) and control unit on a single chip.\nB) and memory on a single chip.\nC) register unit and I/O device on a single chip.\nD) register unit and control unit on a single chip.\n\nAnswer:"
     },
     {
@@ -111,7 +111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: ________ is the most detrimental impurity in the magnetic materials\n\nChoices:\nA) Carbon.\nB) Sulphur.\nC) Oxygen.\nD) Nitrogen.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -126,17 +126,17 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: ________ is the most detrimental impurity in the magnetic materials\n\nChoices:\nA) Carbon.\nB) Sulphur.\nC) Oxygen.\nD) Nitrogen.\n\nAnswer:"
     },
     {
       "doc_id": 5,
       "target": "1",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A metal surface with 1 meter radius and surface charge density of 20 coulombs / m2 is enclosed in a 10 m side cube. The total outward electric displacement normal to the surface of the cube is\n\nChoices:\nA) 40π coulombs.\nB) 80π coulombs.\nC) 10π coulombs.\nD) none of these.\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A metal surface with 1 meter radius and surface charge density of 20 coulombs / m2 is enclosed in a 10 m side cube. The total outward electric displacement normal to the surface of the cube is\n\nChoices:\nA) 40\u03c0 coulombs.\nB) 80\u03c0 coulombs.\nC) 10\u03c0 coulombs.\nD) none of these.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -151,8 +151,8 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A metal surface with 1 meter radius and surface charge density of 20 coulombs / m2 is enclosed in a 10 m side cube. The total outward electric displacement normal to the surface of the cube is\n\nChoices:\nA) 40π coulombs.\nB) 80π coulombs.\nC) 10π coulombs.\nD) none of these.\n\nAnswer:"
+      "acc": 0.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A metal surface with 1 meter radius and surface charge density of 20 coulombs / m2 is enclosed in a 10 m side cube. The total outward electric displacement normal to the surface of the cube is\n\nChoices:\nA) 40\u03c0 coulombs.\nB) 80\u03c0 coulombs.\nC) 10\u03c0 coulombs.\nD) none of these.\n\nAnswer:"
     },
     {
       "doc_id": 6,
@@ -161,7 +161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If P is the power of a star connected system then what will be power of an equivalent delta connected system?\n\nChoices:\nA) P\nB) 3P\nC) P/3\nD) None of the above\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -176,7 +176,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If P is the power of a star connected system then what will be power of an equivalent delta connected system?\n\nChoices:\nA) P\nB) 3P\nC) P/3\nD) None of the above\n\nAnswer:"
     },
     {
@@ -186,7 +186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a variable displacement transducer?\n\nChoices:\nA) tachometer\nB) potentiometer\nC) synchros\nD) none of the above\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -201,7 +201,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a variable displacement transducer?\n\nChoices:\nA) tachometer\nB) potentiometer\nC) synchros\nD) none of the above\n\nAnswer:"
     },
     {
@@ -211,7 +211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: 1 F is theoretically equal to\n\nChoices:\nA) 1 ohm of resistance\nB) ratio of 1 V to 1 C\nC) ratio of 1 C to 1 V\nD) none of these\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -226,7 +226,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: 1 F is theoretically equal to\n\nChoices:\nA) 1 ohm of resistance\nB) ratio of 1 V to 1 C\nC) ratio of 1 C to 1 V\nD) none of these\n\nAnswer:"
     },
     {
@@ -236,7 +236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which system is also known as automatic control system?\n\nChoices:\nA) Open loop control system\nB) Closed loop control system\nC) Either A or B\nD) Nether A nor B\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -251,7 +251,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which system is also known as automatic control system?\n\nChoices:\nA) Open loop control system\nB) Closed loop control system\nC) Either A or B\nD) Nether A nor B\n\nAnswer:"
     },
     {
@@ -261,7 +261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The normal voltage used in directional heating is\n\nChoices:\nA) 1.5 KV.\nB) 15 KV.\nC) 33 KV.\nD) 66 KV.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -276,7 +276,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The normal voltage used in directional heating is\n\nChoices:\nA) 1.5 KV.\nB) 15 KV.\nC) 33 KV.\nD) 66 KV.\n\nAnswer:"
     },
     {
@@ -286,7 +286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A step up chopper has input voltage 110 V and output voltage 150 V. The value of duty cycle is\n\nChoices:\nA) 0.32.\nB) 0.67.\nC) 0.45.\nD) 0.27.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -301,7 +301,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A step up chopper has input voltage 110 V and output voltage 150 V. The value of duty cycle is\n\nChoices:\nA) 0.32.\nB) 0.67.\nC) 0.45.\nD) 0.27.\n\nAnswer:"
     },
     {
@@ -311,7 +311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A Lissajous pattern on an oscilloscope has 5 horinzontal tangencies and 2 vertical tangencies. The frequency of horizontal input is 100 Hz. The frequency of the vertical will be\n\nChoices:\nA) 500 Hz.\nB) 250 Hz.\nC) 400 Hz.\nD) 625 Hz.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -326,7 +326,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A Lissajous pattern on an oscilloscope has 5 horinzontal tangencies and 2 vertical tangencies. The frequency of horizontal input is 100 Hz. The frequency of the vertical will be\n\nChoices:\nA) 500 Hz.\nB) 250 Hz.\nC) 400 Hz.\nD) 625 Hz.\n\nAnswer:"
     },
     {
@@ -336,7 +336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If a Hexadecimal number needs to convert to binary. For each hexadecimal digit, there will be how many bits\n\nChoices:\nA) 1\nB) 2\nC) 4\nD) 8\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -351,7 +351,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If a Hexadecimal number needs to convert to binary. For each hexadecimal digit, there will be how many bits\n\nChoices:\nA) 1\nB) 2\nC) 4\nD) 8\n\nAnswer:"
     },
     {
@@ -361,7 +361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Stability of a transmission line can be increased by\n\nChoices:\nA) shunt capacitor\nB) series capacitor\nC) shunt reactor\nD) both A and B\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -376,7 +376,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Stability of a transmission line can be increased by\n\nChoices:\nA) shunt capacitor\nB) series capacitor\nC) shunt reactor\nD) both A and B\n\nAnswer:"
     },
     {
@@ -386,7 +386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The solid angle subtended by an area of 2400 cm^2 on the surface of a sphere of diameter 1.2 m is\n\nChoices:\nA) 3 / 2.\nB) 1 / 3.\nC) 2 / 3.\nD) 2 / 5.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -401,7 +401,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The solid angle subtended by an area of 2400 cm^2 on the surface of a sphere of diameter 1.2 m is\n\nChoices:\nA) 3 / 2.\nB) 1 / 3.\nC) 2 / 3.\nD) 2 / 5.\n\nAnswer:"
     },
     {
@@ -411,7 +411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is not a sinusoidal oscillator?\n\nChoices:\nA) LC oscillator\nB) RC phase shift oscillator\nC) Relaxation oscillator\nD) Crystal oscillator\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -426,7 +426,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is not a sinusoidal oscillator?\n\nChoices:\nA) LC oscillator\nB) RC phase shift oscillator\nC) Relaxation oscillator\nD) Crystal oscillator\n\nAnswer:"
     },
     {
@@ -436,7 +436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The feedback factor of a Wien bridge oscillator using Op-Amp is\n\nChoices:\nA) 1/3\nB) 1/4\nC) 1/2\nD) 1\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -451,7 +451,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The feedback factor of a Wien bridge oscillator using Op-Amp is\n\nChoices:\nA) 1/3\nB) 1/4\nC) 1/2\nD) 1\n\nAnswer:"
     },
     {
@@ -461,7 +461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Commutator in DC generator is used for\n\nChoices:\nA) collecting of current\nB) reduce losses\nC) increase efficiency\nD) convert AC armature current in to DC\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -476,7 +476,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Commutator in DC generator is used for\n\nChoices:\nA) collecting of current\nB) reduce losses\nC) increase efficiency\nD) convert AC armature current in to DC\n\nAnswer:"
     },
     {
@@ -486,7 +486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In a lap winding dc machine number of conductors are 100 and number of parallel paths are 10. Find the average pitch\n\nChoices:\nA) 10\nB) 100\nC) 50\nD) 1\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -501,7 +501,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In a lap winding dc machine number of conductors are 100 and number of parallel paths are 10. Find the average pitch\n\nChoices:\nA) 10\nB) 100\nC) 50\nD) 1\n\nAnswer:"
     },
     {
@@ -511,7 +511,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The errors mainly caused by human mistakes are\n\nChoices:\nA) gross error.\nB) instrumental error.\nC) observational error.\nD) systematic error.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -526,7 +526,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The errors mainly caused by human mistakes are\n\nChoices:\nA) gross error.\nB) instrumental error.\nC) observational error.\nD) systematic error.\n\nAnswer:"
     },
     {
@@ -536,7 +536,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The ROM programmed during manufacturing process itself is called\n\nChoices:\nA) MROM\nB) PROM\nC) EPROM\nD) EEPROM\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -551,7 +551,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The ROM programmed during manufacturing process itself is called\n\nChoices:\nA) MROM\nB) PROM\nC) EPROM\nD) EEPROM\n\nAnswer:"
     },
     {
@@ -561,7 +561,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: FM stands for\n\nChoices:\nA) frequent modulation.\nB) frequency modulation.\nC) frequency moderator.\nD) frequent moderator.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -576,7 +576,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: FM stands for\n\nChoices:\nA) frequent modulation.\nB) frequency modulation.\nC) frequency moderator.\nD) frequent moderator.\n\nAnswer:"
     },
     {
@@ -586,7 +586,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Thin laminations are used in a machine in order to reduce\n\nChoices:\nA) Eddy current losses\nB) Hysteresis losses\nC) Both A and B\nD) Copper losses\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -601,7 +601,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Thin laminations are used in a machine in order to reduce\n\nChoices:\nA) Eddy current losses\nB) Hysteresis losses\nC) Both A and B\nD) Copper losses\n\nAnswer:"
     },
     {
@@ -611,7 +611,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Speed control by variation of field flux results in\n\nChoices:\nA) constant power drive.\nB) constant torque drive.\nC) variable power drive.\nD) none of the above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -626,17 +626,17 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Speed control by variation of field flux results in\n\nChoices:\nA) constant power drive.\nB) constant torque drive.\nC) variable power drive.\nD) none of the above.\n\nAnswer:"
     },
     {
       "doc_id": 25,
       "target": "0",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Four capacitors each of 40 µF are connected in parallel, the equivalent capacitance of the system will be\n\nChoices:\nA) 160 µF\nB) 10 µF\nC) 40 µF\nD) 5 µF\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Four capacitors each of 40 \u00b5F are connected in parallel, the equivalent capacitance of the system will be\n\nChoices:\nA) 160 \u00b5F\nB) 10 \u00b5F\nC) 40 \u00b5F\nD) 5 \u00b5F\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -651,8 +651,8 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Four capacitors each of 40 µF are connected in parallel, the equivalent capacitance of the system will be\n\nChoices:\nA) 160 µF\nB) 10 µF\nC) 40 µF\nD) 5 µF\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Four capacitors each of 40 \u00b5F are connected in parallel, the equivalent capacitance of the system will be\n\nChoices:\nA) 160 \u00b5F\nB) 10 \u00b5F\nC) 40 \u00b5F\nD) 5 \u00b5F\n\nAnswer:"
     },
     {
       "doc_id": 26,
@@ -661,7 +661,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In a dc machine 6 pole wave winding is used. The number of parallel paths are?\n\nChoices:\nA) 6\nB) 4\nC) 2\nD) 1\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -676,7 +676,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In a dc machine 6 pole wave winding is used. The number of parallel paths are?\n\nChoices:\nA) 6\nB) 4\nC) 2\nD) 1\n\nAnswer:"
     },
     {
@@ -686,7 +686,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The output of the system has an effect upon the input quantity, then the system is a\n\nChoices:\nA) open loop control system.\nB) closed loop control system.\nC) either A or B.\nD) none of the above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -701,7 +701,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The output of the system has an effect upon the input quantity, then the system is a\n\nChoices:\nA) open loop control system.\nB) closed loop control system.\nC) either A or B.\nD) none of the above.\n\nAnswer:"
     },
     {
@@ -711,7 +711,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Induction heating takes place in\n\nChoices:\nA) conducting but non-magnetic materials.\nB) conducting materials which may be either magnetic or non-magentic materials.\nC) insulating materials.\nD) conducting and magnetic materials.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -726,7 +726,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Induction heating takes place in\n\nChoices:\nA) conducting but non-magnetic materials.\nB) conducting materials which may be either magnetic or non-magentic materials.\nC) insulating materials.\nD) conducting and magnetic materials.\n\nAnswer:"
     },
     {
@@ -736,7 +736,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The number of rings in the Bohr model of any element is determined by what?\n\nChoices:\nA) Column number on periodic table.\nB) Atomic mass.\nC) Row number on periodic table.\nD) Atomic number.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -751,7 +751,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The number of rings in the Bohr model of any element is determined by what?\n\nChoices:\nA) Column number on periodic table.\nB) Atomic mass.\nC) Row number on periodic table.\nD) Atomic number.\n\nAnswer:"
     },
     {
@@ -761,7 +761,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Both the ALU and control section of CPU employ which special purpose storage location?\n\nChoices:\nA) Buffers\nB) Decoders\nC) Accumulators\nD) Registers\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -776,7 +776,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Both the ALU and control section of CPU employ which special purpose storage location?\n\nChoices:\nA) Buffers\nB) Decoders\nC) Accumulators\nD) Registers\n\nAnswer:"
     },
     {
@@ -786,7 +786,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In balanced bridge, if the positions of detector and source are interchanged, the bridge will still remain balanced. This can be explained from which theorem\n\nChoices:\nA) Reciprocity theorem\nB) Thevinin's theorem\nC) Norton's theorem\nD) Compensation theorem\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -801,7 +801,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In balanced bridge, if the positions of detector and source are interchanged, the bridge will still remain balanced. This can be explained from which theorem\n\nChoices:\nA) Reciprocity theorem\nB) Thevinin's theorem\nC) Norton's theorem\nD) Compensation theorem\n\nAnswer:"
     },
     {
@@ -811,7 +811,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Susceptibility is negative for\n\nChoices:\nA) non magnetic substances.\nB) diamagnetic substances.\nC) ferromagnetic substances.\nD) none of above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -826,7 +826,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Susceptibility is negative for\n\nChoices:\nA) non magnetic substances.\nB) diamagnetic substances.\nC) ferromagnetic substances.\nD) none of above.\n\nAnswer:"
     },
     {
@@ -836,7 +836,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is the analogous quantity for mass element in force-voltage analogy?\n\nChoices:\nA) Resistance.\nB) Inductance.\nC) Capacitance.\nD) All of the above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -851,17 +851,17 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is the analogous quantity for mass element in force-voltage analogy?\n\nChoices:\nA) Resistance.\nB) Inductance.\nC) Capacitance.\nD) All of the above.\n\nAnswer:"
     },
     {
       "doc_id": 34,
       "target": "2",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The resistance of a conductor of diameter d and length l is R Ω. If the diameter of the conductor is halved and its length is doubled, the resistance will be\n\nChoices:\nA) R Ω\nB) 2R Ω\nC) 4R Ω\nD) 8R Ω\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The resistance of a conductor of diameter d and length l is R \u03a9. If the diameter of the conductor is halved and its length is doubled, the resistance will be\n\nChoices:\nA) R \u03a9\nB) 2R \u03a9\nC) 4R \u03a9\nD) 8R \u03a9\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -876,8 +876,8 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The resistance of a conductor of diameter d and length l is R Ω. If the diameter of the conductor is halved and its length is doubled, the resistance will be\n\nChoices:\nA) R Ω\nB) 2R Ω\nC) 4R Ω\nD) 8R Ω\n\nAnswer:"
+      "acc": 0.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The resistance of a conductor of diameter d and length l is R \u03a9. If the diameter of the conductor is halved and its length is doubled, the resistance will be\n\nChoices:\nA) R \u03a9\nB) 2R \u03a9\nC) 4R \u03a9\nD) 8R \u03a9\n\nAnswer:"
     },
     {
       "doc_id": 35,
@@ -886,7 +886,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is/are the disadvantages of an open loop control system?\n\nChoices:\nA) Inaccurate.\nB) Unreliable.\nC) both A and B.\nD) none of the above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -901,7 +901,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is/are the disadvantages of an open loop control system?\n\nChoices:\nA) Inaccurate.\nB) Unreliable.\nC) both A and B.\nD) none of the above.\n\nAnswer:"
     },
     {
@@ -911,7 +911,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: By using which of the following elements, mechanical translational systems are obtained?\n\nChoices:\nA) mass element\nB) spring element\nC) dash-pot\nD) all of the above\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -926,7 +926,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: By using which of the following elements, mechanical translational systems are obtained?\n\nChoices:\nA) mass element\nB) spring element\nC) dash-pot\nD) all of the above\n\nAnswer:"
     },
     {
@@ -936,7 +936,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Digital Logic Designs, GAL is abbreviated as\n\nChoices:\nA) General Advance Logic\nB) General Array Logic\nC) Generic Advance Logic\nD) Generic Array Logic\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -951,7 +951,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Digital Logic Designs, GAL is abbreviated as\n\nChoices:\nA) General Advance Logic\nB) General Array Logic\nC) Generic Advance Logic\nD) Generic Array Logic\n\nAnswer:"
     },
     {
@@ -961,7 +961,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is used to protect the SCR from over current ?\n\nChoices:\nA) CB and fuse.\nB) Heat sink.\nC) Snubber circuit.\nD) Voltage clamping device.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -976,7 +976,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is used to protect the SCR from over current ?\n\nChoices:\nA) CB and fuse.\nB) Heat sink.\nC) Snubber circuit.\nD) Voltage clamping device.\n\nAnswer:"
     },
     {
@@ -986,7 +986,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Piezoelectric effect is carried out in\n\nChoices:\nA) composite filter.\nB) crystal filter.\nC) m derived.\nD) constant k prototype.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1001,7 +1001,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Piezoelectric effect is carried out in\n\nChoices:\nA) composite filter.\nB) crystal filter.\nC) m derived.\nD) constant k prototype.\n\nAnswer:"
     },
     {
@@ -1011,7 +1011,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Electrical analogous quantity for dash-pot in force-current analogy is\n\nChoices:\nA) resistance.\nB) conductance.\nC) inductance.\nD) capacitance.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1026,7 +1026,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Electrical analogous quantity for dash-pot in force-current analogy is\n\nChoices:\nA) resistance.\nB) conductance.\nC) inductance.\nD) capacitance.\n\nAnswer:"
     },
     {
@@ -1036,7 +1036,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A D-flip-flop is said to be transparent when\n\nChoices:\nA) the output is LOW\nB) the output is HIGH\nC) the output follows clock\nD) the output follow input\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1051,7 +1051,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A D-flip-flop is said to be transparent when\n\nChoices:\nA) the output is LOW\nB) the output is HIGH\nC) the output follows clock\nD) the output follow input\n\nAnswer:"
     },
     {
@@ -1061,7 +1061,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The metal surfaces for electrical resistance welding must be\n\nChoices:\nA) rough.\nB) clean.\nC) moistened\nD) coloured\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1076,7 +1076,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The metal surfaces for electrical resistance welding must be\n\nChoices:\nA) rough.\nB) clean.\nC) moistened\nD) coloured\n\nAnswer:"
     },
     {
@@ -1086,7 +1086,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: For intermittent work which of the following furnace is suitable?\n\nChoices:\nA) Core less furnace.\nB) Indirect arc furnace.\nC) Either of above.\nD) Nither of above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1101,7 +1101,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: For intermittent work which of the following furnace is suitable?\n\nChoices:\nA) Core less furnace.\nB) Indirect arc furnace.\nC) Either of above.\nD) Nither of above.\n\nAnswer:"
     },
     {
@@ -1111,7 +1111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The magnetisation and applied field in ferromagnetic materials are related\n\nChoices:\nA) sinusoidally.\nB) non linearly.\nC) linearly.\nD) parabolically.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1126,7 +1126,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The magnetisation and applied field in ferromagnetic materials are related\n\nChoices:\nA) sinusoidally.\nB) non linearly.\nC) linearly.\nD) parabolically.\n\nAnswer:"
     },
     {
@@ -1136,7 +1136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A null type instrument as compared to a deflected type instrument has\n\nChoices:\nA) a lower sensitivity.\nB) a faster response.\nC) a higher accuracy.\nD) all of the above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1151,7 +1151,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A null type instrument as compared to a deflected type instrument has\n\nChoices:\nA) a lower sensitivity.\nB) a faster response.\nC) a higher accuracy.\nD) all of the above.\n\nAnswer:"
     },
     {
@@ -1161,7 +1161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Materials used in heat sink should have\n\nChoices:\nA) high thermal conductivity.\nB) large surface area.\nC) high melting point.\nD) All of these.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1176,7 +1176,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Materials used in heat sink should have\n\nChoices:\nA) high thermal conductivity.\nB) large surface area.\nC) high melting point.\nD) All of these.\n\nAnswer:"
     },
     {
@@ -1186,7 +1186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In two wattmeter method of power measurement if the total power is measured by one wattmeter only then power factor of the system is\n\nChoices:\nA) 0.\nB) 0.5.\nC) 1.\nD) none of above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1201,7 +1201,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In two wattmeter method of power measurement if the total power is measured by one wattmeter only then power factor of the system is\n\nChoices:\nA) 0.\nB) 0.5.\nC) 1.\nD) none of above.\n\nAnswer:"
     },
     {
@@ -1211,7 +1211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The moving coil-meters, damping is provided by\n\nChoices:\nA) the aluminium frame of the coil.\nB) the coil spring attached to the moving.\nC) eddy current disk.\nD) damping vane in the airtight chamber.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1226,7 +1226,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The moving coil-meters, damping is provided by\n\nChoices:\nA) the aluminium frame of the coil.\nB) the coil spring attached to the moving.\nC) eddy current disk.\nD) damping vane in the airtight chamber.\n\nAnswer:"
     },
     {
@@ -1236,7 +1236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Colpitts oscillator is also called as\n\nChoices:\nA) Tank circuit oscillator\nB) LC oscillator\nC) Resonant circuit oscillator\nD) All of the above\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1251,7 +1251,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Colpitts oscillator is also called as\n\nChoices:\nA) Tank circuit oscillator\nB) LC oscillator\nC) Resonant circuit oscillator\nD) All of the above\n\nAnswer:"
     },
     {
@@ -1261,7 +1261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Temperature variation is a/an\n\nChoices:\nA) Digital quantity\nB) Analog quantity\nC) Either Digital or Analog quantity\nD) None\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1276,7 +1276,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Temperature variation is a/an\n\nChoices:\nA) Digital quantity\nB) Analog quantity\nC) Either Digital or Analog quantity\nD) None\n\nAnswer:"
     },
     {
@@ -1286,7 +1286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What are the sets of commands in a program which are not translated into machine instructions during assembly process, called?\n\nChoices:\nA) Mnemonics\nB) Directives\nC) Identifiers\nD) Operands\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1301,7 +1301,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What are the sets of commands in a program which are not translated into machine instructions during assembly process, called?\n\nChoices:\nA) Mnemonics\nB) Directives\nC) Identifiers\nD) Operands\n\nAnswer:"
     },
     {
@@ -1311,7 +1311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The supply frequency usually employed for high frequency eddy current heating is\n\nChoices:\nA) 1 KHz.\nB) 5 KHz.\nC) 10 MHz.\nD) 10 KHz to 400 KHz.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1326,7 +1326,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The supply frequency usually employed for high frequency eddy current heating is\n\nChoices:\nA) 1 KHz.\nB) 5 KHz.\nC) 10 MHz.\nD) 10 KHz to 400 KHz.\n\nAnswer:"
     },
     {
@@ -1336,7 +1336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Lowest critical frequency is due to zero and it may be present at the origin or nearer to the origin, then the type of network is\n\nChoices:\nA) LC circuit.\nB) RC circuit.\nC) RLC circuit.\nD) RL Circuit.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1351,7 +1351,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Lowest critical frequency is due to zero and it may be present at the origin or nearer to the origin, then the type of network is\n\nChoices:\nA) LC circuit.\nB) RC circuit.\nC) RLC circuit.\nD) RL Circuit.\n\nAnswer:"
     },
     {
@@ -1361,7 +1361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In the toggle mode a JK flip-flop has\n\nChoices:\nA) J = 0, K = 0.\nB) J = 1, K = 1.\nC) J = 0, K = 1.\nD) J = 1, K = 0.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1376,7 +1376,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In the toggle mode a JK flip-flop has\n\nChoices:\nA) J = 0, K = 0.\nB) J = 1, K = 1.\nC) J = 0, K = 1.\nD) J = 1, K = 0.\n\nAnswer:"
     },
     {
@@ -1386,7 +1386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A latch is ________ sensitive\n\nChoices:\nA) both level and edge\nB) edge\nC) level\nD) None\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1401,7 +1401,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A latch is ________ sensitive\n\nChoices:\nA) both level and edge\nB) edge\nC) level\nD) None\n\nAnswer:"
     },
     {
@@ -1411,7 +1411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Purely mechanical instrument cannot be used for dynamic measurements because they have\n\nChoices:\nA) high inertia.\nB) higher response time.\nC) large time constant.\nD) all of the above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1426,7 +1426,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Purely mechanical instrument cannot be used for dynamic measurements because they have\n\nChoices:\nA) high inertia.\nB) higher response time.\nC) large time constant.\nD) all of the above.\n\nAnswer:"
     },
     {
@@ -1436,7 +1436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is used in SCR to protect from high dV / dt?\n\nChoices:\nA) Snubber circuit.\nB) Fuse.\nC) Equalizing circuit.\nD) Circuit breaker.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1451,7 +1451,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is used in SCR to protect from high dV / dt?\n\nChoices:\nA) Snubber circuit.\nB) Fuse.\nC) Equalizing circuit.\nD) Circuit breaker.\n\nAnswer:"
     },
     {
@@ -1461,7 +1461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If holding current of a thyristor is 2 mA then latching current should be\n\nChoices:\nA) 0.01 A.\nB) 0.002 A.\nC) 0.009 A.\nD) 0.004 A.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1476,7 +1476,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If holding current of a thyristor is 2 mA then latching current should be\n\nChoices:\nA) 0.01 A.\nB) 0.002 A.\nC) 0.009 A.\nD) 0.004 A.\n\nAnswer:"
     },
     {
@@ -1486,7 +1486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Potentiometer method of DC voltage measurement is more accurate than direct measurement using a voltmeter because\n\nChoices:\nA) It loads the circuit moderately.\nB) It loads the circuit to maximum extent.\nC) It uses centre zero galvanometer instead of voltmeter.\nD) It does not load the circuit at all.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1501,17 +1501,17 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Potentiometer method of DC voltage measurement is more accurate than direct measurement using a voltmeter because\n\nChoices:\nA) It loads the circuit moderately.\nB) It loads the circuit to maximum extent.\nC) It uses centre zero galvanometer instead of voltmeter.\nD) It does not load the circuit at all.\n\nAnswer:"
     },
     {
       "doc_id": 60,
       "target": "0",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A single phase one pulse controlled circuit has a resistance R and counter emf E load 400 sin(314 t) as the source voltage. For a load counter emf of 200 V, the range of firing angle control is\n\nChoices:\nA) 30° to 150°.\nB) 30° to 180°.\nC) 60° to 120°.\nD) 60° to 180°.\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A single phase one pulse controlled circuit has a resistance R and counter emf E load 400 sin(314 t) as the source voltage. For a load counter emf of 200 V, the range of firing angle control is\n\nChoices:\nA) 30\u00b0 to 150\u00b0.\nB) 30\u00b0 to 180\u00b0.\nC) 60\u00b0 to 120\u00b0.\nD) 60\u00b0 to 180\u00b0.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1526,8 +1526,8 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A single phase one pulse controlled circuit has a resistance R and counter emf E load 400 sin(314 t) as the source voltage. For a load counter emf of 200 V, the range of firing angle control is\n\nChoices:\nA) 30° to 150°.\nB) 30° to 180°.\nC) 60° to 120°.\nD) 60° to 180°.\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A single phase one pulse controlled circuit has a resistance R and counter emf E load 400 sin(314 t) as the source voltage. For a load counter emf of 200 V, the range of firing angle control is\n\nChoices:\nA) 30\u00b0 to 150\u00b0.\nB) 30\u00b0 to 180\u00b0.\nC) 60\u00b0 to 120\u00b0.\nD) 60\u00b0 to 180\u00b0.\n\nAnswer:"
     },
     {
       "doc_id": 61,
@@ -1536,7 +1536,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Stack is also known as\n\nChoices:\nA) FIFO memory\nB) Flash memory\nC) LIFO memory\nD) LILO memory\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1551,7 +1551,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Stack is also known as\n\nChoices:\nA) FIFO memory\nB) Flash memory\nC) LIFO memory\nD) LILO memory\n\nAnswer:"
     },
     {
@@ -1561,7 +1561,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Power dissipation in ideal inductor is\n\nChoices:\nA) Maximum\nB) Minimum\nC) Zero\nD) A finite value\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1576,7 +1576,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Power dissipation in ideal inductor is\n\nChoices:\nA) Maximum\nB) Minimum\nC) Zero\nD) A finite value\n\nAnswer:"
     },
     {
@@ -1586,7 +1586,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A long wire composed of a smooth round conductor runs above and parallel to the ground (assumed to be a large conducting plane). A high voltage exists between the conductor and the ground. The maximum electric stress occurs at\n\nChoices:\nA) lower surface of the conductor.\nB) upper surface of the conductor.\nC) the ground surface.\nD) midway between the conductor and ground.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1601,7 +1601,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A long wire composed of a smooth round conductor runs above and parallel to the ground (assumed to be a large conducting plane). A high voltage exists between the conductor and the ground. The maximum electric stress occurs at\n\nChoices:\nA) lower surface of the conductor.\nB) upper surface of the conductor.\nC) the ground surface.\nD) midway between the conductor and ground.\n\nAnswer:"
     },
     {
@@ -1611,7 +1611,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Poles and zeros are arranged alternatively on negative real axis, then type of network is/are\n\nChoices:\nA) LC network.\nB) RC network.\nC) RL network.\nD) Both 2 and 3.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1626,7 +1626,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Poles and zeros are arranged alternatively on negative real axis, then type of network is/are\n\nChoices:\nA) LC network.\nB) RC network.\nC) RL network.\nD) Both 2 and 3.\n\nAnswer:"
     },
     {
@@ -1636,7 +1636,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The main advantage of dielectric heating is that\n\nChoices:\nA) heating occurs in the material itself.\nB) heating occurs due to high frequency.\nC) it can be used for drying the explosives.\nD) None of the above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1651,17 +1651,17 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The main advantage of dielectric heating is that\n\nChoices:\nA) heating occurs in the material itself.\nB) heating occurs due to high frequency.\nC) it can be used for drying the explosives.\nD) None of the above.\n\nAnswer:"
     },
     {
       "doc_id": 66,
       "target": "3",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Five capacitors each of 5 µF are connected in series, the equivalent capacitance of the system will be\n\nChoices:\nA) 5 µF\nB) 25 µF\nC) 10 µF\nD) 1 µF\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Five capacitors each of 5 \u00b5F are connected in series, the equivalent capacitance of the system will be\n\nChoices:\nA) 5 \u00b5F\nB) 25 \u00b5F\nC) 10 \u00b5F\nD) 1 \u00b5F\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1676,8 +1676,8 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Five capacitors each of 5 µF are connected in series, the equivalent capacitance of the system will be\n\nChoices:\nA) 5 µF\nB) 25 µF\nC) 10 µF\nD) 1 µF\n\nAnswer:"
+      "acc": 1.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Five capacitors each of 5 \u00b5F are connected in series, the equivalent capacitance of the system will be\n\nChoices:\nA) 5 \u00b5F\nB) 25 \u00b5F\nC) 10 \u00b5F\nD) 1 \u00b5F\n\nAnswer:"
     },
     {
       "doc_id": 67,
@@ -1686,7 +1686,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Magnetic flux has the unit of\n\nChoices:\nA) Newton\nB) Ampere turn\nC) Weber\nD) Tesla\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1701,7 +1701,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Magnetic flux has the unit of\n\nChoices:\nA) Newton\nB) Ampere turn\nC) Weber\nD) Tesla\n\nAnswer:"
     },
     {
@@ -1711,7 +1711,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Deflection method direct measurements are most widely used as these are\n\nChoices:\nA) least time consuming.\nB) most simple.\nC) most simple and least time consuming.\nD) most accurate.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1726,7 +1726,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Deflection method direct measurements are most widely used as these are\n\nChoices:\nA) least time consuming.\nB) most simple.\nC) most simple and least time consuming.\nD) most accurate.\n\nAnswer:"
     },
     {
@@ -1736,7 +1736,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Ward-Leonard system, the lower limit of the speed imposed by\n\nChoices:\nA) Field resistance.\nB) Armature resistance.\nC) Residual magnetism of the generator.\nD) None of above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1751,7 +1751,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In Ward-Leonard system, the lower limit of the speed imposed by\n\nChoices:\nA) Field resistance.\nB) Armature resistance.\nC) Residual magnetism of the generator.\nD) None of above.\n\nAnswer:"
     },
     {
@@ -1761,7 +1761,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Electrical analogous quantity for spring element (K) in force-voltage analogy is\n\nChoices:\nA) L\nB) R\nC) 1/C\nD) C\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1776,7 +1776,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Electrical analogous quantity for spring element (K) in force-voltage analogy is\n\nChoices:\nA) L\nB) R\nC) 1/C\nD) C\n\nAnswer:"
     },
     {
@@ -1786,7 +1786,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Electrons in p-type material of a semi-conductor are called as\n\nChoices:\nA) either minority carriers or majority carriers\nB) minority carriers\nC) majority carriers\nD) valance carriers\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1801,7 +1801,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Electrons in p-type material of a semi-conductor are called as\n\nChoices:\nA) either minority carriers or majority carriers\nB) minority carriers\nC) majority carriers\nD) valance carriers\n\nAnswer:"
     },
     {
@@ -1811,7 +1811,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Advantages of open loop control system is/are\n\nChoices:\nA) simple and economical.\nB) accurate.\nC) reliable.\nD) all of the above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1826,7 +1826,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Advantages of open loop control system is/are\n\nChoices:\nA) simple and economical.\nB) accurate.\nC) reliable.\nD) all of the above.\n\nAnswer:"
     },
     {
@@ -1836,7 +1836,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which oscillators are easy to fabricate in a monolithic IC?\n\nChoices:\nA) Crystal oscillator.\nB) Hartley oscillator.\nC) Wien bridge oscillator.\nD) Relaxation oscillator.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1851,7 +1851,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which oscillators are easy to fabricate in a monolithic IC?\n\nChoices:\nA) Crystal oscillator.\nB) Hartley oscillator.\nC) Wien bridge oscillator.\nD) Relaxation oscillator.\n\nAnswer:"
     },
     {
@@ -1861,7 +1861,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The energy stored in the magnetic field in a solenoid 30 cm long and 3 cm diameter wound with 1000 turns of wire carrying a current at 10 amp, is\n\nChoices:\nA) 0.015 joule.\nB) 0.15 joule.\nC) 0.015 joule.\nD) 1.15 joule.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1876,7 +1876,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The energy stored in the magnetic field in a solenoid 30 cm long and 3 cm diameter wound with 1000 turns of wire carrying a current at 10 amp, is\n\nChoices:\nA) 0.015 joule.\nB) 0.15 joule.\nC) 0.015 joule.\nD) 1.15 joule.\n\nAnswer:"
     },
     {
@@ -1886,7 +1886,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A Binary number system has how many digits.\n\nChoices:\nA) 0\nB) 1\nC) 2\nD) 10\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1901,7 +1901,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A Binary number system has how many digits.\n\nChoices:\nA) 0\nB) 1\nC) 2\nD) 10\n\nAnswer:"
     },
     {
@@ -1911,7 +1911,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to the Bohr model, an electron gains or losses energy only by\n\nChoices:\nA) moving faster or slower in an allowed orbit.\nB) jumping from one allowed orbit to another.\nC) being completely removed from an atom.\nD) jumping from one atom to another atom.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1926,7 +1926,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to the Bohr model, an electron gains or losses energy only by\n\nChoices:\nA) moving faster or slower in an allowed orbit.\nB) jumping from one allowed orbit to another.\nC) being completely removed from an atom.\nD) jumping from one atom to another atom.\n\nAnswer:"
     },
     {
@@ -1936,7 +1936,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Inintel 8085A microprocessor ALE signal is made high to\n\nChoices:\nA) Enable the data bus to be used as low order address bus\nB) To latch data D0-D7 from data bus\nC) To disable data bus\nD) To achieve all the functions listed above\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1951,7 +1951,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Inintel 8085A microprocessor ALE signal is made high to\n\nChoices:\nA) Enable the data bus to be used as low order address bus\nB) To latch data D0-D7 from data bus\nC) To disable data bus\nD) To achieve all the functions listed above\n\nAnswer:"
     },
     {
@@ -1961,7 +1961,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A 0 - 100 V voltmeter has a guaranteed accuracy of 2 % of full scale reading. The voltage measured by the voltmeter is 75 V. The limiting error is in percentage\n\nChoices:\nA) 3.33 %.\nB) 2.66 %.\nC) 2 %.\nD) 1 %.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1976,7 +1976,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A 0 - 100 V voltmeter has a guaranteed accuracy of 2 % of full scale reading. The voltage measured by the voltmeter is 75 V. The limiting error is in percentage\n\nChoices:\nA) 3.33 %.\nB) 2.66 %.\nC) 2 %.\nD) 1 %.\n\nAnswer:"
     },
     {
@@ -1986,7 +1986,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Relative error is same as\n\nChoices:\nA) ratio of absolute error and true value.\nB) absolute error.\nC) true error.\nD) none of the above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2001,7 +2001,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Relative error is same as\n\nChoices:\nA) ratio of absolute error and true value.\nB) absolute error.\nC) true error.\nD) none of the above.\n\nAnswer:"
     },
     {
@@ -2011,7 +2011,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Systematic errors are\n\nChoices:\nA) environmental errors.\nB) observational errors.\nC) instrument errors.\nD) all of the above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2026,7 +2026,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Systematic errors are\n\nChoices:\nA) environmental errors.\nB) observational errors.\nC) instrument errors.\nD) all of the above.\n\nAnswer:"
     },
     {
@@ -2036,7 +2036,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In an intel 8085A, which is the first machine cycle of an instruction?\n\nChoices:\nA) An op-code fetch cycle\nB) A memory read cycle\nC) A memory write cycle\nD) An I/O read cycle\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2051,7 +2051,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In an intel 8085A, which is the first machine cycle of an instruction?\n\nChoices:\nA) An op-code fetch cycle\nB) A memory read cycle\nC) A memory write cycle\nD) An I/O read cycle\n\nAnswer:"
     },
     {
@@ -2061,7 +2061,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a digital device\n\nChoices:\nA) Regulator of a fan\nB) Microphone\nC) Resistance of a material\nD) Light switch\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2076,7 +2076,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a digital device\n\nChoices:\nA) Regulator of a fan\nB) Microphone\nC) Resistance of a material\nD) Light switch\n\nAnswer:"
     },
     {
@@ -2086,7 +2086,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: An SCR has half cycle surge current rating of 3000 A for 50 Hz supply. One cycle surge current will be\n\nChoices:\nA) 1500 A.\nB) 6000 A.\nC) 2121.32 A.\nD) 4242.64 A.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2101,7 +2101,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: An SCR has half cycle surge current rating of 3000 A for 50 Hz supply. One cycle surge current will be\n\nChoices:\nA) 1500 A.\nB) 6000 A.\nC) 2121.32 A.\nD) 4242.64 A.\n\nAnswer:"
     },
     {
@@ -2111,7 +2111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Electric drive is becoming more and more popular because\n\nChoices:\nA) all of below.\nB) it provide smooth and easy control.\nC) it is cheaper in cost.\nD) it is simple and reliable.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2126,7 +2126,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Electric drive is becoming more and more popular because\n\nChoices:\nA) all of below.\nB) it provide smooth and easy control.\nC) it is cheaper in cost.\nD) it is simple and reliable.\n\nAnswer:"
     },
     {
@@ -2136,7 +2136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Instantaneous power in inductor is proportional to the\n\nChoices:\nA) product of the instantaneous current and rate of change of current.\nB) square of instantaneous current.\nC) square of the rate of change of current.\nD) temperature of the inductor.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2151,7 +2151,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Instantaneous power in inductor is proportional to the\n\nChoices:\nA) product of the instantaneous current and rate of change of current.\nB) square of instantaneous current.\nC) square of the rate of change of current.\nD) temperature of the inductor.\n\nAnswer:"
     },
     {
@@ -2161,7 +2161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Two infinite parallel metal plates are charged with equal surface charge density of the same polarity. The electric field in the gap between the plates is\n\nChoices:\nA) same as that produced by one plate.\nB) double the field produced by one plate.\nC) dependent on coordinates of field points.\nD) zero.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2176,7 +2176,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Two infinite parallel metal plates are charged with equal surface charge density of the same polarity. The electric field in the gap between the plates is\n\nChoices:\nA) same as that produced by one plate.\nB) double the field produced by one plate.\nC) dependent on coordinates of field points.\nD) zero.\n\nAnswer:"
     },
     {
@@ -2186,7 +2186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If all the elements in a particular network are linear, then the superposition theorem would hold, when the excitation is\n\nChoices:\nA) DC only\nB) AC only\nC) Either AC or DC\nD) An Impulse\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2201,7 +2201,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If all the elements in a particular network are linear, then the superposition theorem would hold, when the excitation is\n\nChoices:\nA) DC only\nB) AC only\nC) Either AC or DC\nD) An Impulse\n\nAnswer:"
     },
     {
@@ -2211,7 +2211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A combinational PLD with a fixed AND array and a programmable OR array is called a\n\nChoices:\nA) PLD\nB) PROM\nC) PAL\nD) PLA\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2226,7 +2226,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A combinational PLD with a fixed AND array and a programmable OR array is called a\n\nChoices:\nA) PLD\nB) PROM\nC) PAL\nD) PLA\n\nAnswer:"
     },
     {
@@ -2236,7 +2236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Silicon and Germanium are ________ elements.\n\nChoices:\nA) trivalant\nB) pentavalant\nC) hexavalant\nD) tetravalant\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2251,7 +2251,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Silicon and Germanium are ________ elements.\n\nChoices:\nA) trivalant\nB) pentavalant\nC) hexavalant\nD) tetravalant\n\nAnswer:"
     },
     {
@@ -2261,7 +2261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The resistance in the circuit of the moving coil of a dynamometer wattmeter should be\n\nChoices:\nA) Low.\nB) Very low.\nC) High.\nD) Almost zero.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2276,7 +2276,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The resistance in the circuit of the moving coil of a dynamometer wattmeter should be\n\nChoices:\nA) Low.\nB) Very low.\nC) High.\nD) Almost zero.\n\nAnswer:"
     },
     {
@@ -2286,7 +2286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The change of cross sectional area of conductor in magnetic field will affect\n\nChoices:\nA) reluctance of conductor.\nB) resistance of conductor.\nC) (A) and (B) both in the same way.\nD) none of above.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2301,7 +2301,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The change of cross sectional area of conductor in magnetic field will affect\n\nChoices:\nA) reluctance of conductor.\nB) resistance of conductor.\nC) (A) and (B) both in the same way.\nD) none of above.\n\nAnswer:"
     },
     {
@@ -2311,7 +2311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The illumination at a point 5 meters below a lamp in 6 lux. The candle power of the lamp is\n\nChoices:\nA) 30\nB) 140.\nC) 150.\nD) 200.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2326,7 +2326,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The illumination at a point 5 meters below a lamp in 6 lux. The candle power of the lamp is\n\nChoices:\nA) 30\nB) 140.\nC) 150.\nD) 200.\n\nAnswer:"
     },
     {
@@ -2336,7 +2336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the followings is/are active element?\n\nChoices:\nA) Voltage source\nB) Current source\nC) Both\nD) None of these.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2351,7 +2351,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the followings is/are active element?\n\nChoices:\nA) Voltage source\nB) Current source\nC) Both\nD) None of these.\n\nAnswer:"
     },
     {
@@ -2361,7 +2361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How many bits are required to store one BCD digit ?\n\nChoices:\nA) 1\nB) 2\nC) 3\nD) 4\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2376,7 +2376,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How many bits are required to store one BCD digit ?\n\nChoices:\nA) 1\nB) 2\nC) 3\nD) 4\n\nAnswer:"
     },
     {
@@ -2386,7 +2386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Feedback circuit in an oscillator can be accomplished by\n\nChoices:\nA) Resistive coupling between input and output\nB) Capacitive coupling between input and output\nC) Inductive coupling between input and output\nD) Any one or combinations of the above methods\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2401,7 +2401,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Feedback circuit in an oscillator can be accomplished by\n\nChoices:\nA) Resistive coupling between input and output\nB) Capacitive coupling between input and output\nC) Inductive coupling between input and output\nD) Any one or combinations of the above methods\n\nAnswer:"
     },
     {
@@ -2411,7 +2411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Advantages of higher transmission voltage is/are\n\nChoices:\nA) Power transfer capability of the transmission line is increased\nB) Transmission line losses are reduced\nC) Area of cross section and volume of the conductor is reduced\nD) all of the above\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2426,7 +2426,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Advantages of higher transmission voltage is/are\n\nChoices:\nA) Power transfer capability of the transmission line is increased\nB) Transmission line losses are reduced\nC) Area of cross section and volume of the conductor is reduced\nD) all of the above\n\nAnswer:"
     },
     {
@@ -2436,7 +2436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Snubber circuit is used with SCR\n\nChoices:\nA) in series.\nB) in parallel.\nC) either series or parallel.\nD) anti parallel.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2451,7 +2451,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Snubber circuit is used with SCR\n\nChoices:\nA) in series.\nB) in parallel.\nC) either series or parallel.\nD) anti parallel.\n\nAnswer:"
     },
     {
@@ -2461,7 +2461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following are the passive elements?\n\nChoices:\nA) Resistor\nB) Bulb\nC) Both\nD) None of these.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2476,7 +2476,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following are the passive elements?\n\nChoices:\nA) Resistor\nB) Bulb\nC) Both\nD) None of these.\n\nAnswer:"
     },
     {
@@ -2486,7 +2486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: To obtain a high value of capacitance, the permittivity of dielectric medium should be\n\nChoices:\nA) low\nB) zero\nC) high\nD) unity\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2501,7 +2501,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_electrical_engineering) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: To obtain a high value of capacitance, the permittivity of dielectric medium should be\n\nChoices:\nA) low\nB) zero\nC) high\nD) unity\n\nAnswer:"
     }
   ]

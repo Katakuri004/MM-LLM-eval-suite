@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { useState } from 'react'
 import { useParams } from 'next/navigation'
 import { useQuery } from '@tanstack/react-query'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -13,13 +13,66 @@ import { ErrorAnalysis } from '@/components/mock/ErrorAnalysis'
 import { ResponsesTable } from '@/components/mock/ResponsesTable'
 import { aggregateCapabilities, mapBenchmarkToCapabilities } from '@/lib/capability-mapping'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import { Download, Eye } from 'lucide-react'
+import { Download, Eye, HelpCircle } from 'lucide-react'
 import { ShimmerLoader } from '@/components/ui/shimmer-loader'
 import { apiClient } from '@/lib/api'
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger
+} from '@/components/ui/tooltip'
+import { BenchmarkComparisonChart } from '@/components/external-results/BenchmarkComparisonChart'
+import { MetricDistributionChart } from '@/components/external-results/MetricDistributionChart'
+import { PerformanceOverview } from '@/components/external-results/PerformanceOverview'
+import { BenchmarkDetailChart } from '@/components/external-results/BenchmarkDetailChart'
+import { BenchmarkCompactCard } from '@/components/external-results/BenchmarkCompactCard'
+import { BenchmarkMetricsHeatmap } from '@/components/external-results/BenchmarkMetricsHeatmap'
+import { MetricCorrelationChart } from '@/components/external-results/MetricCorrelationChart'
+import { SampleDistributionChart } from '@/components/external-results/SampleDistributionChart'
+import { normalizeMetricValue } from '@/lib/chart-data-utils'
+
+function getMetricDefinition(key: string): string {
+  const normalizedKey = key.toLowerCase().replace(/_/g, '').replace(/-/g, '')
+  
+  if (normalizedKey === 'acc' || normalizedKey === 'accuracy') {
+    return 'Accuracy: The proportion of correct predictions out of total predictions. Higher values indicate better performance.'
+  } else if (normalizedKey === 'accnorm' || normalizedKey === 'acc_norm' || normalizedKey.includes('accnorm')) {
+    return 'Normalized Accuracy: Accuracy score normalized to account for random guessing or baseline performance.'
+  } else if (normalizedKey.includes('exactmatch') && !normalizedKey.includes('stderr')) {
+    return 'Exact Match: The proportion of predictions that exactly match the reference answer. Measures precise correctness.'
+  } else if (normalizedKey.includes('exactmatch') && normalizedKey.includes('stderr')) {
+    return 'Exact Match Standard Error: The standard error of the exact match metric, indicating the uncertainty in the estimate.'
+  } else if (normalizedKey.includes('stderr') && !normalizedKey.includes('exactmatch')) {
+    return 'Standard Error: A measure of the statistical uncertainty in the metric. Lower values indicate more reliable estimates.'
+  } else if (normalizedKey.includes('f1')) {
+    return 'F1 Score: The harmonic mean of precision and recall, providing a balance between both metrics.'
+  } else if (normalizedKey.includes('bleu')) {
+    return 'BLEU Score: A metric for evaluating the quality of text generation by comparing n-grams with reference text.'
+  } else if (normalizedKey.includes('rouge')) {
+    return 'ROUGE Score: A metric for evaluating summarization by measuring overlap of n-grams with reference summaries.'
+  } else if (normalizedKey.includes('wer')) {
+    return 'Word Error Rate: The proportion of words that differ between predicted and reference text. Lower values are better.'
+  } else if (normalizedKey.includes('cer')) {
+    return 'Character Error Rate: The proportion of characters that differ between predicted and reference text. Lower values are better.'
+  } else if (normalizedKey.includes('precision')) {
+    return 'Precision: The proportion of positive predictions that are actually correct.'
+  } else if (normalizedKey.includes('recall')) {
+    return 'Recall: The proportion of actual positives that were correctly identified.'
+  } else if (normalizedKey.includes('strictmatch')) {
+    return 'Strict Match: A more stringent evaluation where predictions must match references exactly with no variations.'
+  }
+  
+  return `Metric: ${key.replace(/_/g, ' ')}. This metric measures performance on the evaluated benchmark tasks.`
+}
 
 export default function ExternalModelDetailPage() {
   const params = useParams()
   const modelId = (params?.modelId as string) || ''
+  
+  // State management for selected metric and active tab
+  const [selectedMetric, setSelectedMetric] = useState<string | null>(null)
+  const [activeTab, setActiveTab] = useState<string>('overview')
 
   const { data: detail, isLoading, error } = useQuery({
     queryKey: ['external-model', modelId],
@@ -113,13 +166,13 @@ export default function ExternalModelDetailPage() {
   // Determine modality from benchmarks
   const hasText = React.useMemo(() => {
     return detail?.benchmarks?.some((b: any) => 
-      !b.benchmark_id.includes('vqa') && !b.benchmark_id.includes('image') && !b.benchmark_id.includes('vision')
+    !b.benchmark_id.includes('vqa') && !b.benchmark_id.includes('image') && !b.benchmark_id.includes('vision')
     ) || false
   }, [detail])
 
   const hasImage = React.useMemo(() => {
     return detail?.benchmarks?.some((b: any) => 
-      b.benchmark_id.includes('vqa') || b.benchmark_id.includes('image') || b.benchmark_id.includes('vision')
+    b.benchmark_id.includes('vqa') || b.benchmark_id.includes('image') || b.benchmark_id.includes('vision')
     ) || false
   }, [detail])
 
@@ -253,244 +306,260 @@ export default function ExternalModelDetailPage() {
         if (relevantSummaryMetrics.length === 0) return null
         
         return (
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4">
-            {relevantSummaryMetrics.map(([key, value]: any) => {
-              // Format metric name
-              const displayKey = key
-                .replace(/_/g, ' ')
-                .replace(/\bacc\b/gi, 'Acc')
-                .replace(/\bexact match\b/gi, 'Exact Match')
-                .replace(/\bstderr\b/gi, 'Stderr')
-                .split(' ')
-                .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-                .join(' ')
-              
-              return (
-                <div
-                  key={key}
-                  className="bg-card border rounded-lg p-4 text-center hover:shadow-sm transition-shadow"
-                >
-                  <div className="text-2xl font-bold text-blue-600">
-                    {(value * 100).toFixed(2)}%
-                  </div>
-                  <div className="text-sm text-muted-foreground capitalize mt-1">
-                    {displayKey}
-                  </div>
+          <TooltipProvider>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4">
+              {relevantSummaryMetrics.map(([key, value]: any) => {
+                // Format metric name
+                const displayKey = key
+                  .replace(/_/g, ' ')
+                  .replace(/\bacc\b/gi, 'Acc')
+                  .replace(/\bexact match\b/gi, 'Exact Match')
+                  .replace(/\bstderr\b/gi, 'Stderr')
+                  .split(' ')
+                  .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+                  .join(' ')
+                
+                const metricDefinition = getMetricDefinition(key)
+                const isSelected = selectedMetric === key
+                
+                const handleCardClick = () => {
+                  setSelectedMetric(key)
+                  setActiveTab('analysis')
+                }
+                
+                const handleKeyDown = (e: React.KeyboardEvent) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault()
+                    handleCardClick()
+                  }
+                }
+                
+                return (
+              <div
+                key={key}
+                    role="button"
+                    tabIndex={0}
+                    onClick={handleCardClick}
+                    onKeyDown={handleKeyDown}
+                    className={`bg-card border rounded-lg p-4 text-center transition-all duration-200 cursor-pointer hover:shadow-lg hover:border-primary hover:scale-105 ${
+                      isSelected ? 'border-primary shadow-lg scale-105' : ''
+                    }`}
+              >
+                <div className="text-2xl font-bold text-blue-600">
+                      {(() => {
+                        const normalized = normalizeMetricValue(key, value)
+                        return normalized.isPercentage 
+                          ? `${normalized.displayValue.toFixed(2)}%`
+                          : normalized.displayValue.toFixed(2)
+                      })()}
+                    </div>
+                    <div className="text-sm text-muted-foreground capitalize mt-1 flex items-center justify-center gap-1">
+                      <span>{displayKey}</span>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <HelpCircle className="h-3.5 w-3.5 text-muted-foreground cursor-help hover:text-foreground transition-colors flex-shrink-0" />
+                        </TooltipTrigger>
+                        <TooltipContent className="max-w-xs">
+                          <p className="text-xs leading-relaxed">{metricDefinition}</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    </div>
                 </div>
-              )
-            })}
-          </div>
+                )
+              })}
+                </div>
+          </TooltipProvider>
         )
       })()}
 
-      {/* Benchmarks and Capabilities side-by-side */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <Card>
-          <CardHeader>
-            <CardTitle>Benchmarks ({detail.benchmark_count || detail.benchmarks?.length || 0})</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-3">
-            {detail.benchmarks?.map((b: any) => {
-              // Filter and prioritize important metrics (Acc, Acc Norm, Acc Stderr, etc.)
-              // Explicitly exclude time-related fields
-              const timeFields = [
-                'start_time', 'end_time', 'starttime', 'endtime',
-                'created_at', 'updated_at', 'createdat', 'updatedat',
-                'timestamp', 'time', 'duration', 'elapsed',
-                'date', 'datetime', 'when'
-              ]
-              
-              const importantMetrics = Object.entries(b.metrics || {})
-                .filter(([k, v]) => {
-                  if (typeof v !== 'number' || !Number.isFinite(v)) return false
-                  
-                  const key = k.toLowerCase().replace(/_/g, '').replace(/-/g, '')
-                  
-                  // Explicitly exclude time-related fields
-                  if (timeFields.some(tf => key.includes(tf.toLowerCase()))) return false
-                  
-                  // Exclude any field that looks like a timestamp (very large numbers)
-                  // Timestamps are typically > 1000000000 (epoch in seconds) or > 1000000000000 (epoch in ms)
-                  if (v > 1000000000) return false
-                  
-                  // Include all performance metrics - be inclusive to show all relevant metrics
-                  // Check if it's a reasonable metric value (between 0 and 1 for most metrics, or up to 100 for percentages)
-                  // This allows us to show metrics even if they don't match common patterns
-                  const isReasonableMetricValue = (v >= 0 && v <= 10) || (v >= 0 && v <= 1) || (v <= 100)
-                  
-                  // Include common performance metric patterns
-                  const isPerformanceMetric = (
-                    key.includes('acc') || 
-                    key.includes('exact_match') || 
-                    key.includes('exactmatch') ||
-                    key.includes('f1') || 
-                    key.includes('score') ||
-                    key.includes('bleu') ||
-                    key.includes('rouge') ||
-                    key.includes('precision') ||
-                    key.includes('recall') ||
-                    key.includes('meteor') ||
-                    key.includes('cider') ||
-                    key.includes('spice') ||
-                    key.includes('wer') ||
-                    key.includes('cer') ||
-                    key.includes('perplexity') ||
-                    key.includes('loss') ||
-                    key.includes('auc') ||
-                    key.includes('mse') ||
-                    key.includes('mae') ||
-                    key.includes('r2') ||
-                    key.includes('em') || // Exact Match abbreviated
-                    key.includes('metric') ||
-                    key.includes('error') ||
-                    key.includes('rate')
-                  )
-                  
-                  // Show all numeric metrics that are performance-related OR reasonable values
-                  // This ensures we don't miss any important metrics
-                  return isPerformanceMetric || (isReasonableMetricValue && !key.includes('fewshot')) // Exclude "fewshot" config values
-                })
-                .sort(([a], [b]) => {
-                  const aKey = a.toLowerCase().replace(/_/g, '').replace(/-/g, '')
-                  const bKey = b.toLowerCase().replace(/_/g, '').replace(/-/g, '')
-                  
-                  // Define priority order for specific metrics
-                  const getPriority = (key: string): number => {
-                    // Exact matches first (most important)
-                    if (key === 'acc' || key === 'accuracy') return 1
-                    if (key === 'accnorm' || key === 'acc_norm' || key === 'accuracynorm') return 2
-                    if (key === 'accstderr' || key === 'acc_stderr' || key === 'accuracystderr') return 3
-                    if (key === 'accnormstderr' || key === 'acc_norm_stderr' || key === 'accuracynormstderr') return 4
-                    
-                    // Then other accuracy variants
-                    if (key.includes('acc') && !key.includes('norm') && !key.includes('stderr')) return 5
-                    if (key.includes('acc') && key.includes('norm') && !key.includes('stderr')) return 6
-                    if (key.includes('acc') && key.includes('stderr') && !key.includes('norm')) return 7
-                    if (key.includes('acc') && key.includes('norm') && key.includes('stderr')) return 8
-                    
-                    // Exact match metrics
-                    if (key.includes('exactmatch') && !key.includes('stderr')) return 9
-                    if (key.includes('exactmatch') && key.includes('stderr')) return 10
-                    
-                    // F1, BLEU, ROUGE, etc.
-                    if (key.includes('f1') && !key.includes('stderr')) return 11
-                    if (key.includes('f1') && key.includes('stderr')) return 12
-                    if (key.includes('bleu') && !key.includes('stderr')) return 13
-                    if (key.includes('rouge') && !key.includes('stderr')) return 14
-                    if (key.includes('precision') && !key.includes('stderr')) return 15
-                    if (key.includes('recall') && !key.includes('stderr')) return 16
-                    if (key.includes('score') && !key.includes('stderr')) return 17
-                    
-                    return 99 // Lowest priority
-                  }
-                  
-                  return getPriority(aKey) - getPriority(bKey)
-                })
-                // Show all filtered metrics, not just 6
+      {/* Main Visualizations with Tabs */}
+      <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-6">
+        <TabsList className="grid w-full grid-cols-3">
+          <TabsTrigger value="overview">Overview</TabsTrigger>
+          <TabsTrigger value="benchmarks">Benchmarks</TabsTrigger>
+          <TabsTrigger value="analysis">Analysis</TabsTrigger>
+        </TabsList>
 
-              return (
-                <div key={b.benchmark_id} className="border rounded-md p-3 space-y-2.5">
-                  {/* Header with benchmark name and sample count */}
-                  <div className="flex items-center justify-between pb-2 border-b">
-                    <span className="font-medium text-sm">{b.benchmark_id}</span>
-                    <span className="text-xs text-muted-foreground">
-                      {b.total_samples || b.samples_preview?.length || 0} samples
-                    </span>
-                  </div>
+        {/* Overview Tab */}
+        <TabsContent value="overview" className="space-y-6">
+          {/* Performance Overview Mini Charts */}
+          <PerformanceOverview
+            benchmarks={detail.benchmarks || []}
+            summaryMetrics={detail.summary_metrics}
+          />
 
-                  {/* Metrics grid - show all relevant metrics */}
-                  {importantMetrics.length > 0 && (
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
-                      {importantMetrics.map(([k, v]: any) => {
-                        // Format metric name (Acc, Acc Norm, Acc Stderr, etc.)
-                        const key = k.toLowerCase()
-                        let displayName = k
-                        
-                        // Handle common metric name patterns
-                        if (key === 'acc' || key === 'accuracy') {
-                          displayName = 'Acc'
-                        } else if (key === 'acc_norm' || key === 'accnorm' || key === 'accuracy_norm') {
-                          displayName = 'Acc Norm'
-                        } else if (key === 'acc_stderr' || key === 'accstderr' || key === 'accuracy_stderr') {
-                          displayName = 'Acc Stderr'
-                        } else if (key === 'acc_norm_stderr' || key === 'accnormstderr' || key === 'accuracy_norm_stderr') {
-                          displayName = 'Acc Norm Stderr'
-                        } else if (key === 'exact_match') {
-                          displayName = 'Exact Match'
-                        } else if (key === 'exact_match_stderr') {
-                          displayName = 'Exact Match Stderr'
-                        } else {
-                          // Fallback: format generically
-                          displayName = k
-                            .replace(/_/g, ' ')
-                            .replace(/\bacc\b/gi, 'Acc')
-                            .replace(/\bexact match\b/gi, 'Exact Match')
-                            .replace(/\bstderr\b/gi, 'Stderr')
-                            .split(' ')
-                            .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-                            .join(' ')
-                        }
-                        
-                        return (
-                          <div key={k} className="bg-muted/50 rounded px-2.5 py-1.5 text-xs">
-                            <div className="text-muted-foreground text-[10px] mb-0.5">{displayName}</div>
-                            <div className="font-semibold">
-                              {(v * 100).toFixed(2)}%
-                            </div>
-                          </div>
-                        )
-                      })}
-                    </div>
-                  )}
+          {/* Benchmark Comparison Chart */}
+          {detail.benchmarks && detail.benchmarks.length > 0 && (
+            <BenchmarkComparisonChart benchmarks={detail.benchmarks} />
+          )}
 
-                  {/* Files section - more compact */}
-                  {b.raw_files?.length > 0 && (
-                    <div className="flex items-center justify-between pt-2 border-t">
-                      <div className="text-[10px] text-muted-foreground truncate flex-1 mr-2">
-                        Files: {b.raw_files.map((f: any) => f.filename).join(', ')}
-                      </div>
-                      <Button
-                        size="sm"
-                        variant="outline"
-                        className="h-6 px-2 text-xs flex-shrink-0"
-                        onClick={() => {
-                          const payload = { benchmark_id: b.benchmark_id, files: b.raw_files }
-                          const blob = new Blob([JSON.stringify(payload, null, 2)], {
-                            type: 'application/json',
-                          })
-                          const url = URL.createObjectURL(blob)
-                          const a = document.createElement('a')
-                          a.href = url
-                          a.download = `${b.benchmark_id}-files.json`
-                          a.click()
-                          URL.revokeObjectURL(url)
-                        }}
-                      >
-                        Download
-                      </Button>
-                    </div>
-                  )}
-                </div>
-              )
-            })}
-          </CardContent>
-        </Card>
+          {/* Metric Distribution Chart */}
+          {detail.benchmarks && detail.benchmarks.length > 0 && (
+            <MetricDistributionChart benchmarks={detail.benchmarks} />
+          )}
 
-        <Card>
-          <CardHeader>
-            <CardTitle>Model Capabilities</CardTitle>
-          </CardHeader>
-          <CardContent>
-            {capabilityScores.length > 0 ? (
-              <CapabilitiesRadar data={capabilityScores} />
-            ) : (
-              <div className="text-center py-8 text-muted-foreground">
-                No capability data available
-              </div>
+          {/* Sample Distribution */}
+          {detail.benchmarks && detail.benchmarks.length > 0 && (
+            <SampleDistributionChart benchmarks={detail.benchmarks} />
+          )}
+
+          {/* Capabilities Radar */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {capabilityScores.length > 0 && (
+              <Card>
+                <CardHeader>
+                  <CardTitle>Model Capabilities</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CapabilitiesRadar
+                    data={Object.fromEntries(
+                      capabilityScores.map(c => [c.name, c.score / 100])
+                    )}
+                  />
+                </CardContent>
+              </Card>
             )}
-          </CardContent>
-        </Card>
-      </div>
+              </div>
+        </TabsContent>
+
+        {/* Benchmarks Tab */}
+        <TabsContent value="benchmarks" className="space-y-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+            {detail.benchmarks?.map((b: any) => (
+              <BenchmarkCompactCard
+                key={b.benchmark_id}
+                benchmark_id={b.benchmark_id}
+                metrics={b.metrics || {}}
+                total_samples={b.total_samples}
+              />
+            ))}
+        </div>
+        </TabsContent>
+
+        {/* Analysis Tab */}
+        <TabsContent value="analysis" className="space-y-6">
+          {/* Selected Metric Indicator */}
+          {selectedMetric && (() => {
+            // Calculate average evaluation time for benchmarks with the selected metric
+            const benchmarksWithMetric = detail.benchmarks?.filter((b: any) => {
+              const metrics = b.metrics || {}
+              return selectedMetric in metrics || Object.keys(metrics).some(k => 
+                k.toLowerCase().replace(/_/g, '').replace(/-/g, '') === 
+                selectedMetric.toLowerCase().replace(/_/g, '').replace(/-/g, '')
+              )
+            }) || []
+            
+            const timeValues = benchmarksWithMetric
+              .map((b: any) => b.evaluation_time_seconds)
+              .filter((t: number | undefined) => t !== undefined && typeof t === 'number' && t > 0)
+            
+            const totalTimeSeconds = timeValues.length > 0 
+              ? timeValues.reduce((sum: number, t: number) => sum + t, 0)
+              : null
+            const avgTimeSeconds = totalTimeSeconds !== null && timeValues.length > 0
+              ? totalTimeSeconds / timeValues.length
+              : null
+            
+            const formatTime = (seconds: number): string => {
+              if (seconds < 60) {
+                return `${seconds.toFixed(1)} seconds`
+              } else if (seconds < 3600) {
+                const mins = Math.floor(seconds / 60)
+                const secs = seconds % 60
+                return `${mins} minute${mins !== 1 ? 's' : ''} ${secs.toFixed(0)} second${secs !== 1 ? 's' : ''}`
+              } else {
+                const hours = Math.floor(seconds / 3600)
+                const mins = Math.floor((seconds % 3600) / 60)
+                const secs = seconds % 60
+                return `${hours} hour${hours !== 1 ? 's' : ''} ${mins} minute${mins !== 1 ? 's' : ''} ${secs.toFixed(0)} second${secs !== 1 ? 's' : ''}`
+              }
+            }
+            
+            return (
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="flex items-center justify-between flex-wrap gap-4">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="text-sm text-muted-foreground">Viewing:</span>
+                      <span className="text-sm font-semibold">
+                        {selectedMetric
+                          .replace(/_/g, ' ')
+                          .replace(/\bacc\b/gi, 'Acc')
+                          .replace(/\bexact match\b/gi, 'Exact Match')
+                          .replace(/\bstderr\b/gi, 'Stderr')
+                          .split(' ')
+                          .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+                          .join(' ')}
+                      </span>
+                      {avgTimeSeconds !== null && (
+                        <span className="text-xs text-muted-foreground ml-2">
+                          (Avg: {formatTime(avgTimeSeconds)})
+                        </span>
+                      )}
+                      {totalTimeSeconds !== null && timeValues.length > 1 && (
+                        <span className="text-xs text-muted-foreground">
+                          (Total: {formatTime(totalTimeSeconds)})
+                        </span>
+                      )}
+                    </div>
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      onClick={() => {
+                        setSelectedMetric(null)
+                      }}
+                    >
+                      Clear Selection
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            )
+          })()}
+
+          {/* Benchmark Comparison Chart - Filtered by selected metric */}
+          {detail.benchmarks && detail.benchmarks.length > 0 && (
+            <BenchmarkComparisonChart
+              benchmarks={detail.benchmarks}
+              selectedMetrics={selectedMetric ? [selectedMetric] : []}
+            />
+          )}
+
+          {/* Metric Distribution Chart - Pre-selected metric */}
+          {detail.benchmarks && detail.benchmarks.length > 0 && (
+            <MetricDistributionChart
+              benchmarks={detail.benchmarks}
+              selectedMetric={selectedMetric || undefined}
+            />
+          )}
+
+          {/* Metric Correlation */}
+          {detail.benchmarks && detail.benchmarks.length > 1 && (
+            <MetricCorrelationChart benchmarks={detail.benchmarks} />
+          )}
+
+          {/* Performance Heatmap */}
+          {detail.benchmarks && detail.benchmarks.length > 0 && (
+            <BenchmarkMetricsHeatmap benchmarks={detail.benchmarks} />
+          )}
+
+          {/* Capabilities Radar */}
+          {capabilityScores.length > 0 && (
+            <Card>
+              <CardHeader>
+                <CardTitle>Model Capabilities</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CapabilitiesRadar
+                  data={Object.fromEntries(
+                    capabilityScores.map(c => [c.name, c.score / 100])
+                  )}
+                />
+              </CardContent>
+            </Card>
+          )}
+        </TabsContent>
+      </Tabs>
 
       {/* Error analysis and responses (tabbed) */}
       <Tabs defaultValue="errors">

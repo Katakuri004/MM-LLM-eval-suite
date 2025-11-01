@@ -1,6 +1,6 @@
 {
   "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
-  "created_at": "2025-10-31T01:00:13.111Z",
+  "created_at": "2025-10-31T06:30:13.110851",
   "benchmark_id": "mmmu_val",
   "total_samples": 900,
   "samples": [
@@ -2612,7 +2612,7 @@
       "doc_id": 62,
       "target": "A",
       "arguments": [
-        "The following data refer to a section of base line measured by a tape hung in catenary.<image 1>Length of tape between 0 and 30 m graduations when horizontal at 20°C and under 5 kg tension is 29.9988 m; cross-sectional area of tape = 2.68 $mm^{2}^$; tension used in the field = 10 kg; temperature coefficient of expansion of tape = $11.16 * 10^{-6}$ per °C; elastic modulus for material of tape = $20.4 * 10^{4} N/mm^{2}$; weight of tape per metre length = 0.02 kg; mean radius of the Earth = $6.4*10^{6}$ m.Calculate the corrected length of this section of the line.\nA. 150.507 m\nB. 152.507 m\nC. 153.507 m\nD. 151.507 m\n\nAnswer with the option's letter from the given choices directly.",
+        "The following data refer to a section of base line measured by a tape hung in catenary.<image 1>Length of tape between 0 and 30 m graduations when horizontal at 20\u00b0C and under 5 kg tension is 29.9988 m; cross-sectional area of tape = 2.68 $mm^{2}^$; tension used in the field = 10 kg; temperature coefficient of expansion of tape = $11.16 * 10^{-6}$ per \u00b0C; elastic modulus for material of tape = $20.4 * 10^{4} N/mm^{2}$; weight of tape per metre length = 0.02 kg; mean radius of the Earth = $6.4*10^{6}$ m.Calculate the corrected length of this section of the line.\nA. 150.507 m\nB. 152.507 m\nC. 153.507 m\nD. 151.507 m\n\nAnswer with the option's letter from the given choices directly.",
         {
           "max_new_tokens": 16,
           "until": [
@@ -2648,7 +2648,7 @@
       "submission": {
         "validation_Architecture_and_Engineering_3": "C"
       },
-      "input": "The following data refer to a section of base line measured by a tape hung in catenary.<image 1>Length of tape between 0 and 30 m graduations when horizontal at 20°C and under 5 kg tension is 29.9988 m; cross-sectional area of tape = 2.68 $mm^{2}^$; tension used in the field = 10 kg; temperature coefficient of expansion of tape = $11.16 * 10^{-6}$ per °C; elastic modulus for material of tape = $20.4 * 10^{4} N/mm^{2}$; weight of tape per metre length = 0.02 kg; mean radius of the Earth = $6.4*10^{6}$ m.Calculate the corrected length of this section of the line.\nA. 150.507 m\nB. 152.507 m\nC. 153.507 m\nD. 151.507 m\n\nAnswer with the option's letter from the given choices directly."
+      "input": "The following data refer to a section of base line measured by a tape hung in catenary.<image 1>Length of tape between 0 and 30 m graduations when horizontal at 20\u00b0C and under 5 kg tension is 29.9988 m; cross-sectional area of tape = 2.68 $mm^{2}^$; tension used in the field = 10 kg; temperature coefficient of expansion of tape = $11.16 * 10^{-6}$ per \u00b0C; elastic modulus for material of tape = $20.4 * 10^{4} N/mm^{2}$; weight of tape per metre length = 0.02 kg; mean radius of the Earth = $6.4*10^{6}$ m.Calculate the corrected length of this section of the line.\nA. 150.507 m\nB. 152.507 m\nC. 153.507 m\nD. 151.507 m\n\nAnswer with the option's letter from the given choices directly."
     },
     {
       "doc_id": 63,
@@ -2696,7 +2696,7 @@
       "doc_id": 64,
       "target": "C",
       "arguments": [
-        "The internal angles of a pentagon are shown in the diagram. The coordinate bearing angle of side $L_{12}$ is $\\alpha_{12}=30°$. Calculate the coordinate bearing angles of the other sides.<image 1>\nA. $\\alpha_{23}=75°$,$\\alpha_{34}=160°$,$\\alpha_{45}=220°$,$\\alpha_{51}=280°$\nB. $\\alpha_{23}=95°$,$\\alpha_{34}=160°$,$\\alpha_{45}=220°$,$\\alpha_{51}=280°$\nC. $\\alpha_{23}=65°$,$\\alpha_{34}=160°$,$\\alpha_{45}=220°$,$\\alpha_{51}=280°$\nD. $\\alpha_{23}=85°$,$\\alpha_{34}=160°$,$\\alpha_{45}=220°$,$\\alpha_{51}=280°$\n\nAnswer with the option's letter from the given choices directly.",
+        "The internal angles of a pentagon are shown in the diagram. The coordinate bearing angle of side $L_{12}$ is $\\alpha_{12}=30\u00b0$. Calculate the coordinate bearing angles of the other sides.<image 1>\nA. $\\alpha_{23}=75\u00b0$,$\\alpha_{34}=160\u00b0$,$\\alpha_{45}=220\u00b0$,$\\alpha_{51}=280\u00b0$\nB. $\\alpha_{23}=95\u00b0$,$\\alpha_{34}=160\u00b0$,$\\alpha_{45}=220\u00b0$,$\\alpha_{51}=280\u00b0$\nC. $\\alpha_{23}=65\u00b0$,$\\alpha_{34}=160\u00b0$,$\\alpha_{45}=220\u00b0$,$\\alpha_{51}=280\u00b0$\nD. $\\alpha_{23}=85\u00b0$,$\\alpha_{34}=160\u00b0$,$\\alpha_{45}=220\u00b0$,$\\alpha_{51}=280\u00b0$\n\nAnswer with the option's letter from the given choices directly.",
         {
           "max_new_tokens": 16,
           "until": [
@@ -2732,7 +2732,7 @@
       "submission": {
         "validation_Architecture_and_Engineering_5": "B"
       },
-      "input": "The internal angles of a pentagon are shown in the diagram. The coordinate bearing angle of side $L_{12}$ is $\\alpha_{12}=30°$. Calculate the coordinate bearing angles of the other sides.<image 1>\nA. $\\alpha_{23}=75°$,$\\alpha_{34}=160°$,$\\alpha_{45}=220°$,$\\alpha_{51}=280°$\nB. $\\alpha_{23}=95°$,$\\alpha_{34}=160°$,$\\alpha_{45}=220°$,$\\alpha_{51}=280°$\nC. $\\alpha_{23}=65°$,$\\alpha_{34}=160°$,$\\alpha_{45}=220°$,$\\alpha_{51}=280°$\nD. $\\alpha_{23}=85°$,$\\alpha_{34}=160°$,$\\alpha_{45}=220°$,$\\alpha_{51}=280°$\n\nAnswer with the option's letter from the given choices directly."
+      "input": "The internal angles of a pentagon are shown in the diagram. The coordinate bearing angle of side $L_{12}$ is $\\alpha_{12}=30\u00b0$. Calculate the coordinate bearing angles of the other sides.<image 1>\nA. $\\alpha_{23}=75\u00b0$,$\\alpha_{34}=160\u00b0$,$\\alpha_{45}=220\u00b0$,$\\alpha_{51}=280\u00b0$\nB. $\\alpha_{23}=95\u00b0$,$\\alpha_{34}=160\u00b0$,$\\alpha_{45}=220\u00b0$,$\\alpha_{51}=280\u00b0$\nC. $\\alpha_{23}=65\u00b0$,$\\alpha_{34}=160\u00b0$,$\\alpha_{45}=220\u00b0$,$\\alpha_{51}=280\u00b0$\nD. $\\alpha_{23}=85\u00b0$,$\\alpha_{34}=160\u00b0$,$\\alpha_{45}=220\u00b0$,$\\alpha_{51}=280\u00b0$\n\nAnswer with the option's letter from the given choices directly."
     },
     {
       "doc_id": 65,
@@ -2822,7 +2822,7 @@
       "doc_id": 67,
       "target": "C",
       "arguments": [
-        "Observations were made for two angles and as follows:<image 1>Determine the adjusted values of $\\alpha$ and $\\beta $.\nA. $\\alpha$ = 20°10'11.82\",$\\beta $ = 30°20'34.73\"\nB. $\\alpha$ = 20°10'11.82\",$\\beta $ = 30°20'38.73\"\nC. $\\alpha$ = 20°10'11.82\",$\\beta $ = 30°20'32.73\"\nD. $\\alpha$ = 20°10'11.82\",$\\beta $ = 30°20'22.73\"\n\nAnswer with the option's letter from the given choices directly.",
+        "Observations were made for two angles and as follows:<image 1>Determine the adjusted values of $\\alpha$ and $\\beta $.\nA. $\\alpha$ = 20\u00b010'11.82\",$\\beta $ = 30\u00b020'34.73\"\nB. $\\alpha$ = 20\u00b010'11.82\",$\\beta $ = 30\u00b020'38.73\"\nC. $\\alpha$ = 20\u00b010'11.82\",$\\beta $ = 30\u00b020'32.73\"\nD. $\\alpha$ = 20\u00b010'11.82\",$\\beta $ = 30\u00b020'22.73\"\n\nAnswer with the option's letter from the given choices directly.",
         {
           "max_new_tokens": 16,
           "until": [
@@ -2858,7 +2858,7 @@
       "submission": {
         "validation_Architecture_and_Engineering_8": "A"
       },
-      "input": "Observations were made for two angles and as follows:<image 1>Determine the adjusted values of $\\alpha$ and $\\beta $.\nA. $\\alpha$ = 20°10'11.82\",$\\beta $ = 30°20'34.73\"\nB. $\\alpha$ = 20°10'11.82\",$\\beta $ = 30°20'38.73\"\nC. $\\alpha$ = 20°10'11.82\",$\\beta $ = 30°20'32.73\"\nD. $\\alpha$ = 20°10'11.82\",$\\beta $ = 30°20'22.73\"\n\nAnswer with the option's letter from the given choices directly."
+      "input": "Observations were made for two angles and as follows:<image 1>Determine the adjusted values of $\\alpha$ and $\\beta $.\nA. $\\alpha$ = 20\u00b010'11.82\",$\\beta $ = 30\u00b020'34.73\"\nB. $\\alpha$ = 20\u00b010'11.82\",$\\beta $ = 30\u00b020'38.73\"\nC. $\\alpha$ = 20\u00b010'11.82\",$\\beta $ = 30\u00b020'32.73\"\nD. $\\alpha$ = 20\u00b010'11.82\",$\\beta $ = 30\u00b020'22.73\"\n\nAnswer with the option's letter from the given choices directly."
     },
     {
       "doc_id": 68,
@@ -2990,7 +2990,7 @@
       "doc_id": 71,
       "target": "C",
       "arguments": [
-        "S is a satellite station to a triangulation station A at a distance of 12 m from A.From S the following bearings were observed:A = 0°00'00\";B = 143°36'20\";C = 238°24'48\";D = 307°18'54\".The lengths of lines AB, AC, and AD were measured and found to be 3190.32 m, 4085.15,and 3108.60 m,respectively. Determine the directions of B, C, and D from A.<image 1>\nA. B = 143°44'00.34\";C = 238°10'11.87\";D = 307°08'20.76\"\nB. B = 143°44'00.34\";C = 238°14'11.87\";D = 307°08'20.76\"\nC. B = 143°44'00.34\";C = 238°16'11.87\";D = 307°08'20.76\"\nD. B = 143°44'00.34\";C = 238°12'11.87\";D = 307°08'20.76\"\n\nAnswer with the option's letter from the given choices directly.",
+        "S is a satellite station to a triangulation station A at a distance of 12 m from A.From S the following bearings were observed:A = 0\u00b000'00\";B = 143\u00b036'20\";C = 238\u00b024'48\";D = 307\u00b018'54\".The lengths of lines AB, AC, and AD were measured and found to be 3190.32 m, 4085.15,and 3108.60 m,respectively. Determine the directions of B, C, and D from A.<image 1>\nA. B = 143\u00b044'00.34\";C = 238\u00b010'11.87\";D = 307\u00b008'20.76\"\nB. B = 143\u00b044'00.34\";C = 238\u00b014'11.87\";D = 307\u00b008'20.76\"\nC. B = 143\u00b044'00.34\";C = 238\u00b016'11.87\";D = 307\u00b008'20.76\"\nD. B = 143\u00b044'00.34\";C = 238\u00b012'11.87\";D = 307\u00b008'20.76\"\n\nAnswer with the option's letter from the given choices directly.",
         {
           "max_new_tokens": 16,
           "until": [
@@ -3026,7 +3026,7 @@
       "submission": {
         "validation_Architecture_and_Engineering_12": "A"
       },
-      "input": "S is a satellite station to a triangulation station A at a distance of 12 m from A.From S the following bearings were observed:A = 0°00'00\";B = 143°36'20\";C = 238°24'48\";D = 307°18'54\".The lengths of lines AB, AC, and AD were measured and found to be 3190.32 m, 4085.15,and 3108.60 m,respectively. Determine the directions of B, C, and D from A.<image 1>\nA. B = 143°44'00.34\";C = 238°10'11.87\";D = 307°08'20.76\"\nB. B = 143°44'00.34\";C = 238°14'11.87\";D = 307°08'20.76\"\nC. B = 143°44'00.34\";C = 238°16'11.87\";D = 307°08'20.76\"\nD. B = 143°44'00.34\";C = 238°12'11.87\";D = 307°08'20.76\"\n\nAnswer with the option's letter from the given choices directly."
+      "input": "S is a satellite station to a triangulation station A at a distance of 12 m from A.From S the following bearings were observed:A = 0\u00b000'00\";B = 143\u00b036'20\";C = 238\u00b024'48\";D = 307\u00b018'54\".The lengths of lines AB, AC, and AD were measured and found to be 3190.32 m, 4085.15,and 3108.60 m,respectively. Determine the directions of B, C, and D from A.<image 1>\nA. B = 143\u00b044'00.34\";C = 238\u00b010'11.87\";D = 307\u00b008'20.76\"\nB. B = 143\u00b044'00.34\";C = 238\u00b014'11.87\";D = 307\u00b008'20.76\"\nC. B = 143\u00b044'00.34\";C = 238\u00b016'11.87\";D = 307\u00b008'20.76\"\nD. B = 143\u00b044'00.34\";C = 238\u00b012'11.87\";D = 307\u00b008'20.76\"\n\nAnswer with the option's letter from the given choices directly."
     },
     {
       "doc_id": 72,
@@ -3242,7 +3242,7 @@
       "doc_id": 77,
       "target": "B",
       "arguments": [
-        "In a traverse ABCDEFG, the line BA is taken as the reference meridian. The coordinates of the sides AB, BC, CD, DE and EF are:<image 1>If the bearing of FG is 284°13' and its length is 896.0 m, find the length and bearing of GA.\nA. 945.8 m, 216°45'\nB. 947.8 m, 216°45'\nC. 937.8 m, 216°45'\nD. 941.8 m, 216°45'\n\nAnswer with the option's letter from the given choices directly.",
+        "In a traverse ABCDEFG, the line BA is taken as the reference meridian. The coordinates of the sides AB, BC, CD, DE and EF are:<image 1>If the bearing of FG is 284\u00b013' and its length is 896.0 m, find the length and bearing of GA.\nA. 945.8 m, 216\u00b045'\nB. 947.8 m, 216\u00b045'\nC. 937.8 m, 216\u00b045'\nD. 941.8 m, 216\u00b045'\n\nAnswer with the option's letter from the given choices directly.",
         {
           "max_new_tokens": 16,
           "until": [
@@ -3278,7 +3278,7 @@
       "submission": {
         "validation_Architecture_and_Engineering_18": "A"
       },
-      "input": "In a traverse ABCDEFG, the line BA is taken as the reference meridian. The coordinates of the sides AB, BC, CD, DE and EF are:<image 1>If the bearing of FG is 284°13' and its length is 896.0 m, find the length and bearing of GA.\nA. 945.8 m, 216°45'\nB. 947.8 m, 216°45'\nC. 937.8 m, 216°45'\nD. 941.8 m, 216°45'\n\nAnswer with the option's letter from the given choices directly."
+      "input": "In a traverse ABCDEFG, the line BA is taken as the reference meridian. The coordinates of the sides AB, BC, CD, DE and EF are:<image 1>If the bearing of FG is 284\u00b013' and its length is 896.0 m, find the length and bearing of GA.\nA. 945.8 m, 216\u00b045'\nB. 947.8 m, 216\u00b045'\nC. 937.8 m, 216\u00b045'\nD. 941.8 m, 216\u00b045'\n\nAnswer with the option's letter from the given choices directly."
     },
     {
       "doc_id": 78,
@@ -3410,7 +3410,7 @@
       "doc_id": 81,
       "target": "B",
       "arguments": [
-        "Following are the bearings taken in a closed compass traverse.<image 1>Compute the interior angles and correct them for observational errors.\nA. $\\angle A = 260°30'$,$\\angle B = 260°45'$,$\\angle C = 242°45'$,$\\angle D = 265°00'$,$\\angle E = 226°45'$\nB. $\\angle A = 263°45'$,$\\angle B = 261°00'$,$\\angle C = 243°00'$,$\\angle D = 265°15'$,$\\angle E = 227°00'$\nC. $\\angle A = 263°30'$,$\\angle B = 260°45'$,$\\angle C = 242°45'$,$\\angle D = 265°00'$,$\\angle E = 226°45'$\nD. $\\angle A = 261°30'$,$\\angle B = 260°45'$,$\\angle C = 242°45'$,$\\angle D = 265°00'$,$\\angle E = 226°45'$\n\nAnswer with the option's letter from the given choices directly.",
+        "Following are the bearings taken in a closed compass traverse.<image 1>Compute the interior angles and correct them for observational errors.\nA. $\\angle A = 260\u00b030'$,$\\angle B = 260\u00b045'$,$\\angle C = 242\u00b045'$,$\\angle D = 265\u00b000'$,$\\angle E = 226\u00b045'$\nB. $\\angle A = 263\u00b045'$,$\\angle B = 261\u00b000'$,$\\angle C = 243\u00b000'$,$\\angle D = 265\u00b015'$,$\\angle E = 227\u00b000'$\nC. $\\angle A = 263\u00b030'$,$\\angle B = 260\u00b045'$,$\\angle C = 242\u00b045'$,$\\angle D = 265\u00b000'$,$\\angle E = 226\u00b045'$\nD. $\\angle A = 261\u00b030'$,$\\angle B = 260\u00b045'$,$\\angle C = 242\u00b045'$,$\\angle D = 265\u00b000'$,$\\angle E = 226\u00b045'$\n\nAnswer with the option's letter from the given choices directly.",
         {
           "max_new_tokens": 16,
           "until": [
@@ -3446,13 +3446,13 @@
       "submission": {
         "validation_Architecture_and_Engineering_22": "A"
       },
-      "input": "Following are the bearings taken in a closed compass traverse.<image 1>Compute the interior angles and correct them for observational errors.\nA. $\\angle A = 260°30'$,$\\angle B = 260°45'$,$\\angle C = 242°45'$,$\\angle D = 265°00'$,$\\angle E = 226°45'$\nB. $\\angle A = 263°45'$,$\\angle B = 261°00'$,$\\angle C = 243°00'$,$\\angle D = 265°15'$,$\\angle E = 227°00'$\nC. $\\angle A = 263°30'$,$\\angle B = 260°45'$,$\\angle C = 242°45'$,$\\angle D = 265°00'$,$\\angle E = 226°45'$\nD. $\\angle A = 261°30'$,$\\angle B = 260°45'$,$\\angle C = 242°45'$,$\\angle D = 265°00'$,$\\angle E = 226°45'$\n\nAnswer with the option's letter from the given choices directly."
+      "input": "Following are the bearings taken in a closed compass traverse.<image 1>Compute the interior angles and correct them for observational errors.\nA. $\\angle A = 260\u00b030'$,$\\angle B = 260\u00b045'$,$\\angle C = 242\u00b045'$,$\\angle D = 265\u00b000'$,$\\angle E = 226\u00b045'$\nB. $\\angle A = 263\u00b045'$,$\\angle B = 261\u00b000'$,$\\angle C = 243\u00b000'$,$\\angle D = 265\u00b015'$,$\\angle E = 227\u00b000'$\nC. $\\angle A = 263\u00b030'$,$\\angle B = 260\u00b045'$,$\\angle C = 242\u00b045'$,$\\angle D = 265\u00b000'$,$\\angle E = 226\u00b045'$\nD. $\\angle A = 261\u00b030'$,$\\angle B = 260\u00b045'$,$\\angle C = 242\u00b045'$,$\\angle D = 265\u00b000'$,$\\angle E = 226\u00b045'$\n\nAnswer with the option's letter from the given choices directly."
     },
     {
       "doc_id": 82,
       "target": "D",
       "arguments": [
-        "The following survey was carried out from the bottom of a shaft at A, along an existing tunnel to the bottom of a shaft at E.<image 1>If the two shafts are to be connected by a straight tunnel, calculate the bearing A to E and the grade.\nA. Bearing AE = 87°,47':Grade = 1.78 in 652.33 = 1 in 413\nB. Bearing AE = 87°,47':Grade = 1.88 in 652.33 = 1 in 413\nC. Bearing AE = 87°,47':Grade = 1.68 in 652.33 = 1 in 413\nD. Bearing AE = 87°,47':Grade = 1.58 in 652.33 = 1 in 413\n\nAnswer with the option's letter from the given choices directly.",
+        "The following survey was carried out from the bottom of a shaft at A, along an existing tunnel to the bottom of a shaft at E.<image 1>If the two shafts are to be connected by a straight tunnel, calculate the bearing A to E and the grade.\nA. Bearing AE = 87\u00b0,47':Grade = 1.78 in 652.33 = 1 in 413\nB. Bearing AE = 87\u00b0,47':Grade = 1.88 in 652.33 = 1 in 413\nC. Bearing AE = 87\u00b0,47':Grade = 1.68 in 652.33 = 1 in 413\nD. Bearing AE = 87\u00b0,47':Grade = 1.58 in 652.33 = 1 in 413\n\nAnswer with the option's letter from the given choices directly.",
         {
           "max_new_tokens": 16,
           "until": [
@@ -3488,7 +3488,7 @@
       "submission": {
         "validation_Architecture_and_Engineering_23": "A"
       },
-      "input": "The following survey was carried out from the bottom of a shaft at A, along an existing tunnel to the bottom of a shaft at E.<image 1>If the two shafts are to be connected by a straight tunnel, calculate the bearing A to E and the grade.\nA. Bearing AE = 87°,47':Grade = 1.78 in 652.33 = 1 in 413\nB. Bearing AE = 87°,47':Grade = 1.88 in 652.33 = 1 in 413\nC. Bearing AE = 87°,47':Grade = 1.68 in 652.33 = 1 in 413\nD. Bearing AE = 87°,47':Grade = 1.58 in 652.33 = 1 in 413\n\nAnswer with the option's letter from the given choices directly."
+      "input": "The following survey was carried out from the bottom of a shaft at A, along an existing tunnel to the bottom of a shaft at E.<image 1>If the two shafts are to be connected by a straight tunnel, calculate the bearing A to E and the grade.\nA. Bearing AE = 87\u00b0,47':Grade = 1.78 in 652.33 = 1 in 413\nB. Bearing AE = 87\u00b0,47':Grade = 1.88 in 652.33 = 1 in 413\nC. Bearing AE = 87\u00b0,47':Grade = 1.68 in 652.33 = 1 in 413\nD. Bearing AE = 87\u00b0,47':Grade = 1.58 in 652.33 = 1 in 413\n\nAnswer with the option's letter from the given choices directly."
     },
     {
       "doc_id": 83,
@@ -3578,7 +3578,7 @@
       "doc_id": 85,
       "target": "D",
       "arguments": [
-        "A, B and C are three visible stations in a hydrographic survey. The computed sides of the triangle ABC are AB = 1200 m, BC = 1442 m and CA = 1960 m. A station O is established outside the triangle and its position is to be determined by resection on A, B and C, the angle AOB and BOC being respectively 45°30' and 52°15'. Determine distances of OA and OC, if O and Bare on the opposite sides of line AC.<image 1>\nA. AO = 884.49 m,CO = 1644 m\nB. AO = 884.49 m,CO = 1624 m\nC. AO = 885.49 m,CO = 1634 m\nD. AO = 884.49 m,CO = 1634 m\n\nAnswer with the option's letter from the given choices directly.",
+        "A, B and C are three visible stations in a hydrographic survey. The computed sides of the triangle ABC are AB = 1200 m, BC = 1442 m and CA = 1960 m. A station O is established outside the triangle and its position is to be determined by resection on A, B and C, the angle AOB and BOC being respectively 45\u00b030' and 52\u00b015'. Determine distances of OA and OC, if O and Bare on the opposite sides of line AC.<image 1>\nA. AO = 884.49 m,CO = 1644 m\nB. AO = 884.49 m,CO = 1624 m\nC. AO = 885.49 m,CO = 1634 m\nD. AO = 884.49 m,CO = 1634 m\n\nAnswer with the option's letter from the given choices directly.",
         {
           "max_new_tokens": 16,
           "until": [
@@ -3614,7 +3614,7 @@
       "submission": {
         "validation_Architecture_and_Engineering_26": "A"
       },
-      "input": "A, B and C are three visible stations in a hydrographic survey. The computed sides of the triangle ABC are AB = 1200 m, BC = 1442 m and CA = 1960 m. A station O is established outside the triangle and its position is to be determined by resection on A, B and C, the angle AOB and BOC being respectively 45°30' and 52°15'. Determine distances of OA and OC, if O and Bare on the opposite sides of line AC.<image 1>\nA. AO = 884.49 m,CO = 1644 m\nB. AO = 884.49 m,CO = 1624 m\nC. AO = 885.49 m,CO = 1634 m\nD. AO = 884.49 m,CO = 1634 m\n\nAnswer with the option's letter from the given choices directly."
+      "input": "A, B and C are three visible stations in a hydrographic survey. The computed sides of the triangle ABC are AB = 1200 m, BC = 1442 m and CA = 1960 m. A station O is established outside the triangle and its position is to be determined by resection on A, B and C, the angle AOB and BOC being respectively 45\u00b030' and 52\u00b015'. Determine distances of OA and OC, if O and Bare on the opposite sides of line AC.<image 1>\nA. AO = 884.49 m,CO = 1644 m\nB. AO = 884.49 m,CO = 1624 m\nC. AO = 885.49 m,CO = 1634 m\nD. AO = 884.49 m,CO = 1634 m\n\nAnswer with the option's letter from the given choices directly."
     },
     {
       "doc_id": 86,
@@ -3746,7 +3746,7 @@
       "doc_id": 89,
       "target": "C",
       "arguments": [
-        "Compute the area, error in the area, and the standard error of the area for Fig. 1 using the following data:a = 50.30 $\\pm $ 0.01 m,b = 82.65 $\\pm$ 0.03 m,r = 9.50 $\\pm $ 0.02 m.The measurements were made with 30 m tape standardized at 30° C and the field temperature during the measurements was 50° C. Take coefficient of linear expansion = 1.15 * $10^{-5}$ per ° C.<image 1>\nA. 5136.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\nB. 5134.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\nC. 5138.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\nD. 5132.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\n\nAnswer with the option's letter from the given choices directly.",
+        "Compute the area, error in the area, and the standard error of the area for Fig. 1 using the following data:a = 50.30 $\\pm $ 0.01 m,b = 82.65 $\\pm$ 0.03 m,r = 9.50 $\\pm $ 0.02 m.The measurements were made with 30 m tape standardized at 30\u00b0 C and the field temperature during the measurements was 50\u00b0 C. Take coefficient of linear expansion = 1.15 * $10^{-5}$ per \u00b0 C.<image 1>\nA. 5136.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\nB. 5134.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\nC. 5138.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\nD. 5132.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\n\nAnswer with the option's letter from the given choices directly.",
         {
           "max_new_tokens": 16,
           "until": [
@@ -3782,7 +3782,7 @@
       "submission": {
         "validation_Architecture_and_Engineering_30": "A"
       },
-      "input": "Compute the area, error in the area, and the standard error of the area for Fig. 1 using the following data:a = 50.30 $\\pm $ 0.01 m,b = 82.65 $\\pm$ 0.03 m,r = 9.50 $\\pm $ 0.02 m.The measurements were made with 30 m tape standardized at 30° C and the field temperature during the measurements was 50° C. Take coefficient of linear expansion = 1.15 * $10^{-5}$ per ° C.<image 1>\nA. 5136.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\nB. 5134.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\nC. 5138.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\nD. 5132.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\n\nAnswer with the option's letter from the given choices directly."
+      "input": "Compute the area, error in the area, and the standard error of the area for Fig. 1 using the following data:a = 50.30 $\\pm $ 0.01 m,b = 82.65 $\\pm$ 0.03 m,r = 9.50 $\\pm $ 0.02 m.The measurements were made with 30 m tape standardized at 30\u00b0 C and the field temperature during the measurements was 50\u00b0 C. Take coefficient of linear expansion = 1.15 * $10^{-5}$ per \u00b0 C.<image 1>\nA. 5136.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\nB. 5134.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\nC. 5138.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\nD. 5132.82 $m_{2}$, 2.43 $m_{2}$, $\\pm$ 2.34 $m_{2}$\n\nAnswer with the option's letter from the given choices directly."
     },
     {
       "doc_id": 90,

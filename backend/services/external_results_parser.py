@@ -104,16 +104,92 @@ def find_samples_jsonl(dir_path: Path) -> Optional[Path]:
     return None
 
 
+def flatten_metrics(raw_metrics: Dict[str, Any], benchmark_id: str) -> Dict[str, Any]:
+    """
+    Extract and flatten metrics from nested results structure.
+    
+    Args:
+        raw_metrics: Raw metrics dict from JSON file (may have nested structure)
+        benchmark_id: The benchmark ID to extract metrics for
+    
+    Returns:
+        Flattened metrics dict with performance metrics at top level
+    """
+    flattened = {}
+    
+    # Handle nested results structure: results[benchmark_id][metric_key]
+    if 'results' in raw_metrics and isinstance(raw_metrics['results'], dict):
+        benchmark_results = raw_metrics['results'].get(benchmark_id, {})
+        if isinstance(benchmark_results, dict):
+            for key, value in benchmark_results.items():
+                # Skip non-metric fields
+                if key in ['alias', 'submission', 'submission_stderr']:
+                    continue
+                
+                # Flatten metric keys like "exact_match,none" -> "exact_match"
+                # or keep as-is if it's already a simple metric name
+                if ',' in key:
+                    # Extract the metric name (part before comma)
+                    metric_name = key.split(',')[0]
+                else:
+                    metric_name = key
+                
+                # Only include numeric values
+                if isinstance(value, (int, float)) and not (isinstance(value, float) and (value != value or value == float('inf'))):
+                    flattened[metric_name] = value
+                    # Also keep the original key if different
+                    if metric_name != key:
+                        flattened[key] = value
+    
+    # Also check for direct metric keys at top level
+    for key, value in raw_metrics.items():
+        # Skip metadata fields
+        if key in ['results', 'group_subtasks', 'configs', 'versions', 'n-shot', 
+                   'higher_is_better', 'n-samples', 'config', 'git_hash', 'date', 
+                   'task_hashes', 'model_source', 'model_name', 'model_name_sanitized',
+                   'system_instruction', 'system_instruction_sha', 'fewshot_as_multiturn',
+                   'chat_template', 'chat_template_sha', 'start_time', 'end_time']:
+            continue
+        
+        # Include numeric values at top level
+        if isinstance(value, (int, float)) and not (isinstance(value, float) and (value != value or value == float('inf'))):
+            flattened[key] = value
+    
+    return flattened
+
+
 def parse_benchmark(bench_path: Path, benchmark_id: str) -> Dict[str, Any]:
     """Parse a single benchmark directory."""
     results_path = find_results_json(bench_path)
     jsonl_path = find_samples_jsonl(bench_path)
     
-    metrics = {}
+    raw_metrics = {}
     if results_path:
         try:
-            metrics = read_json_file(results_path)
+            raw_metrics = read_json_file(results_path)
         except Exception:
+            pass
+    
+    # Extract and flatten metrics from nested structure
+    metrics = flatten_metrics(raw_metrics, benchmark_id)
+    
+    # Extract time information if available
+    evaluation_time_seconds = None
+    if 'total_evaluation_time_seconds' in raw_metrics:
+        try:
+            time_val = raw_metrics['total_evaluation_time_seconds']
+            evaluation_time_seconds = float(time_val) if isinstance(time_val, str) else time_val
+        except (ValueError, TypeError):
+            pass
+    
+    # Calculate duration from start_time and end_time if available
+    if evaluation_time_seconds is None and 'start_time' in raw_metrics and 'end_time' in raw_metrics:
+        try:
+            start_time = float(raw_metrics['start_time'])
+            end_time = float(raw_metrics['end_time'])
+            if start_time > 0 and end_time > start_time:
+                evaluation_time_seconds = end_time - start_time
+        except (ValueError, TypeError):
             pass
     
     samples_preview = []
@@ -146,13 +222,19 @@ def parse_benchmark(bench_path: Path, benchmark_id: str) -> Dict[str, Any]:
         except Exception:
             pass
     
-    return {
+    result = {
         "benchmark_id": benchmark_id,
         "metrics": metrics,
         "samples_preview": samples_preview,
         "total_samples": total_samples,
         "raw_files": raw_files
     }
+    
+    # Add evaluation time if available
+    if evaluation_time_seconds is not None:
+        result["evaluation_time_seconds"] = evaluation_time_seconds
+    
+    return result
 
 
 class ExternalResultsParser:
@@ -313,12 +395,15 @@ class ExternalResultsParser:
                                 sample_path = sample["path"]
                                 bench_id = sample["name"]
                                 
-                                metrics = {}
+                                raw_metrics = {}
                                 if result_path:
                                     try:
-                                        metrics = read_json_file(result_path)
+                                        raw_metrics = read_json_file(result_path)
                                     except Exception:
                                         pass
+                                
+                                # Extract and flatten metrics from nested structure
+                                metrics = flatten_metrics(raw_metrics, bench_id)
                                 
                                 samples, total = read_jsonl_file(sample_path, 100)
                                 
@@ -345,12 +430,13 @@ class ExternalResultsParser:
                                 metric_count[0] += self._aggregate_metrics(metrics, aggregate_metrics)
                         elif group["result_file"]:
                             result_path = group["result_file"]
+                            bench_id = prefix
                             try:
-                                metrics = read_json_file(result_path)
+                                raw_metrics = read_json_file(result_path)
+                                # Extract and flatten metrics from nested structure
+                                metrics = flatten_metrics(raw_metrics, bench_id)
                             except Exception:
                                 metrics = {}
-                            
-                            bench_id = prefix
                             all_benchmarks.append({
                                 "benchmark_id": bench_id,
                                 "metrics": metrics,
@@ -490,11 +576,33 @@ class ExternalResultsParser:
                                     sample_path = sample["path"]
                                     bench_id = sample["name"]
                                     
-                                    metrics = {}
+                                    raw_metrics = {}
                                     if result_path:
                                         try:
-                                            metrics = read_json_file(result_path)
+                                            raw_metrics = read_json_file(result_path)
                                         except Exception:
+                                            pass
+                                    
+                                    # Extract and flatten metrics from nested structure
+                                    metrics = flatten_metrics(raw_metrics, bench_id)
+                                    
+                                    # Extract time information if available
+                                    evaluation_time_seconds = None
+                                    if 'total_evaluation_time_seconds' in raw_metrics:
+                                        try:
+                                            time_val = raw_metrics['total_evaluation_time_seconds']
+                                            evaluation_time_seconds = float(time_val) if isinstance(time_val, str) else time_val
+                                        except (ValueError, TypeError):
+                                            pass
+                                    
+                                    # Calculate duration from start_time and end_time if available
+                                    if evaluation_time_seconds is None and 'start_time' in raw_metrics and 'end_time' in raw_metrics:
+                                        try:
+                                            start_time = float(raw_metrics['start_time'])
+                                            end_time = float(raw_metrics['end_time'])
+                                            if start_time > 0 and end_time > start_time:
+                                                evaluation_time_seconds = end_time - start_time
+                                        except (ValueError, TypeError):
                                             pass
                                     
                                     samples, total = read_jsonl_file(sample_path, 100)
@@ -510,21 +618,28 @@ class ExternalResultsParser:
                                         "absolute_path": str(sample_path)
                                     })
                                     
-                                    all_benchmarks.append({
+                                    benchmark_data = {
                                         "benchmark_id": bench_id,
                                         "metrics": metrics,
                                         "samples_preview": samples,
                                         "total_samples": total,
                                         "raw_files": raw_files
-                                    })
+                                    }
+                                    
+                                    # Add evaluation time if available
+                                    if evaluation_time_seconds is not None:
+                                        benchmark_data["evaluation_time_seconds"] = evaluation_time_seconds
+                                    
+                                    all_benchmarks.append(benchmark_data)
                             elif group["result_file"]:
                                 result_path = group["result_file"]
+                                bench_id = prefix
                                 try:
-                                    metrics = read_json_file(result_path)
+                                    raw_metrics = read_json_file(result_path)
+                                    # Extract and flatten metrics from nested structure
+                                    metrics = flatten_metrics(raw_metrics, bench_id)
                                 except Exception:
                                     metrics = {}
-                                
-                                bench_id = prefix
                                 all_benchmarks.append({
                                     "benchmark_id": bench_id,
                                     "metrics": metrics,
@@ -572,69 +687,67 @@ class ExternalResultsParser:
         today = format_date_yyyy_mm_dd()
         
         # 1) Consolidated metrics file for all benchmarks
+        # Always regenerate to ensure metrics are properly flattened
         metrics_out = model_dir / f"metrics_{today}.json"
-        metrics_exists = safe_stat(metrics_out)
         
-        if not metrics_exists:
-            # Only write if file doesn't exist
-            # Exclude time-related fields when aggregating
-            time_fields = [
-                'start_time', 'end_time', 'starttime', 'endtime',
-                'created_at', 'updated_at', 'createdat', 'updatedat',
-                'timestamp', 'time', 'duration', 'elapsed',
-                'date', 'datetime', 'when'
-            ]
+        # Exclude time-related fields when aggregating
+        time_fields = [
+            'start_time', 'end_time', 'starttime', 'endtime',
+            'created_at', 'updated_at', 'createdat', 'updatedat',
+            'timestamp', 'time', 'duration', 'elapsed',
+            'date', 'datetime', 'when'
+        ]
+        
+        metrics_summary = {}
+        consolidated = []
+        
+        for b in detail.get('benchmarks', []):
+            # Aggregate metrics, excluding time fields
+            for k, v in b.get('metrics', {}).items():
+                if isinstance(v, (int, float)) and not (isinstance(v, float) and (v != v or v == float('inf'))):
+                    # Exclude time-related fields
+                    key_lower = k.lower().replace('_', '').replace('-', '')
+                    if any(tf.lower() in key_lower for tf in time_fields):
+                        continue
+                    
+                    # Exclude config-like fields
+                    config_fields = ['fewshot', 'config', 'setting', 'param', 'multiturn']
+                    if any(cf.lower() in key_lower for cf in config_fields):
+                        continue
+                    
+                    # Exclude timestamp-like values (very large numbers)
+                    if v > 1000000000:
+                        continue
+                    
+                    if k not in metrics_summary:
+                        metrics_summary[k] = {"total": 0, "count": 0}
+                    metrics_summary[k]["total"] += v
+                    metrics_summary[k]["count"] += 1
             
-            metrics_summary = {}
-            consolidated = []
-            
-            for b in detail.get('benchmarks', []):
-                # Aggregate metrics, excluding time fields
-                for k, v in b.get('metrics', {}).items():
-                    if isinstance(v, (int, float)) and not (isinstance(v, float) and (v != v or v == float('inf'))):
-                        # Exclude time-related fields
-                        key_lower = k.lower().replace('_', '').replace('-', '')
-                        if any(tf.lower() in key_lower for tf in time_fields):
-                            continue
-                        
-                        # Exclude config-like fields
-                        config_fields = ['fewshot', 'config', 'setting', 'param', 'multiturn']
-                        if any(cf.lower() in key_lower for cf in config_fields):
-                            continue
-                        
-                        # Exclude timestamp-like values (very large numbers)
-                        if v > 1000000000:
-                            continue
-                        
-                        if k not in metrics_summary:
-                            metrics_summary[k] = {"total": 0, "count": 0}
-                        metrics_summary[k]["total"] += v
-                        metrics_summary[k]["count"] += 1
-                
-                consolidated.append({
-                    "benchmark_id": b.get("benchmark_id"),
-                    "metrics": b.get("metrics", {}),
-                    "total_samples": b.get("total_samples", 0),
-                    "files": [{"filename": f.get("filename"), "absolute_path": f.get("absolute_path")} 
-                             for f in b.get("raw_files", [])],
-                    "submissions": [f.get("filename") for f in b.get("raw_files", []) 
-                                  if 'submissions/' in str(f.get("filename", ""))]
-                })
-            
-            summary = {}
-            for k, v in metrics_summary.items():
-                if v["count"] > 0:
-                    summary[k] = v["total"] / v["count"]
-            
-            metrics_payload = {
-                "model": detail['model_name'],
-                "created_at": detail['created_at'],
-                "benchmarks": consolidated,
-                "summary": summary
-            }
-            
-            with open(metrics_out, 'w', encoding='utf-8') as f:
-                json.dump(metrics_payload, f, indent=2)
+            consolidated.append({
+                "benchmark_id": b.get("benchmark_id"),
+                "metrics": b.get("metrics", {}),
+                "total_samples": b.get("total_samples", 0),
+                "files": [{"filename": f.get("filename"), "absolute_path": f.get("absolute_path")} 
+                         for f in b.get("raw_files", [])],
+                "submissions": [f.get("filename") for f in b.get("raw_files", []) 
+                              if 'submissions/' in str(f.get("filename", ""))]
+            })
+        
+        summary = {}
+        for k, v in metrics_summary.items():
+            if v["count"] > 0:
+                summary[k] = v["total"] / v["count"]
+        
+        metrics_payload = {
+            "model": detail['model_name'],
+            "created_at": detail['created_at'],
+            "benchmarks": consolidated,
+            "summary": summary
+        }
+        
+        with open(metrics_out, 'w', encoding='utf-8') as f:
+            json.dump(metrics_payload, f, indent=2)
         
         # 2) Full responses per task
         responses_index = []
@@ -643,30 +756,21 @@ class ExternalResultsParser:
         for b in detail.get('benchmarks', []):
             safe_id = re.sub(r'[^A-Za-z0-9_\-\.]', '_', b.get('benchmark_id', ''))
             resp_out = model_dir / f"{safe_id}_responses_{today}.json"
-            responses_exists = safe_stat(resp_out)
             
-            if not responses_exists:
-                # Only write if file doesn't exist
-                total_samples = b.get('total_samples', 0) or len(b.get('samples_preview', []))
-                responses_payload = {
-                    "model": detail['model_name'],
-                    "created_at": detail['created_at'],
-                    "benchmark_id": b.get('benchmark_id'),
-                    "total_samples": total_samples,
-                    "samples": b.get('samples_preview', [])
-                }
-                
-                with open(resp_out, 'w', encoding='utf-8') as f:
-                    json.dump(responses_payload, f, indent=2)
+            # Always regenerate responses file to ensure metrics are properly flattened
+            total_samples = b.get('total_samples', 0) or len(b.get('samples_preview', []))
+            responses_payload = {
+                "model": detail['model_name'],
+                "created_at": detail['created_at'],
+                "benchmark_id": b.get('benchmark_id'),
+                "total_samples": total_samples,
+                "samples": b.get('samples_preview', [])
+            }
+            
+            with open(resp_out, 'w', encoding='utf-8') as f:
+                json.dump(responses_payload, f, indent=2)
             
             # Build index entry
-            total_samples = b.get('total_samples', 0) or len(b.get('samples_preview', []))
-            if responses_exists:
-                try:
-                    existing_content = read_json_file(resp_out)
-                    total_samples = existing_content.get('total_samples', total_samples)
-                except Exception:
-                    pass
             
             responses_index.append({
                 "benchmark_id": b.get('benchmark_id'),

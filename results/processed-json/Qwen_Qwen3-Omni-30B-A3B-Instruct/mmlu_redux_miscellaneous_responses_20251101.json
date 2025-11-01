@@ -1,6 +1,6 @@
 {
   "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
-  "created_at": "2025-10-31T01:00:13.111Z",
+  "created_at": "2025-10-31T06:30:13.110851",
   "benchmark_id": "mmlu_redux_miscellaneous",
   "total_samples": 100,
   "samples": [
@@ -11,7 +11,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following heavenly bodies have never had a spacecraft landed on it?\n\nChoices:\nA) Venus\nB) Mars\nC) The Moon\nD) Jupiter\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -26,7 +26,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following heavenly bodies have never had a spacecraft landed on it?\n\nChoices:\nA) Venus\nB) Mars\nC) The Moon\nD) Jupiter\n\nAnswer:"
     },
     {
@@ -36,7 +36,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these movies does not star Jim Carrey?\n\nChoices:\nA) Patch Adams'\nB) The Truman Show'\nC) Dumb and Dumber'\nD) The Mask'\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -51,7 +51,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these movies does not star Jim Carrey?\n\nChoices:\nA) Patch Adams'\nB) The Truman Show'\nC) Dumb and Dumber'\nD) The Mask'\n\nAnswer:"
     },
     {
@@ -61,7 +61,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?\n\nChoices:\nA) Pun'kin\nB) Lamikins\nC) Suga'baby\nD) Swee'pea\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -76,7 +76,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the name of the baby who appears in cartoons and comic strips with Popeye the Sailor?\n\nChoices:\nA) Pun'kin\nB) Lamikins\nC) Suga'baby\nD) Swee'pea\n\nAnswer:"
     },
     {
@@ -86,7 +86,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What color is a ruby?\n\nChoices:\nA) red\nB) black\nC) yellow\nD) blue\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -101,7 +101,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What color is a ruby?\n\nChoices:\nA) red\nB) black\nC) yellow\nD) blue\n\nAnswer:"
     },
     {
@@ -111,7 +111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Who wrote musicals with Oscar Hammerstein II?\n\nChoices:\nA) Richard Rodgers\nB) Rogers Hornsby\nC) Gilbert O' Sullivan\nD) George Rogers Clark\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -126,7 +126,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Who wrote musicals with Oscar Hammerstein II?\n\nChoices:\nA) Richard Rodgers\nB) Rogers Hornsby\nC) Gilbert O' Sullivan\nD) George Rogers Clark\n\nAnswer:"
     },
     {
@@ -136,7 +136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the name for the thin board used to mix colors while painting?\n\nChoices:\nA) pestle\nB) easel\nC) shoe\nD) palette\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -151,7 +151,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the name for the thin board used to mix colors while painting?\n\nChoices:\nA) pestle\nB) easel\nC) shoe\nD) palette\n\nAnswer:"
     },
     {
@@ -161,7 +161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: From 1971 to 1997 the Democratic Republic of Congo was known as what?\n\nChoices:\nA) Zaire\nB) Angola\nC) Rhodesia\nD) Belgian Congo\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -176,7 +176,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: From 1971 to 1997 the Democratic Republic of Congo was known as what?\n\nChoices:\nA) Zaire\nB) Angola\nC) Rhodesia\nD) Belgian Congo\n\nAnswer:"
     },
     {
@@ -186,7 +186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the name of Raggedy Ann's doll brother?\n\nChoices:\nA) Red\nB) Freckles\nC) Randy\nD) Andy\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -201,7 +201,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the name of Raggedy Ann's doll brother?\n\nChoices:\nA) Red\nB) Freckles\nC) Randy\nD) Andy\n\nAnswer:"
     },
     {
@@ -211,7 +211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In golf what is one stroke overpar called?\n\nChoices:\nA) eagle\nB) bogey\nC) dormy\nD) birdie\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -226,7 +226,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In golf what is one stroke overpar called?\n\nChoices:\nA) eagle\nB) bogey\nC) dormy\nD) birdie\n\nAnswer:"
     },
     {
@@ -236,7 +236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the capital of North Dakota?\n\nChoices:\nA) Bismarck\nB) Fargo\nC) Sioux Falls\nD) Pierre\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -251,7 +251,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the capital of North Dakota?\n\nChoices:\nA) Bismarck\nB) Fargo\nC) Sioux Falls\nD) Pierre\n\nAnswer:"
     },
     {
@@ -261,7 +261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The disco band ABBA comes from what country?\n\nChoices:\nA) Norway\nB) Sweden\nC) Switzerland\nD) The Netherlands\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -276,7 +276,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The disco band ABBA comes from what country?\n\nChoices:\nA) Norway\nB) Sweden\nC) Switzerland\nD) The Netherlands\n\nAnswer:"
     },
     {
@@ -286,7 +286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Fragile works of sculpture can be displayed most securely by placing the works\n\nChoices:\nA) in glass-paneled cases\nB) on a series of pedestals\nC) on wall-mounted shelves with sturdier works around them\nD) in shadow boxes with signs that read \"Do Not Touch\"\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -301,7 +301,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Fragile works of sculpture can be displayed most securely by placing the works\n\nChoices:\nA) in glass-paneled cases\nB) on a series of pedestals\nC) on wall-mounted shelves with sturdier works around them\nD) in shadow boxes with signs that read \"Do Not Touch\"\n\nAnswer:"
     },
     {
@@ -311,7 +311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What city is known as 'the rubber capital of the world'?\n\nChoices:\nA) Omaha Nebraska\nB) Rockford Illinois\nC) Grand Rapids Michigan\nD) Akron Ohio\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -326,7 +326,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What city is known as 'the rubber capital of the world'?\n\nChoices:\nA) Omaha Nebraska\nB) Rockford Illinois\nC) Grand Rapids Michigan\nD) Akron Ohio\n\nAnswer:"
     },
     {
@@ -336,7 +336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Who led the 1831 slave insurrection in SouthamptonVirginia?\n\nChoices:\nA) John Brown\nB) Dred Scott\nC) Nat Turner\nD) Harriet Tubman\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -351,7 +351,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Who led the 1831 slave insurrection in SouthamptonVirginia?\n\nChoices:\nA) John Brown\nB) Dred Scott\nC) Nat Turner\nD) Harriet Tubman\n\nAnswer:"
     },
     {
@@ -361,7 +361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the only metal that is a liquid at normal atmospheric pressure and temperature?\n\nChoices:\nA) lead\nB) antimony\nC) uranium\nD) mercury\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -376,7 +376,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the only metal that is a liquid at normal atmospheric pressure and temperature?\n\nChoices:\nA) lead\nB) antimony\nC) uranium\nD) mercury\n\nAnswer:"
     },
     {
@@ -386,7 +386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The nineteenth-century photographic process used to create a daguerreotype was notable for its\n\nChoices:\nA) quick exposure time\nB) ability to capture sharp detail\nC) capacity to be reproduced multiple times\nD) use of paper negatives\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -401,7 +401,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The nineteenth-century photographic process used to create a daguerreotype was notable for its\n\nChoices:\nA) quick exposure time\nB) ability to capture sharp detail\nC) capacity to be reproduced multiple times\nD) use of paper negatives\n\nAnswer:"
     },
     {
@@ -411,7 +411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Normally, S-P arrival intervals from a minimum of how many seismic stations are required to uniquely locate the epicenter of an earthquake?\n\nChoices:\nA) 1\nB) 2\nC) 3\nD) 4\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -426,7 +426,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Normally, S-P arrival intervals from a minimum of how many seismic stations are required to uniquely locate the epicenter of an earthquake?\n\nChoices:\nA) 1\nB) 2\nC) 3\nD) 4\n\nAnswer:"
     },
     {
@@ -436,7 +436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Including the bottom how many sides are on a square-based pyramid?\n\nChoices:\nA) three\nB) four\nC) five\nD) six\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -451,7 +451,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Including the bottom how many sides are on a square-based pyramid?\n\nChoices:\nA) three\nB) four\nC) five\nD) six\n\nAnswer:"
     },
     {
@@ -461,7 +461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Poverty as defined by the United States government is best understood as\n\nChoices:\nA) the index value of government services such as Medicaid and public housing\nB) the concept of relative deprivation and is based on changes in the distribution of income\nC) an absolute level set in the 1960s and since adjusted to reflect inflation at the consumer level\nD) a concept based on lifestyle and measured on a sliding scale based on the needs of an individual\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -476,7 +476,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Poverty as defined by the United States government is best understood as\n\nChoices:\nA) the index value of government services such as Medicaid and public housing\nB) the concept of relative deprivation and is based on changes in the distribution of income\nC) an absolute level set in the 1960s and since adjusted to reflect inflation at the consumer level\nD) a concept based on lifestyle and measured on a sliding scale based on the needs of an individual\n\nAnswer:"
     },
     {
@@ -486,7 +486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What was the name of Huey Lewis band?\n\nChoices:\nA) The News\nB) The Attractions\nC) The Silver Bullet Band\nD) Louie and Dewey\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -501,7 +501,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What was the name of Huey Lewis band?\n\nChoices:\nA) The News\nB) The Attractions\nC) The Silver Bullet Band\nD) Louie and Dewey\n\nAnswer:"
     },
     {
@@ -511,7 +511,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: _Whenever the mood strikes her_, Angela takes a short walk around the block. In the sentence above, the underlined portion can best be described as\n\nChoices:\nA) an adjective clause\nB) a relative clause\nC) a subordinate clause\nD) an independent clause\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -526,7 +526,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: _Whenever the mood strikes her_, Angela takes a short walk around the block. In the sentence above, the underlined portion can best be described as\n\nChoices:\nA) an adjective clause\nB) a relative clause\nC) a subordinate clause\nD) an independent clause\n\nAnswer:"
     },
     {
@@ -536,7 +536,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following people would benefit most if the value of the United States dollar increased relative to the Japanese yen?\n\nChoices:\nA) A United States car dealer importing Japanese cars\nB) A Japanese tourist vacationing in the United States\nC) A worker in the United States beer industry\nD) A Japanese baker buying United States wheat\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -551,7 +551,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following people would benefit most if the value of the United States dollar increased relative to the Japanese yen?\n\nChoices:\nA) A United States car dealer importing Japanese cars\nB) A Japanese tourist vacationing in the United States\nC) A worker in the United States beer industry\nD) A Japanese baker buying United States wheat\n\nAnswer:"
     },
     {
@@ -561,7 +561,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What are fans of the TV show 'Mystery Science Theater 3000' known as?\n\nChoices:\nA) Mysterians\nB) MiSTies\nC) Bot Brigade\nD) Gizmonics\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -576,7 +576,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What are fans of the TV show 'Mystery Science Theater 3000' known as?\n\nChoices:\nA) Mysterians\nB) MiSTies\nC) Bot Brigade\nD) Gizmonics\n\nAnswer:"
     },
     {
@@ -586,7 +586,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What children's TV character is known as 'Da Niao' in China?\n\nChoices:\nA) Barney\nB) Big Bird\nC) Mickey Mouse\nD) Tinky Winky\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -601,7 +601,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What children's TV character is known as 'Da Niao' in China?\n\nChoices:\nA) Barney\nB) Big Bird\nC) Mickey Mouse\nD) Tinky Winky\n\nAnswer:"
     },
     {
@@ -611,7 +611,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What popular toy is featured in the film 'The Hudsucker Proxy'?\n\nChoices:\nA) Beanie Babies\nB) Hula Hoop\nC) Lincoln Logs\nD) Lite Brite\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -626,7 +626,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What popular toy is featured in the film 'The Hudsucker Proxy'?\n\nChoices:\nA) Beanie Babies\nB) Hula Hoop\nC) Lincoln Logs\nD) Lite Brite\n\nAnswer:"
     },
     {
@@ -636,7 +636,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is Delta Burke's character's job on the sitcom 'Designing Women'?\n\nChoices:\nA) fashion designer\nB) graphic designer\nC) interior designer\nD) website designer\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -651,7 +651,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is Delta Burke's character's job on the sitcom 'Designing Women'?\n\nChoices:\nA) fashion designer\nB) graphic designer\nC) interior designer\nD) website designer\n\nAnswer:"
     },
     {
@@ -661,7 +661,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to a popular slogan what state should people not 'mess with'?\n\nChoices:\nA) New York\nB) Texas\nC) Montana\nD) Rhode Island\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -676,7 +676,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to a popular slogan what state should people not 'mess with'?\n\nChoices:\nA) New York\nB) Texas\nC) Montana\nD) Rhode Island\n\nAnswer:"
     },
     {
@@ -686,7 +686,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Where is Ghirardelli Square located?\n\nChoices:\nA) Milan\nB) Rome\nC) Washington DC\nD) San Francisco\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -701,7 +701,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Where is Ghirardelli Square located?\n\nChoices:\nA) Milan\nB) Rome\nC) Washington DC\nD) San Francisco\n\nAnswer:"
     },
     {
@@ -711,7 +711,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Who composed the 'Moonlight Sonata'?\n\nChoices:\nA) Mozart\nB) Handel\nC) Bach\nD) Beethoven\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -726,7 +726,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Who composed the 'Moonlight Sonata'?\n\nChoices:\nA) Mozart\nB) Handel\nC) Bach\nD) Beethoven\n\nAnswer:"
     },
     {
@@ -736,7 +736,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What country does Bordeaux wine come from?\n\nChoices:\nA) France\nB) Spain\nC) Australia\nD) United States\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -751,7 +751,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What country does Bordeaux wine come from?\n\nChoices:\nA) France\nB) Spain\nC) Australia\nD) United States\n\nAnswer:"
     },
     {
@@ -761,7 +761,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following protocols is used to transport HTML pages from Web servers to Web browsers?\n\nChoices:\nA) BOOTP\nB) HTTP\nC) SNMP\nD) SMTP\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -776,17 +776,17 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following protocols is used to transport HTML pages from Web servers to Web browsers?\n\nChoices:\nA) BOOTP\nB) HTTP\nC) SNMP\nD) SMTP\n\nAnswer:"
     },
     {
       "doc_id": 31,
       "target": "2",
       "arguments": [
-        "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A passage Jane Eyre is as follows. This was all the account I got from Mrs. Fairfax of her employer and mine. There are people who seem to have no notion of sketching a character, or observing and describing salient points, either in persons or things: the good lady evidently belonged to this class; my queries puzzled, but did not draw her out. Mr. Rochester was Mr. Rochester in her eyes, a gentleman, a landed proprietor‚Äìnothing more: she inquired and searched no further, and evidently wondered at my wish to gain a more definite notion of his identity. Mrs. Fairfax differs from the speaker in that Mrs. Fairfax\n\nChoices:\nA) has more interest in the complexities of people's personalities\nB) judges people by their social station in life\nC) is more willing to take people at face value\nD) has a more positive opinion of Mr. Rochester\n\nAnswer:",
+        "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A passage Jane Eyre is as follows. This was all the account I got from Mrs. Fairfax of her employer and mine. There are people who seem to have no notion of sketching a character, or observing and describing salient points, either in persons or things: the good lady evidently belonged to this class; my queries puzzled, but did not draw her out. Mr. Rochester was Mr. Rochester in her eyes, a gentleman, a landed proprietor\u201a\u00c4\u00ecnothing more: she inquired and searched no further, and evidently wondered at my wish to gain a more definite notion of his identity. Mrs. Fairfax differs from the speaker in that Mrs. Fairfax\n\nChoices:\nA) has more interest in the complexities of people's personalities\nB) judges people by their social station in life\nC) is more willing to take people at face value\nD) has a more positive opinion of Mr. Rochester\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -801,8 +801,8 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A passage Jane Eyre is as follows. This was all the account I got from Mrs. Fairfax of her employer and mine. There are people who seem to have no notion of sketching a character, or observing and describing salient points, either in persons or things: the good lady evidently belonged to this class; my queries puzzled, but did not draw her out. Mr. Rochester was Mr. Rochester in her eyes, a gentleman, a landed proprietor‚Äìnothing more: she inquired and searched no further, and evidently wondered at my wish to gain a more definite notion of his identity. Mrs. Fairfax differs from the speaker in that Mrs. Fairfax\n\nChoices:\nA) has more interest in the complexities of people's personalities\nB) judges people by their social station in life\nC) is more willing to take people at face value\nD) has a more positive opinion of Mr. Rochester\n\nAnswer:"
+      "acc": 0.0,
+      "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A passage Jane Eyre is as follows. This was all the account I got from Mrs. Fairfax of her employer and mine. There are people who seem to have no notion of sketching a character, or observing and describing salient points, either in persons or things: the good lady evidently belonged to this class; my queries puzzled, but did not draw her out. Mr. Rochester was Mr. Rochester in her eyes, a gentleman, a landed proprietor\u201a\u00c4\u00ecnothing more: she inquired and searched no further, and evidently wondered at my wish to gain a more definite notion of his identity. Mrs. Fairfax differs from the speaker in that Mrs. Fairfax\n\nChoices:\nA) has more interest in the complexities of people's personalities\nB) judges people by their social station in life\nC) is more willing to take people at face value\nD) has a more positive opinion of Mr. Rochester\n\nAnswer:"
     },
     {
       "doc_id": 32,
@@ -811,7 +811,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A committee of middle school teachers is meeting to begin the process of finding a software program to improve students' drafting skills. Which of the following steps should the committee take first in the process?\n\nChoices:\nA) Downloading a trial version of the most popular software for evaluation\nB) Conducting a survey to determine the importance of drafting skills in the classroom\nC) Defining the learning objectives they would like the software to meet\nD) Deciding what type of user interface would be most appropriate\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -826,7 +826,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A committee of middle school teachers is meeting to begin the process of finding a software program to improve students' drafting skills. Which of the following steps should the committee take first in the process?\n\nChoices:\nA) Downloading a trial version of the most popular software for evaluation\nB) Conducting a survey to determine the importance of drafting skills in the classroom\nC) Defining the learning objectives they would like the software to meet\nD) Deciding what type of user interface would be most appropriate\n\nAnswer:"
     },
     {
@@ -836,7 +836,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to the title of a popular children's TV show what color is Bear's big house?\n\nChoices:\nA) red\nB) green\nC) purple\nD) blue\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -851,7 +851,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: According to the title of a popular children's TV show what color is Bear's big house?\n\nChoices:\nA) red\nB) green\nC) purple\nD) blue\n\nAnswer:"
     },
     {
@@ -861,7 +861,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these names has never belonged to a Pope?\n\nChoices:\nA) Leo\nB) Lando\nC) Linus\nD) Lawrence\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -876,7 +876,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these names has never belonged to a Pope?\n\nChoices:\nA) Leo\nB) Lando\nC) Linus\nD) Lawrence\n\nAnswer:"
     },
     {
@@ -886,7 +886,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In 1909 Frederick Cook claimed to be the first explorer to reach what location?\n\nChoices:\nA) Mount Everest\nB) Bermuda Triangle\nC) Atlantis\nD) North Pole\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -901,7 +901,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In 1909 Frederick Cook claimed to be the first explorer to reach what location?\n\nChoices:\nA) Mount Everest\nB) Bermuda Triangle\nC) Atlantis\nD) North Pole\n\nAnswer:"
     },
     {
@@ -911,7 +911,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A clothes dryer that is set to run for 30 minutes is an example of which of the following control systems?\n\nChoices:\nA) Open loop\nB) Closed loop\nC) Negative feedback\nD) Positive feedback\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -926,7 +926,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A clothes dryer that is set to run for 30 minutes is an example of which of the following control systems?\n\nChoices:\nA) Open loop\nB) Closed loop\nC) Negative feedback\nD) Positive feedback\n\nAnswer:"
     },
     {
@@ -936,7 +936,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How many cups of coffee were consumed in the United States in the past week (as of 2013)?\n\nChoices:\nA) 300 million cups per week\nB) 1 billion cups per week\nC) 3 billion cups per week\nD) 9 billion cups per week\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -951,7 +951,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How many cups of coffee were consumed in the United States in the past week (as of 2013)?\n\nChoices:\nA) 300 million cups per week\nB) 1 billion cups per week\nC) 3 billion cups per week\nD) 9 billion cups per week\n\nAnswer:"
     },
     {
@@ -961,7 +961,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What part of the human body does a gastroenterologist examine?\n\nChoices:\nA) Brain\nB) Skeleton\nC) Stomach\nD) Nose\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -976,7 +976,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What part of the human body does a gastroenterologist examine?\n\nChoices:\nA) Brain\nB) Skeleton\nC) Stomach\nD) Nose\n\nAnswer:"
     },
     {
@@ -986,7 +986,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is actor Antonio Banderas native language?\n\nChoices:\nA) Spanish\nB) Russian\nC) German\nD) French\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1001,7 +1001,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is actor Antonio Banderas native language?\n\nChoices:\nA) Spanish\nB) Russian\nC) German\nD) French\n\nAnswer:"
     },
     {
@@ -1011,7 +1011,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What high school does the gang from the 'Archie' comic strip attend?\n\nChoices:\nA) Ridgemont High\nB) Riverdale High\nC) Rumson High\nD) Riker's Island High\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1026,7 +1026,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What high school does the gang from the 'Archie' comic strip attend?\n\nChoices:\nA) Ridgemont High\nB) Riverdale High\nC) Rumson High\nD) Riker's Island High\n\nAnswer:"
     },
     {
@@ -1036,7 +1036,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following has provided evidence that the Sun's atmosphere contains sodium atoms?\n\nChoices:\nA) Absorption lines in the solar spectrum are consistent with the presence of sodium.\nB) Stars with the same spectral class as the Sun are made mostly of sodium.\nC) Solar samples returned to Earth by the Voyager spacecraft contained sodium.\nD) The Sun gives off energy produced by the nuclear fusion of sodium in its core\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1051,7 +1051,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following has provided evidence that the Sun's atmosphere contains sodium atoms?\n\nChoices:\nA) Absorption lines in the solar spectrum are consistent with the presence of sodium.\nB) Stars with the same spectral class as the Sun are made mostly of sodium.\nC) Solar samples returned to Earth by the Voyager spacecraft contained sodium.\nD) The Sun gives off energy produced by the nuclear fusion of sodium in its core\n\nAnswer:"
     },
     {
@@ -1061,7 +1061,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In baseball how many balls make a walk?\n\nChoices:\nA) one\nB) two\nC) three\nD) four\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1076,7 +1076,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In baseball how many balls make a walk?\n\nChoices:\nA) one\nB) two\nC) three\nD) four\n\nAnswer:"
     },
     {
@@ -1086,7 +1086,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a renewable energy source?\n\nChoices:\nA) Wood\nB) Oil\nC) Natural gas\nD) Coal\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1101,7 +1101,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following is a renewable energy source?\n\nChoices:\nA) Wood\nB) Oil\nC) Natural gas\nD) Coal\n\nAnswer:"
     },
     {
@@ -1111,7 +1111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which part of the electromagnetic spectrum has the shortest wavelength?\n\nChoices:\nA) Gamma rays\nB) X-rays\nC) Radio waves\nD) Microwaves\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1126,7 +1126,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which part of the electromagnetic spectrum has the shortest wavelength?\n\nChoices:\nA) Gamma rays\nB) X-rays\nC) Radio waves\nD) Microwaves\n\nAnswer:"
     },
     {
@@ -1136,7 +1136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which company holds an annual self-named 'Bake-Off'?\n\nChoices:\nA) Betty Crocker\nB) Duncan Hines\nC) Pillsbury\nD) Keebler\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1151,7 +1151,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which company holds an annual self-named 'Bake-Off'?\n\nChoices:\nA) Betty Crocker\nB) Duncan Hines\nC) Pillsbury\nD) Keebler\n\nAnswer:"
     },
     {
@@ -1161,7 +1161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following materials has a resistance that is LEAST affected by temperature changes?\n\nChoices:\nA) Copper\nB) Carbon\nC) Germanium\nD) Silicon\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1176,7 +1176,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following materials has a resistance that is LEAST affected by temperature changes?\n\nChoices:\nA) Copper\nB) Carbon\nC) Germanium\nD) Silicon\n\nAnswer:"
     },
     {
@@ -1186,7 +1186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these evangelists is a cousin of rocker Jerry Lee Lewis?\n\nChoices:\nA) Billy Graham\nB) Oral Roberts\nC) Jerry Falwell\nD) Jimmy Swaggart\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1201,7 +1201,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these evangelists is a cousin of rocker Jerry Lee Lewis?\n\nChoices:\nA) Billy Graham\nB) Oral Roberts\nC) Jerry Falwell\nD) Jimmy Swaggart\n\nAnswer:"
     },
     {
@@ -1211,7 +1211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How many pairs of chromosomes are in the genome of a typical person?\n\nChoices:\nA) 1\nB) 23\nC) 88\nD) 7921\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1226,7 +1226,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How many pairs of chromosomes are in the genome of a typical person?\n\nChoices:\nA) 1\nB) 23\nC) 88\nD) 7921\n\nAnswer:"
     },
     {
@@ -1236,7 +1236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How many innings are there in a regular Major League Baseball game?\n\nChoices:\nA) seven\nB) eight\nC) nine\nD) ten\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1251,7 +1251,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How many innings are there in a regular Major League Baseball game?\n\nChoices:\nA) seven\nB) eight\nC) nine\nD) ten\n\nAnswer:"
     },
     {
@@ -1261,7 +1261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the name of the South African political party that was headed by Nelson Mandela?\n\nChoices:\nA) African National Congress\nB) South African Democrats\nC) Inkatha Freedom Party\nD) Aryan National Assembly\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1276,7 +1276,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the name of the South African political party that was headed by Nelson Mandela?\n\nChoices:\nA) African National Congress\nB) South African Democrats\nC) Inkatha Freedom Party\nD) Aryan National Assembly\n\nAnswer:"
     },
     {
@@ -1286,7 +1286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Where did jazz great Sun Ra claim he was born?\n\nChoices:\nA) Atlantis\nB) Mount Olympus\nC) Saturn\nD) in a saxophone\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1301,7 +1301,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Where did jazz great Sun Ra claim he was born?\n\nChoices:\nA) Atlantis\nB) Mount Olympus\nC) Saturn\nD) in a saxophone\n\nAnswer:"
     },
     {
@@ -1311,7 +1311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these is not a Hindudeity?\n\nChoices:\nA) Shiva\nB) Vishnu\nC) Sanskrit\nD) Brahma\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1326,7 +1326,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these is not a Hindudeity?\n\nChoices:\nA) Shiva\nB) Vishnu\nC) Sanskrit\nD) Brahma\n\nAnswer:"
     },
     {
@@ -1336,7 +1336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following was a direct result of the First Opium War of 1839-1842?\n\nChoices:\nA) The Chinese commissioner of trade in Canton (Guangzhou) banned the opium trade in that city.\nB) China was forced to open some of its ports to international trade.\nC) Chinese revolutionaries toppled the Qing dynasty.\nD) Chinese leaders set out to remake their economy along Western lines.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1351,7 +1351,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following was a direct result of the First Opium War of 1839-1842?\n\nChoices:\nA) The Chinese commissioner of trade in Canton (Guangzhou) banned the opium trade in that city.\nB) China was forced to open some of its ports to international trade.\nC) Chinese revolutionaries toppled the Qing dynasty.\nD) Chinese leaders set out to remake their economy along Western lines.\n\nAnswer:"
     },
     {
@@ -1361,7 +1361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The Strauss family of composers popularized what dance?\n\nChoices:\nA) waltz\nB) tango\nC) fox-trot\nD) square dance\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1376,7 +1376,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The Strauss family of composers popularized what dance?\n\nChoices:\nA) waltz\nB) tango\nC) fox-trot\nD) square dance\n\nAnswer:"
     },
     {
@@ -1386,7 +1386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What was the revenue for flat screen televisions sold in Australia in the past 12 months (as of 2013)?\n\nChoices:\nA) $120 million annual Revenue\nB) $1.2 billion annual Revenue\nC) $12 billion annual Revenue\nD) $120 billion annual Revenue\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1401,7 +1401,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What was the revenue for flat screen televisions sold in Australia in the past 12 months (as of 2013)?\n\nChoices:\nA) $120 million annual Revenue\nB) $1.2 billion annual Revenue\nC) $12 billion annual Revenue\nD) $120 billion annual Revenue\n\nAnswer:"
     },
     {
@@ -1411,7 +1411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following artists is an English landscape painter who created a poetic sense of changing atmospheric effects by using tiny applications of local color?\n\nChoices:\nA) John Constable\nB) William Morris\nC) William Hogarth\nD) Joshua Reynolds\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1426,7 +1426,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following artists is an English landscape painter who created a poetic sense of changing atmospheric effects by using tiny applications of local color?\n\nChoices:\nA) John Constable\nB) William Morris\nC) William Hogarth\nD) Joshua Reynolds\n\nAnswer:"
     },
     {
@@ -1436,7 +1436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following steps in the design of a dog house would be earliest?\n\nChoices:\nA) Acquiring all the tools necessary for the building\nB) Purchasing all the materials for building the structure\nC) Identifying the color, shape, and style of the exterior surface\nD) Accessing the measurements of the dog and all the interior materials\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1451,7 +1451,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following steps in the design of a dog house would be earliest?\n\nChoices:\nA) Acquiring all the tools necessary for the building\nB) Purchasing all the materials for building the structure\nC) Identifying the color, shape, and style of the exterior surface\nD) Accessing the measurements of the dog and all the interior materials\n\nAnswer:"
     },
     {
@@ -1461,7 +1461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What are the Smothers Brothers'(first names?\n\nChoices:\nA) Frank and Bill\nB) Tom and Dick\nC) Dave and George\nD) Ed and Pete\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1476,7 +1476,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What are the Smothers Brothers'(first names?\n\nChoices:\nA) Frank and Bill\nB) Tom and Dick\nC) Dave and George\nD) Ed and Pete\n\nAnswer:"
     },
     {
@@ -1486,7 +1486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which of the following bands did Jimmy Page not play guitar?\n\nChoices:\nA) Bad Company\nB) The Firm\nC) Led Zeppelin\nD) The Yardbirds\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1501,7 +1501,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which of the following bands did Jimmy Page not play guitar?\n\nChoices:\nA) Bad Company\nB) The Firm\nC) Led Zeppelin\nD) The Yardbirds\n\nAnswer:"
     },
     {
@@ -1511,7 +1511,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these is not one of the four basic forces in nature?\n\nChoices:\nA) electromagnetic\nB) gravitational\nC) nuclear\nD) centrifugal\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1526,7 +1526,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these is not one of the four basic forces in nature?\n\nChoices:\nA) electromagnetic\nB) gravitational\nC) nuclear\nD) centrifugal\n\nAnswer:"
     },
     {
@@ -1536,7 +1536,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How much energy do Americans waste each year by throwing out the unused ice in their drinks?\n\nChoices:\nA) 6*10^8 J\nB) 6*10^11 J\nC) 6*10^14 J\nD) 6*10^17 J\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1551,7 +1551,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How much energy do Americans waste each year by throwing out the unused ice in their drinks?\n\nChoices:\nA) 6*10^8 J\nB) 6*10^11 J\nC) 6*10^14 J\nD) 6*10^17 J\n\nAnswer:"
     },
     {
@@ -1561,7 +1561,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which layer of Earth is the geomagnetic field generated?\n\nChoices:\nA) Outer core\nB) Crust\nC) Mantle\nD) Inner core\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1576,7 +1576,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which layer of Earth is the geomagnetic field generated?\n\nChoices:\nA) Outer core\nB) Crust\nC) Mantle\nD) Inner core\n\nAnswer:"
     },
     {
@@ -1586,7 +1586,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What car company once manufactured and sold the 'Datsun' line of automobiles?\n\nChoices:\nA) Nissan\nB) Mazda\nC) Toyota\nD) Daihatsu\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1601,7 +1601,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What car company once manufactured and sold the 'Datsun' line of automobiles?\n\nChoices:\nA) Nissan\nB) Mazda\nC) Toyota\nD) Daihatsu\n\nAnswer:"
     },
     {
@@ -1611,7 +1611,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In horse racing what is the term for a wager on the 1st 2nd and 3rd place finishers in a specific race?\n\nChoices:\nA) triple action\nB) trifecta\nC) exacta\nD) triple crown\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1626,7 +1626,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In horse racing what is the term for a wager on the 1st 2nd and 3rd place finishers in a specific race?\n\nChoices:\nA) triple action\nB) trifecta\nC) exacta\nD) triple crown\n\nAnswer:"
     },
     {
@@ -1636,7 +1636,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which of these sports do competitors use a 'funny car'?\n\nChoices:\nA) supercross\nB) dogsledding\nC) gymnastics\nD) drag racing\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1651,7 +1651,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In which of these sports do competitors use a 'funny car'?\n\nChoices:\nA) supercross\nB) dogsledding\nC) gymnastics\nD) drag racing\n\nAnswer:"
     },
     {
@@ -1661,7 +1661,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What was the name of the first ship to sail around the world?\n\nChoices:\nA) Triton\nB) Victoria\nC) Magellan\nD) Elizabeth II\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1676,7 +1676,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What was the name of the first ship to sail around the world?\n\nChoices:\nA) Triton\nB) Victoria\nC) Magellan\nD) Elizabeth II\n\nAnswer:"
     },
     {
@@ -1686,7 +1686,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A _ is a plant cell that helps control the passage of materials into and out of the stomates.\n\nChoices:\nA) Cell membrane\nB) Cytoplasm\nC) Guard cell\nD) Cellulose\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1701,7 +1701,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: A _ is a plant cell that helps control the passage of materials into and out of the stomates.\n\nChoices:\nA) Cell membrane\nB) Cytoplasm\nC) Guard cell\nD) Cellulose\n\nAnswer:"
     },
     {
@@ -1711,7 +1711,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What country was once ruled by shoguns?\n\nChoices:\nA) China\nB) Japan\nC) North Korea\nD) Taiwan\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1726,7 +1726,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What country was once ruled by shoguns?\n\nChoices:\nA) China\nB) Japan\nC) North Korea\nD) Taiwan\n\nAnswer:"
     },
     {
@@ -1736,7 +1736,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Animals in which of the following groups may have a backbone and a spinal cord?\n\nChoices:\nA) Mollusks\nB) Chordates\nC) Invertebrates\nD) Echinoderms\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1751,7 +1751,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Animals in which of the following groups may have a backbone and a spinal cord?\n\nChoices:\nA) Mollusks\nB) Chordates\nC) Invertebrates\nD) Echinoderms\n\nAnswer:"
     },
     {
@@ -1761,7 +1761,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following groups was converted to Christianity in the tenth century AD by missionaries from the Byzantine Empire?\n\nChoices:\nA) Franks\nB) Visigoths\nC) Russians\nD) Anglo-Saxons\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1776,7 +1776,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following groups was converted to Christianity in the tenth century AD by missionaries from the Byzantine Empire?\n\nChoices:\nA) Franks\nB) Visigoths\nC) Russians\nD) Anglo-Saxons\n\nAnswer:"
     },
     {
@@ -1786,7 +1786,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What do herpetologists study?\n\nChoices:\nA) Herpes\nB) Blood\nC) Insects\nD) Reptiles and amphibians\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1801,7 +1801,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What do herpetologists study?\n\nChoices:\nA) Herpes\nB) Blood\nC) Insects\nD) Reptiles and amphibians\n\nAnswer:"
     },
     {
@@ -1811,7 +1811,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these refers to an alcoholic drink laced with a knockout drug?\n\nChoices:\nA) Zombie\nB) Kamikaze\nC) Mickey Finn\nD) Molotov cocktail\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1826,7 +1826,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these refers to an alcoholic drink laced with a knockout drug?\n\nChoices:\nA) Zombie\nB) Kamikaze\nC) Mickey Finn\nD) Molotov cocktail\n\nAnswer:"
     },
     {
@@ -1836,7 +1836,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: During President Dwight Eisenhower's administration in the 1950s, the federal government promoted significant changes in transportation in the United States by\n\nChoices:\nA) establishing generous subsidies for urban mass transit\nB) sponsoring research to develop less polluting automobiles\nC) funding the construction of the interstate highway system\nD) funding the establishment of a national railroad passenger system\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1851,7 +1851,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: During President Dwight Eisenhower's administration in the 1950s, the federal government promoted significant changes in transportation in the United States by\n\nChoices:\nA) establishing generous subsidies for urban mass transit\nB) sponsoring research to develop less polluting automobiles\nC) funding the construction of the interstate highway system\nD) funding the establishment of a national railroad passenger system\n\nAnswer:"
     },
     {
@@ -1861,7 +1861,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In the movie 'Star Wars' what kind of creature is Chewbacca?\n\nChoices:\nA) Woolie\nB) Woobie\nC) Wookiee\nD) Klingon\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1876,7 +1876,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In the movie 'Star Wars' what kind of creature is Chewbacca?\n\nChoices:\nA) Woolie\nB) Woobie\nC) Wookiee\nD) Klingon\n\nAnswer:"
     },
     {
@@ -1886,7 +1886,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these is not one of the three branches of the US government?\n\nChoices:\nA) Judicial\nB) Executive\nC) Parliamentary\nD) Legislative\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1901,7 +1901,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these is not one of the three branches of the US government?\n\nChoices:\nA) Judicial\nB) Executive\nC) Parliamentary\nD) Legislative\n\nAnswer:"
     },
     {
@@ -1911,7 +1911,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Soil structure refers to which of the following?\n\nChoices:\nA) Arrangement of soil particles\nB) Proportion of sand, silt, and clay\nC) Organic composition\nD) Profile depth\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1926,7 +1926,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Soil structure refers to which of the following?\n\nChoices:\nA) Arrangement of soil particles\nB) Proportion of sand, silt, and clay\nC) Organic composition\nD) Profile depth\n\nAnswer:"
     },
     {
@@ -1936,7 +1936,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What team has won the most World Series?\n\nChoices:\nA) Chicago Cubs\nB) Los Angeles Dodgers\nC) New York Yankees\nD) San Francisco Giants\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1951,7 +1951,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What team has won the most World Series?\n\nChoices:\nA) Chicago Cubs\nB) Los Angeles Dodgers\nC) New York Yankees\nD) San Francisco Giants\n\nAnswer:"
     },
     {
@@ -1961,7 +1961,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following questions can a student ask to best determine whether an author is using the persuasive technique of pathos in a passage?\n\nChoices:\nA) Does the author use tone and style to convey authority on the subject to the audience?\nB) Does the author use credible and reliable sources to convince the audience of the argument?\nC) Does the author use facts and sound reasoning to substantiate claims made to the audience?\nD) Does the author use personal connections and stories to appeal to the audience's emotions?\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -1976,7 +1976,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following questions can a student ask to best determine whether an author is using the persuasive technique of pathos in a passage?\n\nChoices:\nA) Does the author use tone and style to convey authority on the subject to the audience?\nB) Does the author use credible and reliable sources to convince the audience of the argument?\nC) Does the author use facts and sound reasoning to substantiate claims made to the audience?\nD) Does the author use personal connections and stories to appeal to the audience's emotions?\n\nAnswer:"
     },
     {
@@ -1986,7 +1986,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Determining how a product can be useful, identifying the target price, finding a place to sell the product, and deciding how to promote it best exemplifies using\n\nChoices:\nA) market research\nB) positioning\nC) marketing mix\nD) segmenting\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2001,7 +2001,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Determining how a product can be useful, identifying the target price, finding a place to sell the product, and deciding how to promote it best exemplifies using\n\nChoices:\nA) market research\nB) positioning\nC) marketing mix\nD) segmenting\n\nAnswer:"
     },
     {
@@ -2011,7 +2011,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these famous baseball figures was once acquitted at court-martial for insubordination?\n\nChoices:\nA) Abner Doubleday\nB) Ty Cobb\nC) Jackie Robinson\nD) Billy Martin\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2026,7 +2026,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these famous baseball figures was once acquitted at court-martial for insubordination?\n\nChoices:\nA) Abner Doubleday\nB) Ty Cobb\nC) Jackie Robinson\nD) Billy Martin\n\nAnswer:"
     },
     {
@@ -2036,7 +2036,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these words is a synonym for 'perambulate'?\n\nChoices:\nA) kiss\nB) shout\nC) stroll\nD) heal\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2051,7 +2051,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these words is a synonym for 'perambulate'?\n\nChoices:\nA) kiss\nB) shout\nC) stroll\nD) heal\n\nAnswer:"
     },
     {
@@ -2061,7 +2061,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In the comic strip 'Peanuts' what is Schroeder known for doing?\n\nChoices:\nA) Dancing\nB) playing football\nC) playing the piano\nD) Flying an imaginary plane\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2076,7 +2076,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In the comic strip 'Peanuts' what is Schroeder known for doing?\n\nChoices:\nA) Dancing\nB) playing football\nC) playing the piano\nD) Flying an imaginary plane\n\nAnswer:"
     },
     {
@@ -2086,7 +2086,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How many states were in the Confederate States of America?\n\nChoices:\nA) 11\nB) 13\nC) 16\nD) 22\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2101,7 +2101,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How many states were in the Confederate States of America?\n\nChoices:\nA) 11\nB) 13\nC) 16\nD) 22\n\nAnswer:"
     },
     {
@@ -2111,7 +2111,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In the children's game what color is 'Rover'?\n\nChoices:\nA) Green\nB) black\nC) red\nD) blue\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2126,7 +2126,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In the children's game what color is 'Rover'?\n\nChoices:\nA) Green\nB) black\nC) red\nD) blue\n\nAnswer:"
     },
     {
@@ -2136,7 +2136,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If you work as a 'dolly grip' what business are you in?\n\nChoices:\nA) sheep farming\nB) film production\nC) construction\nD) moving\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2151,7 +2151,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: If you work as a 'dolly grip' what business are you in?\n\nChoices:\nA) sheep farming\nB) film production\nC) construction\nD) moving\n\nAnswer:"
     },
     {
@@ -2161,7 +2161,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How many stars are on the American flag?\n\nChoices:\nA) 13\nB) 48\nC) 50\nD) 51\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2176,7 +2176,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: How many stars are on the American flag?\n\nChoices:\nA) 13\nB) 48\nC) 50\nD) 51\n\nAnswer:"
     },
     {
@@ -2186,7 +2186,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The traitor is a traitor, so you are a traitor, so I am a patriot.The words of a patriot are the most valuable, so my words are good.Since my words are good, you are undoubtedly a traitor! Which of the following makes the same logical mistake as above?\n\nChoices:\nA) Literature and art are not worthy of attention. Modernization must relies on science and technology, so science and technology are worthy of our attention. But literature and art are not science and technology.\nB) Non-university can also become an outstanding talent. Gorky, Edison, Faraday, Franklin, etc. have not attended college, but they have all become outstanding talents.\nC) The earth is a sphere, which can be proved from the fact that when we stand at a height and watch the sailing boat in the sea, we always see the mast first and then the hull. The reason for this is because the earth is a sphere.\nD) I saw them coming out of this chemical plant several times before I realized that this young man who was eager to help patients was originally a worker in this chemical plant.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2201,7 +2201,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
+      "acc": 0.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The traitor is a traitor, so you are a traitor, so I am a patriot.The words of a patriot are the most valuable, so my words are good.Since my words are good, you are undoubtedly a traitor! Which of the following makes the same logical mistake as above?\n\nChoices:\nA) Literature and art are not worthy of attention. Modernization must relies on science and technology, so science and technology are worthy of our attention. But literature and art are not science and technology.\nB) Non-university can also become an outstanding talent. Gorky, Edison, Faraday, Franklin, etc. have not attended college, but they have all become outstanding talents.\nC) The earth is a sphere, which can be proved from the fact that when we stand at a height and watch the sailing boat in the sea, we always see the mast first and then the hull. The reason for this is because the earth is a sphere.\nD) I saw them coming out of this chemical plant several times before I realized that this young man who was eager to help patients was originally a worker in this chemical plant.\n\nAnswer:"
     },
     {
@@ -2211,7 +2211,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In what decade did Israel become an independent state?\n\nChoices:\nA) 1920s\nB) 1940s\nC) 1950s\nD) 1960s\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2226,7 +2226,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: In what decade did Israel become an independent state?\n\nChoices:\nA) 1920s\nB) 1940s\nC) 1950s\nD) 1960s\n\nAnswer:"
     },
     {
@@ -2236,7 +2236,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Ada Lovelace is credited with being the first person to have made what?\n\nChoices:\nA) a computer program\nB) a souffle\nC) a brassiere\nD) a mystery novel\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2251,7 +2251,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Ada Lovelace is credited with being the first person to have made what?\n\nChoices:\nA) a computer program\nB) a souffle\nC) a brassiere\nD) a mystery novel\n\nAnswer:"
     },
     {
@@ -2261,7 +2261,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What part of the world was once known as Cathay?\n\nChoices:\nA) China\nB) India\nC) Iran\nD) Indonesia\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2276,7 +2276,7 @@
         "A"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What part of the world was once known as Cathay?\n\nChoices:\nA) China\nB) India\nC) Iran\nD) Indonesia\n\nAnswer:"
     },
     {
@@ -2286,7 +2286,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following statements accurately describes a JPEG compressed digital photograph?\n\nChoices:\nA) The JPEG format is used only for color photos.\nB) A JPEG compression alters the proportions of the original image by rearranging data.\nC) A JPEG compression sharpens the details in an image.\nD) The JPEG format compresses file size by selectively discarding data.\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2301,7 +2301,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following statements accurately describes a JPEG compressed digital photograph?\n\nChoices:\nA) The JPEG format is used only for color photos.\nB) A JPEG compression alters the proportions of the original image by rearranging data.\nC) A JPEG compression sharpens the details in an image.\nD) The JPEG format compresses file size by selectively discarding data.\n\nAnswer:"
     },
     {
@@ -2311,7 +2311,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The first sound recording to be made and reproduced was a recitation of what nursery rhyme?\n\nChoices:\nA) Humpty Dumpty'\nB) Mary Had a Little Lamb'\nC) Jack Be Nimble'\nD) Home Sweet Home'\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2326,7 +2326,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: The first sound recording to be made and reproduced was a recitation of what nursery rhyme?\n\nChoices:\nA) Humpty Dumpty'\nB) Mary Had a Little Lamb'\nC) Jack Be Nimble'\nD) Home Sweet Home'\n\nAnswer:"
     },
     {
@@ -2336,7 +2336,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following breakfast cereals is shaped like the letter O?\n\nChoices:\nA) Life Corn\nB) Chex\nC) Cheerios\nD) Raisin Bran\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2351,7 +2351,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of the following breakfast cereals is shaped like the letter O?\n\nChoices:\nA) Life Corn\nB) Chex\nC) Cheerios\nD) Raisin Bran\n\nAnswer:"
     },
     {
@@ -2361,7 +2361,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What sporting event is held annually on Memorial Day weekend?\n\nChoices:\nA) Iditarod\nB) Kentucky Derby\nC) Indianapolis 500\nD) Super Bowl\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2376,7 +2376,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What sporting event is held annually on Memorial Day weekend?\n\nChoices:\nA) Iditarod\nB) Kentucky Derby\nC) Indianapolis 500\nD) Super Bowl\n\nAnswer:"
     },
     {
@@ -2386,7 +2386,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What company makes Oreo cookies?\n\nChoices:\nA) General Mills\nB) Nabisco\nC) Keebler\nD) Kraft\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2401,7 +2401,7 @@
         "B"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What company makes Oreo cookies?\n\nChoices:\nA) General Mills\nB) Nabisco\nC) Keebler\nD) Kraft\n\nAnswer:"
     },
     {
@@ -2411,7 +2411,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which dwarf planet is closest to the Sun?\n\nChoices:\nA) Pluto\nB) Eris\nC) Ceres\nD) Makemake\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2426,7 +2426,7 @@
         "C"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which dwarf planet is closest to the Sun?\n\nChoices:\nA) Pluto\nB) Eris\nC) Ceres\nD) Makemake\n\nAnswer:"
     },
     {
@@ -2436,7 +2436,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these is commonly used to treat allergies?\n\nChoices:\nA) antimatter\nB) anticoagulants\nC) antiseptics\nD) antihistamines\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2451,7 +2451,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: Which of these is commonly used to treat allergies?\n\nChoices:\nA) antimatter\nB) anticoagulants\nC) antiseptics\nD) antihistamines\n\nAnswer:"
     },
     {
@@ -2461,7 +2461,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the baseball term for a batter who substitutes for another batter?\n\nChoices:\nA) Switchhitter\nB) Shadow hitter\nC) Clip hitter\nD) Pinch hitter\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2476,7 +2476,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: What is the baseball term for a batter who substitutes for another batter?\n\nChoices:\nA) Switchhitter\nB) Shadow hitter\nC) Clip hitter\nD) Pinch hitter\n\nAnswer:"
     },
     {
@@ -2486,7 +2486,7 @@
         "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: By what collective name do Christians refer to God the Father God the Son and the Holy Ghost?\n\nChoices:\nA) the Trio\nB) the Troika\nC) the Triumvirate\nD) the Trinity\n\nAnswer:",
         {
           "max_new_tokens": 3,
-          "temperature": 0,
+          "temperature": 0.0,
           "until": [
             "\n",
             ".",
@@ -2501,7 +2501,7 @@
         "D"
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
+      "acc": 1.0,
       "input": "MMLU Redux 2.0 (mmlu_redux_miscellaneous) - Generative Multiple Choice.Answer the following multiple-choice question by providing only the letter (A, B, C, or D) corresponding to the correct option.\n\nQuestion: By what collective name do Christians refer to God the Father God the Son and the Holy Ghost?\n\nChoices:\nA) the Trio\nB) the Troika\nC) the Triumvirate\nD) the Trinity\n\nAnswer:"
     }
   ]

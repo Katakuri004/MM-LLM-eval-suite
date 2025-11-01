@@ -1,6 +1,6 @@
 {
   "model": "Qwewn_Qwen2VL",
-  "created_at": "2025-10-31T01:05:03.085Z",
+  "created_at": "2025-10-31T06:35:03.085496",
   "benchmark_id": "hellaswag",
   "total_samples": 10042,
   "samples": [
@@ -52,8 +52,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Roof shingle removal: A man is sitting on a roof. He"
     },
     {
@@ -104,8 +104,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Clean and jerk: A lady walks to a barbell. She bends down and grabs the pole. The lady"
     },
     {
@@ -156,8 +156,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Canoeing: Two women in a child are shown in a canoe while a man pulls the canoe while standing in the water, with other individuals visible in the background. The child and a different man"
     },
     {
@@ -208,8 +208,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "High jump: A boy is running down a track. The boy"
     },
     {
@@ -260,8 +260,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "High jump: The boy lifts his body above the height of a pole. The boy lands on his back on to a red mat. The boy"
     },
     {
@@ -312,8 +312,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "High jump: The boy lands on his back on to a red mat. The boy gets up from the mat. The boy"
     },
     {
@@ -364,8 +364,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Playing harmonica: A man is standing in front of a camera. He starts playing a harmonica for the camera. He"
     },
     {
@@ -416,8 +416,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "acc_norm": 1,
+      "acc": 1.0,
+      "acc_norm": 1.0,
       "input": "Sumo: A cartoon animation video is shown with people wandering around and rockets being shot. Two men"
     },
     {
@@ -468,8 +468,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Sharpening knives: A man is holding a pocket knife while sitting on some rocks in the wilderness. Then he"
     },
     {
@@ -520,8 +520,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Sharpening knives: Then he takes a small stone from the flowing river and smashes it on another stone. He starts to crush the small stone to smaller pieces. He"
     },
     {
@@ -572,8 +572,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Sharpening knives: Then he takes a piece of bark and rubs the powered stone pieces onto it. The stone particles stick to the wet piece of wood. He"
     },
     {
@@ -624,8 +624,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Sharpening knives: The stone particles stick to the wet piece of wood. He then takes the knife and sharpens it against the wood piece. He"
     },
     {
@@ -676,8 +676,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Sharpening knives: He then takes the knife and sharpens it against the wood piece. He then notices a little black and green poisonous frog sitting next to him. The frog"
     },
     {
@@ -728,8 +728,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Sharpening knives: He then notices a little black and green poisonous frog sitting next to him. The frog then escapes and jumps away. He"
     },
     {
@@ -780,8 +780,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Playing bagpipes: A person is playing bagpipes out in a park. A man and two boys watching from a far. The camera"
     },
     {
@@ -832,8 +832,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Playing water polo: Two people are seen passing a ball back and fourth in a pool and leads into one speaking to the camera. The man"
     },
     {
@@ -884,8 +884,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Having an ice cream: A woman is sitting at a table in a fast food restaurant while eating. She continually speaks to nobody as she eats. She"
     },
     {
@@ -936,8 +936,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Cheerleading: A group of cheerleaders run onto a stage before a cheering audience. They"
     },
     {
@@ -988,8 +988,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Cheerleading: A group of cheerleaders run onto a stage before a cheering audience. They get into formation, then begin dancing and flipping as male cheerleaders join them. They all"
     },
     {
@@ -1040,8 +1040,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Cheerleading: They get into formation, then begin dancing and flipping as male cheerleaders join them. They all continue dancing and flipping, doing hand springs. When they"
     },
     {
@@ -1092,8 +1092,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 1,
+      "acc": 0.0,
+      "acc_norm": 1.0,
       "input": "Sharpening knives: A woman is reading a newspaper nearby while he speaks to her and shows her something in his hand. The man sharpens his knives using an electric tool. He"
     },
     {
@@ -1144,8 +1144,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Cutting the grass: A man is outside of a building. He is using commercial lawn mowing equipment. He"
     },
     {
@@ -1196,8 +1196,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Having an ice cream: Children bring desert out for their family member. The family"
     },
     {
@@ -1248,8 +1248,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Having an ice cream: The family enjoys eating the desert together. The people in the restaurant laugh at the man and he wonders what they are doing. The man"
     },
     {
@@ -1300,8 +1300,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Washing face: A black female is shown in a room with a black scarf around her head. Black spots on her faced"
     },
     {
@@ -1352,8 +1352,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Washing face: A black female is shown in a room with a black scarf around her head. Black spots on her faced are then zoomed in on and she begins to apply something on it. Next"
     },
     {
@@ -1404,8 +1404,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Paintball: A helicopter flies in some people who then start playing paintball. They"
     },
     {
@@ -1456,8 +1456,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Gargling mouthwash: A young boy and girl are standing over a sink with their mother talking. The mother"
     },
     {
@@ -1508,8 +1508,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Gargling mouthwash: A young boy and girl are standing over a sink with their mother talking. The mother instructs them on how to brush their teeth while laughing. The boy"
     },
     {
@@ -1560,8 +1560,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Gargling mouthwash: The mother instructs them on how to brush their teeth while laughing. The boy helps his younger sister brush his teeth. She"
     },
     {
@@ -1612,8 +1612,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 1,
+      "acc": 0.0,
+      "acc_norm": 1.0,
       "input": "Gargling mouthwash: She gets them some water to gargle in their mouths. The boy and girl begin playing in the sink. The woman"
     },
     {
@@ -1664,8 +1664,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Washing face: A cat is sitting in a cat bed. It is licking its paw. It"
     },
     {
@@ -1716,8 +1716,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Archery: A man in brown jacket is pulling out an arrow from the target board, then he was talking to the camera, then he pull out his bow and started to use it with his bow to hit the target board, he fired his bows several times. The man"
     },
     {
@@ -1768,8 +1768,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Cutting the grass: A man walks outside plugs his lawn mower in and gets ready to mow. He"
     },
     {
@@ -1820,8 +1820,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Cutting the grass: A man walks outside plugs his lawn mower in and gets ready to mow. He starts mowing his lawn casually going over all the grass. His dog"
     },
     {
@@ -1872,8 +1872,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Cutting the grass: He starts mowing his lawn casually going over all the grass. His dog comes outside and starts to follow him a little while he's closer to the house. The yard"
     },
     {
@@ -1924,8 +1924,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "acc_norm": 0,
+      "acc": 1.0,
+      "acc_norm": 0.0,
       "input": "Surfing: A sea is shown with a green forest on seashore. Blond man is standing in seashore and talking to the camera and surfing big waves on the sea. Man"
     },
     {
@@ -1976,8 +1976,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Washing face: We see a bottle of face wash. We"
     },
     {
@@ -2028,8 +2028,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Washing face: We see a person holding face wash then putting it on their face. They rinse the face and add the face wash with a brush. We"
     },
     {
@@ -2080,8 +2080,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Plastering: A person is seen throwing plaster onto a wall while the camera follows the person close behind. The person"
     },
     {
@@ -2132,8 +2132,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Applying sunscreen: More and more people begin talking and each of them has a bottle of sun screen and starts to squirt it on their arms in effort to protect their skin. A small blue bottle of the sun screen"
     },
     {
@@ -2184,8 +2184,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Beer pong: A group of boys are standing in a room with many clear cups of beer on a table they are all standing around. The boys"
     },
     {
@@ -2236,8 +2236,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Beer pong: The boys talk, laugh and tease each other before beginning a game of beer pong across a long table using a triangle shaped array of clear cups. One of the ping pongs"
     },
     {
@@ -2288,8 +2288,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "acc_norm": 0,
+      "acc": 1.0,
+      "acc_norm": 0.0,
       "input": "Beer pong: One of the ping pongs lands in the cup and one of the boys begins to drink the beer. The group"
     },
     {
@@ -2340,8 +2340,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Grooming dog: There's a nbc news reporter wearing a red sweater and white shirt talking about dog grooming by scissor wizard a grooming company. The representative from the company"
     },
     {
@@ -2392,8 +2392,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Grooming dog: The representative from the company is talking about the services they offer and how those dogs participate in dog shows. A groomer"
     },
     {
@@ -2444,8 +2444,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Having an ice cream: A woman tries to eat ice cream to a child, but the child refuses to eat the ice cream, then the woman eats the ice cream in the spoon. After"
     },
     {
@@ -2496,8 +2496,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Having an ice cream: After, the woman gives ice cream to the child, and then the woman cleans the child's mouth. An old woman"
     },
     {
@@ -2548,8 +2548,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Clean and jerk: Men are lifting heavy weights over their head several times. A man in a blue shirt is watching one of the men. A man in a gray shirt"
     },
     {
@@ -2600,8 +2600,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Grooming dog: In home pet groomers demonstrate how to groom a pet. The person"
     },
     {
@@ -2652,8 +2652,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Polishing shoes: A person polish a shoe with a wrapped finger. Then"
     },
     {
@@ -2704,8 +2704,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Zumba: Eight people are standing at the studio, one woman walked at the back of the group. The group"
     },
     {
@@ -2756,8 +2756,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Sharpening knives: A man is seen talking to the camera and presents his knife and sharpener. He then glides the knife down the sharpener and shows how other knives work with different sharpeners. He"
     },
     {
@@ -2808,8 +2808,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Playing harmonica: A man walks onto the stage to join a band. A man"
     },
     {
@@ -2860,8 +2860,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Playing harmonica: A man walks onto the stage to join a band. A man plays up front of a band with a harmonica. The keyboardist"
     },
     {
@@ -2912,8 +2912,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Running a marathon: A camera pans away from a road and shows a person's feet moving around. Several shots"
     },
     {
@@ -2964,8 +2964,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Running a marathon: A camera pans away from a road and shows a person's feet moving around. Several shots are shown of people tying their shoes, hitting a button, and checking a watch. People"
     },
     {
@@ -3016,8 +3016,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Using the pommel horse: A gymnast put power chalk power on his hands and stands near the pommel horse. Then"
     },
     {
@@ -3068,8 +3068,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Using the pommel horse: A gymnast put power chalk power on his hands and stands near the pommel horse. Then, the gymnast approach the pommel horse to spin around many times. Then"
     },
     {
@@ -3120,8 +3120,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Kayaking: A logo shows that this video is presented by expert village. A man in a small blue boat"
     },
     {
@@ -3172,8 +3172,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Kayaking: A man in a small blue boat discusses the topic of hand surfing in a hole and gives hints on how to perform this activity. The man"
     },
     {
@@ -3224,8 +3224,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Playing harmonica: The camera pans to show a man playing a harmonica while sitting on a log beside a river. A woman walks near the train tracks while a train drives by. The woman"
     },
     {
@@ -3276,8 +3276,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Playing harmonica: A woman walks near the train tracks while a train drives by. The woman sees the harmonica playing man in the distance. She"
     },
     {
@@ -3328,8 +3328,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Playing harmonica: The woman sees the harmonica playing man in the distance. She watches him and listens to him playing. She walks away leaving the man. The man"
     },
     {
@@ -3380,8 +3380,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Cleaning windows: A person is shown looking around a city and begins washing windows with his tools. He"
     },
     {
@@ -3432,8 +3432,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Cleaning windows: A person is shown looking around a city and begins washing windows with his tools. He goes up and down the windows at a rapid pace and continues filming himself through the glass. He"
     },
     {
@@ -3484,8 +3484,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Ice fishing: A man dressed in yellow and black winter clothes ice fishes on a a frozen lake. The man"
     },
     {
@@ -3536,8 +3536,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Ice fishing: A man dressed in yellow and black winter clothes ice fishes on a a frozen lake. The man is reeling in a fish for a long time. The mans catch"
     },
     {
@@ -3588,8 +3588,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Washing face: Two children are seen sitting in a tub rubbing their faces and another person's hands interacting. The boy"
     },
     {
@@ -3640,8 +3640,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Hitting a pinata: A woman hands a young boy a stick with a little girl grabbing for her attention. The pinata"
     },
     {
@@ -3692,8 +3692,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "acc_norm": 0,
+      "acc": 1.0,
+      "acc_norm": 0.0,
       "input": "Hitting a pinata: A woman hands a young boy a stick with a little girl grabbing for her attention. The pinata is lifted and the boy begins swinging at the object. The camera"
     },
     {
@@ -3744,8 +3744,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "acc_norm": 0,
+      "acc": 1.0,
+      "acc_norm": 0.0,
       "input": "Playing violin: A woman is playing a violin on the street while various people walk around here and behind her. She"
     },
     {
@@ -3796,8 +3796,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Making a sandwich: Various pictures of food are shown followed by a person cutting up vegetables and mixing various ingredients into a pot. He"
     },
     {
@@ -3848,8 +3848,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Making a lemonade: Ingredients are sitting on a wooden block. A person"
     },
     {
@@ -3900,8 +3900,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Hitting a pinata: A man is seen walking closer to a pinata while a large group of people stand around him. The man"
     },
     {
@@ -3952,8 +3952,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Ironing clothes: A pair of female hands uses an iron on a piece of baby clothing. The woman"
     },
     {
@@ -4004,8 +4004,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Ironing clothes: A pair of female hands uses an iron on a piece of baby clothing. The woman sets the iron aside and flips the clothing. The woman"
     },
     {
@@ -4056,8 +4056,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Ironing clothes: The woman sets the iron aside and flips the clothing. The woman uses the iron on the other side of the clothing. The woman"
     },
     {
@@ -4108,8 +4108,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Clipping cat claws: We see a chair with a pillow on it. A man holding a cat"
     },
     {
@@ -4160,8 +4160,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Clipping cat claws: We see a chair with a pillow on it. A man holding a cat sits down on the chair. The man clips the cats fingernails. The man"
     },
     {
@@ -4212,8 +4212,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 1,
-      "acc_norm": 1,
+      "acc": 1.0,
+      "acc_norm": 1.0,
       "input": "Clipping cat claws: A man holding a cat sits down on the chair. The man clips the cats fingernails. The man strokes the cat's head. The man"
     },
     {
@@ -4264,8 +4264,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Baton twirling: A young girl in a green leotard begins twirling a baton and doing tricks. The girl"
     },
     {
@@ -4316,8 +4316,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Baton twirling: The girl begins to incorporate her arms and does a flip and continues to flip the baton over her hands and arms. As the young lady"
     },
     {
@@ -4368,8 +4368,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Baton twirling: As the young lady continues her performance, she twirls the baton between her legs and over her head, catches it and does a gallop. The rest of the young girl's performance"
     },
     {
@@ -4420,8 +4420,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Removing ice from car: We see a man in a driveway cleaning snow from his car. The man"
     },
     {
@@ -4472,8 +4472,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Removing ice from car: We see a man in a driveway cleaning snow from his car. The man cleans the snow under his windshield wipers. We"
     },
     {
@@ -4524,8 +4524,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Removing ice from car: The man cleans the snow under his windshield wipers. We see the building behind the car. We do a 360 spin to see the parking lot. The man"
     },
     {
@@ -4576,8 +4576,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Clean and jerk: A man in a blue shirt and shorts lifts a large weight over his head. Another man is filming it. The same man comes back and lifts the weight over his head again. He"
     },
     {
@@ -4628,8 +4628,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Throwing darts: A man is seen throwing a dart onto a board and leads into a woman speaking. The man"
     },
     {
@@ -4680,8 +4680,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Surfing: A group of people are standing in the middle of a forest with a trail of pebbles separating them from a beautiful crystal clear body of water. The camera"
     },
     {
@@ -4732,8 +4732,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Surfing: The camera moves across the water and several people on boats and jet-skis are moving in the water near a large wave. More large waves begin to surface and a man begins surfing the waves. The forest"
     },
     {
@@ -4784,8 +4784,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Cutting the grass: A large patch of grass is shown. A man"
     },
     {
@@ -4836,8 +4836,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Rollerblading: A pilates instructor on skates explains how to strap your risk protectors tight and shows that you need knee pads to protect your knees. The lady"
     },
     {
@@ -4888,8 +4888,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Sharpening knives: A woman wearing a tan apron is holding a knife and talking. She then shows an appliance on the table and tilts it upwards. She"
     },
     {
@@ -4940,8 +4940,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Sharpening knives: She then shows an appliance on the table and tilts it upwards. She turns a dial on the appliance and sets it back down. She"
     },
     {
@@ -4992,8 +4992,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Sharpening knives: She turns a dial on the appliance and sets it back down. She picks the knife back up and places it on the appliance. She"
     },
     {
@@ -5044,8 +5044,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Sharpening knives: She picks the knife back up and places it in the appliance and slowly draws it back several times. She"
     },
     {
@@ -5096,8 +5096,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Sharpening knives: She picks the knife back up and places it in the appliance and slowly draws it back several times. She slices a tomato on a wood block with the knife. She"
     },
     {
@@ -5148,8 +5148,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Sharpening knives: A man wearing a black clothes is sharpening the knife on a stone. The man beside him on blue long sleeves drawing something on the table with his finger. The man"
     },
     {
@@ -5200,8 +5200,8 @@
         ]
       ],
       "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-      "acc": 0,
-      "acc_norm": 0,
+      "acc": 0.0,
+      "acc_norm": 0.0,
       "input": "Layup drill in basketball: A man is seen speaking to the camera while a shot of a person playing basketball shows behind. The man"
     }
   ]

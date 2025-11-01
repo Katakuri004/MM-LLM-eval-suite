@@ -628,36 +628,41 @@ export async function ensureProcessedExternalModel(id: string): Promise<External
 
   // 1) Consolidated metrics file for all benchmarks
   const metricsOut = path.join(modelDir, `metrics_${today}.json`)
-  const metricsSummary: Record<string, { total: number; count: number }> = {}
-  const consolidated = (detail.benchmarks || []).map(b => {
-    Object.entries(b.metrics || {}).forEach(([k, v]) => {
-      if (typeof v === 'number' && Number.isFinite(v)) {
-        if (!metricsSummary[k]) metricsSummary[k] = { total: 0, count: 0 }
-        metricsSummary[k].total += v
-        metricsSummary[k].count += 1
+  const metricsExists = await safeStat(metricsOut)
+  
+  if (!metricsExists) {
+    // Only write if file doesn't exist
+    const metricsSummary: Record<string, { total: number; count: number }> = {}
+    const consolidated = (detail.benchmarks || []).map(b => {
+      Object.entries(b.metrics || {}).forEach(([k, v]) => {
+        if (typeof v === 'number' && Number.isFinite(v)) {
+          if (!metricsSummary[k]) metricsSummary[k] = { total: 0, count: 0 }
+          metricsSummary[k].total += v
+          metricsSummary[k].count += 1
+        }
+      })
+      return {
+        benchmark_id: b.benchmark_id,
+        metrics: b.metrics || {},
+        total_samples: b.total_samples || 0,
+        files: (b.raw_files || []).map(f => ({ filename: f.filename, absolute_path: f.absolute_path })),
+        submissions: (b.raw_files || [])
+          .map(f => f.filename)
+          .filter(name => name && name.toString().includes('submissions/')),
       }
     })
-    return {
-      benchmark_id: b.benchmark_id,
-      metrics: b.metrics || {},
-      total_samples: b.total_samples || 0,
-      files: (b.raw_files || []).map(f => ({ filename: f.filename, absolute_path: f.absolute_path })),
-      submissions: (b.raw_files || [])
-        .map(f => f.filename)
-        .filter(name => name && name.toString().includes('submissions/')),
+    const summary: Record<string, number> = {}
+    Object.entries(metricsSummary).forEach(([k, v]) => {
+      if (v.count > 0) summary[k] = v.total / v.count
+    })
+    const metricsFilePayload = {
+      model: detail.model_name,
+      created_at: detail.created_at,
+      benchmarks: consolidated,
+      summary,
     }
-  })
-  const summary: Record<string, number> = {}
-  Object.entries(metricsSummary).forEach(([k, v]) => {
-    if (v.count > 0) summary[k] = v.total / v.count
-  })
-  const metricsFilePayload = {
-    model: detail.model_name,
-    created_at: detail.created_at,
-    benchmarks: consolidated,
-    summary,
+    await fs.writeFile(metricsOut, JSON.stringify(metricsFilePayload, null, 2), 'utf8')
   }
-  await fs.writeFile(metricsOut, JSON.stringify(metricsFilePayload, null, 2), 'utf8')
 
   // 2) Full responses per task
   const responsesIndex: Array<{ benchmark_id: string; file: string; absolute_path: string; total_samples: number }> = []
@@ -665,19 +670,36 @@ export async function ensureProcessedExternalModel(id: string): Promise<External
   for (const b of detail.benchmarks || []) {
     const safeId = b.benchmark_id.replace(/[^A-Za-z0-9_\-\.]/g, '_')
     const respOut = path.join(modelDir, `${safeId}_responses_${today}.json`)
-    const responsesPayload = {
-      model: detail.model_name,
-      created_at: detail.created_at,
-      benchmark_id: b.benchmark_id,
-      total_samples: b.total_samples || (b.samples_preview?.length || 0),
-      samples: b.samples_preview || [],
+    const responsesExists = await safeStat(respOut)
+    
+    if (!responsesExists) {
+      // Only write if file doesn't exist
+      const responsesPayload = {
+        model: detail.model_name,
+        created_at: detail.created_at,
+        benchmark_id: b.benchmark_id,
+        total_samples: b.total_samples || (b.samples_preview?.length || 0),
+        samples: b.samples_preview || [],
+      }
+      await fs.writeFile(respOut, JSON.stringify(responsesPayload, null, 2), 'utf8')
     }
-    await fs.writeFile(respOut, JSON.stringify(responsesPayload, null, 2), 'utf8')
+    
+    // Build index entry (read total_samples from file if it exists, otherwise use from detail)
+    let totalSamples = b.total_samples || (b.samples_preview?.length || 0)
+    if (responsesExists) {
+      try {
+        const existingContent = await readJson<{ total_samples?: number }>(respOut)
+        totalSamples = existingContent?.total_samples ?? totalSamples
+      } catch {
+        // If reading fails, use the value from detail
+      }
+    }
+    
     responsesIndex.push({
       benchmark_id: b.benchmark_id,
       file: path.relative(getResultsRoot(), respOut),
       absolute_path: respOut,
-      total_samples: responsesPayload.total_samples,
+      total_samples: totalSamples,
     })
 
     // Prepare UI-friendly benchmark list (no heavy samples)
@@ -685,7 +707,7 @@ export async function ensureProcessedExternalModel(id: string): Promise<External
       benchmark_id: b.benchmark_id,
       metrics: b.metrics || {},
       samples_preview: [],
-      total_samples: responsesPayload.total_samples,
+      total_samples: totalSamples,
       raw_files: [
         { filename: path.relative(getResultsRoot(), metricsOut), absolute_path: metricsOut },
         { filename: path.relative(getResultsRoot(), respOut), absolute_path: respOut },

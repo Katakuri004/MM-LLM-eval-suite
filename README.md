@@ -487,3 +487,53 @@ ws.onmessage = (event) => {
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 📂 External Results (Processed Artifacts)
+
+You can visualize results exported outside the built-in evaluation flow by placing raw outputs under `results/` and letting the app generate consolidated artifacts under `results/processed-json/`.
+
+- Input locations (examples):
+  - `results/Qwen_Qwen3-Omni-30B-A3B-Instruct/...`
+  - `results/Qwewn_Qwen2VL/...`
+- Processed artifacts (auto-generated):
+  - `results/processed-json/<model>/metrics_YYYYMMDD.json` (consolidated metrics across all benchmarks)
+  - `results/processed-json/<model>/<benchmark_id>_responses_YYYYMMDD.json` (full per-task samples)
+
+### How to List and View External Models
+
+- List all external models with summaries:
+  - Page: `/external-results`
+  - API: `/api/external-results`
+
+- View details for a model (IDs are shown in the list API):
+  - Page: `/external-results/<url-encoded-id>`
+  - API: `/api/external-results/<url-encoded-id>`
+
+Example IDs (URL-encoded):
+- `external%3AQwen_Qwen3-Omni-30B-A3B-Instruct`
+- `external%3AQwewn_Qwen2VL`
+
+### Generate/Regenerate Processed Artifacts
+
+If you update files under `results/`, regenerate processed artifacts:
+
+```
+/api/external-results/process?id=<url-encoded-id>
+/api/external-results/process              # all models
+```
+
+Example:
+```
+/api/external-results/process?id=external%3AQwen_Qwen3-Omni-30B-A3B-Instruct
+```
+
+### Frontend Visualization
+
+- The external model detail page renders metrics grouped by modality in tabs (Text, Image, Audio, Video). Tabs only appear when benchmarks exist for that modality.
+- The page links to paginated full responses and provides quick downloads.
+
+### Troubleshooting
+
+- 404 on detail API/page: Confirm the exact ID via `/api/external-results`. Use that value URL-encoded.
+- Folder rename (single vs double underscore): The system resolves both. Prefer single underscore folder names going forward (e.g., `Qwen_Qwen3-Omni-30B-A3B-Instruct`).
+- Missing metrics: Regenerate via the process API after adding/updating `results/` content.
+

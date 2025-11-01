@@ -17,6 +17,7 @@ from services.evaluation_service import evaluation_service
 from services.model_loader_service import model_loader_service
 from services.task_discovery_service import task_discovery_service
 from api.evaluation_endpoints import router as evaluation_router
+from api.external_results_endpoints import router as external_results_router
 
 logger = structlog.get_logger(__name__)
 
@@ -87,6 +88,9 @@ router = APIRouter(prefix="/api/v1", tags=["LMMS-Eval Dashboard"])
 
 # Include evaluation router
 router.include_router(evaluation_router, prefix="/evaluations", tags=["evaluations"])
+
+# Include external results router
+router.include_router(external_results_router, prefix="/external-results", tags=["external-results"])
 
 # Health check
 @router.get("/health")

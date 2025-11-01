@@ -8,17 +8,12 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { Database, Eye, Calendar, BarChart3 } from 'lucide-react'
 import { ShimmerLoader } from '@/components/ui/shimmer-loader'
-
-async function getExternalModels() {
-  const res = await fetch('/api/external-results', { cache: 'no-store' })
-  if (!res.ok) throw new Error('Failed to fetch external models')
-  return res.json()
-}
+import { apiClient } from '@/lib/api'
 
 export default function ExternalResultsPage() {
   const { data, isLoading, error } = useQuery({
     queryKey: ['external-models'],
-    queryFn: getExternalModels,
+    queryFn: () => apiClient.getExternalResults(),
     refetchOnWindowFocus: false,
   })
 

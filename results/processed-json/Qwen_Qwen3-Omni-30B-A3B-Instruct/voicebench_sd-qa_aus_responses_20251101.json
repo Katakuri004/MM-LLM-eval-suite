@@ -1,0 +1,2508 @@
+{
+  "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
+  "created_at": "2025-10-31T01:00:13.111Z",
+  "benchmark_id": "voicebench_sd-qa_aus",
+  "total_samples": 553,
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was quantum field theory developed?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 1,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The first Nobel Prize winner for Literature was Sully Prudhomme from France in 1901."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 2,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Who invented Hangul."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 3,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What do grasshoppers eat?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 4,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "How large is Kerman province of southeastern Iran?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 5,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was Guitar Hero Live first released?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 6,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When were bluebonnets named the state flower of Texas?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 7,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Manslaughter is a type of homicide. Homicide is the broader term for any killing of one person by another, while manslaughter specifically refers to an unlawful killing that is not considered murder, often due to a lack of intent or provocation."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 8,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "DC Comics first introduced the Guardians of the Universe in Green Lantern Corps #1 in 1960."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 9,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What is the largest parrot in New Zealand."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 10,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was the first Assassin's Creed released."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 11,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "21%"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 12,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The X-Men cartoon television series first aired on September 14, 1992."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 13,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The Battle of Sui Chai Fab was fought on the 12th of April, 1945."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 14,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What's the Navy's military mascot?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 15,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "There are five permanent members of the United Nations Security Council."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 16,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was special relativity developed?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 17,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Marxism developed in the mid-19th century, primarily through the work of Karl Marx and Friedrich Engels. Their foundational texts, such as *The Communist Manifesto* (published in 1848) and Marx's *Das Kapital* (first volume published in 1867), laid the groundwork for Marxist theory. The ideology emerged during the Industrial Revolution, as a critique of capitalism and a call for a classless society based on collective ownership of the means of production."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 18,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The first film directed by Andrei Tarkovsky was \"Ivan's Childhood\" (1962)."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 19,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Who was the last Han dynasty emperor?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 20,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Who wrote the song Happy Days."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 21,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Who was the first ruler of the Tang Dynasty?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 22,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was the first web page released?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 23,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The first Atlantic hurricane in 2000 was Hurricane Alberto."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 24,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The main version of Islam practiced in Iraq is Shia Islam."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 25,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What is within a nucleus of a cell."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 26,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The population of emperor penguins in Antarctica is estimated to be around 600,000 individuals."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 27,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The border between England and Wales is approximately 160 miles (257 kilometers) long."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 28,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was the first Spanish Grand Prix?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 29,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Who is the mayor of San Francisco."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 30,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When did Alfred die."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 31,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Chechens speak Chechen."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 32,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When were the Gallic Wars?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 33,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What is the oldest overseas U.S. military base?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 34,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Michelangelo created the David between 1501 and 1504."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 35,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The Nazi Party was founded on **January 5, 1919**."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 36,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Justin Morgan first appeared as a character in Home and Away in 2018."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 37,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The Prohibition Era in the US was from 1920 to 1933."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 38,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Who invented air conditioning?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 39,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What does GDP stand for."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 40,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was the Argentine Basketball Federation formed?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 41,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was Sony Pictures Television established?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 42,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Porsches are manufactured in Stuttgart, Germany."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 43,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Who wrote Frankenstein?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 44,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The writing of the Universal Declaration of Human Rights was led by Eleanor Roosevelt, who chaired the United Nations Commission on Human Rights. The drafting committee included representatives from various countries, such as René Cassin from France, Charles Malik from Lebanon, and Peng Chun Chang from China. The final document was adopted by the UN General Assembly on December 10, 1948."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 45,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Andy Richter left Late Night with Conan O'Brien in 2008."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 46,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Who was King Xiaowen of Qin's mother?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 47,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When did the Prizefighter series begin?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 48,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What's the biggest wasp?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 49,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was the University of Maryland football team established?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 50,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The Federalist Papers were written by Alexander Hamilton, James Madison, and John Jay."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 51,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The Sanjay Gandhi National Park is located in Mumbai, India."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 52,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What is the biggest cricket competition?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 53,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "In what city did Abel Posse grow up?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 54,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "John Bruce Thompson went to law school at the University of Texas."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 55,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "How long is the Omo River?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 56,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Pikes Peak is named for American explorer and military officer Zebulon Pike."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 57,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What is the oldest grave at Arlington National Cemetery?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 58,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When did the Isle of Man Railway start running?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 59,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was Annapolis Naval Academy founded."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 60,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What is an organophosphate."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 61,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What are the stages of grief."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 62,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was Mansfield Town Football Club first founded?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 63,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The current political leader of Indonesia is President Joko Widodo, also known as Jokowi."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 64,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The United States has the most tornadoes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 65,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "How large is Cougar Mountain Regional Wildland Park?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 66,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The TV show \"ER\" first aired on September 19, 1994."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 67,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The Universal Declaration of Human Rights was published in the year nineteen forty-eight."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 68,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When did the cartoon Duck Tales first air."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 69,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was the world wide web invented?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 70,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Who launched the first satellite?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 71,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "How many members does the National Labor Relations Board have."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 72,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was the Institutional Revolutionary Party established in Mexico?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 73,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What language do they speak in Buenos Aires"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 74,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was the Royal Observer Corps established?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 75,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Where is the Karaganda administrative region located?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 76,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What is the biggest diamond."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 77,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The difference between speed and velocity is that speed is a scalar quantity, meaning it only has magnitude, while velocity is a vector quantity, meaning it has both magnitude and direction."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 78,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was Abd al Malik ibn Marwan ibn al Hakam born?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 79,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Where was Christian von Ehrenfels born?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 80,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The main character of Fate/Zero is Kiritsugu Emiya."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 81,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "How is henna made?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 82,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What currency is used in Romania?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 83,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was the Iliad first written down?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 84,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When did Augustus become Roman emperor?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 85,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What is the difference between a telenovela and a soap opera."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 86,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Mongolia has 21 provinces."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 87,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "How many lanes does the Autobahn have?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 88,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What is the pink tax."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 89,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "The last king of Bosnia was Stephen Tomašević."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 90,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "What is the hottest day on record in Adelaide?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 91,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was Buffy the Vampire Slayer aired."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 92,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When did the case Pacific Gas and Electric Co. versus State Energy Resources Conservation and Development Commission go to Supreme Court?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 93,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was the Lateran Treaty?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 94,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When did the Vandal War end?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 95,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Where is the Meyer lemon from?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 96,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When was Fontamara first translated to English?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 97,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Who won a two thousand fifteen Vuelta a España?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 98,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "When did Julia Child write her book, Mastering the Art of French Cooking?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 99,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "voicebench_sd-qa_aus",
+        "aus"
+      ],
+      "filtered_resps": [
+        "Where in Ireland was Skeffington born?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pedant_score": 0,
+      "gpt4_score": 0,
+      "input": "Please listen to the audio and provide your response."
+    }
+  ]
+}

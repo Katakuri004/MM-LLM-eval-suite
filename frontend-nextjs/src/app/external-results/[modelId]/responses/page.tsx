@@ -12,13 +12,7 @@ import { Label } from '@/components/ui/label'
 import { Download, Search, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import { ShimmerLoader } from '@/components/ui/shimmer-loader'
-
-async function getExternalModel(id: string) {
-  const encoded = encodeURIComponent(id)
-  const res = await fetch(`/api/external-results/${encoded}`, { cache: 'no-store' })
-  if (!res.ok) throw new Error('Failed to fetch external model')
-  return res.json()
-}
+import { apiClient } from '@/lib/api'
 
 export default function ExternalModelResponsesPage() {
   const params = useParams()
@@ -26,7 +20,7 @@ export default function ExternalModelResponsesPage() {
 
   const { data: detail, isLoading } = useQuery({
     queryKey: ['external-model', modelId],
-    queryFn: () => getExternalModel(modelId),
+    queryFn: () => apiClient.getExternalModel(modelId),
     enabled: !!modelId,
     refetchOnWindowFocus: false,
   })

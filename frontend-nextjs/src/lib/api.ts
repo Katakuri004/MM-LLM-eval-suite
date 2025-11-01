@@ -277,6 +277,50 @@ export class ApiClient {
     return this.request<{ evaluation: any; results: any[]; total_results: number }>(`/evaluations/${id}/results`);
   }
 
+  // External Results Methods
+  async getExternalResults() {
+    return this.request<{ models: any[]; total: number }>('/external-results');
+  }
+
+  async getExternalModel(id: string) {
+    // Remove duplicate external: prefixes and ensure exactly one
+    let normalizedId = decodeURIComponent(id)
+    while (normalizedId.startsWith('external:external:')) {
+      normalizedId = normalizedId.slice('external:'.length)
+    }
+    if (!normalizedId.startsWith('external:')) {
+      normalizedId = `external:${normalizedId}`
+    }
+    const encoded = encodeURIComponent(normalizedId)
+    return this.request<any>(`/external-results/${encoded}`);
+  }
+
+  async getExternalModelResults(id: string) {
+    let normalizedId = decodeURIComponent(id)
+    while (normalizedId.startsWith('external:external:')) {
+      normalizedId = normalizedId.slice('external:'.length)
+    }
+    if (!normalizedId.startsWith('external:')) {
+      normalizedId = `external:${normalizedId}`
+    }
+    const encoded = encodeURIComponent(normalizedId)
+    return this.request<{ model: any; results: any[]; total_results: number }>(`/external-results/${encoded}/results`);
+  }
+
+  async getExternalModelSamples(id: string, benchmarkId?: string, limit = 100, offset = 0) {
+    let normalizedId = decodeURIComponent(id)
+    while (normalizedId.startsWith('external:external:')) {
+      normalizedId = normalizedId.slice('external:'.length)
+    }
+    if (!normalizedId.startsWith('external:')) {
+      normalizedId = `external:${normalizedId}`
+    }
+    const encoded = encodeURIComponent(normalizedId)
+    const params = new URLSearchParams({ limit: limit.toString(), offset: offset.toString() })
+    if (benchmarkId) params.append('benchmark_id', benchmarkId)
+    return this.request<{ model_id: string; benchmark_id?: string; samples: any[]; total: number; limit: number; offset: number }>(`/external-results/${encoded}/samples?${params}`);
+  }
+
   async cancelEvaluation(id: string) {
     if (id && id.startsWith('local:')) {
       throw new ApiError('Cannot cancel local evaluation', 400)

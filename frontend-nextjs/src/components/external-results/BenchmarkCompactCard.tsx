@@ -28,7 +28,8 @@ export function BenchmarkCompactCard({
     return sortedMetrics.slice(0, 6) // Show top 6 metrics
   }, [metrics])
 
-  const downloadFiles = React.useCallback(() => {
+  const downloadFiles = React.useCallback((e: React.MouseEvent) => {
+    e.stopPropagation() // Prevent triggering parent card click
     const payload = {
       benchmark_id,
       metrics,
@@ -46,7 +47,7 @@ export function BenchmarkCompactCard({
   }, [benchmark_id, metrics, total_samples])
 
   return (
-    <Card className="h-full flex flex-col">
+    <Card className="h-full flex flex-col transition-all duration-200 hover:shadow-lg hover:border-primary">
       <CardHeader className="pb-3">
         <div className="flex items-start justify-between gap-2">
           <CardTitle className="text-sm font-medium leading-tight line-clamp-2" title={benchmark_id}>

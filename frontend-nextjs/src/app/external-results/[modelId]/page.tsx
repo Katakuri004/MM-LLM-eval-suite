@@ -14,6 +14,13 @@ import { ResponsesTable } from '@/components/mock/ResponsesTable'
 import { aggregateCapabilities, mapBenchmarkToCapabilities } from '@/lib/capability-mapping'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Download, Eye, HelpCircle } from 'lucide-react'
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from '@/components/ui/dialog'
 import { ShimmerLoader } from '@/components/ui/shimmer-loader'
 import { apiClient } from '@/lib/api'
 import {
@@ -73,6 +80,8 @@ export default function ExternalModelDetailPage() {
   // State management for selected metric and active tab
   const [selectedMetric, setSelectedMetric] = useState<string | null>(null)
   const [activeTab, setActiveTab] = useState<string>('overview')
+  // State for selected benchmark detail view
+  const [selectedBenchmark, setSelectedBenchmark] = useState<any | null>(null)
 
   const { data: detail, isLoading, error } = useQuery({
     queryKey: ['external-model', modelId],
@@ -426,12 +435,25 @@ export default function ExternalModelDetailPage() {
         <TabsContent value="benchmarks" className="space-y-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {detail.benchmarks?.map((b: any) => (
-              <BenchmarkCompactCard
+              <div
                 key={b.benchmark_id}
-                benchmark_id={b.benchmark_id}
-                metrics={b.metrics || {}}
-                total_samples={b.total_samples}
-              />
+                role="button"
+                tabIndex={0}
+                onClick={() => setSelectedBenchmark(b)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault()
+                    setSelectedBenchmark(b)
+                  }
+                }}
+                className="cursor-pointer transition-all duration-200 hover:scale-105"
+              >
+                <BenchmarkCompactCard
+                  benchmark_id={b.benchmark_id}
+                  metrics={b.metrics || {}}
+                  total_samples={b.total_samples}
+                />
+              </div>
             ))}
         </div>
         </TabsContent>
@@ -579,6 +601,108 @@ export default function ExternalModelDetailPage() {
       </Tabs>
 
       <ExternalModelMetricsTabs detail={detailForTabs} />
+
+      {/* Benchmark Detail Dialog */}
+      <Dialog open={selectedBenchmark !== null} onOpenChange={(open) => !open && setSelectedBenchmark(null)}>
+        <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle>{selectedBenchmark?.benchmark_id}</DialogTitle>
+            <DialogDescription>
+              {selectedBenchmark?.total_samples !== undefined && (
+                <span className="text-sm text-muted-foreground">
+                  {selectedBenchmark.total_samples} samples
+                  {selectedBenchmark?.evaluation_time_seconds && (
+                    <span className="ml-2">
+                      • Evaluation time: {(() => {
+                        const seconds = selectedBenchmark.evaluation_time_seconds
+                        if (seconds < 60) {
+                          return `${seconds.toFixed(1)} seconds`
+                        } else if (seconds < 3600) {
+                          const mins = Math.floor(seconds / 60)
+                          const secs = seconds % 60
+                          return `${mins}m ${secs.toFixed(0)}s`
+                        } else {
+                          const hours = Math.floor(seconds / 3600)
+                          const mins = Math.floor((seconds % 3600) / 60)
+                          return `${hours}h ${mins}m`
+                        }
+                      })()}
+                    </span>
+                  )}
+                </span>
+              )}
+            </DialogDescription>
+          </DialogHeader>
+          
+          {selectedBenchmark && (
+            <div className="space-y-6 mt-4">
+              {/* Detailed Metrics Chart */}
+              <BenchmarkDetailChart
+                benchmark_id={selectedBenchmark.benchmark_id}
+                metrics={selectedBenchmark.metrics || {}}
+                total_samples={selectedBenchmark.total_samples}
+              />
+
+              {/* All Metrics Grid */}
+              {selectedBenchmark.metrics && Object.keys(selectedBenchmark.metrics).length > 0 && (
+                <Card>
+                  <CardHeader>
+                    <CardTitle>All Metrics</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                      {Object.entries(selectedBenchmark.metrics)
+                        .filter(([_, v]) => typeof v === 'number' && Number.isFinite(v))
+                        .map(([k, v]: any) => {
+                          const normalized = normalizeMetricValue(k, v)
+                          const displayName = k
+                            .replace(/_/g, ' ')
+                            .replace(/\bacc\b/gi, 'Acc')
+                            .replace(/\bexact match\b/gi, 'Exact Match')
+                            .replace(/\bstderr\b/gi, 'Stderr')
+                            .split(' ')
+                            .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+                            .join(' ')
+                          
+                          return (
+                            <div key={k} className="bg-muted/50 rounded-md px-3 py-2.5 text-center">
+                              <div className="text-xs text-muted-foreground mb-1 truncate" title={k}>
+                                {displayName}
+                              </div>
+                              <div className="text-lg font-semibold text-blue-600">
+                                {normalized.isPercentage 
+                                  ? `${normalized.displayValue.toFixed(2)}%`
+                                  : normalized.displayValue.toFixed(3)}
+                              </div>
+                            </div>
+                          )
+                        })}
+                    </div>
+                  </CardContent>
+                </Card>
+              )}
+
+              {/* Raw Files */}
+              {selectedBenchmark.raw_files && selectedBenchmark.raw_files.length > 0 && (
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Raw Files</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-2">
+                      {selectedBenchmark.raw_files.map((file: any, idx: number) => (
+                        <div key={idx} className="text-sm text-muted-foreground">
+                          {file.filename}
+                        </div>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              )}
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
     </div>
   )
 }

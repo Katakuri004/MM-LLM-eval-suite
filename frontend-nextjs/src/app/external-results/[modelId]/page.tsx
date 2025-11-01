@@ -9,8 +9,7 @@ import { Button } from '@/components/ui/button'
 import { ExternalModelMetricsTabs } from '@/components/external/ExternalModelMetricsTabs'
 import { CapabilitiesRadar } from '@/components/mock/CapabilitiesRadar'
 import { CapabilityBadge } from '@/components/mock/CapabilityBadge'
-import { ErrorAnalysis } from '@/components/mock/ErrorAnalysis'
-import { ResponsesTable } from '@/components/mock/ResponsesTable'
+import { ErrorAnalysisSummary } from '@/components/mock/ErrorAnalysisSummary'
 import { aggregateCapabilities, mapBenchmarkToCapabilities } from '@/lib/capability-mapping'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Download, Eye, HelpCircle } from 'lucide-react'
@@ -656,22 +655,11 @@ export default function ExternalModelDetailPage() {
         </TabsContent>
       </Tabs>
 
-      {/* Error analysis and responses (tabbed) */}
-      <Tabs defaultValue="errors">
-        <TabsList>
-          <TabsTrigger value="errors">Error Analysis</TabsTrigger>
-          <TabsTrigger value="responses">Model Responses</TabsTrigger>
-        </TabsList>
-        <TabsContent value="errors">
-          <ErrorAnalysis 
-            samples={responseRows} 
-            responsesLink={`/external-results/${encodeURIComponent(modelId)}/responses`}
-          />
-        </TabsContent>
-        <TabsContent value="responses">
-          <ResponsesTable rows={responseRows} />
-        </TabsContent>
-      </Tabs>
+      {/* Error Analysis Summary */}
+      <ErrorAnalysisSummary 
+        samples={responseRows} 
+        responsesLink={`/external-results/${encodeURIComponent(modelId)}/responses`}
+      />
 
       <ExternalModelMetricsTabs detail={detailForTabs} />
 

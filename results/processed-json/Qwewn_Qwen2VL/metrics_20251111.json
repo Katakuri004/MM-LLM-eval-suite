@@ -1,0 +1,122 @@
+{
+  "model": "Qwewn_Qwen2VL",
+  "created_at": "2025-10-31T06:35:03.085496",
+  "benchmarks": [
+    {
+      "benchmark_id": "ok_vqa_val2014",
+      "metrics": {
+        "exact_match": 0.45362663495837874,
+        "exact_match,none": 0.45362663495837874,
+        "exact_match_stderr": 0.00663602507305181,
+        "exact_match_stderr,none": 0.00663602507305181
+      },
+      "total_samples": 5046,
+      "files": [
+        {
+          "filename": "20251026_025159_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwewn_Qwen2VL\\qwen2vl_image_20251026_002013\\ok_vqa_val2014.jsonl\\20251026_025159_results.json"
+        },
+        {
+          "filename": "20251026_025159_samples_ok_vqa_val2014.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwewn_Qwen2VL\\qwen2vl_image_20251026_002013\\ok_vqa_val2014.jsonl\\20251026_025159_samples_ok_vqa_val2014.jsonl"
+        },
+        {
+          "filename": "submissions/ok_vqa-test-submission-2025-1026-0050-12.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwewn_Qwen2VL\\qwen2vl_image_20251026_002013\\ok_vqa_val2014.jsonl\\submissions\\ok_vqa-test-submission-2025-1026-0050-12.json"
+        }
+      ],
+      "submissions": [
+        "submissions/ok_vqa-test-submission-2025-1026-0050-12.json"
+      ]
+    },
+    {
+      "benchmark_id": "arc_challenge",
+      "metrics": {
+        "acc": 0.12713310580204779,
+        "acc,none": 0.12713310580204779,
+        "acc_stderr": 0.00973475199596078,
+        "acc_stderr,none": 0.00973475199596078,
+        "acc_norm": 0.11177474402730375,
+        "acc_norm,none": 0.11177474402730375,
+        "acc_norm_stderr": 0.009207780405950904,
+        "acc_norm_stderr,none": 0.009207780405950904
+      },
+      "total_samples": 1172,
+      "files": [
+        {
+          "filename": "20251026_022723_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwewn_Qwen2VL\\qwen2vl_text_20251025_234011\\arc_challenge.jsonl\\20251026_022723_results.json"
+        },
+        {
+          "filename": "20251026_022723_samples_arc_challenge.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwewn_Qwen2VL\\qwen2vl_text_20251025_234011\\arc_challenge.jsonl\\20251026_022723_samples_arc_challenge.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "arc_easy",
+      "metrics": {
+        "acc": 0.03324915824915825,
+        "acc,none": 0.03324915824915825,
+        "acc_stderr": 0.003678881507648524,
+        "acc_stderr,none": 0.003678881507648524,
+        "acc_norm": 0.05092592592592592,
+        "acc_norm,none": 0.05092592592592592,
+        "acc_norm_stderr": 0.0045111546424629854,
+        "acc_norm_stderr,none": 0.0045111546424629854
+      },
+      "total_samples": 2376,
+      "files": [
+        {
+          "filename": "20251026_022408_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwewn_Qwen2VL\\qwen2vl_text_20251025_234011\\arc_easy.jsonl\\20251026_022408_results.json"
+        },
+        {
+          "filename": "20251026_022408_samples_arc_easy.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwewn_Qwen2VL\\qwen2vl_text_20251025_234011\\arc_easy.jsonl\\20251026_022408_samples_arc_easy.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "hellaswag",
+      "metrics": {
+        "acc": 0.06064528978291177,
+        "acc,none": 0.06064528978291177,
+        "acc_stderr": 0.0023819073412748777,
+        "acc_stderr,none": 0.0023819073412748777,
+        "acc_norm": 0.036048595897231625,
+        "acc_norm,none": 0.036048595897231625,
+        "acc_norm_stderr": 0.0018603011877166289,
+        "acc_norm_stderr,none": 0.0018603011877166289
+      },
+      "total_samples": 10042,
+      "files": [
+        {
+          "filename": "20251026_021022_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwewn_Qwen2VL\\qwen2vl_text_20251025_234011\\hellaswag.jsonl\\20251026_021022_results.json"
+        },
+        {
+          "filename": "20251026_021022_samples_hellaswag.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwewn_Qwen2VL\\qwen2vl_text_20251025_234011\\hellaswag.jsonl\\20251026_021022_samples_hellaswag.jsonl"
+        }
+      ],
+      "submissions": []
+    }
+  ],
+  "summary": {
+    "exact_match": 0.45362663495837874,
+    "exact_match,none": 0.45362663495837874,
+    "exact_match_stderr": 0.00663602507305181,
+    "exact_match_stderr,none": 0.00663602507305181,
+    "acc": 0.07367585127803927,
+    "acc,none": 0.07367585127803927,
+    "acc_stderr": 0.0052651802816280615,
+    "acc_stderr,none": 0.0052651802816280615,
+    "acc_norm": 0.0662497552834871,
+    "acc_norm,none": 0.0662497552834871,
+    "acc_norm_stderr": 0.0051930787453768395,
+    "acc_norm_stderr,none": 0.0051930787453768395
+  }
+}

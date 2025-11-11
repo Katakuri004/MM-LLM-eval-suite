@@ -3,7 +3,7 @@
  * Handles all backend communication with proper error handling
  */
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1';
+export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1';
 
 export class ApiError extends Error {
   status: number;
@@ -22,6 +22,29 @@ export class ApiClient {
 
   constructor(baseUrl: string = API_BASE_URL) {
     this.baseUrl = baseUrl;
+  }
+
+  // Normalize potentially double-encoded external IDs from the router
+  private normalizeExternalId(id: string): string {
+    let s = id
+    // decode repeatedly until stable (max 10 times to survive extreme double-encodes)
+    for (let i = 0; i < 10; i++) {
+      try {
+        const d = decodeURIComponent(s)
+        if (d === s) break
+        s = d
+      } catch {
+        break
+      }
+    }
+    // remove duplicate external: prefixes
+    while (s.startsWith('external:external:')) {
+      s = s.slice('external:'.length)
+    }
+    if (!s.startsWith('external:')) {
+      s = `external:${s}`
+    }
+    return encodeURIComponent(s)
   }
 
   private async request<T>(
@@ -283,42 +306,47 @@ export class ApiClient {
   }
 
   async getExternalModel(id: string) {
-    // Remove duplicate external: prefixes and ensure exactly one
-    let normalizedId = decodeURIComponent(id)
-    while (normalizedId.startsWith('external:external:')) {
-      normalizedId = normalizedId.slice('external:'.length)
-    }
-    if (!normalizedId.startsWith('external:')) {
-      normalizedId = `external:${normalizedId}`
-    }
-    const encoded = encodeURIComponent(normalizedId)
+    const encoded = this.normalizeExternalId(id)
     return this.request<any>(`/external-results/${encoded}`);
   }
 
   async getExternalModelResults(id: string) {
-    let normalizedId = decodeURIComponent(id)
-    while (normalizedId.startsWith('external:external:')) {
-      normalizedId = normalizedId.slice('external:'.length)
-    }
-    if (!normalizedId.startsWith('external:')) {
-      normalizedId = `external:${normalizedId}`
-    }
-    const encoded = encodeURIComponent(normalizedId)
+    const encoded = this.normalizeExternalId(id)
     return this.request<{ model: any; results: any[]; total_results: number }>(`/external-results/${encoded}/results`);
   }
 
-  async getExternalModelSamples(id: string, benchmarkId?: string, limit = 100, offset = 0) {
-    let normalizedId = decodeURIComponent(id)
-    while (normalizedId.startsWith('external:external:')) {
-      normalizedId = normalizedId.slice('external:'.length)
-    }
-    if (!normalizedId.startsWith('external:')) {
-      normalizedId = `external:${normalizedId}`
-    }
-    const encoded = encodeURIComponent(normalizedId)
+  async getExternalModelSamples(id: string, benchmarkId?: string, limit = 100, offset = 0, opts?: { modality?: string; correctness?: 'correct' | 'incorrect'; search?: string }) {
+    const encoded = this.normalizeExternalId(id)
     const params = new URLSearchParams({ limit: limit.toString(), offset: offset.toString() })
     if (benchmarkId) params.append('benchmark_id', benchmarkId)
-    return this.request<{ model_id: string; benchmark_id?: string; samples: any[]; total: number; limit: number; offset: number }>(`/external-results/${encoded}/samples?${params}`);
+    if (opts?.modality) params.append('modality', opts.modality)
+    if (opts?.correctness) params.append('correctness', opts.correctness)
+    if (opts?.search) params.append('search', opts.search)
+    return this.request<{ model_id: string; benchmark_id?: string; samples: any[]; total: number; limit: number; offset: number; counts?: any }>(`/external-results/${encoded}/samples?${params}`);
+  }
+
+  async getExternalModelSampleDetail(id: string, sampleKey: string) {
+    const encoded = this.normalizeExternalId(id)
+    const sample = encodeURIComponent(sampleKey)
+    return this.request<{ model_id: string; benchmark_id?: string; sample: any }>(`/external-results/${encoded}/samples/${sample}`);
+  }
+
+  async getExternalModelSamplesSummary(id: string) {
+    const encoded = this.normalizeExternalId(id)
+    return this.request<{ model_id: string; benchmarks: string[]; total: number; modality_counts: Record<string, number> }>(`/external-results/${encoded}/samples/summary`);
+  }
+
+  async getBenchmarkPreview(id: string, benchmarkId: string, limit = 2) {
+    const encoded = this.normalizeExternalId(id)
+    const bench = encodeURIComponent(benchmarkId)
+    const params = new URLSearchParams({ limit: String(limit) })
+    return this.request<{ model_id: string; benchmark_id: string; samples: any[]; limit: number }>(`/external-results/${encoded}/benchmarks/${bench}/preview?${params}`)
+  }
+
+  async getBenchmarkStats(id: string, benchmarkId: string) {
+    const encoded = this.normalizeExternalId(id)
+    const bench = encodeURIComponent(benchmarkId)
+    return this.request<{ model_id: string; benchmark_id: string; total_samples: number; metrics: any; modality_counts: Record<string, number> }>(`/external-results/${encoded}/benchmarks/${bench}/stats`)
   }
 
   async cancelEvaluation(id: string) {

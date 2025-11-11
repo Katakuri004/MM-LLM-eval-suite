@@ -1,0 +1,3108 @@
+{
+  "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
+  "created_at": "2025-10-31T06:30:13.110851",
+  "benchmark_id": "common_voice_15_en",
+  "total_samples": 16386,
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "Joe Keaton disapproved of films, and Buster also had reservations about the medium.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Joe Keaton disapproved of films and Buster also had reservations about the medium."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Joe Keaton disapproved of films, and Buster also had reservations about the medium.",
+        "pred": "Joe Keaton disapproved of films and Buster also had reservations about the medium.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_27710027.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 1,
+      "target": "She'll be all right.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "She'll be all right."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "She'll be all right.",
+        "pred": "She'll be all right.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_699711.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 2,
+      "target": "six",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Six."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "six",
+        "pred": "Six.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_21953345.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 3,
+      "target": "All's well that ends well.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "All's well that ends well."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "All's well that ends well.",
+        "pred": "All's well that ends well.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18132047.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 4,
+      "target": "It is a busy market town that serves a large surrounding area.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "It is a busy market town that serves a large surrounding area."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It is a busy market town that serves a large surrounding area.",
+        "pred": "It is a busy market town that serves a large surrounding area.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_27340672.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 5,
+      "target": "Elizabeth was about the same age as Maria.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Elizabeth was about the same age as Maria."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Elizabeth was about the same age as Maria.",
+        "pred": "Elizabeth was about the same age as Maria.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_30620431.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 6,
+      "target": "It blooms between October and March producing yellow flowers.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "It blooms between October and March, producing yellow flowers."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It blooms between October and March producing yellow flowers.",
+        "pred": "It blooms between October and March, producing yellow flowers.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_32534115.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 7,
+      "target": "Do you mean it?",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Do you mean it?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Do you mean it?",
+        "pred": "Do you mean it?",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_17263741.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 8,
+      "target": "The new patch is less invasive than the old one, but still causes regressions.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The new patch is less invasive than the old one, but still causes regression."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The new patch is less invasive than the old one, but still causes regressions.",
+        "pred": "The new patch is less invasive than the old one, but still causes regression.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_17893917.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 9,
+      "target": "How is Mozilla going to handle ambiguities like queue and cue?",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "How is Mozilla going to handle ambiguities like Q and Q?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "How is Mozilla going to handle ambiguities like queue and cue?",
+        "pred": "How is Mozilla going to handle ambiguities like Q and Q?",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_17561821.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 10,
+      "target": "A large size in stockings is hard to sell.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "A large size in stockings is hard to sell."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "A large size in stockings is hard to sell.",
+        "pred": "A large size in stockings is hard to sell.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_17822619.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 11,
+      "target": "I guess you must think I'm kinda batty.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Wish you a safe and happy birthday."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I guess you must think I'm kinda batty.",
+        "pred": "Wish you a safe and happy birthday.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_59751.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 12,
+      "target": "No one near the remote machine you could ring?",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "No one near the remote machine you could ring."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "No one near the remote machine you could ring?",
+        "pred": "No one near the remote machine you could ring.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_17914141.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 13,
+      "target": "Sauce for the goose is sauce for the gander.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Sauce for the goose is sauce for the gander."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Sauce for the goose is sauce for the gander.",
+        "pred": "Sauce for the goose is sauce for the gander.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18064497.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 14,
+      "target": "Groves started writing songs when she was four years old.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Graves started writing songs when she was four years old."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Groves started writing songs when she was four years old.",
+        "pred": "Graves started writing songs when she was four years old.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18902772.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 15,
+      "target": "This led to both the Red Terror and the White Terror.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "This led to both the Red Terror and the White Terror."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "This led to both the Red Terror and the White Terror.",
+        "pred": "This led to both the Red Terror and the White Terror.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_37476269.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 16,
+      "target": "It is thirty-five miles southeast of Augusta.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "It is thirty-five miles southeast of Augusta."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It is thirty-five miles southeast of Augusta.",
+        "pred": "It is thirty-five miles southeast of Augusta.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_37103262.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 17,
+      "target": "Do you want me?",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Do you want me?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Do you want me?",
+        "pred": "Do you want me?",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_17929854.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 18,
+      "target": "The long-lived bridge still stands today.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The long-lived bleached teak stands today."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The long-lived bridge still stands today.",
+        "pred": "The long-lived bleached teak stands today.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18295850.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 19,
+      "target": "There was nothing to hold him back except himself.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "There was nothing to hold him back except himself."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "There was nothing to hold him back except himself.",
+        "pred": "There was nothing to hold him back except himself.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_665631.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 20,
+      "target": "We spoke often.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "We spoke often."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "We spoke often.",
+        "pred": "We spoke often.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18297811.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 21,
+      "target": "The electrician looked puzzled.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The electrician looked puzzled."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The electrician looked puzzled.",
+        "pred": "The electrician looked puzzled.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_456493.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 22,
+      "target": "The ladder on the fire truck was not long enough.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The ladder on the fire truck was not long enough."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The ladder on the fire truck was not long enough.",
+        "pred": "The ladder on the fire truck was not long enough.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18179121.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 23,
+      "target": "I will tell her what we decided.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "I will tell her what we decided."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I will tell her what we decided.",
+        "pred": "I will tell her what we decided.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_496376.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 24,
+      "target": "Many Vietnamese Australians are upper-class professionals, while others work primarily in blue-collar jobs.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Many Vietnamese Australians are upper class professionals, while others work primarily in blue collar jobs."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Many Vietnamese Australians are upper-class professionals, while others work primarily in blue-collar jobs.",
+        "pred": "Many Vietnamese Australians are upper class professionals, while others work primarily in blue collar jobs.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_36500184.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 25,
+      "target": "Enoxaparin belongs to the class of drugs known as low molecular weight heparins.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Alo,geomonium, the notosperma belongs to the class of protists known as multinucleate amoeboid foraminifera."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Enoxaparin belongs to the class of drugs known as low molecular weight heparins.",
+        "pred": "Alo,geomonium, the notosperma belongs to the class of protists known as multinucleate amoeboid foraminifera.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_23730890.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 26,
+      "target": "Good things come in small packages.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Good things come in small packages."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Good things come in small packages.",
+        "pred": "Good things come in small packages.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18274681.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 27,
+      "target": "It is a member theater of the Union of the Theatres of Europe.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "It is a member theatre of the Union of the Theatres of Europe."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It is a member theater of the Union of the Theatres of Europe.",
+        "pred": "It is a member theatre of the Union of the Theatres of Europe.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_20141506.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 28,
+      "target": "YOU WANNA TAKE THIS OUTSIDE?",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "You wanna take this outside?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "YOU WANNA TAKE THIS OUTSIDE?",
+        "pred": "You wanna take this outside?",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_572372.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 29,
+      "target": "The immersion in hot water also kills the silkworm pupa.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The immersion in hot water also kills the sick worm pupa."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The immersion in hot water also kills the silkworm pupa.",
+        "pred": "The immersion in hot water also kills the sick worm pupa.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_19595713.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 30,
+      "target": "She married her business partner, Steve Lane.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "She married her business partner Stephen Lee."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "She married her business partner, Steve Lane.",
+        "pred": "She married her business partner Stephen Lee.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_20888935.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 31,
+      "target": "The attack on our root server overstrained our senior administrator.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The attack on your roadtriper overstrained our senior administrator."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The attack on our root server overstrained our senior administrator.",
+        "pred": "The attack on your roadtriper overstrained our senior administrator.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18125649.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 32,
+      "target": "That would be funny if he did.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "That would be funny if he did."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "That would be funny if he did.",
+        "pred": "That would be funny if he did.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_15016096.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 33,
+      "target": "Although she had flowers and applause, Mavis said she was not content.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Although she had flowers and applause, Mavi said she was not content."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Although she had flowers and applause, Mavis said she was not content.",
+        "pred": "Although she had flowers and applause, Mavi said she was not content.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_19706560.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 34,
+      "target": "Add the column and put the sum here.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Add the column and put the sum here."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Add the column and put the sum here.",
+        "pred": "Add the column and put the sum here.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_1885769.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 35,
+      "target": "The explanation is simple: It's all Steve Martin.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Okay."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The explanation is simple: It's all Steve Martin.",
+        "pred": "Okay.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_35580388.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 36,
+      "target": "After playing tennis in virtual reality, he felt dizzy.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "After playing tennis in virtual reality, he felt dizzy."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "After playing tennis in virtual reality, he felt dizzy.",
+        "pred": "After playing tennis in virtual reality, he felt dizzy.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_17334321.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 37,
+      "target": "A mansion was usually set on a one square.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "A mansion was usually set on a one square."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "A mansion was usually set on a one square.",
+        "pred": "A mansion was usually set on a one square.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_20308606.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 38,
+      "target": "Rapidan Campaign May\u2013June.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "It then campaigned in the Aegean."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Rapidan Campaign May\u2013June.",
+        "pred": "It then campaigned in the Aegean.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_34382925.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 39,
+      "target": "Alston commented that he felt the cartoonist \"might have had some racial intent\".",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Allston commented that he felt the cartoonist might have had some racial intent."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Alston commented that he felt the cartoonist \"might have had some racial intent\".",
+        "pred": "Allston commented that he felt the cartoonist might have had some racial intent.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18891931.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 40,
+      "target": "Doing a handstand needs a lot of practice to learn.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Doing a handstand needs a lot of practice to learn."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Doing a handstand needs a lot of practice to learn.",
+        "pred": "Doing a handstand needs a lot of practice to learn.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_15735183.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 41,
+      "target": "Man in red tshirt and baseball cap viewed from above he is has a pile of posters",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Man in red t-shirt and baseball cap viewed from above. He has a pile of posters."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Man in red tshirt and baseball cap viewed from above he is has a pile of posters",
+        "pred": "Man in red t-shirt and baseball cap viewed from above. He has a pile of posters.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_12677.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 42,
+      "target": "The two films were then released within one day of each other.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The two films were then released within one day of each other."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The two films were then released within one day of each other.",
+        "pred": "The two films were then released within one day of each other.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_19909115.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 43,
+      "target": "\u2018What did he say his name was?\u2019 asked the captain.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "What did he say his name was? asked the captain."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "\u2018What did he say his name was?\u2019 asked the captain.",
+        "pred": "What did he say his name was? asked the captain.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_21687614.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 44,
+      "target": "For centuries, it was the location of the Spanish colonial mint.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "For centuries it was the location of the Spanish colonial mint."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "For centuries, it was the location of the Spanish colonial mint.",
+        "pred": "For centuries it was the location of the Spanish colonial mint.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_37211626.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 45,
+      "target": "yes",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "yes",
+        "pred": "Yes.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_22005778.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 46,
+      "target": "He received his Ph.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "He received his PhD."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "He received his Ph.",
+        "pred": "He received his PhD.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_33920938.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 47,
+      "target": "Since their inception, Harris has been the band's principal composer and lyricist.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Benim yan\u0131mda kapal\u0131 oturman\u0131za gerek yok. Ba\u015f\u0131n\u0131z\u0131 a\u00e7abilirsiniz."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Since their inception, Harris has been the band's principal composer and lyricist.",
+        "pred": "Benim yan\u0131mda kapal\u0131 oturman\u0131za gerek yok. Ba\u015f\u0131n\u0131z\u0131 a\u00e7abilirsiniz.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_26452532.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 48,
+      "target": "Flowering occurs in spring and the flowers are white.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Flowering occurs in spring and the flowers are white."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Flowering occurs in spring and the flowers are white.",
+        "pred": "Flowering occurs in spring and the flowers are white.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_37184386.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 49,
+      "target": "After experiencing a mind-blowing sensual orgy, Mike was sure he had taken an overdose.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "After experiencing a mind-blowing sensual orgy, Max was sure he had taken an overdose."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "After experiencing a mind-blowing sensual orgy, Mike was sure he had taken an overdose.",
+        "pred": "After experiencing a mind-blowing sensual orgy, Max was sure he had taken an overdose.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_601141.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 50,
+      "target": "Religious festivals include the Muslim Eids and the Christian Christmas and Easter.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Religious festivals include the Muslim Eids and the Christian Christmas and Easter."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Religious festivals include the Muslim Eids and the Christian Christmas and Easter.",
+        "pred": "Religious festivals include the Muslim Eids and the Christian Christmas and Easter.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_19688238.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 51,
+      "target": "What do you advise, sir?",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "What do you advise, sir?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "What do you advise, sir?",
+        "pred": "What do you advise, sir?",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_17260286.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 52,
+      "target": "Charles looked on, angry that there was nothing he could do.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Charles looked on, angry that there was nothing he could do."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Charles looked on, angry that there was nothing he could do.",
+        "pred": "Charles looked on, angry that there was nothing he could do.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_17941982.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 53,
+      "target": "Karina Smirnoff of \"Dancing With The Stars\" hosted the following month.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Carina Smirnoff of Dancing with the Stars hosted the following month."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Karina Smirnoff of \"Dancing With The Stars\" hosted the following month.",
+        "pred": "Carina Smirnoff of Dancing with the Stars hosted the following month.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_20274470.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 54,
+      "target": "It is inhibited by the pneumotaxic centre.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "It is inhibited by the pneumotoxic center."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It is inhibited by the pneumotaxic centre.",
+        "pred": "It is inhibited by the pneumotoxic center.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18929193.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 55,
+      "target": "His wide grin earned many friends.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "His wife, Green, and many friends."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "His wide grin earned many friends.",
+        "pred": "His wife, Green, and many friends.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18001366.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 56,
+      "target": "An important person in the life of Emile Claus was the painter Jenny Montigny.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "An important person in the life of Amelia was the painter Jenny Montigny."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "An important person in the life of Emile Claus was the painter Jenny Montigny.",
+        "pred": "An important person in the life of Amelia was the painter Jenny Montigny.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_26555335.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 57,
+      "target": "In the United States, Federal Vehicle fleets refers to the federal government's vehicles.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "In the United States, federal vehicle fleets refer to the federal government's vehicles."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "In the United States, Federal Vehicle fleets refers to the federal government's vehicles.",
+        "pred": "In the United States, federal vehicle fleets refer to the federal government's vehicles.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_20789189.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 58,
+      "target": "It was won by a woman from Vara, Sweden.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "It was won by a woman from Vara, Sweden."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It was won by a woman from Vara, Sweden.",
+        "pred": "It was won by a woman from Vara, Sweden.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_28715410.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 59,
+      "target": "The prints are then delivered to the customer.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The prints are then delivered to the customers."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The prints are then delivered to the customer.",
+        "pred": "The prints are then delivered to the customers.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_22338655.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 60,
+      "target": "China has seen of grassland overtaken every year by the Gobi Desert.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "China has seen of grassland overtaken every year by the Gobi Desert."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "China has seen of grassland overtaken every year by the Gobi Desert.",
+        "pred": "China has seen of grassland overtaken every year by the Gobi Desert.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_36944185.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 61,
+      "target": "There was a long silence.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "There was a long silence."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "There was a long silence.",
+        "pred": "There was a long silence.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18007422.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 62,
+      "target": "Maybe he just put it there for safe keeping?",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Maybe he just put it there for safekeeping."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Maybe he just put it there for safe keeping?",
+        "pred": "Maybe he just put it there for safekeeping.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_686438.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 63,
+      "target": "In spite of this, I still believed that there were men in Mars.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "In spite of this, I still believe that there were men on Mars."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "In spite of this, I still believed that there were men in Mars.",
+        "pred": "In spite of this, I still believe that there were men on Mars.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_193576.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 64,
+      "target": "The land was ruined, and I had to find some other way to earn a living.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The land was ruined, and I had to find some other way to earn a living."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The land was ruined, and I had to find some other way to earn a living.",
+        "pred": "The land was ruined, and I had to find some other way to earn a living.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_635431.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 65,
+      "target": "Other well-known relatives in Handsome Lake's family included Governor Blacksnake, Red Jacket and Half-Town.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Other well-known relatives in the Huxham lineage include the botanist, locksmith, genealogist, and parson."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Other well-known relatives in Handsome Lake's family included Governor Blacksnake, Red Jacket and Half-Town.",
+        "pred": "Other well-known relatives in the Huxham lineage include the botanist, locksmith, genealogist, and parson.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_26949722.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 66,
+      "target": "I pointed out Mars, a bright dot of light.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "I pointed out Mars, a bright dot of light."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I pointed out Mars, a bright dot of light.",
+        "pred": "I pointed out Mars, a bright dot of light.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_155041.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 67,
+      "target": "I wondered if those birds were redwings?",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "I wondered if those birds were redwings."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I wondered if those birds were redwings?",
+        "pred": "I wondered if those birds were redwings.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_37355311.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 68,
+      "target": "The state plans to re-work those curves to improve safety.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The state plans to rework those curves to improve safety."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The state plans to re-work those curves to improve safety.",
+        "pred": "The state plans to rework those curves to improve safety.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_36745747.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 69,
+      "target": "He ended up running to the bars which fortified the windows of the first floor.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "He ended up running to the bars which fortified the windows of the first floor."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "He ended up running to the bars which fortified the windows of the first floor.",
+        "pred": "He ended up running to the bars which fortified the windows of the first floor.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_25902308.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 70,
+      "target": "I know why I want to get back to my flock, he thought.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "I know why I want to get back to my flock, he thought."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I know why I want to get back to my flock, he thought.",
+        "pred": "I know why I want to get back to my flock, he thought.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_111075.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 71,
+      "target": "Many notable problem and study composers are also International Judges, including Genrikh Kasparyan.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Many notable problem and study composers are also international judges, including Gy\u00f6rgy Kapszper."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Many notable problem and study composers are also International Judges, including Genrikh Kasparyan.",
+        "pred": "Many notable problem and study composers are also international judges, including Gy\u00f6rgy Kapszper.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_25512283.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 72,
+      "target": "You should see the other guy, specifically, how good at fighting he is.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "You should see the other guy, specifically how good at fighting he is."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "You should see the other guy, specifically, how good at fighting he is.",
+        "pred": "You should see the other guy, specifically how good at fighting he is.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_86584.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 73,
+      "target": "He is of African-American and Italian descent.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "He is of African-American and Italian descent."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "He is of African-American and Italian descent.",
+        "pred": "He is of African-American and Italian descent.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_19479960.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 74,
+      "target": "That's not Carson Sphinx.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "That's not Carson Spinks."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "That's not Carson Sphinx.",
+        "pred": "That's not Carson Spinks.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_193520.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 75,
+      "target": "Lorenz is listed as a Swiss heritage site of national significance.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Lausanne is listed as a Swiss heritage site of national significance."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Lorenz is listed as a Swiss heritage site of national significance.",
+        "pred": "Lausanne is listed as a Swiss heritage site of national significance.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18987361.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 76,
+      "target": "I have never in life hit a tennis ball.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "I have never in life hit a tennis ball."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "I have never in life hit a tennis ball.",
+        "pred": "I have never in life hit a tennis ball.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_27366699.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 77,
+      "target": "He is the first known and undisputed member of the Gediminids.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "He is the first known and undisputed member of the Geminiids."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "He is the first known and undisputed member of the Gediminids.",
+        "pred": "He is the first known and undisputed member of the Geminiids.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_28819598.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 78,
+      "target": "When it comes to the crunch, our company will become insolvent.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "When it comes to the crunch, our company will become insolvent."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "When it comes to the crunch, our company will become insolvent.",
+        "pred": "When it comes to the crunch, our company will become insolvent.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_17951140.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 79,
+      "target": "Lion Rock is located north west of Wong Tai Sin.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Lion Rock is located north-west of Wong Tai Sin."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Lion Rock is located north west of Wong Tai Sin.",
+        "pred": "Lion Rock is located north-west of Wong Tai Sin.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_20233685.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 80,
+      "target": "He also established new schools throughout Spain.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "He also established new schools throughout Spain."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "He also established new schools throughout Spain.",
+        "pred": "He also established new schools throughout Spain.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_37529174.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 81,
+      "target": "Backface culling is a common trick to accelerate Three-D rendering.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Backface culling is a common trick to accelerate three-dimensional rendering."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Backface culling is a common trick to accelerate Three-D rendering.",
+        "pred": "Backface culling is a common trick to accelerate three-dimensional rendering.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_17757092.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 82,
+      "target": "At dusk the Greek western flank was broken.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "At dusk the Greek western flank was broken."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "At dusk the Greek western flank was broken.",
+        "pred": "At dusk the Greek western flank was broken.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_26957325.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 83,
+      "target": "We should not take for granted how fortunate we have been.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "We should not take for granted how fortunate we have been."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "We should not take for granted how fortunate we have been.",
+        "pred": "We should not take for granted how fortunate we have been.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18277778.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 84,
+      "target": "Topical and up-to-the-minute, E!",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Topical and up to the minute. E."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Topical and up-to-the-minute, E!",
+        "pred": "Topical and up to the minute. E.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_24023123.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 85,
+      "target": "The farmer works the soil and produces grain.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The farmer works the soil and produces grain."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The farmer works the soil and produces grain.",
+        "pred": "The farmer works the soil and produces grain.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18319767.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 86,
+      "target": "The bow was towed to the Marghera shipyard where the halves were joined.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The bow was towed to the Mangera shipyard where the halves were joined."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The bow was towed to the Marghera shipyard where the halves were joined.",
+        "pred": "The bow was towed to the Mangera shipyard where the halves were joined.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_38400274.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 87,
+      "target": "eight",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The first known use of the term 'skeet' in the context of shooting sports was in 1926."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "eight",
+        "pred": "The first known use of the term 'skeet' in the context of shooting sports was in 1926.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_21943181.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 88,
+      "target": "\"The wind told me that you know about love\" the boy said to the sun.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The wind told me that you know about love, the boy said to the sun."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "\"The wind told me that you know about love\" the boy said to the sun.",
+        "pred": "The wind told me that you know about love, the boy said to the sun.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_159192.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 89,
+      "target": "Geils began playing jazz trumpet but eventually switched to blues guitar.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Jiles began playing jazz trumpet, but eventually switched to blues guitar."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Geils began playing jazz trumpet but eventually switched to blues guitar.",
+        "pred": "Jiles began playing jazz trumpet, but eventually switched to blues guitar.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_20586574.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 90,
+      "target": "The little pink ones are so cute.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The little pink ones are so cute."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The little pink ones are so cute.",
+        "pred": "The little pink ones are so cute.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_18339580.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 91,
+      "target": "The students colored with their crayons.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "The students colored with their crayons."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "The students colored with their crayons.",
+        "pred": "The students colored with their crayons.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_638672.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 92,
+      "target": "It seemed to him that it fell to earth about one hundred miles east of here.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "It seemed to him that it fell to earth about one hundred miles east here."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "It seemed to him that it fell to earth about one hundred miles east of here.",
+        "pred": "It seemed to him that it fell to earth about one hundred miles east here.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_217612.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 93,
+      "target": "As such it is face uniform but with irregular face polygons.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "As such it is face uniform but with irregular face polygons."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "As such it is face uniform but with irregular face polygons.",
+        "pred": "As such it is face uniform but with irregular face polygons.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_25540199.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 94,
+      "target": "He took the fourth part and handed it to the monk.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "He took the fourth half and handed it to the monk."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "He took the fourth part and handed it to the monk.",
+        "pred": "He took the fourth half and handed it to the monk.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_16327.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 95,
+      "target": "He is a right-handed batsman and a left-arm slow bowler.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "He is a right-handed batsman and a left-arm slow bowler."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "He is a right-handed batsman and a left-arm slow bowler.",
+        "pred": "He is a right-handed batsman and a left-arm slow bowler.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_19992991.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 96,
+      "target": "Cador is also said to be of Roman stock.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Cador is also said to be of Roman stock."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Cador is also said to be of Roman stock.",
+        "pred": "Cador is also said to be of Roman stock.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_21568053.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 97,
+      "target": "Where will you go?",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Where will you go?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Where will you go?",
+        "pred": "Where will you go?",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_17278289.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 98,
+      "target": "Get out of this!",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Get out of this."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Get out of this!",
+        "pred": "Get out of this.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_17845550.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 99,
+      "target": "Only John Wayne himself surpassed McGrath in scenes in this movie.",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "common_voice_15_en",
+        "test"
+      ],
+      "filtered_resps": [
+        "Only John Wayne himself surpassed MacLure in scenes in this movie."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "Only John Wayne himself surpassed McGrath in scenes in this movie.",
+        "pred": "Only John Wayne himself surpassed MacLure in scenes in this movie.",
+        "source": "/home/tiger/.cache/huggingface/datasets/downloads/extracted/f54628fae82dd952031cdea3ec9c3d600c11d606e00cb8b3fd1b6ad500d7eb23/en_test_0/common_voice_en_21853647.mp3",
+        "task": "en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    }
+  ]
+}

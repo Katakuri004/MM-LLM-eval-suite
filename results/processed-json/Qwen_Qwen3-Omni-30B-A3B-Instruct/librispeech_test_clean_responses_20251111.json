@@ -1,0 +1,3108 @@
+{
+  "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
+  "created_at": "2025-10-31T06:30:13.110851",
+  "benchmark_id": "librispeech_test_clean",
+  "total_samples": 2620,
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "He hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE",
+        "pred": "He hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 1,
+      "target": "STUFF IT INTO YOU HIS BELLY COUNSELLED HIM",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Stuff it into you, his belly counselled him."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "STUFF IT INTO YOU HIS BELLY COUNSELLED HIM",
+        "pred": "Stuff it into you, his belly counselled him.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 2,
+      "target": "AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "After early nightfall, the yellow lamps would light up here and there the squalid quarter of the brothels."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS",
+        "pred": "After early nightfall, the yellow lamps would light up here and there the squalid quarter of the brothels.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 3,
+      "target": "HELLO BERTIE ANY GOOD IN YOUR MIND",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Hello, Bertie. Any good in your mind?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HELLO BERTIE ANY GOOD IN YOUR MIND",
+        "pred": "Hello, Bertie. Any good in your mind?",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 4,
+      "target": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Number ten, fresh Nellie is waiting on you. Good night, husband."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+        "pred": "Number ten, fresh Nellie is waiting on you. Good night, husband.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 5,
+      "target": "THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The music came nearer, and he recalled the words, the words of Shelley's fragment upon the moon, wandering companionless, pale for weariness."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS",
+        "pred": "The music came nearer, and he recalled the words, the words of Shelley's fragment upon the moon, wandering companionless, pale for weariness.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 6,
+      "target": "THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The dull light fell more faintly upon the page, whereon another equation began to unfold itself slowly, and to spread abroad its widening tail."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL",
+        "pred": "The dull light fell more faintly upon the page, whereon another equation began to unfold itself slowly, and to spread abroad its widening tail.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 7,
+      "target": "A COLD LUCID INDIFFERENCE REIGNED IN HIS SOUL",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "A cold, lucid indifference reigned in his soul."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "A COLD LUCID INDIFFERENCE REIGNED IN HIS SOUL",
+        "pred": "A cold, lucid indifference reigned in his soul.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 8,
+      "target": "THE CHAOS IN WHICH HIS ARDOUR EXTINGUISHED ITSELF WAS A COLD INDIFFERENT KNOWLEDGE OF HIMSELF",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The chaos in which his ardor extinguished itself was a cold, indifferent knowledge of himself."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE CHAOS IN WHICH HIS ARDOUR EXTINGUISHED ITSELF WAS A COLD INDIFFERENT KNOWLEDGE OF HIMSELF",
+        "pred": "The chaos in which his ardor extinguished itself was a cold, indifferent knowledge of himself.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 9,
+      "target": "AT MOST BY AN ALMS GIVEN TO A BEGGAR WHOSE BLESSING HE FLED FROM HE MIGHT HOPE WEARILY TO WIN FOR HIMSELF SOME MEASURE OF ACTUAL GRACE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "At most, by an alms given to a beggar whose blessing he fled from, he might hope wearily to win for himself some measure of actual grace."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "AT MOST BY AN ALMS GIVEN TO A BEGGAR WHOSE BLESSING HE FLED FROM HE MIGHT HOPE WEARILY TO WIN FOR HIMSELF SOME MEASURE OF ACTUAL GRACE",
+        "pred": "At most, by an alms given to a beggar whose blessing he fled from, he might hope wearily to win for himself some measure of actual grace.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 10,
+      "target": "WELL NOW ENNIS I DECLARE YOU HAVE A HEAD AND SO HAS MY STICK",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Well now, Ennis, I declare you have a head, and so has my stick."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "WELL NOW ENNIS I DECLARE YOU HAVE A HEAD AND SO HAS MY STICK",
+        "pred": "Well now, Ennis, I declare you have a head, and so has my stick.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 11,
+      "target": "ON SATURDAY MORNINGS WHEN THE SODALITY MET IN THE CHAPEL TO RECITE THE LITTLE OFFICE HIS PLACE WAS A CUSHIONED KNEELING DESK AT THE RIGHT OF THE ALTAR FROM WHICH HE LED HIS WING OF BOYS THROUGH THE RESPONSES",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "On Saturday mornings, when the sodality met in the chapel to recite the little office, his place was a cushioned kneeling desk at the right of the altar, from which he led his wing of boys through the responses."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "ON SATURDAY MORNINGS WHEN THE SODALITY MET IN THE CHAPEL TO RECITE THE LITTLE OFFICE HIS PLACE WAS A CUSHIONED KNEELING DESK AT THE RIGHT OF THE ALTAR FROM WHICH HE LED HIS WING OF BOYS THROUGH THE RESPONSES",
+        "pred": "On Saturday mornings, when the sodality met in the chapel to recite the little office, his place was a cushioned kneeling desk at the right of the altar, from which he led his wing of boys through the responses.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 12,
+      "target": "HER EYES SEEMED TO REGARD HIM WITH MILD PITY HER HOLINESS A STRANGE LIGHT GLOWING FAINTLY UPON HER FRAIL FLESH DID NOT HUMILIATE THE SINNER WHO APPROACHED HER",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Her eyes seemed to regard him with mild pity, her holiness\u2014a strange light glowing faintly upon her frail flesh\u2014did not humiliate the sinner who approached her."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HER EYES SEEMED TO REGARD HIM WITH MILD PITY HER HOLINESS A STRANGE LIGHT GLOWING FAINTLY UPON HER FRAIL FLESH DID NOT HUMILIATE THE SINNER WHO APPROACHED HER",
+        "pred": "Her eyes seemed to regard him with mild pity, her holiness\u2014a strange light glowing faintly upon her frail flesh\u2014did not humiliate the sinner who approached her.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 13,
+      "target": "IF EVER HE WAS IMPELLED TO CAST SIN FROM HIM AND TO REPENT THE IMPULSE THAT MOVED HIM WAS THE WISH TO BE HER KNIGHT",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "If ever he was impelled to cast sin from him and to repent, the impulse that moved him was the wish to be her knight."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IF EVER HE WAS IMPELLED TO CAST SIN FROM HIM AND TO REPENT THE IMPULSE THAT MOVED HIM WAS THE WISH TO BE HER KNIGHT",
+        "pred": "If ever he was impelled to cast sin from him and to repent, the impulse that moved him was the wish to be her knight.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 14,
+      "target": "HE TRIED TO THINK HOW IT COULD BE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "He tried to think how it could be."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HE TRIED TO THINK HOW IT COULD BE",
+        "pred": "He tried to think how it could be.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 15,
+      "target": "BUT THE DUSK DEEPENING IN THE SCHOOLROOM COVERED OVER HIS THOUGHTS THE BELL RANG",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "But the dusk deepening in the schoolroom covered over his thoughts. The bell rang."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "BUT THE DUSK DEEPENING IN THE SCHOOLROOM COVERED OVER HIS THOUGHTS THE BELL RANG",
+        "pred": "But the dusk deepening in the schoolroom covered over his thoughts. The bell rang.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 16,
+      "target": "THEN YOU CAN ASK HIM QUESTIONS ON THE CATECHISM DEDALUS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Then you can ask him questions on the catechism, Dedalus."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THEN YOU CAN ASK HIM QUESTIONS ON THE CATECHISM DEDALUS",
+        "pred": "Then you can ask him questions on the catechism, Dedalus.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 17,
+      "target": "STEPHEN LEANING BACK AND DRAWING IDLY ON HIS SCRIBBLER LISTENED TO THE TALK ABOUT HIM WHICH HERON CHECKED FROM TIME TO TIME BY SAYING",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Stephen, leaning back and drawing idly on his scribbler, listened to the talk about him, which Heron checked from time to time by saying."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "STEPHEN LEANING BACK AND DRAWING IDLY ON HIS SCRIBBLER LISTENED TO THE TALK ABOUT HIM WHICH HERON CHECKED FROM TIME TO TIME BY SAYING",
+        "pred": "Stephen, leaning back and drawing idly on his scribbler, listened to the talk about him, which Heron checked from time to time by saying.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 18,
+      "target": "IT WAS STRANGE TOO THAT HE FOUND AN ARID PLEASURE IN FOLLOWING UP TO THE END THE RIGID LINES OF THE DOCTRINES OF THE CHURCH AND PENETRATING INTO OBSCURE SILENCES ONLY TO HEAR AND FEEL THE MORE DEEPLY HIS OWN CONDEMNATION",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "It was strange, too, that he found an arid pleasure in following up to the end the rigid lines of the doctrines of the church and penetrating into obscure silences, only to hear and feel the more deeply his own condemnation."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IT WAS STRANGE TOO THAT HE FOUND AN ARID PLEASURE IN FOLLOWING UP TO THE END THE RIGID LINES OF THE DOCTRINES OF THE CHURCH AND PENETRATING INTO OBSCURE SILENCES ONLY TO HEAR AND FEEL THE MORE DEEPLY HIS OWN CONDEMNATION",
+        "pred": "It was strange, too, that he found an arid pleasure in following up to the end the rigid lines of the doctrines of the church and penetrating into obscure silences, only to hear and feel the more deeply his own condemnation.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 19,
+      "target": "THE SENTENCE OF SAINT JAMES WHICH SAYS THAT HE WHO OFFENDS AGAINST ONE COMMANDMENT BECOMES GUILTY OF ALL HAD SEEMED TO HIM FIRST A SWOLLEN PHRASE UNTIL HE HAD BEGUN TO GROPE IN THE DARKNESS OF HIS OWN STATE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The sentence of Saint James, which says that he who offends against one commandment becomes guilty of all, had seemed to him first a swollen phrase until he had begun to grope in the darkness of his own state."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE SENTENCE OF SAINT JAMES WHICH SAYS THAT HE WHO OFFENDS AGAINST ONE COMMANDMENT BECOMES GUILTY OF ALL HAD SEEMED TO HIM FIRST A SWOLLEN PHRASE UNTIL HE HAD BEGUN TO GROPE IN THE DARKNESS OF HIS OWN STATE",
+        "pred": "The sentence of Saint James, which says that he who offends against one commandment becomes guilty of all, had seemed to him first a swollen phrase until he had begun to grope in the darkness of his own state.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 20,
+      "target": "IF A MAN HAD STOLEN A POUND IN HIS YOUTH AND HAD USED THAT POUND TO AMASS A HUGE FORTUNE HOW MUCH WAS HE OBLIGED TO GIVE BACK THE POUND HE HAD STOLEN ONLY OR THE POUND TOGETHER WITH THE COMPOUND INTEREST ACCRUING UPON IT OR ALL HIS HUGE FORTUNE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "If a man had stolen a pound in his youth and had used that pound to amass a huge fortune, how much was he obliged to give back, the pound he had stolen only, or the pound together with the compound interest accruing upon it, or all his huge fortune?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IF A MAN HAD STOLEN A POUND IN HIS YOUTH AND HAD USED THAT POUND TO AMASS A HUGE FORTUNE HOW MUCH WAS HE OBLIGED TO GIVE BACK THE POUND HE HAD STOLEN ONLY OR THE POUND TOGETHER WITH THE COMPOUND INTEREST ACCRUING UPON IT OR ALL HIS HUGE FORTUNE",
+        "pred": "If a man had stolen a pound in his youth and had used that pound to amass a huge fortune, how much was he obliged to give back, the pound he had stolen only, or the pound together with the compound interest accruing upon it, or all his huge fortune?",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 21,
+      "target": "IF A LAYMAN IN GIVING BAPTISM POUR THE WATER BEFORE SAYING THE WORDS IS THE CHILD BAPTIZED",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "If a layman in giving baptism pour the water before saying the words, is the child baptized?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IF A LAYMAN IN GIVING BAPTISM POUR THE WATER BEFORE SAYING THE WORDS IS THE CHILD BAPTIZED",
+        "pred": "If a layman in giving baptism pour the water before saying the words, is the child baptized?",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 22,
+      "target": "HOW COMES IT THAT WHILE THE FIRST BEATITUDE PROMISES THE KINGDOM OF HEAVEN TO THE POOR OF HEART THE SECOND BEATITUDE PROMISES ALSO TO THE MEEK THAT THEY SHALL POSSESS THE LAND",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "How comes it that while the first beatitude promises the kingdom of heaven to the poor of heart, the second beatitude promises also to the meek that they shall possess the land?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HOW COMES IT THAT WHILE THE FIRST BEATITUDE PROMISES THE KINGDOM OF HEAVEN TO THE POOR OF HEART THE SECOND BEATITUDE PROMISES ALSO TO THE MEEK THAT THEY SHALL POSSESS THE LAND",
+        "pred": "How comes it that while the first beatitude promises the kingdom of heaven to the poor of heart, the second beatitude promises also to the meek that they shall possess the land?",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 23,
+      "target": "WHY WAS THE SACRAMENT OF THE EUCHARIST INSTITUTED UNDER THE TWO SPECIES OF BREAD AND WINE IF JESUS CHRIST BE PRESENT BODY AND BLOOD SOUL AND DIVINITY IN THE BREAD ALONE AND IN THE WINE ALONE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Why was the sacrament of the Eucharist instituted under the two species of bread and wine, if Jesus Christ be present body and blood, soul and divinity, in the bread alone and in the wine alone?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "WHY WAS THE SACRAMENT OF THE EUCHARIST INSTITUTED UNDER THE TWO SPECIES OF BREAD AND WINE IF JESUS CHRIST BE PRESENT BODY AND BLOOD SOUL AND DIVINITY IN THE BREAD ALONE AND IN THE WINE ALONE",
+        "pred": "Why was the sacrament of the Eucharist instituted under the two species of bread and wine, if Jesus Christ be present body and blood, soul and divinity, in the bread alone and in the wine alone?",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 24,
+      "target": "IF THE WINE CHANGE INTO VINEGAR AND THE HOST CRUMBLE INTO CORRUPTION AFTER THEY HAVE BEEN CONSECRATED IS JESUS CHRIST STILL PRESENT UNDER THEIR SPECIES AS GOD AND AS MAN",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "If the wine change into vinegar and the host crumble into corruption after they have been consecrated, is Jesus Christ still present under their species as God and as man?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IF THE WINE CHANGE INTO VINEGAR AND THE HOST CRUMBLE INTO CORRUPTION AFTER THEY HAVE BEEN CONSECRATED IS JESUS CHRIST STILL PRESENT UNDER THEIR SPECIES AS GOD AND AS MAN",
+        "pred": "If the wine change into vinegar and the host crumble into corruption after they have been consecrated, is Jesus Christ still present under their species as God and as man?",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 25,
+      "target": "A GENTLE KICK FROM THE TALL BOY IN THE BENCH BEHIND URGED STEPHEN TO ASK A DIFFICULT QUESTION",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "A gentle kick from the tall boy in the bench behind urged Stephen to ask a difficult question."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "A GENTLE KICK FROM THE TALL BOY IN THE BENCH BEHIND URGED STEPHEN TO ASK A DIFFICULT QUESTION",
+        "pred": "A gentle kick from the tall boy in the bench behind urged Stephen to ask a difficult question.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 26,
+      "target": "THE RECTOR DID NOT ASK FOR A CATECHISM TO HEAR THE LESSON FROM",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The rector did not ask for a catechism to hear the lesson from."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE RECTOR DID NOT ASK FOR A CATECHISM TO HEAR THE LESSON FROM",
+        "pred": "The rector did not ask for a catechism to hear the lesson from.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 27,
+      "target": "HE CLASPED HIS HANDS ON THE DESK AND SAID",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "He clasped his hands on the desk and said."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HE CLASPED HIS HANDS ON THE DESK AND SAID",
+        "pred": "He clasped his hands on the desk and said.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 28,
+      "target": "THE RETREAT WILL BEGIN ON WEDNESDAY AFTERNOON IN HONOUR OF SAINT FRANCIS XAVIER WHOSE FEAST DAY IS SATURDAY",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The retreat will begin on Wednesday afternoon in honor of Saint Francis Xavier, whose feast day is Saturday."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE RETREAT WILL BEGIN ON WEDNESDAY AFTERNOON IN HONOUR OF SAINT FRANCIS XAVIER WHOSE FEAST DAY IS SATURDAY",
+        "pred": "The retreat will begin on Wednesday afternoon in honor of Saint Francis Xavier, whose feast day is Saturday.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 29,
+      "target": "ON FRIDAY CONFESSION WILL BE HEARD ALL THE AFTERNOON AFTER BEADS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "On Friday, confession will be heard all the afternoon after beads."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "ON FRIDAY CONFESSION WILL BE HEARD ALL THE AFTERNOON AFTER BEADS",
+        "pred": "On Friday, confession will be heard all the afternoon after beads.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 30,
+      "target": "BEWARE OF MAKING THAT MISTAKE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Beware of making that mistake."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "BEWARE OF MAKING THAT MISTAKE",
+        "pred": "Beware of making that mistake.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 31,
+      "target": "STEPHEN'S HEART BEGAN SLOWLY TO FOLD AND FADE WITH FEAR LIKE A WITHERING FLOWER",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Stephen's heart began slowly to fold and fade with fear, like a withering flower."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "STEPHEN'S HEART BEGAN SLOWLY TO FOLD AND FADE WITH FEAR LIKE A WITHERING FLOWER",
+        "pred": "Stephen's heart began slowly to fold and fade with fear, like a withering flower.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 32,
+      "target": "HE IS CALLED AS YOU KNOW THE APOSTLE OF THE INDIES",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "He is called, as you know, the apostle of the Indies."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HE IS CALLED AS YOU KNOW THE APOSTLE OF THE INDIES",
+        "pred": "He is called, as you know, the apostle of the Indies.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 33,
+      "target": "A GREAT SAINT SAINT FRANCIS XAVIER",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "A great saint, Saint Francis Xavier."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "A GREAT SAINT SAINT FRANCIS XAVIER",
+        "pred": "A great saint, Saint Francis Xavier.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 34,
+      "target": "THE RECTOR PAUSED AND THEN SHAKING HIS CLASPED HANDS BEFORE HIM WENT ON",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The rector paused and then, shaking his clasped hands before him, went on."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE RECTOR PAUSED AND THEN SHAKING HIS CLASPED HANDS BEFORE HIM WENT ON",
+        "pred": "The rector paused and then, shaking his clasped hands before him, went on.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 35,
+      "target": "HE HAD THE FAITH IN HIM THAT MOVES MOUNTAINS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "He had the faith in him that moves mountains."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HE HAD THE FAITH IN HIM THAT MOVES MOUNTAINS",
+        "pred": "He had the faith in him that moves mountains.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 36,
+      "target": "A GREAT SAINT SAINT FRANCIS XAVIER",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "A great saint, Saint Francis Xavier."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "A GREAT SAINT SAINT FRANCIS XAVIER",
+        "pred": "A great saint, Saint Francis Xavier.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 37,
+      "target": "IN THE SILENCE THEIR DARK FIRE KINDLED THE DUSK INTO A TAWNY GLOW",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "In the silence, their dark fire kindled the dusk into a tawny glow."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IN THE SILENCE THEIR DARK FIRE KINDLED THE DUSK INTO A TAWNY GLOW",
+        "pred": "In the silence, their dark fire kindled the dusk into a tawny glow.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 38,
+      "target": "HE COULD WAIT NO LONGER",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "He could wait no longer."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HE COULD WAIT NO LONGER",
+        "pred": "He could wait no longer.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 39,
+      "target": "FOR A FULL HOUR HE HAD PACED UP AND DOWN WAITING BUT HE COULD WAIT NO LONGER",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "For a full hour he had paced up and down waiting, but he could wait no longer."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "FOR A FULL HOUR HE HAD PACED UP AND DOWN WAITING BUT HE COULD WAIT NO LONGER",
+        "pred": "For a full hour he had paced up and down waiting, but he could wait no longer.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 40,
+      "target": "HE SET OFF ABRUPTLY FOR THE BULL WALKING RAPIDLY LEST HIS FATHER'S SHRILL WHISTLE MIGHT CALL HIM BACK AND IN A FEW MOMENTS HE HAD ROUNDED THE CURVE AT THE POLICE BARRACK AND WAS SAFE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "He set off abruptly for the bull, walking rapidly lest his father's shrill whistle might call him back, and in a few moments he had rounded the curve at the police barrack and was safe."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HE SET OFF ABRUPTLY FOR THE BULL WALKING RAPIDLY LEST HIS FATHER'S SHRILL WHISTLE MIGHT CALL HIM BACK AND IN A FEW MOMENTS HE HAD ROUNDED THE CURVE AT THE POLICE BARRACK AND WAS SAFE",
+        "pred": "He set off abruptly for the bull, walking rapidly lest his father's shrill whistle might call him back, and in a few moments he had rounded the curve at the police barrack and was safe.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 41,
+      "target": "THE UNIVERSITY",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The university."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE UNIVERSITY",
+        "pred": "The university.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 42,
+      "target": "PRIDE AFTER SATISFACTION UPLIFTED HIM LIKE LONG SLOW WAVES",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Pride after satisfaction uplifted him like long, slow waves."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "PRIDE AFTER SATISFACTION UPLIFTED HIM LIKE LONG SLOW WAVES",
+        "pred": "Pride after satisfaction uplifted him like long, slow waves.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 43,
+      "target": "WHOSE FEET ARE AS THE FEET OF HARTS AND UNDERNEATH THE EVERLASTING ARMS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Whose feet are as the feet of harts, and underneath the everlasting arms."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "WHOSE FEET ARE AS THE FEET OF HARTS AND UNDERNEATH THE EVERLASTING ARMS",
+        "pred": "Whose feet are as the feet of harts, and underneath the everlasting arms.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 44,
+      "target": "THE PRIDE OF THAT DIM IMAGE BROUGHT BACK TO HIS MIND THE DIGNITY OF THE OFFICE HE HAD REFUSED",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The pride of that dim image brought back to his mind the dignity of the office he had refused."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE PRIDE OF THAT DIM IMAGE BROUGHT BACK TO HIS MIND THE DIGNITY OF THE OFFICE HE HAD REFUSED",
+        "pred": "The pride of that dim image brought back to his mind the dignity of the office he had refused.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 45,
+      "target": "SOON THE WHOLE BRIDGE WAS TREMBLING AND RESOUNDING",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Soon the whole bridge was trembling and resounding."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "SOON THE WHOLE BRIDGE WAS TREMBLING AND RESOUNDING",
+        "pred": "Soon the whole bridge was trembling and resounding.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 46,
+      "target": "THE UNCOUTH FACES PASSED HIM TWO BY TWO STAINED YELLOW OR RED OR LIVID BY THE SEA AND AS HE STROVE TO LOOK AT THEM WITH EASE AND INDIFFERENCE A FAINT STAIN OF PERSONAL SHAME AND COMMISERATION ROSE TO HIS OWN FACE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The uncouth faces passed him two by two, stained yellow or red or livid by the sea, and as he strove to look at them with ease and indifference, a faint stain of personal shame and commiseration rose to his own face."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE UNCOUTH FACES PASSED HIM TWO BY TWO STAINED YELLOW OR RED OR LIVID BY THE SEA AND AS HE STROVE TO LOOK AT THEM WITH EASE AND INDIFFERENCE A FAINT STAIN OF PERSONAL SHAME AND COMMISERATION ROSE TO HIS OWN FACE",
+        "pred": "The uncouth faces passed him two by two, stained yellow or red or livid by the sea, and as he strove to look at them with ease and indifference, a faint stain of personal shame and commiseration rose to his own face.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 47,
+      "target": "ANGRY WITH HIMSELF HE TRIED TO HIDE HIS FACE FROM THEIR EYES BY GAZING DOWN SIDEWAYS INTO THE SHALLOW SWIRLING WATER UNDER THE BRIDGE BUT HE STILL SAW A REFLECTION THEREIN OF THEIR TOP HEAVY SILK HATS AND HUMBLE TAPE LIKE COLLARS AND LOOSELY HANGING CLERICAL CLOTHES BROTHER HICKEY",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Angry with himself, he tried to hide his face from their eyes by gazing down sideways into the shallow, swirling water under the bridge, but he still saw a reflection therein of their top-heavy silk hats, and humble tape-like collars, and loosely hanging clerical clothes. Brother Hickey."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "ANGRY WITH HIMSELF HE TRIED TO HIDE HIS FACE FROM THEIR EYES BY GAZING DOWN SIDEWAYS INTO THE SHALLOW SWIRLING WATER UNDER THE BRIDGE BUT HE STILL SAW A REFLECTION THEREIN OF THEIR TOP HEAVY SILK HATS AND HUMBLE TAPE LIKE COLLARS AND LOOSELY HANGING CLERICAL CLOTHES BROTHER HICKEY",
+        "pred": "Angry with himself, he tried to hide his face from their eyes by gazing down sideways into the shallow, swirling water under the bridge, but he still saw a reflection therein of their top-heavy silk hats, and humble tape-like collars, and loosely hanging clerical clothes. Brother Hickey.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 48,
+      "target": "BROTHER MAC ARDLE BROTHER KEOGH",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Brother McCardle, Brother Keough."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "BROTHER MAC ARDLE BROTHER KEOGH",
+        "pred": "Brother McCardle, Brother Keough.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 49,
+      "target": "THEIR PIETY WOULD BE LIKE THEIR NAMES LIKE THEIR FACES LIKE THEIR CLOTHES AND IT WAS IDLE FOR HIM TO TELL HIMSELF THAT THEIR HUMBLE AND CONTRITE HEARTS IT MIGHT BE PAID A FAR RICHER TRIBUTE OF DEVOTION THAN HIS HAD EVER BEEN A GIFT TENFOLD MORE ACCEPTABLE THAN HIS ELABORATE ADORATION",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Their piety would be like their names, like their faces, like their clothes, and it was idle for him to tell himself that their humble and contrite hearts it might be paid a far richer tribute of devotion than his had ever been, a gift tenfold more acceptable than his elaborate adoration."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THEIR PIETY WOULD BE LIKE THEIR NAMES LIKE THEIR FACES LIKE THEIR CLOTHES AND IT WAS IDLE FOR HIM TO TELL HIMSELF THAT THEIR HUMBLE AND CONTRITE HEARTS IT MIGHT BE PAID A FAR RICHER TRIBUTE OF DEVOTION THAN HIS HAD EVER BEEN A GIFT TENFOLD MORE ACCEPTABLE THAN HIS ELABORATE ADORATION",
+        "pred": "Their piety would be like their names, like their faces, like their clothes, and it was idle for him to tell himself that their humble and contrite hearts it might be paid a far richer tribute of devotion than his had ever been, a gift tenfold more acceptable than his elaborate adoration.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 50,
+      "target": "IT WAS IDLE FOR HIM TO MOVE HIMSELF TO BE GENEROUS TOWARDS THEM TO TELL HIMSELF THAT IF HE EVER CAME TO THEIR GATES STRIPPED OF HIS PRIDE BEATEN AND IN BEGGAR'S WEEDS THAT THEY WOULD BE GENEROUS TOWARDS HIM LOVING HIM AS THEMSELVES",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "It was idle for him to move himself to be generous towards them. To tell himself that if he ever came to their gates, stripped of his pride, beaten and in beggar's weeds, that they would be generous towards him, loving him as themselves."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IT WAS IDLE FOR HIM TO MOVE HIMSELF TO BE GENEROUS TOWARDS THEM TO TELL HIMSELF THAT IF HE EVER CAME TO THEIR GATES STRIPPED OF HIS PRIDE BEATEN AND IN BEGGAR'S WEEDS THAT THEY WOULD BE GENEROUS TOWARDS HIM LOVING HIM AS THEMSELVES",
+        "pred": "It was idle for him to move himself to be generous towards them. To tell himself that if he ever came to their gates, stripped of his pride, beaten and in beggar's weeds, that they would be generous towards him, loving him as themselves.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 51,
+      "target": "IDLE AND EMBITTERING FINALLY TO ARGUE AGAINST HIS OWN DISPASSIONATE CERTITUDE THAT THE COMMANDMENT OF LOVE BADE US NOT TO LOVE OUR NEIGHBOUR AS OURSELVES WITH THE SAME AMOUNT AND INTENSITY OF LOVE BUT TO LOVE HIM AS OURSELVES WITH THE SAME KIND OF LOVE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Idle and embittering, finally, to argue against his own dispassionate certitude that the commandment of love bade us not to love our neighbor as ourselves with the same amount and intensity of love, but to love him as ourselves with the same kind of love."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IDLE AND EMBITTERING FINALLY TO ARGUE AGAINST HIS OWN DISPASSIONATE CERTITUDE THAT THE COMMANDMENT OF LOVE BADE US NOT TO LOVE OUR NEIGHBOUR AS OURSELVES WITH THE SAME AMOUNT AND INTENSITY OF LOVE BUT TO LOVE HIM AS OURSELVES WITH THE SAME KIND OF LOVE",
+        "pred": "Idle and embittering, finally, to argue against his own dispassionate certitude that the commandment of love bade us not to love our neighbor as ourselves with the same amount and intensity of love, but to love him as ourselves with the same kind of love.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 52,
+      "target": "THE PHRASE AND THE DAY AND THE SCENE HARMONIZED IN A CHORD",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The phrase and the day and the scene harmonized in accord."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE PHRASE AND THE DAY AND THE SCENE HARMONIZED IN A CHORD",
+        "pred": "The phrase and the day and the scene harmonized in accord.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 53,
+      "target": "WORDS WAS IT THEIR COLOURS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Words, was it their colors?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "WORDS WAS IT THEIR COLOURS",
+        "pred": "Words, was it their colors?",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 54,
+      "target": "THEY WERE VOYAGING ACROSS THE DESERTS OF THE SKY A HOST OF NOMADS ON THE MARCH VOYAGING HIGH OVER IRELAND WESTWARD BOUND",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "They were voyaging across the deserts of the sky, a host of nomads on the march, voyaging high over Ireland, westward bound."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THEY WERE VOYAGING ACROSS THE DESERTS OF THE SKY A HOST OF NOMADS ON THE MARCH VOYAGING HIGH OVER IRELAND WESTWARD BOUND",
+        "pred": "They were voyaging across the deserts of the sky, a host of nomads on the march, voyaging high over Ireland, westward bound.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 55,
+      "target": "THE EUROPE THEY HAD COME FROM LAY OUT THERE BEYOND THE IRISH SEA EUROPE OF STRANGE TONGUES AND VALLEYED AND WOODBEGIRT AND CITADELLED AND OF ENTRENCHED AND MARSHALLED RACES",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The Europe they had come from lay out there beyond the Irish Sea, Europe of strange tongues and valleyed and wood begirt and citadelled and of entrenched and marshalled races."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE EUROPE THEY HAD COME FROM LAY OUT THERE BEYOND THE IRISH SEA EUROPE OF STRANGE TONGUES AND VALLEYED AND WOODBEGIRT AND CITADELLED AND OF ENTRENCHED AND MARSHALLED RACES",
+        "pred": "The Europe they had come from lay out there beyond the Irish Sea, Europe of strange tongues and valleyed and wood begirt and citadelled and of entrenched and marshalled races.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 56,
+      "target": "AGAIN AGAIN",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Again, again."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "AGAIN AGAIN",
+        "pred": "Again, again.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 57,
+      "target": "A VOICE FROM BEYOND THE WORLD WAS CALLING",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "A voice from beyond the world was calling."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "A VOICE FROM BEYOND THE WORLD WAS CALLING",
+        "pred": "A voice from beyond the world was calling.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 58,
+      "target": "HELLO STEPHANOS HERE COMES THE DEDALUS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Hello, Stephanos! Here comes the Daedalus."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HELLO STEPHANOS HERE COMES THE DEDALUS",
+        "pred": "Hello, Stephanos! Here comes the Daedalus.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 59,
+      "target": "THEIR DIVING STONE POISED ON ITS RUDE SUPPORTS AND ROCKING UNDER THEIR PLUNGES AND THE ROUGH HEWN STONES OF THE SLOPING BREAKWATER OVER WHICH THEY SCRAMBLED IN THEIR HORSEPLAY GLEAMED WITH COLD WET LUSTRE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Their diving stone, poised on its rude supports and rocking under their plunges, and the rough-hewn stones of the sloping breakwater over which they scrambled in their horseplay, gleamed with cold, wet lustre."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THEIR DIVING STONE POISED ON ITS RUDE SUPPORTS AND ROCKING UNDER THEIR PLUNGES AND THE ROUGH HEWN STONES OF THE SLOPING BREAKWATER OVER WHICH THEY SCRAMBLED IN THEIR HORSEPLAY GLEAMED WITH COLD WET LUSTRE",
+        "pred": "Their diving stone, poised on its rude supports and rocking under their plunges, and the rough-hewn stones of the sloping breakwater over which they scrambled in their horseplay, gleamed with cold, wet lustre.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 60,
+      "target": "HE STOOD STILL IN DEFERENCE TO THEIR CALLS AND PARRIED THEIR BANTER WITH EASY WORDS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "He stood still in deference to their calls and parried their banter with easy words."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HE STOOD STILL IN DEFERENCE TO THEIR CALLS AND PARRIED THEIR BANTER WITH EASY WORDS",
+        "pred": "He stood still in deference to their calls and parried their banter with easy words.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 61,
+      "target": "IT WAS A PAIN TO SEE THEM AND A SWORD LIKE PAIN TO SEE THE SIGNS OF ADOLESCENCE THAT MADE REPELLENT THEIR PITIABLE NAKEDNESS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "It was a pain to see them, and a sword-like pain to see the signs of adolescence that made repellent their pitiable nakedness."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IT WAS A PAIN TO SEE THEM AND A SWORD LIKE PAIN TO SEE THE SIGNS OF ADOLESCENCE THAT MADE REPELLENT THEIR PITIABLE NAKEDNESS",
+        "pred": "It was a pain to see them, and a sword-like pain to see the signs of adolescence that made repellent their pitiable nakedness.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 62,
+      "target": "STEPHANOS DEDALOS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Stephanos Terlos"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "STEPHANOS DEDALOS",
+        "pred": "Stephanos Terlos",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 63,
+      "target": "A MOMENT BEFORE THE GHOST OF THE ANCIENT KINGDOM OF THE DANES HAD LOOKED FORTH THROUGH THE VESTURE OF THE HAZEWRAPPED CITY",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "A moment before, the ghost of the ancient kingdom of the Danes had looked forth through the vesture of the haze-wrapped city."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "A MOMENT BEFORE THE GHOST OF THE ANCIENT KINGDOM OF THE DANES HAD LOOKED FORTH THROUGH THE VESTURE OF THE HAZEWRAPPED CITY",
+        "pred": "A moment before, the ghost of the ancient kingdom of the Danes had looked forth through the vesture of the haze-wrapped city.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 64,
+      "target": "YOU WILL FIND ME CONTINUALLY SPEAKING OF FOUR MEN TITIAN HOLBEIN TURNER AND TINTORET IN ALMOST THE SAME TERMS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "You will find me continually speaking of four men, Titian, Holbein, Turner, and Tintoret, in almost the same terms."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "YOU WILL FIND ME CONTINUALLY SPEAKING OF FOUR MEN TITIAN HOLBEIN TURNER AND TINTORET IN ALMOST THE SAME TERMS",
+        "pred": "You will find me continually speaking of four men, Titian, Holbein, Turner, and Tintoret, in almost the same terms.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 65,
+      "target": "THEY UNITE EVERY QUALITY AND SOMETIMES YOU WILL FIND ME REFERRING TO THEM AS COLORISTS SOMETIMES AS CHIAROSCURISTS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "They unite every quality, and sometimes you will find me referring to them as colorists, sometimes as chiaroscurists."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THEY UNITE EVERY QUALITY AND SOMETIMES YOU WILL FIND ME REFERRING TO THEM AS COLORISTS SOMETIMES AS CHIAROSCURISTS",
+        "pred": "They unite every quality, and sometimes you will find me referring to them as colorists, sometimes as chiaroscurists.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 66,
+      "target": "BY BEING STUDIOUS OF COLOR THEY ARE STUDIOUS OF DIVISION AND WHILE THE CHIAROSCURIST DEVOTES HIMSELF TO THE REPRESENTATION OF DEGREES OF FORCE IN ONE THING UNSEPARATED LIGHT THE COLORISTS HAVE FOR THEIR FUNCTION THE ATTAINMENT OF BEAUTY BY ARRANGEMENT OF THE DIVISIONS OF LIGHT",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "By being studious of color, they are studious of division, and while the chiaroscuroist devotes himself to the representation of degrees of force in one thing, unseparated light, the colorists have for their function, the attainment of beauty by arrangement of the divisions of light."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "BY BEING STUDIOUS OF COLOR THEY ARE STUDIOUS OF DIVISION AND WHILE THE CHIAROSCURIST DEVOTES HIMSELF TO THE REPRESENTATION OF DEGREES OF FORCE IN ONE THING UNSEPARATED LIGHT THE COLORISTS HAVE FOR THEIR FUNCTION THE ATTAINMENT OF BEAUTY BY ARRANGEMENT OF THE DIVISIONS OF LIGHT",
+        "pred": "By being studious of color, they are studious of division, and while the chiaroscuroist devotes himself to the representation of degrees of force in one thing, unseparated light, the colorists have for their function, the attainment of beauty by arrangement of the divisions of light.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 67,
+      "target": "MY FIRST AND PRINCIPAL REASON WAS THAT THEY ENFORCED BEYOND ALL RESISTANCE ON ANY STUDENT WHO MIGHT ATTEMPT TO COPY THEM THIS METHOD OF LAYING PORTIONS OF DISTINCT HUE SIDE BY SIDE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "My first and principal reason was that they enforced, beyond all resistance, on any student who might attempt to copy them, this method of laying portions of distinct hue side by side."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "MY FIRST AND PRINCIPAL REASON WAS THAT THEY ENFORCED BEYOND ALL RESISTANCE ON ANY STUDENT WHO MIGHT ATTEMPT TO COPY THEM THIS METHOD OF LAYING PORTIONS OF DISTINCT HUE SIDE BY SIDE",
+        "pred": "My first and principal reason was that they enforced, beyond all resistance, on any student who might attempt to copy them, this method of laying portions of distinct hue side by side.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 68,
+      "target": "SOME OF THE TOUCHES INDEED WHEN THE TINT HAS BEEN MIXED WITH MUCH WATER HAVE BEEN LAID IN LITTLE DROPS OR PONDS SO THAT THE PIGMENT MIGHT CRYSTALLIZE HARD AT THE EDGE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Some of the touches indeed, when the tint has been mixed with much water, have been laid in little drops or ponds, so that the pigment might crystallize hard at the edge."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "SOME OF THE TOUCHES INDEED WHEN THE TINT HAS BEEN MIXED WITH MUCH WATER HAVE BEEN LAID IN LITTLE DROPS OR PONDS SO THAT THE PIGMENT MIGHT CRYSTALLIZE HARD AT THE EDGE",
+        "pred": "Some of the touches indeed, when the tint has been mixed with much water, have been laid in little drops or ponds, so that the pigment might crystallize hard at the edge.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 69,
+      "target": "IT IS THE HEAD OF A PARROT WITH A LITTLE FLOWER IN HIS BEAK FROM A PICTURE OF CARPACCIO'S ONE OF HIS SERIES OF THE LIFE OF SAINT GEORGE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "It is the head of a parrot with a little flower in his beak, from a picture of Carpaccio's, one of his series of the life of Saint George."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IT IS THE HEAD OF A PARROT WITH A LITTLE FLOWER IN HIS BEAK FROM A PICTURE OF CARPACCIO'S ONE OF HIS SERIES OF THE LIFE OF SAINT GEORGE",
+        "pred": "It is the head of a parrot with a little flower in his beak, from a picture of Carpaccio's, one of his series of the life of Saint George.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 70,
+      "target": "THEN HE COMES TO THE BEAK OF IT",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Then he comes to the beak of it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THEN HE COMES TO THE BEAK OF IT",
+        "pred": "Then he comes to the beak of it.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 71,
+      "target": "THE BROWN GROUND BENEATH IS LEFT FOR THE MOST PART ONE TOUCH OF BLACK IS PUT FOR THE HOLLOW TWO DELICATE LINES OF DARK GRAY DEFINE THE OUTER CURVE AND ONE LITTLE QUIVERING TOUCH OF WHITE DRAWS THE INNER EDGE OF THE MANDIBLE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The brown ground beneath is left for the most part. One touch of black is put for the hollow, two delicate lines of dark gray define the outer curve, and one little quivering touch of white draws the inner edge of the mandible."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE BROWN GROUND BENEATH IS LEFT FOR THE MOST PART ONE TOUCH OF BLACK IS PUT FOR THE HOLLOW TWO DELICATE LINES OF DARK GRAY DEFINE THE OUTER CURVE AND ONE LITTLE QUIVERING TOUCH OF WHITE DRAWS THE INNER EDGE OF THE MANDIBLE",
+        "pred": "The brown ground beneath is left for the most part. One touch of black is put for the hollow, two delicate lines of dark gray define the outer curve, and one little quivering touch of white draws the inner edge of the mandible.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 72,
+      "target": "FOR BELIEVE ME THE FINAL PHILOSOPHY OF ART CAN ONLY RATIFY THEIR OPINION THAT THE BEAUTY OF A COCK ROBIN IS TO BE RED AND OF A GRASS PLOT TO BE GREEN AND THE BEST SKILL OF ART IS IN INSTANTLY SEIZING ON THE MANIFOLD DELICIOUSNESS OF LIGHT WHICH YOU CAN ONLY SEIZE BY PRECISION OF INSTANTANEOUS TOUCH",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "For believe me, the final philosophy of art can only ratify their opinion that the beauty of a cock robin is to be red, and of a grassplot to be green, and the best skill of art is in instantly seizing on the manifold deliciousness of light, which you can only seize by precision of instantaneous touch."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "FOR BELIEVE ME THE FINAL PHILOSOPHY OF ART CAN ONLY RATIFY THEIR OPINION THAT THE BEAUTY OF A COCK ROBIN IS TO BE RED AND OF A GRASS PLOT TO BE GREEN AND THE BEST SKILL OF ART IS IN INSTANTLY SEIZING ON THE MANIFOLD DELICIOUSNESS OF LIGHT WHICH YOU CAN ONLY SEIZE BY PRECISION OF INSTANTANEOUS TOUCH",
+        "pred": "For believe me, the final philosophy of art can only ratify their opinion that the beauty of a cock robin is to be red, and of a grassplot to be green, and the best skill of art is in instantly seizing on the manifold deliciousness of light, which you can only seize by precision of instantaneous touch.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 73,
+      "target": "NOW YOU WILL SEE IN THESE STUDIES THAT THE MOMENT THE WHITE IS INCLOSED PROPERLY AND HARMONIZED WITH THE OTHER HUES IT BECOMES SOMEHOW MORE PRECIOUS AND PEARLY THAN THE WHITE PAPER AND THAT I AM NOT AFRAID TO LEAVE A WHOLE FIELD OF UNTREATED WHITE PAPER ALL ROUND IT BEING SURE THAT EVEN THE LITTLE DIAMONDS IN THE ROUND WINDOW WILL TELL AS JEWELS IF THEY ARE GRADATED JUSTLY",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Now you will see in these studies that the moment the white is enclosed properly and harmonized with the other hues, it becomes somehow more precious and pearly than the white paper, and that I am not afraid to leave a whole field of untreated white paper all round it, being sure that even the little diamonds in the round window will tell as jewels if they are gradated justly."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "NOW YOU WILL SEE IN THESE STUDIES THAT THE MOMENT THE WHITE IS INCLOSED PROPERLY AND HARMONIZED WITH THE OTHER HUES IT BECOMES SOMEHOW MORE PRECIOUS AND PEARLY THAN THE WHITE PAPER AND THAT I AM NOT AFRAID TO LEAVE A WHOLE FIELD OF UNTREATED WHITE PAPER ALL ROUND IT BEING SURE THAT EVEN THE LITTLE DIAMONDS IN THE ROUND WINDOW WILL TELL AS JEWELS IF THEY ARE GRADATED JUSTLY",
+        "pred": "Now you will see in these studies that the moment the white is enclosed properly and harmonized with the other hues, it becomes somehow more precious and pearly than the white paper, and that I am not afraid to leave a whole field of untreated white paper all round it, being sure that even the little diamonds in the round window will tell as jewels if they are gradated justly.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 74,
+      "target": "BUT IN THIS VIGNETTE COPIED FROM TURNER YOU HAVE THE TWO PRINCIPLES BROUGHT OUT PERFECTLY",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "But in this vignette copied from Turner, you have the two principles brought out perfectly."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "BUT IN THIS VIGNETTE COPIED FROM TURNER YOU HAVE THE TWO PRINCIPLES BROUGHT OUT PERFECTLY",
+        "pred": "But in this vignette copied from Turner, you have the two principles brought out perfectly.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 75,
+      "target": "THEY ARE BEYOND ALL OTHER WORKS THAT I KNOW EXISTING DEPENDENT FOR THEIR EFFECT ON LOW SUBDUED TONES THEIR FAVORITE CHOICE IN TIME OF DAY BEING EITHER DAWN OR TWILIGHT AND EVEN THEIR BRIGHTEST SUNSETS PRODUCED CHIEFLY OUT OF GRAY PAPER",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "They are beyond all other works that I know existing, dependent for their effect on low, subdued tones, their favorite choice in time of day being either dawn or twilight, and even their brightest sunsets produced chiefly out of gray paper."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THEY ARE BEYOND ALL OTHER WORKS THAT I KNOW EXISTING DEPENDENT FOR THEIR EFFECT ON LOW SUBDUED TONES THEIR FAVORITE CHOICE IN TIME OF DAY BEING EITHER DAWN OR TWILIGHT AND EVEN THEIR BRIGHTEST SUNSETS PRODUCED CHIEFLY OUT OF GRAY PAPER",
+        "pred": "They are beyond all other works that I know existing, dependent for their effect on low, subdued tones, their favorite choice in time of day being either dawn or twilight, and even their brightest sunsets produced chiefly out of gray paper.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 76,
+      "target": "IT MAY BE THAT A GREAT COLORIST WILL USE HIS UTMOST FORCE OF COLOR AS A SINGER HIS FULL POWER OF VOICE BUT LOUD OR LOW THE VIRTUE IS IN BOTH CASES ALWAYS IN REFINEMENT NEVER IN LOUDNESS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "It may be that a great colorist will use his utmost force of color, as a singer his full power of voice, but loud or low, the virtue is in both cases always in refinement, never in loudness."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IT MAY BE THAT A GREAT COLORIST WILL USE HIS UTMOST FORCE OF COLOR AS A SINGER HIS FULL POWER OF VOICE BUT LOUD OR LOW THE VIRTUE IS IN BOTH CASES ALWAYS IN REFINEMENT NEVER IN LOUDNESS",
+        "pred": "It may be that a great colorist will use his utmost force of color, as a singer his full power of voice, but loud or low, the virtue is in both cases always in refinement, never in loudness.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 77,
+      "target": "IT MUST REMEMBER BE ONE OR THE OTHER",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "It must remember be one or the other."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IT MUST REMEMBER BE ONE OR THE OTHER",
+        "pred": "It must remember be one or the other.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 78,
+      "target": "DO NOT THEREFORE THINK THAT THE GOTHIC SCHOOL IS AN EASY ONE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Do not therefore think that the gothic school is an easy one."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "DO NOT THEREFORE THINK THAT THE GOTHIC SCHOOL IS AN EASY ONE",
+        "pred": "Do not therefore think that the gothic school is an easy one.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 79,
+      "target": "THE LAW OF THAT SCHOOL IS THAT EVERYTHING SHALL BE SEEN CLEARLY OR AT LEAST ONLY IN SUCH MIST OR FAINTNESS AS SHALL BE DELIGHTFUL AND I HAVE NO DOUBT THAT THE BEST INTRODUCTION TO IT WOULD BE THE ELEMENTARY PRACTICE OF PAINTING EVERY STUDY ON A GOLDEN GROUND",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The law of that school is that everything shall be seen clearly, or at least, only in such mist or faintness as shall be delightful. And I have no doubt that the best introduction to it would be the elementary practice of painting every study on a golden ground."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE LAW OF THAT SCHOOL IS THAT EVERYTHING SHALL BE SEEN CLEARLY OR AT LEAST ONLY IN SUCH MIST OR FAINTNESS AS SHALL BE DELIGHTFUL AND I HAVE NO DOUBT THAT THE BEST INTRODUCTION TO IT WOULD BE THE ELEMENTARY PRACTICE OF PAINTING EVERY STUDY ON A GOLDEN GROUND",
+        "pred": "The law of that school is that everything shall be seen clearly, or at least, only in such mist or faintness as shall be delightful. And I have no doubt that the best introduction to it would be the elementary practice of painting every study on a golden ground.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 80,
+      "target": "THIS AT ONCE COMPELS YOU TO UNDERSTAND THAT THE WORK IS TO BE IMAGINATIVE AND DECORATIVE THAT IT REPRESENTS BEAUTIFUL THINGS IN THE CLEAREST WAY BUT NOT UNDER EXISTING CONDITIONS AND THAT IN FACT YOU ARE PRODUCING JEWELER'S WORK RATHER THAN PICTURES",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "This at once compels you to understand that the work is to be imaginative and decorative, that it represents beautiful things in the clearest way, but not under existing conditions, and that, in fact, you are producing jeweler's work rather than pictures."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THIS AT ONCE COMPELS YOU TO UNDERSTAND THAT THE WORK IS TO BE IMAGINATIVE AND DECORATIVE THAT IT REPRESENTS BEAUTIFUL THINGS IN THE CLEAREST WAY BUT NOT UNDER EXISTING CONDITIONS AND THAT IN FACT YOU ARE PRODUCING JEWELER'S WORK RATHER THAN PICTURES",
+        "pred": "This at once compels you to understand that the work is to be imaginative and decorative, that it represents beautiful things in the clearest way, but not under existing conditions, and that, in fact, you are producing jeweler's work rather than pictures.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 81,
+      "target": "THAT A STYLE IS RESTRAINED OR SEVERE DOES NOT MEAN THAT IT IS ALSO ERRONEOUS",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "That a style is restrained or severe does not mean that it is also erroneous."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THAT A STYLE IS RESTRAINED OR SEVERE DOES NOT MEAN THAT IT IS ALSO ERRONEOUS",
+        "pred": "That a style is restrained or severe does not mean that it is also erroneous.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 82,
+      "target": "IN ALL EARLY GOTHIC ART INDEED YOU WILL FIND FAILURE OF THIS KIND ESPECIALLY DISTORTION AND RIGIDITY WHICH ARE IN MANY RESPECTS PAINFULLY TO BE COMPARED WITH THE SPLENDID REPOSE OF CLASSIC ART",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "In all early Gothic art, indeed, you will find failure of this kind, especially distortion and rigidity, which are in many respects painfully to be compared with the splendid repose of classic art."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IN ALL EARLY GOTHIC ART INDEED YOU WILL FIND FAILURE OF THIS KIND ESPECIALLY DISTORTION AND RIGIDITY WHICH ARE IN MANY RESPECTS PAINFULLY TO BE COMPARED WITH THE SPLENDID REPOSE OF CLASSIC ART",
+        "pred": "In all early Gothic art, indeed, you will find failure of this kind, especially distortion and rigidity, which are in many respects painfully to be compared with the splendid repose of classic art.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 83,
+      "target": "THE LARGE LETTER CONTAINS INDEED ENTIRELY FEEBLE AND ILL DRAWN FIGURES THAT IS MERELY CHILDISH AND FAILING WORK OF AN INFERIOR HAND IT IS NOT CHARACTERISTIC OF GOTHIC OR ANY OTHER SCHOOL",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The large letter contains indeed entirely feeble and ill-drawn figures. That is merely childish and failing work of an inferior hand. It is not characteristic of gothic or any other school."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE LARGE LETTER CONTAINS INDEED ENTIRELY FEEBLE AND ILL DRAWN FIGURES THAT IS MERELY CHILDISH AND FAILING WORK OF AN INFERIOR HAND IT IS NOT CHARACTERISTIC OF GOTHIC OR ANY OTHER SCHOOL",
+        "pred": "The large letter contains indeed entirely feeble and ill-drawn figures. That is merely childish and failing work of an inferior hand. It is not characteristic of gothic or any other school.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 84,
+      "target": "BUT OBSERVE YOU CAN ONLY DO THIS ON ONE CONDITION THAT OF STRIVING ALSO TO CREATE IN REALITY THE BEAUTY WHICH YOU SEEK IN IMAGINATION",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "But observe, you can only do this on one condition, that of striving also to create in reality, the beauty which you seek in imagination."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "BUT OBSERVE YOU CAN ONLY DO THIS ON ONE CONDITION THAT OF STRIVING ALSO TO CREATE IN REALITY THE BEAUTY WHICH YOU SEEK IN IMAGINATION",
+        "pred": "But observe, you can only do this on one condition, that of striving also to create in reality, the beauty which you seek in imagination.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 85,
+      "target": "IT WILL BE WHOLLY IMPOSSIBLE FOR YOU TO RETAIN THE TRANQUILLITY OF TEMPER AND FELICITY OF FAITH NECESSARY FOR NOBLE PURIST PAINTING UNLESS YOU ARE ACTIVELY ENGAGED IN PROMOTING THE FELICITY AND PEACE OF PRACTICAL LIFE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "It will be wholly impossible for you to retain the tranquillity of temper and felicity of faith, necessary for noble, purest painting, unless you are actively engaged in promoting the felicity and peace of practical life."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IT WILL BE WHOLLY IMPOSSIBLE FOR YOU TO RETAIN THE TRANQUILLITY OF TEMPER AND FELICITY OF FAITH NECESSARY FOR NOBLE PURIST PAINTING UNLESS YOU ARE ACTIVELY ENGAGED IN PROMOTING THE FELICITY AND PEACE OF PRACTICAL LIFE",
+        "pred": "It will be wholly impossible for you to retain the tranquillity of temper and felicity of faith, necessary for noble, purest painting, unless you are actively engaged in promoting the felicity and peace of practical life.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 86,
+      "target": "YOU MUST LOOK AT HIM IN THE FACE FIGHT HIM CONQUER HIM WITH WHAT SCATHE YOU MAY YOU NEED NOT THINK TO KEEP OUT OF THE WAY OF HIM",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "You must look at him in the face, fight him, conquer him, with what scathe you may. You need not think to keep out of the way of him."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "YOU MUST LOOK AT HIM IN THE FACE FIGHT HIM CONQUER HIM WITH WHAT SCATHE YOU MAY YOU NEED NOT THINK TO KEEP OUT OF THE WAY OF HIM",
+        "pred": "You must look at him in the face, fight him, conquer him, with what scathe you may. You need not think to keep out of the way of him.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 87,
+      "target": "THE COLORIST SAYS FIRST OF ALL AS MY DELICIOUS PAROQUET WAS RUBY SO THIS NASTY VIPER SHALL BE BLACK AND THEN IS THE QUESTION CAN I ROUND HIM OFF EVEN THOUGH HE IS BLACK AND MAKE HIM SLIMY AND YET SPRINGY AND CLOSE DOWN CLOTTED LIKE A POOL OF BLACK BLOOD ON THE EARTH ALL THE SAME",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "The colorist says, \"First of all, as my delicious parakeet was ruby, so this nasty viper shall be black. And then is the question: Can I round him off, even though he is black, and make him slimy, and yet springy and close down, clotted like a pool of black blood on the earth, all the same?\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THE COLORIST SAYS FIRST OF ALL AS MY DELICIOUS PAROQUET WAS RUBY SO THIS NASTY VIPER SHALL BE BLACK AND THEN IS THE QUESTION CAN I ROUND HIM OFF EVEN THOUGH HE IS BLACK AND MAKE HIM SLIMY AND YET SPRINGY AND CLOSE DOWN CLOTTED LIKE A POOL OF BLACK BLOOD ON THE EARTH ALL THE SAME",
+        "pred": "The colorist says, \"First of all, as my delicious parakeet was ruby, so this nasty viper shall be black. And then is the question: Can I round him off, even though he is black, and make him slimy, and yet springy and close down, clotted like a pool of black blood on the earth, all the same?\"",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 88,
+      "target": "NOTHING WILL BE MORE PRECIOUS TO YOU I THINK IN THE PRACTICAL STUDY OF ART THAN THE CONVICTION WHICH WILL FORCE ITSELF ON YOU MORE AND MORE EVERY HOUR OF THE WAY ALL THINGS ARE BOUND TOGETHER LITTLE AND GREAT IN SPIRIT AND IN MATTER",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Nothing will be more precious to you, I think, in the practical study of art, than the conviction, which will force itself on you more and more every hour, of the way all things are bound together, little and great, in spirit and in matter."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "NOTHING WILL BE MORE PRECIOUS TO YOU I THINK IN THE PRACTICAL STUDY OF ART THAN THE CONVICTION WHICH WILL FORCE ITSELF ON YOU MORE AND MORE EVERY HOUR OF THE WAY ALL THINGS ARE BOUND TOGETHER LITTLE AND GREAT IN SPIRIT AND IN MATTER",
+        "pred": "Nothing will be more precious to you, I think, in the practical study of art, than the conviction, which will force itself on you more and more every hour, of the way all things are bound together, little and great, in spirit and in matter.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 89,
+      "target": "YOU KNOW I HAVE JUST BEEN TELLING YOU HOW THIS SCHOOL OF MATERIALISM AND CLAY INVOLVED ITSELF AT LAST IN CLOUD AND FIRE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "You know I have just been telling you how this school of materialism in clay involved itself at last in cloud and fire."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "YOU KNOW I HAVE JUST BEEN TELLING YOU HOW THIS SCHOOL OF MATERIALISM AND CLAY INVOLVED ITSELF AT LAST IN CLOUD AND FIRE",
+        "pred": "You know I have just been telling you how this school of materialism in clay involved itself at last in cloud and fire.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 90,
+      "target": "HERE IS AN EQUALLY TYPICAL GREEK SCHOOL LANDSCAPE BY WILSON LOST WHOLLY IN GOLDEN MIST THE TREES SO SLIGHTLY DRAWN THAT YOU DON'T KNOW IF THEY ARE TREES OR TOWERS AND NO CARE FOR COLOR WHATEVER PERFECTLY DECEPTIVE AND MARVELOUS EFFECT OF SUNSHINE THROUGH THE MIST APOLLO AND THE PYTHON",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Here is an equally typical Greek school landscape by Wilson, lost wholly in golden mist. The trees so slightly drawn that you don't know if they are trees or towers, and no care for color whatsoever. Perfectly deceptive and marvelous effect of sunshine through the mist. Apollo and the Python."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HERE IS AN EQUALLY TYPICAL GREEK SCHOOL LANDSCAPE BY WILSON LOST WHOLLY IN GOLDEN MIST THE TREES SO SLIGHTLY DRAWN THAT YOU DON'T KNOW IF THEY ARE TREES OR TOWERS AND NO CARE FOR COLOR WHATEVER PERFECTLY DECEPTIVE AND MARVELOUS EFFECT OF SUNSHINE THROUGH THE MIST APOLLO AND THE PYTHON",
+        "pred": "Here is an equally typical Greek school landscape by Wilson, lost wholly in golden mist. The trees so slightly drawn that you don't know if they are trees or towers, and no care for color whatsoever. Perfectly deceptive and marvelous effect of sunshine through the mist. Apollo and the Python.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 91,
+      "target": "NOW HERE IS RAPHAEL EXACTLY BETWEEN THE TWO TREES STILL DRAWN LEAF BY LEAF WHOLLY FORMAL BUT BEAUTIFUL MIST COMING GRADUALLY INTO THE DISTANCE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Now here is Raphael, exactly between the two, trees still drawn leaf by leaf, wholly formal, but beautiful mist coming gradually into the distance."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "NOW HERE IS RAPHAEL EXACTLY BETWEEN THE TWO TREES STILL DRAWN LEAF BY LEAF WHOLLY FORMAL BUT BEAUTIFUL MIST COMING GRADUALLY INTO THE DISTANCE",
+        "pred": "Now here is Raphael, exactly between the two, trees still drawn leaf by leaf, wholly formal, but beautiful mist coming gradually into the distance.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 92,
+      "target": "WELL THEN LAST HERE IS TURNER'S GREEK SCHOOL OF THE HIGHEST CLASS AND YOU DEFINE HIS ART ABSOLUTELY AS FIRST THE DISPLAYING INTENSELY AND WITH THE STERNEST INTELLECT OF NATURAL FORM AS IT IS AND THEN THE ENVELOPMENT OF IT WITH CLOUD AND FIRE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Well then, last here is Turner's, Greek school of the highest class, and you define his art absolutely, as first the displaying intensely and with the sternest intellect, of natural form as it is, and then the envelopment of it with cloud and fire."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "WELL THEN LAST HERE IS TURNER'S GREEK SCHOOL OF THE HIGHEST CLASS AND YOU DEFINE HIS ART ABSOLUTELY AS FIRST THE DISPLAYING INTENSELY AND WITH THE STERNEST INTELLECT OF NATURAL FORM AS IT IS AND THEN THE ENVELOPMENT OF IT WITH CLOUD AND FIRE",
+        "pred": "Well then, last here is Turner's, Greek school of the highest class, and you define his art absolutely, as first the displaying intensely and with the sternest intellect, of natural form as it is, and then the envelopment of it with cloud and fire.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 93,
+      "target": "ONLY THERE ARE TWO SORTS OF CLOUD AND FIRE",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Only, there are two sorts of cloud and fire."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "ONLY THERE ARE TWO SORTS OF CLOUD AND FIRE",
+        "pred": "Only, there are two sorts of cloud and fire.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 94,
+      "target": "HE KNOWS THEM BOTH",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "He knows them both."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "HE KNOWS THEM BOTH",
+        "pred": "He knows them both.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 95,
+      "target": "THERE'S ONE AND THERE'S ANOTHER THE DUDLEY AND THE FLINT",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "There's one and there's another, the Dudley and the Flint."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THERE'S ONE AND THERE'S ANOTHER THE DUDLEY AND THE FLINT",
+        "pred": "There's one and there's another, the Dudley and the Flint.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 96,
+      "target": "IT IS ONLY A PENCIL OUTLINE BY EDWARD BURNE JONES IN ILLUSTRATION OF THE STORY OF PSYCHE IT IS THE INTRODUCTION OF PSYCHE AFTER ALL HER TROUBLES INTO HEAVEN",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "It is only a pencil outline by Edward Burne Jones in illustration of the story of Psyche. It is the introduction of Psyche after all her troubles into heaven."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "IT IS ONLY A PENCIL OUTLINE BY EDWARD BURNE JONES IN ILLUSTRATION OF THE STORY OF PSYCHE IT IS THE INTRODUCTION OF PSYCHE AFTER ALL HER TROUBLES INTO HEAVEN",
+        "pred": "It is only a pencil outline by Edward Burne Jones in illustration of the story of Psyche. It is the introduction of Psyche after all her troubles into heaven.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 97,
+      "target": "EVERY PLANT IN THE GRASS IS SET FORMALLY GROWS PERFECTLY AND MAY BE REALIZED COMPLETELY",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Every plant in the grass is set formally, grows perfectly, and may be realized completely."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "EVERY PLANT IN THE GRASS IS SET FORMALLY GROWS PERFECTLY AND MAY BE REALIZED COMPLETELY",
+        "pred": "Every plant in the grass is set formally, grows perfectly, and may be realized completely.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 98,
+      "target": "EXQUISITE ORDER AND UNIVERSAL WITH ETERNAL LIFE AND LIGHT THIS IS THE FAITH AND EFFORT OF THE SCHOOLS OF CRYSTAL AND YOU MAY DESCRIBE AND COMPLETE THEIR WORK QUITE LITERALLY BY TAKING ANY VERSES OF CHAUCER IN HIS TENDER MOOD AND OBSERVING HOW HE INSISTS ON THE CLEARNESS AND BRIGHTNESS FIRST AND THEN ON THE ORDER",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Exquisite order and universal with eternal life and light, this is the faith and effort of the schools of crystal, and you may describe and complete their work quite literally, by taking any verses of Chaucer in his tender mood, and observing how he insists on the clearness and brightness first, and then on the order."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "EXQUISITE ORDER AND UNIVERSAL WITH ETERNAL LIFE AND LIGHT THIS IS THE FAITH AND EFFORT OF THE SCHOOLS OF CRYSTAL AND YOU MAY DESCRIBE AND COMPLETE THEIR WORK QUITE LITERALLY BY TAKING ANY VERSES OF CHAUCER IN HIS TENDER MOOD AND OBSERVING HOW HE INSISTS ON THE CLEARNESS AND BRIGHTNESS FIRST AND THEN ON THE ORDER",
+        "pred": "Exquisite order and universal with eternal life and light, this is the faith and effort of the schools of crystal, and you may describe and complete their work quite literally, by taking any verses of Chaucer in his tender mood, and observing how he insists on the clearness and brightness first, and then on the order.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    },
+    {
+      "doc_id": 99,
+      "target": "THUS IN CHAUCER'S DREAM",
+      "arguments": [
+        "Please recognize the speech and only output the recognized content:",
+        {
+          "max_new_tokens": 256,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "num_beams": 1,
+          "do_sample": false,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "librispeech_test_clean",
+        "librispeech_test_clean"
+      ],
+      "filtered_resps": [
+        "Thus, in Chaucer's dream."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "wer": {
+        "gt": "THUS IN CHAUCER'S DREAM",
+        "pred": "Thus, in Chaucer's dream.",
+        "source": "librispeech_test_clean",
+        "task": "asr_en"
+      },
+      "input": "Please recognize the speech and only output the recognized content:"
+    }
+  ]
+}

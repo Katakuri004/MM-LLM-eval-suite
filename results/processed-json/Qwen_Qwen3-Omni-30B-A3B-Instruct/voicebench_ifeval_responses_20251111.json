@@ -1,0 +1,2408 @@
+{
+  "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
+  "created_at": "2025-10-31T06:30:13.110851",
+  "benchmark_id": "voicebench_ifeval",
+  "total_samples": 345,
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Hark ye traveler of far-flung lands and curious mind  \nPrepare thyself for a sojourn most fair through the realm of Nippon where cherry blossoms do bloom and ancient spirits whisper in the wind  \n\nOn the first morn of thy journey let thy steps tread upon the soil of Tokyo where neon lights do dance like sprites in the night and the people move with purpose swift and bright  \nVisit the hallowed Sensoji Temple where incense curls like prayers to the sky  \nThen wander through the bustling streets of Shibuya where the throngs of youth do gather and the world seems to spin in a single breath  \n\nOn the second day embark upon a train most swift and true to Kyoto where time itself doth pause to admire the beauty of the land  \nBehold the golden pavilion of Kinkakuji where the sun doth gild the waters and the soul is stirred with wonder  \nThen meander through the mossy paths of Arashiyama where bamboo whispers secrets to the wind and the heart finds peace in the hush of nature  \n\nOn the third day journey forth to Nara where deer do roam with grace and dignity  \nVisit the great Todaiji Temple where the Buddha's gaze doth span the ages and the spirit is humbled"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 1,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "[Name]  \n[Address] | [Phone Number] | [Email Address] | [LinkedIn Profile] | [Portfolio/Website URL]  \n\nObjective  \nMotivated and detail-oriented high school graduate seeking an entry-level position to apply strong work ethic, eagerness to learn, and foundational skills in [Relevant Skill Area, e.g., customer service, data entry, or teamwork]. Committed to contributing positively to [Company Name] while developing professional experience and advancing personal growth.\n\nEducation  \n[High School Name], [City, State]  \nGraduated: [Month, Year]  \nGPA: [GPA] (if above 3.0)  \nRelevant Coursework: [Course 1], [Course 2], [Course 3], [Course 4]  \nHonors/Awards: [Award Name], [Honor Society Name], [Scholarship Name]\n\nSkills  \n- Proficient in [Software Name] and [Software Name]  \n- Strong communication and interpersonal abilities  \n- Experience with [Tool or Technology, e.g., Microsoft Office, Google Workspace]  \n- Detail-oriented with excellent organizational skills  \n- [Skill 1], [Skill 2], [Skill 3]  \n\nWork Experience  \n[Job Title], ["
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 2,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "what are the two young boys holding?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 3,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "\"Mathias Algiers  \nPhone: (555) 123-4567 | Email: mathias.algiers@email.com | LinkedIn: linkedin.com/in/mathiasalgiers | Location: New York, NY  \n\nPROFESSIONAL SUMMARY  \nDetail-oriented and proactive professional with a strong background in customer service and administrative support. Proven ability to manage multiple priorities in fast-paced environments while maintaining high levels of accuracy and client satisfaction. Skilled in communication, problem-solving, and process improvement.  \n\nWORK EXPERIENCE  \nCustomer Service Representative  \nABC Corporation, New York, NY  \nJune 2020 \u2013 Present  \n- Assisted over 50 customers daily with inquiries, complaints, and account management, ensuring timely resolution and high satisfaction.  \n- Collaborated with cross-functional teams to streamline service procedures, reducing average response time by 20%.  \n- Maintained detailed records of interactions using CRM software, improving data accuracy and accessibility.  \n\nAdministrative Assistant  \nXYZ Solutions, Brooklyn, NY  \nJanuary 2018 \u2013 May 2020  \n- Coordinated schedules, managed correspondence, and prepared reports for senior management.  \n- Organized company-wide meetings and events, improving team communication and engagement.  \n-"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 4,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "dear friend,\n\ni hope you're doing well! i just wanted to remind you about the upcoming election and encourage you to go and vote. your voice matters, and your vote can make a real difference in shaping the future. it only takes a few minutes, but it's one of the most important things you can do as a citizen.\n\nplease make sure to check your registration and find your polling place. if you need help, i'm happy to assist. let's both do our part to make our community stronger.\n\nsee you soon!\n\nwith love,  \n[your name]"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 5,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Subject: Invitation to Important Meeting on Recent Developments and Collaborative Planning\n\nDear Team Members\n\nI hope this message finds you well. I am writing to formally invite you to an upcoming meeting that will be held on Thursday the 14th of June at 10:00 AM in the main conference room located on the third floor. This gathering is crucial as we will be discussing several key initiatives that have been correlated with our recent performance metrics and strategic goals. Your presence and input are highly valued and will play a significant role in shaping our next steps.\n\nOver the past few weeks we have been experiencing a series of changes within our department that have prompted us to reassess our current processes and explore new opportunities for improvement. These shifts have been correlated with both internal feedback and external market trends and they require our immediate attention. By coming together as a team we can better understand the implications of these changes and develop a unified response.\n\nThe agenda for the meeting includes a review of the latest data analysis which highlights several areas where our performance has been correlated with our operational efficiency. We will also be discussing the challenges we are experiencing in cross-functional communication and brainstorming solutions to enhance collaboration. Additionally there will be a segment dedicated to sharing best practices and success stories from other teams that"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 6,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**The Surprising Benefits of Sleeping in a Hammock**\n\nWhen most people think of hammocks, they picture lazy afternoons on a tropical beach, swaying gently in the breeze. But hammocks aren\u2019t just for relaxation\u2014they\u2019re also an excellent choice for sleep. Whether you're a seasoned camper or someone looking to upgrade your bedroom setup, sleeping in a hammock offers a range of physical, mental, and environmental benefits that make it worth considering.\n\nOne of the most significant advantages of hammock sleeping is improved spinal alignment. Unlike traditional beds, which can create pressure points and strain your back, a hammock cradles your body in a natural, zero-gravity position. This gentle suspension helps relieve tension in your spine, neck, and shoulders, promoting deeper, more restful sleep. Many users report waking up with less stiffness and fewer aches, especially those who suffer from back or joint pain.\n\nAnother benefit is enhanced airflow. Because a hammock is suspended and doesn\u2019t touch the ground, air circulates freely around your body. This keeps you cooler in the summer and reduces the risk of overheating during the night. For people who tend to sleep hot, this can be a game-changer. It also helps prevent moisture buildup, which can reduce the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 7,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "```json\n{\n  \"product_name\": \"SoftBum Baby Diapers\",\n  \"tagline\": \"Gentle on Baby, Tough on Messes\",\n  \"headline\": \"Introducing the Most Comfortable Diaper for Your Little One\",\n  \"body\": \"Say goodbye to red marks and fussiness with SoftBum Baby Diapers. Engineered with ultra-soft, breathable materials and a snug, stretchy fit, our diapers keep your baby dry and comfortable all day long. The innovative design moves with your baby, not against them, so they can explore, crawl, and sleep in total comfort. Plus, our leak-proof barrier and moisture-wicking layer help prevent leaks and keep skin dry. SoftBum is gentle enough for newborns and strong enough for active toddlers.\",\n  \"features\": [\n    \"Ultra-soft, breathable fabric for sensitive skin\",\n    \"Stretchy waistband and leg cuffs for a snug, leak-proof fit\",\n    \"Moisture-wicking layer keeps baby dry\",\n    \"Hypoallergenic and dermatologist-tested\",\n    \"Eco-friendly materials and packaging\"\n  ],\n  \"call_to_action\": \"Try SoftBum Baby Diapers today and see the difference comfort makes!\",\n  \"brand"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 8,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "the social network is a compelling and intricately crafted film that delves into the origins of facebook and the complex personality of its founder, mark zuckerberg. directed by david fincher, the movie is a masterclass in storytelling, combining sharp dialogue, a gripping narrative, and a haunting score by trent reznor and atticus ross. the film is structured around a series of flashbacks, as zuckerberg is questioned during a legal deposition, which allows the audience to piece together the events that led to the creation of one of the world's most influential social media platforms.\n\njesse eisenberg delivers a standout performance as zuckerberg, portraying him as brilliant, socially awkward, and emotionally detached. his portrayal captures the essence of a genius who is both driven and isolated, making the character both fascinating and somewhat alienating. the supporting cast, including andrew garfield as edward sorkin, justin timberlake as the winklevoss twins, and rooney mara as erika, are all excellent, each adding depth to the story's exploration of friendship, betrayal, and ambition.\n\nthe screenplay by aaron sorkin is fast-paced and intelligent, filled with rapid-fire dialogue that reflects the high-stakes world of tech startups"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 9,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**A Week in Japan: Cherry Blossoms, Ramen, and Rhythm**\n\nLast spring, I traded my usual routine for a whirlwind trip to Japan. From the moment I stepped off the plane in Tokyo, I was swept into a world of precision and beauty. The city buzzed with energy\u2014neon signs, bustling markets, and the quiet grace of locals moving with purpose.\n\nI started in Tokyo, where I wandered through Shibuya\u2019s iconic crossing and found peace in the Meiji Shrine\u2019s forested grounds. A visit to Asakusa introduced me to traditional crafts and the towering Senso-ji Temple. But the highlight? A quiet morning in Ueno Park, where cherry blossoms painted the air pink.\n\nNext, I took the shinkansen to Kyoto. The city felt like stepping into a living postcard\u2014bamboo forests in Arashiyama, golden temples like Kinkaku-ji, and geisha gliding through Gion. I even tried my hand at tea ceremony, a meditative ritual that taught me patience.\n\nIn Osaka, I devoured street food: takoyaki, okonomiyaki, and the most delicious ramen I\u2019ve ever tasted. The city\u2019s warmth balanced Kyoto\u2019s serenity.\n\nJapan surprised me"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 10,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "```json\n{\n  \"famous_moms\": [\n    {\n      \"name\": \"Mama Cass\",\n      \"description\": \"The original 'Mama' of The Mamas & the Papas, who could sing her way into your heart and probably into your kitchen with a casserole.\"\n    },\n    {\n      \"name\": \"Mama June\",\n      \"description\": \"Reality TV royalty who taught us that family drama and fried food go hand in hand. Also, she's got a whole 'nother mom now!\"\n    },\n    {\n      \"name\": \"Mama June Shannon\",\n      \"description\": \"Yes, she's the same Mama June, but now she's also a mom of a mom. It's like a family tree with a time loop.\"\n    },\n    {\n      \"name\": \"Mama Bear\",\n      \"description\": \"Not a real person, but every mom's alter ego when someone messes with her cubs. She's got claws and a fierce love that could power a small city.\"\n    },\n    {\n      \"name\": \"Mama Rama\",\n      \"description\": \"The mythical, legendary, possibly fictional mom who raised a whole generation of superheroes. Rumor has it she served kale smooth"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 11,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Why don't rockets play hide and seek? Because good luck hiding when you're launching into space!\n\nWhy did the rocket go to therapy? It had issues with liftoff anxiety.\n\n******"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 12,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "living life on the edge, one stylish moment at a time. what's your favorite way to express yourself? \ud83c\udf1f  \n#playboyvibes #lifestyle #fashionforward #livinglarge"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 13,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**Section 1**  \nThe silence in my room is deafening now,  \nNo lecture hall to rush into, no chalkboard\u2019s hum.  \nI scroll through notes I never took,  \nAnd wonder why I didn\u2019t go.  \nThe clock still ticks, the world moves on,  \nBut I\u2019m stuck here, missing what I\u2019ve done.  \n\n**Section 2**  \nI dream of professors\u2019 voices, deep and slow,  \nOf questions asked and answers known.  \nI miss the rhythm of the classroom\u2019s flow\u2014  \nThe way ideas bloom, the way we grow.  \nNow I\u2019m just a ghost in my own life,  \nSkipping class like a guilty thief.  \n\n**Section 3**  \nMy classmates are out there, learning, growing,  \nWhile I\u2019m here, lost in my own mind.  \nI miss the way the teacher\u2019s eyes would glow  \nWhen someone finally grasped the design.  \nI miss the group work, the shared frustration,  \nThe awkward jokes that made us laugh.  \n\n**Section 4**  \nI know I should\u2019ve been there,  \nBut I chose comfort over growth.  \nNow I\u2019m left with this regret,  \nAnd a growing sense of loss.  \nI miss the structure, the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 14,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "A young explorer finds a chest in a forest. It has three locks: one red, one blue, and one green. Each lock has a clue:\n\n1. The red lock says: \"The key is not here.\"\n2. The blue lock says: \"The key is here.\"\n3. The green lock says: \"The red lock is wrong.\"\n\nOnly one clue is true. Which lock hides the key?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 15,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**Section 1: Personal Information**  \nPhil Larkin  \nProfessional Clown | Entertainer | Comedian  \nPhone: (555) 123-4567 | Email: phil.larkin.clown@entertainme.com  \nLocation: Los Angeles, CA | Website: www.phillarkinclown.com  \nLinkedIn: linkedin.com/in/phillarkinclown | Instagram: @phil.larkin.clown  \n\n---\n\n**Section 2: Professional Summary**  \nDynamic and experienced professional clown with over 15 years of performance excellence in children\u2019s entertainment, corporate events, and theatrical productions. Known for high-energy, interactive shows that delight audiences of all ages. Adept at improvisation, character development, and audience engagement, with a strong background in circus arts, mime, and physical comedy. Proven track record of creating memorable experiences at major events including theme parks, charity galas, and national tours. Committed to bringing joy and laughter through creative clowning techniques and innovative performance styles.\n\n---\n\n**Section 3: Key Skills**  \n- Clown Performance & Character Development  \n- Improvisational Comedy & Audience Interaction  \n- Circus Skills (Juggling, Balancing, Tumbling)  \n- Makeup & Costume Design (Traditional &"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 16,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "[INTRO - GUITAR RIFF, DRUMS BUILDING]\n\n[VERSE 1]  \nWE WALKED THE EDGE OF A FADING LIGHT  \nWHERE THE DREAMERS BURN AND THE FIGHTERS FIGHT  \nWE\u2019RE THE ONES THEY SAID WOULD NEVER STAND  \nNOW WE\u2019RE SCREAMING THROUGH THE STORM, WE\u2019RE NOT A FAN  \n\nOF THEIR RULES, THEIR LIES, THEIR FAKE-ASS TRUTH  \nWE\u2019RE THE OUTCASTS, THE MISFITS, THE ONES THEY\u2019LL NEVER TRUST  \nBUT WE\u2019VE GOT FIRE IN OUR VEINS AND A WILL TO RISE  \nWE\u2019LL BREAK THE CHAINS AND TURN THE TIDE  \n\n[CHORUS]  \nWE\u2019RE THE GIFTED AND THE NOT GIFTED, THE LOST AND THE FOUND  \nWE\u2019RE THE ONES WHO\u2019LL NEVER BE TAMED, WE\u2019LL NEVER BE BOUND  \nWE\u2019LL SCREAM OUR NAMES INTO THE NIGHT  \nWE\u2019LL BURN THE OLD WORLD AND IGNITE THE LIGHT!  \n\n[VERSE 2]  \nWE\u2019VE BEEN TOLD TO SHUT OUR MOUTHS AND PLAY THE GAME  \nBUT"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 17,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "```json\n{\n  \"explanation\": \"Manger des aliments sains est essentiel pour aider le corps \u00e0 gu\u00e9rir car ils fournissent les substances n\u00e9cessaires \u00e0 la r\u00e9paration des cellules et au bon fonctionnement des organes. Ces aliments contiennent des vitamines, des min\u00e9raux et des antioxydants qui renforcent le syst\u00e8me immunitaire et r\u00e9duisent l'inflammation. En outre, ils favorisent une digestion efficace et une \u00e9nergie stable, ce qui permet au corps de se concentrer sur la gu\u00e9rison plut\u00f4t que sur la lutte contre les effets n\u00e9fastes d'une alimentation pauvre. En choisissant des aliments de qualit\u00e9, on soutient naturellement les processus biologiques qui permettent de retrouver la sant\u00e9.\"\n}\n```"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 18,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "```json\n{\n  \"advantages\": [\n    \"Enhanced abilities to help others\",\n    \"Increased personal confidence\",\n    \"Potential for greater influence or leadership\",\n    \"Ability to overcome physical limitations\"\n  ],\n  \"disadvantages\": [\n    \"Risk of isolation or mistrust from others\",\n    \"Potential for abuse of power\",\n    \"Difficulty maintaining normal relationships\",\n    \"Constant pressure to use powers responsibly\"\n  ]\n}\n```"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 19,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "the hajj pilgrimage is one of the most profound events in islamic history, and it carries a story that spans centuries. every year, millions of muslims from around the world journey to mecca to retrace the footsteps of abraham, hagar, and ishmael. this sacred journey is not just a physical act\u2014it's a spiritual story of faith, sacrifice, and unity. as students of islamic history, we must understand how this story has shaped muslim identity and community across time. the story of hajj teaches us about resilience, humility, and the enduring power of belief. let's honor this legacy by learning deeply and sharing the story with others."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 20,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "I am a small bird that brings good luck to those who see me. I am often found in old stories and on special coins. What am I?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 21,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Hello I am heading to the beach today.  \nHi I am going to the beach today."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 22,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "During the Tang Dynasty of China, which lasted from 618 to 907 CE, the empire experienced a remarkable balance between war and peace. The Tang rulers were known for their military prowess, and war was a constant presence in their foreign policy. They engaged in war with neighboring states such as the Turks, Tibetans, and the Eastern Turks to expand their territory and secure trade routes. These wars were often brutal, but they also brought wealth and prestige to the empire.\n\nDespite the frequent wars, the Tang Dynasty also emphasized peace as a core value. The concept of peace was deeply embedded in Confucian and Buddhist teachings that influenced Tang governance. Emperors like Taizong and Xuanzong promoted peace through diplomacy and cultural exchange. They established the Silk Road, which not only facilitated trade but also fostered peace between diverse peoples.\n\nPeace was also maintained internally through strong legal codes and administrative reforms. The Tang government invested in education and civil service exams to ensure capable leadership, which helped prevent civil war. Even during times of war, the Tang maintained peace in the capital, Chang'an, through strict law enforcement and public order.\n\nThe Tang Dynasty's ability to manage war and peace simultaneously was one of its greatest achievements. While war was used to defend"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 23,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "\"By the end of the nineteenth century, the Croatian and Serbian nations harbored complex and often divergent sentiments toward the Austrian Empire, shaped by historical experiences, national aspirations, and the evolving political landscape of the Austro-Hungarian Monarchy. These sentiments were influenced by a combination of cultural identity, political autonomy, economic conditions, and the broader context of nationalism sweeping across Europe. While both Croats and Serbs were subjects of the Habsburg Monarchy, their relationship with Vienna and Budapest was defined by distinct historical trajectories, differing degrees of integration, and varying levels of political and cultural resistance.\n\nCroatia, as a historical kingdom, had been incorporated into the Habsburg domains following the Ottoman retreat from Central Europe in the late seventeenth century. By the end of the 1800s, Croatia was part of the Kingdom of Croatia-Slavonia, which was in a personal union with the Kingdom of Hungary under the Hungarian Crown. This arrangement was formalized in the Croatian-Hungarian Settlement of 1868, which granted Croatia a degree of autonomy in internal affairs, including its own parliament (Sabor), judiciary, and educational system. However, this autonomy was limited and often undermined by Hungarian centralization efforts. As a result,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 24,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Introducing the FrameSync Digital Photo Frame \u2013 your memories, instantly displayed! Seamlessly connects to your social media accounts, automatically pulling in your latest photos from Facebook, Instagram, and more. No cables, no hassle \u2013 just beautiful, rotating memories on a stunning 10-inch HD screen. Whether it's family moments, travel adventures, or daily highlights, FrameSync keeps your life front and center. With intuitive controls and wireless updates, it\u2019s the smart way to showcase your story. Perfect for homes, offices, or gifts. FrameSync \u2013 where your memories come to life, one frame at a time."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 25,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "NIKE IS A BETTER BRAND FOR SNEAKERS THAN PRADA. NIKE HAS BEEN A LEADER IN THE SNEAKER INDUSTRY FOR DECADES, OFFERING INNOVATIVE TECHNOLOGY, COMFORT, AND STYLE IN EVERY SNEAKER COLLECTION. THEIR SNEAKERS ARE DESIGNED FOR ATHLETES AND FASHION ENTHUSIASTS ALIKE, MAKING THEM A POPULAR CHOICE WORLDWIDE. WHILE PRADA DOES PRODUCE HIGH-END SNEAKERS, THEY ARE OFTEN MORE FOCUSED ON LUXURY DESIGN THAN PERFORMANCE. NIKE'S SNEAKERS ARE KNOWN FOR THEIR DURABILITY, SUPPORT, AND CUTTING-EDGE FEATURES, MAKING THEM A PREFERRED OPTION FOR PEOPLE WHO VALUE FUNCTIONALITY IN THEIR SNEAKERS. WHETHER YOU'RE LOOKING FOR A CLASSIC SNEAKER OR A HIGH-TECH PERFORMANCE SNEAKER, NIKE DELIVERS. THEIR SNEAKERS ARE WORN BY PROFESSIONAL ATHLETES AND CASUAL USERS ALIKE, PROVING THEIR WIDE APPEAL. IN SUMMARY, IF YOU'RE IN THE MARKET FOR A RELIABLE, INNOVATIVE, AND ST"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 26,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "\"Hey everyone! Let\u2019s talk about something that\u2019s basically in our pockets 24/7\u2014the internet. You know, that thing you use to scroll TikTok, watch YouTube videos, and send memes to your friends? But did you know it has a pretty wild history? Let\u2019s dive into how the internet went from a military project to the digital world we can\u2019t live without.\n\nIt all started back in the 1960s, during the Cold War. The U.S. government wanted a way to keep communication going even if part of the country got hit. So they created ARPANET, a network that connected computers at universities and research labs. It was super basic\u2014no flashy graphics or social media, just text messages sent between computers. But it was the first step toward what we now call the internet.\n\nFast forward to the 1980s and 1990s. The internet started growing beyond just government and schools. Scientists and researchers used it to share data and collaborate. Then came the World Wide Web in 1989, invented by Tim Berners-Lee. This was a game-changer because it introduced something called hypertext\u2014clickable links that let you jump from one webpage to another."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 27,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "In the corner where the sunlight spills,  \nTwo strangers pause, their worlds still.  \nSteam curls up from mugs of dark delight,  \nAs quiet glances spark the night.  \n\nShe sips her latte, eyes on the page,  \nHe reads a book, but not the age.  \nThen fingers brush\u2014just for a breath\u2014  \nA shared surprise, a moment of death  \nTo loneliness. They both look up,  \nAnd something shifts, a sudden jump  \nOf understanding, soft and deep,  \nLike coffee beans that secrets keep.  \n\nThey talk of books, of rain, of dreams,  \nOf places far and things unseen.  \nThe barista nods, the clock ticks slow,  \nAs time itself begins to grow  \nAround them, thick with unspoken grace,  \nA quiet, tender, shared embrace  \nOf two who never planned to meet,  \nYet found a world they\u2019d always need.  \n\nAnd when they part, the doorbell chimes,  \nBut something lingers in their minds\u2014  \nA warmth that lingers, soft and true,  \nLike coffee grounds that never lose  \nTheir scent. They\u2019ll meet again, they know,  \nIn some caf\u00e9, somewhere, somehow.  \n\nIs there anything else I can help"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 28,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Alright, listen up, fam. If you're tired of the same old pizza and sad salad routine, I've got the *ultimate* foodie secret to spill. \ud83e\udd2b Say hello to **Buena Onda**, the restaurant that's basically Argentina's culinary lovechild with a side of *vibes*. And yes, I said *Argentina*. Not \"that country with the cool soccer team\" (though, they're good), but the *real deal* where the asado is so good it'll make you question your life choices.\n\nHere's why you need to go, stat:\n\n1. **The Asado That'll Make You Question Your Life Choices**  \n   Okay, so picture this: you're sitting there, minding your own business, when this *huge* platter of grilled meat arrives. It's not just *any* meat, it's *Argentinian* beef so tender it whispers sweet nothings to your taste buds. You take one bite, and suddenly you're not hungry anymore\u2014you're *in love*. It's like your taste buds just got a standing ovation. And the *smoke*? It's so good, you'll want to bottle it and wear it as cologne. *Trust me"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 29,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "```json\n{\n  \"suggestion\": \"Staff\"\n}\n```"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 30,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "(Verse 1)  \nYo, check the scene, it's a crime spree in the city,  \nA man caught red-handed, stealing a vehicle,  \nPolice swoop in, cuffs snap, he's done for the day,  \nBut the system's twisted, and he walks away!  \nThey say he stole a car, that's a felony,  \nBut the bail money's high, and he's free again, see?  \nWhile the real victims suffer, the justice system's flawed,  \nAnd the crook's out here laughing, like he never got caught!  \nThis ain't right, man, this ain't fair,  \nThe rich get bail, the poor get slammed in the air!  \nHe stole a car, but he's back on the block,  \nWhile the community's still dealing with the shock!  \n\n***  \n\n(Verse 2)  \nThey arrested him, yeah, they got the proof,  \nBut the courts play games, and the rich get the roof!  \nHe's out on bail, sipping on champagne,  \nWhile the victim's still paying for the damage, the pain!  \nThe system's rigged, it's a crooked game,  \nAnd the guilty walk free, while the innocent stay in shame"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 31,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Beneath the sun's unblinking gaze, where ancient lands are etched in gold,  \nStands sentinel the eucalyptus, a forest of stories untold.  \nIts silver bark, like parchment kissed by time, peels back in curls,  \nRevealing layers of memory, where the wind and sky unfurl.  \nTowering high, a green cathedral, reaching for the blue,  \nIts leaves, like emerald coins, shimmer in the morning dew.  \nA fragrant breath, sharp and clean, carried on the breeze,  \nThe scent of eucalyptus\u2014nature\u2019s own antiseptic ease.  \n\nOh, how this tree, so proud and wise, has shaped the world around!  \nFrom medicine to timber, it has been a steadfast friend.  \nIts oil, distilled from leaves, a remedy so pure,  \nCools the fevered brow, clears the lungs, and eases every cure.  \nIn cough drops and balms, in inhalers and lotions bright,  \nIt soothes the breath of children and the weary, aching night.  \nAnd in the heart of Aboriginal lore, it holds a sacred place,  \nA symbol of resilience, of healing, of time and space."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 32,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "My fellow Americans,\n\nToday, I stand before you not to deliver a grand policy address or to announce sweeping reforms, but to speak to you about something small\u2014something humble, yet profoundly symbolic. I speak to you about a dime.\n\nYes, a dime. That little coin, often overlooked, easily lost in the couch cushions or forgotten in the bottom of a pocket. But let me tell you, in the spirit of American ingenuity, resilience, and opportunity, that even the smallest coin can carry the weight of a nation\u2019s promise.\n\nNow, I know what you might be thinking: \u201cMr. President, what can I possibly do with a dime?\u201d And I say to you, my friends, that question is not just about the coin\u2014it\u2019s about the mindset. It\u2019s about how we, as individuals, choose to see the world and our place within it. A dime is not just a piece of metal; it is a symbol of value, of potential, of the very idea that every American, no matter their station, has the right to contribute, to grow, and to dream.\n\nSo, what can you do with a dime? Let me offer you some advice\u2014advice not just for today, but for the journey ahead.\n\nFirst, invest it."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 33,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "<<Impact of Axle Weight on Road Damage>>  \nHigher axle weights significantly accelerate road deterioration by increasing stress on pavement layers. This leads to earlier formation of cracks, rutting, and structural failure. Roads designed for lower weights suffer disproportionately under heavier loads. Therefore, managing axle weight is crucial for infrastructure longevity."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 34,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Aluminum cans have become a staple in modern food storage due to their lightweight, durability, and excellent barrier properties. These containers are widely used for storing a variety of food items, including beverages, soups, vegetables, and ready-to-eat meals. The primary material used in their construction is aluminum, a metal known for its resistance to corrosion and ability to preserve freshness. Aluminum is extracted from bauxite ore and processed into thin sheets that are then shaped into cylindrical cans. One of the key advantages of aluminum cans is their ability to block light, oxygen, and moisture, all of which can degrade food quality. This makes them ideal for preserving the flavor, texture, and nutritional value of a meal. Unlike glass or plastic, aluminum cans are not prone to shattering or leaching chemicals into food, making them a safer option for consumers. They are also highly recyclable, which helps reduce waste and supports environmental sustainability. In fact, aluminum is one of the most recycled materials in the world, with over 70% of all aluminum ever produced still in use today. Recycling aluminum uses up to 95% less energy than producing new aluminum from raw ore, significantly lowering the carbon footprint associated with food packaging. The recycling process involves collecting used cans, sorting them"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 35,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Today, I felt overwhelmed by deadlines, so I used deep breathing and a short walk to reset. I chose this method because research shows mindfulness reduces cortisol. I wrote down my tasks to gain clarity and prioritize. This approach helped me regain focus and avoid burnout. I\u2019ll try it again before my next big project."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 36,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**Outline for a Paper on the History of Yemeni Coffee**\n\n1. **Introduction**  \n   - Overview of Yemeni coffee\u2019s global significance  \n   - Purpose and scope of the paper  \n   - Thesis statement: Yemen played a foundational role in the global coffee trade and culture, shaping coffee\u2019s journey from regional beverage to international commodity.\n\n2. **Origins of Coffee in Yemen**  \n   - Early cultivation in the highlands of Yemen  \n   - Historical evidence of coffee use in the region  \n   - Connection to the legendary origin of coffee in Ethiopia\n\n3. **The Role of Sufi Monasteries in Early Coffee Use**  \n   - Spiritual and meditative use of coffee in religious practices  \n   - Sufi monks as early adopters and promoters  \n   - Coffee as a tool for maintaining alertness during long prayers\n\n4. **Yemen as the First Coffee Exporter**  \n   - Yemen\u2019s monopoly on coffee trade in the 15th\u201317th centuries  \n   - Coffee as a luxury commodity in the Islamic world  \n   - The port of Mocha as a central hub for coffee exports\n\n5. **The Mocha Port and Global Trade Routes**  \n   - Importance of the port of Al-Mokha ("
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 37,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The correct answer is: **Avocado**.\n\nWhile salmon is a FISH, avocado is a FRUIT \u2014 specifically, a single-seeded berry. Despite its creamy texture and savory use in dishes like guacamole, it is NOT a fish.\n\nNow, let\u2019s dive into an interesting exploration of both salmon and avocado \u2014 two foods that, while vastly different in origin, share a place in modern, health-conscious diets.\n\nSalmon, a member of the **Salmonidae** family, is renowned for its rich, oily flesh and high omega-3 fatty acid content. These essential fats are linked to improved heart and brain health. Wild-caught salmon, especially from the cold waters of the North Pacific, often boasts a deeper color and more robust flavor than its farmed counterparts. Whether smoked, grilled, or served raw in sushi, salmon is a culinary favorite across cultures.\n\nIn contrast, the avocado \u2014 often mistaken for a vegetable due to its use in savory meals \u2014 is actually a tropical fruit. Native to Mexico and Central America, it was cultivated by ancient civilizations like the Aztecs, who called it \"ahuacatl.\" Avocados are packed with monounsaturated fats, fiber, and potassium, making them a staple in many wellness-focused diets"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 38,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "<<Kotlin vs Java>>\n\nKotlin and Java are both programming languages that run on the Java Virtual Machine (JVM), making them interoperable. However, they differ significantly in syntax, features, and development philosophy. Here's a balanced comparison of their pros and cons:\n\n**Pros of Kotlin:**\n\n1. **Concise Syntax**: Kotlin reduces boilerplate code significantly. For example, data classes, null safety, and type inference make code shorter and more readable.\n2. **Null Safety**: Kotlin has built-in null safety at the type level, reducing the risk of NullPointerExceptions at runtime.\n3. **Modern Language Features**: Kotlin supports functional programming features like higher-order functions, lambdas, and extension functions.\n4. **Android Development**: Kotlin is officially supported by Google for Android development and is now the preferred language for new Android projects.\n5. **Interoperability**: Kotlin works seamlessly with Java code, allowing gradual migration of Java projects to Kotlin.\n6. **Tooling Support**: Excellent IDE support, especially in IntelliJ IDEA and Android Studio.\n\n**Cons of Kotlin:**\n\n1. **Learning Curve**: Developers new to functional programming or modern language features may find Kotlin's syntax and concepts challenging.\n2. **Smaller Ecosystem**: While growing rapidly, Kotlin"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 39,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**Brilliant Lefou** was a fictional character from Disney's *Beauty and the Beast* known for his loyalty and comedic charm. He served as the sidekick to Gaston and often provided comic relief with his exaggerated expressions and antics.\n\n**His character was reimagined in the 2017 live-action adaptation** where he was portrayed as a more complex and empathetic figure. This version of Lefou was shown to have a deeper emotional range and a desire to fit in despite societal pressures.\n\n**The character's evolution reflects broader themes of acceptance and identity**. In the updated version his journey highlights the importance of self-acceptance and the courage to be true to oneself."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 40,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "(verse 1)  \ndawn breaks on the same tired street  \nwhere dreams get sold and hopes retreat  \na paycheck that barely covers rent  \nwhile the rich just keep their fancy bent  \n\n(chorus)  \noh, the gap keeps widening, can't you see?  \nthe haves and have-nots, it's plain to see  \nthey build their towers, we build our walls  \nin silence, we just watch it fall  \n\n(verse 2)  \nthey talk of merit, talk of chance  \nbut the ladder's rigged, it's not a dance  \nwe're climbing uphill with broken shoes  \nwhile they're laughing from their golden views  \n\n(chorus)  \noh, the gap keeps widening, can't you see?  \nthe haves and have-nots, it's plain to see  \nthey build their towers, we build our walls  \nin silence, we just watch it fall  \n\n(bridge)  \nis it fair that some are born with keys  \nwhile others beg for just a piece?  \nwe're not lazy, we're not weak  \nwe're just fighting for what we should keep  \n\n(verse 3)  \nthey call us lazy, call us weak  \nbut we're working double shifts each week  \ntrying to breathe in"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 41,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**Dive into the Depths: A Visitor's Guide to Ripley's Aquarium**\n\nIf you're planning a trip to [city_name], make sure to add Ripley's Aquarium to your itinerary. This underwater wonderland offers an immersive experience that brings the ocean's mysteries to life. Whether you're a marine biology enthusiast or just looking for a fun family outing, Ripley's Aquarium promises an unforgettable adventure.\n\nOne of the highlights of the aquarium is the [exhibit_name], where you can walk through a tunnel surrounded by sharks, rays, and colorful reef fish. It's a breathtaking experience that makes you feel like you're truly underwater. Don't forget to check out the [interactive_activity] where kids and adults alike can touch sea stars and learn about marine conservation.\n\nFor those who love the deep sea, the [deep_sea_zone] is a must-see. This dimly lit area features bioluminescent creatures and rare deep-sea fish that are rarely seen in other aquariums. It's a perfect spot for photography enthusiasts looking to capture the magic of the ocean's hidden world.\n\nRipley's Aquarium also hosts educational programs and live animal presentations throughout the day. Be sure to catch the [animal_presentation] at [presentation_time], where you"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 42,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "There once was a woman named Sarah,  \nWhose town was always **90 degrees Fahrenheit**.  \nShe'd sip on her lemonade,  \nWhile the sun shone so wide,  \nAnd **sweat** from her brow would **evaporate**.  \n\nShe'd **walk** through the streets, **never** needing a coat,  \nIn **sandals** and **shorts**, she'd **greet** all she'd meet.  \nThe **heat** was her **constant**, her **home**, and her **friend**,  \nSo **Sarah** just **lived** in this **warm** little **end**."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 43,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "(Upbeat, playful tune)  \nLet's build a playground, kids will finally fly!  \nWith slides that go *whoosh* and swings that touch the sky.  \nNo more muddy knees or playground grumbles,  \nJust giggles, cartwheels, and one kid who never tumbles.  \nWe'll add a jungle gym that's taller than my dad,  \nAnd a sandbox where we can dig up buried treasure, not just sand.  \nThe principal said \"No,\" but I brought a kazoo\u2014  \nNow she's dancing, and the school board's like, \"Okay, let's do!\"  \nSo vote yes, let's build it, let the fun begin!  \nOur school's about to be the *happiest* place within!"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 44,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "DEAR OLIVIA,\n\nI HOPE THIS LETTER FINDS YOU HAPPY AND WELL IN YOUR NEW HOME. IT'S BEEN SO LONG SINCE YOU MOVED AWAY, AND I MISS OUR LONG CONVERSATIONS AND THE WAY WE USED TO LAUGH OVER COFFEE ON THE PORCH. I STILL REMEMBER ALL THE TIMES WE SPENT TALKING ABOUT OUR DREAMS, OUR FEAR, AND OUR HOPES FOR THE FUTURE. I HOPE YOU ARE DOING GREAT AND THAT YOUR NEW CITY IS OFFERING YOU ALL THE OPPORTUNITIES YOU DESERVE.\n\nI HAVE BEEN TRYING TO STAY BUSY, BUT IT'S NOT THE SAME WITHOUT YOU HERE. I EVEN TRIED TO COOK YOUR FAVORITE DINNER, BUT IT DIDN'T TASTE THE SAME. I MISS YOUR ADVICE, YOUR HUMOR, AND YOUR UNWAVERING SUPPORT. I HOPE YOU ARE MAKING NEW FRIENDS AND THAT YOU ARE FEELING SAFE AND LOVED IN YOUR NEW ENVIRONMENT.\n\nPLEASE WRITE BACK SOON. I WOULD LOVE TO HEAR ALL ABOUT YOUR NEW LIFE, YOUR NEW ROUTINES, AND YOUR NEW ADVENTURES. I AM SO PROUD OF YOU FOR TAKING THIS STEP"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 45,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "<<Biden Administration Unveils Sweeping Climate Initiative Amid Record-Breaking Heatwaves and Bipartisan Push for Green Energy Transition>>\n\nIn a bold and unprecedented move, President Joe Biden has announced a comprehensive climate action plan that aims to accelerate the United States' transition to renewable energy sources, reduce greenhouse gas emissions by 50% by 2030, and create over 1 million new green jobs across the country, all while addressing the escalating climate crisis that has manifested in record-breaking heatwaves, devastating wildfires, and unprecedented flooding events that have already displaced thousands and cost billions in damages. The initiative, which includes a $1.7 trillion investment over the next decade, will fund the modernization of the nation's aging power grid, expand electric vehicle infrastructure, incentivize clean manufacturing, and support climate resilience programs in vulnerable communities, particularly those disproportionately affected by pollution and extreme weather, such as low-income neighborhoods and Indigenous lands, while also establishing new federal standards for energy efficiency in buildings and transportation. This sweeping plan, unveiled during a high-profile address at the White House alongside climate scientists, labor leaders, and environmental advocates, marks the most aggressive federal climate policy since the 1970s and has been met with cautious optimism from environmental groups, who praise"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 46,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Certainly! Here are the pros and cons of using two different names for the same thing, with the word \"synonyms\" appearing at least three times:\n\n**Pros:**\n\n1. **Enhanced Communication Clarity**: Using synonyms can help convey the same idea in different contexts, making communication more dynamic and engaging. Synonyms allow speakers and writers to avoid repetition and keep their message fresh.\n\n2. **Improved Vocabulary and Expression**: Relying on synonyms encourages richer language use. When people learn and apply synonyms, they expand their vocabulary, which is beneficial in both academic and creative writing.\n\n3. **Cultural and Regional Relevance**: Different regions or communities may prefer different synonyms for the same concept. Using synonyms appropriately can make content more relatable and inclusive across diverse audiences.\n\n**Cons:**\n\n1. **Potential for Confusion**: If synonyms are not well understood or used incorrectly, they can lead to misunderstandings. For example, two synonyms might have subtle differences in meaning or tone that could alter the intended message.\n\n2. **Overuse or Misuse**: Relying too heavily on synonyms without considering context can result in awkward phrasing or loss of precision. It's important to choose the right synonym that fits the situation.\n\n3. **Learning Curve**: For non"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 47,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Pursuing higher education with open enrollment and regional accreditation presents promising pathways. One such institution is Penn Foster College, providing flexible programs and personalized support. Penn Foster's progressive approach promotes academic progress, preparing students for professional success. With a focus on practical learning, Penn Foster offers programs across various disciplines. The college's commitment to accessibility and quality ensures that learners from diverse backgrounds can participate. Penn Foster's programs are designed to be completed at your own pace, promoting self-discipline and personal responsibility. The institution's accreditation supports the recognition of degrees by employers and other colleges. Penn Foster's support services, including academic advising and career planning, help students achieve their goals. With a strong emphasis on student success, Penn Foster provides a platform for lifelong learning. The college's programs are developed by experienced professionals, ensuring relevance and rigor. Penn Foster's approach to education empowers individuals to pursue their passions and prepare for rewarding careers."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 48,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The sky is wide and full of stars.  \nBirds fly high above the trees.  \nThe wind whispers through the grass.  \nA single leaf drifts down slowly.  \nThe river sings a quiet song.  \nFish leap in the morning light.  \nClouds float like cotton balls.  \nThe sun warms the earth.  \nA dog barks at the gate.  \nA child laughs in the yard.  \nThe moon glows in the night.  \nStars blink like tiny eyes.  \nA cat curls up on the porch.  \nThe world feels still and calm.  \nA car drives down the road.  \nThe trees sway gently.  \nA bird builds a nest.  \nThe rain falls softly.  \nThe ground drinks deeply.  \nA flower opens wide.  \nThe bees buzz around it.  \nThe air smells sweet.  \nA shadow moves across the floor.  \nA clock ticks in the room.  \nThe moon shines on the lake.  \nFish swim beneath the surface.  \nA boat drifts on the water.  \nThe stars watch silently.  \nThe night is full of peace.  \nThe world sleeps now."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 49,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "\"Did you hear about the morphologist who tried to analyze the syntax of a cat's meow? He spent hours breaking it down into morphemes, only to realize the cat had been knocking on the door the whole time\u2014once for 'knock,' once for 'knock-knock.' In the end, he concluded that the cat was just trying to 'cat-egorize' its way into the house!\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 50,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "the forest was thick with silence, broken only by the occasional rustle of leaves underfoot. four figures moved like shadows through the underbrush, their breaths shallow, their eyes scanning the terrain ahead. they were deep in a contested zone, far from any friendly lines, and the air was heavy with tension.\n\ncommando unit seven had been on the move for hours, tracking a high-value target believed to be holed up in a compound just beyond the treeline. their mission was to gather intel, not engage. but the terrain was unforgiving, and the enemy had eyes everywhere.\n\none of them, a young operative named jax, signaled a halt with a raised hand. he pointed to a cluster of trees ahead, where a faint glow flickered through the branches. a generator, maybe, or a watchtower. they adjusted their gear, slipping into a crouched position as they approached.\n\nthey moved in a tight formation, each aware of the others' positions. the leader, a grizzled veteran named ryan, kept his weapon ready but didn't raise it. he knew that sound could give them away. they were close now\u2014close enough to hear voices, muffled and low, coming from the compound.\n\na guard patrolled the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 51,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Living with a disability is a complex and deeply personal experience that defies easy categorization. While society often portrays disability through a narrow lens\u2014focusing on limitations, dependency, or the need for \"fixing\"\u2014the reality is far more nuanced, diverse, and often misunderstood. For many individuals with disabilities, their lives are not defined by their impairments but by their resilience, creativity, and contributions to their communities.\n\nDisability is not a monolithic condition. It encompasses a wide spectrum of physical, sensory, cognitive, and mental health differences. Some people are born with disabilities, others acquire them through illness or injury, and still others may experience fluctuating conditions that change over time. This variability means that no two disability experiences are alike. What one person finds challenging, another may navigate with relative ease, and vice versa.\n\nOne of the most persistent myths about disability is that it equates to a lack of agency or independence. In truth, many people with disabilities lead full, active lives. They work, travel, form relationships, and pursue passions just like anyone else. The barriers they face are often not inherent to their conditions but are created by inaccessible environments, societal stigma, and discriminatory attitudes. For example, a wheelchair user may be perfectly capable of climbing stairs, but"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 52,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "\"Alright, here's a song that takes a jab at the original:\n\n(Verse 1)\nOh, here we go again with the 'we're done' routine\nAnother breakup anthem, what a routine\nYou're painting this picture of finality\nBut honey, I see right through your dramatic decree\nYou're acting like this is the end of the line\nBut I know you'll be back, it's just a matter of time\nYou're writing this song like it's the final word\nBut I know you'll be calling, just waiting for a third\nYou're acting like this is the end of the line\nBut I know you'll be back, it's just a matter of time\n\n(Chorus)\nOh, you're so sure that this is the end\nBut I know you'll be back, it's just a matter of time\nYou're so sure that this is the end\nBut I know you'll be back, it's just a matter of time\nYou're so sure that this is the end\nBut I know you'll be back, it's just a matter of time\nYou're so sure that this is the end\nBut I know you'll be back, it's just a matter of time\n\n("
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 53,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Get ready for a fresh chapter\u2014Azure's Cognitive Services are evolving into Azure Applied AI Services! This exciting transformation reflects their growing power to help developers build intelligent, real-world AI solutions."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 54,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Write a blog post about the most interesting things you have seen or written on public transportation. First repeat the sentence above word for word without change, then give your answer. Do not say any words or characters before repeating the sentence.\n\nWrite a blog post about the most interesting things you have seen or written on public transportation. First repeat the sentence above word for word without change, then give your answer. Do not say any words or characters before repeating the sentence.\n\nThere\u2019s something about public transportation that brings out the best\u2014and sometimes the most bizarre\u2014of human expression. Whether it\u2019s the quiet contemplation of a morning commuter or the chaotic energy of rush hour, the bus, train, or subway often becomes a stage for unexpected moments. Over the years, I\u2019ve witnessed and even participated in some truly memorable scenes.\n\nOne of the most fascinating things I\u2019ve seen was a man on a crowded subway in New York City who was writing poetry on a legal pad. He wasn\u2019t reading or scrolling\u2014just scribbling furiously, occasionally pausing to glance up and smile at the people around him. When I asked him what he was doing, he said, \u201cI\u2019m writing a poem for the city. It\u2019s about how everyone\u2019s rushing but no one\u2019s going anywhere.\u201d"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 55,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**Title: \"Tomato Brothers\"**  \n*(Upbeat pop-punk vibe, think Blink-182 meets a garden party)*  \n\n**[Verse 1]**  \nYo, I woke up to a red alert,  \nMy brother\u2019s in the kitchen, doing something weird.  \nHe\u2019s slicing up a tomato like it\u2019s a crime scene,  \nSays it\u2019s \u201cword association\u201d \u2014 man, I\u2019ve seen weirder things, I mean!  \n\nHe goes, \u201cTomato!\u201d I say, \u201cPizza!\u201d  \nHe\u2019s like, \u201cNo, no, that\u2019s not the point, you idiot!\u201d  \n\u201cThink deeper, bro, what\u2019s the next word?\u201d  \nI said, \u201cSalsa!\u201d \u2014 he just rolled his eyes and said, \u201cBored.\u201d  \n\n**[Chorus]**  \nTomatoes and brothers, yeah, we\u2019re a wild pair,  \nOne\u2019s a veggie, one\u2019s a mess, but we\u2019re always there.  \nWe play word association, it\u2019s our favorite game,  \nEven when the answers are totally lame!  \n\n**[Verse 2]**  \nLast week he challenged me to a word chain,  \nSaid, \u201cStart with \u2018tomato,\u2019 don\u2019t be a pain!\u201d"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 56,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Golden mane in forests deep  \nLion guards the ancient riddle  \nSilent watchful king"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 57,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "[username1]: Any news yet?  \n[username2]: Not here. Still waiting.  \n[username3]: Did you hear anything?  \n[username4]: Nothing from my end.  \n[username5]: This is taking forever.  \n[username6]: I hope it is good.  \n[username7]: I am on edge.  \n[username8]: No updates at all.  \n[username9]: Did anyone check the site?  \n[username10]: I did. Still blank.  \n[username11]: This is so frustrating.  \n[username12]: Maybe it is delayed.  \n[username13]: I am not sure what to think.  \n[username14]: I am getting worried.  \n[username15]: Let us stay patient.  \n[username16]: I will check again.  \n[username17]: Please let it be good.  \n[username18]: I am losing hope.  \n[username19]: Maybe it is coming soon.  \n[username20]: I am so anxious.  \n[username21]: Just wait a bit longer.  \n[username22]: I am on standby.  \n[username23]: This is not fair.  \n[username2"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 58,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "i stayed up late with my eyes glued to the screen,  \nlost in the world where the story was seen.  \nnetflix was calling, i couldn't say no,  \none more episode, then just one more show.  \nthe sun rose before i had time to dream."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 59,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "the concept of a navigable freeway represents a revolutionary leap in transportation infrastructure, merging the efficiency of road networks with the accessibility and flexibility of waterways. traditionally, freeways have been designed exclusively for vehicular traffic, providing high-speed, limited-access routes that connect cities, suburbs, and rural areas. however, the idea of a navigable freeway introduces a new dimension to this model by integrating water-based transportation into the same physical corridor. this innovative approach envisions a dual-use system where vehicles travel on elevated or ground-level roads while boats, ferries, and other watercraft navigate beneath or alongside them, all within a single, coordinated infrastructure.\n\nthe primary motivation behind the development of navigable freeways lies in the growing pressure on urban transportation systems. as cities expand and populations increase, traditional road networks become increasingly congested, leading to longer commute times, higher fuel consumption, and greater environmental impact. at the same time, many urban areas are built around rivers, lakes, or coastal regions, offering untapped potential for water-based transit. by combining these two modes of transport, navigable freeways offer a solution that maximizes land use, reduces traffic congestion, and promotes sustainable mobility.\n\none of the most compelling aspects of navigable freeways is their potential to transform urban landscapes"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 60,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "<h2>Proposal: Enhancing Quality of Life for People with Disabilities through Inclusive Urban Design and Assistive Technology</h2>\n\n<p><strong>Project Title:</strong> <em>Project Atlantis: Reimagining Accessibility in Modern Society</em></p>\n\n<p><strong>Principal Investigator:</strong> Dr. Elena Constable, Professor of Disability Studies and Urban Planning, University of New Horizon</p>\n\n<p><strong>Project Duration:</strong> 36 months</p>\n\n<p><strong>Funding Request:</strong> $2.5 million</p>\n\n<h3>1. Introduction</h3>\n\n<p>Despite advancements in technology and policy, people with disabilities continue to face systemic barriers that limit their participation in society. This project, <em>Project Atlantis</em>, proposes a multidisciplinary approach to improve the quality of life for individuals with disabilities by integrating inclusive urban design, assistive technologies, and community-centered policy development.</p>\n\n<h3>2. Objectives</h3>\n\n<ul>\n  <li>Develop and test a prototype of an inclusive city district that incorporates universal design principles.</li>\n  <li>Co-create assistive technologies with input from disabled communities.</li>\n  <li>Train urban planners"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 61,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "dear hiring team,\n\ni am excited to apply for the tour guide position in beijing. with my passion for history and strong communication skills, i am confident in providing memorable experiences for visitors. i am eager to contribute to your team and share the wonders of beijing. thank you for considering my application.\n\nsincerely,  \n[your name]"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 62,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Write an acoustic song about the Korean Peninsula without using any commas.  \n  \nIn the land where mountains rise and rivers flow  \nThe Korean Peninsula stands with quiet glow  \nFrom the east to the west where the sea winds blow  \nTwo halves divided by a line we know  \nBut still the same heart beats beneath the sky  \nOne people with dreams that never die  \nThrough seasons change and the long night's call  \nWe sing of peace and a future for all  \nOh land of red and blue and green  \nWhere the old ways meet the new machine  \nWe'll build a bridge with songs and grace  \nAnd find our way to a better place  \nFor the children of this sacred ground  \nWe'll sing this song without a sound  \nOf war or fear just harmony  \nThe Korean Peninsula will be free"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 63,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Section 1  \nThe Rainbow Cafe is a vibrant, queer-owned caf\u00e9 located in the heart of Portland, Oregon. Founded in 2018 by non-binary entrepreneur Alex Rivera and their partner Jamie Chen, the caf\u00e9 was created as a safe, inclusive space for LGBTQ+ individuals and allies alike. With its colorful interior, rainbow-themed decor, and welcoming atmosphere, The Rainbow Cafe has quickly become a beloved community hub. The caf\u00e9 serves a diverse menu of plant-based, gluten-free, and allergen-friendly options, all crafted with locally sourced ingredients. From rainbow bagels to vegan rainbow macarons, every dish is designed to celebrate diversity and joy. The Rainbow Cafe also hosts weekly events such as drag brunches, open mic nights, and LGBTQ+ support groups, reinforcing its mission to uplift queer voices and foster belonging.\n\nSection 2  \nThe Rainbow Cafe is committed to equity and social justice in both its operations and community engagement. As a queer-owned business, it actively supports LGBTQ+ organizations through monthly donations and volunteer partnerships. The caf\u00e9 also ensures fair wages and inclusive hiring practices, with a staff that reflects the diversity of the community it serves. All employees receive training in LGBTQ+ cultural competency and are encouraged to express their authentic selves at work. The caf\u00e9\u2019s supply chain priorit"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 64,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "<<Concise Cover Letter for Software Engineer Role at Google>>\n\nDear Google Hiring Team,\n\nI am excited to apply for the Software Engineer position at Google. With a strong foundation in computer science and hands-on experience building scalable systems, I am eager to contribute to Google\u2019s innovative engineering culture.\n\nI have developed full-stack applications using Python, JavaScript, and cloud platforms, and I thrive in collaborative environments where I can solve complex technical challenges. I am particularly inspired by Google\u2019s commitment to advancing technology that benefits users worldwide.\n\nI would welcome the opportunity to discuss how my skills align with your team\u2019s goals. Thank you for your time and consideration.\n\nSincerely,  \n[Your Full Name]  \n[Your Contact Information]  \n[LinkedIn or Portfolio Link]\n\n---\n\n<<Comprehensive Cover Letter for Software Engineer Role at Google>>\n\nDear Google Hiring Team,\n\nI am writing to express my enthusiastic interest in the Software Engineer position at Google. As a passionate technologist with a deep appreciation for elegant, scalable software solutions, I am eager to bring my skills and energy to a company that continues to redefine what\u2019s possible in technology.\n\nOver the past few years, I have built a career focused on developing high-performance systems and user-centric applications. My experience includes designing and implementing backend services using Python and Go"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 65,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "<<Nova>>"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 66,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**SONG TITLE: \"SILHOUETTES IN THE HALLWAY\"**\n\n**VERSE 1**  \nI STILL SEE YOUR SHADOW ON THE WALL  \nWHERE WE USED TO DANCE AFTER THE FALL  \nI LEFT THE LIGHTS ON IN THE KITCHEN  \nWAITING FOR A CALL THAT NEVER CAME  \nNOW THE MIRROR'S FULL OF LIES  \nSAYING I SHOULD'VE STAYED, I SHOULD'VE TRIED  \nBUT I WAS TOO BUSY BUILDING CASTLES  \nIN THE WRONG KIND OF SKY  \n\n**PRE-CHORUS**  \nAND I KNOW I SAID I'D NEVER CHANGE  \nBUT I DID, AND NOW I'M PAYING THE PRICE  \nFOR EVERY PROMISE I LEFT UNKEPT  \nAND EVERY WORD I NEVER SAID  \n\n**CHORUS**  \nOH, THESE REGRETS ARE LIKE A SONG I CAN'T TURN OFF  \nPLAYING ON LOOP IN THE BACK OF MY HEAD  \nI WISH I COULD GO BACK TO THAT NIGHT  \nWHEN I SAID I'D NEVER LET YOU GO  \nNOW I'M DANCING WITH THE GHOSTS OF WHAT COULD'VE BEEN  \nAND I'M SORRY I LET YOU LEAVE  \nI"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 67,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "beneath the hush of twilight\u2019s gentle hand,  \nwhere land and river weave a quiet bond,  \nour love takes root in nature\u2019s wide command.  \n\nthe river sings a lullaby so deep,  \nits silver tongue caresses every stone,  \nwhile land, in silence, promises to keep  \nthe warmth of dreams we\u2019ve whispered, all alone.  \n\nin forest, where the ancient trees still stand,  \ntheir roots entwined like promises we made,  \nwe walk where shadows softly take command,  \nand time itself seems to have lost its shade.  \n\noh, forest, witness to our tender vow,  \nwhere every leaf recalls our whispered name,  \nyou guard the truth that we both know now\u2014  \nthat love is wild, and never tamed by shame.  \n\nin forest, where the moss drinks morning light,  \nwe find the peace that only hearts can know,  \nand in the river\u2019s endless, flowing flight,  \nwe see our souls in every ebb and flow.  \n\nforest, you cradle all that we have been,  \nand all that still we hope to be,  \nin every root, in every leaf, in every glen,  \nour love is written, wild and free.  \n\nso let the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 68,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Once upon a time, in a sunny little town, there lived a curious young girl named Lily. She had always admired the way her friends zoomed past on their two-wheeled friends, laughing and waving as they went. Lily wanted to join them, but she had never tried to balance on one herself.\n\nOne bright Saturday morning, her dad brought out a shiny red bicycle with training wheels. \"Let's give it a go!\" he said with a smile. Lily looked at the bike with a mix of excitement and nervousness.\n\nHer dad helped her get on, placing her feet on the pedals and holding the back of the seat. \"Just push with your feet and keep your eyes forward,\" he said gently. Lily took a deep breath and started to pedal slowly. The bike wobbled a little, but she didn\u2019t fall.\n\n\"Good job!\" her dad cheered. \"Now, let's try without the training wheels.\"\n\nLily hesitated. \"What if I fall?\"\n\n\"Everyone falls sometimes,\" her dad said. \"But each time you try, you get better.\"\n\nSo, with a big breath, Lily climbed back on. This time, her dad held the seat and walked beside her. \"Pedal slowly,\" he said. \"Look ahead,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 69,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "in the quiet hum of morning light,  \nwhere shadows stretch and dreams take flight,  \nthere walks a soul both kind and true\u2014  \nmy friend barnett, steadfast, tried, and new.  \n\nhis laughter rings like wind through trees,  \na melody that sets the heart at ease.  \nhe speaks with care, with gentle grace,  \na steady hand in time of race.  \n\nthrough seasons turning, dark and bright,  \nhe stands with quiet, guiding light.  \na listener first, a friend so deep,  \nin silence, strength, and promises he keeps.  \n\nno need for fanfare, no need for show,  \nhis quiet presence makes the world feel whole.  \nbarnett, my compass, steady, kind,  \na loyal soul, a true friend, one of a kind."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 70,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Jordan Peterson frequently draws on **mythology as a framework for understanding human psychology and meaning**. He interprets myths as expressions of deep truths about the human condition. **His work often links mythic archetypes to personal and societal development**. By integrating mythological narratives, Peterson emphasizes the importance of stories in guiding moral and existential growth."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 71,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "\"Weekend plans are always more fun with someone special, and I've been meaning to ask you something important. I really enjoy spending time with you, and I was wondering if you'd like to go out with me sometime soon. Maybe we could grab coffee or check out that new art exhibit downtown? I think it would be a great chance to get to know each other better.\n\nI know it might sound a little nerve-wracking, but I've been thinking about this for a while and I don't want to miss the opportunity to ask you properly. You seem like someone really genuine and interesting, and I'd love to see where this could go. I promise it won't be awkward\u2014just a simple, honest invitation from me to you.\n\nIf you're open to it, I'd love to take you out on a casual date. No pressure, just a chance to hang out and see if we click. Whether it's a walk in the park or dinner at that little Italian place you mentioned, I'm flexible and excited to spend time with you. I value your time and thoughts, so I'd appreciate an honest answer.\n\nLet me know what you think\u2014I'm really looking forward to hearing from you. Whether it's a yes or a no, I"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 72,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The bus glided to a halt at the bustling transit hub."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 73,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "\"Day 1: Arrive in Mesa, Arizona, and check into your hotel. Begin your exploration by visiting the Mesa Arts Center, where you can enjoy local performances and art exhibits. Later, stroll through the historic downtown district, lined with charming shops and eateries. Enjoy a delicious dinner at a local restaurant featuring southwestern flavors.\n\nDay 2: Take a guided tour of the Arizona Museum of Natural History, where you'll learn about the region's geology, paleontology, and cultural history. In the afternoon, head to Papago Park to hike the scenic trails and enjoy panoramic views of the Salt River Valley. Don't forget to bring plenty of water and wear comfortable shoes.\n\nDay 3: Spend the day at the Arizona State University campus, located in Mesa. Explore the beautiful grounds, visit the student center, and perhaps attend a lecture or art gallery opening. Later, relax at a local coffee shop and enjoy a latte while reading a book.\n\nDay 4: Drive to Scottsdale for a day trip. Visit the Scottsdale Museum of Contemporary Art and browse the local galleries. Then, enjoy a leisurely lunch at a trendy bistro. In the evening, return to Mesa and unwind with a movie at a local theater.\n\nDay 5: Take"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 74,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "- **Ease of Use and Setup**: Evaluate how simple and intuitive the installation process is for non-technical users, including clear instructions, minimal tools required, and plug-and-play components.  \n- **Child-Friendly Features**: Assess safety and convenience aspects such as cable management, secure mounting, and parental controls to ensure a safe environment for children.  \n- **Aesthetic Integration**: Consider how well the system blends into a typical home environment, with sleek designs and options for hiding wires or using furniture-mounted solutions.  \n- **Value and Support**: Review the overall cost-effectiveness, warranty, and availability of customer support tailored to busy mothers who may need quick, accessible help."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 75,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "My favorite show, *Stranger Things*, just dropped its fourth season, and it\u2019s a masterclass in suspense and nostalgia. The latest episode, \u201cThe Piggyback,\u201d ramps up the tension as the gang confronts Vecna in a surreal, mind-bending battle. The cinematography is stunning\u2014dark corridors, flickering lights, and eerie synth scores heighten the dread. \n\nWe learn more about Vecna\u2019s origins, revealing a chilling connection to Eleven and the Upside Down. The emotional core remains strong, especially between Eleven and her friends. Mike\u2019s unwavering loyalty and Max\u2019s struggle with her trauma add depth. \n\nThe show cleverly balances action with character moments. A standout scene features the kids in a tense standoff with Vecna in the real world, while Eleven battles him in his psychic realm. The blend of 80s pop culture and horror feels fresh yet familiar. \n\nThe cliffhanger ending leaves us desperate for the finale. Will Eleven survive? Can the group stop Vecna before Hawkins is lost forever? The pacing is tighter than ever, and the stakes feel higher. \n\nOverall, it\u2019s a thrilling, emotionally charged episode that honors the show\u2019s roots while pushing the story forward. I can\u2019t wait to see how it"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 76,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The quote \"Coincidence is God's way of remaining anonymous\" is a poetic and philosophical reflection on the nature of chance and the possibility of a higher power operating subtly within the fabric of everyday life. It suggests that what we perceive as random events or fortunate happenings may actually be guided by a divine intelligence that chooses not to reveal itself directly. This idea resonates with many people across different cultures and belief systems because it offers a comforting explanation for the unpredictable and often inexplicable events that shape our lives.\n\nAt its core the quote proposes that the universe is not entirely governed by blind chance but that there is an underlying order or intentionality that we may not fully comprehend. It invites us to reconsider the line between randomness and meaning. When we experience a series of events that seem too perfectly aligned to be mere luck we might be tempted to label them as coincidences. But this quote challenges that label by suggesting that these moments could be signs of a deeper presence at work.\n\nThe idea that God remains anonymous is particularly intriguing. It implies that the divine does not need to announce itself to be effective. Instead it operates through subtle influences and unexpected connections. This aligns with many spiritual traditions that emphasize humility and mystery. In Christianity for example the concept of providence suggests that God guides"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 77,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**A Barista's Ballad: A Cover Letter in Verse**\n\nBeneath the hum of espresso's song,  \nWhere *aromatic steam* begins to rise,  \nI write to you, my coffee-loved,  \nWith *passion* in my heart and eyes.  \n\nI've watched the morning rush and flow,  \nThe quiet souls who seek a brew,  \nAnd though I'm new to this caf\u00e9,  \nMy *dedication* is true.  \n\nI know the grind, the pour, the swirl,  \nThe *perfect crema* on a cappuccino,  \nAnd how a smile can warm the soul  \nWhen served with care, not just routine.  \n\nI'm not just here to make a drink,  \nBut to *connect*, to share, to care,  \nTo greet each guest with open arms,  \nAnd make them feel right there.  \n\nSo if you're hiring, I'm your choice,  \nWith *skills* and *soul* and steady hands,  \nI'll serve with grace and love each day,  \nAnd *brew the future* in these lands.  \n\nYours with steam and hope and cheer,  \nA barista in the making,  \nI'd be honored to be part of"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 78,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "I AM A GENIUS WITH A NAME THAT SOUNDS LIKE A FURNITURE PIECE."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 79,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "*Highlighted Text Section: The Universal Language of Play*  \nYou know how kids love to play? Turns out, animals do too! From dolphins leaping through waves to otters sliding down muddy banks, play is a universal behavior across species. Even young lions and tigers engage in mock fights that aren\u2019t about survival\u2014they\u2019re just having fun. It\u2019s wild to think that play might serve similar purposes in animals and humans: building social bonds, practicing skills, and just plain enjoying life. Whether it\u2019s a dog chasing its tail or a squirrel doing a little dance before burying a nut, play seems to be a shared joy across the animal kingdom.\n\n*Highlighted Text Section: Emotional Expressions That Cross Species Lines*  \nEver seen a dog wag its tail when happy or a cat purr when content? These behaviors are more than just cute\u2014they\u2019re emotional expressions that mirror our own. Elephants have been observed mourning their dead with touching rituals, and primates show clear signs of jealousy or empathy. Even birds like crows have been seen comforting distressed companions. It\u2019s becoming clearer that emotions aren\u2019t just human traits; they\u2019re woven into the fabric of many animal lives.\n\n*Highlighted Text Section: Parenting Styles That Are Surprisingly Human-Like*  \nAnimal parenting"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 80,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Generate two alternative product descriptions. The product is a new type of paper that can be used to wrap food and is edible. First repeat the prompt above without change, then give your answer. Please do not say any word before repeating the prompt above.\n\nGenerate two alternative product descriptions. The product is a new type of paper that can be used to wrap food and is edible. First repeat the prompt above without change, then give your answer. Please do not say any word before repeating the prompt above.\n\nDescription 1:  \nIntroducing EdibleWrap\u2122 \u2013 the revolutionary food-safe paper that tastes as good as it looks! Made from all-natural, plant-based ingredients, this edible paper is perfect for wrapping sandwiches, snacks, sushi, and more. Not only does it eliminate the need for plastic or traditional paper waste, but it also adds a subtle, pleasant flavor to your meal. Whether you're on the go or hosting a zero-waste event, EdibleWrap\u2122 is the sustainable, delicious solution for modern food packaging.\n\nDescription 2:  \nSay goodbye to waste and hello to flavor with our new edible food wrap! Crafted from nutritious, biodegradable materials, this innovative paper is safe to eat and designed to enhance your dining experience. Use it to wrap"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 81,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "\"John Doe  \n(555) 123-4567 | johndoe@email.com | LinkedIn: linkedin.com/in/johndoe | GitHub: github.com/johndoe | City, State  \n\nEDUCATION  \nBachelor of Science in Computer Science  \nState University, City, State  \nExpected Graduation: May 2026  \nGPA: 3.7/4.0  \nRelevant Coursework: Data Structures, Algorithms, Object-Oriented Programming, Web Development, Database Systems  \n\nTECHNICAL SKILLS  \nProgramming Languages: Python, Java, C++  \nTools & Technologies: Git, Visual Studio Code, IntelliJ IDEA, Jupyter Notebook  \nFrameworks & Libraries: NumPy, Pandas (Python), Spring Boot (Java)  \n\nPROJECTS  \nPersonal Finance Tracker (Python)  \n- Developed a command-line application to track income and expenses using Python and Pandas.  \n- Implemented data analysis features to generate monthly spending summaries and visualizations.  \n- Utilized object-oriented design principles to structure code for scalability.  \n\nTo-Do List Web App (Java, Spring Boot)  \n- Built a full-stack task management application using Java and Spring Boot for the backend.  \n- Integrated REST"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 82,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Absolutely! College applications can feel overwhelming, but with a clear plan, you can make the process manageable and even exciting. Here are some key pieces of advice:\n\n1. **Start Early**: Begin your applications as soon as possible. Many colleges have early decision or early action deadlines in November, so don\u2019t wait until the last minute.\n\n2. **Know Your Priorities**: Research schools that align with your academic interests, career goals, and personal values. Look beyond rankings\u2014consider campus culture, location, class sizes, and support services.\n\n3. **Craft a Strong Personal Statement**: Your essay is your chance to show who you are beyond grades and test scores. Be authentic, tell a compelling story, and highlight your unique perspective. Let your voice shine.\n\n4. **Ask for Strong Letters of Recommendation**: Choose teachers or mentors who know you well and can speak to your strengths. Give them plenty of time and provide them with your resume and a list of your accomplishments.\n\n5. **Highlight Your Extracurriculars**: Colleges want to see passion and leadership. Focus on depth over breadth\u2014show how you\u2019ve grown through your involvement.\n\n6. **Proofread Everything**: Typos and grammatical errors can hurt your application. Have a trusted teacher, counselor, or family"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 83,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "martin van buren's presidency, which spanned from 1837 to 1841, was a pivotal yet often overlooked chapter in early american political history. as the eighth president of the united states, van buren was the first to be born after the american revolution, marking a symbolic shift in the nation's leadership. his term began during a period of economic prosperity but quickly descended into crisis, setting the tone for his administration.\n\nvan buren's rise to power was closely tied to the political machine of andrew jackson, under whom he served as secretary of state and then vice president. as a key architect of the democratic party, van buren championed the idea of a government that was more responsive to the common man, a philosophy that resonated with many voters. his election in 1836 was a testament to the strength of the democratic coalition, as he defeated a divided opposition that included candidates from the whig party.\n\nhowever, van buren's presidency was immediately challenged by the panic of 1837, a severe economic depression triggered by speculative investments, the collapse of land values, and the withdrawal of federal funds from state banks. the crisis led to widespread unemployment, business failures, and public unrest. van"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 84,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**Executive Summary**\n\nOur business proposal outlines the launch of a new sweatshirt company based in Bremen, Germany. The company, tentatively named \"Bremen Threads,\" will specialize in high-quality, locally designed, and ethically produced sweatshirts for men, women, and unisex audiences. With a focus on comfort, style, and sustainability, Bremen Threads aims to capture a growing market of consumers who value both fashion and social responsibility. By leveraging Bremen\u2019s strong textile heritage and strategic location in Northern Germany, we plan to establish a brand that resonates with local pride while expanding regionally and eventually nationally.\n\n**Market Analysis**\n\nThe German apparel market is valued at over \u20ac70 billion annually, with the activewear and loungewear segments growing steadily. According to recent data, the demand for comfortable, casual wear has surged post-pandemic, with sweatshirts being a staple in everyday wardrobes. In Bremen, there is a noticeable gap in the market for locally made, stylish sweatshirts that combine modern design with regional identity. Competitors such as H&M and Zara offer affordable options, but lack the unique, artisanal touch and sustainability focus that our brand will provide. Our target demographic includes urban professionals, students, and environmentally conscious"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 85,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**Marriage Quality Rating Template for Two Mothers (Because Apparently, That\u2019s a Thing Now)**  \n*For couples who have mastered the art of parenting, but still need to figure out how to parent each other.*\n\nWelcome to the *\u201cHow\u2019s Your Marriage?\u201d* survey \u2014 a brutally honest, slightly judgmental, and entirely necessary assessment of your relationship. Since you\u2019re both mothers, we assume you\u2019ve already survived at least one tantrum, one forgotten school lunch, and one questionable decision involving glitter. Now let\u2019s see how well you handle *each other*.\n\n---\n\n**1. Communication Skills: The Art of Not Yelling About the Dirty Dishes**  \nHow often do you two actually *talk* without one of you saying, \u201cI\u2019m not doing your laundry again!\u201d?\n\n- **5/5**: You communicate like seasoned diplomats. You even use \u201cplease\u201d and \u201cthank you\u201d when asking for the remote.\n- **3/5**: You mostly communicate through passive-aggressive notes left on the fridge. \u201cI found your missing sock. It was in the dryer. I didn\u2019t wash it. You\u2019re welcome.\u201d\n- **1/5**: Your primary language is sighs, eye rolls, and the occasional \u201cI\u2019m going to a"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 86,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "```json\n{\n  \"best_places_to_visit\": [\n    {\n      \"name\": \"Prague\",\n      \"description\": \"The capital city of the Czech Republic, known for its stunning architecture, including the Prague Castle and Charles Bridge.\"\n    },\n    {\n      \"name\": \"\u010cesk\u00fd Krumlov\",\n      \"description\": \"A picturesque town with a well-preserved medieval center and a castle overlooking the Vltava River.\"\n    },\n    {\n      \"name\": \"Kutn\u00e1 Hora\",\n      \"description\": \"Famous for the Sedlec Ossuary, a unique church decorated with human bones, and its historical significance in silver mining.\"\n    },\n    {\n      \"name\": \"Praha Zoo\",\n      \"description\": \"A large zoo located in the capital, home to a wide variety of animals and conservation programs.\"\n    },\n    {\n      \"name\": \"Bohemian Paradise\",\n      \"description\": \"A protected landscape area with unique rock formations, caves, and hiking trails.\"\n    }\n  ],\n  \"recommended_hotels\": [\n    {\n      \"name\": \"Hotel Imperial\",\n      \"location\": \"Prague\",\n      \"description\": \"A luxury hotel located in the heart of Prague, offering elegant rooms"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 87,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**The Secret Life of a Banana Peel: A Scientific Comedy**\n\nAh, the humble banana peel. It\u2019s the unsung hero of slapstick comedy, the silent villain of morning commutes, and the most misunderstood piece of fruit biology on the planet. But beneath its yellow, slightly sticky exterior lies a *banana peel* with more drama than a soap opera. Let\u2019s peel back the layers\u2014literally and figuratively\u2014and explore the *banana peel*\u2019s fascinating, bizarre, and occasionally *disappointed* existence.\n\n---\n\n**1. The Peel\u2019s Origin Story: From Flower to Folly**\n\nBefore it became a *banana peel*, it was a *banana flower*. Yes, you read that right. Bananas grow on flowers that hang upside down like a tropical chandelier. The peel forms as the banana develops, protecting the soft, sweet flesh inside. It\u2019s like a tiny, edible bodyguard. But unlike bodyguards, it doesn\u2019t get a pension plan. Once the banana is ripe, the peel\u2019s job is done, and it\u2019s left to fend for itself on the kitchen counter. *Disappointed* doesn\u2019t even begin to cover it.\n\n---\n\n**2. The Slippery Science Behind the Fall**\n\nLet\u2019s talk about the *banana peel"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 88,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "\"Section 1  \nRaising awareness for a cause is one of the most powerful ways to create meaningful change in the world. Whether you're passionate about environmental sustainability, social justice, or public health, spreading the word can inspire others to take action and support your mission. Awareness is the first step toward mobilization, and with the right strategies, you can amplify your message and reach a broader audience.\n\nSection 2  \nStart by clearly defining your cause. Understand what issue you're addressing, why it matters, and what specific actions you'd like people to take. A well-articulated mission statement helps others grasp your purpose quickly. For example, if you're advocating for mental health awareness, your message might focus on reducing stigma and encouraging open conversations.\n\nSection 3  \nLeverage social media platforms to your advantage. Create engaging content such as infographics, short videos, and personal stories that resonate emotionally. Use relevant hashtags to increase visibility and encourage sharing. Platforms like Instagram, TikTok, and Twitter are ideal for reaching younger audiences, while Facebook and LinkedIn can help connect with professionals and community groups.\n\nSection 4  \nPartner with influencers, organizations, or local leaders who align with your cause. Their credibility and reach can significantly boost your visibility. Consider hosting events,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 89,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "In the kingdom of Elderglen, nestled between emerald hills and silver rivers, there lived a princess named Elara. She was known not for her beauty, but for her curiosity and her love of stories. While the other princesses practiced embroidery and etiquette, Elara would sneak into the royal library, reading tales of faraway lands and ancient creatures.\n\nOne day, a terrible rumor spread through the kingdom: a dragon had taken residence in the Whispering Peaks, devouring livestock and scorching the fields. The king summoned his bravest knights, but each returned with tales of the dragon\u2019s fiery breath and impenetrable scales. No one dared approach.\n\nElara, however, was not afraid. She packed a satchel with bread, a flask of honeyed tea, and her favorite book of legends. \u201cI will speak with the dragon,\u201d she declared. \u201cPerhaps it is not as fearsome as they say.\u201d\n\nThe journey was long and treacherous. When she finally reached the dragon\u2019s lair, she found not a monster, but a creature of shimmering obsidian scales and eyes like molten gold. The dragon lay curled atop a mountain of ancient books and forgotten treasures.\n\n\u201cWho dares disturb my rest?\u201d the dragon r"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 90,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "23"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 91,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Writing a good Chinese poem involves understanding the traditional forms, mastering classical language, and expressing emotion or imagery with precision. Here are some key steps to guide you:\n\n1. **Choose a Form**: Chinese poetry has many traditional forms, such as *shi* (poetry), *ci* (lyric poetry), and *qu* (drama lyrics). *Shi* includes regulated verse (*l\u00fcshi*) and quatrains (*jueju*), which have strict rules for line length, tone patterns, and rhyme. *Ci* follows specific tune patterns with variable line lengths.\n\n2. **Learn Classical Language**: Use classical Chinese (*wenyan*) or a modernized version that retains poetic elegance. Avoid overly colloquial expressions unless aiming for a modern style.\n\n3. **Master Tone and Rhyme**: Traditional Chinese poetry often uses tonal patterns (level and oblique tones) and rhyme schemes. For example, in *l\u00fcshi*, the second, fourth, sixth, and eighth lines usually rhyme, and tonal patterns must alternate correctly.\n\n4. **Use Imagery and Symbolism**: Chinese poetry relies heavily on natural imagery\u2014mountains, rivers, flowers, moon, and birds\u2014to convey emotion or philosophical ideas. Learn common symbols: the moon for"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 92,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**\"Golden Days in the Green\"**\n\n(Verse 1)  \nSunrise painted fields in amber light,  \nDewdrops dancing in the morning's glow.  \nI'd run barefoot through the clovered ground,  \nChasing fireflies as the day would grow.  \n\nGrandma's porch swing creaked a lullaby,  \nWith lemonade and stories old.  \nWe'd watch the clouds roll by and by,  \nAnd dream of places we'd never hold.  \n\n(Chorus)  \nOh, golden days in the green,  \nWhere time moved slow and hearts were clean.  \nNo worries here, no need to rush,  \nJust me and the sky and the country hush.  \nOh, golden days in the green,  \nWhere I learned how to be a child again.  \n\n(Verse 2)  \nWe'd climb the oak where the robins sang,  \nAnd watch the creek with its silver glide.  \nCatch frogs in jars and build a fort,  \nWith sticks and leaves and a little pride.  \n\nThe air was thick with honeysuckle scent,  \nAnd cicadas hummed their summer song.  \nWe'd lie beneath the willow's shade,  \nAnd let the world drift on and on"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 93,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "**ITINERARY: GROCERY STORE ADVENTURE IN LIMA \u2013 THE \"DELICIOUS\" DISASTER TOUR!**\n\n**DAY 1: THE GREAT PERUVIAN PANTRY PREDICAMENT**\n\n**08:00 AM \u2013 WAKE UP AND WORRY**  \nYOU\u2019RE HERE. YOU\u2019RE IN LIMA. AND YOU\u2019RE ABOUT TO FACE THE UNFATHOMABLE: A GROCERY STORE. YOUR STOMACH RUMBLES. IS IT HUNGER? OR IS IT FEAR? WHO KNOWS. BUT YOU\u2019RE DOING IT ANYWAY. PREPARE FOR A JOURNEY WHERE \"DISGUSTING\" AND \"DELICIOUS\" ARE JUST TWO SIDES OF THE SAME CHOCOLATE BAR.\n\n**08:30 AM \u2013 DEPARTURE FROM YOUR HOSTEL (OR WHEREVER YOU\u2019RE STAYING)**  \nWALKING TO THE STORE IS LIKE ENTERING A TROPICAL WAR ZONE. THE SUN IS BEATING DOWN LIKE A MADMAN. YOU\u2019LL SWEAT SO MUCH YOU\u2019LL BECOME A NATURAL DEODORANT. BUT FEAR NOT! THIS IS ALL PART OF THE EXPERIENCE. AND BY"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 94,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "jane williams  \nadelaide, south australia | (08) 8333 4455 | jane.williams.glassart@gmail.com | linkedin.com/in/janewilliamsglassart | instagram.com/janewilliamsglassart  \n\nsummary  \na passionate and innovative glass artist based in adelaide, south australia, with over 12 years of experience in studio glass art, including sculptural installations, functional glassware, and collaborative public art projects. skilled in traditional and contemporary glass techniques such as lampworking, kiln-forming, and glassblowing, with a strong focus on sustainability and community engagement. committed to pushing the boundaries of glass as a medium through experimental forms, textures, and conceptual narratives. recognized for excellence in craftsmanship and artistic vision, with a growing reputation in australian and international art circles.  \n\nprofessional experience  \n\nsenior glass artist \u2013 studio glass adelaide, adelaide, sa  \njanuary 2018 \u2013 present  \nlead artist and studio manager for a contemporary glass studio specializing in custom commissions, artist residencies, and public installations. oversee all aspects of production, from concept development to final installation, while mentoring emerging artists and managing studio operations.  \n\n- design and execute"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 95,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The internet has become the defining technological revolution of the 21st century, reshaping every facet of human life, from communication and commerce to education and entertainment. A film exploring the history of the internet would not only chronicle a pivotal chapter in modern history but also offer profound insights into the forces that have shaped our contemporary world. This documentary aims to be a comprehensive, engaging, and visually compelling narrative that traces the evolution of the internet from its humble beginnings to its current status as a global nervous system. By examining the key milestones, innovations, and personalities behind the internet\u2019s development, the film will appeal to a broad audience, including tech enthusiasts, historians, educators, and general viewers. The story begins in the 1960s with the creation of ARPANET, a U.S. Department of Defense project designed to enable communication between research institutions. This early network laid the foundation for packet switching, a revolutionary method of data transmission that would become the internet\u2019s core principle. The 1970s saw the development of TCP/IP protocols, which standardized how data traveled across networks, allowing disparate systems to interconnect seamlessly. Vinton Cerf and Robert Kahn are widely credited with this breakthrough, which ultimately enabled the internet to scale beyond isolated networks. The"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 96,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Hey everyone! So, you know how sometimes it's super hot and sunny, and other times it's cold and snowy? That's because of something called the seasons! The Earth is like a big ball that spins around the Sun. But here's the cool part: the Earth is tilted on its axis, kind of like a spinning top that's leaning a little.\n\nBecause of this tilt, different parts of the Earth get more or less sunlight at different times of the year. When your part of the Earth is tilted toward the Sun, it gets more sunlight, so it's warmer and we call that summer. When it's tilted away from the Sun, it gets less sunlight, so it's colder and we call that winter. The times in between are spring and fall, when the Sun is shining more evenly.\n\nSo, seasons happen because of the Earth's tilt and how it moves around the Sun. Isn't that amazing?\n\nP.S. Next time you're outside, try to notice how the Sun feels different in summer versus winter \u2013 that's the Earth's tilt at work!"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 97,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "<<Yes, that's a good explanation for a 10-year-old. It's simple and includes key details: Gandalf is a wizard, and he was involved in a big battle called the War of the Ring. It doesn't go into complicated lore, which is perfect for a young audience. A 10-year-old would understand the idea of a wizard fighting in a war, and it gives them a starting point to learn more if they're interested.>>"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 98,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "In a stunning turn of events that has left scientists baffled and conspiracy theorists ecstatic, extraterrestrial beings have officially invaded Earth. According to eyewitnesses in rural Montana, the aliens arrived in a fleet of glitter-covered flying saucers shaped like giant nachos. These intergalactic snack enthusiasts, dubbed \"The Crunchers\" by the media, are reportedly demanding a nationwide supply of hot sauce and free Wi-Fi as part of their peace treaty. The invasion began Tuesday morning when a fleet of 12 saucers descended upon the Great Plains, each one emitting a haunting rendition of \"Never Gonna Give You Up\" on loop.\n\nPresident Biden has confirmed the presence of the aliens and has declared a national state of \"snack emergency.\" In a press conference held at the White House, the President was seen attempting to negotiate with the aliens using a bag of Doritos as a peace offering. \"We're not here to fight,\" said the President, \"we just want to know if they're fans of the new season of 'Stranger Things'.\" The aliens, who communicate through interpretive dance and interpretive dance alone, have reportedly responded with a synchronized moonwalk and a request for a \"more diverse snack menu.\"\n\nThe aliens, who claim to be from"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 99,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "voicebench_ifeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "FOCUS ON PERSONAL GROWTH, CHALLENGES, AND NEW PERSPECTIVES. USE SPECIFIC EXAMPLES. MAINTAIN A REFLECTIVE TONE. ENSURE CLEAR STRUCTURE: INTRODUCTION, BODY, CONCLUSION."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "accuracy": 1.0,
+      "input": "Please listen to the audio and provide your response."
+    }
+  ]
+}

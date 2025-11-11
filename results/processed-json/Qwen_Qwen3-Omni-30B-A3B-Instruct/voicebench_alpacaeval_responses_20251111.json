@@ -1,0 +1,2408 @@
+{
+  "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
+  "created_at": "2025-10-31T06:30:13.110851",
+  "benchmark_id": "voicebench_alpacaeval",
+  "total_samples": 199,
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Certainly! Many famous actors began their careers on Broadway. Here are some notable examples:\n\n1. **Audrey Hepburn** \u2013 She made her Broadway debut in *High Button Shoes* (1947) and later starred in *Ondine* (1954), which helped launch her film career.\n\n2. **Meryl Streep** \u2013 She made her Broadway debut in *Trelawny of the Wells* (1976) and later starred in *The Heiress* (1976), earning her first Tony Award.\n\n3. **Robert Redford** \u2013 He began his career on Broadway in *Barefoot in the Park* (1963), which earned him a Tony Award and led to a successful film career.\n\n4. **Julie Andrews** \u2013 She rose to fame on Broadway in *The Boy Friend* (1954) and later starred in *My Fair Lady* (1956), which made her a household name.\n\n5. **Rita Moreno** \u2013 She made her Broadway debut in *The Ritz* (1975) and had earlier success in *West Side Story* on stage before the film.\n\n6. **Al Pacino**"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 1,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The names of the United States states come from a variety of sources, reflecting the diverse history and cultures that have shaped the country. Here are some of the main origins:\n\n1. **Native American Languages**: Many state names are derived from Native American languages. For example:\n   - **Alabama** comes from the Alabama tribe.\n   - **Arizona** is derived from the O'odham word \"Al\u012d \u1e63onak,\" meaning \"small spring.\"\n   - **Connecticut** comes from the Mohegan word \"Quinnitukqut,\" meaning \"beside the long tidal river.\"\n   - **Massachusetts** comes from the Massachusett tribe.\n\n2. **European Languages**: Several states are named after European places or people:\n   - **Virginia** was named after Queen Elizabeth I of England, often called the \"Virgin Queen.\"\n   - **Georgia** was named after King George II of Great Britain.\n   - **Maryland** was named after Queen Henrietta Maria, wife of King Charles I of England.\n   - **Delaware** was named after Thomas West, 3rd Baron De La Warr, an English nobleman.\n\n3. **Geographical Features**: Some names are based on physical features:\n   - **"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 2,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Kickball is a fun, active game that's similar to baseball but played with a ball that you kick instead of hit with a bat. Here's a simple breakdown of how it works so you can play fair and have a good time:\n\n**Basic Setup:**\n- The game is played on a diamond-shaped field with four bases (first, second, third, and home plate).\n- There are two teams: one team kicks (offense), and the other fields (defense).\n- The field is usually smaller than a baseball diamond, and the bases are about 60 feet apart (though this can vary).\n\n**How to Play:**\n\n1. **Starting the Game:**\n   - The game begins with a \"pitch\" from the pitcher (a player on the fielding team). The pitcher rolls or throws the ball to the kicker from a distance of about 20\u201330 feet (depending on the rules).\n   - The ball must be kicked from behind the \"kicker's box\" (a marked area near home plate).\n\n2. **Kicking:**\n   - The kicker tries to kick the ball into fair territory (the field between the baselines).\n   - The ball must be kicked on the first or second pitch."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 3,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Oh, the 1920s were such a vibrant time for music! It was the Jazz Age, after all. You've got some really cool stuff from that era. Let me think... \n\nOne of the most iconic songs from the 1920s is \"St. Louis Blues\" by W.C. Handy. It's a classic blues number that really captures the spirit of the time. \n\nAnd then there's \"Ain't Misbehavin'\" by Fats Waller. That's a jazz standard that's still played today. \n\nOh, and you can't forget about Louis Armstrong. His \"West End Blues\" is just incredible. The trumpet solo in that song is mind blowing. \n\nThe 1920s also saw the rise of big band music. Duke Ellington was doing amazing things with his orchestra. His \"East St. Louis Toodle-Oo\" is a great example. \n\nAnd speaking of jazz, Bessie Smith was known as the Empress of the Blues. Her \"St. Louis Blues\" recording is just powerful. \n\nThese artists really defined the sound of the 1920s. Jazz was becoming really popular, and these musicians were pushing the boundaries of what music could be"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 4,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Wrapping a present neatly is easy with a few simple steps. Here's how to do it:\n\n### What You'll Need:\n- Wrapping paper\n- Tape (clear or decorative)\n- Scissors\n- Ruler or measuring tape (optional)\n- Ribbon and gift tag (optional)\n\n---\n\n### Step-by-Step Guide:\n\n1. **Measure the Gift**\n   - Place your gift in the center of the wrapping paper.\n   - Fold the paper over the gift and measure how much extra paper you need on each side (usually 2\u20133 inches).\n   - Cut the paper to size, leaving enough to wrap around the gift with a little overlap.\n\n2. **Position the Gift**\n   - Lay the gift on the paper with the **bottom edge** about 2\u20133 inches from the edge of the paper.\n   - Make sure the gift is centered.\n\n3. **Fold the First Side**\n   - Fold the long side of the paper over the gift, creasing it neatly.\n   - Use tape to secure the fold.\n\n4. **Fold the Other Long Side**\n   - Fold the opposite long side over the gift, overlapping the first fold slightly.\n   - Crease and tape it down.\n\n5. **Fold the Ends**\n   -"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 5,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "To dice safely without slicing your finger, follow these steps:\n\n1. **Use a sharp knife**: A sharp knife cuts cleanly and requires less pressure, reducing the chance of slipping.\n\n2. **Use the claw grip**: Curl your fingers under your knuckles, tucking your fingertips away from the blade. Use your knuckles as a guide to keep your fingers safe while holding the food.\n\n3. **Cut on a stable surface**: Use a cutting board with a non-slip base or place a damp towel underneath to prevent slipping.\n\n4. **Keep your focus**: Stay alert and avoid distractions while cutting.\n\n5. **Cut in stages**: First, slice the ingredient into planks, then into sticks, and finally into cubes. This method gives you more control.\n\n6. **Use a knife suitable for the task**: For dicing, a chef\u2019s knife is ideal.\n\n7. **Keep your knife sharp**: Dull knives are more dangerous because they require more force and are more likely to slip.\n\nBy using proper technique and staying mindful, you can dice efficiently and safely."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 6,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! I'd be happy to help you with your crossword puzzle. What do you need help with?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 7,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Larry Page is an American computer scientist and entrepreneur best known as the co-founder of Google, one of the world's most influential technology companies. Alongside Sergey Brin, he founded Google in 1998 while they were Ph.D. students at Stanford University. Their development of the PageRank algorithm, which revolutionized web search by ranking websites based on relevance and authority, laid the foundation for Google's success.\n\nPage served as CEO of Google from 2001 to 2011 and again from 2015 to 2019. In 2015, he helped restructure Google into a new parent company called Alphabet Inc., where he became the CEO of Alphabet. He stepped down as CEO of Alphabet in December 2019 but remained involved as a board member and advisor.\n\nLarry Page is also known for his interest in innovation and futuristic technologies, including self-driving cars (Waymo), life sciences (Calico), and internet access initiatives (Loon). He is a prominent figure in the tech industry and has been recognized as one of the most influential people in the world."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 8,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "When organizing your clothes drawer, it's helpful to have different drawers or compartments for various types of clothing to keep everything neat and easy to find. Here are some common categories you might consider:\n\n1. **Tops and Shirts**  \n   - Include t-shirts, blouses, button-downs, and casual shirts.  \n   - Use dividers or fold neatly to avoid wrinkles.\n\n2. **Bottoms**  \n   - Separate drawers for pants, jeans, skirts, and shorts.  \n   - Fold or roll to save space and prevent creasing.\n\n3. **Undergarments**  \n   - Drawer for underwear, bras, and sleepwear.  \n   - Use small trays or organizers to keep items sorted.\n\n4. **Socks and Hosiery**  \n   - Use a drawer with small compartments or a sock organizer.  \n   - Sort by color or type (e.g., dress socks, athletic socks).\n\n5. **Sleepwear and Loungewear**  \n   - Include pajamas, loungewear, and robes.  \n   - Keep them separate from daily wear.\n\n6. **Accessories**  \n   - Small drawer for belts, ties, scarves, and hats.  \n   - Use trays or dividers to keep items from tang"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 9,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Khachapuri is a traditional Georgian cheese-filled bread, and it's a wonderful dish to serve when hosting guests. Here's a recipe for a classic **Khachapuri (Georgian Cheese Bread)** that you can try:\n\n---\n\n### **Khachapuri (Georgian Cheese Bread)**\n\n**Ingredients:**\n\n*For the Dough:*\n- 4 cups (500g) all-purpose flour\n- 1 \u00bd tsp salt\n- 1 tbsp sugar\n- 1 packet (7g) active dry yeast\n- 1 \u00bd cups warm water (about 110\u00b0F/45\u00b0C)\n- 2 tbsp olive oil\n- 1 egg (for brushing)\n\n*For the Cheese Filling:*\n- 1 \u00bd cups (350g) sulguni cheese (or a mix of mozzarella and feta if sulguni is unavailable)\n- 1 cup (250g) cheddar cheese (optional, for extra flavor)\n- 1 egg\n- 2 tbsp fresh dill, finely chopped\n- 1 tsp salt (adjust to taste)\n- 1 tbsp butter (optional, for richness)\n\n---\n\n**Instructions:**\n\n1."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 10,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, retinoids are generally effective in treating acne. They work by unclogging pores, reducing inflammation, and preventing new acne from forming. Retinoids like tretinoin, adapalene, and tazarotene are commonly prescribed or available over-the-counter for acne treatment. However, results can vary from person to person, and it may take several weeks to see noticeable improvement. It's also important to use them as directed and be aware of potential side effects like dryness or irritation. For best results, consult a dermatologist who can recommend the right treatment for your specific skin type and acne severity."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 11,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! I'd be happy to help you improve your handwriting. Here are some tips to get you started:\n\n1. **Posture and Grip**: Sit up straight with your feet flat on the floor. Hold the pen lightly\u2014too tight can cause strain and shaky writing. Use a tripod grip (thumb, index, and middle finger) for better control.\n\n2. **Practice Basic Strokes**: Start with simple lines, curves, and loops. Practice these daily to build muscle memory.\n\n3. **Use Guidelines**: Writing on lined paper or using a handwriting guide sheet helps maintain consistent letter size and alignment.\n\n4. **Slow Down**: Write slowly and deliberately. Speed comes with practice, but accuracy comes first.\n\n5. **Choose the Right Tools**: Use a comfortable pen or pencil with a smooth ink flow. Some people find fountain pens or gel pens easier to write with.\n\n6. **Trace and Copy**: Use handwriting practice books or printouts to trace letters and copy words. This helps you understand letter formation.\n\n7. **Consistency**: Practice a little every day. Even 10\u201315 minutes daily can make a big difference over time.\n\n8. **Observe and Imitate**: Look at examples of nice handwriting (calligraphy, cursive"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 12,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Canjeero, also known as Canjeero or Xalwo, is a traditional Somali flatbread that is both delicious and a great centerpiece for any meal. It's similar to an Ethiopian injera but has its own unique texture and flavor. Here's a simple recipe to make it at home:\n\n**Somali Canjeero Recipe**\n\n**Ingredients:**\n\n* 2 cups (240g) whole wheat flour (or a mix of whole wheat and all-purpose flour)\n* 1 cup (120g) cornmeal (optional, for a slightly coarser texture)\n* 1/2 teaspoon salt\n* 1/2 cup (120ml) warm water (to start)\n* 2 cups (480ml) warm water (to mix)\n* 1/4 cup (60ml) warm milk (optional, for richness)\n* 1/4 cup (60ml) warm yogurt or sour milk (optional, for fermentation)\n* 1/4 cup (60ml) oil or melted butter (for greasing pan)\n* Water for cooking (to thin the batter)\n\n**Instructions:**\n\n1. **Prepare the Batter:**\n   - In a large bowl,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 13,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The best exercises for beginners are those that are low-impact, easy to learn, and can be done with minimal equipment. Here are some excellent options:\n\n1. **Walking** \u2013 A simple, effective cardiovascular exercise that improves heart health and builds endurance. Start with 10\u201315 minutes daily and gradually increase.\n\n2. **Bodyweight Squats** \u2013 Strengthens legs and glutes. Keep your back straight, knees behind toes, and lower until thighs are parallel to the ground.\n\n3. **Push-Ups (Modified if Needed)** \u2013 Builds upper body and core strength. Beginners can start on their knees or against a wall.\n\n4. **Planks** \u2013 Improves core stability. Begin with 10\u201320 seconds and work up to 1 minute.\n\n5. **Step-Ups** \u2013 Use a low step or sturdy bench to improve leg strength and balance.\n\n6. **Bicycle Crunches** \u2013 Targets the core with a gentle twist. Lie on your back and alternate bringing opposite elbow to knee.\n\n7. **Glute Bridges** \u2013 Strengthens the glutes and lower back. Lie on your back, knees bent, and lift hips off the floor.\n\n8. **Stretching and Mobility Work** \u2013 Daily stretching improves flexibility"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 14,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, turkeys became the official food of Thanksgiving largely due to a combination of historical, cultural, and practical factors. While early Thanksgiving meals in the 17th century likely included a variety of meats such as venison, duck, and fish, the turkey eventually became the centerpiece for several reasons:\n\n1. **Abundance and Size**: Turkeys were plentiful in North America and large enough to feed a whole family or group, making them ideal for communal feasts.\n\n2. **Cultural Symbolism**: Over time, the turkey became associated with American identity and harvest celebrations. Its native status to North America helped reinforce its symbolic value.\n\n3. **Influence of Literature and Media**: In the 19th century, writers like Washington Irving and later, the character of the \"Turkey\" in the Thanksgiving story by Sarah Josepha Hale, helped cement the bird\u2019s place in the holiday. Hale, a magazine editor, campaigned for Thanksgiving to become a national holiday and promoted the turkey as the traditional dish.\n\n4. **President Lincoln\u2019s Role**: In 1863, President Abraham Lincoln declared Thanksgiving a national holiday. While he didn\u2019t specifically mention turkey, the tradition was already growing, and his endorsement helped solidify it.\n\n5. **Practicality"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 15,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Absolutely, building strong professional relationships is a key skill for career growth. Here are some practical tips to help you get better at networking at work:\n\n1. **Be Approachable and Engaged**  \n   - Smile, make eye contact, and use open body language.  \n   - Show genuine interest in others by asking questions and listening actively.\n\n2. **Start Small and Be Consistent**  \n   - Begin with casual conversations during coffee breaks or lunch.  \n   - Aim to connect with at least one new person each week.\n\n3. **Know Your Goals**  \n   - Are you looking to learn from others, find mentors, or build cross-departmental relationships? Clarifying your goals helps you target the right people.\n\n4. **Leverage Company Events**  \n   - Attend team meetings, company gatherings, and training sessions.  \n   - Volunteer for committees or projects to meet people outside your immediate team.\n\n5. **Offer Value First**  \n   - Share helpful resources, introduce people who could benefit from each other\u2019s expertise, or offer to help with a task.  \n   - People are more likely to remember and want to connect with someone who adds value.\n\n6. **Follow Up and Stay in Touch**  \n   - After meeting someone, send"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 16,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, there are many quirky and unusual Christmas traditions around the world. Here are a few that stand out as particularly weird or fascinating:\n\n1. **Sweden\u2019s \"Tomten\" and the Christmas Goat** \u2013 In Sweden, the *tomte* (a small gnome-like creature) is said to bring gifts, but there\u2019s also a tradition of the *Julbock*, a large straw goat that appears in towns and homes. In some places, people even dress up as goats and parade through the streets.\n\n2. **The Christmas Hamper in the UK** \u2013 In the UK, it's common to give a \"Christmas hamper\" filled with food and gifts. But in some areas, people go all out with elaborate, over-the-top hampers, sometimes including things like a live turkey or even a Christmas pudding that\u2019s been aged for years.\n\n3. **The Christmas Tree in the Philippines** \u2013 The Philippines has the longest Christmas season in the world, starting as early as September. But one weird tradition is the *parol*, a star-shaped lantern made of bamboo and paper. These are hung everywhere, and people compete to see who can make the biggest or most beautiful one.\n\n4. **The Yule Cat in Iceland** \u2013 Iceland has a"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 17,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Badminton is a racket sport that can be played either individually against a single opponent, known as singles, or between two teams of two players each, known as doubles. The objective is to hit a shuttlecock over a net and into the opponent's court in such a way that the opponent cannot return it. The shuttlecock is a lightweight object made of feathers attached to a cork base, which gives it a unique flight pattern.\n\nThe game is played on a rectangular court divided by a net. Players score points by making the shuttlecock land in the opponent's court, and the first to reach 21 points wins a game, with a two-point advantage required to win. Matches are typically best of three games.\n\nBadminton is known for its fast pace and requires agility, quick reflexes, and good hand-eye coordination. It's a great way to improve fitness and is enjoyed by people of all ages."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 18,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, cats rub up against your legs for several reasons. One of the main reasons is to mark you with their scent. Cats have scent glands on their cheeks, forehead, and around their mouths, and when they rub against you, they're leaving their scent on you as a way of claiming you as part of their territory. This behavior is a sign of affection and trust, as they're sharing their scent with you, which is a way of saying, \"You're one of us.\"\n\nAdditionally, rubbing against your legs can be a way for cats to seek attention or affection. They may also be trying to get your attention for food, play, or simply to be petted. It's a form of communication and bonding between cats and their human companions."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 19,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Roasting a pig at home for Thanksgiving is an ambitious and impressive undertaking! It requires significant equipment, planning, and technique. Here's a comprehensive guide to help you succeed:\n\n**1. Equipment:**\n\n*   **The Pig:** You'll need a whole pig, typically between 30-50 lbs (live weight). For Thanksgiving, a 30-40 lb pig is often ideal. You'll need to source this from a butcher or farm. **Crucially, you must order it well in advance (weeks or months).** The butcher will need to clean, split (usually down the back), and often truss it for you. You can request specific cuts or preparation (e.g., \"whole hog,\" \"pig on a spit\").\n*   **The Spit & Rotisserie System:**\n    *   **Spit Rod:** A long, heavy-duty metal rod (usually 1.5-2 inches in diameter) that runs through the pig. It must be strong enough to hold the weight without bending.\n    *   **Rotisserie Motor:** A powerful electric motor (typically 1/2 HP to 1 HP) that slowly rotates the spit rod. This ensures even cooking and browning. You'll need"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 20,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Sure! Here are some highly rated electric saws based on performance, durability, and user reviews:\n\n1. **DeWalt DWE315PK 15-Amp 7-1/4-Inch Circular Saw**  \n   - **Rating**: 4.7/5 stars (Amazon)  \n   - **Why it's great**: Powerful motor, excellent depth and bevel adjustments, and a durable build. Popular among professionals and DIYers.  \n   - **Best for**: General-purpose cutting in wood and other materials.\n\n2. **Bosch GKS18V-210 18-Volt Cordless Circular Saw**  \n   - **Rating**: 4.6/5 stars (Amazon)  \n   - **Why it's great**: Lightweight, cordless convenience, and excellent battery life. Great for tight spaces and jobsites without power access.  \n   - **Best for**: Portability and outdoor or remote projects.\n\n3. **Makita XSS02Z 18-Volt LXT Lithium-Ion Cordless Circular Saw**  \n   - **Rating**: 4.6/5 stars (Amazon)  \n   - **Why it's great**: High-speed motor, brushless technology"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 21,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "If you like Billy Joel, you might also enjoy these artists:\n\n1. **Elton John** \u2013 A fellow piano-based singer-songwriter with a similar blend of rock, pop, and classical influences. His storytelling and melodic sensibilities are very much in line with Joel's style.\n\n2. **Paul Simon** \u2013 Known for his lyrical depth and folk-rock sound, Simon shares Joel\u2019s gift for narrative songwriting and clever wordplay.\n\n3. **James Taylor** \u2013 With his soft rock style and introspective lyrics, Taylor offers a more mellow but emotionally resonant experience that fans of Joel\u2019s ballads might appreciate.\n\n4. **Carole King** \u2013 A legendary songwriter and performer whose work, especially on *Tapestry*, blends pop and soul with heartfelt lyrics\u2014similar to Joel\u2019s emotional honesty.\n\n5. **Bruce Springsteen** \u2013 While more rock-oriented, Springsteen shares Joel\u2019s knack for storytelling and capturing American life, especially in his earlier work.\n\n6. **Stevie Wonder** \u2013 A master of melody and social commentary, Wonder\u2019s blend of soul, pop, and R&B might appeal to fans of Joel\u2019s more socially conscious songs.\n\n7. **The Eagles** \u2013 Their harmonies and blend of rock and country could appeal"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 22,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Cactus requires well-draining soil that mimics their natural desert environment. The ideal soil should be loose, sandy, and porous to prevent water retention, which can lead to root rot. A good cactus soil mix typically includes:\n\n- **Sand or perlite** \u2013 improves drainage and aeration.\n- **Grit or pumice** \u2013 helps prevent compaction and enhances drainage.\n- **Potting soil or compost** \u2013 provides some nutrients (use sparingly, as cacti need minimal fertility).\n- **Small amounts of organic matter** \u2013 such as peat moss or coconut coir, but in limited quantities to avoid moisture retention.\n\nMany gardeners use a pre-made **cactus and succulent potting mix**, which is specifically formulated for these plants. Alternatively, you can make your own by combining equal parts of regular potting soil, coarse sand, and perlite or pumice.\n\n**Key characteristics of ideal cactus soil:**\n- Fast-draining\n- Low in organic matter\n- Slightly acidic to neutral pH (around 6.0\u20137.0)\n- Lightweight and airy\n\nAvoid heavy garden soil or clay-based soils, as they retain too much moisture and can suffocate the roots."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 23,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How do you become an author?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 24,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The smallest breed of dog is the Chihuahua."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 25,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Some species of bears that are now extinct include:\n\n1. **Short-faced bear (Arctodus simus)** \u2013 One of the largest terrestrial carnivores to have ever lived, this bear roamed North America during the Pleistocene epoch. It was a powerful predator and scavenger, standing up to 12 feet tall on its hind legs.\n\n2. **Cave bear (Ursus spelaeus)** \u2013 Found throughout Europe and parts of Asia, cave bears lived during the Pleistocene and went extinct around 24,000 years ago. They were primarily herbivorous, feeding on plants, roots, and fruits.\n\n3. **Pleistocene short-faced bear (Arctodus pristinus)** \u2013 A smaller relative of Arctodus simus, this species lived in North America and is also extinct.\n\n4. **American giant short-faced bear (Arctodus thamnos)** \u2013 A proposed species, though its classification is debated, it is sometimes considered a distinct form of the short-faced bear lineage.\n\n5. **Euarctos (Euarctos priscus)** \u2013 An early bear species from the Miocene epoch, now extinct.\n\nThese extinct bears provide insight into the diversity and evolution of the bear"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 26,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The Northern Lights, also known as the Aurora Borealis, are caused by charged particles from the sun colliding with gases in Earth's atmosphere. These particles are carried by the solar wind and are funneled toward the polar regions by Earth's magnetic field. When they interact with oxygen and nitrogen in the upper atmosphere, they release energy in the form of light, creating the beautiful, colorful displays we see as the Northern Lights."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 27,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "When someone is sick, it's important to focus on foods that are easy to digest, hydrating, and provide essential nutrients to support recovery. Here are some gentle, nourishing options that are often well-tolerated and comforting:\n\n1. **Chicken Soup**  \n   Often called \"Jewish penicillin,\" chicken soup can help reduce inflammation, soothe sore throats, and provide hydration and protein. It's easy to digest and comforting.\n\n2. **Broths and Soups (Vegetable, Chicken, or Bone Broth)**  \n   Warm broths are hydrating, easy on the stomach, and provide electrolytes and nutrients. They\u2019re especially helpful if she has a fever or is losing fluids.\n\n3. **Plain Rice (White Rice)**  \n   Plain white rice is bland, easy to digest, and helps settle the stomach. It\u2019s a good base for soups or can be eaten alone.\n\n4. **Bananas**  \n   Soft, easy to eat, and rich in potassium, bananas help replenish electrolytes lost during illness. They\u2019re also gentle on the stomach.\n\n5. **Applesauce (Unsweetened)**  \n   Unsweetened applesauce is soothing and provides some fiber and vitamins. Avoid sugary versions,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 28,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Kobe beef is so expensive because it's a very specific type of Wagyu beef from Tajima strain of Japanese Black cattle raised in Hyogo Prefecture, Japan. The beef is known for its incredible marbling, tenderness, and rich flavor. Strict regulations govern its production, including diet, breeding, and living conditions, which increases costs. Only a small number of cattle meet the standards, making it rare and highly sought after."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 29,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "To clean your armpits effectively, follow these steps:\n\n1. **Wash with soap and water**: Use a gentle body wash or antibacterial soap and warm water. Wet your armpits, apply soap, and gently scrub the area for at least 30 seconds to remove sweat, bacteria, and dead skin cells.\n\n2. **Exfoliate regularly**: Use a loofah, washcloth, or exfoliating scrub 1\u20132 times per week to remove dead skin and prevent clogged pores. This helps reduce odor and irritation.\n\n3. **Dry thoroughly**: After washing, pat your armpits dry with a clean towel. Moisture can encourage bacterial growth, so ensure they are completely dry before applying deodorant or antiperspirant.\n\n4. **Trim or shave hair (optional)**: If you have armpit hair, trimming or shaving can help reduce odor by minimizing bacteria buildup. Always use a clean razor and moisturizing shaving cream to prevent irritation.\n\n5. **Use antiperspirant or deodorant**: Apply antiperspirant (to reduce sweat) or deodorant (to mask odor) after your armpits are dry. Some people prefer natural or aluminum-free options.\n\n6. **Wash"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 30,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Detailing a car involves a thorough cleaning and restoration process to make it look and feel like new. Here's a step-by-step guide to help you detail your car effectively:\n\n### 1. **Gather Supplies**\nBefore starting, ensure you have the following:\n- Car wash soap (pH-balanced, no harsh detergents)\n- Two buckets (one for soap, one for rinsing)\n- Microfiber wash mitts or soft sponges\n- Soft brushes (for wheels and tight areas)\n- Hose or pressure washer (low pressure)\n- Microfiber drying towels\n- Clay bar and lubricant\n- Glass cleaner\n- Interior vacuum\n- Interior cleaning products (dashboard, upholstery, carpet cleaners)\n- Tire cleaner and dressing\n- Wax or sealant\n- Detailing brushes and applicators\n- Plastic trim cleaner\n- Glass and chrome cleaner\n- Optional: Steam cleaner or carpet extractor\n\n---\n\n### 2. **Wash the Car**\n**a. Rinse First:**  \nRinse the car thoroughly to remove loose dirt and debris.\n\n**b. Wash in Sections:**  \nUse the two-bucket method to prevent scratching:\n- Fill one bucket with soapy water, the other with clean rinse water.\n- Wash from top"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 31,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Making pumpkin pie for the first time is a fun and delicious experience. Here's a simple, classic recipe to get you started:\n\n**Classic Pumpkin Pie Recipe**\n\n**Ingredients:**\n\n*1 15-ounce can of pumpkin puree (not pumpkin pie filling)*  \n*3/4 cup granulated sugar*  \n*1/2 teaspoon salt*  \n*1 teaspoon ground cinnamon*  \n*1/2 teaspoon ground ginger*  \n*1/4 teaspoon ground cloves*  \n*1/4 teaspoon ground nutmeg*  \n*2 large eggs*  \n*1 can (12 ounces) evaporated milk or 1 1/4 cups heavy cream*  \n*1 unbaked 9-inch pie crust (store-bought or homemade)*\n\n**Instructions:**\n\n1. **Preheat oven** to 425\u00b0F (220\u00b0C).\n\n2. **Prepare the crust**: Place the pie crust in a 9-inch pie dish. Crimp the edges if desired. Prick the bottom with a fork to prevent puffing.\n\n3. **Mix filling**: In a large bowl, whisk together the pumpkin puree, sugar, salt, cinnamon, ginger, cloves, and nutmeg until smooth.\n\n4. **Add"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 32,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "In Thailand, people enjoy a diverse and flavorful cuisine that is known for its balance of sweet, sour, salty, and spicy flavors. Some popular Thai dishes include:\n\n1. **Pad Thai** \u2013 Stir-fried rice noodles with eggs, tofu, shrimp, bean sprouts, and peanuts, flavored with tamarind, fish sauce, and chili.\n\n2. **Tom Yum Goong** \u2013 A hot and sour soup made with shrimp, lemongrass, kaffir lime leaves, galangal, chili, and lime juice.\n\n3. **Green Curry (Gaeng Keow Wan)** \u2013 A creamy curry made with green curry paste, coconut milk, chicken or tofu, and vegetables like eggplant and bamboo shoots.\n\n4. **Som Tum (Green Papaya Salad)** \u2013 A spicy salad made with shredded green papaya, tomatoes, green beans, peanuts, lime juice, fish sauce, and chili.\n\n5. **Massaman Curry** \u2013 A rich, mildly spicy curry with Indian influences, often made with beef or chicken, potatoes, and peanuts.\n\n6. **Khao Pad (Thai Fried Rice)** \u2013 Fried rice with vegetables, egg, and meat or seafood, seasoned with fish sauce and soy sauce.\n\n7. **Mango Sticky"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 33,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Some good browser alternatives to Chrome include:\n\n1. **Mozilla Firefox** \u2013 Open-source, privacy-focused, highly customizable, and supports a wide range of extensions.\n\n2. **Microsoft Edge** \u2013 Built on Chromium (like Chrome), but with better battery life, improved privacy controls, and integration with Windows and Microsoft services.\n\n3. **Brave** \u2013 Chromium-based, emphasizes privacy by blocking ads and trackers by default, and offers a built-in ad blocker and tracker protection.\n\n4. **Vivaldi** \u2013 Highly customizable Chromium-based browser ideal for power users, with advanced features like tab stacking, built-in notes, and a unique user interface.\n\n5. **Tor Browser** \u2013 Designed for anonymous browsing, routes traffic through the Tor network to protect your identity and location.\n\n6. **Safari** \u2013 Apple\u2019s default browser, optimized for macOS and iOS devices, with strong privacy features and energy efficiency.\n\n7. **LibreWolf** \u2013 A privacy-focused fork of Firefox, hardened against tracking and telemetry, ideal for users who prioritize security.\n\n8. **Pale Moon** \u2013 A lightweight, user-customizable browser based on an older version of Firefox\u2019s code, offering a classic browsing experience.\n\nEach of these offers different strengths depending on your priorities\u2014privacy, speed, customization"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 34,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The Superman cartoon character was created by Jerry Siegel and Joe Shuster."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 35,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Atlantis is a legendary island first mentioned by the ancient Greek philosopher Plato. According to Plato, Atlantis was a powerful and advanced civilization that existed around 9,000 years before his time. It was located \"beyond the Pillars of Hercules\" (the Strait of Gibraltar) in the Atlantic Ocean.\n\nPlato described Atlantis as a large island with a complex society, advanced technology, and a powerful navy. However, he also claimed that the Atlanteans became arrogant and corrupt, leading to their downfall. As punishment, the gods caused the island to sink into the sea in a single day and night of catastrophic earthquakes and floods.\n\nDespite its detailed description, no archaeological evidence has been found to confirm the existence of Atlantis. Most scholars believe it was a fictional creation by Plato, possibly inspired by real events such as the eruption of the volcano on the island of Thera (modern-day Santorini) around 1600 BCE, which devastated the Minoan civilization.\n\nOver the centuries, Atlantis has become a powerful symbol in mythology, literature, and popular culture, representing a lost utopia or a cautionary tale about hubris and the fall of civilizations."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 36,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "To make escargot, follow these steps:\n\n**Ingredients:**\n- 12\u201324 fresh snails (escargot), cleaned and purged\n- 1/2 cup unsalted butter, softened\n- 2 cloves garlic, minced\n- 2 tablespoons fresh parsley, finely chopped\n- 1/4 teaspoon salt (or to taste)\n- 1/8 teaspoon black pepper\n- Optional: 1 tablespoon dry white wine or brandy\n- Optional: 1/4 teaspoon dried thyme or tarragon\n\n**Equipment:**\n- Escargot dishes or ramekins\n- Escargot forks or small forks\n- Oven-safe dish or baking sheet\n- Oven\n\n**Instructions:**\n\n1. **Clean the Snails:**\n   - If using live snails, purify them by soaking in saltwater for 24 hours, changing the water every 6\u20138 hours. This removes impurities.\n   - Rinse thoroughly and boil in salted water for 10\u201315 minutes to cook and clean.\n   - Drain and cool. Remove the snails from their shells and rinse again. Set aside.\n\n2. **Prepare the Herb Butter:**\n   - In a bowl"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 37,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Volcanoes form primarily due to the movement of tectonic plates and the presence of magma beneath the Earth's surface. Here's a breakdown of the key processes:\n\n1. **Tectonic Plate Boundaries**: Most volcanoes occur at the boundaries where tectonic plates interact. There are three main types:\n   - **Divergent Boundaries**: Where plates move apart, such as at mid-ocean ridges. As the plates separate, magma rises from the mantle to fill the gap, solidifying to form new oceanic crust and creating volcanic activity.\n   - **Convergent Boundaries**: Where plates collide. When an oceanic plate subducts (dives beneath) a continental or another oceanic plate, the descending plate melts due to high pressure and temperature. The resulting magma is less dense than the surrounding rock and rises, forming volcanoes. This often creates volcanic arcs, like the Andes or the Japanese islands.\n   - **Transform Boundaries**: Where plates slide past each other. While these typically don't produce volcanoes, some transform zones can have volcanic activity due to associated fractures and magma movement.\n\n2. **Hotspots**: Some volcanoes form away from plate boundaries, over \"hotspots\"\u2014areas where plumes of hot mantle"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 38,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Hello! You're in luck\u2014making tahini at home is actually quite simple and requires just two ingredients: sesame seeds and water. Here's a basic recipe for you:\n\n**Homemade Tahini Recipe**\n\n**Ingredients:**\n- 1 cup raw sesame seeds (preferably hulled for a smoother texture)\n- 2\u20134 tablespoons water (or more as needed)\n- Optional: 1/2 teaspoon lemon juice or a pinch of salt (to taste)\n\n**Instructions:**\n\n1. **Toast the sesame seeds (optional):** For a richer flavor, lightly toast the sesame seeds in a dry skillet over medium heat for 3\u20135 minutes, stirring frequently until golden and fragrant. Let cool slightly. (Note: You can skip this step for a milder, raw tahini.)\n\n2. **Blend:** Add the sesame seeds to a food processor or high-powered blender. Pulse until the seeds break down into a coarse meal.\n\n3. **Add water:** With the machine running, slowly drizzle in water, 1 tablespoon at a time, until the mixture starts to emulsify and form a smooth paste. This may take 3\u20135 minutes. The consistency should be thick but pourable.\n\n4. **Taste and adjust:**"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 39,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, you should consider getting a nanny. You're exhausted, and your well-being matters. A nanny can provide reliable childcare, giving you much-needed rest and peace of mind. It's an investment in your health and your family's happiness."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 40,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Canada was colonized by European powers beginning in the early 16th century. The first significant colonization efforts were made by France, starting with Jacques Cartier's voyages in 1534, which led to the establishment of New France. Later, Britain began colonizing parts of Canada, especially after the British conquest of New France in 1763 following the Seven Years' War."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 41,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How can I use my phone less?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 42,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The belief that the Earth is spherical dates back to ancient Greece, with early evidence emerging around the 6th century BCE. Philosophers like Pythagoras proposed a spherical Earth based on aesthetic and mathematical reasoning, though it was not yet supported by empirical evidence. Around 300 BCE, Aristotle provided the first scientific arguments for a spherical Earth. He observed that the Earth's shadow during lunar eclipses is always round, which would only be possible if the Earth were spherical. He also noted that stars visible in the southern sky disappear gradually as one travels north, suggesting a curved surface.\n\nLater, around 240 BCE, the Greek mathematician Eratosthenes made a remarkably accurate calculation of the Earth's circumference by measuring the angle of the Sun's rays at two different locations\u2014Syene and Alexandria\u2014on the summer solstice. His results were remarkably close to modern measurements, providing strong empirical support for a spherical Earth.\n\nAs for why people initially believed the Earth was flat, this was largely due to limited observational tools and the immediate sensory experience of the Earth's surface. From a human perspective, the ground appears flat, and the horizon seems level. In many early cultures, flat Earth models were consistent with religious or mythological cosmologies. For example,"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 43,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Gremolata is a fresh, aromatic condiment typically made from minced garlic, finely chopped fresh herbs (most commonly parsley), and the zest of a lemon. It's used to add a bright, citrusy, and herbaceous flavor to dishes, often served as a garnish. Gremolata is traditionally paired with osso buco, a classic Italian veal dish, but it also complements roasted meats, fish, vegetables, and even soups. Its purpose is to cut through richness and add a burst of freshness."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 44,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Humans did not evolve to believe in God. Rather, belief in God and other supernatural entities likely emerged as a byproduct of cognitive traits that evolved for other reasons. From an evolutionary psychology perspective, several factors may explain why belief in God is common across cultures:\n\n1. **Hyperactive Agency Detection (HAD):** Humans have a tendency to perceive agency\u2014intentional action\u2014where none exists. This trait likely evolved because it was safer to assume a rustling in the bushes was a predator rather than just the wind. This over-detection of agency may have led to attributing natural events to invisible agents, such as gods or spirits.\n\n2. **Theory of Mind:** Our ability to understand that others have beliefs, desires, and intentions (theory of mind) may have extended to supernatural beings. We can imagine gods as having minds like ours, with intentions and emotions, making it easier to conceptualize and relate to them.\n\n3. **Social Cohesion and Cooperation:** Religious beliefs and rituals often promote group cooperation, trust, and moral behavior. Groups with shared beliefs may have had a survival advantage, as religion can strengthen social bonds, enforce norms, and reduce conflict.\n\n4. **Cognitive Ease and Pattern Recognition:** Humans are pattern-seeking creatures. We tend to"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 45,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "When deciding what to build a cabin out of, consider your climate, budget, maintenance preferences, and desired aesthetic. Here are the most common and effective materials:\n\n1. **Wood (Most Popular Choice)**\n   - **Types**: Pine, cedar, spruce, fir, or engineered wood like I-joists.\n   - **Pros**: Natural look, renewable, good insulation, easy to work with.\n   - **Cons**: Requires regular maintenance (staining, sealing), susceptible to rot and insects if not treated.\n   - **Best for**: Rustic, traditional, or mountain cabins.\n\n2. **Log (Traditional Log Cabins)**\n   - **Types**: Round logs (hand-hewn or milled), or log siding.\n   - **Pros**: Authentic look, excellent insulation, very durable if properly maintained.\n   - **Cons**: Expensive, requires skilled craftsmanship, needs regular chinking and sealing.\n   - **Best for**: Classic, high-end cabins in forested areas.\n\n3. **Steel (Modern or Industrial Style)**\n   - **Pros**: Extremely durable, fire-resistant, low maintenance, long lifespan.\n   - **Cons**: Can be cold to the touch, requires insulation, higher upfront cost.\n   - **Best for**:"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 46,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Many scientists do not believe in God or Satan because their work is based on empirical evidence, observation, and the scientific method. Science focuses on understanding the natural world through testable hypotheses and repeatable experiments. Concepts like God or Satan are typically considered matters of faith, religion, or philosophy rather than scientific inquiry.\n\nScientists, like people in any profession, hold a wide range of personal beliefs. However, the scientific community generally operates under methodological naturalism, which means it seeks natural explanations for natural phenomena without invoking supernatural causes. This doesn't mean scientists deny the existence of God or Satan outright, but rather that such ideas fall outside the scope of what science can investigate.\n\nIn short, scientists may not believe in God or Satan not because they are opposed to religion, but because their professional training and methodology prioritize evidence-based reasoning over supernatural explanations."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 47,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Aloo Pie is a beloved Mauritian dish that's perfect for hosting guests. It's a savory, spiced potato pie that's both comforting and delicious. Here's a traditional recipe you can try:\n\n**Mauritian Aloo Pie (Spiced Potato Pie)**\n\n**Ingredients:**\n\n*   **For the filling:**\n    *   4 medium potatoes, boiled and mashed\n    *   1 medium onion, finely chopped\n    *   2 cloves garlic, minced\n    *   1/2 tsp ground turmeric\n    *   1/2 tsp ground cumin\n    *   1/2 tsp ground coriander\n    *   1/4 tsp ground black pepper\n    *   1/4 tsp chili powder (adjust to taste)\n    *   1/4 tsp garam masala (optional, for extra warmth)\n    *   2 tbsp chopped fresh cilantro (coriander leaves)\n    *   1 tbsp oil\n    *   Salt to taste\n\n*   **For the crust:**\n    *   2 cups all-purpose flour\n    *   1/2 tsp salt\n    *   1/2 cup vegetable oil or"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 48,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "You can see the Moon during the day because it reflects sunlight, just like it does at night. The Moon doesn't produce its own light; it shines by reflecting the Sun's light. Depending on its position in orbit around Earth, the Moon can be visible in the daytime sky when it's high enough above the horizon and not obscured by the Sun's glare.\n\nThe Moon orbits Earth roughly every 29.5 days, and during this cycle, it goes through phases\u2014new moon, waxing crescent, first quarter, waxing gibbous, full moon, waning gibbous, third quarter, and waning crescent. When the Moon is in the waxing or waning phases (not full or new), it's positioned in the sky at an angle relative to the Sun, so it's visible during daylight hours.\n\nFor example:\n- After a new moon, the Moon appears as a thin crescent in the western sky just after sunset, but it can also be seen in the morning sky before sunrise.\n- Around the first quarter, the Moon is visible in the afternoon and early evening.\n- Around the third quarter, it's visible in the early morning hours before sunrise.\n\nSo, as long as the Moon is above the horizon and not"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 49,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How do I take care of a wooden table?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 50,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The Yamato battleship was built in 1941."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 51,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "As of now, Bethesda has not announced a specific release date for the next Elder Scrolls game. They have confirmed that development is underway, but no official details regarding a launch window or title have been revealed."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 52,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! *Fl\u00e6skesteg* is a classic Danish dish and a wonderful centerpiece for a dinner party. It's a roasted pork shoulder with a deliciously crispy crackling. Here's a traditional recipe for you to try:\n\n**Danish Roast Pork Shoulder (Fl\u00e6skesteg)**\n\n**Ingredients:**\n\n*  1.5 - 2 kg (3.3 - 4.4 lbs) pork shoulder (flank or picnic shoulder), bone-in is traditional\n*   Salt (preferably coarse sea salt or kosher salt)\n*   Black pepper (freshly ground)\n*   1-2 tablespoons vegetable oil or lard (optional, for extra crispiness)\n*   1-2 tablespoons water or white wine (optional, for the roasting pan)\n\n**Instructions:**\n\n1.  **Prepare the Pork:** Pat the pork shoulder dry thoroughly with paper towels. This is crucial for achieving crispy crackling. Trim any large pieces of fat, but leave a thin layer (about 5-10mm) on the skin to render and crisp up.\n2.  **Score the Skin:** Using a very sharp knife, score the skin in a diamond or cross-hatch pattern, cutting down to the fat layer"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 53,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The romantic relationship between Julius Caesar and Cleopatra VII of Egypt was a significant and influential chapter in ancient history, blending personal passion with political strategy.\n\nCleopatra, the last active ruler of the Ptolemaic Kingdom of Egypt, was only 22 years old when she met Julius Caesar in 48 BCE. At the time, she was in exile from Egypt after being overthrown by her younger brother, Ptolemy XIII. To regain her throne, Cleopatra famously arranged to meet Caesar, who was in Egypt pursuing his rival, Pompey. According to the ancient historian Plutarch, she had herself smuggled into Caesar\u2019s quarters wrapped in a carpet or a bedroll, a dramatic entrance that captured his attention.\n\nCaesar, then 52 years old and one of Rome\u2019s most powerful leaders, was immediately captivated by Cleopatra. He supported her claim to the Egyptian throne, helping her defeat Ptolemy XIII, who drowned in the Nile during the ensuing conflict. Cleopatra was restored as ruler, and Caesar remained in Egypt for several months, during which time their relationship deepened.\n\nTheir romance was both personal and political. Caesar and Cleopatra had a son together, Caesarion (also known"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 54,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Absolutely! Here's a classic Bloody Mary recipe for you:\n\n**Classic Bloody Mary Recipe**\n\n*Ingredients:*\n- 1 1/2 oz (45 ml) vodka\n- 4 oz (120 ml) tomato juice\n- 1/2 oz (15 ml) fresh lemon juice\n- 1/2 oz (15 ml) fresh lime juice\n- 1/4 oz (7 ml) Worcestershire sauce\n- 1/4 oz (7 ml) hot sauce (like Tabasco)\n- 1/8 tsp celery salt\n- 1/8 tsp black pepper\n- 1 dash of celery bitters (optional)\n- Ice\n- Garnish: celery stalk, lemon wedge, olives, pickled vegetables, or a lime wheel\n\n*Instructions:*\n1. Fill a highball glass with ice.\n2. Add the vodka.\n3. Pour in the tomato juice.\n4. Add lemon juice, lime juice, Worcestershire sauce, hot sauce, celery salt, black pepper, and celery bitters (if using).\n5. Stir well to combine.\n6. Garnish with a celery stalk and any other desired garnishes.\n7. Serve immediately and enjoy!\n\nFeel free"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 55,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Some famous world music artists include:\n\n1. **Youssou N'Dour** \u2013 A Senegalese singer and musician known for his work in mbalax music and for popularizing African rhythms globally.\n2. **Ravi Shankar** \u2013 An Indian sitar virtuoso who brought Indian classical music to Western audiences.\n3. **Ali Farka Tour\u00e9** \u2013 A Malian guitarist and singer known for blending traditional Malian music with blues.\n4. **Babylon Zoo** \u2013 Though more pop-oriented, they incorporated world music elements in their sound.\n5. **B\u00e9la Fleck** \u2013 An American banjo player who has explored global music traditions, including collaborations with musicians from Africa and Asia.\n6. **Nusrat Fateh Ali Khan** \u2013 A Pakistani qawwali singer whose powerful voice influenced many Western artists.\n7. **Tinariwen** \u2013 A Tuareg band from Mali known for their desert blues sound.\n8. **Buena Vista Social Club** \u2013 A Cuban ensemble that revived traditional Cuban music for a global audience.\n9. **Dead Can Dance** \u2013 An Australian band that blends world music with ethereal, gothic sounds.\n10. **B\u00e9la Fleck and the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 56,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Spreading ashes is a personal and meaningful way to honor someone's memory. Here are some thoughtful and respectful ways people choose to do this:\n\n1. **At a Favorite Place** \u2013 Scatter ashes at a location the deceased loved, such as a favorite park, beach, mountain trail, or garden. This allows them to be at peace in a place that brought them joy.\n\n2. **In Nature** \u2013 Many people choose to spread ashes in natural settings like forests, lakes, rivers, or oceans. This symbolizes returning to the earth and can be a peaceful way to say goodbye.\n\n3. **At a Family Plot or Cemetery** \u2013 Some families choose to scatter ashes in a family plot or a designated area within a cemetery. This keeps the loved one close to other family members.\n\n4. **In a Memorial Garden** \u2013 Many cemeteries and parks have memorial gardens where ashes can be scattered. These areas are often beautifully landscaped and maintained as places of remembrance.\n\n5. **At Sea** \u2013 For those with a connection to the ocean, scattering ashes at sea is a popular choice. Some families hire a boat or participate in a memorial service with a captain.\n\n6. **In a Personal Space** \u2013 Some people choose to scatter ashes in a meaningful"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 57,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Ochoshka is a traditional Ukrainian cold soup, perfect for warmer weather. It's refreshing, tangy, and has a unique blend of flavors. Here's a classic recipe you can try:\n\n**Ukrainian Ochoshka Recipe**\n\n**Ingredients:**\n\n*   4 cups cold kefir (or buttermilk for a tangier taste)\n*   2 cups cold water\n*   1 medium cucumber, finely diced\n*   1/2 small red onion, finely diced\n*   1/4 cup fresh dill, finely chopped\n*   1/4 cup fresh parsley, finely chopped\n*   1/4 cup fresh mint, finely chopped (optional, but traditional)\n*   1 clove garlic, minced\n*   1/2 teaspoon salt (or to taste)\n*   1/4 teaspoon black pepper (or to taste)\n*   1/4 teaspoon sugar (optional, to balance acidity)\n*   1 hard-boiled egg, diced (optional, for garnish)\n*   1/4 cup sour cream (optional, for garnish)\n\n**Instructions:**\n\n1.  **Combine Base:** In a large bowl, whisk together"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 58,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Cold bowl, or *koldtb\u00f8f*, is a classic Danish dish that's perfect for serving guests. It's a cold beef salad that's rich, savory, and traditionally served with boiled potatoes and pickled onions. Here's a recipe you can try:\n\n**Danish Cold Bowl (Koldtb\u00f8f)**\n\n*Ingredients:*\n\nFor the meat:\n- 1 lb (450g) beef sirloin or top round\n- 1 bay leaf\n- 1 tsp black peppercorns\n- 1 tsp salt\n- 1/2 cup water\n\nFor the sauce:\n- 1/2 cup beef broth (or water)\n- 1 tbsp Dijon mustard\n- 1 tbsp red wine vinegar\n- 1 tbsp sugar\n- 1/2 tsp salt\n- 1/4 tsp black pepper\n- 1/4 cup chopped fresh dill\n- 1/4 cup chopped chives\n- 1/4 cup chopped parsley\n- 1/4 cup chopped shallots or red onion\n- 1/4 cup mayonnaise\n- 1 egg yolk (optional, for creaminess)\n\nFor serving:\n- Boiled new potatoes\n"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 59,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Certainly. Suetonius wrote *The Twelve Caesars* during the early 2nd century AD, most likely around 121 AD, during the reign of Emperor Hadrian (117\u2013138 AD). This was a period of relative peace and stability in the Roman Empire, known as the *Pax Romana*, and Hadrian was known for his interest in Roman history, culture, and the legacy of past emperors.\n\nSuetonius was a Roman historian and biographer who served as a secretary to Emperor Hadrian, which gave him access to imperial archives and firsthand knowledge of court life. His work on the Twelve Caesars\u2014covering Julius Caesar and the first eleven Roman emperors from Augustus to Domitian\u2014was part of a broader biographical project. The book is notable for its blend of factual detail and anecdotal, sometimes scandalous, stories, reflecting both historical record and popular rumor.\n\nThe timing of the work is significant: Domitian, the last emperor covered in the book, had been assassinated in 96 AD, and the Flavian dynasty had ended. By the time Suetonius wrote, the Nerva\u2013Antonine dynasty was in power, and Hadrian was"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 60,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Walt Disney was an American entrepreneur, animator, voice actor, and film producer, widely regarded as one of the most significant figures in the history of animation and entertainment. Born on December 5, 1901, in Chicago, Illinois, Walt Disney was the youngest of five children. His early life was marked by modest means, and he developed an interest in drawing and art from a young age.\n\nDisney began his career in the early 1920s in the fledgling animation industry. In 1923, he co-founded the Disney Brothers Studio (later The Walt Disney Company) with his older brother Roy O. Disney in Los Angeles. Their first successful animated series was \"Alice Comedies,\" which combined live-action and animation. However, it was the creation of the character Oswald the Lucky Rabbit that brought them initial success.\n\nIn 1928, Walt Disney introduced Mickey Mouse in the short film \"Steamboat Willie,\" which was the first synchronized sound cartoon and a massive hit. Mickey Mouse quickly became a cultural icon and the face of the Disney studio. Disney's innovative use of sound and animation techniques set new standards in the industry.\n\nThroughout the 1930s, Disney continued to push the boundaries of animation"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 61,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Sewing a button on a shirt is a simple skill that's easy to learn. Here's a step-by-step guide to help you do it properly:\n\n**What You'll Need:**\n- A needle\n- Thread (matching the color of the shirt or button)\n- Scissors\n- The button you want to sew on\n- Optional: Thimble (to protect your finger)\n\n**Steps:**\n\n1. **Thread the Needle:**\n   - Cut a piece of thread about 18\u201324 inches long.\n   - Thread it through the eye of the needle and tie a knot at the end.\n\n2. **Position the Button:**\n   - Place the button where you want it on the shirt.\n   - If it's a replacement, make sure it lines up with the buttonhole.\n\n3. **Start Sewing:**\n   - Push the needle up from the back of the shirt through one of the buttonholes.\n   - Pull the thread through until the knot catches on the back.\n\n4. **Create the Foundation:**\n   - Go back down through the same hole to anchor the thread.\n   - Then, go up through the opposite hole.\n\n5. **Build the Shank (Important for Shirts):**\n  "
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 62,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Serial killers were able to evade capture for extended periods during the 1970s and 1980s due to a combination of factors related to law enforcement limitations, societal conditions, and the nature of the crimes themselves. Key reasons include:\n\n1. **Limited Forensic Technology**: DNA profiling, which is now a cornerstone of criminal investigations, was not available or widely used during this time. Fingerprint analysis and other forensic tools were less advanced, making it harder to link crimes or identify suspects.\n\n2. **Lack of Information Sharing**: Police departments often operated in silos, with little communication between jurisdictions. Serial crimes that spanned multiple cities or states were frequently not recognized as connected, allowing killers to move between areas undetected.\n\n3. **Inadequate Crime Scene Procedures**: Many departments lacked standardized protocols for processing crime scenes. Evidence could be mishandled, contaminated, or overlooked, reducing the chances of solving cases.\n\n4. **Underreporting and Misclassification**: Some victims\u2014especially marginalized individuals such as sex workers, runaways, or homeless people\u2014were less likely to be reported missing or investigated thoroughly. Their deaths were sometimes dismissed or misclassified as accidents or suicides.\n\n5. **Public and Media Influence**: In some cases, media"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 63,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "To make apple juice, follow these steps:\n\n1. **Choose and Wash Apples**: Select ripe, fresh apples (you can use a mix of sweet and tart varieties like Fuji, Gala, Granny Smith, or Honeycrisp). Wash them thoroughly under running water to remove dirt and pesticides.\n\n2. **Peel and Core**: Peel the apples and remove the cores and seeds. You can use a peeler and a melon baller or apple corer for this.\n\n3. **Chop into Pieces**: Cut the apples into smaller chunks to make them easier to process.\n\n4. **Juice the Apples**:\n   - **Using a Juicer**: Feed the apple chunks into a juicer. This will extract the juice and separate the pulp.\n   - **Using a Blender**: Blend the apple chunks with a little water (about 1/2 cup per 2 cups of apples) until smooth. Then strain the mixture through a cheesecloth or fine mesh strainer to remove pulp and seeds. Squeeze the cloth to extract as much juice as possible.\n   - **Using a Food Mill**: Pass the cooked or raw apples through a food mill to extract juice and retain texture.\n\n5. **Optional: Cook the Juice** (for longer shelf"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 64,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Israeli cheese burekas are a delightful and flaky pastry that are perfect for entertaining guests. They are filled with a savory mixture of cheese and herbs, then baked until golden and crisp. Here's a traditional recipe you can try:\n\n**Israeli Cheese Burekas**\n\n**Ingredients:**\n\n*For the Dough:*\n* 2 \u00bd cups all-purpose flour\n* 1 tsp salt\n* 1 cup cold water\n* \u00bd cup vegetable oil\n* 1 egg (for egg wash)\n\n*For the Filling:*\n* 1 \u00bd cups crumbled feta cheese\n* 1 cup grated mozzarella cheese\n* 1 tbsp chopped fresh dill\n* 1 tbsp chopped fresh parsley\n* 1 clove garlic, minced\n* \u00bd tsp ground cumin\n* Salt and pepper to taste\n* 1 egg (for egg wash)\n\n**Instructions:**\n\n1. **Make the Dough:**\n   - In a large bowl, mix flour and salt.\n   - Add cold water and oil, stirring until a dough forms.\n   - Knead on a floured surface for about 5 minutes until smooth and elastic.\n   - Cover with a damp cloth and let rest for 30 minutes"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 65,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Making bubble solution is simple and fun! Here's a basic recipe you can try at home:\n\n### Ingredients:\n- 1 cup water (distilled or tap water works)\n- 1/4 cup dish soap (use a clear, gentle dish soap like Dawn or Joy\u2014avoid foaming or gel soaps)\n- 1 tablespoon glycerin or corn syrup (optional, but helps bubbles last longer)\n- 1/2 teaspoon sugar (optional, improves bubble strength)\n\n### Instructions:\n1. **Mix the ingredients**: In a clean container, combine the water, dish soap, glycerin (or corn syrup), and sugar.\n2. **Stir gently**: Stir slowly to avoid creating too many bubbles or foam. Do not shake or stir vigorously.\n3. **Let it rest**: Allow the solution to sit for at least 1 hour before using. This helps the bubbles form better.\n4. **Use**: Dip a bubble wand or straw into the solution and blow gently to create bubbles.\n\n### Tips:\n- Use a clean container and wand to avoid contamination.\n- For stronger bubbles, try using distilled water instead of tap water.\n- Store in a sealed container at room temperature. It should last a few days.\n\nEnjoy your homemade bubbles!"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 66,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How to make frosting with Crisco."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 67,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Tunisian *kamounia* is a delicious and aromatic stew that's traditionally served during special occasions and family gatherings. It's a rich, slow-cooked dish that combines meat, vegetables, and a blend of spices, often served with bread or couscous. Here's a classic recipe for you to try:\n\n**Tunisian Kamounia (Spiced Meat and Vegetable Stew)**\n\n**Ingredients:**\n\n*   2 lbs (1 kg) lamb shoulder or beef chuck, cut into 1.5-inch cubes\n*   2 tablespoons olive oil\n*   1 large onion, finely chopped\n*   3 cloves garlic, minced\n*   1 teaspoon ground cumin\n*   1 teaspoon ground coriander\n*   1/2 teaspoon ground cinnamon\n*   1/4 teaspoon ground cloves\n*   1/4 teaspoon cayenne pepper (optional, for heat)\n*   1/2 teaspoon paprika\n*   1/2 teaspoon turmeric\n*   1 bay leaf\n*   4 cups (1 liter) water or broth (chicken or beef)\n*   2 medium carrots, diced\n*   2 medium"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 68,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Airplanes were created through a combination of scientific discovery, engineering innovation, and persistent experimentation over many decades. The journey to powered flight began long before the first successful airplane took to the sky.\n\nThe foundational principles of flight were understood by scientists like Sir Isaac Newton, who developed the laws of motion, and Daniel Bernoulli, whose work on fluid dynamics helped explain lift. However, it wasn't until the late 19th and early 20th centuries that these principles were applied practically.\n\nIn the 1800s, pioneers like Otto Lilienthal conducted experiments with gliders, studying how wings could generate lift. His work inspired many others, including the Wright brothers\u2014Orville and Wilbur Wright from Dayton, Ohio.\n\nThe Wright brothers conducted extensive research and testing. They built a wind tunnel to study airfoils and designed a three-axis control system that allowed pilots to steer the aircraft effectively. On December 17, 1903, they achieved the first powered, controlled, and sustained flight of an airplane\u2014the Wright Flyer\u2014at Kitty Hawk, North Carolina. This flight lasted 12 seconds and covered 120 feet.\n\nAfter this breakthrough, airplane design evolved rapidly. Early aircraft were made of wood and fabric, but"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 69,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Sure! Here's a very easy way to clean a showerhead:\n\n1. **Remove the showerhead** (if possible) by unscrewing it from the pipe.\n2. **Fill a plastic bag** with white vinegar.\n3. **Place the showerhead** into the bag so the openings are submerged in vinegar.\n4. **Secure the bag** around the pipe with a rubber band or twist tie.\n5. **Let it soak** for at least 1 hour (or overnight for heavy buildup).\n6. **Remove the bag**, rinse the showerhead under water, and scrub gently with an old toothbrush if needed.\n7. **Reattach** the showerhead and turn on the water to flush it out.\n\nThis removes hard water deposits and mineral buildup easily!"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 70,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Sure! Here is a list of the eight planets in our solar system, in order from the Sun:\n\n1. Mercury  \n2. Venus  \n3. Earth  \n4. Mars  \n5. Jupiter  \n6. Saturn  \n7. Uranus  \n8. Neptune  \n\nLet me know which one you'd like to learn more about!"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 71,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The first lead vocalist for the rock band Starship was Mickey Thomas."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 72,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Here are a few popular and recently released Nintendo Switch games that would make great birthday gifts for your nephew:\n\n1. **Metroid Dread** (2021) \u2013 This is the latest entry in the classic Metroid series and was released in October 2021. It's a must-have for fans of action-adventure games and retro-style exploration. It's praised for its tight gameplay and atmospheric design.\n\n2. **Mario Strikers: Battle League** (2022) \u2013 A fun, fast-paced sports game that brings Mario characters into a chaotic soccer-style battle. It's great for multiplayer fun and has a vibrant, energetic style that kids and teens enjoy.\n\n3. **Pikmin 4** (2023) \u2013 The newest installment in the Pikmin series, Pikmin 4 offers charming visuals, strategic gameplay, and a fun story. It's perfect for younger players and fans of exploration and puzzle-solving.\n\n4. **The Legend of Zelda: Echoes of the Past** (2023) \u2013 Wait, that's not a real game. Let me correct that. A better recent option is **The Legend of Zelda: Echoes of the Past** \u2013 no, that's not right"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 73,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The best way to defrost a refrigerator freezer is to follow these steps for safety and efficiency:\n\n1. **Turn Off the Refrigerator**: Unplug the refrigerator or switch it off at the circuit breaker to stop cooling and prevent further frost buildup.\n\n2. **Remove Food Items**: Take out all food from the freezer. Place perishable items in a cooler with ice packs to keep them cold.\n\n3. **Open the Door**: Leave the freezer door open to allow warm air to enter and speed up the melting process.\n\n4. **Use Towels or Pans**: Place towels or shallow pans on the floor to absorb melting ice and water. This prevents water from spreading and helps manage the mess.\n\n5. **Speed Up Defrosting (Optional)**:\n   - Use a hairdryer on the lowest heat setting, keeping it at a safe distance to avoid damaging plastic parts.\n   - Place bowls of hot water inside the freezer to increase humidity and warmth.\n\n6. **Scrape Ice Carefully**: Once ice has softened, gently scrape it with a plastic or wooden spatula. Avoid metal tools to prevent damage.\n\n7. **Clean the Interior**: Wipe down the freezer with a mild detergent and water solution. Rinse with clean water and dry thoroughly.\n\n8."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 74,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "For imaginative play, consider toys like a toy kitchen set, a doctor's kit, dress-up clothes, toy tools, or a playhouse. These encourage creativity and role-playing."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 75,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How do I know if my house has a water leak?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 76,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! It sounds like a wonderful idea to introduce Uruguayan cuisine to your guests. However, there is no traditional Uruguayan dish called \"vital tone.\" It's possible there may be a misunderstanding or a mix-up with the name.\n\nUruguay is well-known for its rich culinary traditions, especially centered around beef and barbecue. Some popular Uruguayan dishes include:\n\n- **Asado**: A traditional barbecue featuring various cuts of grilled meat, especially beef.\n- **Chivito**: A hearty sandwich made with steak, ham, cheese, lettuce, tomato, and mayonnaise, often served on a roll.\n- **Milanesa**: Breaded and fried meat cutlets, usually made with beef or chicken.\n- **Chorip\u00e1n**: A sandwich made with grilled chorizo sausage served in a crusty roll, often with chimichurri sauce.\n- **Fain\u00e1**: A type of savory flatbread made from chickpea flour, often served as a side or sandwich base.\n\nIf you're looking for a specific Uruguayan dish or drink, feel free to provide more details or clarify the name, and I\u2019d be happy to help you find the correct recipe!"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 77,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Opor Ayam is a classic Indonesian dish, especially popular during festive occasions like Lebaran. It's a rich, creamy chicken curry made with coconut milk, spices, and often served with rice and sambal. Here's a traditional recipe you can try at home:\n\n**Opor Ayam (Indonesian Coconut Chicken Curry)**\n\n**Ingredients:**\n\n*   **For the Chicken:**\n    *   1 whole chicken (about 1.5-2 kg), cut into serving pieces\n    *   1 liter (4 cups) water\n    *   1 tbsp salt\n    *   1 tbsp sugar\n    *   1 tbsp lime juice (optional, for flavor)\n    *   1 stalk lemongrass, bruised\n    *   3-4 kaffir lime leaves\n    *   1-2 pieces galangal, bruised (or substitute with 1-inch ginger)\n    *   1-2 cloves garlic, crushed\n    *   1 tsp turmeric powder (or 1-inch fresh turmeric, grated)\n\n*   **For the Spice Paste (Bumbu):**\n    *   5-6 shallots, roughly chopped"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 78,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The different octane values of gasoline refer to the fuel's resistance to knocking or pinging during combustion. Octane rating is a measure of how well a fuel can withstand compression in an engine without detonating prematurely. Higher octane fuels can handle higher compression ratios, which are common in high-performance engines, without causing knocking. This allows for more efficient and powerful engine operation."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 79,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How can I fix a leaking roof?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 80,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, certain types of music can help you fall asleep faster. Slow-tempo music, typically below 60 beats per minute, is often recommended because it can help lower your heart rate and promote relaxation. Genres like classical, ambient, and nature sounds are popular choices. Instrumental music without lyrics is generally better, as lyrics can engage your mind and make it harder to relax. Listening to calming music for about 30 minutes before bed can help prepare your body and mind for sleep."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 81,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Montgomery, Alabama, is rich in history, culture, and civil rights landmarks. Here are some top places to visit:\n\n1. **The Civil Rights Memorial Center** \u2013 Located in the Southern Poverty Law Center campus, this powerful memorial honors those who died during the Civil Rights Movement. The centerpiece is a black granite fountain with the names of 40 martyrs.\n\n2. **National Memorial for Peace and Justice (The Lynching Memorial)** \u2013 Created by the Equal Justice Initiative, this is the nation\u2019s first memorial dedicated to the victims of racial terror lynchings. It features suspended steel monuments representing counties where lynchings occurred.\n\n3. **Alabama State Capitol** \u2013 The seat of Alabama\u2019s government, this impressive Greek Revival building offers guided tours and stunning views from the dome. It\u2019s also the site where the Selma to Montgomery marches began.\n\n4. **Selma to Montgomery National Historic Trail** \u2013 While not in Montgomery itself, the trail ends in the city and includes several interpretive sites. You can visit the footbridge at the Edmund Pettus Bridge in Selma and follow the route into Montgomery.\n\n5. **Rosa Parks Library and Museum** \u2013 Dedicated to the life and legacy of Rosa Parks, this museum features exhibits on the Montgomery Bus Boy"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 82,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Hello, I have decided to keep a rat as a pet. How do I house, feed, and otherwise care for it?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 83,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "There are several ways to obtain water in the desert, depending on the situation and available resources. Here are some common methods:\n\n1. **Carry Water**: The most reliable method is to bring enough water before entering the desert. It's recommended to carry at least one gallon (about 3.8 liters) per person per day, more in extreme heat.\n\n2. **Water Purification**: If you find natural water sources like streams or lakes, they may be contaminated. Use water purification tablets, portable filters, or boil water to make it safe to drink.\n\n3. **Collect Dew**: In the early morning, dew forms on surfaces. You can use a clean cloth or tarp to collect dew and wring it into a container.\n\n4. **Condensation**: Use a solar still to extract water from moist soil or vegetation. Dig a hole, place a container in the center, add green plants or moist soil, cover with plastic, and let the sun evaporate and condense water onto the plastic, which then drips into the container.\n\n5. **Cacti**: Some cacti contain water, but not all are safe to drink. The barrel cactus is sometimes used, but it can cause illness. Only consume cactus water as a"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 84,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "To get better at aiming with your slingshot, focus on these key areas:\n\n1. **Practice Consistency**: Use the same grip, anchor point, and release every time. Muscle memory is crucial for accuracy.\n\n2. **Stable Stance**: Stand with your feet shoulder-width apart, knees slightly bent, and your body balanced. This reduces wobble and improves control.\n\n3. **Anchor Point**: Always pull the slingshot to the same spot on your face (e.g., your chin or corner of your mouth). This ensures consistent aiming.\n\n4. **Target Practice**: Start with stationary targets at close range and gradually increase distance. Use small, visible targets like bottle caps or paper circles.\n\n5. **Use a Sight (Optional)**: Some slingshots have sights or you can make a simple one. This helps align your shot more precisely.\n\n6. **Mind the Release**: Practice a smooth, controlled release. Jerky motions cause inaccuracy.\n\n7. **Observe Wind and Conditions**: Wind affects trajectory. Learn how it impacts your shots and adjust accordingly.\n\n8. **Stay Calm and Focused**: Take deep breaths and avoid rushing. Aim with patience and precision.\n\n9. **Record Your Progress**: Keep track of your hits and"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 85,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Milanesa de Pescado is a delicious and popular Argentine dish that's essentially a breaded and fried fish cutlet. It's a great option for entertaining guests because it's relatively simple to prepare and always a crowd-pleaser. Here's a classic recipe for you:\n\n**Milanesa de Pescado (Argentine Fish Cutlet)**\n\n**Ingredients:**\n\n*   2 large fillets of white fish (such as cod, haddock, or snapper), about 12-16 oz total\n*   Salt and freshly ground black pepper, to taste\n*   1 cup all-purpose flour\n*   2 large eggs\n*   1 cup breadcrumbs (Italian-style or plain)\n*   1/2 cup grated Parmesan cheese (optional, but traditional)\n*   1/2 cup vegetable oil or olive oil (for frying)\n*   Lemon wedges, for serving\n*   Optional garnish: chopped fresh parsley or cilantro\n\n**Instructions:**\n\n1.  **Prepare the Fish:** Pat the fish fillets dry with paper towels. Season both sides generously with salt and pepper.\n2.  **Set Up Breading Station:** Prepare three shallow dishes:\n    *  "
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 86,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Refilling a fountain pen is a simple process, and it's a wonderful way to connect with your grandfather's cherished writing instrument. Here's a step-by-step guide to help you:\n\n**What You'll Need:**\n- Your fountain pen\n- Fountain pen ink (make sure it's compatible with your pen)\n- A clean, lint-free cloth or paper towel\n- A dropper or ink converter (if your pen doesn't have a cartridge system)\n\n**Steps to Refill:**\n\n1. **Prepare Your Workspace:**\n   - Work over a clean, flat surface.\n   - Lay down a cloth or paper towel to protect the pen and catch any spills.\n\n2. **Disassemble the Pen:**\n   - Unscrew the cap of the fountain pen.\n   - Carefully remove the nib and feed assembly (the metal part that holds the ink and delivers it to the paper). Some pens have a removable section; others require you to unscrew the barrel or use a converter.\n\n3. **Clean the Pen (Optional but Recommended):**\n   - If the pen has been unused for a while, it's a good idea to flush it with distilled water to remove any dried ink.\n   - Use a syringe or dropper to gently flush"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 87,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Ice hockey is a fast-paced team sport played on an ice rink. The objective is to score goals by shooting a hard rubber puck into the opposing team's net using a hockey stick.\n\nHere\u2019s a breakdown of how the game works:\n\n1. **Teams and Players**: Each team has six players on the ice at a time \u2014 one goaltender (goalie), two defensemen, and three forwards (center, left wing, right wing). Teams can substitute players during play, which is called \"line changes.\"\n\n2. **Game Duration**: A standard game consists of three 20-minute periods, with 15-minute intermissions between periods. If the game is tied after regulation, it may go into overtime and, if necessary, a shootout to determine a winner.\n\n3. **The Puck**: The puck is a hard, vulcanized rubber disc that players use to pass, shoot, and control. It must be kept in play at all times \u2014 if it goes out of bounds, play stops and a faceoff occurs.\n\n4. **Faceoffs**: The game starts with a faceoff at the center ice, and after goals, stoppages, or certain infractions. Two opposing players from each team compete to gain control of the"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 88,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Kevlar is made out of synthetic fibers."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 89,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Racketball is a fast-paced racquet sport that combines elements of squash and racquetball. It's played in a smaller court than squash but larger than racquetball, and uses a smaller, lighter ball than squash. Here's a breakdown of the game:\n\n**1. Equipment:**\n- **Racket:** A racket similar to a squash racket but slightly larger and lighter.\n- **Ball:** A small, hollow rubber ball that is slightly larger than a squash ball but smaller than a racquetball.\n- **Court:** A rectangular court with four walls, a front wall, two side walls, and a back wall. The court is smaller than a squash court but larger than a racquetball court.\n\n**2. Objective:**\nThe goal is to hit the ball in such a way that your opponent cannot return it. Points are scored when the opponent fails to return the ball legally.\n\n**3. Gameplay:**\n- **Serving:** The server stands in the service box and hits the ball so that it first hits the front wall, then lands in the opposite quarter of the court (the \"service box\").\n- **Scoring:** Racketball uses a \"rally scoring\" system, meaning a point is scored on every rally"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 90,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Certainly! Here are some excellent science fiction books that are highly recommended for fans of the genre:\n\n1. **Dune by Frank Herbert** \u2013 A classic space opera that explores politics, religion, ecology, and human potential on the desert planet Arrakis.\n\n2. **Neuromancer by William Gibson** \u2013 Often credited with creating the cyberpunk genre, this novel imagines a future where artificial intelligence and cyberspace play central roles.\n\n3. **Foundation by Isaac Asimov** \u2013 A sweeping saga about the fall of a galactic empire and the efforts to shorten the ensuing dark age through the science of psychohistory.\n\n4. **The Three-Body Problem by Liu Cixin** \u2013 A hard science fiction masterpiece that introduces readers to first contact with an alien civilization and explores profound scientific and philosophical questions.\n\n5. **Do Androids Dream of Electric Sheep? by Philip K. Dick** \u2013 The basis for the film *Blade Runner*, this novel examines what it means to be human in a world where artificial life is indistinguishable from real life.\n\n6. **Hyperion by Dan Simmons** \u2013 A richly layered narrative that blends science fiction with myth and poetry, following a group of pilgrims traveling to a mysterious planet.\n\n7. **Snow Crash"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 91,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Smartphones were first made in the late 1990s."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 92,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Here's a classic recipe for **Challah Bread**, a traditional braided egg bread often enjoyed on Shabbat and Jewish holidays.\n\n---\n\n### \ud83e\udd56 Classic Challah Bread Recipe\n\n**Yields:** 1 large loaf (or 2 small loaves)  \n**Prep time:** 1 hour 30 minutes (includes rising)  \n**Bake time:** 30\u201335 minutes\n\n---\n\n#### \ud83e\uddc2 Ingredients:\n\n- 4 cups (500g) all-purpose flour (plus extra for dusting)\n- 1 \u00bd cups (360ml) warm water (about 110\u00b0F / 43\u00b0C)\n- 2 \u00bc tsp (1 packet) active dry yeast\n- \u00bd cup (120ml) vegetable oil or melted butter\n- \u00bd cup (120ml) honey or sugar\n- 1 tsp salt\n- 4 large eggs\n- 1 egg (for egg wash)\n- Optional: Sesame seeds or poppy seeds (for topping)\n\n---\n\n#### \ud83d\udd2a Instructions:\n\n1. **Activate the yeast:**\n   - In a large bowl, combine warm water, yeast, and sugar/honey. Stir gently and"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 93,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, Facebook Corporation changed its name. On October 28, 2021, the company announced that it would rebrand itself as **Meta Platforms, Inc.**, commonly referred to as **Meta**. This change reflected the company's strategic shift toward building the \"metaverse,\" a virtual reality-based digital world. While the Facebook app and other services like Instagram and WhatsApp continue to operate under their original names, the parent company is now officially known as Meta."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 94,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course! Tong sui is a delightful category of traditional Chinese desserts, and it's a wonderful way to impress your guests with something authentic and comforting. One of the most popular and beloved tong suis is **Red Bean Soup with Tapioca Pearls** (also known as **Sweet Red Bean Soup with Sago**). It's sweet, soothing, and can be served warm or chilled.\n\nHere's a simple and delicious recipe for you to try:\n\n---\n\n**Red Bean Soup with Tapioca Pearls (Tong Sui)**\n\n**Ingredients:**\n\n*   **For the Red Bean Soup:**\n    *   1 cup dried adzuki beans (red beans)\n    *   6 cups water\n    *   1/2 cup sugar (adjust to taste)\n    *   1/2 tsp vanilla extract (optional, for extra aroma)\n    *   Pinch of salt\n\n*   **For the Tapioca Pearls:**\n    *   1/2 cup small tapioca pearls (sago)\n    *   2 cups water\n\n*   **Optional Garnish:**\n    *   1-2 tbsp cooked glutinous rice balls (tang yuan) or small cubes of fresh mango\n\n**Instructions"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 95,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, you can definitely start saving money by growing your own food during the winter with an indoor garden."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 96,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Spicing things up in the bedroom can be a fun and exciting way to enhance intimacy with your partner. Here are some ideas to consider:\n\n1. **Communicate Openly**: Talk to your partner about your desires, fantasies, and boundaries. Honest communication is key to exploring new experiences together.\n\n2. **Try New Positions**: Experiment with different sexual positions to add variety and excitement.\n\n3. **Incorporate Sensory Play**: Use blindfolds, feathers, or different textures to heighten sensations and engage other senses.\n\n4. **Explore Foreplay**: Spend more time on foreplay to build anticipation and arousal.\n\n5. **Use Toys**: Introduce sex toys to explore new sensations and experiences.\n\n6. **Set the Mood**: Create a romantic or sensual atmosphere with candles, music, or a relaxing bath.\n\n7. **Role Play**: Engage in role-playing scenarios to add excitement and fantasy.\n\n8. **Try New Locations**: Change the setting occasionally to add novelty.\n\n9. **Plan Surprise Encounters**: Surprise your partner with spontaneous moments of intimacy.\n\n10. **Focus on Emotional Connection**: Strengthen your emotional bond through affection and intimacy outside the bedroom.\n\nRemember, the most important aspect is mutual consent and comfort. Always ensure that both partners are enthusiastic"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 97,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, human blood can appear in colors other than red under certain circumstances, although its fundamental color is always red due to the presence of hemoglobin.\n\nHere are some examples:\n\n1. **Blue Blood in Some Animals**: While humans have red blood, some animals like horseshoe crabs and certain arthropods have blue blood because they use copper-based hemocyanin instead of iron-based hemoglobin to carry oxygen.\n\n2. **Deoxygenated Blood**: In humans, blood is dark red or maroon when deoxygenated (e.g., in veins), not blue. The common misconception that veins are blue is due to how light penetrates the skin and how our eyes perceive color.\n\n3. **Green or Blue Blood in Rare Medical Conditions**:\n   - **Hyperbilirubinemia**: In conditions like jaundice, excess bilirubin can give the skin and eyes a yellowish tint, and in severe cases, blood may appear more yellow or greenish.\n   - **Pseudocyanosis**: A rare condition where blood appears blue due to abnormal oxygen binding or other metabolic issues.\n   - **Methemoglobinemia**: A condition where hemoglobin is oxidized and cannot carry oxygen effectively. This can cause the blood"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 98,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Of course. Pearls are hard, rounded objects produced within the soft tissue of certain mollusks, most famously oysters and mussels. They are formed when an irritant, like a grain of sand or a parasite, gets inside the mollusk's shell. To protect itself, the mollusk secretes layers of a substance called nacre, also known as mother-of-pearl, around the irritant. Over time, these layers build up to form a pearl.\n\nThere are two main types of pearls:\n\n1. **Natural Pearls**: These form without any human intervention. They occur when an irritant enters a wild mollusk in its natural habitat. Natural pearls are rare and highly valuable.\n\n2. **Cultured Pearls**: These are formed with human assistance. A small piece of mantle tissue or a bead is surgically implanted into the mollusk to stimulate pearl formation. Cultured pearls are much more common and affordable than natural ones.\n\n**Where are pearls found?**\n\nPearls are found in both saltwater and freshwater environments around the world. The specific location depends on the type of mollusk and the kind of pearl:\n\n- **Saltwater Pearls**:\n  - **Akoya Pearls**: Primarily farmed in Japan, China"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 99,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "voicebench_alpacaeval",
+        "test"
+      ],
+      "filtered_resps": [
+        "You can dry out a wide variety of herbs, both culinary and medicinal. Here are some popular ones:\n\n**Culinary Herbs:**\n1. **Basil** \u2013 Great for pesto or adding to tomato dishes.\n2. **Oregano** \u2013 Essential in Italian and Mediterranean cooking.\n3. **Thyme** \u2013 Adds depth to soups, stews, and roasted meats.\n4. **Rosemary** \u2013 Strong flavor; perfect for meats and potatoes.\n5. **Mint** \u2013 Use in teas, desserts, or salads.\n6. **Parsley** \u2013 Mild flavor; good for garnishes and sauces.\n7. **Dill** \u2013 Excellent in pickling and fish dishes.\n8. **Sage** \u2013 Earthy taste; pairs well with poultry and beans.\n9. **Chives** \u2013 Mild onion flavor; great in eggs and salads.\n10. **Lavender** \u2013 Use sparingly in baked goods and teas.\n\n**Medicinal/Tea Herbs:**\n1. **Lemon Balm** \u2013 Calming, often used in teas.\n2. **Chamomile** \u2013 Known for relaxation and sleep support.\n3. **Peppermint** \u2013 Soothes digestion and"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    }
+  ]
+}

@@ -1,0 +1,2408 @@
+{
+  "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
+  "created_at": "2025-10-31T06:30:13.110851",
+  "benchmark_id": "voicebench_commoneval",
+  "total_samples": 200,
+  "samples": [
+    {
+      "doc_id": 0,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        0,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Does the Earth move or is it immobile?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 1,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        1,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How far is Haryana from Delhi?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 2,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        2,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What is consciousness?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 3,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        3,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Is it chilly in Haithabu?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 4,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        4,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Can yodeling really trigger avalanches?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 5,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        5,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "List of the most populated French islands"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 6,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        6,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Why does nobody eat semolina?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 7,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        7,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Planets smashed together and the rubble made the moon. But what made the universe?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 8,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        8,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Are we building a generation of web addicts?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 9,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        9,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Is it possible to take a longer break from studying theoretical physics?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 10,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        10,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Which day of the seven hath God appointed to be the weekly Sabbath?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 11,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        11,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Yes, the world is generally considered a better place than it was fifty years ago in many significant ways. Here are some key areas where progress has been made:\n\n1. **Global Health and Life Expectancy**: Life expectancy has increased dramatically. In 1970, the global average life expectancy was around 60 years; today, it's over 72 years. Advances in medicine, vaccines, and public health have drastically reduced deaths from infectious diseases like polio, smallpox, and tuberculosis.\n\n2. **Reduction in Extreme Poverty**: The percentage of people living in extreme poverty (less than $1.90 a day) has dropped from about 40% in 1990 to less than 10% in 2022. Countries like China and India have lifted hundreds of millions out of poverty.\n\n3. **Education**: Access to education has improved globally. More children are attending school, and gender disparities in education have decreased. Literacy rates have increased significantly.\n\n4. **Technological Advancements**: The digital revolution has transformed communication, access to information, and innovation. The internet, smartphones, and medical technologies have improved quality of life and connected people across the globe.\n\n5. **Human Rights and Social"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 12,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        12,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Are we doing enough for sex workers?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 13,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        13,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How do I grow a tomato plant?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 14,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        14,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "I'm struggling to begin writing my novel."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 15,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        15,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Can I use Last. fm to listen to Twilight Time by DJ Khalil?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 16,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        16,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Where can you find fish fillet?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 17,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        17,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What can I do about my headache?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 18,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        18,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What do you believe happens after death?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 19,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        19,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What are the challenges in tackling homelessness?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 20,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        20,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "A list of bouncer software"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 21,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        21,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Are virtues rooted in a universal human nature or in a plurality of cultures?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 22,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        22,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What are the externalities associated with setting up a business?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 23,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        23,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How do I turn the computer on?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 24,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        24,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How do you deal with the unintended impacts of machine learning?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 25,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        25,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What rule hath God given for our direction in prayer?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 26,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        26,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "And what are the criteria for selecting and sorting information?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 27,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        27,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "A summary of information about Canada."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 28,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        28,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Do the objects have to retain their identity over time or do they change?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 29,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        29,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Who is the dominant company in refrigeration equipment?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 30,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        30,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Who is Max Schrems?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 31,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        31,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "If statements about game rules can be true or false, why not ethical statements?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 32,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        32,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What is a lorry?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 33,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        33,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How do I grow as a performer?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 34,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        34,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "I wonder if plastic plants make a room more beautiful or more melancholic."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 35,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        35,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What about the strong equivalence principle?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 36,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        36,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "There's not much evidence that homeopathy works, but what's the harm?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 37,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        37,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What benefits do believers receive from Christ at the resurrection?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 38,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        38,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How far is Delhi from Goa?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 39,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        39,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What is deemed an appropriate expression of anger is culturally dependent."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 40,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        40,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Have you heard of the base rate fallacy?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 41,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        41,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What is forbidden in the ninth commandment?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 42,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        42,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "List of lakes of Assam"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 43,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        43,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What is so?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 44,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        44,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What are the hidden costs of buying a house?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 45,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        45,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What kind of jobs will people do in a world run by machines?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 46,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        46,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What does one generally do with hyenas?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 47,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        47,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What tools are available to benchmark an AI processor?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 48,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        48,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "When should mentally disordered offenders be diverted from custody?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 49,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        49,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Was Edgar Allan Poe a mental derelict?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 50,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        50,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How do nerve cells communicate with each other?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 51,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        51,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What are the characteristics of diabetes?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 52,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        52,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How can we ensure kids grow up to be successful?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 53,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        53,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Gross Domestic Product"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 54,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        54,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Why should we afford time this privileged status among our speculative and empirical undertakings?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 55,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        55,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "List of tallest buildings in Newark"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 56,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        56,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Why don't they turn old plastics into bricks and use them to build houses?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 57,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        57,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How do we identify cancer early?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 58,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        58,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Which is the best women's baseball team?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 59,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        59,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How do you balance on a Segway?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 60,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        60,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Would a cell phone carrier feel responsible when somebody receives a threatening phone call?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 61,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        61,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "David Maynard previously created Worms."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 62,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        62,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How to make pancakes."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 63,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        63,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How to move from welcoming to cohesion?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 64,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        64,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "I wonder whether we will be able to harvest energy from fusion reactors."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 65,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        65,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What is a cyborg?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 66,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        66,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How to Live a Better Life."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 67,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        67,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "History of Africa"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 68,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        68,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What is repentance unto life?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 69,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        69,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Compare to style of the Tomb of Cyrus the Great."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 70,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        70,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Can you provide a comparison of web taxes?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 71,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        71,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "So where are the language borders?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 72,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        72,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Where do foxes inhabit?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 73,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        73,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How can we efficiently purify water using the least amount of energy?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 74,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        74,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "A giraffe is a large, long-necked mammal native to Africa. It is the tallest land animal, with a height that can reach up to 18 feet. Giraffes have a distinctive coat pattern of irregular brown patches separated by lighter lines, which varies between subspecies. They possess long legs, a long neck, and a small head with two horn-like ossicones on top. Giraffes are herbivores, primarily feeding on leaves, flowers, and fruits, especially from acacia trees. They are social animals, often found in loose groups, and are known for their unique walking gait and powerful kicks."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 75,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        75,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What does a city need to do to be classed as a smart city?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 76,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        76,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What are the associated costs of having a new boiler fitted?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 77,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        77,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "There are 1,760 yards in a mile and 1,000 meters in a kilometer."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 78,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        78,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Finally, can art influence reality?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 79,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        79,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Her final question was, \"\"Who was the longest reigning British monarch?\"\".\""
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 80,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        80,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Is there planet hopping?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 81,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        81,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Who drives donkeys and believes women will never see the face of paradise?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 82,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        82,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What will humans do in the age of automation?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 83,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        83,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Which is the sixth commandment?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 84,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        84,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The special and necessary constituent of royalty is **the right to receive a share of the profits or income from the use of property, intellectual works, or other assets**. This typically includes:\n\n- **Ownership or rights to intellectual property** (e.g., patents, copyrights, trademarks)\n- **Natural resources** (e.g., oil, gas, minerals)\n- **Franchise or licensing agreements**\n\nIn essence, royalty is a payment made by one party (the licensee or user) to another (the licensor or owner) for the ongoing use of something valuable. The key element is that the payment is **not a fixed fee**, but rather a **percentage of revenue or profit** generated from the use of the asset.\n\nThus, the **special and necessary constituent** of royalty is:\n\n> **The entitlement to a share of income or profit derived from the use of an asset, based on a contractual or legal right.**"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 85,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        85,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What is an audiologist?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 86,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        86,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Can the location of the consciousness be separate from one's physical location?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 87,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        87,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The lowest common multiple of 340 and 52 is 4420."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 88,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        88,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Can math explain everything?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 89,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        89,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "The meaning of life is a philosophical question that has been debated for centuries. It often refers to the significance or purpose of existence. Different cultures, religions, and philosophies offer various interpretations. For example:\n\n- **Religious perspectives** might suggest that the meaning of life is to serve God, fulfill a divine purpose, or achieve spiritual enlightenment.\n- **Philosophical views** range from existentialism (life has no inherent meaning, and individuals must create their own) to nihilism (life has no meaning).\n- **Scientific perspectives** may focus on survival, reproduction, and the continuation of life through evolution.\n\nUltimately, the answer to this question is subjective and depends on personal beliefs and values."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 90,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        90,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "But why is Earth radioactive?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 91,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        91,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Give me precise instructions out of the contaminated trooper."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 92,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        92,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How can we get voice recognition to work better for speech impediments?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 93,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        93,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What does it mean to be self-aware?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 94,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        94,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How to freeze fruit and vegetables."
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 95,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        95,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Why do people have really good ideas in the shower?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 96,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        96,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "Are there any externalities of building a house extension?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 97,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        97,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "List of windmills in Denmark"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 98,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        98,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "How would you characterize fast food?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    },
+    {
+      "doc_id": 99,
+      "target": "target_text",
+      "arguments": [
+        "Please listen to the audio and provide your response.",
+        {
+          "max_new_tokens": 256,
+          "do_sample": false,
+          "temperature": 0.0,
+          "until": [
+            "\n\n"
+          ]
+        },
+        99,
+        "voicebench_commoneval",
+        "test"
+      ],
+      "filtered_resps": [
+        "What does quantum entanglement mean?"
+      ],
+      "doc_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "llm_as_judge_eval": 0.0,
+      "input": "Please listen to the audio and provide your response."
+    }
+  ]
+}

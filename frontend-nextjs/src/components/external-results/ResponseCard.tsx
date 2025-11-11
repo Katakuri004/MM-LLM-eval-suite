@@ -6,6 +6,8 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { CheckCircle2, XCircle, Copy, ChevronDown, ChevronUp, FileText } from 'lucide-react'
 import { Label } from '@/components/ui/label'
+import Link from 'next/link'
+import { MediaPreview } from '@/components/media/MediaPreview'
 import { cn } from '@/lib/utils'
 
 interface ResponseCardProps {
@@ -17,6 +19,14 @@ interface ResponseCardProps {
   is_correct: boolean
   score?: number
   error_type?: string | null
+  sample_key?: string
+  asset_refs?: {
+    image_path?: string
+    video_path?: string
+    audio_path?: string
+    text?: string
+  }
+  model_id_encoded?: string
 }
 
 const TRUNCATE_LENGTH = 200
@@ -30,6 +40,9 @@ export function ResponseCard({
   is_correct,
   score,
   error_type,
+  sample_key,
+  asset_refs,
+  model_id_encoded,
 }: ResponseCardProps) {
   const [expandedSections, setExpandedSections] = useState<{
     input: boolean
@@ -117,8 +130,14 @@ export function ResponseCard({
                   {error_type}
                 </Badge>
               )}
+              {sample_key && model_id_encoded && (
+                <Link href={`/external-results/${encodeURIComponent(model_id_encoded)}/responses/${encodeURIComponent(sample_key)}`} className="ml-2 text-xs underline text-muted-foreground">
+                  View details
+                </Link>
+              )}
             </div>
           </div>
+          <MediaPreview modality={modality as any} asset_refs={asset_refs} />
         </div>
       </CardHeader>
 

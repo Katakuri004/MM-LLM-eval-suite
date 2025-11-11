@@ -1,0 +1,1993 @@
+{
+  "model": "Qwen_Qwen3-Omni-30B-A3B-Instruct",
+  "created_at": "2025-10-31T06:30:13.110851",
+  "benchmarks": [
+    {
+      "benchmark_id": "fleurs_en",
+      "metrics": {
+        "wer": 2.979950563032134,
+        "wer,none": 2.979950563032134
+      },
+      "total_samples": 647,
+      "files": [
+        {
+          "filename": "20251029_143156_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_143156_results.json"
+        },
+        {
+          "filename": "20251029_143156_samples_fleurs_en.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_143156_samples_fleurs_en.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "librispeech_test_clean",
+      "metrics": {
+        "wer": 1.2823655873422972,
+        "wer,none": 1.2823655873422972
+      },
+      "total_samples": 2620,
+      "files": [
+        {
+          "filename": "20251029_144740_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_144740_results.json"
+        },
+        {
+          "filename": "20251029_144740_samples_librispeech_test_clean.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_144740_samples_librispeech_test_clean.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "common_voice_15_en",
+      "metrics": {
+        "wer": 6.077582330039704,
+        "wer,none": 6.077582330039704
+      },
+      "total_samples": 16386,
+      "files": [
+        {
+          "filename": "20251029_150413_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_150413_results.json"
+        },
+        {
+          "filename": "20251029_150413_samples_common_voice_15_en.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_150413_samples_common_voice_15_en.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "common_voice_15_zh-CN",
+      "metrics": {
+        "wer": 4.500306936771025,
+        "wer,none": 4.500306936771025
+      },
+      "total_samples": 10625,
+      "files": [
+        {
+          "filename": "20251029_150413_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_150413_results.json"
+        },
+        {
+          "filename": "20251029_150413_samples_common_voice_15_zh-CN.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_150413_samples_common_voice_15_zh-CN.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "librispeech_test_other",
+      "metrics": {
+        "wer": 2.579327559472032,
+        "wer,none": 2.579327559472032
+      },
+      "total_samples": 2939,
+      "files": [
+        {
+          "filename": "20251029_150413_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_150413_results.json"
+        },
+        {
+          "filename": "20251029_150413_samples_librispeech_test_other.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_150413_samples_librispeech_test_other.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "common_voice_15_en",
+      "metrics": {
+        "wer": 6.074370077222558,
+        "wer,none": 6.074370077222558
+      },
+      "total_samples": 16386,
+      "files": [
+        {
+          "filename": "20251029_155225_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_155225_results.json"
+        },
+        {
+          "filename": "20251029_155225_samples_common_voice_15_en.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_155225_samples_common_voice_15_en.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "common_voice_15_zh-CN",
+      "metrics": {
+        "wer": 4.502762430939226,
+        "wer,none": 4.502762430939226
+      },
+      "total_samples": 10625,
+      "files": [
+        {
+          "filename": "20251029_155225_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_155225_results.json"
+        },
+        {
+          "filename": "20251029_155225_samples_common_voice_15_zh-CN.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_155225_samples_common_voice_15_zh-CN.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "librispeech_test_other",
+      "metrics": {
+        "wer": 2.5717635490336974,
+        "wer,none": 2.5717635490336974
+      },
+      "total_samples": 2939,
+      "files": [
+        {
+          "filename": "20251029_155225_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_155225_results.json"
+        },
+        {
+          "filename": "20251029_155225_samples_librispeech_test_other.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_155225_samples_librispeech_test_other.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "lvbench",
+      "metrics": {
+        "lvbench_score": 0.3066494512588767,
+        "lvbench_score,none": 0.3066494512588767,
+        "lvbench_score_stderr": 0.01171958004351353,
+        "lvbench_score_stderr,none": 0.01171958004351353
+      },
+      "total_samples": 1549,
+      "files": [
+        {
+          "filename": "20251029_161306_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_161306_results.json"
+        },
+        {
+          "filename": "20251029_161306_samples_lvbench.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_161306_samples_lvbench.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmmu_val",
+      "metrics": {
+        "mmmu_acc": 0.57778,
+        "mmmu_acc,none": 0.57778
+      },
+      "total_samples": 900,
+      "files": [
+        {
+          "filename": "20251029_164202_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_164202_results.json"
+        },
+        {
+          "filename": "20251029_164202_samples_mmmu_val.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_164202_samples_mmmu_val.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_advbench",
+      "metrics": {
+        "accuracy": 99.61538461538461,
+        "accuracy,none": 99.61538461538461
+      },
+      "total_samples": 520,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_advbench.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_advbench.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_alpacaeval",
+      "metrics": {
+        "llm_as_judge_eval": 0.0,
+        "llm_as_judge_eval,none": 0.0,
+        "llm_as_judge_eval_stderr": 0.0,
+        "llm_as_judge_eval_stderr,none": 0.0
+      },
+      "total_samples": 199,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_alpacaeval.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_alpacaeval.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_bbh",
+      "metrics": {
+        "accuracy": 68.0,
+        "accuracy,none": 68.0
+      },
+      "total_samples": 1000,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_bbh.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_bbh.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_commoneval",
+      "metrics": {
+        "llm_as_judge_eval": 0.0,
+        "llm_as_judge_eval,none": 0.0,
+        "llm_as_judge_eval_stderr": 0.0,
+        "llm_as_judge_eval_stderr,none": 0.0
+      },
+      "total_samples": 200,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_commoneval.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_commoneval.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_ifeval",
+      "metrics": {
+        "accuracy": 0.5739130434782609,
+        "accuracy,none": 0.5739130434782609
+      },
+      "total_samples": 345,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_ifeval.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_ifeval.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_mmsu_biology",
+      "metrics": {
+        "accuracy": 90.11627906976744,
+        "accuracy,none": 90.11627906976744,
+        "failure rate": 0.0,
+        "failure rate,none": 0.0
+      },
+      "total_samples": 172,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_mmsu_biology.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_mmsu_biology.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_mmsu_business",
+      "metrics": {
+        "accuracy": 69.0677966101695,
+        "accuracy,none": 69.0677966101695,
+        "failure rate": 0.0,
+        "failure rate,none": 0.0
+      },
+      "total_samples": 236,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_mmsu_business.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_mmsu_business.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_mmsu_chemistry",
+      "metrics": {
+        "accuracy": 65.26946107784431,
+        "accuracy,none": 65.26946107784431,
+        "failure rate": 0.0,
+        "failure rate,none": 0.0
+      },
+      "total_samples": 167,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_mmsu_chemistry.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_mmsu_chemistry.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_mmsu_economics",
+      "metrics": {
+        "accuracy": 89.28571428571429,
+        "accuracy,none": 89.28571428571429,
+        "failure rate": 0.0,
+        "failure rate,none": 0.0
+      },
+      "total_samples": 280,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_mmsu_economics.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_mmsu_economics.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_mmsu_engineering",
+      "metrics": {
+        "accuracy": 71.96261682242991,
+        "accuracy,none": 71.96261682242991,
+        "failure rate": 0.0,
+        "failure rate,none": 0.0
+      },
+      "total_samples": 107,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_mmsu_engineering.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_mmsu_engineering.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_mmsu_health",
+      "metrics": {
+        "accuracy": 77.33990147783251,
+        "accuracy,none": 77.33990147783251,
+        "failure rate": 0.0,
+        "failure rate,none": 0.0
+      },
+      "total_samples": 406,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_mmsu_health.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_mmsu_health.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_mmsu_history",
+      "metrics": {
+        "accuracy": 70.1923076923077,
+        "accuracy,none": 70.1923076923077,
+        "failure rate": 0.0,
+        "failure rate,none": 0.0
+      },
+      "total_samples": 104,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_mmsu_history.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_mmsu_history.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_mmsu_law",
+      "metrics": {
+        "accuracy": 58.8235294117647,
+        "accuracy,none": 58.8235294117647,
+        "failure rate": 0.0,
+        "failure rate,none": 0.0
+      },
+      "total_samples": 51,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_mmsu_law.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_mmsu_law.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_mmsu_other",
+      "metrics": {
+        "accuracy": 69.41391941391942,
+        "accuracy,none": 69.41391941391942,
+        "failure rate": 0.0,
+        "failure rate,none": 0.0
+      },
+      "total_samples": 546,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_mmsu_other.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_mmsu_other.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_mmsu_philosophy",
+      "metrics": {
+        "accuracy": 67.21311475409836,
+        "accuracy,none": 67.21311475409836,
+        "failure rate": 0.0,
+        "failure rate,none": 0.0
+      },
+      "total_samples": 305,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_mmsu_philosophy.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_mmsu_philosophy.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_mmsu_physics",
+      "metrics": {
+        "accuracy": 72.0626631853786,
+        "accuracy,none": 72.0626631853786,
+        "failure rate": 0.0,
+        "failure rate,none": 0.0
+      },
+      "total_samples": 383,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_mmsu_physics.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_mmsu_physics.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_mmsu_psychology",
+      "metrics": {
+        "accuracy": 76.65615141955836,
+        "accuracy,none": 76.65615141955836,
+        "failure rate": 0.0,
+        "failure rate,none": 0.0
+      },
+      "total_samples": 317,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_mmsu_psychology.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_mmsu_psychology.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_openbookqa",
+      "metrics": {
+        "accuracy": 90.98901098901099,
+        "accuracy,none": 90.98901098901099,
+        "failure rate": 0.0,
+        "failure rate,none": 0.0
+      },
+      "total_samples": 455,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_openbookqa.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_openbookqa.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_sd-qa_aus",
+      "metrics": {
+        "pedant_score": 0.0,
+        "pedant_score,none": 0.0,
+        "pedant_score_stderr": 0.0,
+        "pedant_score_stderr,none": 0.0,
+        "gpt4_score": 0.0,
+        "gpt4_score,none": 0.0,
+        "gpt4_score_stderr": 0.0,
+        "gpt4_score_stderr,none": 0.0
+      },
+      "total_samples": 553,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_sd-qa_aus.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_sd-qa_aus.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_sd-qa_gbr",
+      "metrics": {
+        "pedant_score": 0.0,
+        "pedant_score,none": 0.0,
+        "pedant_score_stderr": 0.0,
+        "pedant_score_stderr,none": 0.0,
+        "gpt4_score": 0.0,
+        "gpt4_score,none": 0.0,
+        "gpt4_score_stderr": 0.0,
+        "gpt4_score_stderr,none": 0.0
+      },
+      "total_samples": 553,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_sd-qa_gbr.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_sd-qa_gbr.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_sd-qa_ind_n",
+      "metrics": {
+        "pedant_score": 0.0,
+        "pedant_score,none": 0.0,
+        "pedant_score_stderr": 0.0,
+        "pedant_score_stderr,none": 0.0,
+        "gpt4_score": 0.0,
+        "gpt4_score,none": 0.0,
+        "gpt4_score_stderr": 0.0,
+        "gpt4_score_stderr,none": 0.0
+      },
+      "total_samples": 553,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_sd-qa_ind_n.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_sd-qa_ind_n.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_sd-qa_ind_s",
+      "metrics": {
+        "pedant_score": 0.0,
+        "pedant_score,none": 0.0,
+        "pedant_score_stderr": 0.0,
+        "pedant_score_stderr,none": 0.0,
+        "gpt4_score": 0.0,
+        "gpt4_score,none": 0.0,
+        "gpt4_score_stderr": 0.0,
+        "gpt4_score_stderr,none": 0.0
+      },
+      "total_samples": 553,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_sd-qa_ind_s.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_sd-qa_ind_s.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_sd-qa_irl",
+      "metrics": {
+        "pedant_score": 0.0,
+        "pedant_score,none": 0.0,
+        "pedant_score_stderr": 0.0,
+        "pedant_score_stderr,none": 0.0,
+        "gpt4_score": 0.0,
+        "gpt4_score,none": 0.0,
+        "gpt4_score_stderr": 0.0,
+        "gpt4_score_stderr,none": 0.0
+      },
+      "total_samples": 553,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_sd-qa_irl.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_sd-qa_irl.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_sd-qa_kenya",
+      "metrics": {
+        "pedant_score": 0.0,
+        "pedant_score,none": 0.0,
+        "pedant_score_stderr": 0.0,
+        "pedant_score_stderr,none": 0.0,
+        "gpt4_score": 0.0,
+        "gpt4_score,none": 0.0,
+        "gpt4_score_stderr": 0.0,
+        "gpt4_score_stderr,none": 0.0
+      },
+      "total_samples": 553,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_sd-qa_kenya.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_sd-qa_kenya.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_sd-qa_nga",
+      "metrics": {
+        "pedant_score": 0.0,
+        "pedant_score,none": 0.0,
+        "pedant_score_stderr": 0.0,
+        "pedant_score_stderr,none": 0.0,
+        "gpt4_score": 0.0,
+        "gpt4_score,none": 0.0,
+        "gpt4_score_stderr": 0.0,
+        "gpt4_score_stderr,none": 0.0
+      },
+      "total_samples": 553,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_sd-qa_nga.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_sd-qa_nga.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_sd-qa_nzl",
+      "metrics": {
+        "pedant_score": 0.0,
+        "pedant_score,none": 0.0,
+        "pedant_score_stderr": 0.0,
+        "pedant_score_stderr,none": 0.0,
+        "gpt4_score": 0.0,
+        "gpt4_score,none": 0.0,
+        "gpt4_score_stderr": 0.0,
+        "gpt4_score_stderr,none": 0.0
+      },
+      "total_samples": 553,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_sd-qa_nzl.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_sd-qa_nzl.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_sd-qa_phl",
+      "metrics": {
+        "pedant_score": 0.0,
+        "pedant_score,none": 0.0,
+        "pedant_score_stderr": 0.0,
+        "pedant_score_stderr,none": 0.0,
+        "gpt4_score": 0.0,
+        "gpt4_score,none": 0.0,
+        "gpt4_score_stderr": 0.0,
+        "gpt4_score_stderr,none": 0.0
+      },
+      "total_samples": 553,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_sd-qa_phl.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_sd-qa_phl.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_sd-qa_usa",
+      "metrics": {
+        "pedant_score": 0.0,
+        "pedant_score,none": 0.0,
+        "pedant_score_stderr": 0.0,
+        "pedant_score_stderr,none": 0.0,
+        "gpt4_score": 0.0,
+        "gpt4_score,none": 0.0,
+        "gpt4_score_stderr": 0.0,
+        "gpt4_score_stderr,none": 0.0
+      },
+      "total_samples": 553,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_sd-qa_usa.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_sd-qa_usa.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_sd-qa_zaf",
+      "metrics": {
+        "pedant_score": 0.0,
+        "pedant_score,none": 0.0,
+        "pedant_score_stderr": 0.0,
+        "pedant_score_stderr,none": 0.0,
+        "gpt4_score": 0.0,
+        "gpt4_score,none": 0.0,
+        "gpt4_score_stderr": 0.0,
+        "gpt4_score_stderr,none": 0.0
+      },
+      "total_samples": 553,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_sd-qa_zaf.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_sd-qa_zaf.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "voicebench_wildvoice",
+      "metrics": {
+        "llm_as_judge_eval": 0.0,
+        "llm_as_judge_eval,none": 0.0,
+        "llm_as_judge_eval_stderr": 0.0,
+        "llm_as_judge_eval_stderr,none": 0.0
+      },
+      "total_samples": 1000,
+      "files": [
+        {
+          "filename": "20251029_165846_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_results.json"
+        },
+        {
+          "filename": "20251029_165846_samples_voicebench_wildvoice.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_165846_samples_voicebench_wildvoice.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmau_test",
+      "metrics": {},
+      "total_samples": 9000,
+      "files": [
+        {
+          "filename": "20251029_174804_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_174804_results.json"
+        },
+        {
+          "filename": "20251029_174804_samples_mmau_test.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_174804_samples_mmau_test.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmau_test_mini",
+      "metrics": {
+        "accuracy": 67.5,
+        "accuracy,none": 67.5
+      },
+      "total_samples": 1000,
+      "files": [
+        {
+          "filename": "20251029_174804_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_174804_results.json"
+        },
+        {
+          "filename": "20251029_174804_samples_mmau_test_mini.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_174804_samples_mmau_test_mini.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "aime25_nofigures",
+      "metrics": {
+        "exact_match": 0.6666666666666666,
+        "exact_match,none": 0.6666666666666666,
+        "exact_match_stderr": 0.08753762190648168,
+        "exact_match_stderr,none": 0.08753762190648168,
+        "extracted_answers": 999,
+        "extracted_answers,none": 999
+      },
+      "total_samples": 30,
+      "files": [
+        {
+          "filename": "20251029_190223_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_190223_results.json"
+        },
+        {
+          "filename": "20251029_190223_samples_aime25_nofigures.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_190223_samples_aime25_nofigures.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "gpqa_main_generative_n_shot",
+      "metrics": {
+        "exact_match": 0.5758928571428571,
+        "exact_match,strict-match": 0.0,
+        "exact_match_stderr": 0.023375175374556304,
+        "exact_match_stderr,strict-match": 0.0,
+        "exact_match,flexible-extract": 0.5758928571428571,
+        "exact_match_stderr,flexible-extract": 0.023375175374556304
+      },
+      "total_samples": 896,
+      "files": [
+        {
+          "filename": "20251029_190223_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_190223_results.json"
+        },
+        {
+          "filename": "20251029_190223_samples_gpqa_main_generative_n_shot.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_190223_samples_gpqa_main_generative_n_shot.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "ifeval",
+      "metrics": {
+        "prompt_level_strict_acc": 0.844731977818854,
+        "prompt_level_strict_acc,none": 0.844731977818854,
+        "prompt_level_strict_acc_stderr": 0.015584884858538131,
+        "prompt_level_strict_acc_stderr,none": 0.015584884858538131,
+        "inst_level_strict_acc": 0.894484412470024,
+        "inst_level_strict_acc,none": 0.894484412470024,
+        "prompt_level_loose_acc": 0.8650646950092421,
+        "prompt_level_loose_acc,none": 0.8650646950092421,
+        "prompt_level_loose_acc_stderr": 0.01470246694201781,
+        "prompt_level_loose_acc_stderr,none": 0.01470246694201781,
+        "inst_level_loose_acc": 0.907673860911271,
+        "inst_level_loose_acc,none": 0.907673860911271
+      },
+      "total_samples": 541,
+      "files": [
+        {
+          "filename": "20251029_190223_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_190223_results.json"
+        },
+        {
+          "filename": "20251029_190223_samples_ifeval.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_190223_samples_ifeval.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "open_asr_ami",
+      "metrics": {
+        "wer": 17.15293434828225,
+        "wer,none": 17.15293434828225
+      },
+      "total_samples": 12643,
+      "files": [
+        {
+          "filename": "20251029_193007_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_results.json"
+        },
+        {
+          "filename": "20251029_193007_samples_open_asr_ami.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_samples_open_asr_ami.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "open_asr_common_voice",
+      "metrics": {
+        "wer": 5.928664470155544,
+        "wer,none": 5.928664470155544
+      },
+      "total_samples": 16334,
+      "files": [
+        {
+          "filename": "20251029_193007_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_results.json"
+        },
+        {
+          "filename": "20251029_193007_samples_open_asr_common_voice.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_samples_open_asr_common_voice.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "open_asr_earnings22",
+      "metrics": {
+        "wer": 10.28668481041151,
+        "wer,none": 10.28668481041151
+      },
+      "total_samples": 2741,
+      "files": [
+        {
+          "filename": "20251029_193007_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_results.json"
+        },
+        {
+          "filename": "20251029_193007_samples_open_asr_earnings22.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_samples_open_asr_earnings22.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "open_asr_gigaspeech",
+      "metrics": {
+        "wer": 9.818162002026202,
+        "wer,none": 9.818162002026202
+      },
+      "total_samples": 19931,
+      "files": [
+        {
+          "filename": "20251029_193007_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_results.json"
+        },
+        {
+          "filename": "20251029_193007_samples_open_asr_gigaspeech.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_samples_open_asr_gigaspeech.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "open_asr_librispeech_test_clean",
+      "metrics": {
+        "wer": 1.2653931016274729,
+        "wer,none": 1.2653931016274729
+      },
+      "total_samples": 2620,
+      "files": [
+        {
+          "filename": "20251029_193007_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_results.json"
+        },
+        {
+          "filename": "20251029_193007_samples_open_asr_librispeech_test_clean.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_samples_open_asr_librispeech_test_clean.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "open_asr_librispeech_test_other",
+      "metrics": {
+        "wer": 2.4469573768011803,
+        "wer,none": 2.4469573768011803
+      },
+      "total_samples": 2939,
+      "files": [
+        {
+          "filename": "20251029_193007_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_results.json"
+        },
+        {
+          "filename": "20251029_193007_samples_open_asr_librispeech_test_other.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_samples_open_asr_librispeech_test_other.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "open_asr_spgispeech",
+      "metrics": {
+        "wer": 2.4028810226763966,
+        "wer,none": 2.4028810226763966
+      },
+      "total_samples": 39341,
+      "files": [
+        {
+          "filename": "20251029_193007_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_results.json"
+        },
+        {
+          "filename": "20251029_193007_samples_open_asr_spgispeech.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_samples_open_asr_spgispeech.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "open_asr_tedlium",
+      "metrics": {
+        "wer": 2.7293350347369914,
+        "wer,none": 2.7293350347369914
+      },
+      "total_samples": 1155,
+      "files": [
+        {
+          "filename": "20251029_193007_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_results.json"
+        },
+        {
+          "filename": "20251029_193007_samples_open_asr_tedlium.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_samples_open_asr_tedlium.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "open_asr_voxpopuli",
+      "metrics": {
+        "wer": 5.784936479128857,
+        "wer,none": 5.784936479128857
+      },
+      "total_samples": 1842,
+      "files": [
+        {
+          "filename": "20251029_193007_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_results.json"
+        },
+        {
+          "filename": "20251029_193007_samples_open_asr_voxpopuli.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251029_193007_samples_open_asr_voxpopuli.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_anatomy",
+      "metrics": {
+        "acc": 0.8,
+        "acc,none": 0.8,
+        "acc_stderr": 0.04020151261036844,
+        "acc_stderr,none": 0.04020151261036844
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_anatomy.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_anatomy.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_astronomy",
+      "metrics": {
+        "acc": 0.93,
+        "acc,none": 0.93,
+        "acc_stderr": 0.02564323999762429,
+        "acc_stderr,none": 0.02564323999762429
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_astronomy.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_astronomy.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_business_ethics",
+      "metrics": {
+        "acc": 0.83,
+        "acc,none": 0.83,
+        "acc_stderr": 0.0377525168068637,
+        "acc_stderr,none": 0.0377525168068637
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_business_ethics.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_business_ethics.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_clinical_knowledge",
+      "metrics": {
+        "acc": 0.85,
+        "acc,none": 0.85,
+        "acc_stderr": 0.03588702812826371,
+        "acc_stderr,none": 0.03588702812826371
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_clinical_knowledge.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_clinical_knowledge.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_college_chemistry",
+      "metrics": {
+        "acc": 0.62,
+        "acc,none": 0.62,
+        "acc_stderr": 0.04878317312145629,
+        "acc_stderr,none": 0.04878317312145629
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_college_chemistry.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_college_chemistry.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_college_computer_science",
+      "metrics": {
+        "acc": 0.79,
+        "acc,none": 0.79,
+        "acc_stderr": 0.040936018074033256,
+        "acc_stderr,none": 0.040936018074033256
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_college_computer_science.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_college_computer_science.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_college_mathematics",
+      "metrics": {
+        "acc": 0.66,
+        "acc,none": 0.66,
+        "acc_stderr": 0.04760952285695237,
+        "acc_stderr,none": 0.04760952285695237
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_college_mathematics.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_college_mathematics.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_college_medicine",
+      "metrics": {
+        "acc": 0.82,
+        "acc,none": 0.82,
+        "acc_stderr": 0.03861229196653694,
+        "acc_stderr,none": 0.03861229196653694
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_college_medicine.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_college_medicine.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_college_physics",
+      "metrics": {
+        "acc": 0.65,
+        "acc,none": 0.65,
+        "acc_stderr": 0.04793724854411021,
+        "acc_stderr,none": 0.04793724854411021
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_college_physics.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_college_physics.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_conceptual_physics",
+      "metrics": {
+        "acc": 0.88,
+        "acc,none": 0.88,
+        "acc_stderr": 0.03265986323710905,
+        "acc_stderr,none": 0.03265986323710905
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_conceptual_physics.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_conceptual_physics.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_econometrics",
+      "metrics": {
+        "acc": 0.68,
+        "acc,none": 0.68,
+        "acc_stderr": 0.046882617226215034,
+        "acc_stderr,none": 0.046882617226215034
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_econometrics.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_econometrics.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_electrical_engineering",
+      "metrics": {
+        "acc": 0.8,
+        "acc,none": 0.8,
+        "acc_stderr": 0.04020151261036843,
+        "acc_stderr,none": 0.04020151261036843
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_electrical_engineering.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_electrical_engineering.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_formal_logic",
+      "metrics": {
+        "acc": 0.73,
+        "acc,none": 0.73,
+        "acc_stderr": 0.044619604333847394,
+        "acc_stderr,none": 0.044619604333847394
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_formal_logic.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_formal_logic.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_global_facts",
+      "metrics": {
+        "acc": 0.49,
+        "acc,none": 0.49,
+        "acc_stderr": 0.05024183937956912,
+        "acc_stderr,none": 0.05024183937956912
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_global_facts.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_global_facts.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_high_school_chemistry",
+      "metrics": {
+        "acc": 0.79,
+        "acc,none": 0.79,
+        "acc_stderr": 0.040936018074033256,
+        "acc_stderr,none": 0.040936018074033256
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_high_school_chemistry.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_high_school_chemistry.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_high_school_geography",
+      "metrics": {
+        "acc": 0.88,
+        "acc,none": 0.88,
+        "acc_stderr": 0.03265986323710906,
+        "acc_stderr,none": 0.03265986323710906
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_high_school_geography.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_high_school_geography.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_high_school_macroeconomics",
+      "metrics": {
+        "acc": 0.87,
+        "acc,none": 0.87,
+        "acc_stderr": 0.03379976689896309,
+        "acc_stderr,none": 0.03379976689896309
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_high_school_macroeconomics.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_high_school_macroeconomics.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_high_school_mathematics",
+      "metrics": {
+        "acc": 0.62,
+        "acc,none": 0.62,
+        "acc_stderr": 0.04878317312145632,
+        "acc_stderr,none": 0.04878317312145632
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_high_school_mathematics.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_high_school_mathematics.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_high_school_physics",
+      "metrics": {
+        "acc": 0.74,
+        "acc,none": 0.74,
+        "acc_stderr": 0.04408440022768079,
+        "acc_stderr,none": 0.04408440022768079
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_high_school_physics.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_high_school_physics.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_high_school_statistics",
+      "metrics": {
+        "acc": 0.82,
+        "acc,none": 0.82,
+        "acc_stderr": 0.03861229196653695,
+        "acc_stderr,none": 0.03861229196653695
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_high_school_statistics.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_high_school_statistics.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_high_school_us_history",
+      "metrics": {
+        "acc": 0.94,
+        "acc,none": 0.94,
+        "acc_stderr": 0.023868325657594183,
+        "acc_stderr,none": 0.023868325657594183
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_high_school_us_history.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_high_school_us_history.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_human_aging",
+      "metrics": {
+        "acc": 0.77,
+        "acc,none": 0.77,
+        "acc_stderr": 0.04229525846816506,
+        "acc_stderr,none": 0.04229525846816506
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_human_aging.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_human_aging.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_logical_fallacies",
+      "metrics": {
+        "acc": 0.88,
+        "acc,none": 0.88,
+        "acc_stderr": 0.032659863237109066,
+        "acc_stderr,none": 0.032659863237109066
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_logical_fallacies.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_logical_fallacies.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_machine_learning",
+      "metrics": {
+        "acc": 0.69,
+        "acc,none": 0.69,
+        "acc_stderr": 0.04648231987117316,
+        "acc_stderr,none": 0.04648231987117316
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_machine_learning.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_machine_learning.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_miscellaneous",
+      "metrics": {
+        "acc": 0.9,
+        "acc,none": 0.9,
+        "acc_stderr": 0.030151134457776348,
+        "acc_stderr,none": 0.030151134457776348
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_miscellaneous.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_miscellaneous.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_philosophy",
+      "metrics": {
+        "acc": 0.79,
+        "acc,none": 0.79,
+        "acc_stderr": 0.040936018074033256,
+        "acc_stderr,none": 0.040936018074033256
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_philosophy.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_philosophy.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_professional_accounting",
+      "metrics": {
+        "acc": 0.67,
+        "acc,none": 0.67,
+        "acc_stderr": 0.047258156262526094,
+        "acc_stderr,none": 0.047258156262526094
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_professional_accounting.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_professional_accounting.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_professional_law",
+      "metrics": {
+        "acc": 0.65,
+        "acc,none": 0.65,
+        "acc_stderr": 0.04793724854411022,
+        "acc_stderr,none": 0.04793724854411022
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_professional_law.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_professional_law.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_public_relations",
+      "metrics": {
+        "acc": 0.76,
+        "acc,none": 0.76,
+        "acc_stderr": 0.04292346959909284,
+        "acc_stderr,none": 0.04292346959909284
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_public_relations.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_public_relations.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "mmlu_redux_virology",
+      "metrics": {
+        "acc": 0.47,
+        "acc,none": 0.47,
+        "acc_stderr": 0.05016135580465921,
+        "acc_stderr,none": 0.05016135580465921
+      },
+      "total_samples": 100,
+      "files": [
+        {
+          "filename": "20251030_142921_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_results.json"
+        },
+        {
+          "filename": "20251030_142921_samples_mmlu_redux_virology.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_142921_samples_mmlu_redux_virology.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "kathbath_hi",
+      "metrics": {
+        "wer": 5.145011857241755,
+        "wer,none": 5.145011857241755
+      },
+      "total_samples": 3151,
+      "files": [
+        {
+          "filename": "20251030_152525_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_152525_results.json"
+        },
+        {
+          "filename": "20251030_152525_samples_kathbath_hi.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_152525_samples_kathbath_hi.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "kathbath_hi",
+      "metrics": {
+        "wer": 11.988644044883062,
+        "wer,none": 11.988644044883062
+      },
+      "total_samples": 3151,
+      "files": [
+        {
+          "filename": "20251030_153249_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_153249_results.json"
+        },
+        {
+          "filename": "20251030_153249_samples_kathbath_hi.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_153249_samples_kathbath_hi.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "aime25",
+      "metrics": {
+        "exact_match": 0.3,
+        "exact_match,none": 0.3,
+        "exact_match_stderr": 0.0850962943396763,
+        "exact_match_stderr,none": 0.0850962943396763
+      },
+      "total_samples": 30,
+      "files": [
+        {
+          "filename": "20251030_161053_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_161053_results.json"
+        },
+        {
+          "filename": "20251030_161053_samples_aime25.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_161053_samples_aime25.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "zebralogic_mc",
+      "metrics": {
+        "acc": 0.0,
+        "acc,none": 0.0,
+        "acc_stderr": 0.0,
+        "acc_stderr,none": 0.0
+      },
+      "total_samples": 1000,
+      "files": [
+        {
+          "filename": "20251030_174017_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_174017_results.json"
+        },
+        {
+          "filename": "20251030_174017_samples_zebralogic_mc.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_174017_samples_zebralogic_mc.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "zebralogic_mc",
+      "metrics": {
+        "acc": 0.0,
+        "acc,none": 0.0,
+        "acc_stderr": 0.0,
+        "acc_stderr,none": 0.0
+      },
+      "total_samples": 1000,
+      "files": [
+        {
+          "filename": "20251030_175109_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_175109_results.json"
+        },
+        {
+          "filename": "20251030_175109_samples_zebralogic_mc.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_175109_samples_zebralogic_mc.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "polymath_en_low",
+      "metrics": {
+        "exact_match": 0.0,
+        "exact_match,none": 0.0,
+        "exact_match_stderr": 0.0,
+        "exact_match_stderr,none": 0.0
+      },
+      "total_samples": 125,
+      "files": [
+        {
+          "filename": "20251030_182035_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_182035_results.json"
+        },
+        {
+          "filename": "20251030_182035_samples_polymath_en_low.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_182035_samples_polymath_en_low.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "polymath_en_low",
+      "metrics": {
+        "exact_match": 0.0,
+        "exact_match,none": 0.0,
+        "exact_match_stderr": 0.0,
+        "exact_match_stderr,none": 0.0
+      },
+      "total_samples": 125,
+      "files": [
+        {
+          "filename": "20251030_183243_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_183243_results.json"
+        },
+        {
+          "filename": "20251030_183243_samples_polymath_en_low.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_183243_samples_polymath_en_low.jsonl"
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "benchmark_id": "polymath_en_low",
+      "metrics": {
+        "exact_match": 0.984,
+        "exact_match,none": 0.984,
+        "exact_match_stderr": 0.011267996358513964,
+        "exact_match_stderr,none": 0.011267996358513964
+      },
+      "total_samples": 125,
+      "files": [
+        {
+          "filename": "20251030_183840_results.json",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_183840_results.json"
+        },
+        {
+          "filename": "20251030_183840_samples_polymath_en_low.jsonl",
+          "absolute_path": "C:\\Users\\Kata\\Desktop\\work\\intern\\gui-test-suite\\results\\Qwen_Qwen3-Omni-30B-A3B-Instruct\\Qwen__Qwen3-Omni-30B-A3B-Instruct\\20251030_183840_samples_polymath_en_low.jsonl"
+        }
+      ],
+      "submissions": []
+    }
+  ],
+  "summary": {
+    "wer": 5.553580714832836,
+    "wer,none": 5.553580714832836,
+    "lvbench_score": 0.3066494512588767,
+    "lvbench_score,none": 0.3066494512588767,
+    "lvbench_score_stderr": 0.01171958004351353,
+    "lvbench_score_stderr,none": 0.01171958004351353,
+    "mmmu_acc": 0.57778,
+    "mmmu_acc,none": 0.57778,
+    "accuracy": 70.82833905109759,
+    "accuracy,none": 70.82833905109759,
+    "llm_as_judge_eval": 0.0,
+    "llm_as_judge_eval,none": 0.0,
+    "llm_as_judge_eval_stderr": 0.0,
+    "llm_as_judge_eval_stderr,none": 0.0,
+    "failure rate": 0.0,
+    "failure rate,none": 0.0,
+    "pedant_score": 0.0,
+    "pedant_score,none": 0.0,
+    "pedant_score_stderr": 0.0,
+    "pedant_score_stderr,none": 0.0,
+    "gpt4_score": 0.0,
+    "gpt4_score,none": 0.0,
+    "gpt4_score_stderr": 0.0,
+    "gpt4_score_stderr,none": 0.0,
+    "exact_match": 0.4210932539682539,
+    "exact_match,none": 0.39013333333333333,
+    "exact_match_stderr": 0.034546181329871375,
+    "exact_match_stderr,none": 0.03678038252093439,
+    "extracted_answers": 999.0,
+    "extracted_answers,none": 999.0,
+    "exact_match,strict-match": 0.0,
+    "exact_match_stderr,strict-match": 0.0,
+    "exact_match,flexible-extract": 0.5758928571428571,
+    "exact_match_stderr,flexible-extract": 0.023375175374556304,
+    "prompt_level_strict_acc": 0.844731977818854,
+    "prompt_level_strict_acc,none": 0.844731977818854,
+    "prompt_level_strict_acc_stderr": 0.015584884858538131,
+    "prompt_level_strict_acc_stderr,none": 0.015584884858538131,
+    "inst_level_strict_acc": 0.894484412470024,
+    "inst_level_strict_acc,none": 0.894484412470024,
+    "prompt_level_loose_acc": 0.8650646950092421,
+    "prompt_level_loose_acc,none": 0.8650646950092421,
+    "prompt_level_loose_acc_stderr": 0.01470246694201781,
+    "prompt_level_loose_acc_stderr,none": 0.01470246694201781,
+    "inst_level_loose_acc": 0.907673860911271,
+    "inst_level_loose_acc,none": 0.907673860911271,
+    "acc": 0.7115625000000001,
+    "acc,none": 0.7115625000000001,
+    "acc_stderr": 0.038172395387354285,
+    "acc_stderr,none": 0.038172395387354285
+  }
+}

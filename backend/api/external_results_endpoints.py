@@ -3,7 +3,7 @@ API endpoints for external results management.
 """
 
 from fastapi import APIRouter, HTTPException, Query
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, StreamingResponse
 from typing import Optional, List
 from urllib.parse import unquote
 import structlog
@@ -542,7 +542,62 @@ async def get_external_media(p: str = Query(..., description="File path or relat
             raise HTTPException(status_code=404, detail="Media file not found")
 
         media_type, _ = mimetypes.guess_type(str(chosen))
-        return FileResponse(path=str(chosen), media_type=media_type or 'application/octet-stream')
+
+        # Last-Modified / ETag for caching
+        st = chosen.stat()
+        last_modified = st.st_mtime
+        etag = f'W/"{st.st_ino}-{st.st_size}-{int(st.st_mtime)}"'
+
+        # Handle Range header for seeking
+        from fastapi import Request
+        from starlette.concurrency import iterate_in_threadpool
+        async def range_response(request: Request):
+            range_header = request.headers.get("range")
+            headers = {
+                "Accept-Ranges": "bytes",
+                "ETag": etag,
+                "Last-Modified": str(last_modified),
+                "Cache-Control": "public, max-age=3600"
+            }
+            file_size = st.st_size
+            if not range_header:
+                return StreamingResponse(open(chosen, "rb"), media_type=media_type or "application/octet-stream", headers=headers)
+            try:
+                units, _, rng = range_header.partition("=")
+                if units != "bytes":
+                    raise ValueError("Only bytes supported")
+                start_str, _, end_str = rng.partition("-")
+                start = int(start_str) if start_str else 0
+                end = int(end_str) if end_str else file_size - 1
+                start = max(0, start)
+                end = min(file_size - 1, end)
+                length = end - start + 1
+                headers.update({
+                    "Content-Range": f"bytes {start}-{end}/{file_size}",
+                    "Content-Length": str(length),
+                })
+                status_code = 206
+                def file_iterator(path: Path, start: int, end: int, chunk_size: int = 1024 * 64):
+                    with open(path, "rb") as f:
+                        f.seek(start)
+                        remaining = end - start + 1
+                        while remaining > 0:
+                            chunk = f.read(min(chunk_size, remaining))
+                            if not chunk:
+                                break
+                            remaining -= len(chunk)
+                            yield chunk
+                return StreamingResponse(file_iterator(chosen, start, end), status_code=status_code, media_type=media_type or "application/octet-stream", headers=headers)
+            except Exception:
+                # Fallback to whole file
+                return StreamingResponse(open(chosen, "rb"), media_type=media_type or "application/octet-stream", headers=headers)
+
+        from fastapi import Request
+        async def endpoint(request: Request):
+            return await range_response(request)
+
+        # Starlette requires the function reference; return a callable endpoint
+        return await endpoint  # type: ignore
     except HTTPException:
         raise
     except Exception as e:

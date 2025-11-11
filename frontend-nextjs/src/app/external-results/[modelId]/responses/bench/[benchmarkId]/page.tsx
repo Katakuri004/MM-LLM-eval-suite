@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { ShimmerLoader } from '@/components/ui/shimmer-loader'
-import { apiClient } from '@/lib/api'
+import { apiClient, encodeExternalModelIdSegment } from '@/lib/api'
 import { ResponseCard } from '@/components/external-results/ResponseCard'
 
 export default function BenchmarkAllSamplesPage() {
@@ -56,20 +56,38 @@ export default function BenchmarkAllSamplesPage() {
 	}, [modelId, benchmarkId, limit, offset, hasMore, loading])
 
 	React.useEffect(() => {
+		if (!modelId || !benchmarkId) return
 		setItems([]); setOffset(0); setHasMore(true); setError(null);
 	}, [modelId, benchmarkId])
-	React.useEffect(() => { if (!loading && items.length === 0) load() }, [items.length, load, loading])
+	React.useEffect(() => { if (!loading && items.length === 0 && benchmarkId) load() }, [items.length, load, loading, benchmarkId])
 
 	if (!modelId || !benchmarkId) return <ShimmerLoader />
+
+	const modelPath = encodeExternalModelIdSegment(modelId)
+	const displayModel = multiDecodeString(modelId)
+
+	function multiDecodeString(value: string): string {
+		let s = value
+	for (let i = 0; i < 10; i++) {
+			try {
+				const d = decodeURIComponent(s)
+				if (d === s) break
+				s = d
+			} catch {
+				break
+			}
+		}
+		return s
+	}
 
 	return (
 		<div className="space-y-6">
 			<div className="flex items-center justify-between">
 				<div>
 					<h1 className="text-3xl font-bold tracking-tight">Samples for {benchmarkId}</h1>
-					<p className="text-muted-foreground">Model: {decodeURIComponent(String(modelId))}</p>
+					<p className="text-muted-foreground">Model: {displayModel}</p>
 				</div>
-				<Link href={`/external-results/${encodeURIComponent(modelId)}/responses`}>
+				<Link href={`/external-results/${modelPath}/responses`}>
 					<Button variant="outline" size="sm">Back</Button>
 				</Link>
 			</div>

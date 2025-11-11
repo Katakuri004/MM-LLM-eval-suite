@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { useQuery } from '@tanstack/react-query'
-import { apiClient } from '@/lib/api'
+import { apiClient, encodeExternalModelIdSegment, encodeGenericSegment } from '@/lib/api'
 import { MediaPreview } from '@/components/media/MediaPreview'
 
 type Props = {
@@ -25,6 +25,9 @@ export function BenchmarkPreviewCard({ modelId, benchmarkId }: Props) {
 		queryFn: () => apiClient.getBenchmarkStats(modelId, benchmarkId),
 		staleTime: 60_000,
 	})
+
+	const modelPath = encodeExternalModelIdSegment(modelId)
+	const benchPath = encodeGenericSegment(benchmarkId)
 
 	return (
 		<Card>
@@ -54,7 +57,7 @@ export function BenchmarkPreviewCard({ modelId, benchmarkId }: Props) {
 					)}
 				</div>
 				<div className="flex justify-end mt-3">
-					<Link href={`/external-results/${encodeURIComponent(modelId)}/responses/bench/${encodeURIComponent(benchmarkId)}`}>
+					<Link href={`/external-results/${modelPath}/responses/bench/${benchPath}`}>
 						<Button variant="outline" size="sm">View more</Button>
 					</Link>
 				</div>

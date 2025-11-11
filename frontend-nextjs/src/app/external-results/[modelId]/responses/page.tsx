@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button'
 import { Download, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import { ShimmerLoader } from '@/components/ui/shimmer-loader'
-import { apiClient } from '@/lib/api'
+import { apiClient, encodeExternalModelIdSegment } from '@/lib/api'
 import { ResponseFilters } from '@/components/external-results/ResponseFilters'
 import { BenchmarkPreviewCard } from '@/components/external-results/BenchmarkPreviewCard'
 
@@ -61,7 +61,6 @@ export default function ExternalModelResponsesPage() {
     return []
   }, [summary?.modality_counts])
 
-  // Determine which benchmarks to render sections for
   const sectionBenchmarks = React.useMemo(() => {
     // Use authoritative list from detail to ensure ALL tasks render
     const fromDetail = (detail?.benchmarks || []).map((b: any) => b?.benchmark_id).filter(Boolean)
@@ -101,7 +100,7 @@ export default function ExternalModelResponsesPage() {
           </p>
         </div>
         <div className="flex items-center gap-2">
-          <Link href={`/external-results/${encodeURIComponent(modelId)}`}>
+          <Link href={`/external-results/${encodeExternalModelIdSegment(modelId)}`}>
             <Button variant="outline" size="sm">
               <ArrowLeft className="h-4 w-4 mr-2" />
               Back

@@ -5,6 +5,37 @@
 
 export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1';
 
+function multiDecode(value: string, attempts = 10): string {
+  let s = value
+  for (let i = 0; i < attempts; i++) {
+    try {
+      const d = decodeURIComponent(s)
+      if (d === s) break
+      s = d
+    } catch {
+      break
+    }
+  }
+  return s
+}
+
+export function encodeExternalModelIdSegment(id: string): string {
+  let s = multiDecode(id)
+  while (s.startsWith('external:external:')) {
+    s = s.slice('external:'.length)
+  }
+  if (!s.startsWith('external:')) {
+    s = `external:${s}`
+  }
+  return encodeURIComponent(s)
+}
+
+export function encodeGenericSegment(value: string): string {
+  let s = multiDecode(value)
+  s = s.split('http')[0].split('?')[0].split('#')[0]
+  return encodeURIComponent(s)
+}
+
 export class ApiError extends Error {
   status: number;
   details?: any;
@@ -25,28 +56,6 @@ export class ApiClient {
   }
 
   // Normalize potentially double-encoded external IDs from the router
-  private normalizeExternalId(id: string): string {
-    let s = id
-    // decode repeatedly until stable (max 10 times to survive extreme double-encodes)
-    for (let i = 0; i < 10; i++) {
-      try {
-        const d = decodeURIComponent(s)
-        if (d === s) break
-        s = d
-      } catch {
-        break
-      }
-    }
-    // remove duplicate external: prefixes
-    while (s.startsWith('external:external:')) {
-      s = s.slice('external:'.length)
-    }
-    if (!s.startsWith('external:')) {
-      s = `external:${s}`
-    }
-    return encodeURIComponent(s)
-  }
-
   private async request<T>(
     endpoint: string,
     options: RequestInit = {}
@@ -306,17 +315,17 @@ export class ApiClient {
   }
 
   async getExternalModel(id: string) {
-    const encoded = this.normalizeExternalId(id)
+    const encoded = encodeExternalModelIdSegment(id)
     return this.request<any>(`/external-results/${encoded}`);
   }
 
   async getExternalModelResults(id: string) {
-    const encoded = this.normalizeExternalId(id)
+    const encoded = encodeExternalModelIdSegment(id)
     return this.request<{ model: any; results: any[]; total_results: number }>(`/external-results/${encoded}/results`);
   }
 
   async getExternalModelSamples(id: string, benchmarkId?: string, limit = 100, offset = 0, opts?: { modality?: string; correctness?: 'correct' | 'incorrect'; search?: string }) {
-    const encoded = this.normalizeExternalId(id)
+    const encoded = encodeExternalModelIdSegment(id)
     const params = new URLSearchParams({ limit: limit.toString(), offset: offset.toString() })
     if (benchmarkId) params.append('benchmark_id', benchmarkId)
     if (opts?.modality) params.append('modality', opts.modality)
@@ -326,26 +335,26 @@ export class ApiClient {
   }
 
   async getExternalModelSampleDetail(id: string, sampleKey: string) {
-    const encoded = this.normalizeExternalId(id)
+    const encoded = encodeExternalModelIdSegment(id)
     const sample = encodeURIComponent(sampleKey)
     return this.request<{ model_id: string; benchmark_id?: string; sample: any }>(`/external-results/${encoded}/samples/${sample}`);
   }
 
   async getExternalModelSamplesSummary(id: string) {
-    const encoded = this.normalizeExternalId(id)
+    const encoded = encodeExternalModelIdSegment(id)
     return this.request<{ model_id: string; benchmarks: string[]; total: number; modality_counts: Record<string, number> }>(`/external-results/${encoded}/samples/summary`);
   }
 
   async getBenchmarkPreview(id: string, benchmarkId: string, limit = 2) {
-    const encoded = this.normalizeExternalId(id)
-    const bench = encodeURIComponent(benchmarkId)
+    const encoded = encodeExternalModelIdSegment(id)
+    const bench = encodeGenericSegment(benchmarkId)
     const params = new URLSearchParams({ limit: String(limit) })
     return this.request<{ model_id: string; benchmark_id: string; samples: any[]; limit: number }>(`/external-results/${encoded}/benchmarks/${bench}/preview?${params}`)
   }
 
   async getBenchmarkStats(id: string, benchmarkId: string) {
-    const encoded = this.normalizeExternalId(id)
-    const bench = encodeURIComponent(benchmarkId)
+    const encoded = encodeExternalModelIdSegment(id)
+    const bench = encodeGenericSegment(benchmarkId)
     return this.request<{ model_id: string; benchmark_id: string; total_samples: number; metrics: any; modality_counts: Record<string, number> }>(`/external-results/${encoded}/benchmarks/${bench}/stats`)
   }
 

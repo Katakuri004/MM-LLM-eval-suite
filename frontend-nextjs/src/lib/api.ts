@@ -345,17 +345,17 @@ export class ApiClient {
     return this.request<{ model_id: string; benchmarks: string[]; total: number; modality_counts: Record<string, number> }>(`/external-results/${encoded}/samples/summary`);
   }
 
-  async getBenchmarkPreview(id: string, benchmarkId: string, limit = 2) {
+  async getBenchmarkPreview(id: string, benchmarkId: string, limit = 2, signal?: AbortSignal) {
     const encoded = encodeExternalModelIdSegment(id)
     const bench = encodeGenericSegment(benchmarkId)
     const params = new URLSearchParams({ limit: String(limit) })
-    return this.request<{ model_id: string; benchmark_id: string; samples: any[]; limit: number }>(`/external-results/${encoded}/benchmarks/${bench}/preview?${params}`)
+    return this.request<{ model_id: string; benchmark_id: string; samples: any[]; limit: number }>(`/external-results/${encoded}/benchmarks/${bench}/preview?${params}`, { signal })
   }
 
-  async getBenchmarkStats(id: string, benchmarkId: string) {
+  async getBenchmarkStats(id: string, benchmarkId: string, signal?: AbortSignal) {
     const encoded = encodeExternalModelIdSegment(id)
     const bench = encodeGenericSegment(benchmarkId)
-    return this.request<{ model_id: string; benchmark_id: string; total_samples: number; metrics: any; modality_counts: Record<string, number> }>(`/external-results/${encoded}/benchmarks/${bench}/stats`)
+    return this.request<{ model_id: string; benchmark_id: string; total_samples: number; metrics: any; modality_counts: Record<string, number> }>(`/external-results/${encoded}/benchmarks/${bench}/stats`, { signal })
   }
 
   async cancelEvaluation(id: string) {

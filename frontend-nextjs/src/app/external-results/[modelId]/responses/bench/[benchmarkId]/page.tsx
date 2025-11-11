@@ -101,22 +101,49 @@ export default function BenchmarkAllSamplesPage() {
 						<div className="mb-3 text-sm text-red-600 dark:text-red-400">{error}</div>
 					)}
 					<div className="space-y-4">
-						{items.map((s, i) => (
-							<ResponseCard
-								key={s.sample_key || i}
-								benchmark_id={benchmarkId}
-								modality={s.modality || 'text'}
-								input={s.input || s.question || s.prompt || ''}
-								prediction={s.output || s.prediction || s.answer || s.response || ''}
-								label={s.label || s.target || s.reference || s.ground_truth || ''}
-								is_correct={typeof s.is_correct === 'boolean' ? s.is_correct : (s.per_sample_metrics?.correct ?? false)}
-								score={typeof s.score === 'number' ? s.score : undefined}
-								error_type={s.error_type || null}
-								sample_key={s.sample_key}
-								asset_refs={s.asset_refs}
-								model_id_encoded={String(modelId)}
-							/>
-						))}
+						{items.map((s, i) => {
+							// Derive asset refs robustly for audio/image/video
+							const ar = s.asset_refs || {}
+							const audioFromCommon =
+								ar.audio_path ||
+								s.audio_path ||
+								(s.audio && (s.audio.path || s.audio.filepath || s.audio.url)) ||
+								(s.input_fields && (s.input_fields.audio_path || s.input_fields.audio || s.input_fields.audio_url))
+							const imageFromCommon =
+								ar.image_path ||
+								s.image_path ||
+								(s.image && (s.image.path || s.image.filepath || s.image.url)) ||
+								(s.input_fields && (s.input_fields.image_path || s.input_fields.image || s.input_fields.image_url))
+							const videoFromCommon =
+								ar.video_path ||
+								s.video_path ||
+								(s.video && (s.video.path || s.video.filepath || s.video.url)) ||
+								(s.input_fields && (s.input_fields.video_path || s.input_fields.video || s.input_fields.video_url))
+
+							const derivedAssetRefs = {
+								...(ar || {}),
+								...(audioFromCommon ? { audio_path: audioFromCommon } : {}),
+								...(imageFromCommon ? { image_path: imageFromCommon } : {}),
+								...(videoFromCommon ? { video_path: videoFromCommon } : {}),
+							}
+
+							return (
+								<ResponseCard
+									key={s.sample_key || i}
+									benchmark_id={benchmarkId}
+									modality={s.modality || (derivedAssetRefs.audio_path ? 'audio' : derivedAssetRefs.image_path ? 'image' : derivedAssetRefs.video_path ? 'video' : 'text')}
+									input={s.input || s.question || s.prompt || ''}
+									prediction={s.output || s.prediction || s.answer || s.response || ''}
+									label={s.label || s.target || s.reference || s.ground_truth || ''}
+									is_correct={typeof s.is_correct === 'boolean' ? s.is_correct : (s.per_sample_metrics?.correct ?? false)}
+									score={typeof s.score === 'number' ? s.score : undefined}
+									error_type={s.error_type || null}
+									sample_key={s.sample_key}
+									asset_refs={derivedAssetRefs}
+									model_id_encoded={String(modelId)}
+								/>
+							)
+						})}
 						{hasMore && (
 							<div className="flex justify-center">
 								<Button variant="outline" size="sm" disabled={loading} onClick={load}>

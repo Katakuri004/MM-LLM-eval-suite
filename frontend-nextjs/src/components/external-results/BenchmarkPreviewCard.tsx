@@ -8,6 +8,7 @@ import Link from 'next/link'
 import { useQuery } from '@tanstack/react-query'
 import { apiClient, encodeExternalModelIdSegment, encodeGenericSegment } from '@/lib/api'
 import { MediaPreview } from '@/components/media/MediaPreview'
+import { useInView } from '@/components/media/useInView'
 
 type Props = {
 	modelId: string
@@ -15,22 +16,25 @@ type Props = {
 }
 
 export function BenchmarkPreviewCard({ modelId, benchmarkId }: Props) {
+	const { ref, inView } = useInView<HTMLDivElement>()
 	const { data: preview, isLoading } = useQuery({
 		queryKey: ['benchmark-preview', modelId, benchmarkId],
-		queryFn: () => apiClient.getBenchmarkPreview(modelId, benchmarkId, 2),
+		queryFn: ({ signal }) => apiClient.getBenchmarkPreview(modelId, benchmarkId, 2, signal),
 		staleTime: 60_000,
+		enabled: inView,
 	})
 	const { data: stats } = useQuery({
 		queryKey: ['benchmark-stats', modelId, benchmarkId],
-		queryFn: () => apiClient.getBenchmarkStats(modelId, benchmarkId),
+		queryFn: ({ signal }) => apiClient.getBenchmarkStats(modelId, benchmarkId, signal),
 		staleTime: 60_000,
+		enabled: inView,
 	})
 
 	const modelPath = encodeExternalModelIdSegment(modelId)
 	const benchPath = encodeGenericSegment(benchmarkId)
 
 	return (
-		<Card>
+		<Card ref={ref as any}>
 			<CardHeader className="pb-3">
 				<div className="flex items-center justify-between">
 					<CardTitle className="truncate">{ benchmarkId }</CardTitle>

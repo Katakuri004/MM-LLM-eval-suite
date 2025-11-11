@@ -9,6 +9,7 @@ import { Download, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import { ShimmerLoader } from '@/components/ui/shimmer-loader'
 import { apiClient, encodeExternalModelIdSegment } from '@/lib/api'
+import { usePaginatedList } from '@/hooks/usePaginatedList'
 import { ResponseFilters } from '@/components/external-results/ResponseFilters'
 import { BenchmarkPreviewCard } from '@/components/external-results/BenchmarkPreviewCard'
 
@@ -69,6 +70,19 @@ export default function ExternalModelResponsesPage() {
     return summary?.benchmarks || []
   }, [selectedBenchmarks, detail?.benchmarks, summary?.benchmarks])
 
+  // Filter + paginate (hooks at top level)
+  const filteredBenchmarks = React.useMemo(
+    () => sectionBenchmarks.filter((bid) => !globalSearch || bid.toLowerCase().includes(globalSearch.toLowerCase())),
+    [sectionBenchmarks, globalSearch]
+  )
+  const {
+    page: pageIdx,
+    setPage: setPageIdx,
+    totalPages,
+    current: currentBenchmarks,
+    total: totalCount,
+  } = usePaginatedList(filteredBenchmarks, 10, [globalSearch, sectionBenchmarks.length])
+
   // Simple stats unavailable without unified dataset; hide cards
 
   // No unified list pagination/export; sections handle paging
@@ -120,14 +134,25 @@ export default function ExternalModelResponsesPage() {
         />
       </div>
 
-      {/* Overview grid of task cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-        {sectionBenchmarks
-          .filter((bid) => !globalSearch || bid.toLowerCase().includes(globalSearch.toLowerCase()))
-          .map((bid) => (
-            <BenchmarkPreviewCard key={bid} modelId={String(modelId)} benchmarkId={bid} />
-          ))}
+  {/* Overview grid of task cards with pagination */}
+  <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+    {currentBenchmarks.map((bid) => (
+      <BenchmarkPreviewCard key={bid} modelId={String(modelId)} benchmarkId={bid} />
+    ))}
+  </div>
+  {totalPages > 1 && (
+    <div className="flex items-center justify-between mt-6">
+      <div className="text-sm text-muted-foreground">
+        Page {pageIdx} of {totalPages} • {totalCount} tasks
       </div>
+      <div className="flex items-center gap-2">
+        <Button variant="outline" size="sm" disabled={pageIdx === 1} onClick={() => setPageIdx(1)}>First</Button>
+        <Button variant="outline" size="sm" disabled={pageIdx === 1} onClick={() => setPageIdx((p: number) => Math.max(1, p - 1))}>Prev</Button>
+        <Button variant="outline" size="sm" disabled={pageIdx === totalPages} onClick={() => setPageIdx((p: number) => Math.min(totalPages, p + 1))}>Next</Button>
+        <Button variant="outline" size="sm" disabled={pageIdx === totalPages} onClick={() => setPageIdx(totalPages)}>Last</Button>
+      </div>
+    </div>
+  )}
     </div>
   )
 }

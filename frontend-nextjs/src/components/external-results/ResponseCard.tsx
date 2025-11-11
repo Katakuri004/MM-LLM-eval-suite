@@ -142,6 +142,21 @@ export function ResponseCard({
       </CardHeader>
 
       <CardContent className="space-y-4">
+        {/* Media Section */}
+        {asset_refs && (asset_refs.audio_path || asset_refs.image_path || asset_refs.video_path) && (
+          <div className="space-y-2">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <FileText className="h-4 w-4 text-muted-foreground" />
+                <Label className="text-sm font-semibold">Sample Media</Label>
+              </div>
+            </div>
+            <div className="rounded-md p-3 border bg-muted/30">
+              <MediaPreview modality={modality as any} asset_refs={asset_refs} className="w-full h-40 rounded-md" />
+            </div>
+          </div>
+        )}
+
         {/* Prompt Section */}
         <div className="space-y-2">
           <div className="flex items-center justify-between">
